@@ -40,7 +40,8 @@ def en_to_file(shuru_file,type=0):
         newskilline={}
         #newskilline['id']=i['id']
         newskilline['name']=i['name']
-        newskilline['tags']=i['tags']
+        if 'tags' in i:
+            newskilline['tags']=i['tags']
         if 'specialization' in i:
             newskilline['specialization']=i['specialization']
         if 'defaults' in i:
