@@ -29,16 +29,18 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          find . 
-          #git clone https://github.com/richardwilkes/gcs_master_library.git
-          #find ./gcs_master_library/Library|grep -i ".skl" >> skl.list
-          #while read line
-          #do
-          #python3 trans_to_json.py "$line"
-          #done <skl.list
-          
+          git clone https://github.com/richardwilkes/gcs_master_library.git
+          find ./gcs_master_library/Library|grep -i ".skl" >> skl.list
+          while read line
+          do
+          python3 ./.github/workflows/trans_to_json.py "$line"
+          done <skl.list
+          find .
+
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
           ls 
+
+        
