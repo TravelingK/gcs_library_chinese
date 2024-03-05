@@ -33,6 +33,7 @@ jobs:
           find ./gcs_master_library/Library|grep -i ".skl" >> skl.list
           while read line
           do
+          echo $line
           python3 ./.github/workflows/trans_to_json.py "$line"
           done <skl.list
           find .
