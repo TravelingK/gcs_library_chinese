@@ -30,7 +30,7 @@ jobs:
       - name: Run a one-line script
         run: |
           git clone https://github.com/richardwilkes/gcs_master_library.git
-          find ./gcs_master_library/Library｜grep -i ".skl" >> skl.list
+          find ./gcs_master_library/Library|grep -i ".skl" >> skl.list
           for i in `cat skl.list`;do echo $i;done
 
       # Runs a set of commands using the runners shell
