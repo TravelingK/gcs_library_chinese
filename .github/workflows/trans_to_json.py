@@ -29,7 +29,7 @@ def outjson(nnskillline,docname):
 
 
 def en_to_file(shuru_file,type=0):
-    mubiao_file=re.sub(".[a-z]{0,}$",".json",shuru_file)
+    mubiao_file=re.sub(".[a-z]{0,}$","_en.json",shuru_file)
     mubiao_file=re.sub("gcs_master_library","gcs_master_library_en_json",mubiao_file)
     skilljson=getdict(shuru_file)
     newskill=[]
