@@ -36,8 +36,6 @@ def zh_to_file(shuru_file,type=0):
     mubiao_file=re.sub("gcs_master_library","gcs_chinese_library",mobanwenjian)
     skilljson=getdict(shuru_file)
     mobanjson=getdict(mobanwenjian)
-    print(mobanjson)
-    print(skilljson)
     for i in skilljson:
         for ii in mobanjson['rows']:
             if (ii['id']==i):
