@@ -22,6 +22,7 @@ jobs:
           echo $line
           python3 ./.github/workflows/trans_to_chinese.py "$line"
           done <skl.list
+          find .
       - name: Add & Commit
         uses: EndBug/add-and-commit@v9.1.4
         with:
