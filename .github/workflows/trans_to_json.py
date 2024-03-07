@@ -33,7 +33,6 @@ def en_to_file(shuru_file,type=0):
     mubiao_file=re.sub("gcs_master_library","gcs_master_library_en_json",mubiao_file)
     skilljson=getdict(shuru_file)
     newskill=[]
-    #print(skilljson)
     nnewskill={}
     for i in skilljson['rows']:
         
@@ -44,6 +43,8 @@ def en_to_file(shuru_file,type=0):
             newskilline['tags']=i['tags']
         if 'specialization' in i:
             newskilline['specialization']=i['specialization']
+        if 'notes' in i:
+            newskilline['notes']=i['notes']
         if 'defaults' in i:
             defaultline=[]
             for ii in i['defaults']:
@@ -55,7 +56,6 @@ def en_to_file(shuru_file,type=0):
                     nnewskilline['specialization']=ii['specialization']
                 defaultline.append(nnewskilline)
             newskilline['defaults']=defaultline
-        #print(newskilline)
         nnewskill[i['id']]=newskilline
     
     outjson(nnewskill,mubiao_file)
