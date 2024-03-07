@@ -16,6 +16,14 @@ jobs:
       - name: trantojson
         run: |
           git clone https://github.com/richardwilkes/gcs_master_library.git
-          find . 
+          find . |grep  "Skills_zh_Hans.json" >>skl.list
+          while read line
+          do
+          python3 ./.github/workflows/trans_to_json.py "$line"
+          done <skl.list
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v9.1.4
+        with:
+          add: "gcs_library_chinese"
 
 
