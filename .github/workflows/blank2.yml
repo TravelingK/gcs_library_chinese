@@ -16,9 +16,10 @@ jobs:
       - name: trantojson
         run: |
           git clone https://github.com/richardwilkes/gcs_master_library.git
-          find . |grep  "Skills_zh_Hans.json" >>skl.list
+          find . |grep  "Skills_zh_Hans.json" >> skl.list
           while read line
           do
+          echo $line
           python3 ./.github/workflows/trans_to_json.py "$line"
           done <skl.list
       - name: Add & Commit
