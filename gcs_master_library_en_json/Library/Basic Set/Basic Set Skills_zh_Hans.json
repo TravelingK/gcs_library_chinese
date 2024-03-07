@@ -467,7 +467,8 @@
             "常识",
             "知识"
         ],
-        "specialization": "@村庄或城镇@；居住地"
+        "specialization": "@村庄或城镇@；居住地",
+        "notes": "所有重要和大部分不重要的居民和商行；所有公共建筑和大多数房屋"
     },
     "47c7fba4-7b7f-44ab-84c9-ae2efc9645e1": {
         "defaults": [
@@ -476,13 +477,17 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "战斗服"
             }
         ],
         "name": "军械修造",
         "tags": [
-            "维护"
-        ]
+            "维护",
+            "军事",
+            "修理"
+        ],
+        "specialization": "@装甲类型@"
     },
     "4ae61866-c3b3-4c48-bb72-513962af9fbe": {
         "defaults": [
@@ -491,9 +496,17 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "战斗服"
             }
-        ]
+        ],
+        "name": "军械修造",
+        "tags": [
+            "维护",
+            "军事",
+            "修理"
+        ],
+        "specialization": "战斗服"
     },
     "4f4e3036-ad92-4326-ab4d-599df3f61890": {
         "defaults": [
@@ -502,8 +515,16 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "身体装甲"
             }
+        ],
+        "specialization": "身体装甲",
+        "name": "军械修造",
+        "tags": [
+            "维护",
+            "军事",
+            "修理"
         ]
     },
     "61208b6b-0109-46a5-9d94-4b43b33b6624": {
@@ -513,8 +534,16 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "力场护盾"
             }
+        ],
+        "specialization": "力场护盾",
+        "name": "军械修造",
+        "tags": [
+            "维护",
+            "军事",
+            "修理"
         ]
     },
     "e21fb9d5-fa53-4a60-ae63-956c2937fc73": {
@@ -524,8 +553,16 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "重兵器"
             }
+        ],
+        "specialization": "重兵器",
+        "name": "军械修造",
+        "tags": [
+            "维护",
+            "军事",
+            "修理"
         ]
     },
     "10475c8f-032d-43eb-b11f-0ccc53a4b8d5": {
@@ -535,8 +572,16 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "近战武器"
             }
+        ],
+        "specialization": "近战武器",
+        "name": "军械修造",
+        "tags": [
+            "维护",
+            "军事",
+            "修理"
         ]
     },
     "c0fae054-9a3c-4735-8111-005e163c0c4c": {
@@ -546,9 +591,17 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "射击武器"
             }
-        ]
+        ],
+        "tags": [
+            "维护",
+            "军事",
+            "修理"
+        ],
+        "specialization": "射击武器",
+        "name": "军械修造"
     },
     "fcb5f377-c561-4926-9f5e-7ee703831512": {
         "defaults": [
@@ -557,8 +610,16 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "轻兵器"
             }
+        ],
+        "specialization": "轻兵器",
+        "name": "军械修造",
+        "tags": [
+            "维护",
+            "军事",
+            "修理"
         ]
     },
     "8115d1f0-a8d3-4aaf-8522-190e0b53aeb4": {
@@ -568,8 +629,16 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "载具装甲"
             }
+        ],
+        "specialization": "载具装甲",
+        "name": "军械修造",
+        "tags": [
+            "维护",
+            "军事",
+            "修理"
         ]
     },
     "266c757e-951b-431e-8f99-da76dc9bf276": {
@@ -577,20 +646,41 @@
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ],
+        "specialization": "炸弹",
+        "name": "火炮"
     },
     "f1c9ec81-1fba-43ec-adc8-c5c9285f4393": {
         "defaults": [
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ],
+        "specialization": "加农炮",
+        "name": "火炮"
     },
     "81d85e66-2838-42a3-9734-fdfade764fc2": {
         "defaults": [
             {
                 "type": "iq"
             }
+        ],
+        "specialization": "弹射器",
+        "name": "火炮",
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "ceca9876-fa4d-4b4e-a97a-ac9be0182e47": {
@@ -599,21 +689,35 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家",
+                "specialization": "素描"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家",
+                "specialization": "纹饰"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家",
+                "specialization": "人体艺术"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             }
-        ]
+        ],
+        "name": "艺术家",
+        "tags": [
+            "艺术",
+            "娱乐"
+        ],
+        "specialization": "书法"
     },
     "7c3fc104-cb91-4d23-957f-e2d6d2c38ba0": {
         "defaults": [
@@ -621,21 +725,35 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家",
+                "specialization": "书法"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家",
+                "specialization": "纹饰"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "人体艺术",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             }
-        ]
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
+        ],
+        "name": "艺术家",
+        "specialization": "素描"
     },
     "b2245876-8ee8-4765-96ec-be81d07e4a81": {
         "defaults": [
@@ -643,21 +761,35 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家",
+                "specialization": "书法"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家",
+                "specialization": "素描"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家",
+                "specialization": "人体艺术"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             }
-        ]
+        ],
+        "name": "艺术家",
+        "tags": [
+            "艺术",
+            "娱乐"
+        ],
+        "specialization": "Illumination"
     },
     "9d21e247-72c6-4a43-a31f-a1bc847d4cec": {
         "defaults": [
@@ -665,9 +797,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             }
-        ]
+        ],
+        "name": "艺术家",
+        "tags": [
+            "艺术",
+            "娱乐"
+        ],
+        "specialization": "幻术系"
     },
     "21e4f441-da8e-4d8d-ae34-ffea5047cc8e": {
         "defaults": [
@@ -679,14 +818,22 @@
                 "name": "建筑学"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             }
+        ],
+        "name": "艺术家",
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "a3fcd354-3d70-4135-bc09-1754a46f27b2": {
@@ -695,20 +842,34 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家",
+                "specialization": "书法"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家",
+                "specialization": "素描"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家",
+                "specialization": "Illumination"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家",
+                "specialization": "人体艺术"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             }
+        ],
+        "name": "艺术家",
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "13c5f52c-e980-4c69-a6f9-633fbc7a47a1": {
@@ -717,8 +878,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             }
+        ],
+        "name": "艺术家",
+        "tags": [
+            "艺术",
+            null,
+            "娱乐"
         ]
     },
     "0a9edc09-da33-48f7-931b-d404ba64f900": {
@@ -731,14 +899,22 @@
                 "name": "建筑学"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             }
+        ],
+        "name": "艺术家",
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "bfd4f41d-5b0e-451d-94a9-506ee2018772": {
@@ -747,9 +923,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             }
-        ]
+        ],
+        "tags": [
+            "艺术",
+            null,
+            "娱乐"
+        ],
+        "name": "艺术家"
     },
     "14bc906e-ef25-4677-b49a-690d06a5ed07": {
         "defaults": [
@@ -760,14 +943,23 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             }
+        ],
+        "name": "艺术家",
+        "tags": [
+            "艺术",
+            null,
+            "娱乐"
         ]
     },
     "5a06f798-27c1-4d77-a9f4-21bd5112aa80": {
@@ -791,6 +983,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "d27c6189-d081-475c-8167-fa9ef1562398": {
@@ -821,6 +1018,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "军事"
         ]
     },
     "9fbf051d-a457-42b0-8378-cec8aaa8bac1": {
@@ -834,6 +1034,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "9697ac72-82cd-4d75-bd83-440d001d44c0": {
@@ -847,6 +1052,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "ec7e46ea-445a-4554-85dc-137cb3ae5a3e": {
@@ -857,6 +1067,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "eeff227a-dead-4886-a429-593b4dda8dbe": {
@@ -870,6 +1085,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "2aa537ca-e37d-4326-a97f-6772a6c834a6": {
@@ -897,7 +1117,8 @@
         ],
         "specialization": "@分支@",
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "356d30ff-a3ae-4f5d-9dbd-250550b71cf0": {
@@ -910,7 +1131,8 @@
             }
         ],
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "fd19f2e0-c081-435c-9d22-dcbc1610ffc7": {
@@ -923,7 +1145,8 @@
             }
         ],
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "d7ffc62a-76a9-4ac7-9ac3-6cf419e2588e": {
@@ -936,7 +1159,8 @@
             }
         ],
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "9bb7f7ec-c528-41cf-afe1-2cfeff661fa9": {
@@ -949,7 +1173,8 @@
             }
         ],
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "e7ff4266-50b9-402a-9321-95010c8770c7": {
@@ -962,7 +1187,8 @@
             }
         ],
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "43c0587f-f9d7-49e6-9979-cbc99c16c2d8": {
@@ -975,7 +1201,8 @@
             }
         ],
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "492bde6a-c2a1-401e-8273-8ca866e88041": {
@@ -988,7 +1215,8 @@
             }
         ],
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "3a8e27c6-797e-4a8a-b94f-010d67622bcb": {
@@ -1001,7 +1229,8 @@
             }
         ],
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "eab457cc-6643-4c12-ac38-888806166121": {
@@ -1014,7 +1243,8 @@
             }
         ],
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "7fba485e-7e45-4a8b-939e-72f64ddcc516": {
@@ -1027,7 +1257,8 @@
             }
         ],
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "bcb969db-f829-482d-8470-61267336065a": {
@@ -1040,7 +1271,8 @@
             }
         ],
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "e13aed2c-b4e8-4b97-b848-72d9e68f033a": {
@@ -1053,7 +1285,8 @@
             }
         ],
         "tags": [
-            "自然科学"
+            "自然科学",
+            "植物"
         ]
     },
     "67754c72-72d5-42eb-82cc-3eddd94dfbd3": {
@@ -1074,6 +1307,11 @@
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "3c05e10d-861b-441e-8f00-cd1745a2b9cf": {
@@ -1227,13 +1465,15 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "Rapier"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "短剑 Shortsword"
             },
             {
                 "type": "skill"
@@ -1241,6 +1481,11 @@
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "357d52f9-003b-4128-91e4-9ddc2ac33610": {
@@ -1249,8 +1494,13 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             }
+        ],
+        "tags": [
+            null,
+            "军事"
         ]
     },
     "fa9f87d2-942d-43a5-bcd8-9df7ba2670ba": {
@@ -1323,8 +1573,14 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "护盾术 Shield"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "5113cd8a-47c4-41fd-9e4a-56cfff2fb7b8": {
@@ -1435,8 +1691,8 @@
     },
     "6652604d-e61f-4270-bb67-7f4ee428bde4": {
         "tags": [
-            null,
-            null,
+            "艺术",
+            "娱乐",
             "知识",
             "社会"
         ],
@@ -1448,8 +1704,8 @@
     },
     "ced27533-8a11-42d9-8915-2860557ffd0e": {
         "tags": [
-            null,
-            null,
+            "艺术",
+            "娱乐",
             "知识",
             "社会"
         ],
@@ -1468,23 +1724,24 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "乐器"
             },
             {
                 "type": "iq"
             }
         ],
         "tags": [
-            null,
-            null,
+            "艺术",
+            "娱乐",
             "知识",
             "社会"
         ]
     },
     "f2ca90cd-d558-4bfb-b2c4-9a86f73a353f": {
         "tags": [
-            null,
-            null,
+            "艺术",
+            "娱乐",
             "知识",
             "社会"
         ],
@@ -1496,8 +1753,8 @@
     },
     "94590b64-dfc1-4862-a1f5-7dc4be972276": {
         "tags": [
-            null,
-            null,
+            "艺术",
+            "娱乐",
             "知识",
             "社会"
         ],
@@ -1550,11 +1807,16 @@
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "549433ba-abc8-4529-9796-cb31b8f8f9ac": {
         "tags": [
-            null,
+            "军事",
             "间谍"
         ],
         "defaults": [
@@ -1566,7 +1828,7 @@
     },
     "9fe5d13a-ba8f-43a7-8d42-71919002a5b5": {
         "tags": [
-            null,
+            "军事",
             "间谍"
         ],
         "defaults": [
@@ -1616,8 +1878,8 @@
     },
     "d93def6e-ad60-419d-8f56-043aeb092479": {
         "tags": [
-            null,
-            null,
+            "艺术",
+            "娱乐",
             "常识",
             "知识",
             "社会"
@@ -1672,8 +1934,8 @@
     },
     "02574115-fdcb-4415-ab1d-5052779129f7": {
         "tags": [
-            null,
-            null,
+            "艺术",
+            "娱乐",
             "常识",
             "知识",
             "社会"
@@ -1767,6 +2029,10 @@
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "0e9bebf0-af68-455f-96ab-57b63e3d2a9c": {
@@ -1776,7 +2042,9 @@
             "间谍"
         ],
         "defaults": [
-            {},
+            {
+                "type": "每"
+            },
             {
                 "type": "skill"
             },
@@ -2020,6 +2288,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "a78d2990-3bc9-469a-be81-d326557d2b2d": {
@@ -2031,6 +2304,10 @@
                 "type": "skill",
                 "name": "工程学"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "460f5cf9-3361-4770-aef5-cf6b3957c286": {
@@ -2069,7 +2346,7 @@
     },
     "880014f3-adfa-4435-8c5d-d6e09611dc26": {
         "tags": [
-            null,
+            "军事",
             "间谍"
         ],
         "defaults": [
@@ -2094,7 +2371,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "力场护盾"
             },
             {
                 "type": "skill",
@@ -2103,7 +2381,8 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "specialization": "力场护盾"
     },
     "f59bf7e6-415a-4cfe-9d50-46539a46fa62": {
         "defaults": [
@@ -2137,6 +2416,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "65049799-8c96-4050-8bc3-ca874f70dbef": {
@@ -2315,6 +2598,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "b759c4bf-4c20-4389-aee0-db157ca5e530": {
@@ -2332,6 +2619,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "a1e5babf-8cd3-4e6d-9acb-566e5d26883b": {
@@ -2349,6 +2640,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "368291f9-0694-4145-a763-db3b235a305a": {
@@ -2366,6 +2661,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "军事",
+            "修理"
         ]
     },
     "471840d5-77e1-4eba-a77f-f40642edc715": {
@@ -2374,7 +2674,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "力场护盾"
             },
             {
                 "type": "skill",
@@ -2383,7 +2684,12 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "维护",
+            "修理"
+        ],
+        "specialization": "力场护盾"
     },
     "97c61d36-7ded-4e8c-b1fd-ae7be520dd1f": {
         "defaults": [
@@ -2400,6 +2706,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "e1c22385-1cc9-490b-8472-483d8b28eb33": {
@@ -2417,6 +2727,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "cd5004bf-8209-445b-a343-4b821acf2341": {
@@ -2434,6 +2748,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "15f1f64e-61bd-4a06-bd17-27c715c7761b": {
@@ -2451,6 +2769,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "f8b91960-40c4-4b97-a7ad-b830492c69b3": {
@@ -2468,6 +2790,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "22f09b01-98c8-4a09-a87e-5590029aae40": {
@@ -2485,6 +2811,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "fdbafb58-7c0e-40af-ade2-f4d3e4f491ba": {
@@ -2502,6 +2832,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "d43471e6-628d-488e-9991-508420e07446": {
@@ -2519,6 +2853,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "9e0de044-bd3b-47f9-9765-be3c5f48aa52": {
@@ -2536,6 +2874,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "f23adb43-5df3-4bd9-8798-4fb9093cc891": {
@@ -2553,6 +2895,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "e9b47254-d4f0-476f-99a4-efc78d6c10e3": {
@@ -2570,6 +2916,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "15586c92-7baf-4cae-ba34-496942976af4": {
@@ -2614,7 +2964,8 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "战斗"
             },
             {
                 "type": "skill",
@@ -2627,7 +2978,10 @@
                 "type": "skill"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "军事"
+        ]
     },
     "c1e00b90-9dea-407e-8647-b5984263909b": {
         "defaults": [
@@ -2636,7 +2990,8 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "战斗"
             },
             {
                 "type": "skill",
@@ -2648,6 +3003,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            null,
+            "军事"
         ]
     },
     "d7be5e6e-7471-431e-a74c-d318581b6957": {
@@ -2661,6 +3020,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "军事"
         ]
     },
     "c247e658-1c31-4a2d-8cc4-2671d62baf6c": {
@@ -2674,6 +3036,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "军事"
         ]
     },
     "3aeee1b6-2360-4680-9f1f-fec8e98f8aa0": {
@@ -2687,6 +3052,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "军事"
         ]
     },
     "759f2c78-9030-489f-9c07-4878a9dc1405": {
@@ -2700,6 +3068,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "军事"
         ]
     },
     "cd82e46d-9938-4592-ab15-96e7ca95afac": {
@@ -2728,6 +3099,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "植物"
         ]
     },
     "25d7bbd2-be98-480b-bc6e-5746565c9749": {
@@ -2759,7 +3133,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "巧手"
             }
         ]
     },
@@ -2793,6 +3168,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "53b97481-cbd3-420c-9dfc-fe366193047c": {
@@ -2806,7 +3186,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "短剑 Shortsword"
             },
             {
                 "type": "skill"
@@ -2820,6 +3201,11 @@
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "8ae2be91-0bb2-4b03-8ba2-190f315a84fe": {
@@ -2834,8 +3220,14 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "鞭击Whip"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "bd9aaa76-c273-49f3-9cee-3a9714f4388a": {
@@ -2971,8 +3363,12 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "火炮"
             }
+        ],
+        "tags": [
+            "军事"
         ]
     },
     "21b938c9-8f3d-41d1-aee6-ff52be66fd99": {
@@ -3310,7 +3706,12 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
+        ],
+        "specialization": "@艺术@"
     },
     "05e894e5-4a04-452b-8766-f1627f13d001": {
         "defaults": [
@@ -3320,6 +3721,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "caf08f9d-2491-4f06-8a52-fcc59d6cc2ac": {
@@ -3328,11 +3733,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "乐器"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "aff15dc8-6ccd-46a5-bafa-e0341786bdb0": {
@@ -3344,6 +3754,10 @@
                 "name": "团体表演",
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "2b98f9b4-b9a9-48aa-8b51-24413ebea483": {
@@ -3354,6 +3768,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "45bce77c-1b31-4468-9cbb-36b6ad19d1bc": {
@@ -3364,6 +3782,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "169a6cf4-bfb6-4059-8dc7-8dd2f6566c44": {
@@ -3374,7 +3797,13 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ],
+        "specialization": "光束"
     },
     "a688300b-e78b-475a-8def-5a7617258409": {
         "defaults": [
@@ -3384,7 +3813,13 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ],
+        "specialization": "加农炮"
     },
     "7804abe1-22ad-48ff-b759-b2c4939135da": {
         "defaults": [
@@ -3394,7 +3829,13 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ],
+        "specialization": "弹射器"
     },
     "5bccafa3-c061-4a13-9e8a-f2a5c4db1e9c": {
         "defaults": [
@@ -3404,6 +3845,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "95290ab7-0129-4ce1-9f7c-a04c764b3a26": {
@@ -3414,6 +3860,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "c699cfb8-f28b-4996-a990-66ab6a1fd3cd": {
@@ -3424,6 +3875,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "c43a303b-af99-48f2-bb0a-7511543c595f": {
@@ -3434,6 +3890,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "0b934eb2-77cb-4d8b-b4c0-3cd68ab4e354": {
@@ -3444,6 +3905,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "89140ff6-f145-403e-bb81-82adfe499cc0": {
@@ -3475,6 +3941,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "90303632-08d9-40d3-8d72-4401a5fa0ab0": {
@@ -3506,6 +3977,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "dfac08e6-3434-4391-b2e9-8954c32e04af": {
@@ -3540,6 +4016,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "f4078925-07f5-439e-8ddf-7e41e717ccbf": {
@@ -3574,6 +4055,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "7c49cb8f-c0cb-41c8-bba0-6af99de986cc": {
@@ -3605,6 +4091,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "e6c28686-e693-4459-a11a-a7b7a9ef2d45": {
@@ -3636,6 +4127,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "3867fd50-0c28-4db2-8602-68497d48a111": {
@@ -3658,6 +4154,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "b6af1824-24bc-44e6-b5ed-7f11f3001457": {
@@ -3668,6 +4169,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "5da44438-d98f-466c-ab50-b730d5370cd6": {
@@ -3678,6 +4184,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "9dabad05-acad-43b6-880a-232ea69b3fe2": {
@@ -3688,11 +4199,16 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "235b3784-075e-47f9-b4bc-aee82497527e": {
         "tags": [
-            null,
+            "军事",
             null,
             "间谍"
         ],
@@ -3707,7 +4223,7 @@
     },
     "e68405db-219f-4ff2-9462-0e4c9989404c": {
         "tags": [
-            null,
+            "军事",
             null,
             "间谍"
         ],
@@ -3716,7 +4232,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "威吓"
             },
             {
                 "type": "skill"
@@ -3735,7 +4252,8 @@
                 "name": "做戏",
                 "type": "skill"
             }
-        ]
+        ],
+        "name": "威吓"
     },
     "05be459d-24db-48a1-8792-156e12e15ac2": {
         "defaults": [
@@ -3743,7 +4261,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "CP"
             },
             {
                 "type": "skill"
@@ -3759,11 +4278,17 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "短剑 Shortsword"
             },
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "b11bb8d6-ff4a-4155-ab31-aa6b54184305": {
@@ -3780,11 +4305,17 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "短剑 Shortsword"
             },
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "080b00c4-306f-414b-9ae0-f69725aacd53": {
@@ -3815,11 +4346,17 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "鞭击Whip"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "ed197838-a330-4aa8-9f6b-2d8efe3b0305": {
@@ -3828,8 +4365,14 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "矛Spear"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "f56b6d1b-0d91-49c5-957e-c13e4890e2df": {
@@ -3848,18 +4391,24 @@
     },
     "684500a0-7edb-4175-9496-d4a0c3eb434f": {
         "tags": [
-            null,
+            "军事",
             "社会"
         ],
         "defaults": [
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "name": "领导Leadership"
     },
     "b96bb6df-9c3e-44e8-9e35-d32b301c4b2e": {
         "tags": [
             "间谍"
+        ],
+        "defaults": [
+            {
+                "type": "每"
+            }
         ]
     },
     "7bcdc505-0a78-4bfd-a454-340433551de8": {
@@ -3870,6 +4419,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "2e1f8707-4aa1-4dfe-9f8d-06bb0475430f": {
@@ -3880,6 +4434,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "4f2a30ad-1a7b-4a7d-9802-860a745e13d4": {
@@ -3890,6 +4449,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "7ca25e53-143c-44af-b3b7-02213f48107d": {
@@ -3924,6 +4488,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "7c500a34-a068-4b5e-b0e7-5c212d386a56": {
@@ -3938,7 +4506,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "Rapier"
             },
             {
                 "type": "skill"
@@ -3946,6 +4515,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "72b8dfb1-dd19-4327-aa41-e47377f0d8f6": {
@@ -3956,6 +4530,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "0b904698-3e3c-4991-852f-ea28e946048b": {
@@ -4029,6 +4607,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "50abaded-8c9a-4c27-917d-2d781bce6bac": {
@@ -4046,6 +4628,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "9a7ba3a3-a68f-4a67-ab61-7e7f042fcd7e": {
@@ -4063,6 +4649,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "1d42d86e-37dc-4b05-b706-fd81272057cd": {
@@ -4080,6 +4670,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "4d841d77-87b6-4fbf-9170-c16b300805ee": {
@@ -4097,6 +4691,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "520c80d5-0b78-4bb9-9476-5cf77ed1f201": {
@@ -4114,6 +4712,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "f410d8f7-3671-4af0-90fc-8ab37842b1fe": {
@@ -4131,6 +4733,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "528b1ad7-ffdc-4e84-9a28-0deb15cf60c9": {
@@ -4148,6 +4754,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "10ec2ba2-6ba9-41f5-8977-c3e023297115": {
@@ -4165,6 +4775,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "b18ee6a0-a10d-4578-b86c-3d555440458e": {
@@ -4182,6 +4796,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "530e76d2-2734-4275-b8e3-525a1a2e3162": {
@@ -4199,6 +4817,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "1713a667-27e4-421d-96ad-1e0c6e9ed219": {
@@ -4216,6 +4838,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "78b4b90d-a6c4-450f-b036-980bb47cc83d": {
@@ -4233,6 +4859,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "9ffc8d0f-0cfd-4055-87da-d807a91a5f08": {
@@ -4250,6 +4880,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "c399eae3-2cf8-451c-90d9-168e7f6e18a7": {
@@ -4267,6 +4901,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "15341bd9-f20b-4986-9527-e778fce09927": {
@@ -4284,6 +4922,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "c190e8ec-e368-404d-908a-0e1d57cab7fb": {
@@ -4301,6 +4943,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "03b17ac3-ed6f-4b1f-bad8-009cc7540468": {
@@ -4318,6 +4964,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "108111b5-a4ea-4f01-b67d-f54a1e39b71e": {
@@ -4335,6 +4985,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "9f29ee47-9f17-4578-9ce9-727ba11549cb": {
@@ -4352,6 +5006,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "6381998b-472c-4c1f-ac17-6779eee67b09": {
@@ -4369,6 +5027,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "d8c518d3-9c96-48e2-925e-5f2f7a1444a9": {
@@ -4386,6 +5048,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "52a8cf2e-068d-4c38-9c63-a2f110a9b7e4": {
@@ -4403,6 +5069,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "9e039bb2-143b-4814-9103-d8ad4534fa26": {
@@ -4420,6 +5090,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "07308ff0-2569-4170-a8a8-87923aa48a69": {
@@ -4437,6 +5111,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "6c5f7a9c-49bd-485c-ad1c-7ef043d78888": {
@@ -4454,6 +5132,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "977bbadc-7b61-4f3e-be21-0e15a87c6424": {
@@ -4471,6 +5153,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "37dc5cd5-299b-4137-95e4-f55c66e650b2": {
@@ -4488,6 +5174,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "0de216cb-1537-4f32-90b6-a13ee08b5f0d": {
@@ -4505,6 +5195,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "c4af05dd-830a-4e49-82d1-8fc386f58fe0": {
@@ -4522,6 +5216,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "61864a94-b48f-4b02-a8d7-b7f62f44e55d": {
@@ -4539,6 +5237,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "92919ca0-0eab-4a84-88a1-a9bf29c350ab": {
@@ -4556,6 +5258,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "a5553906-dc93-4697-acc6-4bbfbed84bbc": {
@@ -4573,6 +5279,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "a9ec0418-8fbc-4c8b-b19b-83467a53b702": {
@@ -4590,6 +5300,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "9c8935d4-e007-4ed9-9c90-5885fc0577c6": {
@@ -4607,6 +5321,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "8fd27a0f-8305-42dd-9e3d-3fd672d92637": {
@@ -4624,6 +5342,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "1c99c9ef-1f1a-49ad-b6fa-1415667ae06a": {
@@ -4641,6 +5363,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "24bec7a1-4910-473f-9a11-9b7ebbb10f6b": {
@@ -4658,6 +5384,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "9a3a4e09-7e9b-4b01-a28c-366693516bd5": {
@@ -4675,6 +5405,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "6f08f15f-a2f9-4caa-9dc0-da6eda171c61": {
@@ -4692,6 +5426,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "44415c50-e465-4348-9551-5595ce0a7251": {
@@ -4709,6 +5447,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "a5666609-d883-491b-ab19-89af53c9c790": {
@@ -4726,6 +5468,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "241255e3-5149-492b-adcd-76d6db298ab9": {
@@ -4743,6 +5489,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "a94e4b67-bc76-47df-9448-48f0003fe797": {
@@ -4760,6 +5510,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "807b7044-bb7f-4976-8e85-dc669d8cda59": {
@@ -4777,6 +5531,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "维护",
+            "修理"
         ]
     },
     "ae3deb92-728d-4335-b9f0-0d7c1224bbce": {
@@ -4858,12 +5616,16 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "拟声Mimicry"
             }
         ],
         "tags": [
-            "动物"
-        ]
+            "动物",
+            "艺术",
+            "娱乐"
+        ],
+        "name": "拟声Mimicry"
     },
     "c641e0b7-5e07-4030-a838-79de65a5ed42": {
         "defaults": [
@@ -4874,12 +5636,16 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "拟声Mimicry"
             }
         ],
         "tags": [
-            "动物"
-        ]
+            "动物",
+            "艺术",
+            "娱乐"
+        ],
+        "name": "拟声Mimicry"
     },
     "4329a391-8394-407b-b0e1-5faa972b0988": {
         "defaults": [
@@ -4893,15 +5659,23 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "鞭击Whip"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "87c7fc23-5374-488e-b98e-27f201e621f4": {
         "tags": [
+            "艺术",
+            "娱乐",
+            "间谍",
             null,
-            null,
-            "间谍"
+            "技术"
         ]
     },
     "a8e31ee9-7214-4fc0-bfcf-b01261670d1a": {
@@ -4927,7 +5701,9 @@
         "tags": [
             "动物",
             null,
-            "自然科学"
+            "自然科学",
+            null,
+            "植物"
         ]
     },
     "ddcebc26-bd21-4c9a-b655-879e2ce004de": {
@@ -4942,7 +5718,9 @@
         "tags": [
             "动物",
             null,
-            "自然科学"
+            "自然科学",
+            null,
+            "植物"
         ]
     },
     "ec654a94-7f75-4181-a1ab-5cd6cd5ae2c1": {
@@ -4957,7 +5735,9 @@
         "tags": [
             "动物",
             null,
-            "自然科学"
+            "自然科学",
+            null,
+            "植物"
         ]
     },
     "e377d2fb-bbc5-4e25-9d97-af144993b383": {
@@ -4972,7 +5752,9 @@
         "tags": [
             "动物",
             null,
-            "自然科学"
+            "自然科学",
+            null,
+            "植物"
         ]
     },
     "fe90b4b8-80fe-4357-a1a5-473767dffa22": {
@@ -4987,7 +5769,9 @@
         "tags": [
             "动物",
             null,
-            "自然科学"
+            "自然科学",
+            null,
+            "植物"
         ]
     },
     "eb867cfe-e117-4a4e-9146-6f62fd6301c9": {
@@ -5002,7 +5786,9 @@
         "tags": [
             "动物",
             null,
-            "自然科学"
+            "自然科学",
+            null,
+            "植物"
         ]
     },
     "2a386327-3aa3-4be9-bd86-5257b1b23bb6": {
@@ -5015,7 +5801,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "太空"
             }
         ],
         "tags": [
@@ -5038,7 +5825,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "空中"
             },
             {
                 "type": "skill"
@@ -5052,7 +5840,8 @@
             null,
             null,
             "载具"
-        ]
+        ],
+        "specialization": "地面"
     },
     "9f72d18a-dd46-4b99-be6d-4b39471c1492": {
         "defaults": [
@@ -5072,7 +5861,8 @@
             null,
             null,
             "载具"
-        ]
+        ],
+        "specialization": "太空"
     },
     "10fc2f37-4015-40c4-ab44-2ba422d24af4": {
         "defaults": [
@@ -5088,17 +5878,22 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "军事"
         ]
     },
     "99f9cb09-b7f1-4e84-a798-ab2cc4ed80ac": {
         "tags": [
             null,
-            null,
+            "军事",
             null,
             "间谍"
         ],
         "defaults": [
-            {},
+            {
+                "type": "每"
+            },
             {
                 "type": "skill"
             }
@@ -5135,7 +5930,8 @@
     },
     "79f5883e-23c4-49e7-8ecf-664fb9467b94": {
         "tags": [
-            "运动"
+            "运动",
+            "军事"
         ],
         "defaults": [
             {
@@ -5157,6 +5953,10 @@
                 "name": "演讲",
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "ab17453a-332f-42ac-86cd-00ab2e864531": {
@@ -5176,7 +5976,9 @@
         ],
         "tags": [
             "设计",
-            "发明"
+            "发明",
+            null,
+            "植物"
         ]
     },
     "451592bd-ae7d-4422-bb17-00a53ecb289b": {
@@ -5198,8 +6000,8 @@
     },
     "5821d810-3323-4025-b7f1-58ea8b585d05": {
         "tags": [
-            null,
-            null,
+            "艺术",
+            "娱乐",
             "间谍"
         ],
         "defaults": [
@@ -5274,7 +6076,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "巧手"
             }
         ]
     },
@@ -5594,6 +6397,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "939c165b-c428-4b4c-b1d7-1a7c557cc458": {
@@ -5623,14 +6430,21 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "矛Spear"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "法杖 Staff"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "6cb57dcf-3344-46e6-854c-6344c78f85df": {
@@ -5670,7 +6484,7 @@
     "6f779ab3-a371-4720-9dce-4dc0735d96a1": {
         "tags": [
             "商业",
-            null,
+            "军事",
             "社会",
             "间谍"
         ],
@@ -5728,7 +6542,13 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ],
+        "name": "Rapier"
     },
     "22255dbb-afc8-4e90-b9de-287713befe67": {
         "tags": [
@@ -5767,12 +6587,14 @@
             },
             {
                 "type": "skill",
-                "name": "驯兽"
+                "name": "驯兽",
+                "specialization": "骆驼Camel"
             }
         ],
         "tags": [
             "动物"
-        ]
+        ],
+        "specialization": "骆驼Camel"
     },
     "314aecc0-678d-4643-ac53-4c677d44028b": {
         "defaults": [
@@ -5795,12 +6617,14 @@
             },
             {
                 "type": "skill",
-                "name": "驯兽"
+                "name": "驯兽",
+                "specialization": "龙"
             }
         ],
         "tags": [
             "动物"
-        ]
+        ],
+        "specialization": "龙"
     },
     "98b400b8-aac8-4d1a-bf8c-fcf97563a65e": {
         "defaults": [
@@ -5820,7 +6644,12 @@
     },
     "fe0d380f-b4d1-4060-8ecb-ca4d46289227": {
         "tags": [
-            "运动"
+            "运动",
+            null,
+            null,
+            null,
+            null,
+            "技术"
         ]
     },
     "220d1ce5-4aad-4485-a30d-3f8020488105": {
@@ -5837,17 +6666,24 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "短剑 Shortsword"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "Rapier"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "af2df472-95c1-4af2-8630-ffbb56ea1b50": {
@@ -5895,12 +6731,19 @@
     },
     "a56ef114-74f4-46fb-acac-3f35f05d3d71": {
         "tags": [
-            "运动"
+            "运动",
+            null,
+            null,
+            null,
+            null,
+            "技术"
         ]
     },
     "206fa45d-6bb2-40b5-9776-1f2d7beda9ae": {
         "tags": [
-            "运动"
+            "运动",
+            null,
+            "军事"
         ],
         "defaults": [
             {
@@ -5917,9 +6760,17 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "护盾术 Shield",
+                "specialization": "力场"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ],
+        "name": "护盾术 Shield"
     },
     "4dc20fde-3ac1-4b36-897e-6c6d9f491abd": {
         "defaults": [
@@ -5927,16 +6778,30 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "护盾术 Shield"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ],
+        "name": "护盾术 Shield"
     },
     "9746f6d6-8056-4844-be8d-853bb32dbc96": {
         "defaults": [
             {
                 "type": "dx"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ],
+        "name": "护盾术 Shield",
+        "specialization": "护盾术 Shield"
     },
     "db95920f-a5eb-4d92-ba37-f496b5598f2f": {
         "defaults": [
@@ -6071,7 +6936,13 @@
             {
                 "type": "dx"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ],
+        "name": "短剑 Shortsword"
     },
     "dd296090-638f-4874-be53-f8a7ed690c5e": {
         "tags": [
@@ -6083,7 +6954,13 @@
             {
                 "type": "dx"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ],
+        "name": "投石索Sling"
     },
     "74b4a696-53fe-45ae-b588-9b70a7298a33": {
         "defaults": [
@@ -6091,17 +6968,24 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "短剑 Shortsword"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "Rapier"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "b860b5f1-c4d2-4857-b4bf-1b33fefb061b": {
@@ -6115,7 +6999,8 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "specialization": "CP"
     },
     "f4bf5cb2-35fc-45f9-82c8-3a0feabd5b66": {
         "defaults": [
@@ -6157,7 +7042,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "人类学"
             },
             {
                 "type": "skill"
@@ -6174,6 +7060,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "军事"
         ]
     },
     "11576b1c-81aa-4525-9c91-d6cd8b1ecb1b": {
@@ -6195,9 +7084,16 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "法杖 Staff"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ],
+        "name": "矛Spear"
     },
     "767a372b-bdb0-4f72-a774-a71db8da8603": {
         "defaults": [
@@ -6205,8 +7101,14 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "矛Spear"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "903f6937-8513-4eaf-83c0-4b4b91a0fc68": {
@@ -6225,6 +7127,10 @@
                 "name": "团体表演",
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "72661777-9390-47f1-9819-0cf31205c3f5": {
@@ -6240,7 +7146,8 @@
             {
                 "type": "dx"
             }
-        ]
+        ],
+        "name": "隐匿"
     },
     "11913320-7285-4c44-98ec-fb29e8345b74": {
         "defaults": [
@@ -6256,7 +7163,11 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "军事"
+        ],
+        "specialization": "空中"
     },
     "5f435b5d-c0cc-4f12-8c3f-a5a9736efd24": {
         "defaults": [
@@ -6272,7 +7183,11 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "军事"
+        ],
+        "specialization": "地面"
     },
     "ac6c4914-4610-40f1-aa83-959b713dcd0d": {
         "defaults": [
@@ -6288,6 +7203,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "军事"
         ]
     },
     "a7288278-088e-470f-a2fe-bf613d403efa": {
@@ -6304,7 +7222,11 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "军事"
+        ],
+        "specialization": "太空"
     },
     "abec4328-8bde-4fa4-9171-21628b0a64d7": {
         "tags": [
@@ -6386,6 +7308,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "军事"
         ]
     },
     "ff9d09a8-a719-46ad-8c81-a4e1df4cf924": {
@@ -6449,7 +7374,10 @@
     },
     "f320e945-5889-4a76-8230-2d04b8ea500c": {
         "tags": [
-            "运动"
+            "运动",
+            "战斗",
+            "远程战斗",
+            "武器"
         ],
         "defaults": [
             {
@@ -6468,6 +7396,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "16d0f52f-d27a-4edd-b2bf-a075b0dc5ece": {
@@ -6476,15 +7409,27 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "矛Spear"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ],
+        "specialization": "鱼叉Harpoon"
     },
     "caa1b97b-7bc1-46f1-8975-4f8ab42b13fa": {
         "defaults": [
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "1cc6624c-3c49-452b-bf54-131965c25dc5": {
@@ -6495,6 +7440,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "02811089-713b-4a73-a65e-a169a5f370f7": {
@@ -6506,9 +7456,16 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "鱼叉Harpoon"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ],
+        "specialization": "矛Spear"
     },
     "20d0bbd6-1f7e-4f5e-a806-08970382d2d1": {
         "defaults": [
@@ -6516,8 +7473,14 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "短剑 Shortsword"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "0b15d997-bd11-47e4-ab10-78ca856351de": {
@@ -6528,6 +7491,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            null,
+            "军事"
         ]
     },
     "9226bbe4-cbea-4942-9dad-3b693e973b1c": {
@@ -6544,6 +7511,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "481f2ef3-ff63-41c0-97dd-78c0a2cdc029": {
@@ -6560,6 +7532,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "9fde98c2-6c6e-488d-9f73-4a84ec6e195f": {
@@ -6573,6 +7550,11 @@
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "bbb55304-87c3-4211-b6f5-b9cc447cb808": {
@@ -6625,13 +7607,23 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ],
+        "name": "鞭击Whip"
     },
     "f818e0a2-a332-4792-b154-49dade954638": {
         "defaults": [
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "58aed076-efab-49f7-8a20-b3c8ace15724": {
@@ -6775,7 +7767,8 @@
             "常识",
             "知识"
         ],
-        "specialization": "@村庄或城镇@"
+        "specialization": "@村庄或城镇@",
+        "notes": "所有重要和大部分不重要的居民和商行；所有公共建筑和大多数房屋"
     },
     "ce46224f-66d8-473b-8a92-2d4ae36f88c9": {
         "defaults": [
@@ -6783,9 +7776,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             }
-        ]
+        ],
+        "name": "艺术家",
+        "tags": [
+            "艺术",
+            "娱乐"
+        ],
+        "specialization": "@艺术@"
     },
     "9ebc02db-5d3a-4235-842e-7b5b97b96c3b": {
         "defaults": [
@@ -6793,20 +7793,34 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "书法",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "素描",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "纹饰",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "艺术家"
             }
+        ],
+        "specialization": "人体艺术",
+        "name": "艺术家",
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "852bd1d1-9e30-4567-bb97-f1ed8d5792fb": {
@@ -6889,8 +7903,8 @@
             }
         ],
         "tags": [
-            null,
-            null,
+            "艺术",
+            "娱乐",
             "知识",
             "社会"
         ]
@@ -6943,7 +7957,7 @@
             }
         ],
         "tags": [
-            null,
+            "军事",
             "间谍"
         ]
     },
@@ -6985,7 +7999,9 @@
     "7b577590-470b-4570-8030-c484b3bc722a": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "军械修造",
+                "specialization": "重武器"
             }
         ],
         "name": "工程学",
@@ -6998,7 +8014,9 @@
     "ec696a9f-280b-4e6e-986d-222c6c0982ae": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "军械修造",
+                "specialization": "重武器"
             }
         ],
         "tags": [
@@ -7006,7 +8024,8 @@
             "工程学",
             "发明"
         ],
-        "name": "工程学"
+        "name": "工程学",
+        "specialization": "火炮"
     },
     "f61be6fa-9f8e-4c37-bb09-9b80458ea431": {
         "defaults": [
@@ -7060,7 +8079,8 @@
             "工程学",
             "发明"
         ],
-        "name": "工程学"
+        "name": "工程学",
+        "specialization": "战斗"
     },
     "78dff7f2-b6e9-4547-88ac-2e72c2e30022": {
         "defaults": [
@@ -7201,7 +8221,9 @@
     "b9579d78-0f48-4330-b036-efccdf7b9251": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "军械修造",
+                "specialization": "轻兵器"
             }
         ],
         "tags": [
@@ -7209,7 +8231,8 @@
             "工程学",
             "发明"
         ],
-        "name": "工程学"
+        "name": "工程学",
+        "specialization": "轻兵器"
     },
     "9b08f583-31b7-4a46-8509-72b2eaceb9c5": {
         "defaults": [
@@ -7279,6 +8302,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "植物"
         ]
     },
     "92edfde1-3d7f-44d8-88df-a8da35eef1c2": {
@@ -7333,6 +8359,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "de09679e-62b5-4ca9-94e2-1d3867759346": {
@@ -7355,7 +8386,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "巧手"
             }
         ],
         "tags": [
@@ -7371,6 +8403,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "406b18ab-a0da-4f75-a7e4-b1eed1a6a29e": {
@@ -7381,6 +8418,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "c59932c7-5824-4575-8053-8c4b524da193": {
@@ -7450,6 +8492,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "name": "拟声Mimicry",
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "573d5cd6-c7f8-4359-a054-3bb75cc13593": {
@@ -7463,11 +8510,16 @@
     "b67bffbc-f25a-4fa1-8c1e-2ef730655321": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "乐器"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "艺术",
+            "娱乐"
         ]
     },
     "18336f76-bff1-4644-a495-8a9dc1a7dec3": {
@@ -7482,7 +8534,9 @@
         "tags": [
             "动物",
             null,
-            "自然科学"
+            "自然科学",
+            null,
+            "植物"
         ]
     },
     "ffc31a5c-29b8-458e-af84-5caa44dc6223": {
@@ -7491,7 +8545,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "地面"
             },
             {
                 "type": "skill"
@@ -7510,7 +8565,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "地面"
             },
             {
                 "type": "skill"
@@ -7521,7 +8577,8 @@
             null,
             null,
             "载具"
-        ]
+        ],
+        "specialization": "空中"
     },
     "dd837426-37fe-4bc5-9686-bdbdef4d1167": {
         "defaults": [
@@ -7532,10 +8589,12 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "空中"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "地面"
             }
         ],
         "tags": [
@@ -7550,6 +8609,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "43f01084-281f-40fb-a17b-3ac73df6473e": {
@@ -7573,14 +8637,16 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "古生物学"
             }
         ],
         "tags": [
             "人文学科",
             "自然科学",
             "社会科学"
-        ]
+        ],
+        "name": "古生物学"
     },
     "20cefb79-99b6-4cd7-9468-03f25f5e5927": {
         "defaults": [
@@ -7588,17 +8654,21 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "古生物学"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "人类学"
             }
         ],
         "tags": [
             "人文学科",
             "自然科学",
             "社会科学"
-        ]
+        ],
+        "name": "古生物学",
+        "specialization": "古人类学"
     },
     "be1e4557-5f96-467a-8e05-69956d203dd0": {
         "defaults": [
@@ -7606,15 +8676,17 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "古生物学"
             }
         ],
         "tags": [
             "人文学科",
             "自然科学",
-            null,
+            "植物",
             "社会科学"
-        ]
+        ],
+        "name": "古生物学"
     },
     "11099641-9cc7-412e-ae8a-450308377bd5": {
         "defaults": [
@@ -7622,14 +8694,16 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "古生物学"
             }
         ],
         "tags": [
             "人文学科",
             "自然科学",
             "社会科学"
-        ]
+        ],
+        "name": "古生物学"
     },
     "64876eb9-51c4-4c2c-a137-8f6407fc42c5": {
         "defaults": [
@@ -7717,7 +8791,9 @@
     },
     "a4d05150-68e2-4931-a197-30d9a8ca920c": {
         "defaults": [
-            {},
+            {
+                "type": "每"
+            },
             {
                 "type": "skill"
             }
@@ -7736,7 +8812,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "隐匿"
             }
         ],
         "tags": [
@@ -7750,6 +8827,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "name": "巧手",
+        "tags": [
+            "艺术",
+            null,
+            "娱乐"
         ]
     },
     "ecc2965c-8f93-4241-8592-2e9d69a4c413": {
@@ -7761,9 +8844,16 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "矛Spear"
             }
-        ]
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ],
+        "name": "法杖 Staff"
     },
     "e2bcb35e-8477-42eb-8091-47925ea8ecd0": {
         "defaults": [
@@ -7783,551 +8873,740 @@
     },
     "6514b812-6434-4590-85d3-c823b994c547": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "0920cc95-ab25-4cd5-b00e-0ff44bd51a96": {
         "defaults": [
-            {},
+            {
+                "type": "每"
+            },
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "c7cc35bf-4351-4894-a363-328c3d1f22ea": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "e579df57-4000-41cf-83e3-ccade5ce22f5": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "1e854277-d5f8-4d36-9f79-b31dcae13f85": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "1b131001-4fa1-485a-8f16-590d5736474d": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "c581c580-3de4-40ee-8d82-eddbf8312221": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "4fb8f61a-4746-4ff3-89b7-eb483555e3c3": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "cf67bacb-575a-4e0e-bcbe-967984d6a2d5": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "71a19a81-0530-4d17-919a-a904b62c6991": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "d63b40a9-22ad-4660-a54e-8c06e4783927": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "cd9c102c-2f57-4717-b5a4-499c7beecc73": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "266c676c-6c31-4016-9d30-82eb0607d32d": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "3deacaaa-247b-47fc-8d97-313047498116": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "c553454d-8bca-4731-8c9c-88dcc848bd86": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "c33b2100-066e-48fe-aa26-d98e039668b0": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "de26b220-b29c-476c-9555-36d5179842ed": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "4d548873-ebec-40f0-84a8-1cdf2cdbb9ac": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "4f28c023-b6a6-40a8-b1d7-e553faa1237f": {
         "defaults": [
-            {},
             {
-                "type": "skill"
+                "type": "每"
             },
             {
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生存"
+            },
+            {
+                "type": "skill",
+                "name": "生存"
             }
-        ]
+        ],
+        "name": "生存"
     },
     "b99b718b-6c88-4c6e-b76e-6953ee6225ac": {
         "defaults": [
@@ -8355,7 +9634,9 @@
     },
     "03c37fe1-5c72-4598-9c0d-d9c183ecf8ed": {
         "defaults": [
-            {},
+            {
+                "type": "每"
+            },
             {
                 "type": "skill"
             }
@@ -8383,6 +9664,13 @@
             {
                 "type": "iq"
             }
+        ],
+        "name": "火炮",
+        "specialization": "@武器类别@",
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "72e8feab-a380-4af8-ae30-e3ae4325c494": {
@@ -8390,27 +9678,53 @@
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "specialization": "光束",
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ],
+        "name": "火炮"
     },
     "16805529-1d58-4b90-8bf2-5b7be79c22eb": {
         "defaults": [
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "specialization": "导弹",
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ],
+        "name": "火炮"
     },
     "8d83f923-0966-41a2-8769-96e0ca6d6d23": {
         "defaults": [
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "specialization": "鱼雷",
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ],
+        "name": "火炮"
     },
     "1c54bed1-b03c-409c-bdd8-7d6eb527cc5d": {
         "defaults": [
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "cd995312-b5b0-4930-8b1b-72ca8f185c9d": {
@@ -8421,7 +9735,7 @@
     },
     "28f0a2ce-dd4c-4284-b678-00716401ee15": {
         "tags": [
-            null,
+            "军事",
             "间谍"
         ]
     },
@@ -8441,6 +9755,11 @@
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
         ]
     },
     "41015ad0-b707-4d35-8db5-7e43c2864133": {
@@ -8482,7 +9801,8 @@
         "tags": [
             "人文学科",
             "社会科学"
-        ]
+        ],
+        "name": "历史"
     },
     "0a12a63f-4ac1-419d-9386-068826769d2a": {
         "defaults": [
@@ -8523,7 +9843,10 @@
     },
     "74489bf1-73e2-46d2-8f48-e2af6cd5d341": {
         "tags": [
-            "运动"
+            "运动",
+            null,
+            null,
+            "技术"
         ]
     },
     "5c80dae2-0bbb-43bb-a91f-348a81804e36": {
@@ -8580,14 +9903,15 @@
     "fb0b45ea-dbba-4b5e-a2e0-428055b39521": {
         "tags": [
             "知识",
-            null,
+            "军事",
             "社会"
         ],
         "defaults": [
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "specialization": "军事"
     },
     "8830eebb-07eb-4ff3-b94e-af6cb8855ad7": {
         "tags": [
@@ -8633,13 +9957,23 @@
                 "type": "dx"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ]
     },
     "5e1c0a14-8625-40f4-9fd9-23a6e847688c": {
         "defaults": [
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "7dd7f564-b82f-486e-8687-187e68d27c65": {
@@ -8647,10 +9981,20 @@
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
         ]
     },
     "e1ccae10-ca7a-4d8b-998f-1155b1a141ef": {
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "name": "乐器",
+        "tags": [
+            "艺术",
+            "娱乐"
+        ]
     },
     "3272d174-0dec-47be-8dc4-ccb61944443e": {
         "specialization": "@分支@",
@@ -8687,7 +10031,8 @@
     },
     "7bee7b50-708f-4557-8736-a68184f980e0": {
         "tags": [
-            "知识"
+            "知识",
+            "军事"
         ]
     },
     "8f57b991-44a5-4169-99d0-da759975beec": {
@@ -8735,7 +10080,11 @@
     },
     "b893ef1a-929e-48a8-80b3-ea4b27097ba9": {
         "tags": [
-            "动物"
+            "动物",
+            "战斗",
+            "远程战斗",
+            "技术",
+            "武器"
         ]
     },
     "1c88af23-4607-4448-83e3-ef4e7899d8ff": {
@@ -8796,7 +10145,7 @@
     },
     "e053e176-d3d5-4d9e-b78b-c63f9902da12": {
         "tags": [
-            null,
+            "技术",
             "载具"
         ]
     },
@@ -8822,6 +10171,678 @@
             "近战",
             "技术",
             "武器"
+        ]
+    },
+    "5659697c-cd7c-4864-b3b0-0a7037cf919d": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "c086dcb9-6eb6-4fb8-baa1-0f7e4fe0760d": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "be120498-9335-4a24-9564-217cc8f2909a": {
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "ab731b1b-aaf1-4576-804c-389e3c982ad7": {
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ]
+    },
+    "81ea0a3c-6927-4a23-a403-decba30597a1": {
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "f02ffe63-2448-4bbd-a466-c9107f301f24": {
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "e2c06f73-4859-43ff-8a07-488f90a01fb0": {
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ]
+    },
+    "df4adc7d-6ce7-41bd-a5ee-5d22e3605cd3": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ],
+        "name": "佯攻"
+    },
+    "ce3089ff-d9bb-4b48-b407-b13c3da2828b": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "53eb7012-4a44-4a7e-8f0f-8f108dd2c42e": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "131219ce-d9c4-41b2-8756-670493e19b1d": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "21d0b6e0-d65b-4151-b2dc-bc2669aca80c": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "548ca139-1d89-40fa-b068-cd685fa3b721": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "2a2283ef-3dd9-4625-9a6b-8bf22f4ab048": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "91f80f7e-4757-470e-adab-5b022b920b1d": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "96e82409-5ff6-428a-acd0-f6417f7529fe": {
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "841e282a-d1ef-4146-bff0-dca01a29d772": {
+        "tags": [
+            null,
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "f58fe5a1-0ed0-41ff-a097-b4167ff26c27": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "a4194102-33fa-43fc-ac8e-14454cf89fc5": {
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "17fc5417-4900-45bc-b7d3-bc202b853e7b": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "90288044-efcb-4ad5-b596-aa1d97de6fe3": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "ed127535-1d8e-462c-a5f1-d0c467072182": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "a0b0fefc-4c51-4ddf-97dc-2d209be012fd": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "92080e1d-ea09-4aaf-9bd3-85906a092858": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "0490c311-fe7e-4fbb-a37b-e93e50848332": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "4e25b93e-6b16-46cd-9f65-9aeaa9ea6d9b": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "3a2c95e4-b3f5-4bec-bf3b-b224d30c46ba": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "943d0fe1-8b00-4bd9-969f-914b1f2f1ecb": {
+        "tags": [
+            null,
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "de7f18e4-3b8e-4eb8-9a74-5666b69ea0d4": {
+        "tags": [
+            null,
+            "战斗",
+            "远程战斗",
+            "武器"
+        ]
+    },
+    "c39b183c-8407-41d4-8c80-750190f7a7d0": {
+        "tags": [
+            null,
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "fc2cbc96-59b5-4263-bb56-0281ea456573": {
+        "tags": [
+            null,
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "f0555e58-2506-49a2-8140-bd4c95b75604": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "e38c16d1-13c2-4326-b985-4295d1dbf018": {
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ]
+    },
+    "5179b641-1df4-4121-bf57-9ab78a654f07": {
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "63d8fe1a-8fd9-48a9-ac2a-6669ad4905b8": {
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "24a897db-9bc6-4870-8afb-c1080b184307": {
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ]
+    },
+    "dd747d5b-2d24-492e-875b-5964d1a50002": {
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ]
+    },
+    "6bfc7bf6-fdb2-4735-aa0f-cc7a7f92dcc9": {
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ],
+        "specialization": "剑击Sword"
+    },
+    "6413ccb2-8ea0-4092-ba1b-7e223317999d": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ],
+        "name": "佯攻"
+    },
+    "b9509667-bf75-4279-bdb7-199f34395043": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ],
+        "name": "佯攻"
+    },
+    "b8963685-274b-4301-a079-379f30c448e7": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ],
+        "name": "佯攻"
+    },
+    "2eb5c238-46ce-46a5-8f5d-4c5fa9cb8711": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ],
+        "name": "佯攻"
+    },
+    "1ff175f0-e38d-48c0-9937-9160c852bb45": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ],
+        "name": "佯攻"
+    },
+    "3346df9c-e57e-42d1-a090-b2d62f9f71b0": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ],
+        "name": "佯攻"
+    },
+    "0d85cfd2-d674-45da-a70f-7b5fe1b6407f": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "e015bcf9-71a8-4777-a924-47b0dceec462": {
+        "tags": [
+            "艺术",
+            "娱乐",
+            "技术"
+        ]
+    },
+    "5ac0e358-c9bb-486e-bcaa-b56d2e1afacc": {
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ],
+        "name": "抓擒技击"
+    },
+    "50deb09d-7764-4324-bfa4-348d9b4653d9": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "0f7bf286-2776-4226-b859-b8ecb9431625": {
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "e21f21c4-30ad-41cc-a72b-16ba4871fc72": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "b718e156-f8b4-4244-b0e5-53cbe3541300": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "ccaefa92-3f17-4c9c-aa96-37edf6b46237": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "ebe072e7-906b-475d-a951-bad2ec9360cb": {
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "武器"
+        ]
+    },
+    "3faabd25-9946-4c09-859c-56ceb9c3c84b": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "b76c876b-8874-42c4-bccd-c378d2fdc0e8": {
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "技术",
+            "武器"
+        ]
+    },
+    "2fc50a67-a823-4501-9295-8fadf5bf911c": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "f1a874be-6132-41eb-99bf-e792ce1e85ba": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "8105c2fa-ce51-41e7-8be7-ff194166a226": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "9eb76547-3426-46e2-94a9-2744ddd870a0": {
+        "tags": [
+            "战斗",
+            "远程战斗",
+            "技术",
+            "武器"
+        ]
+    },
+    "a1ca798f-b81c-411f-8a82-14c1679cc924": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "1cf857d4-cf9e-4dda-b777-4c87d0d1dab6": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "f2fffd12-d8c5-47de-8137-27e0fa4ff44f": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "2ce83a22-5a01-4102-bcf5-bacd63703e0b": {
+        "tags": [
+            null,
+            "军事",
+            null,
+            "技术"
+        ]
+    },
+    "e9664e42-bb07-4961-9f47-e6798caefd5a": {
+        "tags": [
+            null,
+            null,
+            "技术"
+        ]
+    },
+    "9523c947-daa5-499a-a75b-076647c69ac2": {
+        "tags": [
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "b5d42850-d4fc-40b6-8e96-42d62a824703": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "32a2c846-ddbe-4d8b-9ea2-b9d06a668e2d": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "36f13065-d68b-429d-ba86-7aad710d4ed1": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "90e6eefb-0d9c-4982-8154-f4ed2b309ed2": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "1fc0ec7a-364b-47e5-883d-aaf486e9ab6f": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "e6d2c73b-9a4a-479d-a2c7-128a271816f6": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "2ed10019-a55b-4db3-812d-63ce66009a59": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "a47e8bb0-7d9a-4dac-9768-0e711655c263": {
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "dfa260ac-84a9-48c0-bc3f-128697503c10": {
+        "tags": [
+            null,
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "4aeca125-9605-434f-b058-a5652f51e1dd": {
+        "tags": [
+            null,
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "154a947a-6c2f-4139-9ba8-ac863f06598d": {
+        "tags": [
+            null,
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "383d4f2a-30c7-436f-bd03-307a37ffe646": {
+        "tags": [
+            null,
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "63c5d9fd-7b36-45bc-b304-b370426d7ccf": {
+        "tags": [
+            null,
+            "战斗",
+            "近战",
+            "武器"
+        ]
+    },
+    "2d8bd63d-e0f6-4311-ac43-04b59d1d1932": {
+        "tags": [
+            null,
+            null,
+            "技术"
+        ]
+    },
+    "c3f518fb-8c38-46f9-83b0-ffe1df1e2d80": {
+        "tags": [
+            "艺术",
+            "娱乐"
+        ]
+    },
+    "dcc32d5e-6784-4b04-b2f5-cb3a50413d09": {
+        "defaults": [
+            {
+                "type": "每"
+            }
+        ]
+    },
+    "3a96ee08-c65a-4546-99d9-64183a64143c": {
+        "defaults": [
+            {
+                "type": "每"
+            }
+        ]
+    },
+    "dc9f9ca1-8b23-47cc-914f-e7cb411c3873": {
+        "tags": [
+            "艺术",
+            "娱乐"
+        ]
+    },
+    "5ad4280b-4ab6-45c4-843f-424ad04cfbac": {
+        "defaults": [
+            {
+                "type": "每"
+            }
+        ]
+    },
+    "7d79dae4-f799-4d24-a10e-732af3210835": {
+        "tags": [
+            "艺术",
+            "娱乐"
+        ]
+    },
+    "c0ccc698-f9c4-40da-a76e-68fb8516a001": {
+        "defaults": [
+            {
+                "type": "每"
+            }
+        ]
+    },
+    "c02cb3fe-f260-415a-a243-45a23d8e8e7b": {
+        "tags": [
+            "植物"
         ]
     }
 }
