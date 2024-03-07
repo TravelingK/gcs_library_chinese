@@ -41,7 +41,9 @@
             }
         ],
         "tags": [
-            "商业"
+            "商业",
+            "人文学科",
+            "社会科学"
         ]
     },
     "f170aea1-0c02-4af9-80ec-4ebe1f850c2b": {
@@ -147,18 +149,24 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "水上杂技"
             }
         ],
         "tags": [
             "运动"
-        ]
+        ],
+        "name": "空中杂技"
     },
     "41b5450b-0b75-47c8-afc4-d84afb42cc26": {
         "defaults": [
             {
                 "type": "iq"
             }
+        ],
+        "name": "飞艇乘务员",
+        "tags": [
+            "载具"
         ]
     },
     "9bead93f-7da1-4222-a87e-2bed3832aefe": {
@@ -167,35 +175,59 @@
                 "type": "iq"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "name": "驯兽",
+        "tags": [
+            "动物"
+        ]
     },
     "32d8672c-58c7-4a54-89ae-75aa43b593f6": {
         "defaults": [
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "name": "驯兽",
+        "tags": [
+            "动物"
+        ],
+        "specialization": "大型猫科动物"
     },
     "619a9eff-d493-43cf-92d1-e13d4f25bc2d": {
         "defaults": [
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "name": "驯兽",
+        "tags": [
+            "动物"
+        ],
+        "specialization": "犬类"
     },
     "4f4abc5e-8ede-46ef-9179-9a03f3a1276c": {
         "defaults": [
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "name": "驯兽",
+        "tags": [
+            "动物"
+        ],
+        "specialization": "马科动物"
     },
     "a57a94c6-5bed-447c-b6f0-6a4078630161": {
         "defaults": [
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "name": "驯兽",
+        "tags": [
+            "动物"
+        ],
+        "specialization": "猛禽"
     },
     "221f5c1e-4801-48b6-9253-bc9214cf3957": {
         "specialization": "@种类@",
@@ -204,11 +236,19 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "古生物学",
+                "specialization": "古人类学"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "社会学"
             }
+        ],
+        "name": "人类学",
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "4533d744-d558-4ac2-974f-f0590388b94b": {
@@ -224,15 +264,22 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "空中杂技"
             }
-        ]
+        ],
+        "name": "水上杂技"
     },
     "b2f7e149-5c11-481e-97c6-c23415ae833f": {
         "defaults": [
             {
                 "type": "iq"
             }
+        ],
+        "name": "考古学",
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "0de28e50-c231-4dcc-b86e-dc6d4e35b241": {
@@ -241,8 +288,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学",
+                "specialization": "民间工程"
             }
+        ],
+        "name": "建筑学",
+        "tags": [
+            "设计",
+            "发明"
         ]
     },
     "04ecb3d2-62cd-4cbb-9407-0380e9b41d93": {
@@ -252,9 +306,16 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@男爵领、伯爵领、公爵领或小国@；居住地"
     },
     "e8f8d8d0-ac96-404d-993c-16bff6c1c1d5": {
         "defaults": [
@@ -263,9 +324,16 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@城市@；居住地"
     },
     "1ed9d73d-5134-4245-b2b2-d07851b8d7ff": {
         "defaults": [
@@ -274,9 +342,16 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "name": "地域知识",
+        "specialization": "@星系@；居住地"
     },
     "ec5ceb43-b585-4341-a88e-464b7262f43b": {
         "defaults": [
@@ -285,9 +360,16 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@行星际国家@；居住地"
     },
     "0f16533f-7df0-4d26-9448-1d59ff8dc8d3": {
         "defaults": [
@@ -296,9 +378,16 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@大国@；居住地"
     },
     "0e75293e-e099-42cf-b863-eb74ead31e04": {
         "defaults": [
@@ -307,9 +396,16 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@星球@；居住地"
     },
     "1745cbce-34b7-424a-8286-d7aa61806f14": {
         "defaults": [
@@ -318,9 +414,16 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@村镇@；居住地"
     },
     "90c13803-6b7a-456f-ab6d-187b85c189ac": {
         "defaults": [
@@ -329,9 +432,16 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@邻域@；居住地"
     },
     "ba342e1b-0d81-4ba4-86fb-09b9b45ba08f": {
         "defaults": [
@@ -340,9 +450,16 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@村庄或城镇@；居住地"
     },
     "47c7fba4-7b7f-44ab-84c9-ae2efc9645e1": {
         "defaults": [
@@ -350,8 +467,13 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
+        ],
+        "name": "军械修造",
+        "tags": [
+            "维护"
         ]
     },
     "4ae61866-c3b3-4c48-bb72-513962af9fbe": {
@@ -360,7 +482,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
         ]
     },
@@ -370,7 +493,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
         ]
     },
@@ -380,7 +504,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
         ]
     },
@@ -390,7 +515,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
         ]
     },
@@ -400,7 +526,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
         ]
     },
@@ -410,7 +537,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
         ]
     },
@@ -420,7 +548,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
         ]
     },
@@ -430,7 +559,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
         ]
     },
@@ -537,7 +667,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "建筑学"
             },
             {
                 "type": "skill"
@@ -588,7 +719,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "建筑学"
             },
             {
                 "type": "skill"
@@ -635,6 +767,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "88c17f64-d52b-4db8-ace5-9efe1832b4b5": {
@@ -731,7 +866,8 @@
     },
     "2aa537ca-e37d-4326-a97f-6772a6c834a6": {
         "tags": [
-            "运动"
+            "运动",
+            "载具"
         ],
         "defaults": [
             {
@@ -751,7 +887,10 @@
                 "type": "skill"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "自然科学"
+        ]
     },
     "356d30ff-a3ae-4f5d-9dbd-250550b71cf0": {
         "defaults": [
@@ -761,6 +900,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "fd19f2e0-c081-435c-9d22-dcbc1610ffc7": {
@@ -771,6 +913,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "d7ffc62a-76a9-4ac7-9ac3-6cf419e2588e": {
@@ -781,6 +926,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "9bb7f7ec-c528-41cf-afe1-2cfeff661fa9": {
@@ -791,6 +939,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "e7ff4266-50b9-402a-9321-95010c8770c7": {
@@ -801,6 +952,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "43c0587f-f9d7-49e6-9979-cbc99c16c2d8": {
@@ -811,6 +965,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "492bde6a-c2a1-401e-8273-8ca866e88041": {
@@ -821,6 +978,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "3a8e27c6-797e-4a8a-b94f-010d67622bcb": {
@@ -831,6 +991,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "eab457cc-6643-4c12-ac38-888806166121": {
@@ -841,6 +1004,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "7fba485e-7e45-4a8b-939e-72f64ddcc516": {
@@ -851,6 +1017,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "bcb969db-f829-482d-8470-61267336065a": {
@@ -861,6 +1030,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "e13aed2c-b4e8-4b97-b848-72d9e68f033a": {
@@ -871,6 +1043,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "67754c72-72d5-42eb-82cc-3eddd94dfbd3": {
@@ -881,6 +1056,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "9d329733-df88-46fc-a2b9-761ecd0a2388": {
@@ -910,6 +1088,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "04c19de7-2c8e-45ea-83bc-bee18ce9aeb3": {
@@ -932,6 +1113,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "062a6197-cdc6-42b6-8cf1-3cbf39b9f552": {
@@ -951,6 +1135,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "eb904641-abf0-456f-8c10-7a19d6dd49f2": {
@@ -970,6 +1157,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "8f8cc895-147a-48fb-9e12-41222e5efb8f": {
@@ -989,6 +1179,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "cb7bffc2-b5d3-4e4d-8a23-93ae3e62f50f": {
@@ -1071,7 +1264,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             },
             {
                 "name": "数学",
@@ -1080,6 +1274,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            null,
+            "人文学科",
+            null,
+            "社会科学"
         ]
     },
     "cd5e2159-7b03-470d-9780-2d84683da983": {
@@ -1088,8 +1288,12 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炼金术"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "d3f76fd0-2dee-4a41-b37d-14d28097b284": {
@@ -1216,13 +1420,16 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "常识"
         ]
     },
     "6652604d-e61f-4270-bb67-7f4ee428bde4": {
         "tags": [
             null,
             null,
-            null,
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1235,7 +1442,7 @@
         "tags": [
             null,
             null,
-            null,
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1262,7 +1469,7 @@
         "tags": [
             null,
             null,
-            null,
+            "知识",
             "社会"
         ]
     },
@@ -1270,7 +1477,7 @@
         "tags": [
             null,
             null,
-            null,
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1283,7 +1490,7 @@
         "tags": [
             null,
             null,
-            null,
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1300,6 +1507,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "常识"
         ]
     },
     "efa864f7-30c5-47b5-be4a-48213f3f17a7": {
@@ -1320,6 +1530,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "人文学科",
+            null,
+            "社会科学"
         ]
     },
     "176ec872-08b8-4137-9238-6d976c491329": {
@@ -1356,8 +1571,8 @@
     "b1a2ac51-c172-41c4-b25c-19cc2463a277": {
         "tags": [
             "商业",
-            null,
-            null,
+            "常识",
+            "知识",
             "社会"
         ],
         "specialization": "商业",
@@ -1375,8 +1590,8 @@
     },
     "21c3a94d-6e8c-4b22-b68a-fce5b6bd8825": {
         "tags": [
-            null,
-            null,
+            "常识",
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1395,8 +1610,8 @@
         "tags": [
             null,
             null,
-            null,
-            null,
+            "常识",
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1413,8 +1628,8 @@
     },
     "b4c02db6-607f-460b-aec3-5bb75b93d331": {
         "tags": [
-            null,
-            null,
+            "常识",
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1431,8 +1646,8 @@
     },
     "0cc73fb4-8f58-4604-809a-d1831a3607e7": {
         "tags": [
-            null,
-            null,
+            "常识",
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1451,8 +1666,8 @@
         "tags": [
             null,
             null,
-            null,
-            null,
+            "常识",
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1469,8 +1684,8 @@
     },
     "d090f515-b83e-46f4-88b7-d22148d697a6": {
         "tags": [
-            null,
-            null,
+            "常识",
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1487,8 +1702,8 @@
     },
     "5414376d-0309-4d99-951b-f08c80b64717": {
         "tags": [
-            null,
-            null,
+            "常识",
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1505,8 +1720,8 @@
     },
     "73a8889d-44be-4cb1-83e0-4f7babe3f542": {
         "tags": [
-            null,
-            null,
+            "常识",
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1523,8 +1738,8 @@
     },
     "4100be7a-ac0b-40a0-90bc-7a13be9bae67": {
         "tags": [
-            null,
-            null,
+            "常识",
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -1641,6 +1856,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "3d6c88af-3abe-4db0-8124-b54f24fac5d2": {
@@ -1657,6 +1875,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "6e415bd7-1efb-462b-b73c-df9f555536ac": {
@@ -1670,6 +1891,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "019f9efb-dc93-4c48-958e-cc21f8423f17": {
@@ -1686,6 +1910,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "578215d7-6553-41d4-be2b-c0019b539485": {
@@ -1702,6 +1929,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "1c829d92-c328-4954-9916-cce46f4822d9": {
@@ -1715,6 +1945,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "ed17f9c1-26e6-44bc-ac02-9e74270d12e9": {
@@ -1728,6 +1961,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "2629f5eb-e049-4339-9ebe-4c256e156655": {
@@ -1744,6 +1980,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "951f76f7-f178-40c3-a759-ca5190dc659c": {
@@ -1760,6 +1999,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "9048ee24-b3f2-4a8f-afe1-1524d4ea3680": {
@@ -1778,7 +2020,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
         ]
     },
@@ -1794,7 +2037,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
         ]
     },
@@ -1810,7 +2054,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
         ]
     },
@@ -1827,7 +2072,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -1843,7 +2089,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -1859,7 +2106,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -1875,7 +2123,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -1891,7 +2140,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -1907,7 +2157,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -1923,7 +2174,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -1939,7 +2191,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -1959,7 +2212,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -1975,7 +2229,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -1991,7 +2246,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2011,7 +2267,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2027,7 +2284,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2043,7 +2301,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2059,7 +2318,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2075,7 +2335,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2091,7 +2352,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2107,7 +2369,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2123,7 +2386,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2139,7 +2403,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2155,7 +2420,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2171,7 +2437,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2187,7 +2454,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2203,7 +2471,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2219,7 +2488,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2235,7 +2505,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2251,7 +2522,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2267,7 +2539,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2283,7 +2556,8 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2320,7 +2594,7 @@
     },
     "e682942c-afef-4dd6-b210-269b71f375ff": {
         "tags": [
-            null,
+            "知识",
             null,
             "间谍"
         ]
@@ -2331,10 +2605,12 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2351,10 +2627,12 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -2422,8 +2700,13 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "驯兽",
+                "specialization": "猛禽"
             }
+        ],
+        "tags": [
+            "动物"
         ]
     },
     "00f2fcb1-86ab-4bf9-b6c3-a0ee1ded0af9": {
@@ -2486,6 +2769,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "常识"
         ]
     },
     "ddba4fcd-c6bf-4166-94fd-cd98d7f36c68": {
@@ -2697,6 +2983,10 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            null,
+            "载具"
         ]
     },
     "4f3a508f-e1f1-4c0f-88c2-78bf0a4b02f1": {
@@ -2721,7 +3011,10 @@
                 "type": "iq"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "知识"
+        ]
     },
     "3f1d07fc-4e5c-43c0-b5f0-a1185e075dc2": {
         "defaults": [
@@ -2735,8 +3028,14 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             }
+        ],
+        "name": "地理学",
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "7abb7e86-030a-482a-a675-3622d7922326": {
@@ -2751,8 +3050,14 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             }
+        ],
+        "name": "地理学",
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "3684a6ee-6397-4280-8cad-d0aa45730811": {
@@ -2767,8 +3072,14 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             }
+        ],
+        "name": "地理学",
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "7773ae95-34ab-4683-807d-36a398dae7b3": {
@@ -2783,8 +3094,14 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             }
+        ],
+        "name": "地理学",
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "90e60450-fa4f-4875-b5df-f2ddac1ab5a4": {
@@ -2799,8 +3116,14 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             }
+        ],
+        "name": "地理学",
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "bf3f2f22-03a5-4fea-822e-625d6cde28d6": {
@@ -2812,8 +3135,14 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             }
+        ],
+        "name": "地理学",
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "334464b6-cd70-4185-bd3f-7e5c7287ff1f": {
@@ -2822,11 +3151,18 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地域知识"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             }
+        ],
+        "name": "地理学",
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "614a5968-56a2-411a-a035-28d73360a43a": {
@@ -2835,11 +3171,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "dd0e0b73-89cc-4e2d-ad7b-5ed365c50cda": {
@@ -2848,11 +3188,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "17d9b67c-3ad3-48f1-be2c-33b3971f717f": {
@@ -2861,11 +3205,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "8b51b775-0632-4028-9dd2-67ea30c67f69": {
@@ -2874,11 +3222,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "80ba59e0-fc04-43aa-bf4c-8d6793cc12bc": {
@@ -2887,11 +3239,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "f778360d-b3e6-41ec-b313-d157240144c6": {
@@ -2900,11 +3256,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "63b5a6b3-3fc1-48d0-ac28-067b85968961": {
@@ -2913,11 +3273,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "23669f29-65d1-4749-8d09-c8729950b030": {
@@ -3426,6 +3790,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "常识"
         ]
     },
     "69f0c1d8-5ee6-40c5-88f1-f1427301ab41": {
@@ -3459,7 +3826,10 @@
     },
     "f56b6d1b-0d91-49c5-957e-c13e4890e2df": {
         "tags": [
-            "商业"
+            "商业",
+            "人文学科",
+            null,
+            "社会科学"
         ],
         "defaults": [
             {
@@ -3519,6 +3889,11 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "人文学科",
+            null,
+            "社会科学"
         ]
     },
     "eecd33cc-64dc-4b4f-98b0-6bcbff71519b": {
@@ -3609,8 +3984,12 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "63e635d3-6f90-488d-91e9-d4f319da6819": {
@@ -3622,6 +4001,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "d0d25798-c30b-4eef-9116-c7e9a4449b77": {
@@ -3630,7 +4012,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3646,7 +4029,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3662,7 +4046,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3678,7 +4063,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3694,7 +4080,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3710,7 +4097,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3726,7 +4114,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3742,7 +4131,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3758,7 +4148,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3774,7 +4165,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3790,7 +4182,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3806,7 +4199,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3822,7 +4216,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3838,7 +4233,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3854,7 +4250,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3870,7 +4267,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3886,7 +4284,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3902,7 +4301,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3918,7 +4318,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3934,7 +4335,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3950,7 +4352,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3966,7 +4369,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3982,7 +4386,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -3998,7 +4403,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4014,7 +4420,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4030,7 +4437,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4046,7 +4454,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4062,7 +4471,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4078,7 +4488,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4094,7 +4505,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4110,7 +4522,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4126,7 +4539,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4142,7 +4556,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4158,7 +4573,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4174,7 +4590,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4190,7 +4607,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4206,7 +4624,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4222,7 +4641,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4238,7 +4658,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4254,7 +4675,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4270,7 +4692,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4286,7 +4709,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4302,7 +4726,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4318,7 +4743,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4334,7 +4760,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "工程学"
             },
             {
                 "type": "skill"
@@ -4349,6 +4776,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "00d58bca-1157-4954-a97b-2f8454b68c2e": {
@@ -4356,6 +4786,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "3d9d0af0-6efe-461d-99ee-0b5dbc701fb8": {
@@ -4363,6 +4796,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "2f239bed-aa1c-4682-b3c0-7be6cabdb55d": {
@@ -4370,6 +4806,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "268cd464-733e-4b13-9b49-9573edc67095": {
@@ -4377,6 +4816,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "0e9ac394-1b28-42fe-b267-83d12ddd4142": {
@@ -4384,6 +4826,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "3c8d0069-cace-4215-b3da-9114c6fc050e": {
@@ -4391,6 +4836,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "cdabd227-b62a-434f-9825-da8398b908be": {
@@ -4404,6 +4852,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "动物"
         ]
     },
     "c641e0b7-5e07-4030-a838-79de65a5ed42": {
@@ -4417,6 +4868,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "动物"
         ]
     },
     "4329a391-8394-407b-b0e1-5faa972b0988": {
@@ -4444,7 +4898,7 @@
     },
     "a8e31ee9-7214-4fc0-bfcf-b01261670d1a": {
         "tags": [
-            null,
+            "动物",
             "运动"
         ],
         "defaults": [
@@ -4461,6 +4915,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "动物",
+            null,
+            "自然科学"
         ]
     },
     "ddcebc26-bd21-4c9a-b655-879e2ce004de": {
@@ -4471,6 +4930,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "动物",
+            null,
+            "自然科学"
         ]
     },
     "ec654a94-7f75-4181-a1ab-5cd6cd5ae2c1": {
@@ -4481,6 +4945,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "动物",
+            null,
+            "自然科学"
         ]
     },
     "e377d2fb-bbc5-4e25-9d97-af144993b383": {
@@ -4491,6 +4960,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "动物",
+            null,
+            "自然科学"
         ]
     },
     "fe90b4b8-80fe-4357-a1a5-473767dffa22": {
@@ -4501,6 +4975,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "动物",
+            null,
+            "自然科学"
         ]
     },
     "eb867cfe-e117-4a4e-9146-6f62fd6301c9": {
@@ -4511,6 +4990,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "动物",
+            null,
+            "自然科学"
         ]
     },
     "2a386327-3aa3-4be9-bd86-5257b1b23bb6": {
@@ -4525,6 +5009,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            null,
+            null,
+            null,
+            "载具"
         ]
     },
     "720f2ca7-3e5c-48e2-a579-8df0004c0677": {
@@ -4548,6 +5038,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            null,
+            null,
+            null,
+            "载具"
         ]
     },
     "9f72d18a-dd46-4b99-be6d-4b39471c1492": {
@@ -4562,6 +5058,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            null,
+            null,
+            null,
+            "载具"
         ]
     },
     "10fc2f37-4015-40c4-ab44-2ba422d24af4": {
@@ -4599,6 +5101,10 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "魔法",
+            "神秘学"
         ]
     },
     "c33659da-04d3-4749-8892-c01774fa87c5": {
@@ -4659,6 +5165,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "设计",
+            "发明"
         ]
     },
     "451592bd-ae7d-4422-bb17-00a53ecb289b": {
@@ -4672,6 +5182,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "设计",
+            "发明"
         ]
     },
     "5821d810-3323-4025-b7f1-58ea8b585d05": {
@@ -4707,6 +5221,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "a24b3308-9df9-4d79-9d7d-97a85bf3a613": {
@@ -4714,6 +5231,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "448ad231-084c-4382-96f2-4ecac284c290": {
@@ -4731,7 +5251,11 @@
                 "type": "skill"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            null,
+            "自然科学"
+        ]
     },
     "4ac89942-341e-4ae7-bcbd-3c651d4c4fb7": {
         "defaults": [
@@ -4757,6 +5281,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "54bb7b61-087b-41f2-b1d1-bfb28d41c719": {
@@ -4770,6 +5297,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "b7661c7f-fa7e-4069-b270-ea1a646baf6b": {
@@ -4792,6 +5322,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "f5c0ffc8-43b4-4893-a9b8-8f74a14e27f8": {
@@ -4805,6 +5338,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "26cd4d0a-91d8-402f-8ce3-77c54032e88e": {
@@ -4818,6 +5354,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "fcffd13b-7314-4e98-ace5-3e01247868f3": {
@@ -4834,6 +5373,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "f3dad1a0-7b7b-4d8e-8c6e-580aa1c8e9e3": {
@@ -4850,6 +5392,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "e898a836-81af-4b45-a630-11083f3d2003": {
@@ -4866,6 +5411,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "c98a723d-07f9-49c4-b4d7-1e3bfddc4327": {
@@ -4885,6 +5433,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "e0837464-8bf0-4e1c-9a84-7f055af79c15": {
@@ -4898,6 +5449,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "bbf29bb6-2cc7-436a-8409-5fde927151f0": {
@@ -4920,6 +5474,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "cb519c2e-c95d-46e0-b449-3412e2453a0d": {
@@ -4930,6 +5487,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "21e08783-73a4-4b74-aad9-4089efd27d96": {
@@ -4940,6 +5500,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "4b032337-5218-42b6-ae72-a70d6a65a0bc": {
@@ -4950,6 +5513,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "86089029-d85d-46f4-9591-82abe883bfbd": {
@@ -4963,6 +5529,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "d29d4e54-8546-4898-8618-ee5dd900fe50": {
@@ -4985,6 +5554,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "c7d0ac10-ca4d-42a4-a627-4e2e2c6f27b2": {
@@ -5001,6 +5573,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "fb734a1f-4f7d-416e-adf1-c7970bf4a0a3": {
@@ -5069,6 +5644,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "知识"
         ]
     },
     "86bfe6b2-f397-4042-89d4-52b32944e65b": {
@@ -5076,6 +5654,9 @@
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "知识"
         ]
     },
     "6f779ab3-a371-4720-9dce-4dc0735d96a1": {
@@ -5162,10 +5743,14 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "驯兽"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "动物"
+        ]
     },
     "04809d9e-e602-49d0-b292-8cabdd8ba8be": {
         "defaults": [
@@ -5173,8 +5758,12 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "驯兽"
             }
+        ],
+        "tags": [
+            "动物"
         ]
     },
     "314aecc0-678d-4643-ac53-4c677d44028b": {
@@ -5183,8 +5772,12 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "驯兽"
             }
+        ],
+        "tags": [
+            "动物"
         ]
     },
     "bcb9aa90-e7a2-4c81-958e-e31ef39f4872": {
@@ -5193,8 +5786,12 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "驯兽"
             }
+        ],
+        "tags": [
+            "动物"
         ]
     },
     "98b400b8-aac8-4d1a-bf8c-fcf97563a65e": {
@@ -5203,9 +5800,15 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "驯兽",
+                "specialization": "马科动物"
             }
-        ]
+        ],
+        "tags": [
+            "动物"
+        ],
+        "specialization": "马科动物"
     },
     "fe0d380f-b4d1-4060-8ecb-ca4d46289227": {
         "tags": [
@@ -5241,7 +5844,7 @@
     },
     "af2df472-95c1-4af2-8630-ffbb56ea1b50": {
         "tags": [
-            null,
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -5255,7 +5858,7 @@
     },
     "7ee1d21e-0e88-4f9a-9a09-1912d369b0aa": {
         "tags": [
-            null,
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -5270,7 +5873,7 @@
     "d4735921-475e-447a-9a5a-988a79a4fc9f": {
         "tags": [
             "商业",
-            null,
+            "知识",
             "社会"
         ],
         "defaults": [
@@ -5333,11 +5936,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞艇乘务员"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "3d86d5a1-6b70-4040-a032-b2ee76db5d22": {
@@ -5346,11 +5953,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞艇乘务员"
             },
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "cfa1a121-65ae-4f25-8190-bf36fa5acc5c": {
@@ -5367,6 +5978,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "f32a12ed-0138-4cc6-89bb-606cc95eb47c": {
@@ -5383,6 +5997,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "422ad2e6-41f5-46b7-a8e4-4482e6f929b2": {
@@ -5399,6 +6016,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "f9c091d1-9932-4394-be3d-e23bccc1216e": {
@@ -5412,6 +6032,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "1c79adb7-47b3-4c1c-b980-7c5c10437cbc": {
@@ -5531,6 +6154,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "name": "社会学",
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "5ad19245-fa25-46a3-a958-bc20918b54b5": {
@@ -5545,6 +6173,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "10cd25e3-b006-45c9-803d-f0c8310e3dc2": {
@@ -5690,6 +6321,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "66268375-578a-4b6e-91b5-c45fdde352a3": {
@@ -5703,6 +6337,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "d68d8381-7168-48b7-b419-6744871f369f": {
@@ -5713,6 +6350,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "e11004d1-ef48-464f-888a-7146560a579e": {
@@ -5720,6 +6360,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "ca2a4b51-514e-4095-8fb8-0f5ec0f3e975": {
@@ -5754,18 +6397,30 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "驯兽",
+                "specialization": "马科动物"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "马科动物"
             }
-        ]
+        ],
+        "tags": [
+            "动物",
+            "载具"
+        ],
+        "specialization": "马科动物"
     },
     "69cdfa23-3d48-498f-8443-73a156765878": {
         "defaults": [
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "魔法",
+            "神秘学"
         ]
     },
     "39ffc1e8-f487-4431-b271-332944e2b1ba": {
@@ -5778,7 +6433,11 @@
                 "specialization": "@分支@"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "人文学科",
+            "社会科学"
+        ]
     },
     "f320e945-5889-4a76-8230-2d04b8ea500c": {
         "tags": [
@@ -5913,6 +6572,9 @@
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "常识"
         ]
     },
     "5486e8c3-07ca-4c5e-8b95-d871d0da7774": {
@@ -5936,6 +6598,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "常识"
         ]
     },
     "5958e876-f40a-4ca7-b4f9-594acb38b8f2": {
@@ -5965,73 +6630,136 @@
         "defaults": [
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@男爵领、伯爵领、公爵领或小国@"
     },
     "962be5d6-018a-437c-9a13-e90a9ea582ed": {
         "defaults": [
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@城市@"
     },
     "9f2e00ff-f9b3-4f41-9bef-41ca5814b567": {
         "defaults": [
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@星系@"
     },
     "fc1277df-ae0e-4e0e-9379-4bbeb6662311": {
         "defaults": [
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@行星际国家@"
     },
     "06cf58b5-f83c-4735-acba-9f4a27387be8": {
         "defaults": [
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@大国@"
     },
     "40b13bc3-2749-45e3-aa0c-11ca50d40544": {
         "defaults": [
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "name": "地域知识",
+        "specialization": "@星球@"
     },
     "f1f79e57-b16a-4758-b0f2-92709825b13a": {
         "defaults": [
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@村镇@"
     },
     "ef67bb62-f53a-4ae8-9f84-452cbe9741b9": {
         "defaults": [
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@邻域@"
     },
     "12d8d9f0-f132-4082-8662-2e4061a76338": {
         "defaults": [
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "地理学"
             }
-        ]
+        ],
+        "name": "地域知识",
+        "tags": [
+            "常识",
+            "知识"
+        ],
+        "specialization": "@村庄或城镇@"
     },
     "ce46224f-66d8-473b-8a92-2d4ae36f88c9": {
         "defaults": [
@@ -6081,7 +6809,11 @@
                 "type": "skill"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "设计",
+            "发明"
+        ]
     },
     "419cc504-8dda-4e16-8e28-0ed3f09a451b": {
         "defaults": [
@@ -6091,6 +6823,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "设计",
+            "发明"
         ]
     },
     "33039f94-b0e8-4949-acc4-39bff04dae44": {
@@ -6101,6 +6837,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "设计",
+            "发明"
         ]
     },
     "fb0231de-d309-42e5-a1a6-00ba9e6d108c": {
@@ -6111,6 +6851,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "设计",
+            "发明"
         ]
     },
     "1f5a7e28-59e3-4a14-9b68-5416c8b0b1c2": {
@@ -6131,7 +6875,7 @@
         "tags": [
             null,
             null,
-            null,
+            "知识",
             "社会"
         ]
     },
@@ -6144,7 +6888,10 @@
                 "type": "skill"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "常识"
+        ]
     },
     "8e8d9e49-a5c3-4760-ad83-b67115fc4fcb": {
         "defaults": [
@@ -6154,6 +6901,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "常识"
         ]
     },
     "e292d726-94fc-4555-a594-30014f346566": {
@@ -6164,6 +6914,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "常识"
         ]
     },
     "daf113af-2a6d-41c8-926a-a30e8bbc2cc2": {
@@ -6192,8 +6945,8 @@
         ],
         "tags": [
             "商业",
-            null,
-            null,
+            "常识",
+            "知识",
             "社会"
         ]
     },
@@ -6208,6 +6961,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "7b577590-470b-4570-8030-c484b3bc722a": {
@@ -6215,6 +6971,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "ec696a9f-280b-4e6e-986d-222c6c0982ae": {
@@ -6222,27 +6984,53 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
+        ],
+        "name": "工程学"
     },
     "f61be6fa-9f8e-4c37-bb09-9b80458ea431": {
         "defaults": [
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "0f1bc453-28b4-445d-ab46-bd89afdde29c": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "建筑学"
             }
-        ]
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
+        ],
+        "specialization": "民间工程"
     },
     "85ba1ab0-55ad-4b0b-afa6-48bae2443b89": {
         "defaults": [
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "b5678611-06f8-416d-8782-0f691e5bca10": {
@@ -6250,13 +7038,25 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
+        ],
+        "name": "工程学"
     },
     "78dff7f2-b6e9-4547-88ac-2e72c2e30022": {
         "defaults": [
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "8820d779-7d28-4096-bece-4be85077955d": {
@@ -6264,6 +7064,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "c0c61ffa-13d5-46aa-a50b-9376a1b29212": {
@@ -6274,6 +7080,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "7bfc01aa-d972-417c-bdcb-a1aa4d4a5d24": {
@@ -6281,6 +7093,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "fb51302a-55f7-459d-b99b-0fb9ce69b7ed": {
@@ -6291,6 +7109,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "a7c63fa4-6580-482d-a41b-2b152f94195d": {
@@ -6298,13 +7122,25 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
+        ],
+        "name": "工程学"
     },
     "4ffcf2f2-973f-4a56-a653-642ab1e28562": {
         "defaults": [
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "16b088ad-1c32-436c-9056-12d88ce1aab2": {
@@ -6312,6 +7148,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "566cc8a8-da9a-49b2-a114-a709efd93b85": {
@@ -6319,6 +7161,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "a13cb487-67a4-43bd-8c3d-cee1bd432016": {
@@ -6326,6 +7174,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "b9579d78-0f48-4330-b036-efccdf7b9251": {
@@ -6333,13 +7187,25 @@
             {
                 "type": "skill"
             }
-        ]
+        ],
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
+        ],
+        "name": "工程学"
     },
     "9b08f583-31b7-4a46-8509-72b2eaceb9c5": {
         "defaults": [
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "8b013d1a-cbd4-4df3-8b54-0517395b0d19": {
@@ -6347,6 +7213,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "name": "工程学",
+        "tags": [
+            "设计",
+            "工程学",
+            "发明"
         ]
     },
     "faf69551-b1f9-4b8d-b131-f4ac70e84632": {
@@ -6361,6 +7233,10 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "魔法",
+            "神秘学"
         ]
     },
     "17f787c3-f144-4ef8-abad-c4b8f20b10eb": {
@@ -6401,8 +7277,14 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             }
+        ],
+        "name": "地理学",
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "73a8b672-c833-484f-a5c6-a61678ee5ab4": {
@@ -6417,8 +7299,14 @@
                 "type": "skill"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地理学"
             }
+        ],
+        "name": "地理学",
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "18423001-3dc2-4fe9-8ea1-c044d2ceb835": {
@@ -6441,7 +7329,7 @@
             }
         ],
         "tags": [
-            null,
+            "知识",
             "社会"
         ]
     },
@@ -6488,7 +7376,10 @@
                 "type": "skill"
             }
         ],
-        "name": "数学"
+        "name": "数学",
+        "tags": [
+            "自然科学"
+        ]
     },
     "c5b71113-497a-46f7-8eb9-bb7cfaeafef1": {
         "defaults": [
@@ -6502,7 +7393,10 @@
                 "type": "skill"
             }
         ],
-        "name": "数学"
+        "name": "数学",
+        "tags": [
+            "自然科学"
+        ]
     },
     "04a46783-4fc5-43ce-8263-596741d2d09a": {
         "defaults": [
@@ -6523,6 +7417,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "740ecd20-37a4-4ec9-9554-e7bb17b6185d": {
@@ -6565,6 +7462,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "动物",
+            null,
+            "自然科学"
         ]
     },
     "ffc31a5c-29b8-458e-af84-5caa44dc6223": {
@@ -6578,6 +7480,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            null,
+            null,
+            null,
+            "载具"
         ]
     },
     "7a6e6a40-e100-44e2-bcac-b647cb5ef00e": {
@@ -6591,6 +7499,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            null,
+            null,
+            null,
+            "载具"
         ]
     },
     "dd837426-37fe-4bc5-9686-bdbdef4d1167": {
@@ -6607,6 +7521,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            null,
+            null,
+            null,
+            "载具"
         ]
     },
     "608aa38e-cb2e-4fb8-8ef9-78301f0a175d": {
@@ -6622,8 +7542,13 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "驯兽",
+                "specialization": "马科动物"
             }
+        ],
+        "tags": [
+            "动物"
         ]
     },
     "624c02af-5097-41f3-b450-6b8886768117": {
@@ -6634,6 +7559,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "人文学科",
+            "自然科学",
+            "社会科学"
         ]
     },
     "20cefb79-99b6-4cd7-9468-03f25f5e5927": {
@@ -6647,6 +7577,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "人文学科",
+            "自然科学",
+            "社会科学"
         ]
     },
     "be1e4557-5f96-467a-8e05-69956d203dd0": {
@@ -6657,6 +7592,12 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "人文学科",
+            "自然科学",
+            null,
+            "社会科学"
         ]
     },
     "11099641-9cc7-412e-ae8a-450308377bd5": {
@@ -6667,6 +7608,11 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "人文学科",
+            "自然科学",
+            "社会科学"
         ]
     },
     "64876eb9-51c4-4c2c-a137-8f6407fc42c5": {
@@ -6685,8 +7631,13 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "社会学"
             }
+        ],
+        "tags": [
+            "人文学科",
+            "社会科学"
         ]
     },
     "abfeb97c-559b-4495-ae97-83d42ed5bfa5": {
@@ -6700,7 +7651,11 @@
                 "specialization": "@分支@"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "魔法",
+            "神秘学"
+        ]
     },
     "ef86a4c1-fede-4ea4-917f-2298868ee8f5": {
         "defaults": [
@@ -6708,7 +7663,11 @@
                 "type": "skill"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "魔法",
+            "神秘学"
+        ]
     },
     "d3e1e3ee-7d19-4297-88fb-0d44f214d46b": {
         "defaults": [
@@ -6721,7 +7680,7 @@
         ],
         "tags": [
             null,
-            null,
+            "知识",
             "社会"
         ]
     },
@@ -6735,8 +7694,8 @@
             }
         ],
         "tags": [
-            null,
-            null,
+            "常识",
+            "知识",
             "社会"
         ]
     },
@@ -7361,7 +8320,8 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "驯兽"
             },
             {
                 "type": "skill",
@@ -7371,7 +8331,11 @@
                 "type": "skill"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "动物",
+            "载具"
+        ]
     },
     "03c37fe1-5c72-4598-9c0d-d9c183ecf8ed": {
         "defaults": [
@@ -7384,7 +8348,8 @@
     "7ee6a241-8276-4e2c-a429-b58299ffae8d": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "驯兽"
             },
             {
                 "type": "skill"
@@ -7392,6 +8357,9 @@
             {
                 "type": "skill"
             }
+        ],
+        "tags": [
+            "动物"
         ]
     },
     "55ae8741-a271-472c-99cf-0d906fcb4329": {
@@ -7471,7 +8439,8 @@
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "specialization": "魔法"
     },
     "8ec6f570-4710-48c2-9ae6-fd7e4fcfa958": {
         "defaults": [
@@ -7493,13 +8462,20 @@
                 "type": "iq"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "人文学科",
+            "社会科学"
+        ]
     },
     "0a12a63f-4ac1-419d-9386-068826769d2a": {
         "defaults": [
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "知识"
         ]
     },
     "091faa0b-a5cf-4ca8-b866-12c8b31116d2": {
@@ -7507,6 +8483,9 @@
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            "知识"
         ]
     },
     "6bc102d3-6132-45b4-a38f-ecf71bf8aa02": {
@@ -7514,6 +8493,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "常识"
         ]
     },
     "f6bea573-7965-4a2d-b3c0-0b61c48b0b47": {
@@ -7539,6 +8521,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "6de40bd4-1c7b-463c-9cdb-c2a0c0625d2e": {
@@ -7547,6 +8532,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "c662a98b-0991-410c-a909-e5b012336530": {
@@ -7556,6 +8544,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "自然科学"
         ]
     },
     "592de936-a826-4a61-ab4f-4927b9f4ad17": {
@@ -7564,11 +8555,15 @@
                 "type": "iq"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "人文学科",
+            "社会科学"
+        ]
     },
     "fb0b45ea-dbba-4b5e-a2e0-428055b39521": {
         "tags": [
-            null,
+            "知识",
             null,
             "社会"
         ],
@@ -7580,7 +8575,7 @@
     },
     "8830eebb-07eb-4ff3-b94e-af6cb8855ad7": {
         "tags": [
-            null,
+            "知识",
             null,
             "社会"
         ],
@@ -7595,6 +8590,9 @@
             {
                 "type": "iq"
             }
+        ],
+        "tags": [
+            "载具"
         ]
     },
     "8aa95f19-17cb-41a1-bcf5-618e28a3a206": {
@@ -7602,6 +8600,10 @@
             {
                 "type": "dx"
             }
+        ],
+        "tags": [
+            null,
+            "常识"
         ]
     },
     "c18ba88d-5495-4e72-a0c0-4f0d4f5ace4d": {
@@ -7635,6 +8637,175 @@
         "specialization": "@分支@"
     },
     "3272d174-0dec-47be-8dc4-ccb61944443e": {
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "tags": [
+            "魔法",
+            "神秘学"
+        ]
+    },
+    "7acae2a3-b4ff-48a8-add0-bd9457ca68a9": {
+        "tags": [
+            "知识"
+        ]
+    },
+    "4f9b8515-a4d8-43d3-86fd-13df3dc10dd1": {
+        "tags": [
+            "人文学科",
+            "知识",
+            null,
+            "社会科学"
+        ]
+    },
+    "73d6ac95-3217-45fd-a11c-1dafb193f095": {
+        "tags": [
+            "知识",
+            null,
+            "自然科学"
+        ]
+    },
+    "7ba0163f-9158-4d07-b349-f646affcbe6f": {
+        "tags": [
+            "知识",
+            "自然科学"
+        ]
+    },
+    "7bee7b50-708f-4557-8736-a68184f980e0": {
+        "tags": [
+            "知识"
+        ]
+    },
+    "8f57b991-44a5-4169-99d0-da759975beec": {
+        "tags": [
+            "人文学科",
+            "知识",
+            null,
+            "社会科学"
+        ]
+    },
+    "710d8588-63ae-4079-9203-21e940241e5d": {
+        "tags": [
+            "知识",
+            "魔法",
+            "神秘学"
+        ]
+    },
+    "56702e70-3094-4d8e-a7df-e175fe0494db": {
+        "tags": [
+            "人文学科",
+            "知识",
+            null,
+            "社会科学"
+        ]
+    },
+    "a352c246-52ad-4a02-9e9e-54f51c19d502": {
+        "tags": [
+            "人文学科",
+            "知识",
+            null,
+            "社会科学"
+        ]
+    },
+    "5b473bf9-daf6-4b6d-a2ea-eff5ba849a8e": {
+        "tags": [
+            "知识"
+        ]
+    },
+    "eaab0cdf-0621-4dce-b25e-6cad8d1672dc": {
+        "tags": [
+            "知识",
+            "魔法",
+            "神秘学"
+        ]
+    },
+    "b893ef1a-929e-48a8-80b3-ea4b27097ba9": {
+        "tags": [
+            "动物"
+        ]
+    },
+    "1c88af23-4607-4448-83e3-ef4e7899d8ff": {
+        "name": "炼金术",
+        "tags": [
+            "魔法",
+            "自然科学",
+            "神秘学"
+        ]
+    },
+    "7b603b5e-9b7a-41fb-87d7-32c3394ff555": {
+        "tags": [
+            "设计",
+            "发明"
+        ]
+    },
+    "10b4c299-ffd0-4806-8519-2e6b7511e6a3": {
+        "tags": [
+            "设计",
+            "发明"
+        ]
+    },
+    "4f638a2e-c995-4228-a25a-fba4042d4c59": {
+        "tags": [
+            "知识",
+            "自然科学"
+        ]
+    },
+    "02f3c1b9-8552-46ec-b1f8-592d39db6b51": {
+        "tags": [
+            "知识"
+        ]
+    },
+    "fa63bf7e-6c58-4121-8e28-7972acae00e3": {
+        "tags": [
+            "知识"
+        ]
+    },
+    "debfaccd-93fd-4913-8032-39e8d9524403": {
+        "tags": [
+            "知识",
+            "魔法",
+            "神秘学"
+        ]
+    },
+    "901f298c-a49d-4d8f-961b-409741f3ec0d": {
+        "tags": [
+            "知识",
+            "魔法",
+            "神秘学"
+        ]
+    },
+    "0bd43d77-6602-4ecb-b064-dbf9d87209ac": {
+        "tags": [
+            "人文学科",
+            "社会科学"
+        ]
+    },
+    "e053e176-d3d5-4d9e-b78b-c63f9902da12": {
+        "tags": [
+            null,
+            "载具"
+        ]
+    },
+    "ea444473-19a5-4066-a4fe-ff6c819e5893": {
+        "tags": [
+            "设计",
+            "发明"
+        ]
+    },
+    "f20dbffa-7d11-4c64-b431-181a046c952c": {
+        "name": "锁臂",
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
+    },
+    "5078f489-8d8b-4ad1-9826-ccdb9623b6cf": {
+        "name": "锁臂",
+        "tags": [
+            "战斗",
+            "近战",
+            "技术",
+            "武器"
+        ]
     }
 }
