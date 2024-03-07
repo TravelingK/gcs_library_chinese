@@ -30,7 +30,7 @@ def outjson(nnskillline,docname):
 
 
 def zh_to_file(shuru_file,type=0):
-    mobanwenjian=re.sub(r"library_chinese/gcs_master_library_en_json","master_library",shuru_file)
+    mobanwenjian=re.sub(r"master_library_en_json","master_library",shuru_file)
     mobanwenjian=re.sub(r"_zh_Hans.json",".skl",mobanwenjian)
     mubiao_file=re.sub(".[a-z]{0,}$","zh.skl",mobanwenjian)
     mubiao_file=re.sub("gcs_master_library","gcs_chinese_library",mobanwenjian)
