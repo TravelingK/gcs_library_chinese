@@ -1615,7 +1615,7 @@
             },
             {
                 "type": "skill",
-                "name": "短剑 Shortsword"
+                "name": "短剑"
             },
             {
                 "type": "skill",
@@ -1741,7 +1741,7 @@
             },
             {
                 "type": "skill",
-                "name": "护盾术 Shield"
+                "name": "盾牌"
             }
         ],
         "tags": [
@@ -2313,7 +2313,7 @@
         ],
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -3485,7 +3485,8 @@
         ],
         "tags": [
             "技术"
-        ]
+        ],
+        "name": "防护服"
     },
     "1593b6fb-3a41-41bb-ade5-0ab82e87a909": {
         "tags": [
@@ -3499,7 +3500,8 @@
                 "name": "杂技",
                 "type": "skill"
             }
-        ]
+        ],
+        "name": "房中术"
     },
     "ed757977-79da-4c0d-9cf0-5c9f4115386e": {
         "defaults": [
@@ -3510,14 +3512,17 @@
         "tags": [
             "犯罪",
             "街头"
-        ]
+        ],
+        "name": "逃脱"
     },
     "e682942c-afef-4dd6-b210-269b71f375ff": {
         "tags": [
             "知识",
             "学校",
             "间谍"
-        ]
+        ],
+        "name": "专家技能",
+        "specialization": "电脑安全"
     },
     "c003527a-2c21-4a9f-b9cc-f8b54377463b": {
         "defaults": [
@@ -3531,20 +3536,25 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "采掘"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "水下爆破",
+                "name": "炸药"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炸药"
             }
         ],
         "specialization": "@分支@",
         "tags": [
             "军事",
             "技术"
-        ]
+        ],
+        "name": "炸药"
     },
     "c1e00b90-9dea-407e-8647-b5984263909b": {
         "defaults": [
@@ -3558,13 +3568,17 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "采掘"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炸药",
+                "specialization": "水下爆破"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炸药"
             }
         ],
         "tags": [
@@ -3572,7 +3586,9 @@
             "军事",
             "街头",
             "技术"
-        ]
+        ],
+        "name": "炸药",
+        "specialization": "爆破"
     },
     "d7be5e6e-7471-431e-a74c-d318581b6957": {
         "defaults": [
@@ -3580,17 +3596,22 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炸药",
+                "specialization": "核军械处理"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炸药"
             }
         ],
         "tags": [
             "军事",
             "警察",
             "技术"
-        ]
+        ],
+        "specialization": "爆炸军械处理",
+        "name": "炸药"
     },
     "c247e658-1c31-4a2d-8cc4-2671d62baf6c": {
         "defaults": [
@@ -3602,13 +3623,16 @@
                 "name": "化学"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炸药"
             }
         ],
         "tags": [
             "军事",
             "技术"
-        ]
+        ],
+        "specialization": "烟火",
+        "name": "炸药"
     },
     "3aeee1b6-2360-4680-9f1f-fec8e98f8aa0": {
         "defaults": [
@@ -3616,16 +3640,21 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炸药",
+                "specialization": "爆炸军械处理"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炸药"
             }
         ],
         "tags": [
             "军事",
             "技术"
-        ]
+        ],
+        "specialization": "核军械处理",
+        "name": "炸药"
     },
     "759f2c78-9030-489f-9c07-4878a9dc1405": {
         "defaults": [
@@ -3633,16 +3662,21 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炸药",
+                "specialization": "爆破"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炸药"
             }
         ],
         "tags": [
             "军事",
             "技术"
-        ]
+        ],
+        "name": "炸药",
+        "specialization": "水下爆破"
     },
     "cd82e46d-9938-4592-ab15-96e7ca95afac": {
         "defaults": [
@@ -3657,7 +3691,8 @@
         ],
         "tags": [
             "动物"
-        ]
+        ],
+        "name": "训鹰"
     },
     "00f2fcb1-86ab-4bf9-b6c3-a0ee1ded0af9": {
         "defaults": [
@@ -3669,12 +3704,14 @@
                 "name": "生物学"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "园艺"
             }
         ],
         "tags": [
             "植物"
-        ]
+        ],
+        "name": "农耕"
     },
     "25d7bbd2-be98-480b-bc6e-5746565c9749": {
         "tags": [
@@ -3691,7 +3728,8 @@
                 "type": "skill",
                 "name": "做戏"
             }
-        ]
+        ],
+        "name": "唬骗"
     },
     "ce4250ba-e60d-4fcd-8e77-c7986e09a0da": {
         "tags": [
@@ -3704,13 +3742,15 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "扒窃"
             },
             {
                 "type": "skill",
                 "name": "巧手"
             }
-        ]
+        ],
+        "name": "偷窃"
     },
     "2856d9a0-b914-4002-8d7b-91f18afd1148": {
         "defaults": [
@@ -3718,7 +3758,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "秘传医术"
             },
             {
                 "type": "skill",
@@ -3745,7 +3786,8 @@
                 "name": "斧/锤"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "双手连枷"
             }
         ],
         "tags": [
@@ -3763,7 +3805,8 @@
             {
                 "type": "ht"
             }
-        ]
+        ],
+        "name": "飞行"
     },
     "63d34890-ba6e-4bd2-b640-c2ac43861339": {
         "defaults": [
@@ -3773,17 +3816,19 @@
             },
             {
                 "type": "skill",
-                "name": "短剑 Shortsword"
+                "name": "短剑"
             },
             {
                 "type": "skill",
                 "name": "双手剑"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "十手/钗"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "短刀"
             },
             {
                 "type": "dx"
@@ -3802,21 +3847,24 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
-            },
-            {
-                "type": "skill"
+                "type": "skill",
+                "name": "锁分铜"
             },
             {
                 "type": "skill",
-                "name": "鞭击Whip"
+                "name": "单分子鞭"
+            },
+            {
+                "type": "skill",
+                "name": "鞭子"
             }
         ],
         "tags": [
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "能量鞭"
     },
     "bd9aaa76-c273-49f3-9cee-3a9714f4388a": {
         "tags": [
@@ -3824,7 +3872,8 @@
             "警察",
             "间谍",
             "街头"
-        ]
+        ],
+        "name": "破门"
     },
     "82abb0ac-2262-46b2-822d-703086db557a": {
         "defaults": [
@@ -3838,7 +3887,8 @@
         ],
         "tags": [
             "警察"
-        ]
+        ],
+        "name": "伪造文书"
     },
     "78471f49-669f-44a2-99c1-4cd1ed83746a": {
         "tags": [
@@ -3866,12 +3916,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "唬骗"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "神秘学"
             }
-        ]
+        ],
+        "name": "预言",
+        "specialization": "占星"
     },
     "216b97e1-b72e-4a41-b58c-2c33860a715d": {
         "tags": [
@@ -3882,12 +3936,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "唬骗"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "神秘学"
             }
-        ]
+        ],
+        "specialization": "占卜",
+        "name": "预言"
     },
     "51b56809-bf5e-46b8-b864-2099b1bcb753": {
         "tags": [
@@ -3898,12 +3956,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "唬骗"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "神秘学"
             }
-        ]
+        ],
+        "specialization": "解梦",
+        "name": "预言"
     },
     "f303ebc1-1b04-4b40-ab83-8050f04bf166": {
         "tags": [
@@ -3914,12 +3976,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "唬骗"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "神秘学"
             }
-        ]
+        ],
+        "specialization": "风水",
+        "name": "预言"
     },
     "a87b31df-2e3e-497e-a532-8bbfd9e02cb8": {
         "tags": [
@@ -3930,12 +3996,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "唬骗"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "神秘学"
             }
-        ]
+        ],
+        "specialization": "手相",
+        "name": "预言"
     },
     "6198dd46-1162-4508-8a75-8cdfe4ad6df5": {
         "tags": [
@@ -3946,12 +4016,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "唬骗"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "神秘学"
             }
-        ]
+        ],
+        "specialization": "塔罗",
+        "name": "预言"
     },
     "aef32c55-0249-4674-a18e-90b929fc623e": {
         "defaults": [
@@ -3965,7 +4039,8 @@
         ],
         "tags": [
             "军事"
-        ]
+        ],
+        "name": "前方观察员"
     },
     "21b938c9-8f3d-41d1-aee6-ff52be66fd99": {
         "tags": [
@@ -3978,7 +4053,8 @@
             {
                 "type": "dx"
             }
-        ]
+        ],
+        "name": "自由落体"
     },
     "5269463d-c4aa-4f80-a5a1-adb0dcc1bc12": {
         "defaults": [
@@ -3989,7 +4065,8 @@
         "tags": [
             "技术",
             "载具"
-        ]
+        ],
+        "name": "装卸"
     },
     "4f3a508f-e1f1-4c0f-88c2-78bf0a4b02f1": {
         "tags": [
@@ -4006,7 +4083,8 @@
                 "specialization": "统计学",
                 "type": "skill"
             }
-        ]
+        ],
+        "name": "赌博"
     },
     "bfabff18-5bc9-4b60-95ef-c9b66d011d08": {
         "defaults": [
@@ -4017,7 +4095,8 @@
         "specialization": "@分支@",
         "tags": [
             "知识"
-        ]
+        ],
+        "name": "游戏"
     },
     "3f1d07fc-4e5c-43c0-b5f0-a1185e075dc2": {
         "defaults": [
@@ -4026,11 +4105,13 @@
             },
             {
                 "type": "skill",
-                "specialization": "气态巨星"
+                "specialization": "气态巨星",
+                "name": "地质学"
             },
             {
                 "type": "skill",
-                "specialization": "气态巨星"
+                "specialization": "气态巨星",
+                "name": "气象学"
             },
             {
                 "type": "skill",
@@ -4041,7 +4122,8 @@
         "tags": [
             "人文学科",
             "社会科学"
-        ]
+        ],
+        "specialization": "物理，气态巨星"
     },
     "7abb7e86-030a-482a-a675-3622d7922326": {
         "defaults": [
@@ -4050,11 +4132,13 @@
             },
             {
                 "type": "skill",
-                "specialization": "危险行星"
+                "specialization": "危险行星",
+                "name": "地质学"
             },
             {
                 "type": "skill",
-                "specialization": "危险行星"
+                "specialization": "危险行星",
+                "name": "气象学"
             },
             {
                 "type": "skill",
@@ -4065,7 +4149,8 @@
         "tags": [
             "人文学科",
             "社会科学"
-        ]
+        ],
+        "specialization": "物理，危险行星"
     },
     "3684a6ee-6397-4280-8cad-d0aa45730811": {
         "defaults": [
@@ -4074,11 +4159,13 @@
             },
             {
                 "type": "skill",
-                "specialization": "冰雪矮行星"
+                "specialization": "冰雪矮行星",
+                "name": "地质学"
             },
             {
                 "type": "skill",
-                "specialization": "冰雪矮行星"
+                "specialization": "冰雪矮行星",
+                "name": "气象学"
             },
             {
                 "type": "skill",
@@ -4089,7 +4176,8 @@
         "tags": [
             "人文学科",
             "社会科学"
-        ]
+        ],
+        "specialization": "物理，冰雪矮行星"
     },
     "7773ae95-34ab-4683-807d-36a398dae7b3": {
         "defaults": [
@@ -4098,11 +4186,13 @@
             },
             {
                 "type": "skill",
-                "specialization": "冰雪世界"
+                "specialization": "冰雪世界",
+                "name": "地质学"
             },
             {
                 "type": "skill",
-                "specialization": "冰雪世界"
+                "specialization": "冰雪世界",
+                "name": "气象学"
             },
             {
                 "type": "skill",
@@ -4113,7 +4203,8 @@
         "tags": [
             "人文学科",
             "社会科学"
-        ]
+        ],
+        "specialization": "物理，冰雪世界"
     },
     "90e60450-fa4f-4875-b5df-f2ddac1ab5a4": {
         "defaults": [
@@ -4122,11 +4213,13 @@
             },
             {
                 "type": "skill",
-                "specialization": "岩石世界"
+                "specialization": "岩石世界",
+                "name": "地质学"
             },
             {
                 "type": "skill",
-                "specialization": "岩石世界"
+                "specialization": "岩石世界",
+                "name": "气象学"
             },
             {
                 "type": "skill",
@@ -4137,7 +4230,8 @@
         "tags": [
             "人文学科",
             "社会科学"
-        ]
+        ],
+        "specialization": "物理，岩石世界"
     },
     "bf3f2f22-03a5-4fea-822e-625d6cde28d6": {
         "defaults": [
@@ -4157,7 +4251,8 @@
         "tags": [
             "人文学科",
             "社会科学"
-        ]
+        ],
+        "specialization": "政治"
     },
     "334464b6-cd70-4185-bd3f-7e5c7287ff1f": {
         "defaults": [
@@ -4187,15 +4282,19 @@
             },
             {
                 "type": "skill",
-                "name": "地理学"
+                "name": "地理学",
+                "specialization": "物理，类地行星"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "探矿"
             }
         ],
         "tags": [
             "自然科学"
-        ]
+        ],
+        "specialization": "@行星类型@",
+        "name": "地质学"
     },
     "dd0e0b73-89cc-4e2d-ad7b-5ed365c50cda": {
         "defaults": [
@@ -4204,16 +4303,19 @@
             },
             {
                 "type": "skill",
-                "name": "地理学"
+                "name": "地理学",
+                "specialization": "政治，类地行星"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "探矿"
             }
         ],
         "tags": [
             "自然科学"
         ],
-        "specialization": "类地行星"
+        "specialization": "类地行星",
+        "name": "地质学"
     },
     "17d9b67c-3ad3-48f1-be2c-33b3971f717f": {
         "defaults": [
@@ -4222,16 +4324,19 @@
             },
             {
                 "type": "skill",
-                "name": "地理学"
+                "name": "地理学",
+                "specialization": "物理，气态巨星"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "探矿"
             }
         ],
         "tags": [
             "自然科学"
         ],
-        "specialization": "气态巨星"
+        "specialization": "气态巨星",
+        "name": "地质学"
     },
     "8b51b775-0632-4028-9dd2-67ea30c67f69": {
         "defaults": [
@@ -4240,16 +4345,19 @@
             },
             {
                 "type": "skill",
-                "name": "地理学"
+                "name": "地理学",
+                "specialization": "物理，危险行星"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "探矿"
             }
         ],
         "tags": [
             "自然科学"
         ],
-        "specialization": "危险行星"
+        "specialization": "危险行星",
+        "name": "地质学"
     },
     "80ba59e0-fc04-43aa-bf4c-8d6793cc12bc": {
         "defaults": [
@@ -4258,16 +4366,19 @@
             },
             {
                 "type": "skill",
-                "name": "地理学"
+                "name": "地理学",
+                "specialization": "物理，冰雪矮行星"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "探矿"
             }
         ],
         "tags": [
             "自然科学"
         ],
-        "specialization": "冰雪矮行星"
+        "specialization": "冰雪矮行星",
+        "name": "地质学"
     },
     "f778360d-b3e6-41ec-b313-d157240144c6": {
         "defaults": [
@@ -4276,16 +4387,19 @@
             },
             {
                 "type": "skill",
-                "name": "地理学"
+                "name": "地理学",
+                "specialization": "物理，冰雪世界"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "探矿"
             }
         ],
         "tags": [
             "自然科学"
         ],
-        "specialization": "冰雪世界"
+        "specialization": "冰雪世界",
+        "name": "地质学"
     },
     "63b5a6b3-3fc1-48d0-ac28-067b85968961": {
         "defaults": [
@@ -4294,16 +4408,19 @@
             },
             {
                 "type": "skill",
-                "name": "地理学"
+                "name": "地理学",
+                "specialization": "物理，岩石世界"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "探矿"
             }
         ],
         "tags": [
             "自然科学"
         ],
-        "specialization": "岩石世界"
+        "specialization": "岩石世界",
+        "name": "地质学"
     },
     "23669f29-65d1-4749-8d09-c8729950b030": {
         "tags": [
@@ -4313,7 +4430,8 @@
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "name": "手势"
     },
     "8c29fac3-ee7f-4dd8-a534-90e06ed553ff": {
         "defaults": [
@@ -4346,7 +4464,8 @@
             "艺术",
             "娱乐"
         ],
-        "name": "团队表演"
+        "name": "团队表演",
+        "specialization": "团体舞"
     },
     "caf08f9d-2491-4f06-8a52-fcc59d6cc2ac": {
         "defaults": [
@@ -4358,7 +4477,8 @@
                 "name": "乐器"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "唱歌"
             }
         ],
         "tags": [
@@ -4382,7 +4502,8 @@
             "艺术",
             "娱乐"
         ],
-        "name": "团队表演"
+        "name": "团队表演",
+        "specialization": "导演"
     },
     "2b98f9b4-b9a9-48aa-8b51-24413ebea483": {
         "defaults": [
@@ -4390,14 +4511,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "武戏"
             }
         ],
         "tags": [
             "艺术",
             "娱乐"
         ],
-        "name": "团队表演"
+        "name": "团队表演",
+        "specialization": "武术表演"
     },
     "45bce77c-1b31-4468-9cbb-36b6ad19d1bc": {
         "defaults": [
@@ -4405,14 +4528,17 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炮手"
             }
         ],
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "name": "炮手",
+        "specialization": "@枪械类型@"
     },
     "169a6cf4-bfb6-4059-8dc7-8dd2f6566c44": {
         "defaults": [
@@ -4420,7 +4546,8 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炮手"
             }
         ],
         "tags": [
@@ -4428,7 +4555,8 @@
             "远程战斗",
             "武器"
         ],
-        "specialization": "光束"
+        "specialization": "光束",
+        "name": "炮手"
     },
     "a688300b-e78b-475a-8def-5a7617258409": {
         "defaults": [
@@ -4436,7 +4564,8 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炮手"
             }
         ],
         "tags": [
@@ -4444,7 +4573,8 @@
             "远程战斗",
             "武器"
         ],
-        "specialization": "加农炮"
+        "specialization": "加农炮",
+        "name": "炮手"
     },
     "7804abe1-22ad-48ff-b759-b2c4939135da": {
         "defaults": [
@@ -4452,7 +4582,8 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炮手"
             }
         ],
         "tags": [
@@ -4460,7 +4591,8 @@
             "远程战斗",
             "武器"
         ],
-        "specialization": "弹射器"
+        "specialization": "弹射器",
+        "name": "炮手"
     },
     "5bccafa3-c061-4a13-9e8a-f2a5c4db1e9c": {
         "defaults": [
@@ -4468,14 +4600,17 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炮手"
             }
         ],
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "火箭",
+        "name": "炮手"
     },
     "95290ab7-0129-4ce1-9f7c-a04c764b3a26": {
         "defaults": [
@@ -4492,7 +4627,8 @@
             "远程战斗",
             "武器"
         ],
-        "name": "手枪"
+        "name": "手枪",
+        "specialization": "@枪械类型@"
     },
     "c699cfb8-f28b-4996-a990-66ab6a1fd3cd": {
         "defaults": [
@@ -4509,7 +4645,8 @@
             "远程战斗",
             "武器"
         ],
-        "name": "手枪"
+        "name": "手枪",
+        "specialization": "榴弹发射器"
     },
     "c43a303b-af99-48f2-bb0a-7511543c595f": {
         "defaults": [
@@ -4526,7 +4663,8 @@
             "远程战斗",
             "武器"
         ],
-        "name": "手枪"
+        "name": "手枪",
+        "specialization": "火箭枪械"
     },
     "0b934eb2-77cb-4d8b-b4c0-3cd68ab4e354": {
         "defaults": [
@@ -4543,7 +4681,8 @@
             "远程战斗",
             "武器"
         ],
-        "name": "手枪"
+        "name": "手枪",
+        "specialization": "轻型反装甲武器"
     },
     "89140ff6-f145-403e-bb81-82adfe499cc0": {
         "defaults": [
@@ -4552,19 +4691,23 @@
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "榴弹发射器"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "火箭枪械"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "轻型反装甲武器"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "滑膛枪"
             },
             {
                 "type": "skill",
@@ -4578,11 +4721,13 @@
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "霰弹枪"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "冲锋枪"
             }
         ],
         "tags": [
@@ -4590,7 +4735,8 @@
             "远程战斗",
             "武器"
         ],
-        "name": "手枪"
+        "name": "手枪",
+        "specialization": "轻机枪"
     },
     "90303632-08d9-40d3-8d72-4401a5fa0ab0": {
         "defaults": [
@@ -4599,19 +4745,23 @@
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "榴弹发射器"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "火箭枪械"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "轻型反装甲武器"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "轻机枪"
             },
             {
                 "type": "skill",
@@ -4625,11 +4775,13 @@
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "霰弹枪"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "冲锋枪"
             }
         ],
         "tags": [
@@ -4637,7 +4789,8 @@
             "远程战斗",
             "武器"
         ],
-        "name": "手枪"
+        "name": "手枪",
+        "specialization": "滑膛枪"
     },
     "dfac08e6-3434-4391-b2e9-8954c32e04af": {
         "defaults": [
@@ -4646,23 +4799,28 @@
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "榴弹发射器"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "火箭枪械"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "轻型反装甲武器"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "轻机枪"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "滑膛枪"
             },
             {
                 "type": "skill",
@@ -4676,11 +4834,13 @@
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "霰弹枪"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "冲锋枪"
             }
         ],
         "tags": [
@@ -4698,23 +4858,28 @@
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "榴弹发射器"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "火箭枪械"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "轻型反装甲武器"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "轻机枪"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "滑膛枪"
             },
             {
                 "type": "skill",
@@ -4728,11 +4893,13 @@
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "霰弹枪"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "冲锋枪"
             }
         ],
         "tags": [
@@ -4750,23 +4917,28 @@
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "榴弹发射器"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "火箭枪械"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "轻型反装甲武器"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "轻机枪"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "滑膛枪"
             },
             {
                 "type": "skill",
@@ -4780,7 +4952,8 @@
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "冲锋枪"
             }
         ],
         "tags": [
@@ -4788,7 +4961,8 @@
             "远程战斗",
             "武器"
         ],
-        "name": "手枪"
+        "name": "手枪",
+        "specialization": "霰弹枪"
     },
     "e6c28686-e693-4459-a11a-a7b7a9ef2d45": {
         "defaults": [
@@ -4797,23 +4971,28 @@
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "榴弹发射器"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "火箭枪械"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "轻型反装甲武器"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "轻机枪"
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "滑膛枪"
             },
             {
                 "type": "skill",
@@ -4827,7 +5006,8 @@
             },
             {
                 "type": "skill",
-                "name": "手枪"
+                "name": "手枪",
+                "specialization": "霰弹枪"
             }
         ],
         "tags": [
@@ -4835,7 +5015,8 @@
             "远程战斗",
             "武器"
         ],
-        "name": "手枪"
+        "name": "手枪",
+        "specialization": "冲锋枪"
     },
     "3867fd50-0c28-4db2-8602-68497d48a111": {
         "defaults": [
@@ -4845,7 +5026,9 @@
         ],
         "tags": [
             "技术"
-        ]
+        ],
+        "name": "危险材料",
+        "specialization": "生物"
     },
     "6a8c453a-4dd6-42c7-8e57-a5fe1af5fda7": {
         "tags": [
@@ -4857,7 +5040,8 @@
             {
                 "type": "ht"
             }
-        ]
+        ],
+        "name": "远足"
     },
     "a30ed215-70b3-4c8e-970b-aff38e2a7d54": {
         "defaults": [
@@ -4865,14 +5049,17 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "固有攻击"
             }
         ],
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "name": "固有攻击",
+        "specialization": "光束"
     },
     "b6af1824-24bc-44e6-b5ed-7f11f3001457": {
         "defaults": [
@@ -4880,14 +5067,17 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "固有攻击"
             }
         ],
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "吐息",
+        "name": "固有攻击"
     },
     "5da44438-d98f-466c-ab50-b730d5370cd6": {
         "defaults": [
@@ -4895,14 +5085,17 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "固有攻击"
             }
         ],
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "凝视",
+        "name": "固有攻击"
     },
     "9dabad05-acad-43b6-880a-232ea69b3fe2": {
         "defaults": [
@@ -4910,14 +5103,17 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "固有攻击"
             }
         ],
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "投射物",
+        "name": "固有攻击"
     },
     "235b3784-075e-47f9-b4bc-aee82497527e": {
         "tags": [
@@ -4930,9 +5126,11 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "战略"
             }
-        ]
+        ],
+        "name": "情报分析"
     },
     "e68405db-219f-4ff2-9462-0e4c9989404c": {
         "tags": [
@@ -4952,7 +5150,8 @@
                 "type": "skill",
                 "name": "心理学"
             }
-        ]
+        ],
+        "name": "审讯"
     },
     "1fb6d0f1-ff10-494c-b12f-8eb0ada19d1b": {
         "tags": [
@@ -4979,15 +5178,19 @@
             },
             {
                 "type": "skill",
-                "specialization": "CP"
+                "specialization": "CP",
+                "name": "金属加工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "铅与锡",
+                "name": "金属加工"
             }
         ],
         "tags": [
             "工艺"
-        ]
+        ],
+        "name": "珠宝加工"
     },
     "ced986a5-bf9b-4be8-930e-fa56e2c8643d": {
         "defaults": [
@@ -4996,11 +5199,12 @@
                 "name": "能量剑"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "副手短剑"
             },
             {
                 "type": "skill",
-                "name": "短剑 Shortsword"
+                "name": "短剑"
             },
             {
                 "type": "dx"
@@ -5010,12 +5214,14 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "十手/钗"
     },
     "b11bb8d6-ff4a-4155-ab31-aa6b54184305": {
         "tags": [
             "运动"
-        ]
+        ],
+        "name": "跳跃"
     },
     "7fe83935-d6ab-4160-9511-c1966505ba71": {
         "defaults": [
@@ -5024,11 +5230,12 @@
                 "name": "能量剑"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "副手短剑"
             },
             {
                 "type": "skill",
-                "name": "短剑 Shortsword"
+                "name": "短剑"
             },
             {
                 "type": "dx"
@@ -5038,7 +5245,8 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "短刀"
     },
     "080b00c4-306f-414b-9ae0-f69725aacd53": {
         "defaults": [
@@ -5056,7 +5264,8 @@
         ],
         "tags": [
             "常识"
-        ]
+        ],
+        "name": "结绳"
     },
     "69f0c1d8-5ee6-40c5-88f1-f1427301ab41": {
         "defaults": [
@@ -5064,24 +5273,28 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
-            },
-            {
-                "type": "skill"
+                "type": "skill",
+                "name": "能量鞭"
             },
             {
                 "type": "skill",
-                "name": "鞭击Whip"
+                "name": "单分子鞭"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "鞭子"
+            },
+            {
+                "type": "skill",
+                "name": "双手连枷"
             }
         ],
         "tags": [
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "锁分铜"
     },
     "ed197838-a330-4aa8-9f6b-2d8efe3b0305": {
         "defaults": [
@@ -5090,14 +5303,15 @@
             },
             {
                 "type": "skill",
-                "name": "矛Spear"
+                "name": "枪矛"
             }
         ],
         "tags": [
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "骑枪"
     },
     "f56b6d1b-0d91-49c5-957e-c13e4890e2df": {
         "tags": [
@@ -5111,7 +5325,8 @@
                 "type": "iq"
             }
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "name": "法学"
     },
     "684500a0-7edb-4175-9496-d4a0c3eb434f": {
         "tags": [
@@ -5123,7 +5338,7 @@
                 "type": "iq"
             }
         ],
-        "name": "领导Leadership"
+        "name": "领导力"
     },
     "b96bb6df-9c3e-44e8-9e35-d32b301c4b2e": {
         "tags": [
@@ -5131,9 +5346,10 @@
         ],
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             }
-        ]
+        ],
+        "name": "读唇"
     },
     "7bcdc505-0a78-4bfd-a454-340433551de8": {
         "defaults": [
@@ -5141,7 +5357,8 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "液体喷射器"
             }
         ],
         "tags": [
@@ -5149,7 +5366,8 @@
             "远程战斗",
             "武器"
         ],
-        "specialization": "@武器类型@"
+        "specialization": "@武器类型@",
+        "name": "液体喷射器"
     },
     "2e1f8707-4aa1-4dfe-9f8d-06bb0475430f": {
         "defaults": [
@@ -5157,14 +5375,17 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "液体喷射器"
             }
         ],
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "火焰喷射器",
+        "name": "液体喷射器"
     },
     "4f2a30ad-1a7b-4a7d-9802-860a745e13d4": {
         "defaults": [
@@ -5172,14 +5393,17 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "液体喷射器"
             }
         ],
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "喷雾器",
+        "name": "液体喷射器"
     },
     "7ca25e53-143c-44af-b3b7-02213f48107d": {
         "defaults": [
@@ -5206,7 +5430,8 @@
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "name": "开锁"
     },
     "c9a925c5-41b8-43a4-9332-05226dabdab3": {
         "defaults": [
@@ -5214,13 +5439,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机工"
     },
     "7c500a34-a068-4b5e-b0e7-5c212d386a56": {
         "defaults": [
@@ -5228,10 +5455,12 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "十手/钗"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "短刀"
             },
             {
                 "type": "skill",
@@ -5242,14 +5471,16 @@
                 "name": "军刀"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "小剑"
             }
         ],
         "tags": [
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "副手短剑"
     },
     "72b8dfb1-dd19-4327-aa41-e47377f0d8f6": {
         "defaults": [
@@ -5294,7 +5525,8 @@
         ],
         "tags": [
             "工艺"
-        ]
+        ],
+        "name": "石工"
     },
     "1bb06923-d677-441e-a281-a55631f6d0be": {
         "name": "数学",
@@ -5303,7 +5535,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "物理学"
             },
             {
                 "type": "skill",
@@ -5312,7 +5545,8 @@
         ],
         "tags": [
             "自然科学"
-        ]
+        ],
+        "specialization": "应用"
     },
     "63e635d3-6f90-488d-91e9-d4f319da6819": {
         "name": "数学",
@@ -5327,7 +5561,8 @@
         ],
         "tags": [
             "自然科学"
-        ]
+        ],
+        "specialization": "电脑科学"
     },
     "d0d25798-c30b-4eef-9116-c7e9a4449b77": {
         "defaults": [
@@ -5336,19 +5571,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "空天飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "@机械种类@",
+        "name": "机修"
     },
     "50abaded-8c9a-4c27-917d-2d781bce6bac": {
         "defaults": [
@@ -5357,19 +5597,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "空天飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "空天飞机"
     },
     "9a7ba3a3-a68f-4a67-ab61-7e7f042fcd7e": {
         "defaults": [
@@ -5378,19 +5623,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "反物质反应堆"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "反物质反应堆",
+        "name": "机修"
     },
     "1d42d86e-37dc-4b05-b706-fd81272057cd": {
         "defaults": [
@@ -5399,19 +5649,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "旋翼"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "旋翼",
+        "name": "机修"
     },
     "4d841d77-87b6-4fbf-9170-c16b300805ee": {
         "defaults": [
@@ -5424,17 +5679,20 @@
                 "specialization": "机动车"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
         ],
-        "specialization": "机动车"
+        "specialization": "机动车",
+        "name": "机修"
     },
     "520c80d5-0b78-4bb9-9476-5cf77ed1f201": {
         "defaults": [
@@ -5443,19 +5701,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "发条装置"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "发条装置"
     },
     "f410d8f7-3671-4af0-90fc-8ab37842b1fe": {
         "defaults": [
@@ -5468,17 +5731,20 @@
                 "specialization": "工程设备"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
         ],
-        "specialization": "工程设备"
+        "specialization": "工程设备",
+        "name": "机修"
     },
     "528b1ad7-ffdc-4e84-9a28-0deb15cf60c9": {
         "defaults": [
@@ -5487,19 +5753,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "反重力"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "反重力",
+        "name": "机修"
     },
     "10ec2ba2-6ba9-41f5-8977-c3e023297115": {
         "defaults": [
@@ -5508,19 +5779,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "柴油引擎"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "柴油引擎",
+        "name": "机修"
     },
     "b18ee6a0-a10d-4578-b86c-3d555440458e": {
         "defaults": [
@@ -5529,19 +5805,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "裂变反应堆"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "裂变反应堆",
+        "name": "机修"
     },
     "530e76d2-2734-4275-b8e3-525a1a2e3162": {
         "defaults": [
@@ -5550,19 +5831,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "飞行背包"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "飞行背包",
+        "name": "机修"
     },
     "1713a667-27e4-421d-96ad-1e0c6e9ed219": {
         "defaults": [
@@ -5571,19 +5857,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "浸没潜艇"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "浸没潜艇",
+        "name": "机修"
     },
     "78b4b90d-a6c4-450f-b036-980bb47cc83d": {
         "defaults": [
@@ -5592,19 +5883,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "燃料电池"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "燃料电池",
+        "name": "机修"
     },
     "9ffc8d0f-0cfd-4055-87da-d807a91a5f08": {
         "defaults": [
@@ -5613,19 +5909,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "聚变反应堆"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "聚变反应堆",
+        "name": "机修"
     },
     "c399eae3-2cf8-451c-90d9-168e7f6e18a7": {
         "defaults": [
@@ -5634,19 +5935,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "喷气涡轮"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "喷气涡轮",
+        "name": "机修"
     },
     "15341bd9-f20b-4986-9527-e778fce09927": {
         "defaults": [
@@ -5655,19 +5961,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "汽油引擎"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "汽油引擎"
     },
     "c190e8ec-e368-404d-908a-0e1d57cab7fb": {
         "defaults": [
@@ -5676,19 +5987,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "滑翔机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "滑翔机"
     },
     "03b17ac3-ed6f-4b1f-bad8-009cc7540468": {
         "defaults": [
@@ -5701,17 +6017,20 @@
                 "specialization": "半履带车"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
         ],
-        "specialization": "半履带车"
+        "specialization": "半履带车",
+        "name": "机修"
     },
     "108111b5-a4ea-4f01-b67d-f54a1e39b71e": {
         "defaults": [
@@ -5720,19 +6039,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "重型飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "重型飞机"
     },
     "9f29ee47-9f17-4578-9ce9-727ba11549cb": {
         "defaults": [
@@ -5745,17 +6069,20 @@
                 "specialization": "重型汽车"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
         ],
-        "specialization": "重型汽车"
+        "specialization": "重型汽车",
+        "name": "机修"
     },
     "6381998b-472c-4c1f-ac17-6779eee67b09": {
         "defaults": [
@@ -5764,19 +6091,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "直升机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "直升机",
+        "name": "机修"
     },
     "d8c518d3-9c96-48e2-925e-5f2f7a1444a9": {
         "defaults": [
@@ -5785,19 +6117,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "高性能飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "高性能飞机"
     },
     "52a8cf2e-068d-4c38-9c63-a2f110a9b7e4": {
         "defaults": [
@@ -5806,19 +6143,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "高性能航天器"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "高性能航天器"
     },
     "9e039bb2-143b-4814-9103-d8ad4534fa26": {
         "defaults": [
@@ -5831,17 +6173,20 @@
                 "specialization": "气垫船"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
         ],
-        "specialization": "气垫船"
+        "specialization": "气垫船",
+        "name": "机修"
     },
     "07308ff0-2569-4170-a8a8-87923aa48a69": {
         "defaults": [
@@ -5850,19 +6195,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "大型潜艇"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "大型潜艇",
+        "name": "机修"
     },
     "6c5f7a9c-49bd-485c-ad1c-7ef043d78888": {
         "defaults": [
@@ -5871,19 +6221,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "腿肢驱动"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "腿肢驱动"
     },
     "977bbadc-7b61-4f3e-be21-0e15a87c6424": {
         "defaults": [
@@ -5892,19 +6247,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "轻型飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "轻型飞机"
     },
     "37dc5cd5-299b-4137-95e4-f55c66e650b2": {
         "defaults": [
@@ -5913,19 +6273,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "浮力飞行器"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "浮力飞行器"
     },
     "0de216cb-1537-4f32-90b6-a13ee08b5f0d": {
         "defaults": [
@@ -5934,19 +6299,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "光帆"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "光帆"
     },
     "c4af05dd-830a-4e49-82d1-8fc386f58fe0": {
         "defaults": [
@@ -5955,19 +6325,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "低重力飞翼"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "低重力飞翼"
     },
     "61864a94-b48f-4b02-a8d7-b7f62f44e55d": {
         "defaults": [
@@ -5976,19 +6351,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "低性能航天器"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "低性能航天器"
     },
     "92919ca0-0eab-4a84-88a1-a9bf29c350ab": {
         "defaults": [
@@ -6001,17 +6381,20 @@
                 "specialization": "机器人"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
         ],
-        "specialization": "机器人"
+        "specialization": "机器人",
+        "name": "机修"
     },
     "a5553906-dc93-4697-acc6-4bbfbed84bbc": {
         "defaults": [
@@ -6020,19 +6403,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "微型机械"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "微型机械"
     },
     "a9ec0418-8fbc-4c8b-b19b-83467a53b702": {
         "defaults": [
@@ -6041,19 +6429,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "迷你潜艇"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "迷你潜艇",
+        "name": "机修"
     },
     "9c8935d4-e007-4ed9-9c90-5885fc0577c6": {
         "defaults": [
@@ -6066,17 +6459,20 @@
                 "specialization": "摩托车"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
         ],
-        "specialization": "摩托车"
+        "specialization": "摩托车",
+        "name": "机修"
     },
     "8fd27a0f-8305-42dd-9e3d-3fd672d92637": {
         "defaults": [
@@ -6085,19 +6481,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "纳米机械"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "纳米机械"
     },
     "1c99c9ef-1f1a-49ad-b6fa-1415667ae06a": {
         "defaults": [
@@ -6106,19 +6507,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "无反作用力推进器"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "无反作用力推进器",
+        "name": "机修"
     },
     "24bec7a1-4910-473f-9a11-9b7ebbb10f6b": {
         "defaults": [
@@ -6127,19 +6533,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "机器人"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "机器人"
     },
     "9a3a4e09-7e9b-4b01-a28c-366693516bd5": {
         "defaults": [
@@ -6148,19 +6559,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "火箭"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "火箭"
     },
     "6f08f15f-a2f9-4caa-9dc0-da6eda171c61": {
         "defaults": [
@@ -6169,19 +6585,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "蒸汽引擎"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "蒸汽引擎",
+        "name": "机修"
     },
     "44415c50-e465-4348-9551-5595ce0a7251": {
         "defaults": [
@@ -6190,19 +6611,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "履带驱动"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "履带驱动",
+        "name": "机修"
     },
     "a5666609-d883-491b-ab19-89af53c9c790": {
         "defaults": [
@@ -6211,19 +6637,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "履带载具"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "履带载具",
+        "name": "机修"
     },
     "241255e3-5149-492b-adcd-76d6db298ab9": {
         "defaults": [
@@ -6232,19 +6663,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "超轻型飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "超轻型飞机"
     },
     "a94e4b67-bc76-47df-9448-48f0003fe797": {
         "defaults": [
@@ -6253,19 +6689,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "悬浮"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "name": "机修",
+        "specialization": "悬浮"
     },
     "807b7044-bb7f-4976-8e85-dc669d8cda59": {
         "defaults": [
@@ -6274,19 +6715,24 @@
             },
             {
                 "type": "skill",
-                "name": "工程学"
+                "name": "工程学",
+                "specialization": "轮式驱动"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修"
             }
         ],
         "tags": [
             "维护",
             "修理"
-        ]
+        ],
+        "specialization": "轮式驱动",
+        "name": "机修"
     },
     "ae3deb92-728d-4335-b9f0-0d7c1224bbce": {
         "defaults": [
@@ -6296,7 +6742,9 @@
         ],
         "tags": [
             "自然科学"
-        ]
+        ],
+        "specialization": "@行星类型@",
+        "name": "气象学"
     },
     "00d58bca-1157-4954-a97b-2f8454b68c2e": {
         "defaults": [
@@ -6307,7 +6755,8 @@
         "tags": [
             "自然科学"
         ],
-        "specialization": "类地行星"
+        "specialization": "类地行星",
+        "name": "气象学"
     },
     "3d9d0af0-6efe-461d-99ee-0b5dbc701fb8": {
         "defaults": [
@@ -6318,7 +6767,8 @@
         "tags": [
             "自然科学"
         ],
-        "specialization": "气态巨星"
+        "specialization": "气态巨星",
+        "name": "气象学"
     },
     "2f239bed-aa1c-4682-b3c0-7be6cabdb55d": {
         "defaults": [
@@ -6329,7 +6779,8 @@
         "tags": [
             "自然科学"
         ],
-        "specialization": "危险行星"
+        "specialization": "危险行星",
+        "name": "气象学"
     },
     "268cd464-733e-4b13-9b49-9573edc67095": {
         "defaults": [
@@ -6340,7 +6791,8 @@
         "tags": [
             "自然科学"
         ],
-        "specialization": "冰雪矮行星"
+        "specialization": "冰雪矮行星",
+        "name": "气象学"
     },
     "0e9ac394-1b28-42fe-b267-83d12ddd4142": {
         "defaults": [
@@ -6351,7 +6803,8 @@
         "tags": [
             "自然科学"
         ],
-        "specialization": "冰雪世界"
+        "specialization": "冰雪世界",
+        "name": "气象学"
     },
     "3c8d0069-cace-4215-b3da-9114c6fc050e": {
         "defaults": [
@@ -6362,7 +6815,8 @@
         "tags": [
             "自然科学"
         ],
-        "specialization": "岩石世界"
+        "specialization": "岩石世界",
+        "name": "气象学"
     },
     "cdabd227-b62a-434f-9825-da8398b908be": {
         "defaults": [
@@ -6375,7 +6829,8 @@
             },
             {
                 "type": "skill",
-                "name": "拟声Mimicry"
+                "name": "模仿声音",
+                "specialization": "鸟鸣"
             }
         ],
         "tags": [
@@ -6385,7 +6840,8 @@
             "探索",
             "户外"
         ],
-        "name": "拟声Mimicry"
+        "name": "模仿声音",
+        "specialization": "兽声"
     },
     "c641e0b7-5e07-4030-a838-79de65a5ed42": {
         "defaults": [
@@ -6398,7 +6854,8 @@
             },
             {
                 "type": "skill",
-                "name": "拟声Mimicry"
+                "name": "模仿声音",
+                "specialization": "兽声"
             }
         ],
         "tags": [
@@ -6408,7 +6865,8 @@
             "探索",
             "户外"
         ],
-        "name": "拟声Mimicry"
+        "name": "模仿声音",
+        "specialization": "鸟鸣"
     },
     "4329a391-8394-407b-b0e1-5faa972b0988": {
         "defaults": [
@@ -6416,21 +6874,24 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
-            },
-            {
-                "type": "skill"
+                "type": "skill",
+                "name": "能量鞭"
             },
             {
                 "type": "skill",
-                "name": "鞭击Whip"
+                "name": "锁分铜"
+            },
+            {
+                "type": "skill",
+                "name": "鞭子"
             }
         ],
         "tags": [
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "单分子鞭"
     },
     "87c7fc23-5374-488e-b98e-27f201e621f4": {
         "tags": [
@@ -6439,7 +6900,8 @@
             "间谍",
             "技术",
             "技术"
-        ]
+        ],
+        "name": "电影摄像机"
     },
     "a8e31ee9-7214-4fc0-bfcf-b01261670d1a": {
         "tags": [
@@ -6450,7 +6912,8 @@
             {
                 "type": "dx"
             }
-        ]
+        ],
+        "name": "坐骑"
     },
     "7aeeba93-fb11-41f0-886f-9af9d6d48f4f": {
         "defaults": [
@@ -6469,7 +6932,8 @@
             "户外",
             "植物"
         ],
-        "name": "博物学"
+        "name": "博物学",
+        "specialization": "@行星类型@"
     },
     "ddcebc26-bd21-4c9a-b655-879e2ce004de": {
         "defaults": [
@@ -6579,7 +7043,8 @@
             },
             {
                 "name": "数学",
-                "type": "skill"
+                "type": "skill",
+                "specialization": "应用"
             },
             {
                 "type": "skill",
@@ -6593,7 +7058,8 @@
             "技术",
             "载具"
         ],
-        "name": "导航"
+        "name": "导航",
+        "specialization": "超空间"
     },
     "720f2ca7-3e5c-48e2-a579-8df0004c0677": {
         "defaults": [
@@ -6616,11 +7082,13 @@
             },
             {
                 "type": "skill",
-                "name": "导航"
+                "name": "导航",
+                "specialization": "海上"
             },
             {
                 "type": "skill",
-                "name": "导航"
+                "name": "导航",
+                "specialization": "地下"
             }
         ],
         "tags": [
@@ -6640,11 +7108,13 @@
             },
             {
                 "name": "数学",
-                "type": "skill"
+                "type": "skill",
+                "specialization": "应用"
             },
             {
                 "type": "skill",
-                "name": "导航"
+                "name": "导航",
+                "specialization": "超空间"
             }
         ],
         "tags": [
@@ -6690,12 +7160,14 @@
         ],
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "尾随"
             }
-        ]
+        ],
+        "name": "观察"
     },
     "7b45a937-6c35-46d0-9f81-dce2bb89da78": {
         "defaults": [
@@ -6706,7 +7178,8 @@
         "tags": [
             "魔法",
             "神秘学"
-        ]
+        ],
+        "name": "神秘学"
     },
     "c33659da-04d3-4749-8892-c01774fa87c5": {
         "tags": [
@@ -6719,13 +7192,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "唬骗"
             },
             {
                 "name": "演讲",
                 "type": "skill"
             }
-        ]
+        ],
+        "name": "乞讨"
     },
     "79f5883e-23c4-49e7-8ecf-664fb9467b94": {
         "tags": [
@@ -6737,7 +7212,8 @@
             {
                 "type": "dx"
             }
-        ]
+        ],
+        "name": "跳伞"
     },
     "aa392198-aed3-4aba-a239-3837938e39f3": {
         "name": "团体表演",
@@ -6769,7 +7245,8 @@
                 "name": "生物学"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "草药学识"
             },
             {
                 "type": "skill",
@@ -6781,7 +7258,9 @@
             "发明",
             "医学",
             "植物"
-        ]
+        ],
+        "name": "药剂学",
+        "specialization": "草药"
     },
     "451592bd-ae7d-4422-bb17-00a53ecb289b": {
         "defaults": [
@@ -6801,7 +7280,9 @@
             "设计",
             "发明",
             "医学"
-        ]
+        ],
+        "specialization": "合成",
+        "name": "药剂学"
     },
     "5821d810-3323-4025-b7f1-58ea8b585d05": {
         "tags": [
@@ -6819,7 +7300,8 @@
                 "specialization": "媒体",
                 "name": "电子操作"
             }
-        ]
+        ],
+        "name": "摄影"
     },
     "c3bfef2a-4e68-4f5f-b7c7-c7ca59e52e24": {
         "defaults": [
@@ -6848,7 +7330,8 @@
         ],
         "tags": [
             "自然科学"
-        ]
+        ],
+        "name": "物理学"
     },
     "a24b3308-9df9-4d79-9d7d-97a85bf3a613": {
         "defaults": [
@@ -6858,7 +7341,9 @@
         ],
         "tags": [
             "自然科学"
-        ]
+        ],
+        "specialization": "@TL 6+ 选择分支@",
+        "name": "物理学"
     },
     "448ad231-084c-4382-96f2-4ecac284c290": {
         "defaults": [
@@ -6874,14 +7359,16 @@
                 "name": "医师"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "手术"
             }
         ],
         "specialization": "@分支@",
         "tags": [
             "医学",
             "自然科学"
-        ]
+        ],
+        "name": "生理学"
     },
     "4ac89942-341e-4ae7-bcbd-3c651d4c4fb7": {
         "defaults": [
@@ -6889,7 +7376,8 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "偷窃"
             },
             {
                 "type": "skill",
@@ -6899,7 +7387,8 @@
         "tags": [
             "犯罪",
             "街头"
-        ]
+        ],
+        "name": "扒窃"
     },
     "4150b42f-fa30-4812-bb8a-5c59e58da127": {
         "defaults": [
@@ -6907,15 +7396,20 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "高性能飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "飞行驾驶",
+        "specialization": "@飞行载具类型@"
     },
     "54bb7b61-087b-41f2-b1d1-bfb28d41c719": {
         "defaults": [
@@ -6923,40 +7417,56 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "高性能飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "飞行驾驶",
+        "specialization": "空天飞机"
     },
     "b7661c7f-fa7e-4069-b270-ea1a646baf6b": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "直升机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "重型飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             },
             {
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "轻型飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "高性能飞机"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "飞行驾驶",
+        "specialization": "旋翼"
     },
     "f5c0ffc8-43b4-4893-a9b8-8f74a14e27f8": {
         "defaults": [
@@ -6964,15 +7474,20 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "悬浮"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "飞行驾驶",
+        "specialization": "反重力"
     },
     "26cd4d0a-91d8-402f-8ce3-77c54032e88e": {
         "defaults": [
@@ -6980,15 +7495,20 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "悬浮"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "飞行驾驶",
+        "specialization": "飞行背包"
     },
     "fcffd13b-7314-4e98-ace5-3e01247868f3": {
         "defaults": [
@@ -6996,18 +7516,25 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "轻型飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "超轻型飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "飞行驾驶",
+        "specialization": "滑翔机"
     },
     "f3dad1a0-7b7b-4d8e-8c6e-580aa1c8e9e3": {
         "defaults": [
@@ -7015,18 +7542,25 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "高性能飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "轻型飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "飞行驾驶",
+        "specialization": "重型飞机"
     },
     "e898a836-81af-4b45-a630-11083f3d2003": {
         "defaults": [
@@ -7034,18 +7568,25 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "旋翼"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "悬浮",
+                "name": "飞行驾驶"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "飞行驾驶",
+        "specialization": "直升机"
     },
     "c98a723d-07f9-49c4-b4d7-1e3bfddc4327": {
         "defaults": [
@@ -7053,21 +7594,30 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "空天飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "重型飞机",
+                "name": "飞行驾驶"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "轻型飞机",
+                "name": "飞行驾驶"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "specialization": "高性能飞机",
+        "name": "飞行驾驶"
     },
     "e0837464-8bf0-4e1c-9a84-7f055af79c15": {
         "defaults": [
@@ -7075,15 +7625,21 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "空天飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "低性能航天器",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "specialization": "高性能航天器",
+        "name": "飞行驾驶"
     },
     "bbf29bb6-2cc7-436a-8409-5fde927151f0": {
         "defaults": [
@@ -7091,24 +7647,35 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "滑翔机",
+                "name": "飞行驾驶"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "重型飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "高性能飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "超轻型飞机",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "飞行驾驶",
+        "specialization": "轻型飞机"
     },
     "cb519c2e-c95d-46e0-b449-3412e2453a0d": {
         "defaults": [
@@ -7116,12 +7683,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "specialization": "浮力飞行器",
+        "name": "飞行驾驶"
     },
     "21e08783-73a4-4b74-aad9-4089efd27d96": {
         "defaults": [
@@ -7129,12 +7699,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "低性能航天器"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "specialization": "光帆",
+        "name": "飞行驾驶"
     },
     "4b032337-5218-42b6-ae72-a70d6a65a0bc": {
         "defaults": [
@@ -7142,12 +7716,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "滑翔机"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "specialization": "低重力飞翼",
+        "name": "飞行驾驶"
     },
     "86089029-d85d-46f4-9591-82abe883bfbd": {
         "defaults": [
@@ -7155,15 +7733,21 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "空天飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "高性能航天器"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "飞行驾驶",
+        "specialization": "低性能航天器"
     },
     "d29d4e54-8546-4898-8618-ee5dd900fe50": {
         "defaults": [
@@ -7171,24 +7755,35 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "滑翔机",
+                "name": "飞行驾驶"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "轻型飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "重型飞机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "高性能飞机",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "飞行驾驶",
+        "specialization": "超轻型飞机"
     },
     "c7d0ac10-ca4d-42a4-a627-4e2e2c6f27b2": {
         "defaults": [
@@ -7196,18 +7791,25 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "反重力"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "直升机"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "飞行驾驶",
+        "specialization": "悬浮"
     },
     "fb734a1f-4f7d-416e-adf1-c7970bf4a0a3": {
         "defaults": [
@@ -7241,13 +7843,15 @@
                 "name": "化学"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "药剂学"
             },
             {
                 "type": "skill",
                 "name": "医师"
             }
-        ]
+        ],
+        "name": "毒药"
     },
     "c5e9e3b6-d976-444f-9d2a-da1f31730d3a": {
         "defaults": [
@@ -7256,11 +7860,11 @@
             },
             {
                 "type": "skill",
-                "name": "矛Spear"
+                "name": "枪矛"
             },
             {
                 "type": "skill",
-                "name": "法杖 Staff"
+                "name": "棍棒"
             },
             {
                 "type": "skill",
@@ -7271,7 +7875,8 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "长柄武器"
     },
     "6cb57dcf-3344-46e6-854c-6344c78f85df": {
         "tags": [
@@ -7297,7 +7902,9 @@
         ],
         "tags": [
             "知识"
-        ]
+        ],
+        "name": "职业技能",
+        "specialization": "@头脑技能@"
     },
     "86bfe6b2-f397-4042-89d4-52b32944e65b": {
         "defaults": [
@@ -7307,7 +7914,9 @@
         ],
         "tags": [
             "知识"
-        ]
+        ],
+        "specialization": "@身体技能@",
+        "name": "职业技能"
     },
     "6f779ab3-a371-4720-9dce-4dc0735d96a1": {
         "tags": [
@@ -7328,7 +7937,8 @@
                 "type": "skill",
                 "name": "心理学"
             }
-        ]
+        ],
+        "name": "宣传"
     },
     "bfba3226-df87-43b1-b1f3-a83a6a3dc749": {
         "defaults": [
@@ -7365,14 +7975,16 @@
                 "name": "阔剑"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "副手短剑"
             },
             {
                 "type": "skill",
                 "name": "军刀"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "小剑"
             }
         ],
         "tags": [
@@ -7412,7 +8024,8 @@
         "specialization": "@分支@",
         "tags": [
             "动物"
-        ]
+        ],
+        "name": "骑术"
     },
     "04809d9e-e602-49d0-b292-8cabdd8ba8be": {
         "defaults": [
@@ -7422,13 +8035,14 @@
             {
                 "type": "skill",
                 "name": "驯兽",
-                "specialization": "骆驼Camel"
+                "specialization": "骆驼"
             }
         ],
         "tags": [
             "动物"
         ],
-        "specialization": "骆驼Camel"
+        "specialization": "骆驼",
+        "name": "骑术"
     },
     "314aecc0-678d-4643-ac53-4c677d44028b": {
         "defaults": [
@@ -7437,12 +8051,15 @@
             },
             {
                 "type": "skill",
-                "name": "驯兽"
+                "name": "驯兽",
+                "specialization": "海豚"
             }
         ],
         "tags": [
             "动物"
-        ]
+        ],
+        "name": "骑术",
+        "specialization": "海豚"
     },
     "bcb9aa90-e7a2-4c81-958e-e31ef39f4872": {
         "defaults": [
@@ -7458,7 +8075,8 @@
         "tags": [
             "动物"
         ],
-        "specialization": "龙"
+        "specialization": "龙",
+        "name": "骑术"
     },
     "98b400b8-aac8-4d1a-bf8c-fcf97563a65e": {
         "defaults": [
@@ -7474,7 +8092,8 @@
         "tags": [
             "动物"
         ],
-        "specialization": "马科动物"
+        "specialization": "马科动物",
+        "name": "骑术"
     },
     "fe0d380f-b4d1-4060-8ecb-ca4d46289227": {
         "tags": [
@@ -7484,7 +8103,8 @@
             "户外",
             "街头",
             "技术"
-        ]
+        ],
+        "name": "爬绳"
     },
     "220d1ce5-4aad-4485-a30d-3f8020488105": {
         "tags": [
@@ -7494,7 +8114,8 @@
             {
                 "type": "ht"
             }
-        ]
+        ],
+        "name": "跑步"
     },
     "90632003-0197-4fd3-a570-a13c35ddc256": {
         "defaults": [
@@ -7507,17 +8128,19 @@
             },
             {
                 "type": "skill",
-                "name": "短剑 Shortsword"
+                "name": "短剑"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "副手短剑"
             },
             {
                 "type": "skill",
                 "name": "修理"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "小剑"
             }
         ],
         "tags": [
@@ -7537,9 +8160,12 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "游戏"
             }
-        ]
+        ],
+        "specialization": "@社会团体@",
+        "name": "礼仪"
     },
     "7ee1d21e-0e88-4f9a-9a09-1912d369b0aa": {
         "tags": [
@@ -7551,9 +8177,12 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "游戏"
             }
-        ]
+        ],
+        "specialization": "道场",
+        "name": "礼仪"
     },
     "d4735921-475e-447a-9a5a-988a79a4fc9f": {
         "tags": [
@@ -7566,9 +8195,13 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "仆从",
+                "name": "礼仪"
             }
-        ]
+        ],
+        "name": "礼仪",
+        "specialization": "上流社会"
     },
     "a56ef114-74f4-46fb-acac-3f35f05d3d71": {
         "tags": [
@@ -7578,7 +8211,8 @@
             "户外",
             "街头",
             "技术"
-        ]
+        ],
+        "name": "攀登"
     },
     "206fa45d-6bb2-40b5-9776-1f2d7beda9ae": {
         "tags": [
@@ -7606,7 +8240,7 @@
             },
             {
                 "type": "skill",
-                "name": "护盾术 Shield",
+                "name": "盾牌",
                 "specialization": "力场"
             }
         ],
@@ -7615,7 +8249,8 @@
             "近战",
             "武器"
         ],
-        "name": "护盾术 Shield"
+        "name": "盾牌",
+        "specialization": "手盾"
     },
     "4dc20fde-3ac1-4b36-897e-6c6d9f491abd": {
         "defaults": [
@@ -7624,7 +8259,8 @@
             },
             {
                 "type": "skill",
-                "name": "护盾术 Shield"
+                "name": "盾牌",
+                "specialization": "手盾"
             }
         ],
         "tags": [
@@ -7632,7 +8268,8 @@
             "近战",
             "武器"
         ],
-        "name": "护盾术 Shield"
+        "name": "盾牌",
+        "specialization": "力场盾"
     },
     "9746f6d6-8056-4844-be8d-853bb32dbc96": {
         "defaults": [
@@ -7645,8 +8282,8 @@
             "近战",
             "武器"
         ],
-        "name": "护盾术 Shield",
-        "specialization": "护盾术 Shield"
+        "name": "盾牌",
+        "specialization": "盾牌"
     },
     "db95920f-a5eb-4d92-ba37-f496b5598f2f": {
         "defaults": [
@@ -7658,12 +8295,16 @@
                 "name": "飞艇乘务员"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "浮力飞行器"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "船舶掌握",
+        "specialization": "@船只类型@"
     },
     "3d86d5a1-6b70-4040-a032-b2ee76db5d22": {
         "defaults": [
@@ -7675,12 +8316,16 @@
                 "name": "飞艇乘务员"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "浮力飞行器"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "specialization": "飞空艇",
+        "name": "船舶掌握"
     },
     "cfa1a121-65ae-4f25-8190-bf36fa5acc5c": {
         "defaults": [
@@ -7704,7 +8349,9 @@
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "specialization": "船舶",
+        "name": "船舶掌握"
     },
     "f32a12ed-0138-4cc6-89bb-606cc95eb47c": {
         "defaults": [
@@ -7712,18 +8359,25 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "空间"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "低性能航天器"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "高性能航天器"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "specialization": "太空船",
+        "name": "船舶掌握"
     },
     "422ad2e6-41f5-46b7-a8e4-4482e6f929b2": {
         "defaults": [
@@ -7731,18 +8385,25 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "空间"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "低性能航天器"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "飞行驾驶",
+                "specialization": "高性能航天器"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "specialization": "星舰",
+        "name": "船舶掌握"
     },
     "f9c091d1-9932-4394-be3d-e23bccc1216e": {
         "defaults": [
@@ -7750,15 +8411,20 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "潜艇艇员"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "潜水艇",
+                "specialization": "大型潜艇"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "specialization": "潜水艇",
+        "name": "船舶掌握"
     },
     "1c79adb7-47b3-4c1c-b980-7c5c10437cbc": {
         "defaults": [
@@ -7771,20 +8437,24 @@
                 "name": "能量剑"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "十手/钗"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "短刀"
             },
             {
                 "type": "skill",
                 "name": "军刀"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "小剑"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "武术拐"
             },
             {
                 "type": "dx"
@@ -7795,7 +8465,7 @@
             "近战",
             "武器"
         ],
-        "name": "短剑 Shortsword"
+        "name": "短剑"
     },
     "dd296090-638f-4874-be53-f8a7ed690c5e": {
         "tags": [
@@ -7807,7 +8477,8 @@
             {
                 "type": "ht"
             }
-        ]
+        ],
+        "name": "滑雪"
     },
     "9cbbffcf-964c-4a20-bb98-1152a972898f": {
         "defaults": [
@@ -7829,10 +8500,11 @@
             },
             {
                 "type": "skill",
-                "name": "短剑 Shortsword"
+                "name": "短剑"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "副手短剑"
             },
             {
                 "type": "skill",
@@ -7847,7 +8519,8 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "小剑"
     },
     "b860b5f1-c4d2-4857-b4bf-1b33fefb061b": {
         "defaults": [
@@ -7855,16 +8528,19 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "珠宝加工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "金属加工"
             }
         ],
-        "specialization": "CP",
+        "specialization": "铜",
         "tags": [
             "工艺"
-        ]
+        ],
+        "name": "金属加工"
     },
     "f4bf5cb2-35fc-45f9-82c8-3a0feabd5b66": {
         "defaults": [
@@ -7872,12 +8548,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "金属加工"
             }
         ],
         "tags": [
             "工艺"
-        ]
+        ],
+        "specialization": "铁",
+        "name": "金属加工"
     },
     "526a0904-8c0f-499e-bcf6-8ea65aeebbbd": {
         "defaults": [
@@ -7885,15 +8564,19 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "珠宝加工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "金属加工"
             }
         ],
         "tags": [
             "工艺"
-        ]
+        ],
+        "name": "金属加工",
+        "specialization": "铅与锡"
     },
     "9af05baa-36f6-45fa-b5e5-b7c6ba4605e7": {
         "tags": [
@@ -7905,7 +8588,8 @@
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "name": "走私"
     },
     "76a95851-3179-47fd-83e7-6473b3f8f0e7": {
         "defaults": [
@@ -7935,7 +8619,8 @@
         ],
         "tags": [
             "军事"
-        ]
+        ],
+        "name": "士兵"
     },
     "11576b1c-81aa-4525-9c91-d6cd8b1ecb1b": {
         "defaults": [
@@ -7945,7 +8630,8 @@
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "空间"
     },
     "10cd25e3-b006-45c9-803d-f0c8310e3dc2": {
         "defaults": [
@@ -7953,11 +8639,12 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "长柄武器"
             },
             {
                 "type": "skill",
-                "name": "法杖 Staff"
+                "name": "棍棒"
             }
         ],
         "tags": [
@@ -7965,7 +8652,7 @@
             "近战",
             "武器"
         ],
-        "name": "矛Spear"
+        "name": "枪矛"
     },
     "767a372b-bdb0-4f72-a774-a71db8da8603": {
         "defaults": [
@@ -7974,14 +8661,16 @@
             },
             {
                 "type": "skill",
-                "specialization": "矛Spear"
+                "specialization": "枪矛",
+                "name": "投掷武器"
             }
         ],
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "name": "投矛器"
     },
     "903f6937-8513-4eaf-83c0-4b4b91a0fc68": {
         "tags": [
@@ -7992,7 +8681,8 @@
                 "type": "dx"
             }
         ],
-        "name": "运动"
+        "name": "运动",
+        "specialization": "@分支@"
     },
     "4e2f92fa-476d-4c46-9c75-9416b3add155": {
         "defaults": [
@@ -8004,7 +8694,8 @@
         "tags": [
             "艺术",
             "娱乐"
-        ]
+        ],
+        "name": "武戏"
     },
     "72661777-9390-47f1-9819-0cf31205c3f5": {
         "tags": [
@@ -8029,19 +8720,23 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "情报分析"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "战术"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "战略"
             }
         ],
         "tags": [
             "军事"
         ],
-        "specialization": "空中"
+        "specialization": "空中",
+        "name": "战略"
     },
     "5f435b5d-c0cc-4f12-8c3f-a5a9736efd24": {
         "defaults": [
@@ -8049,19 +8744,23 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "情报分析"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "战术"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "战略"
             }
         ],
         "tags": [
             "军事"
         ],
-        "specialization": "地面"
+        "specialization": "地面",
+        "name": "战略"
     },
     "ac6c4914-4610-40f1-aa83-959b713dcd0d": {
         "defaults": [
@@ -8069,18 +8768,23 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "情报分析"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "战术"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "战略"
             }
         ],
         "tags": [
             "军事"
-        ]
+        ],
+        "specialization": "海战",
+        "name": "战略"
     },
     "a7288278-088e-470f-a2fe-bf613d403efa": {
         "defaults": [
@@ -8088,19 +8792,23 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "情报分析"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "战术"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "战略"
             }
         ],
         "tags": [
             "军事"
         ],
-        "specialization": "太空"
+        "specialization": "太空",
+        "name": "战略"
     },
     "abec4328-8bde-4fa4-9171-21628b0a64d7": {
         "tags": [
@@ -8113,7 +8821,8 @@
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "name": "黑街"
     },
     "e501c152-ca78-4839-afca-641e266f9d00": {
         "defaults": [
@@ -8121,15 +8830,21 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "大型潜艇",
+                "name": "潜水艇"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "迷你潜艇",
+                "name": "潜水艇"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "specialization": "浸没潜艇",
+        "name": "潜水艇"
     },
     "66268375-578a-4b6e-91b5-c45fdde352a3": {
         "defaults": [
@@ -8137,15 +8852,21 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "浸没潜艇",
+                "name": "潜水艇"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "迷你潜艇",
+                "name": "潜水艇"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "specialization": "大型潜艇",
+        "name": "潜水艇"
     },
     "d68d8381-7168-48b7-b419-6744871f369f": {
         "defaults": [
@@ -8153,12 +8874,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "潜水艇"
             }
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "潜水艇",
+        "specialization": "迷你潜艇"
     },
     "e11004d1-ef48-464f-888a-7146560a579e": {
         "defaults": [
@@ -8168,7 +8892,8 @@
         ],
         "tags": [
             "载具"
-        ]
+        ],
+        "name": "潜艇艇员"
     },
     "ca2a4b51-514e-4095-8fb8-0f5ec0f3e975": {
         "tags": [
@@ -8180,7 +8905,8 @@
             {
                 "type": "ht"
             }
-        ]
+        ],
+        "name": "游泳"
     },
     "205a6d44-71e3-4305-b25f-950a3ac004cd": {
         "defaults": [
@@ -8188,13 +8914,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "战略"
             }
         ],
         "tags": [
             "军事",
             "警察"
-        ]
+        ],
+        "name": "战术"
     },
     "ff9d09a8-a719-46ad-8c81-a4e1df4cf924": {
         "tags": [
@@ -8205,7 +8933,8 @@
             {
                 "type": "iq"
             }
-        ]
+        ],
+        "name": "教学"
     },
     "fc96e7f8-9455-45d7-b868-4427de76e4c3": {
         "defaults": [
@@ -8219,14 +8948,16 @@
             },
             {
                 "type": "skill",
-                "specialization": "马科动物"
+                "specialization": "马科动物",
+                "name": "骑术"
             }
         ],
         "tags": [
             "动物",
             "载具"
         ],
-        "specialization": "马科动物"
+        "specialization": "马科动物",
+        "name": "赶车"
     },
     "69cdfa23-3d48-498f-8443-73a156765878": {
         "defaults": [
@@ -8237,7 +8968,8 @@
         "tags": [
             "魔法",
             "神秘学"
-        ]
+        ],
+        "name": "魔导学"
     },
     "39ffc1e8-f487-4431-b271-332944e2b1ba": {
         "defaults": [
@@ -8246,14 +8978,16 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "宗教仪式"
             }
         ],
         "specialization": "@分支@",
         "tags": [
             "人文学科",
             "社会科学"
-        ]
+        ],
+        "name": "神学"
     },
     "f320e945-5889-4a76-8230-2d04b8ea500c": {
         "tags": [
@@ -8287,7 +9021,9 @@
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "飞镖",
+        "name": "投掷武器"
     },
     "16d0f52f-d27a-4edd-b2bf-a075b0dc5ece": {
         "defaults": [
@@ -8296,7 +9032,8 @@
             },
             {
                 "type": "skill",
-                "specialization": "矛Spear"
+                "specialization": "枪矛",
+                "name": "投掷武器"
             }
         ],
         "tags": [
@@ -8304,7 +9041,8 @@
             "远程战斗",
             "武器"
         ],
-        "specialization": "鱼叉Harpoon"
+        "specialization": "鱼叉",
+        "name": "投掷武器"
     },
     "caa1b97b-7bc1-46f1-8975-4f8ab42b13fa": {
         "defaults": [
@@ -8316,7 +9054,9 @@
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "短刀",
+        "name": "投掷武器"
     },
     "1cc6624c-3c49-452b-bf54-131965c25dc5": {
         "defaults": [
@@ -8332,7 +9072,9 @@
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "手里剑",
+        "name": "投掷武器"
     },
     "02811089-713b-4a73-a65e-a169a5f370f7": {
         "defaults": [
@@ -8340,11 +9082,13 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "投矛器"
             },
             {
                 "type": "skill",
-                "specialization": "鱼叉Harpoon"
+                "specialization": "鱼叉",
+                "name": "投掷武器"
             }
         ],
         "tags": [
@@ -8352,7 +9096,8 @@
             "远程战斗",
             "武器"
         ],
-        "specialization": "矛Spear"
+        "specialization": "枪矛",
+        "name": "投掷武器"
     },
     "20d0bbd6-1f7e-4f5e-a806-08970382d2d1": {
         "defaults": [
@@ -8361,14 +9106,15 @@
             },
             {
                 "type": "skill",
-                "name": "短剑 Shortsword"
+                "name": "短剑"
             }
         ],
         "tags": [
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "武术拐"
     },
     "0b15d997-bd11-47e4-ab10-78ca856351de": {
         "defaults": [
@@ -8376,14 +9122,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "开锁"
             }
         ],
         "tags": [
             "犯罪",
             "军事",
             "街头"
-        ]
+        ],
+        "name": "陷阱"
     },
     "9226bbe4-cbea-4942-9dad-3b693e973b1c": {
         "defaults": [
@@ -8395,10 +9143,12 @@
                 "name": "斧/锤"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "长柄武器"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "双手连枷"
             }
         ],
         "tags": [
@@ -8418,7 +9168,8 @@
                 "name": "连枷"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "锁分铜"
             },
             {
                 "type": "skill",
@@ -8429,7 +9180,8 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "双手连枷"
     },
     "9fde98c2-6c6e-488d-9f73-4a84ec6e195f": {
         "defaults": [
@@ -8462,7 +9214,8 @@
             "常识",
             "学校",
             "技术"
-        ]
+        ],
+        "name": "打字"
     },
     "5486e8c3-07ca-4c5e-8b95-d871d0da7774": {
         "defaults": [
@@ -8497,7 +9250,8 @@
             "常识",
             "探索",
             "户外"
-        ]
+        ],
+        "name": "感知天气"
     },
     "5958e876-f40a-4ca7-b4f9-594acb38b8f2": {
         "defaults": [
@@ -8505,13 +9259,16 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "能量鞭"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "锁分铜"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "单分子鞭"
             }
         ],
         "tags": [
@@ -8519,7 +9276,7 @@
             "近战",
             "武器"
         ],
-        "name": "鞭击Whip"
+        "name": "鞭子"
     },
     "f818e0a2-a332-4792-b154-49dade954638": {
         "defaults": [
@@ -8961,7 +9718,8 @@
             "设计",
             "工程学",
             "发明"
-        ]
+        ],
+        "specialization": "@专业领域@"
     },
     "ec696a9f-280b-4e6e-986d-222c6c0982ae": {
         "defaults": [
@@ -8983,7 +9741,8 @@
         "defaults": [
             {
                 "type": "skill",
-                "specialization": "机动车"
+                "specialization": "机动车",
+                "name": "机修"
             }
         ],
         "name": "工程学",
@@ -9012,7 +9771,9 @@
     "85ba1ab0-55ad-4b0b-afa6-48bae2443b89": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修",
+                "specialization": "发条装置"
             }
         ],
         "name": "工程学",
@@ -9020,12 +9781,15 @@
             "设计",
             "工程学",
             "发明"
-        ]
+        ],
+        "specialization": "发条装置"
     },
     "b5678611-06f8-416d-8782-0f691e5bca10": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炸药",
+                "specialization": "爆破"
             }
         ],
         "tags": [
@@ -9073,7 +9837,8 @@
                 "name": "化学"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "冶金学"
             }
         ],
         "name": "工程学",
@@ -9081,12 +9846,15 @@
             "设计",
             "工程学",
             "发明"
-        ]
+        ],
+        "specialization": "材料"
     },
     "7bfc01aa-d972-417c-bdcb-a1aa4d4a5d24": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "微型机械",
+                "name": "机修"
             }
         ],
         "name": "工程学",
@@ -9094,15 +9862,19 @@
             "设计",
             "工程学",
             "发明"
-        ]
+        ],
+        "specialization": "微型技术"
     },
     "fb51302a-55f7-459d-b99b-0fb9ce69b7ed": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炸药",
+                "specialization": "爆破"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地质学"
             }
         ],
         "name": "工程学",
@@ -9110,12 +9882,15 @@
             "设计",
             "工程学",
             "发明"
-        ]
+        ],
+        "specialization": "采掘"
     },
     "a7c63fa4-6580-482d-a41b-2b152f94195d": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "specialization": "纳米机械",
+                "name": "机修"
             }
         ],
         "tags": [
@@ -9123,7 +9898,8 @@
             "工程学",
             "发明"
         ],
-        "name": "工程学"
+        "name": "工程学",
+        "specialization": "纳米科技"
     },
     "4ffcf2f2-973f-4a56-a653-642ab1e28562": {
         "defaults": [
@@ -9160,7 +9936,9 @@
     "566cc8a8-da9a-49b2-a114-a709efd93b85": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修",
+                "specialization": "机器人"
             }
         ],
         "name": "工程学",
@@ -9168,12 +9946,15 @@
             "设计",
             "工程学",
             "发明"
-        ]
+        ],
+        "specialization": "机器人"
     },
     "a13cb487-67a4-43bd-8c3d-cee1bd432016": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修",
+                "specialization": "船只"
             }
         ],
         "name": "工程学",
@@ -9181,7 +9962,8 @@
             "设计",
             "工程学",
             "发明"
-        ]
+        ],
+        "specialization": "船只"
     },
     "b9579d78-0f48-4330-b036-efccdf7b9251": {
         "defaults": [
@@ -9202,7 +9984,9 @@
     "9b08f583-31b7-4a46-8509-72b2eaceb9c5": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "机修",
+                "specialization": "星际飞船"
             }
         ],
         "name": "工程学",
@@ -9210,7 +9994,8 @@
             "设计",
             "工程学",
             "发明"
-        ]
+        ],
+        "specialization": "星际飞船"
     },
     "8b013d1a-cbd4-4df3-8b54-0517395b0d19": {
         "defaults": [
@@ -9234,19 +10019,23 @@
                 "type": "will"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "宗教仪式"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "仪式魔法"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "神学"
             }
         ],
         "tags": [
             "魔法",
             "神秘学"
-        ]
+        ],
+        "name": "驱魔"
     },
     "17f787c3-f144-4ef8-abad-c4b8f20b10eb": {
         "defaults": [
@@ -9254,15 +10043,19 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "唬骗"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "神秘学"
             }
         ],
         "tags": [
             "社会"
-        ]
+        ],
+        "specialization": "水晶球占卜",
+        "name": "预言"
     },
     "7fb2af29-a2bd-40b6-ad5b-db4681f1a590": {
         "defaults": [
@@ -9270,12 +10063,14 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "农耕"
             }
         ],
         "tags": [
             "植物"
-        ]
+        ],
+        "name": "园艺"
     },
     "92edfde1-3d7f-44d8-88df-a8da35eef1c2": {
         "defaults": [
@@ -9284,11 +10079,13 @@
             },
             {
                 "type": "skill",
-                "specialization": "类地行星"
+                "specialization": "类地行星",
+                "name": "地质学"
             },
             {
                 "type": "skill",
-                "specialization": "类地行星"
+                "specialization": "类地行星",
+                "name": "气象学"
             },
             {
                 "type": "skill",
@@ -9299,7 +10096,8 @@
         "tags": [
             "人文学科",
             "社会科学"
-        ]
+        ],
+        "specialization": "物理，@行星类型@"
     },
     "73a8b672-c833-484f-a5c6-a61678ee5ab4": {
         "defaults": [
@@ -9308,11 +10106,13 @@
             },
             {
                 "type": "skill",
-                "specialization": "类地行星"
+                "specialization": "类地行星",
+                "name": "地质学"
             },
             {
                 "type": "skill",
-                "specialization": "类地行星"
+                "specialization": "类地行星",
+                "name": "气象学"
             },
             {
                 "type": "skill",
@@ -9323,7 +10123,8 @@
         "tags": [
             "人文学科",
             "社会科学"
-        ]
+        ],
+        "specialization": "物理，类地行星"
     },
     "18423001-3dc2-4fe9-8ea1-c044d2ceb835": {
         "defaults": [
@@ -9331,14 +10132,17 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "炮手"
             }
         ],
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "机枪",
+        "name": "炮手"
     },
     "de09679e-62b5-4ca9-94e2-1d3867759346": {
         "defaults": [
@@ -9346,13 +10150,16 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "礼仪",
+                "specialization": "上流社会"
             }
         ],
         "tags": [
             "知识",
             "社会"
-        ]
+        ],
+        "name": "纹章学"
     },
     "0054befd-d2ea-4fdb-ba8d-5955536fa8a7": {
         "defaults": [
@@ -9368,7 +10175,8 @@
             "犯罪",
             "间谍",
             "街头"
-        ]
+        ],
+        "name": "物品藏身"
     },
     "6b0dcccf-b20d-43e8-8154-5f3a136b3e23": {
         "defaults": [
@@ -9376,14 +10184,17 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "液体喷射器"
             }
         ],
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "喷枪",
+        "name": "液体喷射器"
     },
     "406b18ab-a0da-4f75-a7e4-b1eed1a6a29e": {
         "defaults": [
@@ -9391,14 +10202,17 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "液体喷射器"
             }
         ],
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "水炮",
+        "name": "液体喷射器"
     },
     "c59932c7-5824-4575-8053-8c4b524da193": {
         "defaults": [
@@ -9459,15 +10273,18 @@
                 "name": "化学"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "珠宝加工"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "金属加工"
             }
         ],
         "tags": [
             "自然科学"
-        ]
+        ],
+        "name": "冶金学"
     },
     "740ecd20-37a4-4ec9-9554-e7bb17b6185d": {
         "defaults": [
@@ -9479,14 +10296,16 @@
                 "name": "做戏"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "语言学"
             }
         ],
-        "name": "拟声Mimicry",
+        "name": "模仿声音",
         "tags": [
             "艺术",
             "娱乐"
-        ]
+        ],
+        "specialization": "人声"
     },
     "573d5cd6-c7f8-4359-a054-3bb75cc13593": {
         "defaults": [
@@ -9500,7 +10319,8 @@
         ],
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "心灵封锁"
     },
     "b67bffbc-f25a-4fa1-8c1e-2ef730655321": {
         "defaults": [
@@ -9552,7 +10372,8 @@
             },
             {
                 "type": "skill",
-                "name": "导航"
+                "name": "导航",
+                "specialization": "海上"
             }
         ],
         "tags": [
@@ -9561,7 +10382,7 @@
             "技术",
             "载具"
         ],
-        "specialization": "环境",
+        "specialization": "@环境@",
         "name": "导航"
     },
     "7a6e6a40-e100-44e2-bcac-b647cb5ef00e": {
@@ -9577,7 +10398,8 @@
             },
             {
                 "type": "skill",
-                "name": "导航"
+                "name": "导航",
+                "specialization": "海上"
             }
         ],
         "tags": [
@@ -9616,7 +10438,8 @@
             "技术",
             "载具"
         ],
-        "name": "导航"
+        "name": "导航",
+        "specialization": "海上"
     },
     "608aa38e-cb2e-4fb8-8ef9-78301f0a175d": {
         "defaults": [
@@ -9645,7 +10468,8 @@
         ],
         "tags": [
             "动物"
-        ]
+        ],
+        "name": "赶马"
     },
     "624c02af-5097-41f3-b450-6b8886768117": {
         "defaults": [
@@ -9663,7 +10487,8 @@
             "自然科学",
             "社会科学"
         ],
-        "name": "古生物学"
+        "name": "古生物学",
+        "specialization": "古微生物学"
     },
     "20cefb79-99b6-4cd7-9468-03f25f5e5927": {
         "defaults": [
@@ -9705,7 +10530,8 @@
             "植物",
             "社会科学"
         ],
-        "name": "古生物学"
+        "name": "古生物学",
+        "specialization": "古植物学"
     },
     "11099641-9cc7-412e-ae8a-450308377bd5": {
         "defaults": [
@@ -9723,7 +10549,8 @@
             "自然科学",
             "社会科学"
         ],
-        "name": "古生物学"
+        "name": "古生物学",
+        "specialization": "古动物学"
     },
     "64876eb9-51c4-4c2c-a137-8f6407fc42c5": {
         "defaults": [
@@ -9731,13 +10558,15 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "地质学"
             }
         ],
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "name": "探矿"
     },
     "a8635b04-a3e2-41b0-9c3e-f73c81e0aeb9": {
         "defaults": [
@@ -9759,30 +10588,35 @@
         "defaults": [
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "仪式魔法"
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "神学"
             }
         ],
         "specialization": "@分支@",
         "tags": [
             "魔法",
             "神秘学"
-        ]
+        ],
+        "name": "宗教仪式"
     },
     "ef86a4c1-fede-4ea4-917f-2298868ee8f5": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "仪式魔法"
             }
         ],
         "specialization": "@分支@",
         "tags": [
             "魔法",
             "神秘学"
-        ]
+        ],
+        "name": "仪式魔法"
     },
     "d3e1e3ee-7d19-4297-88fb-0d44f214d46b": {
         "defaults": [
@@ -9790,7 +10624,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "黑街"
             }
         ],
         "tags": [
@@ -9798,7 +10633,9 @@
             "知识",
             "社会",
             "街头"
-        ]
+        ],
+        "specialization": "黑手党",
+        "name": "礼仪"
     },
     "7594392f-a3fa-4471-8bc0-80860a650431": {
         "defaults": [
@@ -9806,19 +10643,23 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "礼仪",
+                "specialization": "上流社会"
             }
         ],
         "tags": [
             "常识",
             "知识",
             "社会"
-        ]
+        ],
+        "name": "礼仪",
+        "specialization": "仆从"
     },
     "a4d05150-68e2-4931-a197-30d9a8ca920c": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -9828,7 +10669,8 @@
         "tags": [
             "警察",
             "间谍"
-        ]
+        ],
+        "name": "搜查"
     },
     "9f24f47e-22e6-4031-8998-0a767a72b77d": {
         "defaults": [
@@ -9836,7 +10678,8 @@
                 "type": "iq"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "观察"
             },
             {
                 "type": "skill",
@@ -9848,12 +10691,14 @@
             "警察",
             "间谍",
             "街头"
-        ]
+        ],
+        "name": "尾随"
     },
     "95c3a5ac-1a49-4cb2-87e1-6b1ee8b0d3dd": {
         "defaults": [
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "偷窃"
             }
         ],
         "name": "巧手",
@@ -9870,11 +10715,12 @@
                 "type": "dx"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "长柄武器"
             },
             {
                 "type": "skill",
-                "name": "矛Spear"
+                "name": "枪矛"
             }
         ],
         "tags": [
@@ -9882,7 +10728,7 @@
             "近战",
             "武器"
         ],
-        "name": "法杖 Staff"
+        "name": "棍棒"
     },
     "e2bcb35e-8477-42eb-8091-47925ea8ecd0": {
         "defaults": [
@@ -9895,7 +10741,8 @@
                 "name": "医师"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "生理学"
             },
             {
                 "type": "skill",
@@ -9904,12 +10751,13 @@
         ],
         "tags": [
             "医学"
-        ]
+        ],
+        "name": "手术"
     },
     "6514b812-6434-4590-85d3-c823b994c547": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -9917,47 +10765,56 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海岸"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海沟"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "淡水湖"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "大洋"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "珊瑚丛"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "河流/溪流"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "咸水海"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "热带环礁"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "@任意水域@"
     },
     "0920cc95-ab25-4cd5-b00e-0ff44bd51a96": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -9968,12 +10825,13 @@
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "@任意环境@"
     },
     "c7cc35bf-4351-4894-a363-328c3d1f22ea": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -9981,47 +10839,56 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "极地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沙漠"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "岛屿/海滩"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "丛林"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "山地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "平原"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沼泽"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "林地"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "@任意陆地@"
     },
     "e579df57-4000-41cf-83e3-ccade5ce22f5": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10029,43 +10896,51 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沙漠"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "岛屿/海滩"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "丛林"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "山地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "平原"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沼泽"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "林地"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "极地"
     },
     "1e854277-d5f8-4d36-9f79-b31dcae13f85": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10073,43 +10948,51 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海沟"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "淡水湖"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "大洋"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "珊瑚丛"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "河流/溪流"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "咸水海"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "热带环礁"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "海岸"
     },
     "1b131001-4fa1-485a-8f16-590d5736474d": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10117,43 +11000,51 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海岸"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "淡水湖"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "大洋"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "珊瑚丛"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "河流/溪流"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "咸水海"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "热带环礁"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "海沟"
     },
     "c581c580-3de4-40ee-8d82-eddbf8312221": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10161,43 +11052,51 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "极地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "岛屿/海滩"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "丛林"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "山地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "平原"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沼泽"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "林地"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "沙漠"
     },
     "4fb8f61a-4746-4ff3-89b7-eb483555e3c3": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10205,43 +11104,51 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海岸"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海沟"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "大洋"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "珊瑚丛"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "河流/溪流"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "咸水海"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "热带环礁"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "淡水湖"
     },
     "cf67bacb-575a-4e0e-bcbe-967984d6a2d5": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10249,47 +11156,56 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "热带环礁"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "极地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沙漠"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "丛林"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "山地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "平原"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沼泽"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "林地"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "岛屿/海滩"
     },
     "71a19a81-0530-4d17-919a-a904b62c6991": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10297,43 +11213,51 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "极地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沙漠"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "山地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "平原"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沼泽"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "岛屿/海滩"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "林地"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "丛林"
     },
     "d63b40a9-22ad-4660-a54e-8c06e4783927": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10341,43 +11265,51 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "极地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沙漠"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "岛屿/海滩"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "丛林"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "平原"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沼泽"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "林地"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "山地"
     },
     "cd9c102c-2f57-4717-b5a4-499c7beecc73": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10385,43 +11317,51 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海岸"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海沟"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "淡水湖"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "珊瑚丛"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "河流/溪流"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "咸水海"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "热带环礁"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "大洋"
     },
     "266c676c-6c31-4016-9d30-82eb0607d32d": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10429,43 +11369,51 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "极地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沙漠"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "岛屿/海滩"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "丛林"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "山地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沼泽"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "林地"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "平原"
     },
     "3deacaaa-247b-47fc-8d97-313047498116": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10473,43 +11421,51 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海岸"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海沟"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "淡水湖"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "大洋"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "河流/溪流"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "咸水海"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "热带环礁"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "珊瑚丛"
     },
     "c553454d-8bca-4731-8c9c-88dcc848bd86": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10517,47 +11473,56 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沼泽"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海岸"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海沟"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "淡水湖"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "大洋"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "珊瑚丛"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "咸水海"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "热带环礁"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "河流/溪流"
     },
     "c33b2100-066e-48fe-aa26-d98e039668b0": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10565,43 +11530,51 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海岸"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海沟"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "淡水湖"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "大洋"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "珊瑚丛"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "河流/溪流"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "热带环礁"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "咸水海"
     },
     "de26b220-b29c-476c-9555-36d5179842ed": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10609,47 +11582,56 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "河流/溪流"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "极地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沙漠"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "丛林"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "山地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "平原"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "岛屿/海滩"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "林地"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "沼泽"
     },
     "4d548873-ebec-40f0-84a8-1cdf2cdbb9ac": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10657,47 +11639,56 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "岛屿/海滩"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海岸"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "海沟"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "淡水湖"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "大洋"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "珊瑚丛"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "咸水海"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "河流/溪流"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "热带环礁"
     },
     "4f28c023-b6a6-40a8-b1d7-e553faa1237f": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10705,38 +11696,46 @@
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "极地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沙漠"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "岛屿/海滩"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "丛林"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "山地"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "平原"
             },
             {
                 "type": "skill",
-                "name": "生存"
+                "name": "生存",
+                "specialization": "沼泽"
             }
         ],
         "name": "生存",
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "specialization": "林地"
     },
     "b99b718b-6c88-4c6e-b76e-6953ee6225ac": {
         "defaults": [
@@ -10750,22 +11749,25 @@
             },
             {
                 "type": "skill",
-                "specialization": "@分支@"
+                "specialization": "@分支@",
+                "name": "骑术"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "赶车"
             }
         ],
         "specialization": "@分支@",
         "tags": [
             "动物",
             "载具"
-        ]
+        ],
+        "name": "赶车"
     },
     "03c37fe1-5c72-4598-9c0d-d9c183ecf8ed": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             },
             {
                 "type": "skill",
@@ -10775,7 +11777,8 @@
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "name": "追踪"
     },
     "7ee6a241-8276-4e2c-a429-b58299ffae8d": {
         "defaults": [
@@ -10788,7 +11791,8 @@
                 "name": "医师"
             },
             {
-                "type": "skill"
+                "type": "skill",
+                "name": "手术"
             }
         ],
         "tags": [
@@ -10905,7 +11909,8 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "绞杀"
     },
     "41015ad0-b707-4d35-8db5-7e43c2864133": {
         "defaults": [
@@ -10915,7 +11920,9 @@
         ],
         "tags": [
             "技术"
-        ]
+        ],
+        "specialization": "化学",
+        "name": "危险材料"
     },
     "8c78c1c6-009b-46e3-90ef-1762492202fe": {
         "defaults": [
@@ -10926,7 +11933,8 @@
         "specialization": "魔法",
         "tags": [
             "技术"
-        ]
+        ],
+        "name": "危险材料"
     },
     "8ec6f570-4710-48c2-9ae6-fd7e4fcfa958": {
         "defaults": [
@@ -10936,7 +11944,9 @@
         ],
         "tags": [
             "技术"
-        ]
+        ],
+        "specialization": "纳米",
+        "name": "危险材料"
     },
     "8b4c3b34-1af6-405d-8310-715d2008ca41": {
         "defaults": [
@@ -10946,7 +11956,9 @@
         ],
         "tags": [
             "技术"
-        ]
+        ],
+        "specialization": "辐射",
+        "name": "危险材料"
     },
     "6737a007-8564-46f2-b46c-446c227d5fef": {
         "defaults": [
@@ -10969,7 +11981,9 @@
         ],
         "tags": [
             "知识"
-        ]
+        ],
+        "name": "业余爱好技能",
+        "specialization": "@心灵爱好@"
     },
     "091faa0b-a5cf-4ca8-b866-12c8b31116d2": {
         "defaults": [
@@ -10979,7 +11993,9 @@
         ],
         "tags": [
             "知识"
-        ]
+        ],
+        "specialization": "@身手爱好@",
+        "name": "业余爱好技能"
     },
     "6bc102d3-6132-45b4-a38f-ecf71bf8aa02": {
         "defaults": [
@@ -11000,7 +12016,8 @@
         ],
         "tags": [
             "工艺"
-        ]
+        ],
+        "name": "皮革加工"
     },
     "74489bf1-73e2-46d2-8f48-e2af6cd5d341": {
         "tags": [
@@ -11008,12 +12025,14 @@
             "探索",
             "户外",
             "技术"
-        ]
+        ],
+        "name": "救生"
     },
     "5c80dae2-0bbb-43bb-a91f-348a81804e36": {
         "tags": [
             "运动"
-        ]
+        ],
+        "name": "举重"
     },
     "75036061-e56e-4cf7-b0ed-d32be91a123a": {
         "name": "数学",
@@ -11024,7 +12043,8 @@
         ],
         "tags": [
             "自然科学"
-        ]
+        ],
+        "specialization": "纯数学"
     },
     "6de40bd4-1c7b-463c-9cdb-c2a0c0625d2e": {
         "name": "数学",
@@ -11035,7 +12055,8 @@
         ],
         "tags": [
             "自然科学"
-        ]
+        ],
+        "specialization": "纯数学：@选择专业@"
     },
     "c662a98b-0991-410c-a909-e5b012336530": {
         "name": "数学",
@@ -11059,7 +12080,8 @@
         "tags": [
             "人文学科",
             "社会科学"
-        ]
+        ],
+        "name": "哲学"
     },
     "fb0b45ea-dbba-4b5e-a2e0-428055b39521": {
         "tags": [
@@ -11072,7 +12094,8 @@
                 "type": "iq"
             }
         ],
-        "specialization": "军事"
+        "specialization": "军事",
+        "name": "礼仪"
     },
     "8830eebb-07eb-4ff3-b94e-af6cb8855ad7": {
         "tags": [
@@ -11085,7 +12108,8 @@
                 "type": "iq"
             }
         ],
-        "specialization": "警察"
+        "specialization": "警察",
+        "name": "礼仪"
     },
     "48830fda-084c-48aa-9eb8-270660338bfe": {
         "defaults": [
@@ -11107,7 +12131,8 @@
         "tags": [
             "工艺",
             "常识"
-        ]
+        ],
+        "name": "缝纫"
     },
     "c18ba88d-5495-4e72-a0c0-4f0d4f5ace4d": {
         "tags": [
@@ -11117,7 +12142,8 @@
             {
                 "type": "ht"
             }
-        ]
+        ],
+        "name": "性感"
     },
     "cb4d165c-fed9-426b-8060-d260e372b2f1": {
         "defaults": [
@@ -11130,7 +12156,8 @@
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "name": "投掷武器"
     },
     "5e1c0a14-8625-40f4-9fd9-23a6e847688c": {
         "defaults": [
@@ -11143,7 +12170,8 @@
             "远程战斗",
             "武器"
         ],
-        "specialization": "斧/锤"
+        "specialization": "斧/锤",
+        "name": "投掷武器"
     },
     "7dd7f564-b82f-486e-8687-187e68d27c65": {
         "defaults": [
@@ -11155,7 +12183,9 @@
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "棍棒",
+        "name": "投掷武器"
     },
     "e1ccae10-ca7a-4d8b-998f-1155b1a141ef": {
         "specialization": "@分支@",
@@ -11170,13 +12200,16 @@
         "tags": [
             "魔法",
             "神秘学"
-        ]
+        ],
+        "name": "绘制符文"
     },
     "7acae2a3-b4ff-48a8-add0-bd9457ca68a9": {
         "tags": [
             "知识",
             "学校"
-        ]
+        ],
+        "name": "专家技能",
+        "specialization": "阴谋论"
     },
     "4f9b8515-a4d8-43d3-86fd-13df3dc10dd1": {
         "tags": [
@@ -11184,7 +12217,9 @@
             "知识",
             "学校",
             "社会科学"
-        ]
+        ],
+        "specialization": "埃及学",
+        "name": "专家技能"
     },
     "73d6ac95-3217-45fd-a11c-1dafb193f095": {
         "tags": [
@@ -11192,21 +12227,27 @@
             "医学",
             "自然科学",
             "学校"
-        ]
+        ],
+        "specialization": "流行病学",
+        "name": "专家技能"
     },
     "7ba0163f-9158-4d07-b349-f646affcbe6f": {
         "tags": [
             "知识",
             "自然科学",
             "学校"
-        ]
+        ],
+        "specialization": "水文学",
+        "name": "专家技能"
     },
     "7bee7b50-708f-4557-8736-a68184f980e0": {
         "tags": [
             "知识",
             "军事",
             "学校"
-        ]
+        ],
+        "specialization": "军事科学",
+        "name": "专家技能"
     },
     "8f57b991-44a5-4169-99d0-da759975beec": {
         "tags": [
@@ -11214,7 +12255,9 @@
             "知识",
             "学校",
             "社会科学"
-        ]
+        ],
+        "specialization": "政治学",
+        "name": "专家技能"
     },
     "710d8588-63ae-4079-9203-21e940241e5d": {
         "tags": [
@@ -11222,7 +12265,9 @@
             "魔法",
             "神秘学",
             "学校"
-        ]
+        ],
+        "specialization": "心灵异能",
+        "name": "专家技能"
     },
     "56702e70-3094-4d8e-a7df-e175fe0494db": {
         "tags": [
@@ -11230,7 +12275,9 @@
             "知识",
             "学校",
             "社会科学"
-        ]
+        ],
+        "specialization": "死亡学",
+        "name": "专家技能"
     },
     "a352c246-52ad-4a02-9e9e-54f51c19d502": {
         "tags": [
@@ -11238,19 +12285,25 @@
             "知识",
             "学校",
             "社会科学"
-        ]
+        ],
+        "specialization": "异族学",
+        "name": "专家技能"
     },
     "5b473bf9-daf6-4b6d-a2ea-eff5ba849a8e": {
         "tags": [
             "知识"
-        ]
+        ],
+        "specialization": "地球",
+        "name": "隐秘学识"
     },
     "eaab0cdf-0621-4dce-b25e-6cad8d1672dc": {
         "tags": [
             "知识",
             "魔法",
             "神秘学"
-        ]
+        ],
+        "specialization": "妖精学",
+        "name": "隐秘学识"
     },
     "b893ef1a-929e-48a8-80b3-ea4b27097ba9": {
         "tags": [
@@ -11259,7 +12312,8 @@
             "远程战斗",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "骑射"
     },
     "1c88af23-4607-4448-83e3-ef4e7899d8ff": {
         "name": "炼金术",
@@ -11289,50 +12343,62 @@
             "知识",
             "自然科学",
             "学校"
-        ]
+        ],
+        "specialization": "自然哲学",
+        "name": "专家技能"
     },
     "02f3c1b9-8552-46ec-b1f8-592d39db6b51": {
         "tags": [
             "知识"
         ],
-        "specialization": "@分支@"
+        "specialization": "@分支@",
+        "name": "隐秘学识"
     },
     "fa63bf7e-6c58-4121-8e28-7972acae00e3": {
         "tags": [
             "知识"
-        ]
+        ],
+        "specialization": "阴谋",
+        "name": "隐秘学识"
     },
     "debfaccd-93fd-4913-8032-39e8d9524403": {
         "tags": [
             "知识",
             "魔法",
             "神秘学"
-        ]
+        ],
+        "specialization": "恶魔学",
+        "name": "隐秘学识"
     },
     "901f298c-a49d-4d8f-961b-409741f3ec0d": {
         "tags": [
             "知识",
             "魔法",
             "神秘学"
-        ]
+        ],
+        "specialization": "鬼魂学",
+        "name": "隐秘学识"
     },
     "0bd43d77-6602-4ecb-b064-dbf9d87209ac": {
         "tags": [
             "人文学科",
             "社会科学"
-        ]
+        ],
+        "name": "语言学"
     },
     "e053e176-d3d5-4d9e-b78b-c63f9902da12": {
         "tags": [
             "技术",
             "载具"
-        ]
+        ],
+        "name": "离地接取"
     },
     "ea444473-19a5-4066-a4fe-ff6c819e5893": {
         "tags": [
             "设计",
             "发明"
-        ]
+        ],
+        "name": "怪诞科学"
     },
     "f20dbffa-7d11-4c64-b431-181a046c952c": {
         "name": "锁臂",
@@ -11367,14 +12433,16 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "地面格斗"
     },
     "be120498-9335-4a24-9564-217cc8f2909a": {
         "tags": [
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "摔跤"
     },
     "ab731b1b-aaf1-4576-804c-389e3c982ad7": {
         "tags": [
@@ -11398,14 +12466,17 @@
             "近战",
             "武器"
         ],
-        "specialization": "双手剑"
+        "specialization": "双手剑",
+        "name": "即时备战"
     },
     "e2c06f73-4859-43ff-8a07-488f90a01fb0": {
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "弹药",
+        "name": "即时备战"
     },
     "df4adc7d-6ce7-41bd-a5ee-5d22e3605cd3": {
         "tags": [
@@ -11422,7 +12493,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "指节锁"
     },
     "53eb7012-4a44-4a7e-8f0f-8f108dd2c42e": {
         "tags": [
@@ -11430,7 +12502,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "地面格斗·】"
     },
     "131219ce-d9c4-41b2-8756-670493e19b1d": {
         "tags": [
@@ -11438,7 +12511,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "地面格斗"
     },
     "21d0b6e0-d65b-4151-b2dc-bc2669aca80c": {
         "tags": [
@@ -11446,7 +12520,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "地面格斗"
     },
     "548ca139-1d89-40fa-b068-cd685fa3b721": {
         "tags": [
@@ -11454,7 +12529,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "地面格斗"
     },
     "2a2283ef-3dd9-4625-9a6b-8bf22f4ab048": {
         "tags": [
@@ -11462,7 +12538,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "膝击"
     },
     "91f80f7e-4757-470e-adab-5b022b920b1d": {
         "tags": [
@@ -11470,14 +12547,16 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "副手武器训练"
     },
     "96e82409-5ff6-428a-acd0-f6417f7529fe": {
         "tags": [
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "招架投射武器"
     },
     "841e282a-d1ef-4146-bff0-dca01a29d772": {
         "tags": [
@@ -11485,7 +12564,8 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "旋风攻击"
     },
     "f58fe5a1-0ed0-41ff-a097-b4167ff26c27": {
         "tags": [
@@ -11626,7 +12706,9 @@
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "name": "即时备战",
+        "specialization": "箭矢"
     },
     "5179b641-1df4-4121-bf57-9ab78a654f07": {
         "tags": [
@@ -11634,21 +12716,26 @@
             "近战",
             "武器"
         ],
-        "specialization": "能量剑"
+        "specialization": "能量剑",
+        "name": "即时备战"
     },
     "63d8fe1a-8fd9-48a9-ac2a-6669ad4905b8": {
         "tags": [
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "specialization": "短刀",
+        "name": "即时备战"
     },
     "24a897db-9bc6-4870-8afb-c1080b184307": {
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "specialization": "长武器",
+        "name": "即时备战"
     },
     "dd747d5b-2d24-492e-875b-5964d1a50002": {
         "tags": [
@@ -11656,7 +12743,8 @@
             "远程战斗",
             "武器"
         ],
-        "specialization": "手枪"
+        "specialization": "手枪",
+        "name": "即时备战"
     },
     "6bfc7bf6-fdb2-4735-aa0f-cc7a7f92dcc9": {
         "tags": [
@@ -11664,7 +12752,8 @@
             "近战",
             "武器"
         ],
-        "specialization": "剑击Sword"
+        "specialization": "剑",
+        "name": "即时备战"
     },
     "6413ccb2-8ea0-4092-ba1b-7e223317999d": {
         "tags": [
@@ -11726,14 +12815,16 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "地面格斗"
     },
     "e015bcf9-71a8-4777-a924-47b0dceec462": {
         "tags": [
             "艺术",
             "娱乐",
             "技术"
-        ]
+        ],
+        "name": "扮演"
     },
     "5ac0e358-c9bb-486e-bcaa-b56d2e1afacc": {
         "tags": [
@@ -11741,7 +12832,8 @@
             "近战",
             "武器"
         ],
-        "name": "抓擒技击"
+        "name": "抓擒技击",
+        "notes": "使得你获得每轮用两只手各招架一次的能力。"
     },
     "50deb09d-7764-4324-bfa4-348d9b4653d9": {
         "tags": [
@@ -11749,14 +12841,16 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "飞踢"
     },
     "0f7bf286-2776-4226-b859-b8ecb9431625": {
         "tags": [
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "空手技击"
     },
     "e21f21c4-30ad-41cc-a72b-16ba4871fc72": {
         "tags": [
@@ -11764,7 +12858,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "踢击"
     },
     "b718e156-f8b4-4244-b0e5-53cbe3541300": {
         "tags": [
@@ -11772,7 +12867,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "踢击"
     },
     "ccaefa92-3f17-4c9c-aa96-37edf6b46237": {
         "tags": [
@@ -11780,14 +12876,16 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "膝击"
     },
     "ebe072e7-906b-475d-a951-bad2ec9360cb": {
         "tags": [
             "战斗",
             "远程战斗",
             "武器"
-        ]
+        ],
+        "name": "套索"
     },
     "3faabd25-9946-4c09-859c-56ceb9c3c84b": {
         "tags": [
@@ -11795,7 +12893,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "折颈"
     },
     "b76c876b-8874-42c4-bccd-c378d2fdc0e8": {
         "tags": [
@@ -11803,7 +12902,8 @@
             "远程战斗",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "副手武器训练"
     },
     "2fc50a67-a823-4501-9295-8fadf5bf911c": {
         "tags": [
@@ -11811,7 +12911,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "副手武器训练"
     },
     "f1a874be-6132-41eb-99bf-e792ce1e85ba": {
         "tags": [
@@ -11819,7 +12920,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "副手武器训练"
     },
     "8105c2fa-ce51-41e7-8be7-ff194166a226": {
         "tags": [
@@ -11827,7 +12929,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "维持武器"
     },
     "9eb76547-3426-46e2-94a9-2744ddd870a0": {
         "tags": [
@@ -11835,7 +12938,8 @@
             "远程战斗",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "维持武器（@远程武器@）"
     },
     "a1ca798f-b81c-411f-8a82-14c1679cc924": {
         "tags": [
@@ -11843,7 +12947,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "维持武器"
     },
     "1cf857d4-cf9e-4dda-b777-4c87d0d1dab6": {
         "tags": [
@@ -11851,7 +12956,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "维持武器"
     },
     "f2fffd12-d8c5-47de-8137-27e0fa4ff44f": {
         "tags": [
@@ -11859,7 +12965,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "维持武器"
     },
     "2ce83a22-5a01-4102-bcf5-bacd63703e0b": {
         "tags": [
@@ -11867,21 +12974,24 @@
             "军事",
             "街头",
             "技术"
-        ]
+        ],
+        "name": "设置圈套式炸弹"
     },
     "e9664e42-bb07-4961-9f47-e6798caefd5a": {
         "tags": [
             "犯罪",
             "街头",
             "技术"
-        ]
+        ],
+        "name": "脱拷术"
     },
     "9523c947-daa5-499a-a75b-076647c69ac2": {
         "tags": [
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "相扑摔技"
     },
     "b5d42850-d4fc-40b6-8e96-42d62a824703": {
         "tags": [
@@ -11889,7 +12999,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "扫击"
     },
     "32a2c846-ddbe-4d8b-9ea2-b9d06a668e2d": {
         "tags": [
@@ -11897,7 +13008,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "扫击"
     },
     "36f13065-d68b-429d-ba86-7aad710d4ed1": {
         "tags": [
@@ -11905,7 +13017,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "扫击"
     },
     "90e6eefb-0d9c-4982-8154-f4ed2b309ed2": {
         "tags": [
@@ -11913,7 +13026,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "扫击"
     },
     "1fc0ec7a-364b-47e5-883d-aaf486e9ab6f": {
         "tags": [
@@ -11921,7 +13035,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "扫堂腿"
     },
     "e6d2c73b-9a4a-479d-a2c7-128a271816f6": {
         "tags": [
@@ -11929,7 +13044,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "扫堂腿"
     },
     "2ed10019-a55b-4db3-812d-63ce66009a59": {
         "tags": [
@@ -11937,7 +13053,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "扫堂腿"
     },
     "a47e8bb0-7d9a-4dac-9768-0e711655c263": {
         "tags": [
@@ -11945,7 +13062,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "扫堂腿"
     },
     "dfa260ac-84a9-48c0-bc3f-128697503c10": {
         "tags": [
@@ -11953,7 +13071,8 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "旋风攻击"
     },
     "4aeca125-9605-434f-b058-a5652f51e1dd": {
         "tags": [
@@ -11961,7 +13080,8 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "旋风攻击"
     },
     "154a947a-6c2f-4139-9ba8-ac863f06598d": {
         "tags": [
@@ -11969,7 +13089,8 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "旋风攻击"
     },
     "383d4f2a-30c7-436f-bd03-307a37ffe646": {
         "tags": [
@@ -11977,7 +13098,8 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "旋风攻击"
     },
     "63c5d9fd-7b36-45bc-b304-b370426d7ccf": {
         "tags": [
@@ -11985,42 +13107,47 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "name": "旋风攻击"
     },
     "2d8bd63d-e0f6-4311-ac43-04b59d1d1932": {
         "tags": [
             "犯罪",
             "街头",
             "技术"
-        ]
+        ],
+        "name": "凭触觉开锁"
     },
     "c3f518fb-8c38-46f9-83b0-ffe1df1e2d80": {
         "tags": [
             "艺术",
             "娱乐"
-        ]
+        ],
+        "name": "吞火"
     },
     "dcc32d5e-6784-4b04-b2f5-cb3a50413d09": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             }
         ],
         "tags": [
             "探索",
             "户外"
-        ]
+        ],
+        "name": "捕鱼"
     },
     "3a96ee08-c65a-4546-99d9-64183a64143c": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             }
         ],
         "tags": [
             "犯罪",
             "街头"
-        ]
+        ],
+        "name": "搜集"
     },
     "dc9f9ca1-8b23-47cc-914f-e7cb411c3873": {
         "tags": [
@@ -12031,41 +13158,46 @@
             {
                 "type": "ht"
             }
-        ]
+        ],
+        "name": "唱歌"
     },
     "5ad4280b-4ab6-45c4-843f-424ad04cfbac": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             }
         ],
         "tags": [
             "犯罪",
             "警察",
             "街头"
-        ]
+        ],
+        "name": "城市生存"
     },
     "7d79dae4-f799-4d24-a10e-732af3210835": {
         "tags": [
             "艺术",
             "娱乐"
-        ]
+        ],
+        "name": "腹语术"
     },
     "c0ccc698-f9c4-40da-a76e-68fb8516a001": {
         "defaults": [
             {
-                "type": "每"
+                "type": "per"
             }
         ],
         "tags": [
             "秘技",
             "医学"
-        ]
+        ],
+        "name": "秘传医术"
     },
     "c02cb3fe-f260-415a-a243-45a23d8e8e7b": {
         "tags": [
             "植物"
-        ]
+        ],
+        "name": "草药学识"
     },
     "fd29bd62-23d2-41ca-9d7c-0184dfc4ec9d": {
         "name": "盲斗",
@@ -12076,12 +13208,14 @@
     "a8a91540-b78d-4ebe-8c6c-7b686bc32cc4": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "支配情绪"
     },
     "1f47a96e-4b27-41ae-9318-8402384887b4": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "精神力量"
     },
     "1caf4708-ab8b-4448-a78a-937dab801b23": {
         "tags": [
@@ -12115,82 +13249,98 @@
     "3dd59b17-5629-4b3c-8465-4ec6c04b04f3": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "惑控"
     },
     "4850296c-6e3d-44d9-aefb-c8d1649f0da1": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "飞跃"
     },
     "eb722f53-aba7-40ec-80b7-58bd06dbb65e": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "千斤坠"
     },
     "6e5473a9-33b8-4b13-baf7-acfc513c0242": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "凭空消失"
     },
     "126b98c3-eb98-4f48-8413-45bddc412cef": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "气合"
     },
     "9f9ee530-dffd-4a65-9fe8-d50588236b23": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "踏雪无痕"
     },
     "53a82e24-7dff-43c8-913b-269bf9f98461": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "音乐影响"
     },
     "9e4f3f9e-8414-4fd8-927d-8fc7eceb3c4b": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "说服"
     },
     "d7958868-edae-4e4c-b25a-179af9ab7110": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "斗气击"
     },
     "4da1fba1-06e4-4057-bd18-0095c8874098": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "点穴"
     },
     "6d95a87d-5aaf-41c1-966e-6117c857d09f": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "点脉大法"
     },
     "055e0a8d-b202-46ea-ab1f-fcbc8752617f": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "推劲"
     },
     "b9242dc4-5e14-453a-aae0-dd89f574478a": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "劝导"
     },
     "1d70e4a3-f4da-4ed6-91a2-d180f6d5fc9e": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "投掷绝学"
     },
     "2541c113-3a00-40a0-bee4-d87e407cc35c": {
         "tags": [
             "秘技"
-        ]
+        ],
+        "name": "禅箭术"
     },
     "7bd0bb70-bbc9-4a06-82c7-c5c4c166d4e5": {
         "tags": [
             "医学"
-        ]
+        ],
+        "name": "催眠术"
     },
     "5a441e03-2c54-4aff-a9f2-b0bcabd8fede": {
         "tags": [
@@ -12201,11 +13351,13 @@
             {
                 "type": "ht"
             }
-        ]
+        ],
+        "name": "滑冰"
     },
     "16df00d7-6bf6-49d3-8255-4d5fc14658e6": {
         "tags": [
             "学校"
-        ]
+        ],
+        "name": "速读"
     }
 }
