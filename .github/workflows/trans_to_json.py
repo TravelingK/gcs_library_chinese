@@ -111,7 +111,7 @@ def en_to_file(input_file):
                         defaultline.append(nnewskilline)
                     newskilline['defaults']=defaultline
                 new_json[i['id']]=newskilline
-
+    print(mubiao_file)
     outjson(new_json,mubiao_file)
 en_to_file(sys.argv[1])
 
