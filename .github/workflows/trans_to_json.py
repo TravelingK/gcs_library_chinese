@@ -67,6 +67,7 @@ def en_to_file(input_file):
     mubiao_file=re.sub("gcs_master_library","gcs_master_library_en_json",mubiao_file)
     type=re.findall('(?<=.)[a-z]{0,}$',input_file)
     raw_json=getdict(input_file)
+    print(input_file,mubiao_file)
     new_json={}
     match type[0]:
         case "skl":
@@ -101,4 +102,3 @@ def en_to_file(input_file):
                 new_json[i['id']]=newskilline
 
     outjson(new_json,mubiao_file)
-    print(mubiao_file)
