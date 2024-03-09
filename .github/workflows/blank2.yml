@@ -2,7 +2,7 @@
 name: TrantoChineseLibrary
 on:
   workflow_dispatch:
-  #push:
+  push:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,7 +17,7 @@ jobs:
       - name: trantojson
         run: |
           git clone https://github.com/richardwilkes/gcs_master_library.git
-          find . |grep  ".skl" >> skl.list
+          find ./gcs_master_library/|grep  ".skl" >> skl.list
           while read line
           do
           echo $line
