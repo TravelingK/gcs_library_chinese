@@ -46,8 +46,8 @@ def en_to_file(input_file):
     .skl 技能
     .spl 法术
     """
-    mubiao_file=re.sub(".[a-z]{0,}$",".json",input_file)
-    mubiao_file=re.sub("gcs_master_library","",mubiao_file)
+    mubiao_file=re.sub(".[a-z]{0,}$","_en.json",input_file)
+    mubiao_file=re.sub("gcs_master_library","gcs_master_library_en_json",mubiao_file)
     type=re.findall('(?<=.)[a-z]{0,}$',input_file)
     raw_json=getdict(input_file)
     new_json={}
