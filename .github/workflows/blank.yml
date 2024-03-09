@@ -5,7 +5,7 @@ on:
   schedule:
     - cron:  '0 3 * * *'
   workflow_dispatch:
-
+  push:
 
 
 jobs:
@@ -24,9 +24,9 @@ jobs:
           find ./gcs_master_library/Library|grep -i ".skl" >> skl.list
           while read line
           do
-          echo $line
           python3 ./.github/workflows/trans_to_json.py "$line"
           done <skl.list
+          ls
           cat gcs_master_library_en_json/Library/Basic Set/Basic Set Skills/Basic Set Skills_en.json
           
       - name: Add & Commit
