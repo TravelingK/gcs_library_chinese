@@ -27,20 +27,35 @@ def outjson(nnskillline,docname):
         skillline=json.dumps(nnskillline)
         skill.write(skillline)
 
+def  mergeDict(olddict,newdict):
+    for i in olddict:
+        print(i)
+        if isinstance(olddict[i],list):
+            num=len(olddict[i])
+            print(num)
+            for ii in range(num-1):
+                if isinstance(ii,dict):
+                    mergeDict(olddict[i][ii],newdict[i][ii])
+                else:
+                    olddict[i][ii]=newdict[i][ii]
+        else:
+            if i in newdict:
+                olddict[i]=newdict[i]
+    return(olddict)
 
 
-def zh_to_file(shuru_file,type=0):
-    mobanwenjian=re.sub(r"master_library_en_json","master_library",shuru_file)
-    mobanwenjian=re.sub(r"_zh_Hans.json",".skl",mobanwenjian)
+def zh_to_file(mobanwenjian,type=0):
+    input_file=re.sub(r"master_library","master_library_en_json",mobanwenjian)
+    input_file=re.sub(r".skl","_zh_Hans.json",input_file)
     mubiao_file=re.sub(".[a-z]{0,}$","zh.skl",mobanwenjian)
     mubiao_file=re.sub("gcs_master_library","gcs_chinese_library",mobanwenjian)
-    skilljson=getdict(shuru_file)
+    skilljson=getdict(input_file)
     mobanjson=getdict(mobanwenjian)
     for i in skilljson:
         for ii in mobanjson['rows']:
             if (ii['id']==i):
                 #print(i)
-                ii.update(skilljson[i])
+                ii=mergeDict(ii,skilljson[i])
     outjson(mobanjson,mubiao_file)
             
 
