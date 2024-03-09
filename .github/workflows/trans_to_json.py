@@ -82,8 +82,6 @@ def en_to_file(input_file):
                     newskilline['prereqs']=getPrereqs(i['prereqs'])
                 if 'default' in i:
                     newskilline['default']={}
-                    if 'type' in i['default']:
-                        newskilline['default']['type']=i['default']['type']
                     if 'name' in i['default']:
                         newskilline['default']['name']=i['default']['name']
                 if 'defaults' in i:
