@@ -45,7 +45,7 @@ def en_to_file(shuru_file,type=0):
             newskilline['specialization']=i['specialization']
         if 'notes' in i:
             newskilline['notes']=i['notes']
-        if 'defaults' in i:
+        if 'default' in i:
             newskilline['defaults']=i['defaults']
         if 'defaults' in i:
             defaultline=[]
