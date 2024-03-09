@@ -7,7 +7,8 @@
             "武器"
         ],
         "default": {
-            "name": "手枪"
+            "name": "手枪",
+            "type": "skill"
         },
         "name": "Fanning"
     },
@@ -19,7 +20,8 @@
             "武器"
         ],
         "default": {
-            "name": "手枪"
+            "name": "手枪",
+            "type": "skill"
         },
         "name": "Fast-Firing"
     },
@@ -98,42 +100,210 @@
         "tags": [
             "秘技"
         ],
-        "name": "Zen Marksmanship"
+        "name": "Zen Marksmanship",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Meditation"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Guns"
+                    }
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Gunslinger"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "30885255-2ebc-40cf-bca0-07cb441e5280": {
         "tags": [
             "秘技"
         ],
         "specialization": "滑膛枪",
-        "name": "Zen Marksmanship"
+        "name": "Zen Marksmanship",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Meditation"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Guns"
+                    }
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Gunslinger"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "33f2e8d4-13f6-4ef6-a437-7f857782f091": {
         "tags": [
             "秘技"
         ],
         "specialization": "手枪",
-        "name": "Zen Marksmanship"
+        "name": "Zen Marksmanship",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Meditation"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Guns"
+                    }
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Gunslinger"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "c1624176-c955-4aeb-9163-6bc7153e3d49": {
         "tags": [
             "秘技"
         ],
         "specialization": "来复枪",
-        "name": "Zen Marksmanship"
+        "name": "Zen Marksmanship",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Meditation"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Guns"
+                    }
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Gunslinger"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "658eb279-05c9-4609-b462-51d3cce988be": {
         "tags": [
             "秘技"
         ],
         "specialization": "霰弹枪",
-        "name": "Zen Marksmanship"
+        "name": "Zen Marksmanship",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Meditation"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Guns"
+                    }
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Gunslinger"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "a880bf6a-edb7-4d7e-8039-cef60451fde8": {
         "tags": [
             "秘技"
         ],
         "specialization": "冲锋枪",
-        "name": "Zen Marksmanship"
+        "name": "Zen Marksmanship",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Meditation"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Guns"
+                    }
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Gunslinger"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "639d91c3-491d-4b4f-9a50-c0973ac68ecb": {
         "tags": [
@@ -143,7 +313,8 @@
             "武器"
         ],
         "default": {
-            "name": "手枪"
+            "name": "手枪",
+            "type": "skill"
         },
         "name": "Close-Quarters Battle"
     },
@@ -211,7 +382,8 @@
             "技术"
         ],
         "default": {
-            "name": "军械修造"
+            "name": "军械修造",
+            "type": "skill"
         },
         "name": "Immediate Action"
     },
@@ -223,7 +395,8 @@
             "技术"
         ],
         "default": {
-            "name": "炮手"
+            "name": "炮手",
+            "type": "skill"
         },
         "name": "Immediate Action"
     },
@@ -235,7 +408,8 @@
             "技术"
         ],
         "default": {
-            "name": "手枪"
+            "name": "手枪",
+            "type": "skill"
         },
         "name": "Immediate Action"
     },
@@ -247,7 +421,8 @@
             "武器"
         ],
         "default": {
-            "name": "军械修造"
+            "name": "军械修造",
+            "type": "skill"
         },
         "name": "Instant Arsenal Disarm"
     },
@@ -262,7 +437,32 @@
         ],
         "name": "Mounted Shooting",
         "default": {
-            "name": "@Ranged Weapon Skill@"
+            "name": "@Ranged Weapon Skill@",
+            "type": "skill"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Teamster"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Driving"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Bicycling"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "riding"
+                    }
+                }
+            ]
         }
     },
     "e7e106b9-bc1d-4df9-b094-3b7e37894dd2": {
@@ -273,9 +473,19 @@
             "武器"
         ],
         "default": {
-            "name": "手枪"
+            "name": "手枪",
+            "type": "skill"
         },
-        "name": "Precision Aiming"
+        "name": "Precision Aiming",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Observation"
+                    }
+                }
+            ]
+        }
     },
     "4c3ded14-9d38-4a89-bb06-6c0c16835c40": {
         "tags": [
@@ -285,9 +495,19 @@
             "武器"
         ],
         "default": {
-            "name": "手枪"
+            "name": "手枪",
+            "type": "skill"
         },
-        "name": "Quick-Shot"
+        "name": "Quick-Shot",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Guns"
+                    }
+                }
+            ]
+        }
     },
     "c3097f60-ee33-415a-9689-3b29681094a2": {
         "tags": [
@@ -297,7 +517,8 @@
             "武器"
         ],
         "default": {
-            "name": "手枪"
+            "name": "手枪",
+            "type": "skill"
         },
         "name": "Thumbing"
     },
@@ -309,7 +530,8 @@
             "武器"
         ],
         "default": {
-            "name": "手枪"
+            "name": "手枪",
+            "type": "skill"
         },
         "name": "Two-Handed Thumbing"
     },
@@ -317,14 +539,70 @@
         "tags": [
             "秘技"
         ],
-        "name": "Zen Marksmanship"
+        "name": "Zen Marksmanship",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "meditation"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Guns"
+                    }
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Gunslinger"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "trained by a master"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "2d2586e0-2626-4d65-93c4-f8919aa7a41f": {
         "tags": [
             "秘技"
         ],
         "specialization": "轻型反装甲武器",
-        "name": "Zen Marksmanship"
+        "name": "Zen Marksmanship",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Meditation"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Guns"
+                    }
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Gunslinger"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "6e9a378e-f132-4353-864d-1fc4d07009bb": {
         "tags": [
@@ -334,7 +612,8 @@
             "武器"
         ],
         "default": {
-            "name": "即时备战"
+            "name": "即时备战",
+            "type": "skill"
         },
         "name": "Double-Loading"
     },
@@ -346,7 +625,8 @@
             "技术"
         ],
         "default": {
-            "name": "军械修造"
+            "name": "军械修造",
+            "type": "skill"
         },
         "name": "Immediate Action"
     },
@@ -355,13 +635,69 @@
             "秘技"
         ],
         "specialization": "榴弹发射器",
-        "name": "Zen Marksmanship"
+        "name": "Zen Marksmanship",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Meditation"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Guns"
+                    }
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Gunslinger"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "0837339e-99b5-435f-8269-17429579af86": {
         "tags": [
             "秘技"
         ],
         "specialization": "火箭枪械",
-        "name": "Zen Marksmanship"
+        "name": "Zen Marksmanship",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Meditation"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Guns"
+                    }
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Gunslinger"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

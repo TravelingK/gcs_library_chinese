@@ -9,7 +9,8 @@
             "武器"
         ],
         "default": {
-            "name": "弓术"
+            "name": "弓术",
+            "type": "skill"
         },
         "name": "Chariot Archery"
     },
@@ -20,7 +21,8 @@
             "技术"
         ],
         "default": {
-            "name": "短刀"
+            "name": "短刀",
+            "type": "skill"
         },
         "name": "Purse Cutting"
     },
@@ -39,7 +41,8 @@
             "载具"
         ],
         "default": {
-            "name": "赶车"
+            "name": "赶车",
+            "type": "skill"
         },
         "name": "Sharp Turn"
     },
@@ -52,9 +55,19 @@
             "武器"
         ],
         "default": {
-            "name": "弓术"
+            "name": "弓术",
+            "type": "skill"
         },
-        "name": "Shoot Backward"
+        "name": "Shoot Backward",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "riding"
+                    }
+                }
+            ]
+        }
     },
     "2bfb38b0-2716-47e0-84a0-2cd8e0a32964": {
         "tags": [
@@ -65,9 +78,19 @@
             "武器"
         ],
         "default": {
-            "name": "弓术"
+            "name": "弓术",
+            "type": "skill"
         },
-        "name": "Shoot Over Mount"
+        "name": "Shoot Over Mount",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "riding"
+                    }
+                }
+            ]
+        }
     },
     "e9bba813-a5e8-45de-a82e-8bf0af5fa561": {
         "name": "专家技能",
@@ -91,7 +114,8 @@
             "技术"
         ],
         "default": {
-            "name": "骑术"
+            "name": "骑术",
+            "type": "skill"
         },
         "name": "Hang From Saddle"
     },
@@ -101,7 +125,8 @@
             "技术"
         ],
         "default": {
-            "name": "骑术"
+            "name": "骑术",
+            "type": "skill"
         },
         "name": "No-Hands Riding"
     },

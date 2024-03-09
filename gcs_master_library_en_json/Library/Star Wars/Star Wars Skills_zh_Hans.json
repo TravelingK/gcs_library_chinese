@@ -25,7 +25,8 @@
         ],
         "name": "Back Strike",
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
         }
     },
     "74bf9ef6-eecc-441d-a397-9f57f643e410": {
@@ -37,7 +38,8 @@
             "武器"
         ],
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
         }
     },
     "310f61b8-7744-4e88-8dd3-2e281a4536a5": {
@@ -49,7 +51,8 @@
             "武器"
         ],
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
         }
     },
     "2911626a-6a64-4d2e-a152-f80afbe77b53": {
@@ -61,7 +64,8 @@
             "武器"
         ],
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
         }
     },
     "f4adbca0-5b0c-463c-9cfa-7ba94517ec68": {
@@ -81,7 +85,16 @@
             }
         ],
         "name": "Dun Möch",
-        "notes": "You are adept in the ancient skill of Dun Möch to temp others into using the Dark side of The Force."
+        "notes": "You are adept in the ancient skill of Dun Möch to temp others into using the Dark side of The Force.",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Dark Aspect of The Force"
+                    }
+                }
+            ]
+        }
     },
     "9b4433cf-f261-45cc-bb69-7e8beb07f874": {
         "defaults": [
@@ -117,7 +130,16 @@
                 "name": "电子维修",
                 "specialization": "力场"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Mathematics"
+                    }
+                }
+            ]
+        }
     },
     "560abc5d-2022-4950-8121-42418b90897d": {
         "name": "即时备战",
@@ -137,7 +159,17 @@
             "武器"
         ],
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Lightsaber"
+                    }
+                }
+            ]
         }
     },
     "c6d4a0e6-010b-4f12-846e-b4b4554d6462": {
@@ -149,7 +181,17 @@
             "武器"
         ],
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Lightsaber"
+                    }
+                }
+            ]
         }
     },
     "2da668f7-bc06-4679-9aa0-3aac84f97da9": {
@@ -161,7 +203,17 @@
             "武器"
         ],
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Lightsaber"
+                    }
+                }
+            ]
         }
     },
     "7569e35e-305f-44a4-b9f3-ca15dfa8c5dd": {
@@ -173,7 +225,17 @@
             "武器"
         ],
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Lightsaber"
+                    }
+                }
+            ]
         }
     },
     "ef0b6b13-6bc2-4c31-b67d-0950a99cd6e3": {
@@ -185,7 +247,17 @@
             "武器"
         ],
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Lightsaber"
+                    }
+                }
+            ]
         }
     },
     "0a22d1c9-d52c-432c-b7f6-97f25aa4abd1": {
@@ -385,7 +457,8 @@
             "武器"
         ],
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
         }
     },
     "cb5f8037-28eb-40bc-8091-da596dda6be7": {
@@ -397,7 +470,8 @@
             "武器"
         ],
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
         }
     },
     "11c03cdc-6bcd-43b3-99cd-43cf86c919d9": {
@@ -409,7 +483,8 @@
             "武器"
         ],
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
         }
     },
     "fc2b6696-93ae-4606-aedb-933eecba4381": {
@@ -421,7 +496,8 @@
             "武器"
         ],
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
         }
     },
     "603af705-f56a-4331-b7e9-76dc12f3570c": {
@@ -441,7 +517,26 @@
         "name": "斗气击",
         "tags": [
             "秘技"
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Trained By A Jedi Battlemaster"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Weapon Master"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Trained By A Master"
+                    }
+                }
+            ]
+        }
     },
     "9e9e7aa9-2058-4514-bb0c-dffb70618660": {
         "tags": [
@@ -449,7 +544,34 @@
             "战斗",
             "近战"
         ],
-        "name": "Precognitive Parry"
+        "name": "Precognitive Parry",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Force Sensitivity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Danger Sense"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Precognition"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "318c8001-71a9-4132-91d9-05c84bb2a230": {
         "name": "投掷武器",
@@ -469,7 +591,8 @@
         ],
         "name": "Back Strike",
         "default": {
-            "name": "Lightsaber"
+            "name": "Lightsaber",
+            "type": "skill"
         }
     },
     "750fc465-4aed-42f2-aa80-f4bdc86b0de1": {

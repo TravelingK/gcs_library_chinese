@@ -7,7 +7,22 @@
             "技术",
             "武器"
         ],
-        "name": "Zen Marksmanship (@Shooting Skill@)"
+        "name": "Zen Marksmanship (@Shooting Skill@)",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Meditation"
+                    }
+                },
+                {},
+                {
+                    "name": {
+                        "qualifier": "@Shooting Skill@"
+                    }
+                }
+            ]
+        }
     },
     "aaa6e206-a163-4031-a5b3-e7155c9e0b8b": {
         "tags": [
@@ -18,7 +33,8 @@
         ],
         "name": "Behind-the-Back Shot",
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         }
     },
     "1a0261ff-9688-457e-b97c-2ea6050a0514": {
@@ -29,7 +45,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         },
         "name": "Close-Quarters Battle"
     },
@@ -41,7 +58,8 @@
             "武器"
         ],
         "default": {
-            "name": "骑术"
+            "name": "骑术",
+            "type": "skill"
         },
         "name": "Combat Riding"
     },
@@ -54,7 +72,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         }
     },
     "f316c966-136a-4c95-9fe5-ac3231411052": {
@@ -62,7 +81,8 @@
             "技术"
         ],
         "default": {
-            "name": "手枪"
+            "name": "手枪",
+            "type": "skill"
         },
         "name": "Fanning"
     },
@@ -74,9 +94,19 @@
             "武器"
         ],
         "default": {
-            "name": "即时备战"
+            "name": "即时备战",
+            "type": "skill"
         },
-        "name": "Fast-Draw Opponent's Weapon"
+        "name": "Fast-Draw Opponent's Weapon",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Fast-Draw"
+                    }
+                }
+            ]
+        }
     },
     "8326408a-c586-418f-ab09-e5a87232d0d6": {
         "tags": [
@@ -86,9 +116,19 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
-        "name": "Fast-Draw Opponent's Weapon"
+        "name": "Fast-Draw Opponent's Weapon",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Fast-Draw"
+                    }
+                }
+            ]
+        }
     },
     "46bb9bb2-dae0-41e4-8184-6446813fa1cb": {
         "tags": [
@@ -98,7 +138,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         },
         "name": "Fast-Firing"
     },
@@ -111,7 +152,17 @@
             "武器"
         ],
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "@Shooting Skill@"
+                    }
+                }
+            ]
         }
     },
     "40863eb4-3e3e-4b0b-b671-26ab40665e4d": {
@@ -123,7 +174,8 @@
         ],
         "name": "Flank Shot",
         "default": {
-            "name": "@Shooting Skil@"
+            "name": "@Shooting Skil@",
+            "type": "skill"
         }
     },
     "6c94073f-0ea1-434a-9bce-e8b1e1d4a60c": {
@@ -132,7 +184,8 @@
         ],
         "name": "Hands-Free Riding",
         "default": {
-            "name": "Skill"
+            "name": "Skill",
+            "type": "skill"
         }
     },
     "c6d5a448-b453-4036-9c86-1ceb2084c538": {
@@ -140,7 +193,8 @@
             "技术"
         ],
         "default": {
-            "name": "军械修造"
+            "name": "军械修造",
+            "type": "skill"
         },
         "name": "Immediate Action"
     },
@@ -152,9 +206,39 @@
             "武器"
         ],
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         },
-        "name": "Mounted Shooting"
+        "name": "Mounted Shooting",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Riding"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Bicycling"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Driving"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Teamster"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "@Other Skill@"
+                    }
+                }
+            ]
+        }
     },
     "cbb1b1fb-306a-4e0e-b4f8-d300b23bcaee": {
         "tags": [
@@ -165,7 +249,8 @@
         ],
         "name": "Precision Aiming",
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         }
     },
     "4e58c11f-940f-4d7e-a650-75620f03de04": {
@@ -173,7 +258,8 @@
             "技术"
         ],
         "default": {
-            "name": "杂技"
+            "name": "杂技",
+            "type": "skill"
         },
         "name": "Quick Mount"
     },
@@ -182,7 +268,8 @@
             "技术"
         ],
         "default": {
-            "name": "跳跃"
+            "name": "跳跃",
+            "type": "skill"
         },
         "name": "Quick Mount"
     },
@@ -194,7 +281,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         },
         "name": "Quick-Shot"
     },
@@ -205,7 +293,10 @@
             "技术",
             "武器"
         ],
-        "name": "Retain Weapon (@Shooting Skill@)"
+        "name": "Retain Weapon (@Shooting Skill@)",
+        "default": {
+            "type": "dx"
+        }
     },
     "b8296502-8279-4880-9378-61c175193240": {
         "tags": [
@@ -215,7 +306,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         },
         "name": "Targeted Attack (@Specialty@/Eye)"
     },
@@ -228,7 +320,8 @@
         ],
         "name": "Targeted Attack (@Specialty@/Skull)",
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         }
     },
     "46764445-5d07-4606-9fda-08b661b5902a": {
@@ -240,7 +333,8 @@
         ],
         "name": "Targeted Attack (@Specialty@/Face)",
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         }
     },
     "7c2f974d-da7f-4b25-b4dd-3ccd52a9bfd8": {
@@ -251,7 +345,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         },
         "name": "Targeted Attack (@Specialty@/Arm)"
     },
@@ -264,7 +359,8 @@
         ],
         "name": "Targeted Attack (@Specialty@/Groin)",
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         }
     },
     "dbd5734c-2048-4107-962d-254bc2b8ef79": {
@@ -276,7 +372,8 @@
         ],
         "name": "Targeted Attack (@Specialty@/Hand)",
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         }
     },
     "ec25d42f-1b4c-45b9-9567-b99f84cdb0ef": {
@@ -287,7 +384,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         },
         "name": "Targeted Attack (@Specialty@/Neck)"
     },
@@ -299,7 +397,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         },
         "name": "Targeted Attack (@Specialty@/Vitals)"
     },
@@ -311,7 +410,8 @@
             "武器"
         ],
         "default": {
-            "name": "手枪"
+            "name": "手枪",
+            "type": "skill"
         },
         "name": "Thumbing"
     },
@@ -323,7 +423,8 @@
             "武器"
         ],
         "default": {
-            "name": "手枪"
+            "name": "手枪",
+            "type": "skill"
         },
         "name": "Two-Handed Thumbing"
     },
@@ -336,12 +437,14 @@
             "武器"
         ],
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         }
     },
     "456dae6b-6da6-46ee-927a-a4905626bb4b": {
         "default": {
-            "name": "即时备战"
+            "name": "即时备战",
+            "type": "skill"
         },
         "tags": [
             "战斗",
@@ -353,7 +456,8 @@
     },
     "dd2c2c43-94d1-4caa-88c4-292ee636980b": {
         "default": {
-            "name": "军械修造"
+            "name": "军械修造",
+            "type": "skill"
         },
         "tags": [
             "Cinematic",
@@ -366,7 +470,8 @@
     },
     "4ddc7eee-3f5a-4811-9526-1d68cbcd8185": {
         "default": {
-            "name": "骑术"
+            "name": "骑术",
+            "type": "skill"
         },
         "tags": [
             "Techinque"
@@ -382,7 +487,17 @@
         ],
         "name": "Cavalry Training",
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Riding"
+                    }
+                }
+            ]
         }
     },
     "6af440b4-3916-4a05-83b4-3b09fd008b27": {
@@ -393,7 +508,8 @@
         ],
         "name": "Close Hip Shooting",
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         }
     },
     "080c3f81-34c4-4c1a-be65-284bbde1f74a": {
@@ -404,9 +520,19 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
-        "name": "Fast-Draw Opponent's Weapon"
+        "name": "Fast-Draw Opponent's Weapon",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Fast-Draw"
+                    }
+                }
+            ]
+        }
     },
     "99e02cf0-994c-47b0-b901-f82e1a6973bc": {
         "tags": [
@@ -414,7 +540,8 @@
         ],
         "name": "Immediate Action",
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         }
     },
     "f056ae7a-789e-4fa8-bc06-8b69a9d80b04": {
@@ -422,7 +549,8 @@
             "技术"
         ],
         "default": {
-            "name": "骑术"
+            "name": "骑术",
+            "type": "skill"
         },
         "name": "Quick Mount"
     },
@@ -434,7 +562,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         },
         "name": "Targeted Attack (@Specialty@/Leg)"
     },
@@ -447,7 +576,8 @@
         ],
         "name": "Targeted Attack (@Specialty@/Foot)",
         "default": {
-            "name": "@Shooting Skill@"
+            "name": "@Shooting Skill@",
+            "type": "skill"
         }
     }
 }

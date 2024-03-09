@@ -200,7 +200,16 @@
             "设计",
             "工程学",
             "发明"
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "mathematics"
+                    }
+                }
+            ]
+        }
     },
     "fea4b01a-e235-4678-9060-d453023ecf0a": {
         "name": "防护服",
@@ -528,7 +537,48 @@
             "学校",
             "间谍"
         ],
-        "name": "研究"
+        "name": "研究",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Computer Operation"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Language"
+                            },
+                            "notes": {
+                                "qualifier": "Written (Native"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Language"
+                            },
+                            "notes": {
+                                "qualifier": "Written (Accented)"
+                            }
+                        },
+                        {
+                            "notes": {
+                                "qualifier": "Written (Broken)"
+                            },
+                            "name": {
+                                "qualifier": "Language"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "b926bbcb-92e0-48a5-8094-5d9cdf233c4c": {
         "tags": [
@@ -646,7 +696,21 @@
         "tags": [
             "载具"
         ],
-        "name": "潜水艇"
+        "name": "潜水艇",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "diving suit"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "scuba"
+                    }
+                }
+            ]
+        }
     },
     "8c8e9057-ad94-4fe7-a133-309813d251cb": {
         "tags": [

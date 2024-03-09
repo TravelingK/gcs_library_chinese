@@ -8,7 +8,17 @@
             "Weapon"
         ],
         "default": {
-            "name": "Bow"
+            "name": "Bow",
+            "type": "skill"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Bow"
+                    }
+                }
+            ]
         }
     },
     "de109b2d-a419-467b-9dcd-6d5ef96dbf98": {
@@ -20,9 +30,19 @@
             "Outdoor"
         ],
         "default": {
-            "name": "Mimicry"
+            "name": "Mimicry",
+            "type": "skill"
         },
-        "name": "Wildspeak"
+        "name": "Wildspeak",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Mimicry"
+                    }
+                }
+            ]
+        }
     },
     "b960c3be-f3ed-469f-9e28-cf4760960870": {
         "tags": [
@@ -34,7 +54,17 @@
         ],
         "name": "Wildspeak",
         "default": {
-            "name": "Mimicry"
+            "name": "Mimicry",
+            "type": "skill"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Mimicry"
+                    }
+                }
+            ]
         }
     }
 }
