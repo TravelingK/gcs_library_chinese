@@ -27,18 +27,28 @@ def outjson(nnskillline,docname):
 
 def  mergeDict(olddict,newdict):
     for i in olddict:
-        print(i)
         if isinstance(olddict[i],list):
             num=len(olddict[i])
-            print(num)
-            for ii in range(num-1):
+            for ii in range(num):
+                
                 if isinstance(ii,dict):
-                    mergeDict(olddict[i][ii],newdict[i][ii])
+                    if i in newdict:
+                        mergeDict(olddict[i][ii],newdict[i][ii])
                 else:
-                    olddict[i][ii]=newdict[i][ii]
+                    if i in newdict:
+                        while(len(olddict[i])>len(newdict[i])):
+                            newdict[i].append({})
+                        if isinstance(olddict[i][ii],dict):
+                            olddict[i][ii].update(newdict[i][ii])
+                        else:
+                            olddict[i][ii]=newdict[i][ii]
+            
         else:
             if i in newdict:
-                olddict[i]=newdict[i]
+                if isinstance(olddict[i],dict):
+                    olddict[i].update(newdict[i])
+                else:
+                    olddict[i]=newdict[i]
     return(olddict)
 
 def zh_to_file(mobanwenjian):
