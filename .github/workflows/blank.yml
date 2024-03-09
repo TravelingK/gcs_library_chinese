@@ -27,6 +27,8 @@ jobs:
           echo $line
           python3 ./.github/workflows/trans_to_json.py "$line"
           done <skl.list
+          cat gcs_master_library_en_json/Library/Basic Set/Basic Set Skills/Basic Set Skills_en.json
+          
       - name: Add & Commit
         uses: EndBug/add-and-commit@v9.1.4
         with:
