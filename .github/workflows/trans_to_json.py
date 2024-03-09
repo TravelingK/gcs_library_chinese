@@ -46,7 +46,11 @@ def en_to_file(shuru_file,type=0):
         if 'notes' in i:
             newskilline['notes']=i['notes']
         if 'default' in i:
-            newskilline['default']=i['default']
+            newskilline['default']={}
+            if 'type' in i['default']:
+                newskilline['default']['type']=i['default']['type']
+            if 'name' in i['default']:
+                newskilline['default']['name']=i['default']['name']
         if 'defaults' in i:
             defaultline=[]
             for ii in i['defaults']:
