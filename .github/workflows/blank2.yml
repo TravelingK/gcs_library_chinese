@@ -17,7 +17,7 @@ jobs:
       - name: trantojson
         run: |
           git clone https://github.com/richardwilkes/gcs_master_library.git
-          find . |grep  "Skills_zh_Hans.json" >> skl.list
+          find . |grep  ".skl" >> skl.list
           while read line
           do
           echo $line
