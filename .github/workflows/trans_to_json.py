@@ -100,5 +100,6 @@ def en_to_file(input_file):
                 new_json[i['id']]=newskilline
         case "adq":
                 new_json[i['id']]=newskilline
-
     outjson(new_json,mubiao_file)
+    
+en_to_file(sys.argv[1])
