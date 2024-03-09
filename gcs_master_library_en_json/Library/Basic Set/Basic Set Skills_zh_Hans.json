@@ -783,7 +783,16 @@
         "tags": [
             "自然科学"
         ],
-        "name": "天文学"
+        "name": "天文学",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "88c17f64-d52b-4db8-ace5-9efe1832b4b5": {
         "defaults": [
@@ -3017,7 +3026,16 @@
         "tags": [
             "运动"
         ],
-        "name": "飞行"
+        "name": "飞行",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "飞行"
+                    }
+                }
+            ]
+        }
     },
     "63d34890-ba6e-4bd2-b640-c2ac43861339": {
         "defaults": [
@@ -3523,7 +3541,30 @@
             "娱乐"
         ],
         "specialization": "@艺术@",
-        "name": "团队表演"
+        "name": "团队表演",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "外交"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "威吓"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "领导力"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "05e894e5-4a04-452b-8766-f1627f13d001": {
         "defaults": [
@@ -3537,7 +3578,35 @@
             "娱乐"
         ],
         "name": "团队表演",
-        "specialization": "团体舞"
+        "specialization": "团体舞",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "外交"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "威吓"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "领导力"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": {
+                        "qualifier": "舞蹈"
+                    }
+                }
+            ]
+        }
     },
     "caf08f9d-2491-4f06-8a52-fcc59d6cc2ac": {
         "defaults": [
@@ -3554,7 +3623,62 @@
             "娱乐"
         ],
         "name": "团队表演",
-        "specialization": "指挥"
+        "specialization": "指挥",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "外交"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "威吓"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "领导力"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "prereqs": [
+                        {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "乐器"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "乐器"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "乐器"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "唱歌"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "aff15dc8-6ccd-46a5-bafa-e0341786bdb0": {
         "defaults": [
@@ -3568,7 +3692,35 @@
             "娱乐"
         ],
         "name": "团队表演",
-        "specialization": "导演"
+        "specialization": "导演",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "外交"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "威吓"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "领导力"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": {
+                        "qualifier": "表演"
+                    }
+                }
+            ]
+        }
     },
     "2b98f9b4-b9a9-48aa-8b51-24413ebea483": {
         "defaults": [
@@ -3582,7 +3734,35 @@
             "娱乐"
         ],
         "name": "团队表演",
-        "specialization": "武术表演"
+        "specialization": "武术表演",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "外交"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "威吓"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "领导力"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": {
+                        "qualifier": "武戏"
+                    }
+                }
+            ]
+        }
     },
     "45bce77c-1b31-4468-9cbb-36b6ad19d1bc": {
         "defaults": [
@@ -4223,7 +4403,16 @@
             "近战",
             "武器"
         ],
-        "name": "骑枪"
+        "name": "骑枪",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "骑术"
+                    }
+                }
+            ]
+        }
     },
     "f56b6d1b-0d91-49c5-957e-c13e4890e2df": {
         "tags": [
@@ -5772,7 +5961,16 @@
             "植物"
         ],
         "name": "药剂学",
-        "specialization": "草药"
+        "specialization": "草药",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "博物学"
+                    }
+                }
+            ]
+        }
     },
     "451592bd-ae7d-4422-bb17-00a53ecb289b": {
         "defaults": [
@@ -5827,14 +6025,32 @@
         "tags": [
             "自然科学"
         ],
-        "name": "物理学"
+        "name": "物理学",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "a24b3308-9df9-4d79-9d7d-97a85bf3a613": {
         "tags": [
             "自然科学"
         ],
         "specialization": "@TL 6+ 选择分支@",
-        "name": "物理学"
+        "name": "物理学",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "448ad231-084c-4382-96f2-4ecac284c290": {
         "defaults": [
@@ -6366,7 +6582,48 @@
                 "name": "写作"
             }
         ],
-        "name": "研究"
+        "name": "研究",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "电脑操作"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "prereqs": [
+                        {
+                            "notes": {
+                                "qualifier": "书面语（纯正的）"
+                            },
+                            "name": {
+                                "qualifier": "语言"
+                            }
+                        },
+                        {
+                            "notes": {
+                                "qualifier": "书面语（有口音的）"
+                            },
+                            "name": {
+                                "qualifier": "语言"
+                            }
+                        },
+                        {
+                            "notes": {
+                                "qualifier": "书面语（结巴的）"
+                            },
+                            "name": {
+                                "qualifier": "语言"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "56bd0b3d-b8ff-4849-a348-c4133c06b5de": {
         "defaults": [
@@ -6556,7 +6813,16 @@
                 "name": "潜水服"
             }
         ],
-        "name": "水肺"
+        "name": "水肺",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "游泳"
+                    }
+                }
+            ]
+        }
     },
     "f10167c2-dd58-4fd3-ad47-000b16df959c": {
         "defaults": [
@@ -6614,7 +6880,26 @@
             "载具"
         ],
         "name": "船舶掌握",
-        "specialization": "@船只类型@"
+        "specialization": "@船只类型@",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "导航"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "领导力"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "飞艇乘务员"
+                    }
+                }
+            ]
+        }
     },
     "3d86d5a1-6b70-4040-a032-b2ee76db5d22": {
         "defaults": [
@@ -6631,7 +6916,26 @@
             "载具"
         ],
         "specialization": "飞空艇",
-        "name": "船舶掌握"
+        "name": "船舶掌握",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "导航"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "领导力"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "飞艇乘务员"
+                    }
+                }
+            ]
+        }
     },
     "cfa1a121-65ae-4f25-8190-bf36fa5acc5c": {
         "defaults": [
@@ -6652,7 +6956,26 @@
             "载具"
         ],
         "specialization": "船舶",
-        "name": "船舶掌握"
+        "name": "船舶掌握",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "航海术"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "导航"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "领导力"
+                    }
+                }
+            ]
+        }
     },
     "f32a12ed-0138-4cc6-89bb-606cc95eb47c": {
         "defaults": [
@@ -6673,7 +6996,26 @@
             "载具"
         ],
         "specialization": "太空船",
-        "name": "船舶掌握"
+        "name": "船舶掌握",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "宇航员"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "导航"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "领导力"
+                    }
+                }
+            ]
+        }
     },
     "422ad2e6-41f5-46b7-a8e4-4482e6f929b2": {
         "defaults": [
@@ -6694,7 +7036,26 @@
             "载具"
         ],
         "specialization": "星舰",
-        "name": "船舶掌握"
+        "name": "船舶掌握",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "宇航员"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "导航"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "领导力"
+                    }
+                }
+            ]
+        }
     },
     "f9c091d1-9932-4394-be3d-e23bccc1216e": {
         "defaults": [
@@ -6711,7 +7072,26 @@
             "载具"
         ],
         "specialization": "潜水艇",
-        "name": "船舶掌握"
+        "name": "船舶掌握",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "潜艇艇员"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "导航"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "领导力"
+                    }
+                }
+            ]
+        }
     },
     "1c79adb7-47b3-4c1c-b980-7c5c10437cbc": {
         "defaults": [
@@ -7025,7 +7405,21 @@
             "载具"
         ],
         "specialization": "浸没潜艇",
-        "name": "潜水艇"
+        "name": "潜水艇",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "潜水服"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "水肺"
+                    }
+                }
+            ]
+        }
     },
     "66268375-578a-4b6e-91b5-c45fdde352a3": {
         "defaults": [
@@ -7742,7 +8136,16 @@
             "工程学",
             "发明"
         ],
-        "specialization": "@专业领域@"
+        "specialization": "@专业领域@",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "ec696a9f-280b-4e6e-986d-222c6c0982ae": {
         "defaults": [
@@ -7757,7 +8160,16 @@
             "发明"
         ],
         "name": "工程学",
-        "specialization": "火炮"
+        "specialization": "火炮",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "f61be6fa-9f8e-4c37-bb09-9b80458ea431": {
         "defaults": [
@@ -7772,7 +8184,16 @@
             "工程学",
             "发明"
         ],
-        "specialization": "机动车"
+        "specialization": "机动车",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "0f1bc453-28b4-445d-ab46-bd89afdde29c": {
         "defaults": [
@@ -7786,7 +8207,16 @@
             "工程学",
             "发明"
         ],
-        "specialization": "民间工程"
+        "specialization": "民间工程",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "85ba1ab0-55ad-4b0b-afa6-48bae2443b89": {
         "defaults": [
@@ -7801,7 +8231,16 @@
             "工程学",
             "发明"
         ],
-        "specialization": "发条装置"
+        "specialization": "发条装置",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "b5678611-06f8-416d-8782-0f691e5bca10": {
         "defaults": [
@@ -7816,7 +8255,16 @@
             "发明"
         ],
         "name": "工程学",
-        "specialization": "战斗"
+        "specialization": "战斗",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "78dff7f2-b6e9-4547-88ac-2e72c2e30022": {
         "defaults": [
@@ -7830,7 +8278,16 @@
             "工程学",
             "发明"
         ],
-        "specialization": "电气"
+        "specialization": "电气",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "8820d779-7d28-4096-bece-4be85077955d": {
         "defaults": [
@@ -7844,7 +8301,16 @@
             "工程学",
             "发明"
         ],
-        "specialization": "电子"
+        "specialization": "电子",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "c0c61ffa-13d5-46aa-a50b-9376a1b29212": {
         "defaults": [
@@ -7861,7 +8327,34 @@
             "工程学",
             "发明"
         ],
-        "specialization": "材料"
+        "specialization": "材料",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "数学"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "冶金学"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "化学"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "7bfc01aa-d972-417c-bdcb-a1aa4d4a5d24": {
         "defaults": [
@@ -7876,7 +8369,16 @@
             "工程学",
             "发明"
         ],
-        "specialization": "微型技术"
+        "specialization": "微型技术",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "fb51302a-55f7-459d-b99b-0fb9ce69b7ed": {
         "defaults": [
@@ -7894,7 +8396,16 @@
             "工程学",
             "发明"
         ],
-        "specialization": "采掘"
+        "specialization": "采掘",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "a7c63fa4-6580-482d-a41b-2b152f94195d": {
         "defaults": [
@@ -7909,7 +8420,16 @@
             "发明"
         ],
         "name": "工程学",
-        "specialization": "纳米科技"
+        "specialization": "纳米科技",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "4ffcf2f2-973f-4a56-a653-642ab1e28562": {
         "defaults": [
@@ -7924,7 +8444,25 @@
             "工程学",
             "发明"
         ],
-        "specialization": "超时空"
+        "specialization": "超时空",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "数学"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": {
+                        "qualifier": "物理学"
+                    }
+                }
+            ]
+        }
     },
     "16b088ad-1c32-436c-9056-12d88ce1aab2": {
         "defaults": [
@@ -7939,7 +8477,16 @@
             "工程学",
             "发明"
         ],
-        "specialization": "心灵科技"
+        "specialization": "心灵科技",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "566cc8a8-da9a-49b2-a114-a709efd93b85": {
         "defaults": [
@@ -7954,7 +8501,16 @@
             "工程学",
             "发明"
         ],
-        "specialization": "机器人"
+        "specialization": "机器人",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "a13cb487-67a4-43bd-8c3d-cee1bd432016": {
         "defaults": [
@@ -7969,7 +8525,16 @@
             "工程学",
             "发明"
         ],
-        "specialization": "船只"
+        "specialization": "船只",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "b9579d78-0f48-4330-b036-efccdf7b9251": {
         "defaults": [
@@ -7984,7 +8549,16 @@
             "发明"
         ],
         "name": "工程学",
-        "specialization": "轻兵器"
+        "specialization": "轻兵器",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "9b08f583-31b7-4a46-8509-72b2eaceb9c5": {
         "defaults": [
@@ -7999,7 +8573,16 @@
             "工程学",
             "发明"
         ],
-        "specialization": "星际飞船"
+        "specialization": "星际飞船",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    }
+                }
+            ]
+        }
     },
     "8b013d1a-cbd4-4df3-8b54-0517395b0d19": {
         "defaults": [
@@ -8014,7 +8597,25 @@
             "工程学",
             "发明"
         ],
-        "specialization": "时间"
+        "specialization": "时间",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "数学"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": {
+                        "qualifier": "物理学"
+                    }
+                }
+            ]
+        }
     },
     "faf69551-b1f9-4b8d-b131-f4ac70e84632": {
         "defaults": [
@@ -8639,7 +9240,21 @@
         "tags": [
             "医学"
         ],
-        "name": "手术"
+        "name": "手术",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "急救"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "医师"
+                    }
+                }
+            ]
+        }
     },
     "6514b812-6434-4590-85d3-c823b994c547": {
         "defaults": [
@@ -9545,7 +10160,16 @@
             "军事",
             "间谍"
         ],
-        "name": "洗脑"
+        "name": "洗脑",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "心理学"
+                    }
+                }
+            ]
+        }
     },
     "293c9c47-9717-41ad-94fb-4ae25a9c8cd7": {
         "tags": [
@@ -9559,7 +10183,16 @@
             "间谍",
             "街头"
         ],
-        "name": "电脑黑客"
+        "name": "电脑黑客",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "电脑编程"
+                    }
+                }
+            ]
+        }
     },
     "619d489b-043f-4a60-808d-ba3e1f67e79f": {
         "tags": [
@@ -9871,6 +10504,15 @@
         "name": "骑射",
         "default": {
             "name": "弓术"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "博物学"
+                    }
+                }
+            ]
         }
     },
     "1c88af23-4607-4448-83e3-ef4e7899d8ff": {
@@ -9995,6 +10637,15 @@
         "name": "肘击",
         "default": {
             "name": "斗殴"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "斗殴"
+                    }
+                }
+            ]
         }
     },
     "c086dcb9-6eb6-4fb8-baa1-0f7e4fe0760d": {
@@ -10061,6 +10712,15 @@
         "name": "佯攻",
         "default": {
             "name": "@徒手或近战武器技能@"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "@徒手或近战武器技能@"
+                    }
+                }
+            ]
         }
     },
     "ce3089ff-d9bb-4b48-b407-b13c3da2828b": {
@@ -10177,6 +10837,15 @@
         "name": "后踢",
         "default": {
             "name": "空手技击"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "空手技击"
+                    }
+                }
+            ]
         }
     },
     "a4194102-33fa-43fc-ac8e-14454cf89fc5": {
@@ -10197,6 +10866,15 @@
         "name": "锁喉",
         "default": {
             "name": "抓擒技击"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "抓擒技击"
+                    }
+                }
+            ]
         }
     },
     "90288044-efcb-4ad5-b596-aa1d97de6fe3": {
@@ -10209,6 +10887,15 @@
         "name": "锁喉",
         "default": {
             "name": "摔跤"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "摔跤"
+                    }
+                }
+            ]
         }
     },
     "ed127535-1d8e-462c-a5f1-d0c467072182": {
@@ -10221,6 +10908,15 @@
         "name": "缴械",
         "default": {
             "name": "@徒手或近战武器技能@"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "@徒手或近战武器技能@"
+                    }
+                }
+            ]
         }
     },
     "a0b0fefc-4c51-4ddf-97dc-2d209be012fd": {
@@ -10341,6 +11037,15 @@
         "name": "肘击",
         "default": {
             "name": "空手技击"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "空手技击"
+                    }
+                }
+            ]
         }
     },
     "e38c16d1-13c2-4326-b985-4295d1dbf018": {
@@ -10479,6 +11184,15 @@
         "name": "地面格斗",
         "default": {
             "name": "@战斗技能@"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "@战斗技能@"
+                    }
+                }
+            ]
         }
     },
     "e015bcf9-71a8-4777-a924-47b0dceec462": {
@@ -10919,13 +11633,36 @@
         "tags": [
             "植物"
         ],
-        "name": "草药学识"
+        "name": "草药学识",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "博物学"
+                    }
+                }
+            ]
+        }
     },
     "fd29bd62-23d2-41ca-9d7c-0184dfc4ec9d": {
         "name": "盲斗",
         "tags": [
             "秘技"
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "武器大师"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                }
+            ]
+        }
     },
     "a8a91540-b78d-4ebe-8c6c-7b686bc32cc4": {
         "tags": [
@@ -10937,25 +11674,86 @@
         "tags": [
             "秘技"
         ],
-        "name": "精神力量"
+        "name": "精神力量",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "武器大师"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                }
+            ]
+        }
     },
     "1caf4708-ab8b-4448-a78a-937dab801b23": {
         "tags": [
             "秘技"
         ],
-        "name": "身体控制"
+        "name": "身体控制",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "冥想"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "呼吸控制"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                }
+            ]
+        }
     },
     "5fb7d438-c41f-4d1b-b6c0-4d1612a043ee": {
         "tags": [
             "秘技"
         ],
-        "name": "破势掌"
+        "name": "破势掌",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                }
+            ]
+        }
     },
     "ff090e37-0f41-48dc-a061-58a6c31d550d": {
         "tags": [
             "秘技"
         ],
-        "name": "魅惑"
+        "name": "魅惑",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "劝导"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "演讲"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "超凡魅力"
+                    }
+                }
+            ]
+        }
     },
     "e26821b7-e0ec-4b4b-8da7-889de6ac6010": {
         "tags": [
@@ -10967,91 +11765,343 @@
         "tags": [
             "秘技"
         ],
-        "name": "惑控"
+        "name": "惑控",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "超凡魅力"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "演讲"
+                    }
+                }
+            ]
+        }
     },
     "4850296c-6e3d-44d9-aefb-c8d1649f0da1": {
         "tags": [
             "秘技"
         ],
-        "name": "飞跃"
+        "name": "飞跃",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "武器大师"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "大师传承"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": {
+                        "qualifier": "斗气击"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "跳跃"
+                    }
+                }
+            ]
+        }
     },
     "eb722f53-aba7-40ec-80b7-58bd06dbb65e": {
         "tags": [
             "秘技"
         ],
-        "name": "千斤坠"
+        "name": "千斤坠",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                }
+            ]
+        }
     },
     "6e5473a9-33b8-4b13-baf7-acfc513c0242": {
         "tags": [
             "秘技"
         ],
-        "name": "凭空消失"
+        "name": "凭空消失",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "潜行"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "催眠术"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                }
+            ]
+        }
     },
     "126b98c3-eb98-4f48-8413-45bddc412cef": {
         "tags": [
             "秘技"
         ],
-        "name": "气合"
+        "name": "气合",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "武器大师"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                }
+            ]
+        }
     },
     "9f9ee530-dffd-4a65-9fe8-d50588236b23": {
         "tags": [
             "秘技"
         ],
-        "name": "踏雪无痕"
+        "name": "踏雪无痕",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "潜行"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "杂技"
+                    }
+                }
+            ]
+        }
     },
     "53a82e24-7dff-43c8-913b-269bf9f98461": {
         "tags": [
             "秘技"
         ],
-        "name": "音乐影响"
+        "name": "音乐影响",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "唱歌"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "乐器"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": {
+                        "qualifier": "天赋（音乐天才）"
+                    }
+                }
+            ]
+        }
     },
     "9e4f3f9e-8414-4fd8-927d-8fc7eceb3c4b": {
         "tags": [
             "秘技"
         ],
-        "name": "说服"
+        "name": "说服",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "超凡魅力"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "演讲"
+                    }
+                }
+            ]
+        }
     },
     "d7958868-edae-4e4c-b25a-179af9ab7110": {
         "tags": [
             "秘技"
         ],
-        "name": "斗气击"
+        "name": "斗气击",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "武器大师"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                }
+            ]
+        }
     },
     "4da1fba1-06e4-4057-bd18-0095c8874098": {
         "tags": [
             "秘技"
         ],
-        "name": "点穴"
+        "name": "点穴",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "武器大师"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                }
+            ]
+        }
     },
     "6d95a87d-5aaf-41c1-966e-6117c857d09f": {
         "tags": [
             "秘技"
         ],
-        "name": "点脉大法"
+        "name": "点脉大法",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "点穴"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                }
+            ]
+        }
     },
     "055e0a8d-b202-46ea-ab1f-fcbc8752617f": {
         "tags": [
             "秘技"
         ],
-        "name": "推劲"
+        "name": "推劲",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                }
+            ]
+        }
     },
     "b9242dc4-5e14-453a-aae0-dd89f574478a": {
         "tags": [
             "秘技"
         ],
-        "name": "劝导"
+        "name": "劝导",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "说服"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "演讲"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "超凡魅力"
+                    }
+                }
+            ]
+        }
     },
     "1d70e4a3-f4da-4ed6-91a2-d180f6d5fc9e": {
         "tags": [
             "秘技"
         ],
-        "name": "投掷绝学"
+        "name": "投掷绝学",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "武器大师"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "大师传承"
+                    }
+                }
+            ]
+        }
     },
     "2541c113-3a00-40a0-bee4-d87e407cc35c": {
         "tags": [
             "秘技"
         ],
-        "name": "禅箭术"
+        "name": "禅箭术",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "冥想"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "弓术"
+                    }
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "武器大师"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "大师传承"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "7bd0bb70-bbc9-4a06-82c7-c5c4c166d4e5": {
         "tags": [
