@@ -28,6 +28,23 @@ def outjson(nnskillline,docname):
         skill.write(skillline)
 
 
+def getPrereqs(prereqs:dict):
+    dictprereqs={}
+    if 'prereqs' in prereqs:
+        endPrereqs=[]
+        for i in prereqs['prereqs']:
+            endPrereqs.append(getPrereqs(i))
+        dictprereqs['prereqs']=endPrereqs
+    else:
+        if ("name" in prereqs)and('qualifier' in prereqs['name']):
+            dictprereqs['name']={}
+            dictprereqs["name"]['qualifier']=prereqs['name']['qualifier']
+        if ("notes" in prereqs)and('qualifier' in prereqs['notes']):
+            dictprereqs["notes"]={}
+            dictprereqs["notes"]['qualifier']=prereqs['notes']['qualifier']
+    return(dictprereqs)
+
+
 def en_to_file(input_file):
     """
     .adm 优劣势限制因子
@@ -53,21 +70,19 @@ def en_to_file(input_file):
     new_json={}
     match type[0]:
         case "skl":
-            #print(skilljson)
+            sklList=['name','tags','notes','specialization']
             for i in raw_json['rows']:
                 newskilline={}
                 #newskilline['id']=i['id']
-                newskilline['name']=i['name']
-                if 'tags' in i:
-                    newskilline['tags']=i['tags']
-                if 'notes' in i:
-                    newskilline['notes']=i['notes']
-                if 'specialization' in i:
-                    newskilline['specialization']=i['specialization']
+                for skilL in sklList:
+                    if skilL in i:
+                        newskilline[skilL]=i[skilL]
+                if 'prereqs' in i:
+                    newskilline['prereqs']=getPrereqs(i['prereqs'])
                 if 'default' in i:
                     newskilline['default']={}
-                    #if 'type' in i['default']:
-                        #newskilline['default']['type']=i['default']['type']
+                    if 'type' in i['default']:
+                        newskilline['default']['type']=i['default']['type']
                     if 'name' in i['default']:
                         newskilline['default']['name']=i['default']['name']
                 if 'defaults' in i:
@@ -83,35 +98,7 @@ def en_to_file(input_file):
                 #print(newskilline)
                 new_json[i['id']]=newskilline
         case "adq":
-            for i in raw_json['rows']:
-                newskilline={}
-                #newskilline['id']=i['id']
-                newskilline['name']=i['name']
-                if 'tags' in i:
-                    newskilline['tags']=i['tags']
-                if 'notes' in i:
-                    newskilline['notes']=i['notes']
-                if 'specialization' in i:
-                    newskilline['specialization']=i['specialization']
-                if 'default' in i:
-                    newskilline['default']={}
-                    if 'type' in i['default']:
-                        newskilline['default']['type']=i['default']['type']
-                    if 'name' in i['default']:
-                        newskilline['default']['name']=i['default']['name']
-                if 'defaults' in i:
-                    defaultline=[]
-                    for ii in i['defaults']:
-                        nnewskilline={}
-                        nnewskilline['type']=ii['type']
-                        if 'name' in ii:
-                            nnewskilline['name']=ii['name']
-                        if 'specialization' in ii:
-                            nnewskilline['specialization']=ii['specialization']
-                        defaultline.append(nnewskilline)
-                    newskilline['defaults']=defaultline
                 new_json[i['id']]=newskilline
-    print(mubiao_file)
-    outjson(new_json,mubiao_file)
-en_to_file(sys.argv[1])
 
+    outjson(new_json,mubiao_file)
+    print(mubiao_file)
