@@ -2181,13 +2181,56 @@
     "b5be5c9e-af78-40a3-8f94-c061622c27d7": {
         "modifiers": [
             {
-                "name": "Favor"
+                "name": "人情"
             },
             {
-                "name": "Frequency of Appearance"
+                "name": "出场频率",
+                "children": [
+                    {
+                        "name": "Appears quite rarely (6-)"
+                    },
+                    {
+                        "name": "Appears fairly often (9-)"
+                    },
+                    {
+                        "name": "Appears quite often (12-)"
+                    },
+                    {
+                        "name": "Appears almost all the time (15-)"
+                    },
+                    {
+                        "name": "Appears constantly"
+                    }
+                ]
             },
             {
-                "name": "Ally Group"
+                "name": "Ally Group",
+                "children": [
+                    {
+                        "name": "Group of 6-10"
+                    },
+                    {
+                        "name": "Group of 11-20"
+                    },
+                    {
+                        "name": "Group of 21-50"
+                    },
+                    {
+                        "name": "Group of 51-100"
+                    },
+                    {
+                        "name": "Group of 101-1000"
+                    },
+                    {
+                        "name": "Group of 1001-10000"
+                    },
+                    {
+                        "name": "Group of 10001-100000"
+                    },
+                    {
+                        "name": "Group of 100001-1000000"
+                    }
+                ]
             },
             {
                 "name": "Minion"
@@ -2197,23 +2240,71 @@
                 "name": "Minion"
             },
             {
-                "name": "Point Total"
+                "name": "Point Total",
+                "children": [
+                    {
+                        "name": "25% of your starting points"
+                    },
+                    {
+                        "name": "50% of your starting points"
+                    },
+                    {
+                        "name": "75% of your starting points"
+                    },
+                    {
+                        "name": "100% of your starting points"
+                    },
+                    {
+                        "name": "150% of your starting points"
+                    }
+                ]
             },
             {
                 "name": "Special Abilities",
                 "notes": "@Abilities@"
             },
             {
-                "name": "Summonable"
+                "name": "Summonable",
+                "children": [
+                    {
+                        "name": "Summonable"
+                    },
+                    {
+                        "name": "Conjured"
+                    },
+                    {
+                        "name": "Harder Summoning 1"
+                    },
+                    {
+                        "name": "Harder Summoning 2"
+                    },
+                    {
+                        "name": "Harder Summoning 3"
+                    }
+                ]
             },
             {
-                "name": "Sympathy"
+                "name": "Sympathy",
+                "children": [
+                    {
+                        "name": "Sympathy"
+                    },
+                    {
+                        "name": "Sympathy"
+                    },
+                    {
+                        "name": "Sympathy"
+                    },
+                    {
+                        "name": "Sympathy"
+                    }
+                ]
             },
             {
                 "name": "Unwilling"
             }
         ],
-        "name": "Ally (@Who@)",
+        "name": "盟友（@人物@）",
         "tags": [
             "优势",
             "社会"
@@ -5321,12 +5412,12 @@
         "name": "Regrowth"
     },
     "71f9755b-9533-4c3c-8b34-7fedcca8d89c": {
-        "notes": "You are uncomfortable whenever you are outside, and actually become frightened when there are no walls within 50 feet.",
+        "notes": "当你在户外的时候你感到不舒服，而当 50 英尺内没有围墙的时候，这个不适变成了恐惧。",
         "tags": [
             "劣势",
             "心理"
         ],
-        "name": "Agoraphobia (Open Spaces)"
+        "name": "广场恐惧症（开放空间）"
     },
     "3cbb84e2-521b-40c6-ac25-ded6a24bb8af": {
         "modifiers": [
@@ -5463,31 +5554,122 @@
         ],
         "modifiers": [
             {
-                "name": "Attribute Penalties"
+                "name": "属性降低",
+                "children": [
+                    {
+                        "name": "DX Penalty"
+                    },
+                    {
+                        "name": "HT Penalty"
+                    },
+                    {
+                        "name": "IQ Penalty"
+                    },
+                    {
+                        "name": "ST Penalty"
+                    }
+                ]
             },
             {
                 "name": "Cancellation"
             },
             {
-                "name": "Cumulative"
+                "name": "效果叠加"
             },
             {
-                "name": "Incapacitation"
+                "name": "行动不能",
+                "children": [
+                    {
+                        "name": "Agony"
+                    },
+                    {
+                        "name": "Choking"
+                    },
+                    {
+                        "name": "Daze"
+                    },
+                    {
+                        "name": "Ecstasy"
+                    },
+                    {
+                        "name": "Hallucination"
+                    },
+                    {
+                        "name": "Paralysis"
+                    },
+                    {
+                        "name": "Retching"
+                    },
+                    {
+                        "name": "Seizure"
+                    },
+                    {
+                        "name": "Sleep"
+                    },
+                    {
+                        "name": "Unconsciousness"
+                    }
+                ]
             },
             {
-                "name": "Irritations"
+                "name": "Irritations",
+                "children": [
+                    {
+                        "name": "Coughing"
+                    },
+                    {
+                        "name": "Drunk"
+                    },
+                    {
+                        "name": "Euphoria"
+                    },
+                    {
+                        "name": "Moderate Pain"
+                    },
+                    {
+                        "name": "Nauseated"
+                    },
+                    {
+                        "name": "Severe Pain"
+                    },
+                    {
+                        "name": "Terrible Pain"
+                    },
+                    {
+                        "name": "Tipsy"
+                    }
+                ]
             },
             {
-                "name": "Mortal Conditions"
+                "name": "致命状态",
+                "children": [
+                    {
+                        "name": "Coma"
+                    },
+                    {
+                        "name": "Heart Attack"
+                    }
+                ]
             },
             {
-                "name": "Stunning"
+                "name": "。慑"
             },
             {
-                "name": "特点"
+                "name": "特点",
+                "children": [
+                    {
+                        "name": "Gives @Advantage@"
+                    },
+                    {
+                        "name": "Gives @Disadvantage@"
+                    },
+                    {
+                        "name": "Negates @Advantage@"
+                    }
+                ]
             }
         ],
-        "name": "Affliction"
+        "name": "特效攻击"
     },
     "08a5f297-123b-42fa-97df-12f7ce934665": {
         "modifiers": [
@@ -5549,12 +5731,12 @@
         "name": "Talent (Mathematical Ability)"
     },
     "d3f937d8-f6d1-47d8-bb62-f3aaad0d6285": {
-        "notes": "This includes all felines: lions, tigers, panthers, etc.",
+        "notes": "包括所有猫科动物：狮子、老虎、豹子等等。",
         "tags": [
             "劣势",
             "心理"
         ],
-        "name": "Ailurophobia (Cats)"
+        "name": "恐猫症（猫）"
     },
     "935b6760-b508-4de2-a8b8-9da71d47cc7a": {
         "modifiers": [
@@ -6198,8 +6380,8 @@
             "劣势",
             "心理"
         ],
-        "notes": "You are afraid of anything pointed. Swords, spears, knives, and needles all give you fits. Trying to use a sharp weapon, or being threatened with one, requires a self-control roll at -2.",
-        "name": "Aichmophobia/TL6+ (Sharp Things)"
+        "notes": "你害怕任何尖锐的东西。剑、矛、刀 子和注射器的针头都会吓到你。尝试使用尖锐的武器，或是被这种武器威胁，需要进行有 -2 减值的自控检定。",
+        "name": "锐器恐惧症/TL 6+ （尖锐的东西）"
     },
     "b221e78e-489e-4e44-8d1f-e6d5aeb7f429": {
         "tags": [
@@ -8276,16 +8458,49 @@
             "心理",
             "生理"
         ],
-        "name": "Addiction (@Substance@)",
+        "name": "成瘾（@物品@）",
         "modifiers": [
             {
-                "name": "Legality Modifiers"
+                "name": "合法性调整因子",
+                "children": [
+                    {
+                        "name": "Illegal"
+                    },
+                    {
+                        "name": "Legal"
+                    }
+                ]
             },
             {
-                "name": "Cost Modifiers"
+                "name": "花费调整因子",
+                "children": [
+                    {
+                        "name": "Cheap"
+                    },
+                    {
+                        "name": "Expensive"
+                    },
+                    {
+                        "name": "Very Expensive"
+                    }
+                ]
             },
             {
-                "name": "Effect Modifiers"
+                "name": "效果调整因子",
+                "children": [
+                    {
+                        "name": "Highly Addictive (-5 on withdrawal roll)"
+                    },
+                    {
+                        "name": "Totally Addictive (-10 on withdrawal roll)"
+                    },
+                    {
+                        "name": "Hallucinogenic"
+                    },
+                    {
+                        "name": "Incapacitating"
+                    }
+                ]
             }
         ]
     },
@@ -10020,10 +10235,10 @@
         ],
         "modifiers": [
             {
-                "name": "Illegal"
+                "name": "非法"
             }
         ],
-        "name": "Alcoholism"
+        "name": "酗酒"
     },
     "ac964106-43b8-43bb-8dc3-0e4822c5ad52": {
         "tags": [
@@ -10420,7 +10635,7 @@
         "name": "Rapier Wit"
     },
     "7ada3a6c-f75a-4c6b-8b4c-3056a6a493ac": {
-        "name": "Alcohol Intolerance",
+        "name": "不耐酒精",
         "tags": [
             "生理",
             "Quirk"
@@ -10827,8 +11042,8 @@
             "劣势",
             "心理"
         ],
-        "name": "Acrophobia (Heights)",
-        "notes": "You may not voluntarily go more than 15 feet above ground, unless you are inside a building and away from windows. If there is some chance of an actual fall, self-control rolls are at -5."
+        "name": "恐高症（高处）",
+        "notes": "你从不会自愿到高出地面 15 英尺的地方去，除非你在一栋建筑内而且远离窗户。如果确实有发生下落的可能性，自控有 -5 减值。"
     },
     "1cb2a343-7ea3-495b-8878-02fab1b165fa": {
         "tags": [
@@ -11290,7 +11505,7 @@
         "notes": "You are afraid of any large body of water. Ocean travel, or even air travel over the ocean, is basically impossible for you, and encounters with aquatic monsters are also upsetting."
     },
     "38e672e9-fe7a-4537-b955-268820fda6d6": {
-        "name": "Acute Hearing",
+        "name": "敏锐听觉",
         "tags": [
             "优势",
             "生理"
@@ -11339,7 +11554,7 @@
             "优势",
             "生理"
         ],
-        "name": "Acute Taste & Smell"
+        "name": "敏锐味觉和嗅觉"
     },
     "d642a33f-906b-438d-9836-c104cc77823e": {
         "name": "Hoplophobia (Weapons)",
@@ -11370,12 +11585,12 @@
         "name": "Dwarfism"
     },
     "636f6575-dfa3-4c4f-b12e-0411c5f43c30": {
-        "notes": "You are afraid of anything pointed. Swords, spears, knives, and needles all give you fits. Trying to use a sharp weapon, or being threatened with one, requires a self-control roll at -2.",
+        "notes": "你害怕任何尖锐的东西。剑、矛、刀 子和注射器的针头都会吓到你。尝试使用尖锐的武器，或是被这种武器威胁，需要进行有 -2 减值的自控检定。",
         "tags": [
             "劣势",
             "心理"
         ],
-        "name": "Aichmophobia/TL5- (Sharp Things)"
+        "name": "锐器恐惧症/TL 5- （尖锐的东西）"
     },
     "74d5f4fe-8e89-4fb8-bf1f-47be8daad1e2": {
         "modifiers": [
@@ -11837,7 +12052,7 @@
         "notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act"
     },
     "7be117c6-c65e-4ed0-a1b4-37007326708a": {
-        "name": "Alcohol Tolerance",
+        "name": "酒精耐受",
         "tags": [
             "Perk",
             "生理"
@@ -11868,7 +12083,7 @@
             "优势",
             "生理"
         ],
-        "name": "Acute Vision"
+        "name": "敏锐视觉"
     },
     "43deafab-dce4-4e71-b42c-40847484dcb8": {
         "name": "Low TL",
@@ -12120,7 +12335,7 @@
             "优势",
             "生理"
         ],
-        "name": "Acute Sense (@Special Sense@)"
+        "name": "敏锐感官（@特殊感官@）"
     },
     "bdc9cc1a-6b8b-48ad-9833-ddf7fea97392": {
         "notes": "You come unglued at the thought of reptiles, amphibians, and similar scaly slimies. A very large reptile, or a poisonous one, gives -2 to self-control rolls; a horde of reptiles (such as a snake pit) gives -4.",
@@ -12277,7 +12492,7 @@
             "优势",
             "生理"
         ],
-        "name": "Acute Touch"
+        "name": "敏锐触觉"
     },
     "eb77d866-160f-4fea-8fc5-42bdadb620e7": {
         "tags": [
