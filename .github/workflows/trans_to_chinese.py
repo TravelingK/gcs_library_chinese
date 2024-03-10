@@ -25,29 +25,31 @@ def outjson(nnskillline,docname):
         skillline=json.dumps(nnskillline)
         skill.write(skillline)
 
-def  mergeDict(olddict,newdict):
+
+def  mergeDict(olddict:dict,newdict:dict)->dict:
     for i in olddict:
         if isinstance(olddict[i],list):
             num=len(olddict[i])
+            if i in newdict:
+                while(len(olddict[i])>len(newdict[i])):
+                    newdict[i].append({})
             for ii in range(num):
-                
-                if isinstance(ii,dict):
+                if isinstance(olddict[i][ii],dict):
                     if i in newdict:
                         mergeDict(olddict[i][ii],newdict[i][ii])
                 else:
                     if i in newdict:
-                        while(len(olddict[i])>len(newdict[i])):
-                            newdict[i].append({})
                         if isinstance(olddict[i][ii],dict):
                             olddict[i][ii].update(newdict[i][ii])
                         else:
                             olddict[i][ii]=newdict[i][ii]
-            
+        elif isinstance(olddict[i],dict):
+            for ii in olddict[i]:
+                if (i in newdict) and ( ii in newdict[i]):
+
+                    mergeDict(olddict[i],newdict[i])
         else:
             if i in newdict:
-                if isinstance(olddict[i],dict):
-                    olddict[i].update(newdict[i])
-                else:
                     olddict[i]=newdict[i]
     return(olddict)
 

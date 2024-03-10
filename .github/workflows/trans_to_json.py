@@ -27,21 +27,19 @@ def outjson(nnskillline,docname):
         skillline=json.dumps(nnskillline)
         skill.write(skillline)
 
-
 def getPrereqs(prereqs:dict):
     dictprereqs={}
+    PrereqsList=['name','notes',"specialization","qualifier"]
     if 'prereqs' in prereqs:
         endPrereqs=[]
         for i in prereqs['prereqs']:
             endPrereqs.append(getPrereqs(i))
         dictprereqs['prereqs']=endPrereqs
     else:
-        if ("name" in prereqs)and('qualifier' in prereqs['name']):
-            dictprereqs['name']={}
-            dictprereqs["name"]['qualifier']=prereqs['name']['qualifier']
-        if ("notes" in prereqs)and('qualifier' in prereqs['notes']):
-            dictprereqs["notes"]={}
-            dictprereqs["notes"]['qualifier']=prereqs['notes']['qualifier']
+        for i in PrereqsList:
+            if (i in prereqs)and('qualifier' in prereqs[i]):
+                dictprereqs[i]={}
+                dictprereqs[i]['qualifier']=prereqs[i]['qualifier']
     return(dictprereqs)
 
 
