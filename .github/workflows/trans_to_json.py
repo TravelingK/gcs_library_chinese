@@ -65,10 +65,10 @@ def en_to_file(input_file):
     mubiao_file=re.sub("gcs_master_library","gcs_master_library_en_json",mubiao_file)
     type=re.findall('(?<=.)[a-z]{0,}$',input_file)
     raw_json=getdict(input_file)
-    print(input_file,mubiao_file)
     new_json={}
     match type[0]:
         case "skl":
+            #print(skilljson)
             sklList=['name','tags','notes','specialization']
             for i in raw_json['rows']:
                 newskilline={}
@@ -80,6 +80,8 @@ def en_to_file(input_file):
                     newskilline['prereqs']=getPrereqs(i['prereqs'])
                 if 'default' in i:
                     newskilline['default']={}
+                    if 'type' in i['default']:
+                        newskilline['default']['type']=i['default']['type']
                     if 'name' in i['default']:
                         newskilline['default']['name']=i['default']['name']
                 if 'defaults' in i:
@@ -112,14 +114,12 @@ def en_to_file(input_file):
                             newmodifiersline['notes']=ii['notes']
                         if 'situation' in ii:
                             newmodifiersline['situation']=ii['situation']
-                            
                         if 'specialization' in ii:
                             newmodifiersline['specialization']=ii['specialization']
                         if 'features' in ii:
                             featuresline=[]
                             for iii in ii['features']:
                                 newfeaturesline={}
-                                
                                 if ('name' in iii) and ('qualifier' in iii['name']):
                                     newfeaturesline['name']={}
                                     newfeaturesline['name']['qualifier']=iii['name']['qualifier']
@@ -134,6 +134,14 @@ def en_to_file(input_file):
                                     newfeaturesline['specialization']['qualifier']=iii['specialization']['qualifier']
                                 featuresline.append(newfeaturesline)
                             newmodifiersline['features']=featuresline
+                        if 'children' in ii:
+                            childrenline=[]
+                            for iii in ii['children']:
+                                newchildrenline={}
+                                if ('name' in iii):
+                                    newchildrenline['name']=iii['name']
+                                childrenline.append(newchildrenline)
+                            newmodifiersline['children']=childrenline
                         modifiersline.append(newmodifiersline)
                     newadvine['modifiers']=modifiersline
                 if 'features' in i:
