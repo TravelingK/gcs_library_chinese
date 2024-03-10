@@ -140,6 +140,8 @@ def en_to_file(input_file):
                                 newchildrenline={}
                                 if ('name' in iii):
                                     newchildrenline['name']=iii['name']
+                                if ('notes' in iii):
+                                    newchildrenline['notes']=iii['notes']
                                 childrenline.append(newchildrenline)
                             newmodifiersline['children']=childrenline
                         modifiersline.append(newmodifiersline)
