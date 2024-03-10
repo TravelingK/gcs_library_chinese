@@ -2184,10 +2184,53 @@
                 "name": "人情"
             },
             {
-                "name": "出场频率"
+                "name": "出场频率",
+                "children": [
+                    {
+                        "name": "Appears quite rarely (6-)"
+                    },
+                    {
+                        "name": "Appears fairly often (9-)"
+                    },
+                    {
+                        "name": "Appears quite often (12-)"
+                    },
+                    {
+                        "name": "Appears almost all the time (15-)"
+                    },
+                    {
+                        "name": "Appears constantly"
+                    }
+                ]
             },
             {
-                "name": "Ally Group"
+                "name": "Ally Group",
+                "children": [
+                    {
+                        "name": "Group of 6-10"
+                    },
+                    {
+                        "name": "Group of 11-20"
+                    },
+                    {
+                        "name": "Group of 21-50"
+                    },
+                    {
+                        "name": "Group of 51-100"
+                    },
+                    {
+                        "name": "Group of 101-1000"
+                    },
+                    {
+                        "name": "Group of 1001-10000"
+                    },
+                    {
+                        "name": "Group of 10001-100000"
+                    },
+                    {
+                        "name": "Group of 100001-1000000"
+                    }
+                ]
             },
             {
                 "name": "Minion"
@@ -2197,17 +2240,65 @@
                 "name": "Minion"
             },
             {
-                "name": "Point Total"
+                "name": "Point Total",
+                "children": [
+                    {
+                        "name": "25% of your starting points"
+                    },
+                    {
+                        "name": "50% of your starting points"
+                    },
+                    {
+                        "name": "75% of your starting points"
+                    },
+                    {
+                        "name": "100% of your starting points"
+                    },
+                    {
+                        "name": "150% of your starting points"
+                    }
+                ]
             },
             {
                 "name": "Special Abilities",
                 "notes": "@Abilities@"
             },
             {
-                "name": "Summonable"
+                "name": "Summonable",
+                "children": [
+                    {
+                        "name": "Summonable"
+                    },
+                    {
+                        "name": "Conjured"
+                    },
+                    {
+                        "name": "Harder Summoning 1"
+                    },
+                    {
+                        "name": "Harder Summoning 2"
+                    },
+                    {
+                        "name": "Harder Summoning 3"
+                    }
+                ]
             },
             {
-                "name": "Sympathy"
+                "name": "Sympathy",
+                "children": [
+                    {
+                        "name": "Sympathy"
+                    },
+                    {
+                        "name": "Sympathy"
+                    },
+                    {
+                        "name": "Sympathy"
+                    },
+                    {
+                        "name": "Sympathy"
+                    }
+                ]
             },
             {
                 "name": "Unwilling"
@@ -5463,7 +5554,21 @@
         ],
         "modifiers": [
             {
-                "name": "属性降低"
+                "name": "属性降低",
+                "children": [
+                    {
+                        "name": "DX Penalty"
+                    },
+                    {
+                        "name": "HT Penalty"
+                    },
+                    {
+                        "name": "IQ Penalty"
+                    },
+                    {
+                        "name": "ST Penalty"
+                    }
+                ]
             },
             {
                 "name": "Cancellation"
@@ -5472,19 +5577,96 @@
                 "name": "效果叠加"
             },
             {
-                "name": "行动不能"
+                "name": "行动不能",
+                "children": [
+                    {
+                        "name": "Agony"
+                    },
+                    {
+                        "name": "Choking"
+                    },
+                    {
+                        "name": "Daze"
+                    },
+                    {
+                        "name": "Ecstasy"
+                    },
+                    {
+                        "name": "Hallucination"
+                    },
+                    {
+                        "name": "Paralysis"
+                    },
+                    {
+                        "name": "Retching"
+                    },
+                    {
+                        "name": "Seizure"
+                    },
+                    {
+                        "name": "Sleep"
+                    },
+                    {
+                        "name": "Unconsciousness"
+                    }
+                ]
             },
             {
-                "name": "Irritations"
+                "name": "Irritations",
+                "children": [
+                    {
+                        "name": "Coughing"
+                    },
+                    {
+                        "name": "Drunk"
+                    },
+                    {
+                        "name": "Euphoria"
+                    },
+                    {
+                        "name": "Moderate Pain"
+                    },
+                    {
+                        "name": "Nauseated"
+                    },
+                    {
+                        "name": "Severe Pain"
+                    },
+                    {
+                        "name": "Terrible Pain"
+                    },
+                    {
+                        "name": "Tipsy"
+                    }
+                ]
             },
             {
-                "name": "致命状态"
+                "name": "致命状态",
+                "children": [
+                    {
+                        "name": "Coma"
+                    },
+                    {
+                        "name": "Heart Attack"
+                    }
+                ]
             },
             {
                 "name": "。慑"
             },
             {
-                "name": "特点"
+                "name": "特点",
+                "children": [
+                    {
+                        "name": "Gives @Advantage@"
+                    },
+                    {
+                        "name": "Gives @Disadvantage@"
+                    },
+                    {
+                        "name": "Negates @Advantage@"
+                    }
+                ]
             }
         ],
         "name": "特效攻击"
@@ -8279,13 +8461,46 @@
         "name": "成瘾（@物品@）",
         "modifiers": [
             {
-                "name": "合法性调整因子"
+                "name": "合法性调整因子",
+                "children": [
+                    {
+                        "name": "Illegal"
+                    },
+                    {
+                        "name": "Legal"
+                    }
+                ]
             },
             {
-                "name": "花费调整因子"
+                "name": "花费调整因子",
+                "children": [
+                    {
+                        "name": "Cheap"
+                    },
+                    {
+                        "name": "Expensive"
+                    },
+                    {
+                        "name": "Very Expensive"
+                    }
+                ]
             },
             {
-                "name": "效果调整因子"
+                "name": "效果调整因子",
+                "children": [
+                    {
+                        "name": "Highly Addictive (-5 on withdrawal roll)"
+                    },
+                    {
+                        "name": "Totally Addictive (-10 on withdrawal roll)"
+                    },
+                    {
+                        "name": "Hallucinogenic"
+                    },
+                    {
+                        "name": "Incapacitating"
+                    }
+                ]
             }
         ]
     },
