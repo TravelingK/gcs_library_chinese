@@ -4,7 +4,8 @@
             "技术"
         ],
         "default": {
-            "name": "杂技"
+            "name": "杂技",
+            "type": "skill"
         },
         "name": "Acrobatic Stand"
     },
@@ -16,7 +17,8 @@
             "武器"
         ],
         "default": {
-            "name": "拳击"
+            "name": "拳击",
+            "type": "parry"
         },
         "name": "Aggressive Parry"
     },
@@ -28,7 +30,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "parry"
         },
         "name": "Aggressive Parry"
     },
@@ -40,7 +43,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "parry"
         },
         "name": "Aggressive Parry"
     },
@@ -53,7 +57,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Grappling or Melee Weapon Skill@"
+            "name": "@Grappling or Melee Weapon Skill@",
+            "type": "skill"
         }
     },
     "d67ea22a-d9dd-49dc-8bb5-0a02fbcf3e97": {
@@ -64,7 +69,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Cloak or Melee Weapon Skill@"
+            "name": "@Cloak or Melee Weapon Skill@",
+            "type": "skill"
         },
         "name": "Armed Grapple"
     },
@@ -76,7 +82,8 @@
             "武器"
         ],
         "default": {
-            "name": "@徒手或近战武器技能@"
+            "name": "@徒手或近战武器技能@",
+            "type": "skill"
         },
         "name": "Attack from Above"
     },
@@ -88,7 +95,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Axe Kick"
     },
@@ -101,7 +109,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         }
     },
     "41bbe621-22e1-4ff4-848a-da3b4faffec4": {
@@ -112,7 +121,8 @@
             "武器"
         ],
         "default": {
-            "name": "@近战武器技能@"
+            "name": "@近战武器技能@",
+            "type": "skill"
         },
         "name": "Back Strike"
     },
@@ -123,7 +133,10 @@
             "近战",
             "武器"
         ],
-        "name": "Backbreaker"
+        "name": "Backbreaker",
+        "default": {
+            "type": "st"
+        }
     },
     "1491cf22-1cfa-4d94-9482-489209ab6f2b": {
         "tags": [
@@ -133,7 +146,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Backbreaker"
     },
@@ -146,7 +160,8 @@
         ],
         "name": "Bind Weapon",
         "default": {
-            "name": "@Jitte/Sai or Fencing Weapon Skill@"
+            "name": "@Jitte/Sai or Fencing Weapon Skill@",
+            "type": "skill"
         }
     },
     "d3e259ee-c3a7-4f0a-9b84-e8b7bc5a1d4c": {
@@ -157,7 +172,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Binding"
     },
@@ -169,7 +185,8 @@
             "武器"
         ],
         "default": {
-            "name": "结绳"
+            "name": "结绳",
+            "type": "skill"
         },
         "name": "Binding"
     },
@@ -181,7 +198,8 @@
             "武器"
         ],
         "default": {
-            "name": "杂技"
+            "name": "杂技",
+            "type": "skill"
         },
         "name": "Breakfall"
     },
@@ -193,7 +211,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Breakfall"
     },
@@ -205,7 +224,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Breakfall"
     },
@@ -218,7 +238,8 @@
             "武器"
         ],
         "default": {
-            "name": "@近战武器技能@"
+            "name": "@近战武器技能@",
+            "type": "skill"
         },
         "name": "Cavalry Training",
         "prereqs": {
@@ -240,7 +261,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Wrestling or Melee Weapon Skill@"
+            "name": "@Wrestling or Melee Weapon Skill@",
+            "type": "skill"
         }
     },
     "bcbd6566-b3fd-4ea3-b4af-3a4fb2fe0451": {
@@ -252,7 +274,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         }
     },
     "28dcc2f1-0241-433b-b975-47fe4d96c86b": {
@@ -263,7 +286,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Reach 1 Weapon Skill@"
+            "name": "@Reach 1 Weapon Skill@",
+            "type": "skill"
         },
         "name": "Close Combat"
     },
@@ -275,7 +299,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Reach 2 Weapon Skill@"
+            "name": "@Reach 2 Weapon Skill@",
+            "type": "skill"
         },
         "name": "Close Combat"
     },
@@ -287,7 +312,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Reach 3 Weapon Skill@"
+            "name": "@Reach 3 Weapon Skill@",
+            "type": "skill"
         },
         "name": "Close Combat"
     },
@@ -299,7 +325,8 @@
             "武器"
         ],
         "default": {
-            "name": "骑术"
+            "name": "骑术",
+            "type": "skill"
         },
         "name": "Combat Riding"
     },
@@ -311,7 +338,8 @@
             "武器"
         ],
         "default": {
-            "name": "@徒手或近战武器技能@"
+            "name": "@徒手或近战武器技能@",
+            "type": "skill"
         },
         "name": "Counterattack"
     },
@@ -323,7 +351,8 @@
             "武器"
         ],
         "default": {
-            "name": "鞭子"
+            "name": "鞭子",
+            "type": "skill"
         },
         "name": "Crack"
     },
@@ -336,7 +365,8 @@
             "武器"
         ],
         "default": {
-            "name": "@徒手或近战武器技能@"
+            "name": "@徒手或近战武器技能@",
+            "type": "skill"
         }
     },
     "a0eb355f-8cbc-4516-9547-fda223b864a1": {
@@ -347,7 +377,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Double Eye-Poke"
     },
@@ -359,7 +390,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Double Eye-Poke"
     },
@@ -371,7 +403,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Drop Kick"
     },
@@ -383,7 +416,8 @@
             "武器"
         ],
         "default": {
-            "name": "相扑摔技"
+            "name": "相扑摔技",
+            "type": "skill"
         },
         "name": "Drop Kick"
     },
@@ -395,7 +429,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Drop Kick"
     },
@@ -408,7 +443,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Unarmed or One-Handed Melee Weapon Skill@"
+            "name": "@Unarmed or One-Handed Melee Weapon Skill@",
+            "type": "skill"
         }
     },
     "c60e6512-76e4-4fb9-b9c4-6a5d39b72840": {
@@ -419,7 +455,8 @@
             "武器"
         ],
         "default": {
-            "name": "@战斗技能@"
+            "name": "@战斗技能@",
+            "type": "block"
         },
         "name": "Dual-Weapon Defense"
     },
@@ -431,7 +468,8 @@
             "武器"
         ],
         "default": {
-            "name": "@战斗技能@"
+            "name": "@战斗技能@",
+            "type": "parry"
         },
         "name": "Dual-Weapon Defense"
     },
@@ -444,7 +482,8 @@
         ],
         "name": "Ear Clap",
         "default": {
-            "name": "@Unarmed Striking Skill@"
+            "name": "@Unarmed Striking Skill@",
+            "type": "skill"
         }
     },
     "313cb2c5-0875-4d1e-a2f2-12db143c9124": {
@@ -455,7 +494,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Elbow Drop"
     },
@@ -467,7 +507,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Elbow Drop"
     },
@@ -480,7 +521,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         }
     },
     "37a0ff71-3b7b-44b8-9a55-6cf7b5dc6343": {
@@ -492,7 +534,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         }
     },
     "bc4cabca-637e-41ea-a37f-96aea7d2292d": {
@@ -503,7 +546,8 @@
             "武器"
         ],
         "default": {
-            "name": "锁分铜"
+            "name": "锁分铜",
+            "type": "skill"
         },
         "name": "Entangle"
     },
@@ -515,7 +559,8 @@
             "武器"
         ],
         "default": {
-            "name": "鞭子"
+            "name": "鞭子",
+            "type": "skill"
         },
         "name": "Entangle"
     },
@@ -527,7 +572,8 @@
             "武器"
         ],
         "default": {
-            "name": "杂技"
+            "name": "杂技",
+            "type": "skill"
         },
         "name": "Evade"
     },
@@ -539,7 +585,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Evade"
     },
@@ -551,7 +598,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Exotic Hand Strike"
     },
@@ -570,7 +618,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Eye-Gouging"
     },
@@ -582,7 +631,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Eye-Gouging"
     },
@@ -594,7 +644,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Eye-Gouging"
     },
@@ -606,7 +657,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Eye-Pluck"
     },
@@ -618,7 +670,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Eye-Pluck"
     },
@@ -630,7 +683,8 @@
             "武器"
         ],
         "default": {
-            "name": "拳击"
+            "name": "拳击",
+            "type": "skill"
         },
         "name": "Eye-Poke"
     },
@@ -642,7 +696,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Eye-Poke"
     },
@@ -654,7 +709,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Eye-Poke"
     },
@@ -666,7 +722,8 @@
             "武器"
         ],
         "default": {
-            "name": "@徒手战斗技能@"
+            "name": "@徒手战斗技能@",
+            "type": "parry"
         },
         "name": "Eye-Poke Defense"
     },
@@ -678,7 +735,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Eye-Rake"
     },
@@ -690,7 +748,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Eye-Rake"
     },
@@ -703,7 +762,8 @@
             "武器"
         ],
         "default": {
-            "name": "@徒手或近战武器技能@"
+            "name": "@徒手或近战武器技能@",
+            "type": "skill"
         }
     },
     "e2d0907d-c6b9-47f3-b5f5-d8c36d2ffea2": {
@@ -715,7 +775,8 @@
         ],
         "name": "Fighting While Seated",
         "default": {
-            "name": "@Unarrmed or Weapon Skill@"
+            "name": "@Unarrmed or Weapon Skill@",
+            "type": "skill"
         }
     },
     "4257bb3c-b45c-48c8-b46a-6157a1bdccbd": {
@@ -727,7 +788,8 @@
             "武器"
         ],
         "default": {
-            "name": "锁臂"
+            "name": "锁臂",
+            "type": "skill"
         }
     },
     "93062ba3-c9d6-49f5-b5a1-8232e1379cb3": {
@@ -738,7 +800,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Flying Atomic Wedgie"
     },
@@ -750,7 +813,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Flying Atomic Wedgie"
     },
@@ -762,7 +826,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Flying Jump Kick"
     },
@@ -774,7 +839,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Thrusting Weapon Skill@"
+            "name": "@Thrusting Weapon Skill@",
+            "type": "skill"
         },
         "name": "Flying Lunge"
     },
@@ -786,7 +852,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Flying Lunge"
     },
@@ -798,7 +865,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Fencing Weapon Skill@"
+            "name": "@Fencing Weapon Skill@",
+            "type": "skill"
         },
         "name": "Grand Disarm"
     },
@@ -810,7 +878,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Non-Fencing Melee Combat Skill@"
+            "name": "@Non-Fencing Melee Combat Skill@",
+            "type": "skill"
         },
         "name": "Grand Disarm"
     },
@@ -823,7 +892,8 @@
             "武器"
         ],
         "default": {
-            "name": "@战斗技能@"
+            "name": "@战斗技能@",
+            "type": "skill"
         }
     },
     "94646938-4e71-43c3-ac49-2135f74f60d6": {
@@ -833,7 +903,10 @@
             "Silly Techniques",
             "武器"
         ],
-        "name": "Halitosis Attack"
+        "name": "Halitosis Attack",
+        "default": {
+            "type": "ht"
+        }
     },
     "3dbf6e11-d73a-412f-9c3d-570f74d9b1b0": {
         "tags": [
@@ -843,7 +916,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Hammer Fist"
     },
@@ -855,7 +929,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Hammer Fist"
     },
@@ -867,7 +942,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "parry"
         },
         "name": "Hand Catch"
     },
@@ -879,7 +955,8 @@
             "武器"
         ],
         "default": {
-            "name": "相扑摔技"
+            "name": "相扑摔技",
+            "type": "parry"
         },
         "name": "Hand Catch"
     },
@@ -891,7 +968,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "parry"
         },
         "name": "Hand Catch"
     },
@@ -903,7 +981,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "parry"
         },
         "name": "Hand-Clap Parry"
     },
@@ -915,7 +994,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "parry"
         },
         "name": "Hand-Clap Parry"
     },
@@ -928,7 +1008,8 @@
         ],
         "name": "Handcuffing",
         "default": {
-            "name": "Binding"
+            "name": "Binding",
+            "type": "skill"
         }
     },
     "f7c12bb2-802c-47b7-8a05-a64803d98cf6": {
@@ -938,7 +1019,10 @@
             "技术",
             "武器"
         ],
-        "name": "Handcuffing"
+        "name": "Handcuffing",
+        "default": {
+            "type": "dx"
+        }
     },
     "916a4cdf-daf2-4a95-a29b-d5277efb3b95": {
         "tags": [
@@ -948,7 +1032,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Handcuffing"
     },
@@ -960,7 +1045,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Handcuffing"
     },
@@ -970,7 +1056,8 @@
             "技术"
         ],
         "default": {
-            "name": "骑术"
+            "name": "骑术",
+            "type": "skill"
         },
         "name": "Hands-Free Riding"
     },
@@ -982,7 +1069,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Head Butt"
     },
@@ -994,7 +1082,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Head Butt"
     },
@@ -1006,7 +1095,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Head Lock"
     },
@@ -1018,7 +1108,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Head Lock"
     },
@@ -1030,7 +1121,8 @@
             "武器"
         ],
         "default": {
-            "name": "@近战武器技能@"
+            "name": "@近战武器技能@",
+            "type": "skill"
         },
         "name": "Hook"
     },
@@ -1044,7 +1136,8 @@
             "武器"
         ],
         "default": {
-            "name": "弓术"
+            "name": "弓术",
+            "type": "skill"
         },
         "prereqs": {
             "prereqs": [
@@ -1065,7 +1158,8 @@
         ],
         "name": "Initial Carving",
         "default": {
-            "name": "@Fencing Weapon Skill@"
+            "name": "@Fencing Weapon Skill@",
+            "type": "skill"
         }
     },
     "465628e5-eefb-4065-8d71-3a340da46774": {
@@ -1076,7 +1170,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "parry"
         },
         "name": "Jam"
     },
@@ -1088,7 +1183,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "parry"
         },
         "name": "Jam"
     },
@@ -1100,7 +1196,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Judo Throw"
     },
@@ -1113,7 +1210,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         }
     },
     "5fefd4c0-1a09-4eb1-8f6b-26c7ee196195": {
@@ -1125,7 +1223,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         }
     },
     "e4106ba4-4626-4ae5-8952-094fee647a1e": {
@@ -1137,7 +1236,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         }
     },
     "f7801781-5637-4d89-a41c-d5211a683162": {
@@ -1148,7 +1248,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Knee Drop"
     },
@@ -1160,7 +1261,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Knee Drop"
     },
@@ -1173,7 +1275,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         }
     },
     "61ac3751-8dad-4ddd-bfba-7fba351e3fe5": {
@@ -1185,7 +1288,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         }
     },
     "87af7b6f-192b-439c-ba71-305b9a71c89c": {
@@ -1195,7 +1299,10 @@
             "技术",
             "武器"
         ],
-        "name": "Leg Grapple"
+        "name": "Leg Grapple",
+        "default": {
+            "type": "dx"
+        }
     },
     "b0d6fd5c-3b7e-4c9d-b80b-3aa62bd77327": {
         "tags": [
@@ -1205,7 +1312,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Leg Grapple"
     },
@@ -1217,7 +1325,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Leg Grapple"
     },
@@ -1229,7 +1338,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Leg Lock"
     },
@@ -1241,7 +1351,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Leg Lock"
     },
@@ -1253,7 +1364,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Leg Throw"
     },
@@ -1265,7 +1377,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Lethal Eye-Poke"
     },
@@ -1277,7 +1390,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Lethal Kick"
     },
@@ -1289,7 +1403,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Lethal Strike"
     },
@@ -1301,7 +1416,8 @@
             "武器"
         ],
         "default": {
-            "name": "@战斗技能@"
+            "name": "@战斗技能@",
+            "type": "skill"
         },
         "name": "Low Fighting"
     },
@@ -1313,7 +1429,8 @@
             "武器"
         ],
         "default": {
-            "name": "拳击"
+            "name": "拳击",
+            "type": "parry"
         },
         "name": "Low-Line Defense"
     },
@@ -1325,7 +1442,8 @@
             "武器"
         ],
         "default": {
-            "name": "相扑摔技"
+            "name": "相扑摔技",
+            "type": "parry"
         },
         "name": "Low-Line Defense"
     },
@@ -1337,7 +1455,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Lower-Body Arm Lock"
     },
@@ -1349,7 +1468,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Lower-Body Arm Lock"
     },
@@ -1361,7 +1481,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Lower-Body Leg Lock"
     },
@@ -1373,7 +1494,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Lower-Body Leg Lock"
     },
@@ -1386,7 +1508,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Ranged Weapon Skill@"
+            "name": "@Ranged Weapon Skill@",
+            "type": "skill"
         },
         "name": "Mounted Shooting",
         "prereqs": {
@@ -1441,7 +1564,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "type": "st"
+        }
     },
     "40e148c5-78b6-445b-b38e-9246435a6e12": {
         "tags": [
@@ -1451,7 +1577,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Noogie"
     },
@@ -1463,7 +1590,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Noogie"
     },
@@ -1475,7 +1603,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Nose Slap"
     },
@@ -1487,7 +1616,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Nose Slap"
     },
@@ -1498,7 +1628,10 @@
             "近战",
             "武器"
         ],
-        "name": "Piledriver"
+        "name": "Piledriver",
+        "default": {
+            "type": "st"
+        }
     },
     "4d8c5c5d-a48f-45f5-ab16-b47129f8ff3f": {
         "tags": [
@@ -1508,7 +1641,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Piledriver"
     },
@@ -1520,7 +1654,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Pole-Vault Kick",
         "prereqs": {
@@ -1541,7 +1676,8 @@
             "武器"
         ],
         "default": {
-            "name": "@战斗技能@"
+            "name": "@战斗技能@",
+            "type": "skill"
         },
         "name": "Pressure-Point Strike",
         "prereqs": {
@@ -1567,7 +1703,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Push Kick"
     },
@@ -1579,7 +1716,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Push Kick"
     },
@@ -1589,7 +1727,8 @@
             "技术"
         ],
         "default": {
-            "name": "杂技"
+            "name": "杂技",
+            "type": "skill"
         },
         "name": "Quick Mount"
     },
@@ -1599,7 +1738,8 @@
             "技术"
         ],
         "default": {
-            "name": "跳跃"
+            "name": "跳跃",
+            "type": "skill"
         },
         "name": "Quick Mount"
     },
@@ -1609,7 +1749,8 @@
             "技术"
         ],
         "default": {
-            "name": "骑术"
+            "name": "骑术",
+            "type": "skill"
         },
         "name": "Quick Mount"
     },
@@ -1622,7 +1763,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Weapon Skill@"
+            "name": "@Weapon Skill@",
+            "type": "skill"
         }
     },
     "c4d6b912-af25-4181-b515-84c5117b48b0": {
@@ -1633,7 +1775,8 @@
             "武器"
         ],
         "default": {
-            "name": "连枷"
+            "name": "连枷",
+            "type": "skill"
         },
         "name": "Return Strike"
     },
@@ -1645,7 +1788,8 @@
             "武器"
         ],
         "default": {
-            "name": "锁分铜"
+            "name": "锁分铜",
+            "type": "skill"
         },
         "name": "Return Strike"
     },
@@ -1657,7 +1801,8 @@
             "武器"
         ],
         "default": {
-            "name": "@One-Handed Weapon Skill@"
+            "name": "@One-Handed Weapon Skill@",
+            "type": "skill"
         },
         "name": "Reverse Grip"
     },
@@ -1669,7 +1814,8 @@
             "武器"
         ],
         "default": {
-            "name": "@双手武器技能@"
+            "name": "@双手武器技能@",
+            "type": "skill"
         },
         "name": "Reverse Grip"
     },
@@ -1681,7 +1827,8 @@
             "武器"
         ],
         "default": {
-            "name": "武术拐"
+            "name": "武术拐",
+            "type": "skill"
         },
         "name": "Reverse Grip"
     },
@@ -1693,7 +1840,8 @@
             "武器"
         ],
         "default": {
-            "name": "@徒手战斗技能@"
+            "name": "@徒手战斗技能@",
+            "type": "skill"
         },
         "name": "Roll with Blow"
     },
@@ -1705,7 +1853,8 @@
             "武器"
         ],
         "default": {
-            "name": "杂技"
+            "name": "杂技",
+            "type": "skill"
         },
         "name": "Roll with Blow"
     },
@@ -1717,7 +1866,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Sacrifice Throw"
     },
@@ -1729,7 +1879,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Scissors Hold"
     },
@@ -1741,7 +1892,8 @@
             "武器"
         ],
         "default": {
-            "name": "十手/钗"
+            "name": "十手/钗",
+            "type": "skill"
         },
         "name": "Snap Weapon"
     },
@@ -1752,7 +1904,10 @@
             "近战",
             "武器"
         ],
-        "name": "Snap Weapon"
+        "name": "Snap Weapon",
+        "default": {
+            "type": "st"
+        }
     },
     "c3cd41c5-e16f-4b2c-9e25-7fdf5765ea1f": {
         "tags": [
@@ -1762,7 +1917,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Spinning Kick"
     },
@@ -1774,7 +1930,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Spinning Punch"
     },
@@ -1786,7 +1943,8 @@
             "武器"
         ],
         "default": {
-            "name": "@近战武器技能@"
+            "name": "@近战武器技能@",
+            "type": "skill"
         },
         "name": "Spinning Strike"
     },
@@ -1798,7 +1956,8 @@
             "武器"
         ],
         "default": {
-            "name": "@战斗技能@"
+            "name": "@战斗技能@",
+            "type": "skill"
         },
         "name": "Springing Attack"
     },
@@ -1810,7 +1969,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Stamp Kick"
     },
@@ -1822,7 +1982,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Stamp Kick"
     },
@@ -1832,7 +1993,8 @@
             "技术"
         ],
         "default": {
-            "name": "骑术"
+            "name": "骑术",
+            "type": "skill"
         },
         "name": "Staying Seated"
     },
@@ -1845,7 +2007,8 @@
             "武器"
         ],
         "default": {
-            "name": "@徒手或近战武器技能@"
+            "name": "@徒手或近战武器技能@",
+            "type": "skill"
         }
     },
     "ffea258e-935f-4f74-9346-ad8721a701d4": {
@@ -1856,7 +2019,8 @@
             "武器"
         ],
         "default": {
-            "name": "@战斗技能@"
+            "name": "@战斗技能@",
+            "type": "parry"
         },
         "name": "Timed Defense"
     },
@@ -1868,7 +2032,8 @@
             "武器"
         ],
         "default": {
-            "name": "盾牌"
+            "name": "盾牌",
+            "type": "block"
         },
         "name": "Timed Defense"
     },
@@ -1880,7 +2045,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "skill"
         },
         "name": "Triangle Choke"
     },
@@ -1892,7 +2058,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Triangle Choke"
     },
@@ -1904,7 +2071,8 @@
             "武器"
         ],
         "default": {
-            "name": "抓擒技击"
+            "name": "抓擒技击",
+            "type": "parry"
         },
         "name": "Trip"
     },
@@ -1916,7 +2084,8 @@
             "武器"
         ],
         "default": {
-            "name": "相扑摔技"
+            "name": "相扑摔技",
+            "type": "parry"
         },
         "name": "Trip"
     },
@@ -1928,7 +2097,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "parry"
         },
         "name": "Trip"
     },
@@ -1940,7 +2110,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Two-Handed Punch"
     },
@@ -1952,7 +2123,8 @@
             "武器"
         ],
         "default": {
-            "name": "拳击"
+            "name": "拳击",
+            "type": "skill"
         },
         "name": "Uppercut"
     },
@@ -1964,7 +2136,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Uppercut"
     },
@@ -1976,7 +2149,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Uppercut"
     },
@@ -1988,7 +2162,8 @@
             "武器"
         ],
         "default": {
-            "name": "斗殴"
+            "name": "斗殴",
+            "type": "skill"
         },
         "name": "Wet Willy"
     },
@@ -2000,7 +2175,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         },
         "name": "Wet Willy"
     },
@@ -2013,7 +2189,8 @@
             "武器"
         ],
         "default": {
-            "name": "@近战武器技能@"
+            "name": "@近战武器技能@",
+            "type": "skill"
         }
     },
     "21e2ea57-17b3-45c2-a69a-399606a01224": {
@@ -2025,7 +2202,8 @@
             "武器"
         ],
         "default": {
-            "name": "拳击"
+            "name": "拳击",
+            "type": "skill"
         }
     },
     "81c72a99-28b5-4de9-a5e0-4194bfe4b897": {
@@ -2037,7 +2215,8 @@
             "武器"
         ],
         "default": {
-            "name": "空手技击"
+            "name": "空手技击",
+            "type": "skill"
         }
     },
     "3d5e770a-899a-431e-a406-dd3e7d5647d1": {
@@ -2047,7 +2226,10 @@
             "技术",
             "武器"
         ],
-        "name": "Wrench @Limb@"
+        "name": "Wrench @Limb@",
+        "default": {
+            "type": "st"
+        }
     },
     "f49bf4e5-4137-4f6d-8348-ad01f07f5e74": {
         "tags": [
@@ -2056,7 +2238,10 @@
             "技术",
             "武器"
         ],
-        "name": "Wrench Spine"
+        "name": "Wrench Spine",
+        "default": {
+            "type": "st"
+        }
     },
     "8645e6f4-37e5-46ea-a850-10106efbfcce": {
         "tags": [
@@ -2066,7 +2251,8 @@
             "武器"
         ],
         "default": {
-            "name": "摔跤"
+            "name": "摔跤",
+            "type": "skill"
         },
         "name": "Wrench Spine"
     },
@@ -2078,7 +2264,8 @@
             "武器"
         ],
         "default": {
-            "name": "@Grappling or Melee Weapon Skill@"
+            "name": "@Grappling or Melee Weapon Skill@",
+            "type": "skill"
         },
         "name": "Wrist Lock"
     },
