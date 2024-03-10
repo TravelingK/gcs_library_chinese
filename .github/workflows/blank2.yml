@@ -17,12 +17,12 @@ jobs:
       - name: trantojson
         run: |
           git clone https://github.com/richardwilkes/gcs_master_library.git
-          find ./gcs_master_library/|grep  ".skl" >> skl.list
+          find ./gcs_master_library/|egrep  ".skl|.adq" >> list.txt
           while read line
           do
           echo $line
           python3 ./.github/workflows/trans_to_chinese.py "$line"
-          done <skl.list
+          done <list.txt
           rm -rf ./Library
           mv -f ./gcs_chinese_library/Library .
       - name: Add & Commit

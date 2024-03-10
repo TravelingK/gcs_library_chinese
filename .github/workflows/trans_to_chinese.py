@@ -54,19 +54,31 @@ def  mergeDict(olddict:dict,newdict:dict)->dict:
     return(olddict)
 
 def zh_to_file(mobanwenjian):
+    
     input_file=re.sub(r"master_library","master_library_en_json",mobanwenjian)
-    mubiao_file=re.sub(".[a-z]{0,}$","_zh.skl",mobanwenjian)
     type=re.findall('(?<=.)[a-z]{0,}$',mobanwenjian)
     match type[0]:
         case "skl":
             input_file=re.sub(r".skl","_zh_Hans.json",input_file)
+            mubiao_file=re.sub(".[a-z]{0,}$","_zh.skl",mobanwenjian)
+
             mubiao_file=re.sub("gcs_master_library","gcs_chinese_library",mubiao_file)
             skilljson=getdict(input_file)
             mobanjson=getdict(mobanwenjian)
             for i in skilljson:
                 for ii in mobanjson['rows']:
                     if (ii['id']==i):
-                        #print(i)
+                        ii=mergeDict(ii,skilljson[i])
+        case 'adq':
+            input_file=re.sub(r".adq","_zh_Hans.json",input_file)
+            mubiao_file=re.sub(".[a-z]{0,}$","_zh.adq",mobanwenjian)
+
+            mubiao_file=re.sub("gcs_master_library","gcs_chinese_library",mubiao_file)
+            skilljson=getdict(input_file)
+            mobanjson=getdict(mobanwenjian)
+            for i in skilljson:
+                for ii in mobanjson['rows']:
+                    if (ii['id']==i):
                         ii=mergeDict(ii,skilljson[i])
     outjson(mobanjson,mubiao_file)
             
