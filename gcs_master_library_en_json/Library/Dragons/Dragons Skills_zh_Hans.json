@@ -1,7 +1,8 @@
 {
     "38fe9a30-0bb5-441a-92f7-412d2257ca0e": {
         "default": {
-            "name": "Brawling"
+            "name": "Brawling",
+            "type": "skill"
         },
         "name": "Biting Grapple",
         "prereqs": {
@@ -15,11 +16,15 @@
         }
     },
     "5193fa88-14b6-4840-b5b2-da382aa4d73b": {
-        "name": "Biting Grapple"
+        "name": "Biting Grapple",
+        "default": {
+            "type": "dx"
+        }
     },
     "a56d0b63-2c08-4e35-b723-109e91cc9523": {
         "default": {
-            "name": "Flight"
+            "name": "Flight",
+            "type": "skill"
         },
         "name": "Death from Above",
         "prereqs": {
@@ -40,7 +45,8 @@
     "4be3711f-96da-4a11-abac-40380391c7a9": {
         "name": "Tail Strike",
         "default": {
-            "name": "Brawling"
+            "name": "Brawling",
+            "type": "skill"
         },
         "prereqs": {
             "prereqs": [
@@ -67,12 +73,16 @@
                     }
                 }
             ]
+        },
+        "default": {
+            "type": "dx"
         }
     },
     "1880d3a8-01e1-4ac3-b0e4-12bf536070ba": {
         "name": "Wing Bash",
         "default": {
-            "name": "Brawling"
+            "name": "Brawling",
+            "type": "skill"
         },
         "prereqs": {
             "prereqs": [
@@ -92,7 +102,8 @@
     "da470dd1-cae9-4a1f-8ecd-996b21cc0207": {
         "name": "Tail Sweep",
         "default": {
-            "name": "Tail Strike"
+            "name": "Tail Strike",
+            "type": "skill"
         },
         "prereqs": {
             "prereqs": [
@@ -119,6 +130,9 @@
                     }
                 }
             ]
+        },
+        "default": {
+            "type": "dx"
         }
     }
 }
