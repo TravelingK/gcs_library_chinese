@@ -95,7 +95,67 @@ def en_to_file(input_file):
                 #print(newskilline)
                 new_json[i['id']]=newskilline
         case "adq":
-                new_json[i['id']]=newskilline
+            advList=['name','tags','notes']
+            for i in raw_json['rows']:
+                newadvine={}
+                for advlL in advList:
+                    if advlL in i:
+                        newadvine[advlL]=i[advlL] 
+
+                if 'modifiers' in i:
+                    modifiersline=[]
+                    for ii in i['modifiers']:
+                        newmodifiersline={}
+                        if 'name' in ii:
+                            newmodifiersline['name']=ii['name']
+                        if 'notes' in ii:
+                            newmodifiersline['notes']=ii['notes']
+                        if 'situation' in ii:
+                            newmodifiersline['situation']=ii['situation']
+                            
+                        if 'specialization' in ii:
+                            newmodifiersline['specialization']=ii['specialization']
+                        if 'features' in ii:
+                            featuresline=[]
+                            for iii in ii['features']:
+                                newfeaturesline={}
+                                
+                                if ('name' in iii) and ('qualifier' in iii['name']):
+                                    newfeaturesline['name']={}
+                                    newfeaturesline['name']['qualifier']=iii['name']['qualifier']
+                                if ('usage' in iii) and ('qualifier' in iii['usage']):
+                                    newfeaturesline['usage']={}
+                                    newfeaturesline['usage']['qualifier']=iii['usage']['qualifier']
+                                if ('tags' in iii) and ('qualifier' in iii['tags']):
+                                    newfeaturesline['tags']={}
+                                    newfeaturesline['tags']['qualifier']=iii['tags']['qualifier']
+                                if ('specialization' in iii) and ('qualifier' in iii['specialization']):
+                                    newfeaturesline['specialization']={}
+                                    newfeaturesline['specialization']['qualifier']=iii['specialization']['qualifier']
+                                featuresline.append(newfeaturesline)
+                            newmodifiersline['features']=featuresline
+                        modifiersline.append(newmodifiersline)
+                    newadvine['modifiers']=modifiersline
+                if 'features' in i:
+                    featuresline=[]
+                    for ii in i['features']:
+                        newfeaturesline={}
+                        if ('name' in ii) and ('qualifier' in ii['name']):
+                            newfeaturesline['name']={}
+                            newfeaturesline['name']['qualifier']=ii['name']['qualifier']
+                        if ('usage' in ii) and ('qualifier' in ii['usage']):
+                            newfeaturesline['usage']={}
+                            newfeaturesline['usage']['qualifier']=ii['usage']['qualifier']
+                        if ('tags' in ii) and ('qualifier' in ii['tags']):
+                            newfeaturesline['tags']={}
+                            newfeaturesline['tags']['qualifier']=ii['tags']['qualifier']
+                        if ('specialization' in ii) and ('qualifier' in ii['specialization']):
+                            newfeaturesline['specialization']={}
+                            newfeaturesline['specialization']['qualifier']=ii['specialization']['qualifier']
+                        featuresline.append(newfeaturesline)
+                    newadvine['features']=featuresline
+                #print(newskilline)
+                new_json[i['id']]=newadvine
     outjson(new_json,mubiao_file)
     
 en_to_file(sys.argv[1])

@@ -20,11 +20,11 @@ jobs:
       - name: trantojson
         run: |
           git clone https://github.com/richardwilkes/gcs_master_library.git
-          find ./gcs_master_library/Library|grep -i ".skl" >> skl.list
+          find ./gcs_master_library/Library|egrep  ".skl|.adq" >> list.txt
           while read line
           do
           python3 ./.github/workflows/trans_to_json.py "$line"
-          done <skl.list
+          done <list.txt
                     
       - name: Add & Commit
         uses: EndBug/add-and-commit@v9.1.4
