@@ -22,7 +22,10 @@
         "tags": [
             "运动",
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "2e6ff3b5-0e46-4dda-87fb-194e9823525b": {
         "name": "杂技",
@@ -129,7 +132,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "抓擒技击"
+        }
     },
     "8a961add-4a1b-405d-9d63-472e3033a61c": {
         "name": "锁臂",
@@ -138,7 +144,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "摔跤"
+        }
     },
     "484b624b-fbeb-4030-bd64-8922843393c4": {
         "name": "军械修造",
@@ -346,7 +355,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "2f2454f4-7d82-4da8-b898-506f7f4bb7ec": {
         "name": "后踢",
@@ -355,13 +367,19 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        }
     },
     "d812ce11-bd2f-4977-aec3-52ebca78c58a": {
         "tags": [
             "运动",
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "019329e7-50fb-4fdb-9fad-fe86d52a3e57": {
         "name": "自行车",
@@ -501,7 +519,16 @@
         "tags": [
             "军事",
             "间谍"
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "心理学"
+                    }
+                }
+            ]
+        }
     },
     "a81dd209-e71f-4021-8606-323721987087": {
         "name": "斗殴",
@@ -599,7 +626,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "抓擒技击"
+        }
     },
     "a04a0c19-ae94-41e8-9f07-4787e8ae0097": {
         "name": "锁喉",
@@ -608,7 +638,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "摔跤"
+        }
     },
     "3d6e444d-bcca-40a7-84f9-80809db284c9": {
         "name": "攀爬",
@@ -626,7 +659,16 @@
             "犯罪",
             "间谍",
             "街头"
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "电脑编程"
+                    }
+                }
+            ]
+        }
     },
     "d3c781c2-f844-4c4f-afb9-206acf80792e": {
         "name": "电脑操作",
@@ -1071,7 +1113,20 @@
         "tags": [
             null,
             "间谍"
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {},
+                {
+                    "name": {
+                        "qualifier": "隐匿"
+                    }
+                }
+            ]
+        },
+        "default": {
+            "name": "隐匿"
+        }
     },
     "9c87d513-0661-41fc-ad10-a6688740973d": {
         "name": "缴械",
@@ -1080,7 +1135,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "@徒手或近战武器技能@"
+        }
     },
     "ba2927cb-4c98-4d18-afdf-70f3a136fd71": {
         "name": "易容",
@@ -1100,7 +1158,10 @@
         "tags": [
             null,
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "e643f94c-2e4b-4b23-9c37-eff91f8ddbbd": {
         "name": "潜水服",
@@ -1283,7 +1344,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "斗殴"
+        }
     },
     "ffe8ce0c-c720-4422-a2ed-047267e5cf15": {
         "tags": [
@@ -1291,7 +1355,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "摔跤"
+        }
     },
     "51cc25f3-6f95-4517-8ea9-a864921e6356": {
         "name": "肘击",
@@ -1300,7 +1367,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "斗殴"
+        }
     },
     "74ac8303-60fb-4e57-8c3a-b39167439570": {
         "name": "肘击",
@@ -1309,7 +1379,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        }
     },
     "9dc32d27-87b1-4bb9-8bc0-fa985cd8dd77": {
         "name": "电气技师",
@@ -1972,7 +2045,19 @@
                 "name": "军械修造",
                 "specialization": "重武器"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "ccd25f38-51b0-42c0-b39f-58e0ed65d0f2": {
         "name": "工程学",
@@ -1987,7 +2072,19 @@
                 "name": "机修",
                 "specialization": "机动车"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "4ec1e6b9-2d62-4d42-8d61-a7b44b959b69": {
         "name": "工程学",
@@ -2001,7 +2098,19 @@
             {
                 "name": "建筑学"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "da0266a3-8147-4cad-86f1-77d65e27613a": {
         "name": "工程学",
@@ -2016,7 +2125,19 @@
                 "name": "机修",
                 "specialization": "发条装置"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "db4185be-7017-4c7b-9c83-54dc49757299": {
         "name": "工程学",
@@ -2031,7 +2152,19 @@
                 "name": "炸药",
                 "specialization": "爆破"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "966b44e0-27cb-4ca8-8d28-7b5ade2ae20b": {
         "name": "工程学",
@@ -2045,7 +2178,19 @@
             {
                 "name": "电气技师"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "add1ffbf-13f8-44b7-ae47-20673ead0769": {
         "name": "工程学",
@@ -2059,7 +2204,19 @@
             {
                 "name": "电子维修"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "3887627d-6b62-4bae-a6fc-0e1152fe550a": {
         "name": "工程学",
@@ -2076,7 +2233,37 @@
             {
                 "name": "冶金学"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "数学"
+                            },
+                            "specialization": {
+                                "qualifier": "应用"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "冶金学"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "化学"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "a79132b0-aea6-4c3b-8b7d-cfff7808ab9a": {
         "name": "工程学",
@@ -2091,7 +2278,19 @@
                 "name": "机修",
                 "specialization": "微型机械"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "55d1f162-40e0-46a6-b10a-6ddc13438f69": {
         "name": "工程学",
@@ -2109,7 +2308,19 @@
             {
                 "name": "地质学"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "531c7217-85b0-442b-b1bc-ce3cb48a9f01": {
         "name": "工程学",
@@ -2124,7 +2335,19 @@
                 "name": "机修",
                 "specialization": "纳米机械"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "596fa0f3-0b67-47c3-9689-aa706d0e53c2": {
         "name": "工程学",
@@ -2139,7 +2362,28 @@
                 "name": "电子操作",
                 "specialization": "超时空"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "数学"
+                            },
+                            "specialization": {
+                                "qualifier": "应用"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": {
+                        "qualifier": "物理学"
+                    }
+                }
+            ]
+        }
     },
     "b9baa691-5130-43ac-9821-5d518afffcec": {
         "name": "工程学",
@@ -2154,7 +2398,19 @@
                 "name": "电子操作",
                 "specialization": "心灵科技"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "825e0a28-b471-4482-9c9f-fb59b13573bb": {
         "name": "工程学",
@@ -2169,7 +2425,19 @@
                 "name": "机修",
                 "specialization": "机器人"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "0fc168c2-5eaf-4605-9738-e28bffc33e3e": {
         "name": "工程学",
@@ -2184,7 +2452,19 @@
                 "name": "机修",
                 "specialization": "船只"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "6da938e6-2589-4294-8d1a-52c8cc3a7322": {
         "name": "工程学",
@@ -2199,7 +2479,19 @@
                 "name": "军械修造",
                 "specialization": "轻兵器"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "8d576b2c-8e9f-4dc0-8ff8-fabaa7c76432": {
         "name": "工程学",
@@ -2214,7 +2506,19 @@
                 "name": "机修",
                 "specialization": "星际飞船"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "数学"
+                    },
+                    "specialization": {
+                        "qualifier": "应用"
+                    }
+                }
+            ]
+        }
     },
     "df5f3048-46fb-4ded-9051-731d673254bf": {
         "name": "工程学",
@@ -2229,7 +2533,28 @@
                 "name": "电子操作",
                 "specialization": "时间"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "数学"
+                            },
+                            "specialization": {
+                                "qualifier": "应用"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": {
+                        "qualifier": "物理学"
+                    }
+                }
+            ]
+        }
     },
     "64bdaac4-af11-45e6-9d25-94305f496279": {
         "name": "逃脱",
@@ -2244,7 +2569,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "5c3c80ff-4461-42a9-a6ea-75aa7b2d2014": {
         "tags": [
@@ -2252,7 +2580,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "抓擒技击"
+        }
     },
     "1dbe8660-64a2-4984-8825-f52c9be0cdba": {
         "name": "专家技能"
@@ -2302,7 +2633,16 @@
             {
                 "name": "炸药"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "qualifier": {
+                        "qualifier": 12
+                    }
+                }
+            ]
+        }
     },
     "93273655-6c29-4fb7-a90d-4fee635aab3a": {
         "name": "炸药",
@@ -2382,7 +2722,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "@徒手或近战武器技能@"
+        }
     },
     "925f5add-6b99-4276-94dc-a4ddab96e947": {
         "name": "佯攻",
@@ -2391,7 +2734,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "8c638d8b-ea9c-4f5c-965a-5f9488456726": {
         "name": "偷窃",
@@ -2435,7 +2781,19 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "杂技"
+                    }
+                }
+            ]
+        },
+        "default": {
+            "name": "杂技"
+        }
     },
     "25290055-10aa-412a-8298-f1512231c0e4": {
         "tags": [
@@ -2443,7 +2801,19 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "空手技击"
+                    }
+                }
+            ]
+        }
     },
     "2c16df7f-1f04-4dc3-9f47-f9e5a900b171": {
         "name": "破门",
@@ -3054,7 +3424,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "84997f28-e60b-41e0-9ab1-09f7adc52f04": {
         "name": "飞踢",
@@ -3063,7 +3436,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        }
     },
     "45d00ac1-ed2b-475e-89e9-78116b845f4d": {
         "name": "跳跃",
@@ -3086,7 +3462,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "b4f6be38-f78f-4049-b4d3-2e1262ca561b": {
         "name": "踢击",
@@ -3095,7 +3474,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "斗殴"
+        }
     },
     "77234ae6-b989-47ce-a70c-4d7577ae3813": {
         "name": "踢击",
@@ -3104,7 +3486,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        }
     },
     "b6447c2b-0ce8-4ea0-9b94-96d249f5da42": {
         "name": "膝击",
@@ -3113,7 +3498,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "斗殴"
+        }
     },
     "5d27c912-0b73-4b0c-93f6-955b57b4f0aa": {
         "name": "膝击",
@@ -3122,7 +3510,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        }
     },
     "c0a84884-fc42-4ea9-9ca4-412b728b6756": {
         "name": "短刀",
@@ -3181,7 +3572,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "抓擒技击"
+        }
     },
     "443e32c8-e683-49c9-b5b4-c4ccf0d53a2b": {
         "tags": [
@@ -3189,7 +3583,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "摔跤"
+        }
     },
     "a6a6de6d-015b-4c1b-a5d9-9ac64a8bb68a": {
         "tags": [
@@ -3197,7 +3594,10 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        }
     },
     "c3649e93-e301-485e-a3f1-b3f29ea664c7": {
         "tags": [
@@ -3205,7 +3605,10 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        }
     },
     "222a5e0e-560a-4f11-84a9-680d47460a3b": {
         "name": "举重",
@@ -4578,7 +4981,20 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {},
+                {
+                    "name": {
+                        "qualifier": "摔跤"
+                    }
+                }
+            ]
+        },
+        "default": {
+            "name": "摔跤"
+        }
     },
     "f2e90c57-96d9-4780-b52b-00e13ae443b1": {
         "name": "飞行驾驶",
@@ -4960,19 +5376,28 @@
         "tags": [
             null,
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "拳击"
+        }
     },
     "bb6e2af2-64ef-464f-9e4b-75a0ce792af4": {
         "tags": [
             null,
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "斗殴"
+        }
     },
     "75f5e30a-4f25-420c-b0c7-6fe16f584e36": {
         "tags": [
             null,
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        }
     },
     "33c7912d-6532-4e28-8bfe-4003a8fda5c4": {
         "name": "心理学",
@@ -5010,7 +5435,10 @@
     "5f5989a7-ee21-4d3b-8a21-2a7851309689": {
         "tags": [
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "攀爬"
+        }
     },
     "850231e7-ba9b-4e5d-9cf8-34ae3c2ac7f7": {
         "name": "研究",
@@ -5023,7 +5451,33 @@
             {
                 "name": "写作"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {},
+                {
+                    "name": {
+                        "qualifier": "语言"
+                    },
+                    "notes": {
+                        "qualifier": "书面语（结巴的）"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "语言"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "语言"
+                    },
+                    "notes": {
+                        "qualifier": "书面语（有口音的）"
+                    }
+                }
+            ]
+        }
     },
     "3d8e40a5-4713-4ea9-a82c-37ef89e4ee3d": {
         "name": "维持武器",
@@ -5032,7 +5486,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "@近战武器技能@"
+        }
     },
     "68c41f0a-2403-4abf-8c1e-905451874a05": {
         "name": "骑术",
@@ -5110,7 +5567,10 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "@徒手战斗技能@"
+        }
     },
     "e6626a7d-e094-4126-8fbc-31f11d97d4ab": {
         "tags": [
@@ -5118,7 +5578,10 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "1e40cc18-c3e2-4bf5-bd29-65d70c3f6a13": {
         "name": "爬绳",
@@ -5129,7 +5592,10 @@
             "户外",
             "街头",
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "攀爬"
+        }
     },
     "ccaf4abc-9b2f-4a58-9607-82ef700ca4e4": {
         "name": "跑步",
@@ -5141,13 +5607,19 @@
         "tags": [
             null,
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "7f2ee396-1b09-4ad5-995b-0543a53171ea": {
         "tags": [
             null,
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "跳跃"
+        }
     },
     "941c2ff5-da70-4199-8bbe-9de1b4120a98": {
         "name": "礼仪",
@@ -5246,7 +5718,10 @@
             "户外",
             "街头",
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "攀爬"
+        }
     },
     "cd1003d3-9c4d-4ed0-b47a-1b2f66fd7945": {
         "name": "搜集",
@@ -5269,7 +5744,16 @@
             {
                 "name": "潜水服"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "游泳"
+                    }
+                }
+            ]
+        }
     },
     "48b1a42b-806e-44dd-8939-60d672ecafa5": {
         "name": "航海术",
@@ -5329,7 +5813,29 @@
                 "name": "飞行驾驶",
                 "specialization": "浮力飞行器"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "导航"
+                    },
+                    "specialization": {
+                        "qualifier": "空中"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "领导力"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "飞艇乘务员"
+                    }
+                }
+            ]
+        }
     },
     "89e6d7f9-0ed6-4793-9f97-4dc1b9a3afb1": {
         "name": "船舶掌握",
@@ -5350,7 +5856,29 @@
                 "name": "划船",
                 "specialization": "帆船"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "航海术"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "导航"
+                    },
+                    "specialization": {
+                        "qualifier": "海上"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "领导力"
+                    }
+                }
+            ]
+        }
     },
     "f4551977-d473-4411-9ac0-76f8dec05ba3": {
         "name": "船舶掌握",
@@ -5371,7 +5899,29 @@
                 "name": "飞行驾驶",
                 "specialization": "高性能航天器"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "宇航员"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "导航"
+                    },
+                    "specialization": {
+                        "qualifier": "太空"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "领导力"
+                    }
+                }
+            ]
+        }
     },
     "86096f5d-c5b0-4843-ab80-a9eb8bf709f6": {
         "name": "船舶掌握",
@@ -5392,7 +5942,29 @@
                 "name": "飞行驾驶",
                 "specialization": "高性能航天器"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "宇航员"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "导航"
+                    },
+                    "specialization": {
+                        "qualifier": "超空间"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "领导力"
+                    }
+                }
+            ]
+        }
     },
     "873f4f4a-a0db-4e46-ab05-87a191fb7038": {
         "name": "船舶掌握",
@@ -5409,7 +5981,29 @@
                 "name": "潜水艇",
                 "specialization": "大型潜艇"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "潜艇艇员"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "导航"
+                    },
+                    "specialization": {
+                        "qualifier": "海上"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "领导力"
+                    }
+                }
+            ]
+        }
     },
     "e4aa73cf-2a9e-4316-b6cb-90c98e43bf6d": {
         "name": "短剑",
@@ -5474,7 +6068,10 @@
         "tags": [
             null,
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "1f25b4e9-0bbf-4ce4-b8bd-d087e24f07b1": {
         "name": "走私",
@@ -5517,13 +6114,19 @@
         "tags": [
             null,
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "8ca9b138-d2b2-4919-a3a9-48c41117643d": {
         "tags": [
             null,
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "跑步"
+        }
     },
     "0e373814-0c04-4654-bc68-fbddfc6bf73e": {
         "tags": [
@@ -5531,7 +6134,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "d91dde61-bd04-4baa-8bff-9ad7938d6dd5": {
         "tags": [
@@ -5539,7 +6145,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        }
     },
     "9a37f84a-af51-4cc5-88b0-28353518b8e1": {
         "name": "棍棒",
@@ -5564,7 +6173,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "5e8ee159-c159-4171-8752-47feeb8b227d": {
         "tags": [
@@ -5572,7 +6184,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "斗殴"
+        }
     },
     "21155b15-f435-45df-9f16-44c14daf2858": {
         "tags": [
@@ -5580,7 +6195,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        }
     },
     "bd2f577f-83ac-4a00-aba0-17a7e8184c75": {
         "name": "隐匿",
@@ -5673,7 +6291,21 @@
                 "name": "潜水艇",
                 "specialization": "迷你潜艇"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "潜水服"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "水肺"
+                    }
+                }
+            ]
+        }
     },
     "8aa3b8a1-f4e6-4163-b2fd-2b62dec35254": {
         "name": "潜水艇",
@@ -5737,7 +6369,21 @@
             {
                 "name": "兽医学"
             }
-        ]
+        ],
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "急救"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "医师"
+                    }
+                }
+            ]
+        }
     },
     "58739ac8-87ad-4a15-8827-db69a5cb210f": {
         "tags": [
@@ -6433,7 +7079,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "杂技"
+        }
     },
     "c532c95b-13a4-467a-8cba-8bb6c941745c": {
         "name": "扫堂腿",
@@ -6442,7 +7091,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "抓擒技击"
+        }
     },
     "fb51eeba-3bdc-406e-adbf-b6550bc0cab1": {
         "name": "扫堂腿",
@@ -6451,7 +7103,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        }
     },
     "7e11e690-93b1-4f6e-a000-0d036758f1d0": {
         "name": "扫堂腿",
@@ -6460,7 +7115,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "相扑摔技"
+        }
     },
     "be88378a-fc8c-489e-be22-8fc014bb8e1f": {
         "name": "游泳",
@@ -6518,7 +7176,10 @@
         "tags": [
             null,
             "技术"
-        ]
+        ],
+        "default": {
+            "name": "即时备战"
+        }
     },
     "a72911d4-3f62-4329-90f6-0e98e1851c7a": {
         "name": "武术拐",
@@ -6587,7 +7248,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "拳击"
+        }
     },
     "d14e36df-d401-410b-b895-fe358683e512": {
         "tags": [
@@ -6595,7 +7259,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "斗殴"
+        }
     },
     "1d62a7d9-d088-4720-801d-c2b9e7636eeb": {
         "tags": [
@@ -6603,7 +7270,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "空手技击"
+        }
     },
     "27f9f81b-edb4-4c07-b416-112a429f2d44": {
         "name": "城市生存",
