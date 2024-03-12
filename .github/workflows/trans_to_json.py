@@ -110,8 +110,6 @@ class infoDict:
                 newskilline['prereqs']=self.__getPrereqs(i['prereqs'])
             if 'default' in i:
                 newskilline['default']={}
-                if 'type' in i['default']:
-                    newskilline['default']['type']=i['default']['type']
                 if 'name' in i['default']:
                     newskilline['default']['name']=i['default']['name']
             if 'defaults' in i:
