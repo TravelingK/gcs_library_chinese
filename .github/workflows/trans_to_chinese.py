@@ -40,7 +40,6 @@ def  mergeDict(olddict:dict,newdict:dict)->dict:
                     elif (i == 'children'):
                         for ti in olddict[i]:
                             for tii in newdict[i]:
-                                print(ti,newdict[i][tii])
                                 if (ti['id']==tii):
                                     ti=mergeDict(ti,newdict[i][tii])
                 else:
