@@ -27,22 +27,130 @@ def outjson(nnskillline,docname):
         skillline=json.dumps(nnskillline)
         skill.write(skillline)
 
-def getPrereqs(prereqs:dict):
-    dictprereqs={}
-    PrereqsList=['name','notes',"specialization","qualifier"]
-    if 'prereqs' in prereqs:
-        endPrereqs=[]
-        for i in prereqs['prereqs']:
-            endPrereqs.append(getPrereqs(i))
-        dictprereqs['prereqs']=endPrereqs
-    else:
-        for i in PrereqsList:
-            if (i in prereqs)and('qualifier' in prereqs[i]):
-                dictprereqs[i]={}
-                dictprereqs[i]['qualifier']=prereqs[i]['qualifier']
-    return(dictprereqs)
+class infoDict:
+    sklList=['name','tags','notes','specialization','vtt_notes']
+    advList=['name','tags','notes','vtt_notes']
+    admList=['name','tags','notes','vtt_notes']
+
+    def __init__(self,info_dict,info_type) -> None:
+
+        self.dict=info_dict
+        self.type=info_type
+
+    def getPrereqs(prereqs:dict):
+        dictprereqs={}
+        PrereqsList=['name','notes',"specialization","qualifier"]
+        if 'prereqs' in prereqs:
+            endPrereqs=[]
+            for i in prereqs['prereqs']:
+                endPrereqs.append(getPrereqs(i))
+            dictprereqs['prereqs']=endPrereqs
+        else:
+            for i in PrereqsList:
+                if (i in prereqs)and('qualifier' in prereqs[i]):
+                    dictprereqs[i]={}
+                    dictprereqs[i]['qualifier']=prereqs[i]['qualifier']
+        return(dictprereqs)
+
+    def getfeature(self,featureList:list):
+        featuresline=[]
+        featureInfoList=['name','usage','tags','specialization']
+        for feature in featuresline:
+            newfeaturesline={}
+            for featureInfo in featureInfoList:
+                if (featureInfo in feature) and ('qualifier' in feature[featureInfo]):
+                    newfeaturesline[featureInfo]={}
+                    newfeaturesline[featureInfo]['qualifier']=feature[featureInfo]['qualifier']
+                    featuresline.append(newfeaturesline)
+        return(featuresline)
+
+    def getSklJson(self,i):
+        newskilline={}
+        #newskilline['id']=i['id']
+        for skilL in self.sklList:
+            if skilL in i:
+                newskilline[skilL]=i[skilL]
+            if 'prereqs' in i:
+                newskilline['prereqs']=getPrereqs(i['prereqs'])
+            if 'default' in i:
+                newskilline['default']={}
+                if 'type' in i['default']:
+                    newskilline['default']['type']=i['default']['type']
+                if 'name' in i['default']:
+                    newskilline['default']['name']=i['default']['name']
+            if 'defaults' in i:
+                defaultline=[]
+                for ii in i['defaults']:
+                    nnewskilline={}
+                    if 'name' in ii:
+                        nnewskilline['name']=ii['name']
+                    if 'specialization' in ii:
+                        nnewskilline['specialization']=ii['specialization']
+                    defaultline.append(nnewskilline)
+                newskilline['defaults']=defaultline
+        return newskilline
+    def getAdqJson(self,i):
+        newadvine={}
+        for advlL in self.advList:
+            if advlL in i:
+                newadvine[advlL]=i[advlL] 
+            if 'modifiers' in i:
+                modifiersline=[]
+                for ii in i['modifiers']:
+                    newmodifiersline={}
+                    if 'name' in ii:
+                        newmodifiersline['name']=ii['name']
+                    if 'notes' in ii:
+                        newmodifiersline['notes']=ii['notes']
+                    if 'situation' in ii:
+                        newmodifiersline['situation']=ii['situation']
+                    if 'specialization' in ii:
+                        newmodifiersline['specialization']=ii['specialization']
+                    if 'features' in ii:
+                        newmodifiersline['features']=getfeature(ii['features'])
+                    if 'children' in ii:
+                        childrenline=[]
+                        for iii in ii['children']:
+                            newchildrenline={}
+                            if ('name' in iii):
+                                newchildrenline['name']=iii['name']
+                            if ('notes' in iii):
+                                newchildrenline['notes']=iii['notes']
+                            childrenline.append(newchildrenline)
+                        newmodifiersline['children']=childrenline
+                    modifiersline.append(newmodifiersline)
+                newadvine['modifiers']=modifiersline
+                if 'features' in i:
+                    newadvine['features']=getfeature(i['features'])
+        return(newadvine)
+    def getAdmJson(self,i):
+        newadmline={}
+        for admL in self.admList:
+            if admL in i:
+                newadmline[admL]=i[admL]
+        if 'features' in i:
+            newadmline['features']=getfeature(i['features'])
+        if ('children' in i ) and ('container' in i["type"]):
+            iiadmline={}
+            for ii in i['children']:
+                childrenAdm=infoDict(ii,self.type)
+                iiadmline[ii['id']]=childrenAdm.getAdmJson(ii)
+            newadmline['children']=iiadmline
+        return(newadmline)
 
 
+    def getJson(self):
+        out_dict={}
+        for i in self.dict['rows']:
+            match self.type:
+                case "skl":
+                    out_dict[i['id']]=self.getSklJson(i)
+                case "adq":
+                    out_dict[i['id']]=self.getAdqJson(i)
+                case "adm":
+                    out_dict[i['id']]=self.getAdmJson(i)
+        return out_dict
+    
 def en_to_file(input_file):
     """
     .adm 优劣势限制因子
@@ -65,107 +173,8 @@ def en_to_file(input_file):
     mubiao_file=re.sub("gcs_master_library","gcs_master_library_en_json",mubiao_file)
     type=re.findall('(?<=.)[a-z]{0,}$',input_file)
     raw_json=getdict(input_file)
-    new_json={}
-    match type[0]:
-        case "skl":
-            #print(skilljson)
-            sklList=['name','tags','notes','specialization']
-            for i in raw_json['rows']:
-                newskilline={}
-                #newskilline['id']=i['id']
-                for skilL in sklList:
-                    if skilL in i:
-                        newskilline[skilL]=i[skilL]
-                if 'prereqs' in i:
-                    newskilline['prereqs']=getPrereqs(i['prereqs'])
-                if 'default' in i:
-                    newskilline['default']={}
-                    if 'type' in i['default']:
-                        newskilline['default']['type']=i['default']['type']
-                    if 'name' in i['default']:
-                        newskilline['default']['name']=i['default']['name']
-                if 'defaults' in i:
-                    defaultline=[]
-                    for ii in i['defaults']:
-                        nnewskilline={}
-                        if 'name' in ii:
-                            nnewskilline['name']=ii['name']
-                        if 'specialization' in ii:
-                            nnewskilline['specialization']=ii['specialization']
-                        defaultline.append(nnewskilline)
-                    newskilline['defaults']=defaultline
-                #print(newskilline)
-                new_json[i['id']]=newskilline
-        case "adq":
-            advList=['name','tags','notes']
-            for i in raw_json['rows']:
-                newadvine={}
-                for advlL in advList:
-                    if advlL in i:
-                        newadvine[advlL]=i[advlL] 
-
-                if 'modifiers' in i:
-                    modifiersline=[]
-                    for ii in i['modifiers']:
-                        newmodifiersline={}
-                        if 'name' in ii:
-                            newmodifiersline['name']=ii['name']
-                        if 'notes' in ii:
-                            newmodifiersline['notes']=ii['notes']
-                        if 'situation' in ii:
-                            newmodifiersline['situation']=ii['situation']
-                        if 'specialization' in ii:
-                            newmodifiersline['specialization']=ii['specialization']
-                        if 'features' in ii:
-                            featuresline=[]
-                            for iii in ii['features']:
-                                newfeaturesline={}
-                                if ('name' in iii) and ('qualifier' in iii['name']):
-                                    newfeaturesline['name']={}
-                                    newfeaturesline['name']['qualifier']=iii['name']['qualifier']
-                                if ('usage' in iii) and ('qualifier' in iii['usage']):
-                                    newfeaturesline['usage']={}
-                                    newfeaturesline['usage']['qualifier']=iii['usage']['qualifier']
-                                if ('tags' in iii) and ('qualifier' in iii['tags']):
-                                    newfeaturesline['tags']={}
-                                    newfeaturesline['tags']['qualifier']=iii['tags']['qualifier']
-                                if ('specialization' in iii) and ('qualifier' in iii['specialization']):
-                                    newfeaturesline['specialization']={}
-                                    newfeaturesline['specialization']['qualifier']=iii['specialization']['qualifier']
-                                featuresline.append(newfeaturesline)
-                            newmodifiersline['features']=featuresline
-                        if 'children' in ii:
-                            childrenline=[]
-                            for iii in ii['children']:
-                                newchildrenline={}
-                                if ('name' in iii):
-                                    newchildrenline['name']=iii['name']
-                                if ('notes' in iii):
-                                    newchildrenline['notes']=iii['notes']
-                                childrenline.append(newchildrenline)
-                            newmodifiersline['children']=childrenline
-                        modifiersline.append(newmodifiersline)
-                    newadvine['modifiers']=modifiersline
-                if 'features' in i:
-                    featuresline=[]
-                    for ii in i['features']:
-                        newfeaturesline={}
-                        if ('name' in ii) and ('qualifier' in ii['name']):
-                            newfeaturesline['name']={}
-                            newfeaturesline['name']['qualifier']=ii['name']['qualifier']
-                        if ('usage' in ii) and ('qualifier' in ii['usage']):
-                            newfeaturesline['usage']={}
-                            newfeaturesline['usage']['qualifier']=ii['usage']['qualifier']
-                        if ('tags' in ii) and ('qualifier' in ii['tags']):
-                            newfeaturesline['tags']={}
-                            newfeaturesline['tags']['qualifier']=ii['tags']['qualifier']
-                        if ('specialization' in ii) and ('qualifier' in ii['specialization']):
-                            newfeaturesline['specialization']={}
-                            newfeaturesline['specialization']['qualifier']=ii['specialization']['qualifier']
-                        featuresline.append(newfeaturesline)
-                    newadvine['features']=featuresline
-                #print(newskilline)
-                new_json[i['id']]=newadvine
+    Info=infoDict(raw_json,type[0])
+    new_json=Info.getJson()
     outjson(new_json,mubiao_file)
     
 en_to_file(sys.argv[1])

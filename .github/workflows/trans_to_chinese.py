@@ -35,8 +35,14 @@ def  mergeDict(olddict:dict,newdict:dict)->dict:
                     newdict[i].append({})
             for ii in range(num):
                 if isinstance(olddict[i][ii],dict):
-                    if i in newdict:
+                    if (i in newdict) and (i != 'children'):
                         mergeDict(olddict[i][ii],newdict[i][ii])
+                    elif (i == 'children'):
+                        for ti in olddict[i]:
+                            for tii in newdict[i]:
+                                print(ti,newdict[i][tii])
+                                if (ti['id']==tii):
+                                    ti=mergeDict(ti,newdict[i][tii])
                 else:
                     if i in newdict:
                         if isinstance(olddict[i][ii],dict):
@@ -53,33 +59,45 @@ def  mergeDict(olddict:dict,newdict:dict)->dict:
                     olddict[i]=newdict[i]
     return(olddict)
 
-def zh_to_file(mobanwenjian):
-    
+
+
+
+
+
+def zh_to_file(mobanwenjian):  
     input_file=re.sub(r"master_library","master_library_en_json",mobanwenjian)
     type=re.findall('(?<=.)[a-z]{0,}$',mobanwenjian)
     match type[0]:
         case "skl":
             input_file=re.sub(r".skl","_zh_Hans.json",input_file)
             mubiao_file=re.sub(".[a-z]{0,}$","_zh.skl",mobanwenjian)
-
             mubiao_file=re.sub("gcs_master_library","gcs_chinese_library",mubiao_file)
-            skilljson=getdict(input_file)
+            chinesejson=getdict(input_file)
             mobanjson=getdict(mobanwenjian)
-            for i in skilljson:
+            for i in chinesejson:
                 for ii in mobanjson['rows']:
                     if (ii['id']==i):
-                        ii=mergeDict(ii,skilljson[i])
+                        ii=mergeDict(ii,chinesejson[i])
         case 'adq':
             input_file=re.sub(r".adq","_zh_Hans.json",input_file)
             mubiao_file=re.sub(".[a-z]{0,}$","_zh.adq",mobanwenjian)
-
             mubiao_file=re.sub("gcs_master_library","gcs_chinese_library",mubiao_file)
-            skilljson=getdict(input_file)
+            chinesejson=getdict(input_file)
             mobanjson=getdict(mobanwenjian)
-            for i in skilljson:
+            for i in chinesejson:
                 for ii in mobanjson['rows']:
                     if (ii['id']==i):
-                        ii=mergeDict(ii,skilljson[i])
+                        ii=mergeDict(ii,chinesejson[i])
+        case 'adm':
+            input_file=re.sub(r".adm","_zh_Hans.json",input_file)
+            mubiao_file=re.sub(".[a-z]{0,}$","_zh.adm",mobanwenjian)
+            mubiao_file=re.sub("gcs_master_library","gcs_chinese_library",mubiao_file)
+            chinesejson=getdict(input_file)
+            mobanjson=getdict(mobanwenjian)
+            for i in chinesejson:
+                for ii in mobanjson['rows']:
+                    if (ii['id']==i):
+                        ii=mergeDict(ii,chinesejson[i])
     outjson(mobanjson,mubiao_file)
             
 
