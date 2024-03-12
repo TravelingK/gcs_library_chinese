@@ -31,7 +31,7 @@ class infoDict:
     sklList=['name','tags','notes','specialization','vtt_notes']
     advList=['name','tags','notes','vtt_notes']
     admList=['name','tags','notes','vtt_notes']
-    containDict={'modifier':'adm','trait':'adq'}
+    containDict={'modifier':'adm','trait':'adq','skill':'skl'}
 
 
     def __init__(self,info_dict,info_type,into_list_type='rows') -> None:
