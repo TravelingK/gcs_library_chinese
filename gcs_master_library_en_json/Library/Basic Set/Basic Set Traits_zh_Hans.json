@@ -36,13 +36,6 @@
             "心理",
             "Quirk"
         ],
-        "features": [
-            {
-                "name": {
-                    "qualifier": "@Skill@"
-                }
-            }
-        ],
         "notes": "May only know @Skill@ at default (i.e. no points spent)",
         "name": "Incompetence (@Skill@)"
     },
@@ -353,6 +346,22 @@
                 },
                 "name": {
                     "qualifier": "专家技能"
+                }
+            },
+            {
+                "name": {
+                    "qualifier": "Expert Skill"
+                },
+                "specialization": {
+                    "qualifier": "Epidemiology"
+                }
+            },
+            {
+                "name": {
+                    "qualifier": "Expert Skill"
+                },
+                "specialization": {
+                    "qualifier": "Epidemiology"
                 }
             }
         ],
@@ -1426,68 +1435,6 @@
         ]
     },
     "29b9aea5-2c57-4879-b7bd-4267233618aa": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "artist"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "jeweler"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "knot-tying"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "leatherworking"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "lockpicking"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "pickpocket"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sewing"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sleight of hand"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "surgery"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "machinist"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "mechanic"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "fast-draw"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "生理"
@@ -1501,96 +1448,9 @@
             "心理",
             "Talent"
         ],
-        "name": "Racial Skill Bonus - @Skill@ (@Specialization@)",
-        "features": [
-            {
-                "specialization": {
-                    "qualifier": "@Specialization@"
-                },
-                "name": {
-                    "qualifier": "@Skill@"
-                }
-            }
-        ]
+        "name": "Racial Skill Bonus - @Skill@ (@Specialization@)"
     },
     "1f853f40-c0cd-4382-a568-af9b4a6ab75f": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "做戏"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "宴饮"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "外交"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "唬骗"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "威吓"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "领导力"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "商人"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "乞讨"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "团体表演"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "政治"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "演讲"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "礼仪"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "性感"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "黑街"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "教学"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "心理"
@@ -1943,13 +1803,6 @@
             "劣势",
             "心理"
         ],
-        "features": [
-            {
-                "name": {
-                    "qualifier": "merchant"
-                }
-            }
-        ],
         "name": "Gullibility"
     },
     "dc714952-248f-4334-9531-77fbc8507663": {
@@ -1960,38 +1813,6 @@
         ]
     },
     "8ff5a8e5-986d-4e4c-9f62-0eeb317b790b": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "外交"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "fast-talk"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "表演"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "演讲"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sex appeal"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "唱歌"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "生理"
@@ -2015,13 +1836,6 @@
         "name": "Long Spines"
     },
     "dd658917-ec5e-49d7-a48e-154e98a1eac6": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "disguise"
-                }
-            }
-        ],
         "tags": [
             "优势",
             "异种",
@@ -2185,52 +1999,52 @@
             },
             {
                 "name": "出场频率",
-                "children": [
-                    {
-                        "name": "不常出现（6-）"
+                "children": {
+                    "90ea2d51-49e6-484c-9cb3-461df7b7bd54": {
+                        "name": "Appears quite rarely (6-)"
                     },
-                    {
-                        "name": "频繁出现（9-）"
+                    "be41be9a-9e87-47cf-bff3-755e3635a670": {
+                        "name": "Appears fairly often (9-)"
                     },
-                    {
-                        "name": "相当频繁出现（12-）"
+                    "558c0415-bdd8-4a47-bf06-09fd5e1d7e80": {
+                        "name": "Appears quite often (12-)"
                     },
-                    {
-                        "name": "几乎总是出场（15-）"
+                    "1f0b6315-dff4-473e-bdef-19346d578523": {
+                        "name": "Appears almost all the time (15-)"
                     },
-                    {
-                        "name": "总是出场"
+                    "d2c39c4d-c98d-4266-8b8c-dcd6383e3a0a": {
+                        "name": "Appears constantly"
                     }
-                ]
+                }
             },
             {
                 "name": "盟友团队",
-                "children": [
-                    {
-                        "name": "6-10 团队成员"
+                "children": {
+                    "9b920170-2506-4d12-b871-be1100043704": {
+                        "name": "Group of 6-10"
                     },
-                    {
-                        "name": "11-20 团队成员"
+                    "d0e44bc7-5889-46ec-879f-3d9ba9a4e54f": {
+                        "name": "Group of 11-20"
                     },
-                    {
-                        "name": "21-50 团队成员"
+                    "8fc8e24d-4b27-4e45-9b3a-5a6f64ada309": {
+                        "name": "Group of 21-50"
                     },
-                    {
-                        "name": "51-100 团队成员"
+                    "8584249f-64fa-4939-87eb-63382071fbf3": {
+                        "name": "Group of 10001-100000"
                     },
-                    {
-                        "name": "101-1000 团队成员"
+                    "7429f8b9-70f3-4fe7-8c48-a9d1b9c06e0a": {
+                        "name": "Group of 100001-1000000"
                     },
-                    {
-                        "name": "1001-10000 团队成员"
+                    "1dedde55-e356-448c-961a-53dc73e8e58b": {
+                        "name": "Group of 51-100"
                     },
-                    {
-                        "name": "10001-100000 团队成员"
+                    "a6fa2681-e601-4915-9e43-e357c1119e73": {
+                        "name": "Group of 101-1000"
                     },
-                    {
-                        "name": "100001-1000000 团队成员"
+                    "d176a29c-87f6-41b9-8d4e-10beb54d1822": {
+                        "name": "Group of 1001-10000"
                     }
-                ]
+                }
             },
             {
                 "name": "仆从"
@@ -2241,23 +2055,23 @@
             },
             {
                 "name": "点数总和",
-                "children": [
-                    {
-                        "name": "你初始点数的 25%"
+                "children": {
+                    "c1eb750d-bdd1-4483-a293-892526735fad": {
+                        "name": "25% of your starting points"
                     },
-                    {
-                        "name": "你初始点数的 50%"
+                    "0b93dc24-8f30-4c58-8595-a5f2bd05173d": {
+                        "name": "50% of your starting points"
                     },
-                    {
-                        "name": "你初始点数的 75%"
+                    "469b4a79-c6cf-4f87-be4d-c39428a08d9b": {
+                        "name": "75% of your starting points"
                     },
-                    {
-                        "name": "你初始点数的 100%"
+                    "1c5fa2a8-39df-4651-a06b-21635ead97ca": {
+                        "name": "100% of your starting points"
                     },
-                    {
-                        "name": "你初始点数的 150%"
+                    "b9452cfa-cda2-4ce0-8531-7a6b9c33ddb9": {
+                        "name": "150% of your starting points"
                     }
-                ]
+                }
             },
             {
                 "name": "特殊能力",
@@ -2265,44 +2079,44 @@
             },
             {
                 "name": "召唤物",
-                "children": [
-                    {
-                        "name": "召唤物"
+                "children": {
+                    "d00c3a09-82c4-4569-81df-955e8e62ef34": {
+                        "name": "Summonable"
                     },
-                    {
+                    "564697bc-4d59-487f-be52-9cd695d74145": {
                         "name": "Conjured"
                     },
-                    {
+                    "2b7c2195-de87-4b42-b5b1-7adc5c64dc24": {
                         "name": "Harder Summoning 1"
                     },
-                    {
+                    "356fa9ea-c5e9-40c5-b3f2-a7f7ab5d3f3a": {
                         "name": "Harder Summoning 2"
                     },
-                    {
+                    "c405a9b9-2959-4866-8974-43ef5373bbe9": {
                         "name": "Harder Summoning 3"
                     }
-                ]
+                }
             },
             {
                 "name": "感同身受",
-                "children": [
-                    {
-                        "name": "感同身受",
-                        "notes": "一方死亡时另一方也会自动死亡"
+                "children": {
+                    "f3001c31-1cbb-4f95-af86-c92a7755a044": {
+                        "name": "Sympathy",
+                        "notes": "Death of one party kills the other"
                     },
-                    {
-                        "name": "感同身受",
-                        "notes": "一方死亡时另一方也会自动死亡，但是损伤仅影响盟友不影响你"
+                    "30df2a61-903a-4f3f-b7ce-6319dcc61e6a": {
+                        "name": "Sympathy",
+                        "notes": "Death of one party kills the other and wounds affect ally but not you"
                     },
-                    {
-                        "name": "感同身受",
-                        "notes": "一方的死亡将直接把另一方的 HP 降为 0"
+                    "d3be4428-f357-41d5-8bce-142240934518": {
+                        "name": "Sympathy",
+                        "notes": "Death of one party reduces the other to 0 HP"
                     },
-                    {
-                        "name": "感同身受",
-                        "notes": "一方的死亡将直接把另一方的 HP 降为 0，但是损伤仅影响盟友不影响你"
+                    "036a0c85-d7af-4de9-af22-eea6cec5ed47": {
+                        "name": "Sympathy",
+                        "notes": "Death of one party reduces the other to 0 HP and wounds affect ally but not you"
                     }
-                ]
+                }
             },
             {
                 "name": "心有不甘"
@@ -2608,78 +2422,6 @@
         "name": "Lifting ST"
     },
     "fae61d3a-5da3-4b4e-b9eb-edeb36461a50": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "artist"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "jeweler"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "knot-tying"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "leatherworking"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "lockpicking"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "pickpocket"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sewing"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sleight of hand"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "surgery"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "acting"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "领导力"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "表演"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "pubic speaking"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sex appeal"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "生理"
@@ -2721,53 +2463,6 @@
         "name": "Psychometry"
     },
     "b08962b3-5c25-41f6-899e-209b374bd9e3": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "armoury"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "木艺"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "电气技师"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "电子维修"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "工程学"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "机工"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "石工"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "机修"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "金属加工"
-                }
-            }
-        ],
         "tags": [
             "优势",
             "心理",
@@ -2888,18 +2583,6 @@
             "劣势",
             "生理"
         ],
-        "features": [
-            {
-                "name": {
-                    "qualifier": "disguise"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "shadowing"
-                }
-            }
-        ],
         "name": "Skinny"
     },
     "b074474a-27f9-4d63-8f35-3be884ae5343": {
@@ -2939,6 +2622,22 @@
                         "specialization": {
                             "qualifier": "太空"
                         }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "navigation"
+                        },
+                        "specialization": {
+                            "qualifier": "space"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "navigation"
+                        },
+                        "specialization": {
+                            "qualifier": "space"
+                        }
                     }
                 ],
                 "name": "三维空间感"
@@ -2972,6 +2671,30 @@
                 },
                 "name": {
                     "qualifier": "导航"
+                }
+            },
+            {
+                "name": {
+                    "qualifier": "navigation"
+                },
+                "specialization": {
+                    "qualifier": "land"
+                }
+            },
+            {
+                "name": {
+                    "qualifier": "navigation"
+                },
+                "specialization": {
+                    "qualifier": "sea"
+                }
+            },
+            {
+                "name": {
+                    "qualifier": "navigation"
+                },
+                "specialization": {
+                    "qualifier": "sea"
                 }
             }
         ],
@@ -3145,78 +2868,6 @@
         "name": "Lame (Legless)"
     },
     "8eb51e7e-03dc-4d65-867c-01ad9db81869": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "artist"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "jeweler"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "knot-tying"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "leatherworking"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "lockpicking"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "pickpocket"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sewing"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sleight of hand"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "surgery"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "acting"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "领导力"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "表演"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "演讲"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sex appeal"
-                }
-            }
-        ],
         "name": "Neurological Disorder (Crippling)",
         "tags": [
             "劣势",
@@ -3412,88 +3063,6 @@
         ]
     },
     "5886809f-3edb-4916-b6c3-5fd4506bdcce": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "acting"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "carousing"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "criminology"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "detect lies"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "外交"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "enthrallment"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "fast-talk"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "interrogation"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "领导力"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "merchant"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "politics"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "心理学"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "savoir-faire"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sex appeal"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sociology"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "streetwise"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "心理"
@@ -3667,7 +3236,6 @@
             "Supernatural"
         ],
         "features": [
-            {},
             {
                 "name": {
                     "qualifier": "thaumatology"
@@ -3685,33 +3253,6 @@
         "name": "Very Wealthy"
     },
     "62c37972-950b-45a7-83de-01642c4934e3": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "艺术家"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "珠宝加工"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "皮革加工"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "摄影"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "缝纫"
-                }
-            }
-        ],
         "tags": [
             "优势",
             "心理",
@@ -4429,78 +3970,6 @@
         ]
     },
     "356d8503-9ca3-47d1-883a-453b5286408b": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "artist"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "jeweler"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "knot-tying"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "leatherworking"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "lockpicking"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "pickpocket"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sewing"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sleight of hand"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "surgery"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "acting"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "领导力"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "表演"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "pubic speaking"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sex appeal"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "生理"
@@ -5064,13 +4533,6 @@
         "name": "Disciplines of Faith (Ritualism)"
     },
     "356e0b8c-fb82-45cd-b544-a094354d3327": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "@Skill@"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "社会"
@@ -5078,48 +4540,6 @@
         "name": "Social Stigma (Ignorant; @Skill@)"
     },
     "82d0a957-dfa6-46f7-a3a8-f0f64c8a0600": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "外交"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "fast-talk"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "mimicry"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "表演"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "politics"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "演讲"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sex appeal"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "唱歌"
-                }
-            }
-        ],
         "name": "Voice",
         "tags": [
             "优势",
@@ -5252,83 +4672,6 @@
         "name": "Secret Identity (@Secret ID@)"
     },
     "30a7c514-7874-4213-b846-fabe416ba25a": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "做戏"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "宴饮"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "外交"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "唬骗"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "威吓"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "领导力"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "商人"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "乞讨"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "团体表演"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "政治"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "演讲"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "礼仪"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "性感"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "黑街"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "教学"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "心理"
@@ -5559,24 +4902,24 @@
         "modifiers": [
             {
                 "name": "属性降低",
-                "children": [
-                    {
-                        "name": "DX 减值",
-                        "notes": "每级使 DX -1"
+                "children": {
+                    "03aeb89a-95d1-48c5-8020-586fe797fdc6": {
+                        "notes": "Gives -1 to IQ per level",
+                        "name": "IQ Penalty"
                     },
-                    {
-                        "name": "HT 减值",
-                        "notes": "每级使 HT -1"
+                    "e4dea0ea-c86d-423b-8a0a-b3e1481171f3": {
+                        "name": "ST Penalty",
+                        "notes": "Gives -1 to ST per level"
                     },
-                    {
-                        "name": "IQ 减值",
-                        "notes": "每级使 IQ -1"
+                    "49956660-30ef-48b9-b1ce-e2abdaa101ae": {
+                        "name": "DX Penalty",
+                        "notes": "Gives -1 to DX per level"
                     },
-                    {
-                        "name": "ST 减值",
-                        "notes": "每级使 ST -1"
+                    "de814092-1353-48e0-8849-405ad20219ce": {
+                        "name": "HT Penalty",
+                        "notes": "Gives -1 to HT per level"
                     }
-                ]
+                }
             },
             {
                 "name": "Cancellation"
@@ -5586,108 +4929,108 @@
             },
             {
                 "name": "行动不能",
-                "children": [
-                    {
-                        "name": "痛苦",
-                        "notes": "每分钟损伤 1 FP"
+                "children": {
+                    "7be5192a-bb13-484d-a975-cc3a9a3c4583": {
+                        "name": "Daze"
                     },
-                    {
-                        "name": "闷窒"
+                    "f44536cd-a8ac-4371-8838-2c8eaf4f1d19": {
+                        "name": "Ecstasy"
                     },
-                    {
-                        "name": "眩晕"
+                    "19b80ea4-3ac2-4824-bc8d-4171dc30ea48": {
+                        "name": "Agony",
+                        "notes": "Lose 1 FP per minute"
                     },
-                    {
-                        "name": "入迷"
+                    "0c56500c-f51f-42d5-aef9-48c8159bd14a": {
+                        "name": "Choking"
                     },
-                    {
-                        "name": "幻觉"
+                    "1c4994ac-ad21-423d-9349-27345244508e": {
+                        "name": "Hallucination"
                     },
-                    {
-                        "name": "麻痹"
+                    "76e23c90-0e9d-4875-804c-1020cf74cf2b": {
+                        "name": "Paralysis"
                     },
-                    {
-                        "name": "反胃"
+                    "66de56e6-a515-4308-b619-ff9b3e715d9c": {
+                        "name": "Retching"
                     },
-                    {
-                        "name": "癫痫",
-                        "notes": "癫痫会使你失去 1d FP"
+                    "3b310279-5f60-4839-af06-17d2c595f098": {
+                        "name": "Seizure",
+                        "notes": "Lose 1d FP at the end of the seizure"
                     },
-                    {
-                        "name": "沉睡"
+                    "400f0258-0e95-4bf4-9b95-68f0fc7bdfca": {
+                        "name": "Sleep"
                     },
-                    {
-                        "name": "失去意识"
+                    "46158c59-7a07-40b8-ae7f-81b3792689e2": {
+                        "name": "Unconsciousness"
                     }
-                ]
+                }
             },
             {
                 "name": "极度不适",
-                "children": [
-                    {
-                        "name": "咳嗽",
-                        "notes": "DX -3，IQ -1，同时无法使用潜行"
+                "children": {
+                    "e31fafa7-bfcf-4167-836b-421e0df3f905": {
+                        "name": "Euphoria",
+                        "notes": "Gives -3 to all DX, IQ, skill and self-control rolls"
                     },
-                    {
-                        "name": "醉酒",
-                        "notes": "DX、IQ -2，自控检定 -4，能够抵抗胆怯的人除外"
+                    "837ad5b8-520c-4af1-be78-860b7d1e0fbd": {
+                        "name": "Coughing",
+                        "notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth"
                     },
-                    {
-                        "name": "狂喜",
-                        "notes": "所有 DX、IQ、技能、与自控检定都有 -3 的减值"
+                    "3981b459-1f22-4195-a5c7-4691ded548ba": {
+                        "name": "Drunk",
+                        "notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice"
                     },
-                    {
-                        "name": "轻度疼痛",
-                        "notes": "所有 DX、IQ、技能与自控检定有 -2 减值"
+                    "f677e6ef-8a76-44ce-acf9-eb76d134d185": {
+                        "name": "Moderate Pain",
+                        "notes": "-2 to all DX, IQ, skill and self-control rolls"
                     },
-                    {
-                        "name": "恶心",
-                        "notes": "所有属性与技能检定 -2，主动防御 -1"
+                    "2110fad4-3e27-4ef7-bfa0-a61c4da83827": {
+                        "name": "Nauseated",
+                        "notes": "-2 to all attribute and skill rolls; -1 to active defenses"
                     },
-                    {
-                        "name": "重度疼痛",
-                        "notes": "所有 DX、IQ、技能与自控检定有 -4 减值"
+                    "5cbc540d-faf3-46d3-9b6f-72da32ed69b7": {
+                        "name": "Severe Pain",
+                        "notes": "-4 to all DX, IQ, skill and self-control rolls"
                     },
-                    {
-                        "name": "极度疼痛",
-                        "notes": "所有 DX、IQ、技能与自控检定有 -6 减值"
+                    "92cb7753-a6d9-4ca6-a600-35c9714be11b": {
+                        "name": "Terrible Pain",
+                        "notes": "-6 to all DX, IQ, skill and self-control rolls"
                     },
-                    {
-                        "name": "微醉",
-                        "notes": "DX、IQ -1，自控检定 -2，能够抵抗胆怯的人除外"
+                    "a372b04a-e3aa-418b-a7a3-d49bf26403e6": {
+                        "name": "Tipsy",
+                        "notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice"
                     }
-                ]
+                }
             },
             {
                 "name": "致命状态",
-                "children": [
-                    {
-                        "name": "昏迷不醒"
+                "children": {
+                    "e37fa2a4-d3d0-4085-88d9-14c4ac39b900": {
+                        "name": "Coma"
                     },
-                    {
-                        "name": "心力衰竭"
+                    "1019fc06-aae9-440f-b9a6-4650d974c910": {
+                        "name": "Heart Attack"
                     }
-                ]
+                }
             },
             {
                 "name": "震慑"
             },
             {
                 "name": "特点",
-                "children": [
-                    {
-                        "name": "获得 @优势@",
-                        "notes": "每级 1 点"
+                "children": {
+                    "fb2bbe63-7b0c-47e0-a533-52ebdb265640": {
+                        "name": "Gives @Advantage@",
+                        "notes": "1 point per level"
                     },
-                    {
-                        "name": "获得 @劣势@",
-                        "notes": "每级 1 点"
+                    "15c2556d-f943-4ec6-9968-d223f21ea263": {
+                        "name": "Gives @Disadvantage@",
+                        "notes": "1 point per level"
                     },
-                    {
-                        "name": "无效化 @优势@",
-                        "notes": "每级 1 点"
+                    "2a50ade7-439c-40a7-82c7-f602408d5647": {
+                        "name": "Negates @Advantage@",
+                        "notes": "1 point per level"
                     }
-                ]
+                }
             }
         ],
         "name": "特效攻击"
@@ -5826,38 +5169,6 @@
         ]
     },
     "8128ae9b-c10c-4fcc-9dae-4feb559351c8": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "外交"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "fast-talk"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "威吓"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "savoir-faire"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sex appeal"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "streetwise"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "心理"
@@ -5970,35 +5281,6 @@
         "tags": [
             "优势",
             "生理"
-        ],
-        "features": [
-            {},
-            {},
-            {
-                "name": {
-                    "qualifier": "飞行驾驶"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "杂技"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "空中杂技"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "aquabatics"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "climbing"
-                }
-            }
         ],
         "name": "完美平衡"
     },
@@ -6524,36 +5806,6 @@
         ]
     },
     "117ab337-efb2-4c7a-9652-7ab0baeea7f1": {
-        "features": [
-            {
-                "specialization": {
-                    "qualifier": "指挥"
-                },
-                "name": {
-                    "qualifier": "团队表演"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "谱曲"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "音乐影响"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "乐器"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "唱歌"
-                }
-            }
-        ],
         "tags": [
             "优势",
             "心理",
@@ -6614,28 +5866,6 @@
         "name": "Slow Eater"
     },
     "c6a1431d-eab3-4392-bf3b-ca4551295135": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "carousing"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "connoisseur"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "erotic art"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "gambling"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "生理"
@@ -8036,23 +7266,6 @@
         ]
     },
     "1ed095f2-3ef4-4d7e-b00c-b235bcff6d8a": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "disguise"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "shadowing"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "游泳"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "生理"
@@ -8109,18 +7322,6 @@
         "tags": [
             "劣势",
             "心理"
-        ],
-        "features": [
-            {
-                "name": {
-                    "qualifier": "心理学"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "teaching"
-                }
-            }
         ],
         "name": "Callous"
     },
@@ -8230,29 +7431,7 @@
             "优势",
             "心理"
         ],
-        "name": "魅力",
-        "features": [
-            {
-                "name": {
-                    "qualifier": "fortune-telling"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "领导力"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "panhandling"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "演讲"
-                }
-            }
-        ]
+        "name": "魅力"
     },
     "3aa5e91d-509f-4f5e-8d98-2f4c6c87bc53": {
         "modifiers": [
@@ -8358,23 +7537,6 @@
         "tags": [
             "优势",
             "生理"
-        ],
-        "features": [
-            {
-                "name": {
-                    "qualifier": "climbing"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "escape"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "erotic art"
-                }
-            }
         ],
         "name": "Flexibility (Double-Jointed)"
     },
@@ -8483,45 +7645,45 @@
         "modifiers": [
             {
                 "name": "合法性调整因子",
-                "children": [
-                    {
-                        "name": "非法"
+                "children": {
+                    "7b7bbaee-545a-4860-bbf7-c5b1b4675ca1": {
+                        "name": "Illegal"
                     },
-                    {
-                        "name": "合法"
+                    "4d21d742-337e-4ad6-b89e-4ee43576518c": {
+                        "name": "Legal"
                     }
-                ]
+                }
             },
             {
                 "name": "花费调整因子",
-                "children": [
-                    {
-                        "name": "便宜"
+                "children": {
+                    "8d31553a-eba7-4b1e-bb5d-95754c733ba6": {
+                        "name": "Expensive"
                     },
-                    {
-                        "name": "昂贵"
+                    "b9d4f346-f139-475e-953f-f53d605bd61c": {
+                        "name": "Very Expensive"
                     },
-                    {
-                        "name": "非常昂贵"
+                    "8c2a3142-a939-4004-ad5d-499ae6fa3566": {
+                        "name": "Cheap"
                     }
-                ]
+                }
             },
             {
                 "name": "效果调整因子",
-                "children": [
-                    {
-                        "name": "高成瘾性（你的戒断骰 -5）"
+                "children": {
+                    "0ef02da7-a1ec-4f5d-814a-c2770b79ead0": {
+                        "name": "Highly Addictive (-5 on withdrawal roll)"
                     },
-                    {
-                        "name": "必然成瘾（你的戒断骰 -10）"
+                    "bcf905ae-5148-48e8-8842-1b5b342a276d": {
+                        "name": "Totally Addictive (-10 on withdrawal roll)"
                     },
-                    {
-                        "name": "致幻"
+                    "9d544143-e3b7-4eaa-8cdb-d6c856158971": {
+                        "name": "Hallucinogenic"
                     },
-                    {
-                        "name": "失能"
+                    "90ed43c8-dad6-4c78-bf22-cf13846b6489": {
+                        "name": "Incapacitating"
                     }
-                ]
+                }
             }
         ]
     },
@@ -8673,83 +7835,6 @@
         "notes": "Starting wealth is 5x normal"
     },
     "14e3a2e7-da09-47d4-a2cc-d44f8e436f54": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "做戏"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "宴饮"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "外交"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "唬骗"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "威吓"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "领导力"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "商人"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "乞讨"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "团体表演"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "政治"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "演讲"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "礼仪"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "性感"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "黑街"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "教学"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "心理"
@@ -8839,38 +7924,6 @@
         ]
     },
     "f549766f-e0cd-4867-b1e3-662c8dbc0d3b": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "artist"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "化学"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "driving"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "merchant"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "飞行驾驶"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "tracking"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "生理"
@@ -8917,13 +7970,6 @@
     },
     "04171edc-4d0e-4ce3-b06f-1815e60b7488": {
         "notes": "Never freeze",
-        "features": [
-            {
-                "name": {
-                    "qualifier": "fast-draw"
-                }
-            }
-        ],
         "tags": [
             "优势",
             "心理"
@@ -9003,13 +8049,6 @@
         "name": "Dislikes @Item@"
     },
     "0d1735a1-4157-43dc-90b4-de6ef99b8083": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "跳跃"
-                }
-            }
-        ],
         "name": "Bowlegged",
         "tags": [
             "生理",
@@ -9062,13 +8101,6 @@
             "生理"
         ],
         "notes": "Cannot target hit locations",
-        "features": [
-            {
-                "tags": {
-                    "qualifier": "combat"
-                }
-            }
-        ],
         "name": "Blindness"
     },
     "ff5098ba-255e-4b1c-802d-493c80f56200": {
@@ -9217,38 +8249,6 @@
         "name": "Compulsive Spending"
     },
     "8d41e51d-dd22-4d5c-ae37-56e3cd7d46ce": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "外交"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "fast-talk"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "表演"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "演讲"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sex appeal"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "唱歌"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "生理"
@@ -9269,23 +8269,6 @@
         "tags": [
             "劣势",
             "生理"
-        ],
-        "features": [
-            {
-                "name": {
-                    "qualifier": "disguise"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "shadowing"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "游泳"
-                }
-            }
         ]
     },
     "49173051-0793-4376-bb58-8d70e020a302": {
@@ -9331,13 +8314,6 @@
         "tags": [
             "劣势",
             "社会"
-        ],
-        "features": [
-            {
-                "name": {
-                    "qualifier": "威吓"
-                }
-            }
         ]
     },
     "23eee513-2699-48d0-a7a8-49b14df00169": {
@@ -9365,23 +8341,6 @@
         "tags": [
             "生理",
             "Quirk"
-        ],
-        "features": [
-            {
-                "name": {
-                    "qualifier": "disguise"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "shadowing"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "游泳"
-                }
-            }
         ],
         "name": "Overweight"
     },
@@ -9562,48 +8521,6 @@
         "notes": "An officer should be tough but fair, lead from the front, and look out for his men; an enlisted man should look out for his buddies and take care of his kit. Every soldier should be willing to fight and die for the honor of his unit, service, and country; follow orders; obey the “rules of war”; treat an honorable enemy with respect (a dishonorable enemy deserves a bullet); and wear the uniform with pride."
     },
     "6e4e2676-6071-4cb0-93b6-2ce842e8f40c": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "会计学"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "管理"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "经济学"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "金融"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "赌博"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "市场分析"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "商人"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "宣传"
-                }
-            }
-        ],
         "name": "Talent (Business Acumen)",
         "tags": [
             "优势",
@@ -9835,23 +8752,6 @@
             "优势",
             "生理"
         ],
-        "features": [
-            {
-                "name": {
-                    "qualifier": "climbing"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "escape"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "erotic art"
-                }
-            }
-        ],
         "name": "Flexibility"
     },
     "e0c703d9-60ab-4eaa-a2f1-9ac704462cb8": {
@@ -9876,63 +8776,6 @@
         "name": "No Legs (Wheeled)"
     },
     "22228b89-7c80-4441-9ff3-ac569bfaf1b1": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "artist"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "jeweler"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "knot-tying"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "leatherworking"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "lockpicking"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "pickpocket"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sewing"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "sleight of hand"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "surgery"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "machinist"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "mechanic"
-                }
-            }
-        ],
         "tags": [
             "优势",
             "生理"
@@ -10219,22 +9062,6 @@
         "name": "Microscopic Vision"
     },
     "e5dfa930-cd7f-4473-a5c2-6c010fd316bf": {
-        "features": [
-            {},
-            {
-                "name": {
-                    "qualifier": "disguise"
-                },
-                "specialization": {
-                    "qualifier": "animals"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "shadowing"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "生理"
@@ -10274,13 +9101,6 @@
             "劣势",
             "生理"
         ],
-        "features": [
-            {
-                "name": {
-                    "qualifier": "潜行"
-                }
-            }
-        ],
         "name": "Noisy"
     },
     "9bbb06dc-5928-4edf-b987-4ec0f7c2f500": {
@@ -10293,13 +9113,6 @@
     },
     "bd56b1ff-55d0-4f27-8ed4-a7101a23a827": {
         "name": "Clueless",
-        "features": [
-            {
-                "name": {
-                    "qualifier": "savoir-faire"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "心理"
@@ -10678,18 +9491,6 @@
         "name": "Increased Life Support (Pressurized)"
     },
     "f04cfe61-c5c9-49d0-bc56-2e51f46b3d5e": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "disguise"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "shadowing"
-                }
-            }
-        ],
         "tags": [
             "劣势",
             "生理"
@@ -10704,13 +9505,6 @@
         "name": "Technophobia/TL5+ (Machinery)"
     },
     "263aed25-4fe6-4eb9-8112-b8b49c30d21f": {
-        "features": [
-            {
-                "name": {
-                    "qualifier": "climbing"
-                }
-            }
-        ],
         "tags": [
             "优势",
             "异种",
@@ -11503,13 +10297,6 @@
     },
     "3ab3121b-372e-44da-bde6-14588183a155": {
         "name": "Enhanced Time Sense",
-        "features": [
-            {
-                "name": {
-                    "qualifier": "fast-draw"
-                }
-            }
-        ],
         "notes": "You immediately act in combat before those without Enhanced Time Sense; Never freeze",
         "tags": [
             "优势",
@@ -11590,19 +10377,6 @@
             "劣势",
             "生理"
         ],
-        "features": [
-            {},
-            {
-                "name": {
-                    "qualifier": "disguise"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "shadowing"
-                }
-            }
-        ],
         "name": "Dwarfism"
     },
     "636f6575-dfa3-4c4f-b12e-0411c5f43c30": {
@@ -11632,19 +10406,7 @@
             "生理",
             "Quirk"
         ],
-        "name": "Distinctive Features",
-        "features": [
-            {
-                "name": {
-                    "qualifier": "disguise"
-                }
-            },
-            {
-                "name": {
-                    "qualifier": "shadowing"
-                }
-            }
-        ]
+        "name": "Distinctive Features"
     },
     "43958930-d022-45ae-a8e3-ae164a2ad129": {
         "modifiers": [
@@ -11757,13 +10519,6 @@
             "异种",
             "心理",
             "Talent"
-        ],
-        "features": [
-            {
-                "name": {
-                    "qualifier": "@Skill without a specialization@"
-                }
-            }
         ],
         "name": "Racial Skill Bonus - @Skill without a specialization@"
     },
@@ -12249,13 +11004,6 @@
             "心理"
         ],
         "name": "Truthfulness",
-        "features": [
-            {
-                "name": {
-                    "qualifier": "fast-talk"
-                }
-            }
-        ],
         "notes": "Make a self-control roll whenever you must keep silent about an uncomfortable truth (lying by omission). Roll at -5 if you actually have to tell a falsehood! If you fail, you blurt out the truth, or stumble so much that your lie is obvious."
     },
     "0b3da3e5-9ef2-4982-b324-ce4289c3dd08": {
