@@ -25,7 +25,8 @@
         ],
         "default": {
             "name": "杂技"
-        }
+        },
+        "name": "Acrobatic Stand"
     },
     "2e6ff3b5-0e46-4dda-87fb-194e9823525b": {
         "name": "杂技",
@@ -358,6 +359,15 @@
         ],
         "default": {
             "name": "杂技"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Acrobatic Kicks"
+                    }
+                }
+            ]
         }
     },
     "2f2454f4-7d82-4da8-b898-506f7f4bb7ec": {
@@ -379,7 +389,8 @@
         ],
         "default": {
             "name": "杂技"
-        }
+        },
+        "name": "Balancing"
     },
     "019329e7-50fb-4fdb-9fad-fe86d52a3e57": {
         "name": "自行车",
@@ -692,7 +703,8 @@
             "娱乐",
             "知识",
             "社会"
-        ]
+        ],
+        "specialization": "@Field@"
     },
     "19b10adb-ae51-470b-b41e-b683514043f2": {
         "name": "鉴赏家",
@@ -701,7 +713,8 @@
             "娱乐",
             "知识",
             "社会"
-        ]
+        ],
+        "specialization": "Cars"
     },
     "af887161-1ec8-431d-a17c-513ff66cdb87": {
         "name": "鉴赏家",
@@ -849,7 +862,8 @@
             {
                 "name": "时事"
             }
-        ]
+        ],
+        "specialization": "@Field@"
     },
     "2e0ee12a-e865-4004-8109-e3ad7beccc8c": {
         "name": "时事",
@@ -1023,7 +1037,8 @@
         "tags": [
             "常识",
             "知识",
-            "社会"
+            "社会",
+            "Supers"
         ],
         "defaults": [
             {},
@@ -1033,7 +1048,8 @@
             {
                 "name": "时事"
             }
-        ]
+        ],
+        "specialization": "Supers"
     },
     "08034f3b-6c56-4d35-b423-5b74d3bef1b4": {
         "name": "时事",
@@ -1111,12 +1127,28 @@
     },
     "2c89a1f3-058e-4844-bb64-51b63f53795a": {
         "tags": [
-            null,
+            "Cinematic",
             "间谍"
         ],
         "prereqs": {
             "prereqs": [
-                {},
+                {
+                    "prereqs": [
+                        {
+                            "notes": {
+                                "qualifier": "Ninja Weapons"
+                            },
+                            "name": {
+                                "qualifier": "Weapon Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        }
+                    ]
+                },
                 {
                     "name": {
                         "qualifier": "隐匿"
@@ -1126,7 +1158,8 @@
         },
         "default": {
             "name": "隐匿"
-        }
+        },
+        "name": "Disappear"
     },
     "9c87d513-0661-41fc-ad10-a6688740973d": {
         "name": "缴械",
@@ -1156,12 +1189,13 @@
     },
     "c4425f05-6bd6-4643-a0cc-a2f7098c7b8e": {
         "tags": [
-            null,
+            "Cinematic",
             "技术"
         ],
         "default": {
             "name": "杂技"
-        }
+        },
+        "name": "Dive 'n Roll"
     },
     "e643f94c-2e4b-4b23-9c37-eff91f8ddbbd": {
         "name": "潜水服",
@@ -1336,7 +1370,10 @@
             "战斗",
             "近战",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "@One-Handed Combat Skill@"
+        }
     },
     "fb866683-4789-4ec3-898a-c78369690bef": {
         "tags": [
@@ -1347,7 +1384,8 @@
         ],
         "default": {
             "name": "斗殴"
-        }
+        },
+        "name": "Elbow Drop"
     },
     "ffe8ce0c-c720-4422-a2ed-047267e5cf15": {
         "tags": [
@@ -1358,7 +1396,8 @@
         ],
         "default": {
             "name": "摔跤"
-        }
+        },
+        "name": "Elbow Drop"
     },
     "51cc25f3-6f95-4517-8ea9-a864921e6356": {
         "name": "肘击",
@@ -2572,7 +2611,8 @@
         ],
         "default": {
             "name": "杂技"
-        }
+        },
+        "name": "Evade"
     },
     "5c3c80ff-4461-42a9-a6ea-75aa7b2d2014": {
         "tags": [
@@ -2583,10 +2623,122 @@
         ],
         "default": {
             "name": "抓擒技击"
-        }
+        },
+        "name": "Evade"
     },
     "1dbe8660-64a2-4984-8825-f52c9be0cdba": {
-        "name": "专家技能"
+        "name": "专家技能",
+        "children": {
+            "709827e7-968a-4156-aa00-bc401fa32069": {
+                "specialization": "Psionics",
+                "name": "Expert Skill",
+                "tags": [
+                    "Knowledge"
+                ]
+            },
+            "4127f378-a1ce-4577-a7e6-db645ecbef1f": {
+                "name": "Expert Skill",
+                "tags": [
+                    "Humanities",
+                    "Knowledge",
+                    "Scholarly",
+                    "Social Sciences"
+                ],
+                "specialization": "Thanatology"
+            },
+            "82714686-7169-4b30-9148-447ef5c9be7b": {
+                "name": "Expert Skill",
+                "tags": [
+                    "Humanities",
+                    "Knowledge",
+                    "Scholarly",
+                    "Social Sciences"
+                ],
+                "specialization": "Xenology"
+            },
+            "f2c034d3-c60e-4a44-85db-7bcd4372da88": {
+                "tags": [
+                    "Knowledge",
+                    "Scholarly"
+                ],
+                "name": "Expert Skill",
+                "specialization": "Bardic Lore"
+            },
+            "e9939c7b-c01e-42c7-9ebf-cdcd383edb54": {
+                "name": "Expert Skill",
+                "tags": [
+                    "Knowledge",
+                    "Scholarly",
+                    "Spy"
+                ],
+                "specialization": "Computer Security"
+            },
+            "0efcd3af-e957-4f0a-932a-ac42454a863a": {
+                "name": "Expert Skill",
+                "tags": [
+                    "Knowledge",
+                    "Scholarly"
+                ],
+                "specialization": "Conspiracy Theory"
+            },
+            "5c3eda3b-772f-47bb-9b33-895d25b904dc": {
+                "name": "Expert Skill",
+                "tags": [
+                    "Humanities",
+                    "Knowledge",
+                    "Scholarly",
+                    "Social Sciences"
+                ],
+                "specialization": "Egyptology"
+            },
+            "72a31c59-e79f-40a2-bd45-35bd84efe990": {
+                "name": "Expert Skill",
+                "tags": [
+                    "Knowledge",
+                    "Medical",
+                    "Natural Science",
+                    "Scholarly"
+                ],
+                "specialization": "Epidemiology"
+            },
+            "108739f0-bc20-4123-8b20-ffa1ccf76e84": {
+                "name": "Expert Skill",
+                "tags": [
+                    "Knowledge",
+                    "Natural Science",
+                    "Scholarly"
+                ],
+                "specialization": "Hydrology"
+            },
+            "a1fde019-77ea-4a2d-8be5-1969e21296dc": {
+                "name": "Expert Skill",
+                "tags": [
+                    "Knowledge",
+                    "Military",
+                    "Scholarly"
+                ],
+                "specialization": "Military Science"
+            },
+            "5eb36756-07bf-4598-8371-2f708444f9a3": {
+                "name": "Expert Skill",
+                "tags": [
+                    "Knowledge",
+                    "Natural Science",
+                    "Scholarly"
+                ],
+                "specialization": "Natural Philosophy"
+            },
+            "91b44f5c-1249-4a91-b7d3-c533cdab5c4b": {
+                "name": "Expert Skill",
+                "tags": [
+                    "Humanities",
+                    "Knowledge",
+                    "Scholarly",
+                    "Social Sciences"
+                ],
+                "specialization": "Political Science"
+            }
+        }
     },
     "7e7cfc51-0a61-4f09-9913-d64569a4050e": {
         "name": "炸药",
@@ -2698,7 +2850,99 @@
         ]
     },
     "3b5bb7e8-a33f-4c74-a1c7-75194add0b8c": {
-        "name": "即时备战"
+        "name": "即时备战",
+        "children": {
+            "380cc9f9-7d06-4128-9a01-a15170743011": {
+                "name": "Fast-Draw",
+                "tags": [
+                    "战斗",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Arrow"
+            },
+            "84d60f9a-b8b0-4d1d-9c51-38eba6b1026f": {
+                "name": "Fast-Draw",
+                "tags": [
+                    "战斗",
+                    "Melee Combat",
+                    "Weapon"
+                ],
+                "specialization": "Force Sword"
+            },
+            "065b6e41-936b-4009-be2a-d27eed1110e1": {
+                "name": "Fast-Draw",
+                "tags": [
+                    "战斗",
+                    "Melee Combat",
+                    "Weapon"
+                ],
+                "specialization": "Knife"
+            },
+            "f0bffd40-2735-4b94-bc84-ae352fdea1c4": {
+                "name": "Fast-Draw",
+                "tags": [
+                    "战斗",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Long Arm"
+            },
+            "88d6cfe8-5462-46ba-a0b9-aa8a0b163538": {
+                "tags": [
+                    "战斗",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Pistol",
+                "name": "Fast-Draw"
+            },
+            "07525f8b-5cbf-4961-9ca5-c67789c83601": {
+                "name": "Fast-Draw",
+                "tags": [
+                    "战斗",
+                    "Melee Combat",
+                    "Weapon"
+                ],
+                "specialization": "Sword"
+            },
+            "3fdb5097-b21e-4658-b304-597858f5e0d5": {
+                "name": "Fast-Draw",
+                "tags": [
+                    "战斗",
+                    "Melee Combat",
+                    "Weapon"
+                ],
+                "specialization": "Two-Handed Sword"
+            },
+            "dd0edfce-194b-4bbc-afc6-f74125b8515f": {
+                "name": "Fast-Draw",
+                "tags": [
+                    "战斗",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Ammo"
+            },
+            "d7eaaa59-c6d1-4084-8ade-ace6ded2a063": {
+                "name": "Fast-Draw",
+                "tags": [
+                    "战斗",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Gizmo"
+            },
+            "8451a8ce-15e9-4398-9946-fd8316a48e10": {
+                "name": "Fast-Draw",
+                "tags": [
+                    "战斗",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Medical Gear"
+            }
+        }
     },
     "5712d778-d200-4829-a4cb-96f12f87730e": {
         "name": "唬骗",
@@ -2737,6 +2981,15 @@
         ],
         "default": {
             "name": "杂技"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Acrobatic Feints"
+                    }
+                }
+            ]
         }
     },
     "8c638d8b-ea9c-4f5c-965a-5f9488456726": {
@@ -2788,12 +3041,23 @@
                     "name": {
                         "qualifier": "杂技"
                     }
+                },
+                {
+                    "name": {
+                        "qualifier": "Acrobatic Kicks"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Trained by a Master"
+                    }
                 }
             ]
         },
         "default": {
             "name": "杂技"
-        }
+        },
+        "name": "Flying Jump Kick"
     },
     "25290055-10aa-412a-8298-f1512231c0e4": {
         "tags": [
@@ -2811,9 +3075,15 @@
                     "name": {
                         "qualifier": "空手技击"
                     }
+                },
+                {
+                    "name": {
+                        "qualifier": "Trained by a Master"
+                    }
                 }
             ]
-        }
+        },
+        "name": "Flying Jump Kick"
     },
     "2c16df7f-1f04-4dc3-9f47-f9e5a900b171": {
         "name": "破门",
@@ -2905,7 +3175,10 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "default": {
+            "name": "@Melee Combat Skill@"
+        }
     },
     "07e9984c-b7a9-47c2-971a-7cf33154fa1a": {
         "name": "炮手",
@@ -3427,6 +3700,15 @@
         ],
         "default": {
             "name": "杂技"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Acrobatic Kicks"
+                    }
+                }
+            ]
         }
     },
     "84997f28-e60b-41e0-9ab1-09f7adc52f04": {
@@ -3465,6 +3747,15 @@
         ],
         "default": {
             "name": "杂技"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Acrobatic Kicks"
+                    }
+                }
+            ]
         }
     },
     "b4f6be38-f78f-4049-b4d3-2e1262ca561b": {
@@ -3575,7 +3866,8 @@
         ],
         "default": {
             "name": "抓擒技击"
-        }
+        },
+        "name": "Leg Lock"
     },
     "443e32c8-e683-49c9-b5b4-c4ccf0d53a2b": {
         "tags": [
@@ -3586,7 +3878,8 @@
         ],
         "default": {
             "name": "摔跤"
-        }
+        },
+        "name": "Leg Lock"
     },
     "a6a6de6d-015b-4c1b-a5d9-9ac64a8bb68a": {
         "tags": [
@@ -3597,6 +3890,16 @@
         ],
         "default": {
             "name": "空手技击"
+        },
+        "name": "Lethal Kick",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Trained by a Master"
+                    }
+                }
+            ]
         }
     },
     "c3649e93-e301-485e-a3f1-b3f29ea664c7": {
@@ -3608,6 +3911,16 @@
         ],
         "default": {
             "name": "空手技击"
+        },
+        "name": "Lethal Strike",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Trained by a Master"
+                    }
+                }
+            ]
         }
     },
     "222a5e0e-560a-4f11-84a9-680d47460a3b": {
@@ -4984,7 +5297,11 @@
         ],
         "prereqs": {
             "prereqs": [
-                {},
+                {
+                    "name": {
+                        "qualifier": "Trained by a Master"
+                    }
+                },
                 {
                     "name": {
                         "qualifier": "摔跤"
@@ -4994,7 +5311,8 @@
         },
         "default": {
             "name": "摔跤"
-        }
+        },
+        "name": "Piledriver"
     },
     "f2e90c57-96d9-4780-b52b-00e13ae443b1": {
         "name": "飞行驾驶",
@@ -5179,7 +5497,8 @@
                 "name": "飞行驾驶",
                 "specialization": "低性能航天器"
             }
-        ]
+        ],
+        "specialization": "High-Performance Spaecraft"
     },
     "4b063433-e22f-4c12-a16d-4e2bb1e71d91": {
         "name": "飞行驾驶",
@@ -5374,30 +5693,33 @@
     },
     "9d21e55d-3b3d-451a-adad-74c3ad8b083c": {
         "tags": [
-            null,
+            "Cinematic",
             "技术"
         ],
         "default": {
             "name": "拳击"
-        }
+        },
+        "name": "Proxy Fighting"
     },
     "bb6e2af2-64ef-464f-9e4b-75a0ce792af4": {
         "tags": [
-            null,
+            "Cinematic",
             "技术"
         ],
         "default": {
             "name": "斗殴"
-        }
+        },
+        "name": "Proxy Fighting"
     },
     "75f5e30a-4f25-420c-b0c7-6fe16f584e36": {
         "tags": [
-            null,
+            "Cinematic",
             "技术"
         ],
         "default": {
             "name": "空手技击"
-        }
+        },
+        "name": "Proxy Fighting"
     },
     "33c7912d-6532-4e28-8bfe-4003a8fda5c4": {
         "name": "心理学",
@@ -5438,7 +5760,8 @@
         ],
         "default": {
             "name": "攀爬"
-        }
+        },
+        "name": "Rappelling"
     },
     "850231e7-ba9b-4e5d-9cf8-34ae3c2ac7f7": {
         "name": "研究",
@@ -5454,7 +5777,11 @@
         ],
         "prereqs": {
             "prereqs": [
-                {},
+                {
+                    "name": {
+                        "qualifier": "computer operation"
+                    }
+                },
                 {
                     "name": {
                         "qualifier": "语言"
@@ -5466,6 +5793,9 @@
                 {
                     "name": {
                         "qualifier": "语言"
+                    },
+                    "notes": {
+                        "qualifier": "Written (Native)"
                     }
                 },
                 {
@@ -5570,6 +5900,21 @@
         ],
         "default": {
             "name": "@徒手战斗技能@"
+        },
+        "name": "Roll with Blow",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Weapon Master"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Trained by a Master"
+                    }
+                }
+            ]
         }
     },
     "e6626a7d-e094-4126-8fbc-31f11d97d4ab": {
@@ -5581,7 +5926,22 @@
         ],
         "default": {
             "name": "杂技"
-        }
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Weapon Master"
+                    }
+                },
+                {
+                    "name": {
+                        "qualifier": "Trained by a Master"
+                    }
+                }
+            ]
+        },
+        "name": "Roll with Blow"
     },
     "1e40cc18-c3e2-4bf5-bd29-65d70c3f6a13": {
         "name": "爬绳",
@@ -5605,21 +5965,23 @@
     },
     "1064c69e-814d-4ccc-84f9-5ef1ede1e908": {
         "tags": [
-            null,
+            "Cinematic",
             "技术"
         ],
         "default": {
             "name": "杂技"
-        }
+        },
+        "name": "Running Climb"
     },
     "7f2ee396-1b09-4ad5-995b-0543a53171ea": {
         "tags": [
-            null,
+            "Cinematic",
             "技术"
         ],
         "default": {
             "name": "跳跃"
-        }
+        },
+        "name": "Running Climb"
     },
     "941c2ff5-da70-4199-8bbe-9de1b4120a98": {
         "name": "礼仪",
@@ -6038,9 +6400,10 @@
     },
     "591abc2e-70c2-4ca5-8cb6-1b7095d16444": {
         "tags": [
-            null,
+            "Cinematic",
             "技术"
-        ]
+        ],
+        "name": "Skidding"
     },
     "78c040d0-f0b2-4475-8c4b-beb30a786b5c": {
         "name": "滑雪",
@@ -6066,12 +6429,13 @@
     },
     "cd31245a-3c26-43a2-bfc6-bebf4f9118eb": {
         "tags": [
-            null,
+            "Cinematic",
             "技术"
         ],
         "default": {
             "name": "杂技"
-        }
+        },
+        "name": "Sliding"
     },
     "1f25b4e9-0bbf-4ce4-b8bd-d087e24f07b1": {
         "name": "走私",
@@ -6112,21 +6476,23 @@
     },
     "27cbefae-762a-488f-89e7-de12295fe56a": {
         "tags": [
-            null,
+            "Cinematic",
             "技术"
         ],
         "default": {
             "name": "杂技"
-        }
+        },
+        "name": "Spinning"
     },
     "8ca9b138-d2b2-4919-a3a9-48c41117643d": {
         "tags": [
-            null,
+            "Cinematic",
             "技术"
         ],
         "default": {
             "name": "跑步"
-        }
+        },
+        "name": "Spinning"
     },
     "0e373814-0c04-4654-bc68-fbddfc6bf73e": {
         "tags": [
@@ -6137,7 +6503,17 @@
         ],
         "default": {
             "name": "杂技"
-        }
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Acrobatic Kicks"
+                    }
+                }
+            ]
+        },
+        "name": "Spinning Kick"
     },
     "d91dde61-bd04-4baa-8bff-9ad7938d6dd5": {
         "tags": [
@@ -6148,7 +6524,8 @@
         ],
         "default": {
             "name": "空手技击"
-        }
+        },
+        "name": "Spinning Kick"
     },
     "9a37f84a-af51-4cc5-88b0-28353518b8e1": {
         "name": "棍棒",
@@ -6176,6 +6553,16 @@
         ],
         "default": {
             "name": "杂技"
+        },
+        "name": "Stamp Kick",
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Acrobatic Kicks"
+                    }
+                }
+            ]
         }
     },
     "5e8ee159-c159-4171-8752-47feeb8b227d": {
@@ -6187,7 +6574,8 @@
         ],
         "default": {
             "name": "斗殴"
-        }
+        },
+        "name": "Stamp Kick"
     },
     "21155b15-f435-45df-9f16-44c14daf2858": {
         "tags": [
@@ -6198,7 +6586,8 @@
         ],
         "default": {
             "name": "空手技击"
-        }
+        },
+        "name": "Stamp Kick"
     },
     "bd2f577f-83ac-4a00-aba0-17a7e8184c75": {
         "name": "隐匿",
@@ -6335,7 +6724,8 @@
             {
                 "name": "潜水艇"
             }
-        ]
+        ],
+        "specialization": "Min-Sub"
     },
     "53e46830-6aca-4924-bee5-b1d9a3c7df61": {
         "name": "潜艇艇员",
@@ -6424,7 +6814,8 @@
                 "name": "生存",
                 "specialization": "热带环礁"
             }
-        ]
+        ],
+        "name": "Survival "
     },
     "048e421d-734e-450d-9a43-bded61092d58": {
         "name": "生存",
@@ -7082,6 +7473,15 @@
         ],
         "default": {
             "name": "杂技"
+        },
+        "prereqs": {
+            "prereqs": [
+                {
+                    "name": {
+                        "qualifier": "Acrobatic Kicks"
+                    }
+                }
+            ]
         }
     },
     "c532c95b-13a4-467a-8cba-8bb6c941745c": {
@@ -7164,22 +7564,127 @@
         ]
     },
     "5cb690cd-b973-4972-b0e2-d6929cb092f2": {
-        "name": "投掷武器"
+        "name": "投掷武器",
+        "children": {
+            "0e6a354e-c158-48ca-a2fc-e2c4be2c6935": {
+                "tags": [
+                    "Combat",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Axe/Mace",
+                "name": "Thrown Weapon"
+            },
+            "6dd74180-3071-453b-9383-835735341fcd": {
+                "name": "Thrown Weapon",
+                "defaults": [
+                    {},
+                    {
+                        "name": "Throwing"
+                    }
+                ],
+                "tags": [
+                    "Combat",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Dart"
+            },
+            "285cc927-38a0-4348-914e-8c35e1af0801": {
+                "name": "Thrown Weapon",
+                "tags": [
+                    "Combat",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Disc"
+            },
+            "234a28ba-2d15-4f49-a732-eea845f1c1a9": {
+                "name": "Thrown Weapon",
+                "defaults": [
+                    {},
+                    {
+                        "specialization": "Spear",
+                        "name": "Thrown Weapon"
+                    }
+                ],
+                "tags": [
+                    "Combat",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Harpoon"
+            },
+            "7b7b21a4-d8af-4e87-b2db-ff289a03a5a3": {
+                "name": "Thrown Weapon",
+                "tags": [
+                    "Combat",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Knife"
+            },
+            "aa51bb6e-6e5b-4922-aa88-8e63c07e94d7": {
+                "name": "Thrown Weapon",
+                "defaults": [
+                    {},
+                    {
+                        "name": "Throwing"
+                    }
+                ],
+                "tags": [
+                    "Combat",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Shuriken"
+            },
+            "839a94fe-2c8a-46e4-8140-52d45c3901f0": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Spear Thrower"
+                    },
+                    {
+                        "name": "Thrown Weapon",
+                        "specialization": "Harpoon"
+                    }
+                ],
+                "tags": [
+                    "Combat",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Spear",
+                "name": "Thrown Weapon"
+            },
+            "f632f06d-d626-4bfb-a4b1-36da4e114a17": {
+                "name": "Thrown Weapon",
+                "tags": [
+                    "Combat",
+                    "Ranged Combat",
+                    "Weapon"
+                ],
+                "specialization": "Stick"
+            }
+        }
     },
     "45f41ddc-6e72-4dd3-8822-3ea6970186f2": {
         "tags": [
-            null,
+            "Cinematic",
             "技术"
-        ]
+        ],
+        "name": "Toe Flip (@Melee Weapon Skill@)"
     },
     "a185a308-f1fa-4d03-8054-1b8d23f515df": {
         "tags": [
-            null,
+            "Cinematic",
             "技术"
         ],
         "default": {
             "name": "即时备战"
-        }
+        },
+        "name": "Toe Flip (@Melee Weapon Skill@)"
     },
     "a72911d4-3f62-4329-90f6-0e98e1851c7a": {
         "name": "武术拐",
@@ -7251,7 +7756,8 @@
         ],
         "default": {
             "name": "拳击"
-        }
+        },
+        "name": "Uppercut"
     },
     "d14e36df-d401-410b-b895-fe358683e512": {
         "tags": [
@@ -7262,7 +7768,8 @@
         ],
         "default": {
             "name": "斗殴"
-        }
+        },
+        "name": "Uppercut"
     },
     "1d62a7d9-d088-4720-801d-c2b9e7636eeb": {
         "tags": [
@@ -7273,7 +7780,8 @@
         ],
         "default": {
             "name": "空手技击"
-        }
+        },
+        "name": "Uppercut"
     },
     "27f9f81b-edb4-4c07-b416-112a429f2d44": {
         "name": "城市生存",
@@ -7296,7 +7804,8 @@
             "近战",
             "技术",
             "武器"
-        ]
+        ],
+        "name": "Wrench @Limb@"
     },
     "f5ce02ca-eff3-46ef-b7c2-42c223ddee64": {
         "name": "摔跤",
@@ -7312,6 +7821,1234 @@
             "艺术",
             "娱乐",
             "学校"
+        ]
+    },
+    "e9ce1860-dfb8-4336-a0a3-9d01cd73d177": {
+        "name": "Face Man!",
+        "tags": [
+            "Wildcard"
+        ]
+    },
+    "b8a0ec1b-09f9-4919-a8fe-5ee89c007d51": {
+        "name": "Hacker!",
+        "tags": [
+            "Wildcard"
+        ]
+    },
+    "993a3ddf-26e9-491c-aa94-129fa1c531f7": {
+        "name": "Cleaner!",
+        "tags": [
+            "Wildcard"
+        ]
+    },
+    "aac2a379-2580-43a5-bc01-ff260700dc35": {
+        "tags": [
+            "Wildcard"
+        ],
+        "name": "Assassin!"
+    },
+    "37fe485d-a31f-4c82-8088-9b17738ba77c": {
+        "name": "Investigator!",
+        "tags": [
+            "Wildcard"
+        ]
+    },
+    "927ef9be-7b39-4164-8174-4eb4f7ef8f27": {
+        "name": "Demolition Man!",
+        "tags": [
+            "Wildcard"
+        ]
+    },
+    "05308e7b-ff24-4296-a41d-58ec48ecddb3": {
+        "name": "Lenses",
+        "children": {
+            "ab71ae55-0692-48dc-9b89-8fc882b93441": {
+                "name": "Criminal",
+                "children": {
+                    "257b1312-879e-4fed-9d05-cd815a13a920": {
+                        "name": "Choose 18 points",
+                        "children": {
+                            "959b002e-b11f-4352-afe8-579be2760d7e": {
+                                "name": "Brawling",
+                                "tags": [
+                                    "战斗",
+                                    "Melee Combat",
+                                    "Weapon"
+                                ]
+                            },
+                            "d987e5f4-b82b-40de-861a-6d50a66350a0": {
+                                "name": "Carousing",
+                                "tags": [
+                                    "Criminal",
+                                    "Social",
+                                    "Street"
+                                ]
+                            },
+                            "468a0a7d-3b79-4d69-9f6d-bafa297e6a3a": {
+                                "name": "Filch",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Pickpocket"
+                                    },
+                                    {
+                                        "name": "Sleight of Hand"
+                                    }
+                                ],
+                                "tags": [
+                                    "Criminal",
+                                    "Spy",
+                                    "Street"
+                                ]
+                            },
+                            "fa159427-413e-4142-8546-2352d7705e49": {
+                                "name": "Forced Entry",
+                                "tags": [
+                                    "Criminal",
+                                    "Police",
+                                    "Spy",
+                                    "Street"
+                                ]
+                            },
+                            "1048290a-a6d9-449a-a67f-c0be402b0575": {
+                                "name": "Gambling",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Mathematics",
+                                        "specialization": "Statistics"
+                                    }
+                                ],
+                                "tags": [
+                                    "Criminal",
+                                    "Social",
+                                    "Street"
+                                ]
+                            },
+                            "fc11a3a6-fa0c-47ce-8410-0d9ce796e390": {
+                                "name": "Guns",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Grenade Launcher"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Gyroc"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Light Anti-Armor Weapon"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Light Machine Gun"
+                                    },
+                                    {
+                                        "specialization": "Musket",
+                                        "name": "Guns"
+                                    },
+                                    {
+                                        "name": "Beam Weapons",
+                                        "specialization": "Pistol"
+                                    },
+                                    {
+                                        "specialization": "Rifle",
+                                        "name": "Guns"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Shotgun"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Submachine Gun"
+                                    }
+                                ],
+                                "tags": [
+                                    "战斗",
+                                    "Ranged Combat",
+                                    "Weapon"
+                                ],
+                                "specialization": "Pistol"
+                            },
+                            "655ec91a-8360-41c0-bb34-41214722acce": {
+                                "name": "Holdout",
+                                "tags": [
+                                    "Criminal",
+                                    "Spy",
+                                    "Street"
+                                ],
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Sleight of Hand"
+                                    }
+                                ]
+                            },
+                            "8e4caf40-d46c-4517-9c62-c6df33f0f157": {
+                                "name": "Intimidation",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Acting"
+                                    }
+                                ],
+                                "tags": [
+                                    "Criminal",
+                                    "Police",
+                                    "Social",
+                                    "Street"
+                                ]
+                            },
+                            "8ab3163d-5ec1-466f-897c-daa0124555da": {
+                                "name": "Savoir-Faire",
+                                "tags": [
+                                    "Criminal",
+                                    "Knowledge",
+                                    "Social",
+                                    "Street"
+                                ],
+                                "specialization": "Mafia",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Streetwise"
+                                    }
+                                ]
+                            },
+                            "b9181b08-9993-4736-8ef8-ece34c569b8e": {
+                                "name": "Stealth",
+                                "tags": [
+                                    "Criminal",
+                                    "Police",
+                                    "Spy",
+                                    "Street"
+                                ]
+                            },
+                            "7d12d721-026f-480b-9626-1298a53e19b4": {
+                                "name": "Urban Survival",
+                                "tags": [
+                                    "Criminal",
+                                    "Police",
+                                    "Street"
+                                ]
+                            }
+                        },
+                        "notes": "Either two or six points may be used to level-up one of these skills."
+                    },
+                    "5d6b198f-5dd1-4fb1-afbf-c6811d375297": {
+                        "name": "Streetwise",
+                        "tags": [
+                            "Criminal",
+                            "Police",
+                            "Social",
+                            "Street"
+                        ]
+                    }
+                }
+            },
+            "4a4ccf23-0a1f-4d26-afd4-4b07dac3a5c0": {
+                "children": {
+                    "4ef83d5a-c8d1-4ecb-ae7c-e592a9df941a": {
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Geography",
+                                "specialization": "@Any area@"
+                            }
+                        ],
+                        "tags": [
+                            "Everyman",
+                            "Knowledge"
+                        ],
+                        "name": "Area Knowledge",
+                        "specialization": "@Any area@"
+                    },
+                    "abbd24d7-6658-4d19-a9e8-affc1d70633e": {
+                        "name": "Brainwashing",
+                        "tags": [
+                            "Military",
+                            "Spy"
+                        ],
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "psychology"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ea80277a-a076-4889-b2e0-a185807f33a0": {
+                        "name": "Cryptography",
+                        "defaults": [
+                            {
+                                "name": "Mathematics",
+                                "specialization": "Cryptology"
+                            }
+                        ],
+                        "tags": [
+                            "Military",
+                            "Spy"
+                        ]
+                    },
+                    "2cb03f90-14ff-4364-82bb-e7a0cd11c824": {
+                        "name": "Current Affairs",
+                        "children": {
+                            "225faae1-6ff9-4b8c-9978-856a923b6e7e": {
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Research"
+                                    },
+                                    {
+                                        "name": "Current Affairs"
+                                    }
+                                ],
+                                "tags": [
+                                    "Business",
+                                    "Everyman",
+                                    "Knowledge",
+                                    "Social"
+                                ],
+                                "name": "Current Affairs",
+                                "specialization": "Business"
+                            },
+                            "7055599c-a795-4dbd-ae43-9d09ccae52e9": {
+                                "name": "Current Affairs",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Research"
+                                    },
+                                    {
+                                        "name": "Current Affairs"
+                                    }
+                                ],
+                                "tags": [
+                                    "Everyman",
+                                    "Knowledge",
+                                    "Social"
+                                ],
+                                "specialization": "Headline News"
+                            },
+                            "a1a23aae-ed4c-4021-a1cd-73aa59236450": {
+                                "name": "Current Affairs",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Research"
+                                    },
+                                    {
+                                        "name": "Current Affairs"
+                                    }
+                                ],
+                                "tags": [
+                                    "Arts",
+                                    "Entertainment",
+                                    "Everyman",
+                                    "Knowledge",
+                                    "Social"
+                                ],
+                                "specialization": "High Culture"
+                            },
+                            "e6c2512c-43bb-4310-b099-0bdcb5c6ec5d": {
+                                "name": "Current Affairs",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Research"
+                                    },
+                                    {
+                                        "name": "Current Affairs"
+                                    }
+                                ],
+                                "tags": [
+                                    "Everyman",
+                                    "Knowledge",
+                                    "Social"
+                                ],
+                                "specialization": "People"
+                            },
+                            "a58d0bfc-ee9d-48df-8b2c-0e30c0b9434c": {
+                                "name": "Current Affairs",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Research"
+                                    },
+                                    {
+                                        "name": "Current Affairs"
+                                    }
+                                ],
+                                "tags": [
+                                    "Everyman",
+                                    "Knowledge",
+                                    "Social"
+                                ],
+                                "specialization": "Politics"
+                            },
+                            "46c475f7-090d-4884-8619-0d83d226d4fa": {
+                                "name": "Current Affairs",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Research"
+                                    },
+                                    {
+                                        "name": "Current Affairs"
+                                    }
+                                ],
+                                "tags": [
+                                    "Arts",
+                                    "Entertainment",
+                                    "Everyman",
+                                    "Knowledge",
+                                    "Social"
+                                ],
+                                "specialization": "Popular Culture"
+                            },
+                            "5ad4a374-b950-4449-be72-0c4e1361aceb": {
+                                "name": "Current Affairs",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Research"
+                                    },
+                                    {
+                                        "name": "Current Affairs"
+                                    }
+                                ],
+                                "tags": [
+                                    "Everyman",
+                                    "Knowledge",
+                                    "Social"
+                                ],
+                                "specialization": "Regional"
+                            },
+                            "b0a8dc73-7e5f-406d-8c25-14c9c2aede5b": {
+                                "name": "Current Affairs",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Research"
+                                    },
+                                    {
+                                        "name": "Current Affairs"
+                                    }
+                                ],
+                                "tags": [
+                                    "Everyman",
+                                    "Knowledge",
+                                    "Social"
+                                ],
+                                "specialization": "Science & Technology"
+                            },
+                            "91cf4530-6867-408f-a333-89b6d20207af": {
+                                "name": "Current Affairs",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Research"
+                                    },
+                                    {
+                                        "name": "Current Affairs"
+                                    }
+                                ],
+                                "tags": [
+                                    "Everyman",
+                                    "Knowledge",
+                                    "Social"
+                                ],
+                                "specialization": "Sports"
+                            },
+                            "aa9a0d93-8c74-4637-a10e-b444804d2ad2": {
+                                "name": "Current Affairs",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Research"
+                                    },
+                                    {
+                                        "name": "Current Affairs"
+                                    }
+                                ],
+                                "tags": [
+                                    "Everyman",
+                                    "Knowledge",
+                                    "Social",
+                                    "Supers"
+                                ],
+                                "specialization": "Supers"
+                            },
+                            "82263a99-fb76-4a14-b42b-048f3cc6e838": {
+                                "name": "Current Affairs",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Research"
+                                    },
+                                    {
+                                        "name": "Current Affairs"
+                                    }
+                                ],
+                                "tags": [
+                                    "Everyman",
+                                    "Knowledge",
+                                    "Social"
+                                ],
+                                "specialization": "Travel"
+                            }
+                        }
+                    },
+                    "188a1e91-957e-447c-9cc8-7d14d2c95c8f": {
+                        "name": "Filch",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Pickpocket"
+                            },
+                            {
+                                "name": "Sleight of Hand"
+                            }
+                        ],
+                        "tags": [
+                            "Criminal",
+                            "Spy",
+                            "Street"
+                        ]
+                    },
+                    "83f427a8-8833-49a0-8e74-8475adfb5e20": {
+                        "name": "Forgery",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Counterfeiting"
+                            }
+                        ],
+                        "tags": [
+                            "Criminal",
+                            "Spy",
+                            "Street"
+                        ]
+                    },
+                    "734ec947-360e-448a-b2e3-1a97779694a5": {
+                        "name": "Holdout",
+                        "tags": [
+                            "Criminal",
+                            "Spy",
+                            "Street"
+                        ],
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Sleight of Hand"
+                            }
+                        ]
+                    },
+                    "d41a2985-fec4-404d-a33f-8ddca3b1c6ca": {
+                        "name": "Intelligence Analysis",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Strategy"
+                            }
+                        ],
+                        "tags": [
+                            "Military",
+                            "Police",
+                            "Spy"
+                        ]
+                    },
+                    "e31a4359-d4ff-4e39-a11d-44f69390bb94": {
+                        "name": "Interrogation",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Intimidation"
+                            },
+                            {
+                                "name": "Psychology"
+                            }
+                        ],
+                        "tags": [
+                            "Military",
+                            "Police",
+                            "Spy"
+                        ]
+                    },
+                    "dc990139-8771-4b87-a8fe-7e635e8560aa": {
+                        "tags": [
+                            "Arts",
+                            "Entertainment",
+                            "Spy",
+                            "Technical"
+                        ],
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Electronics Operation",
+                                "specialization": "Media"
+                            }
+                        ],
+                        "name": "Photography"
+                    },
+                    "af34113d-3ecb-48f6-b0de-4c8a54a7f299": {
+                        "name": "Propaganda",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Merchant"
+                            },
+                            {
+                                "name": "Psychology"
+                            }
+                        ],
+                        "tags": [
+                            "Business",
+                            "Military",
+                            "Social",
+                            "Spy"
+                        ]
+                    },
+                    "08cfacce-4c8c-4a80-89d6-70fede96891c": {
+                        "name": "Psychology",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Sociology"
+                            }
+                        ],
+                        "tags": [
+                            "Humanities",
+                            "Social Sciences"
+                        ]
+                    },
+                    "9b5dd58e-a39f-497e-8775-3c0d7a6ab51d": {
+                        "name": "Research",
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "prereqs": [
+                                        {
+                                            "name": {
+                                                "qualifier": "Computer Operation"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "prereqs": [
+                                        {
+                                            "name": {
+                                                "qualifier": "Language"
+                                            },
+                                            "notes": {
+                                                "qualifier": "Written (Native)"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "Language"
+                                            },
+                                            "notes": {
+                                                "qualifier": "Written (Accented)"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "Language"
+                                            },
+                                            "notes": {
+                                                "qualifier": "Written (Broken)"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Writing"
+                            }
+                        ],
+                        "tags": [
+                            "Scholarly",
+                            "Spy"
+                        ]
+                    },
+                    "5dd3e3c9-5d40-45e3-a04b-d3731c9e2a6b": {
+                        "name": "Search",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Criminology"
+                            }
+                        ],
+                        "tags": [
+                            "Police",
+                            "Spy"
+                        ]
+                    },
+                    "5419b365-c152-46c6-948a-67f0055cab1f": {
+                        "name": "Smuggling",
+                        "tags": [
+                            "Criminal",
+                            "Spy",
+                            "Street"
+                        ]
+                    },
+                    "2895bf89-5f8d-4ec1-84c5-cab476614898": {
+                        "name": "Stealth",
+                        "tags": [
+                            "Criminal",
+                            "Police",
+                            "Spy",
+                            "Street"
+                        ]
+                    },
+                    "1b9184bb-b657-44dc-90f4-62076a08ad39": {
+                        "name": "Observation",
+                        "tags": [
+                            "Criminal",
+                            "Military",
+                            "Police",
+                            "Spy",
+                            "Street"
+                        ],
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Shadowing"
+                            }
+                        ]
+                    },
+                    "5faf4d6f-882b-49a5-aac3-775e3a8f8ef1": {
+                        "name": "Shadowing",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Observation"
+                            },
+                            {
+                                "name": "Stealth"
+                            }
+                        ],
+                        "tags": [
+                            "Criminal",
+                            "Police",
+                            "Spy",
+                            "Street"
+                        ]
+                    }
+                },
+                "notes": "Choose 20 points. Either two or six of these points may be used to raise one of these skills by one or two levels.",
+                "name": "Intelligence"
+            },
+            "bc6c15be-c29f-44fa-9727-8d444c1dda2b": {
+                "children": {
+                    "6cffc2bc-3526-4b79-961a-e1b1e2e29347": {
+                        "children": {
+                            "b3788f31-81db-48cc-ab04-7b7f813f4da9": {
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Grenade Launcher"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Gyroc"
+                                    },
+                                    {
+                                        "name": "Guns"
+                                    }
+                                ],
+                                "name": "Guns",
+                                "tags": [
+                                    "战斗"
+                                ]
+                            },
+                            "4533b5a0-bf0d-4a6c-8a0d-62cb390c2ae5": {
+                                "defaults": [
+                                    {},
+                                    {},
+                                    {},
+                                    {},
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Light Machine Gun"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Musket"
+                                    },
+                                    {
+                                        "name": "Guns"
+                                    }
+                                ],
+                                "tags": [
+                                    "战斗"
+                                ]
+                            },
+                            "920fffa8-7788-401c-a146-29c4e08f82c5": {
+                                "defaults": [
+                                    {},
+                                    {},
+                                    {},
+                                    {},
+                                    {},
+                                    {},
+                                    {},
+                                    {
+                                        "specialization": "Rifle",
+                                        "name": "Guns"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Submachine Gun"
+                                    }
+                                ],
+                                "tags": [
+                                    "战斗",
+                                    "Ranged Combat",
+                                    "Weapon"
+                                ],
+                                "specialization": "Shotgun"
+                            },
+                            "fe9e9223-1855-4bee-b842-d21dc9f6faa7": {
+                                "name": "Guns",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Guns"
+                                    }
+                                ],
+                                "tags": [
+                                    "战斗"
+                                ]
+                            },
+                            "d496a81c-e9b1-4c95-af8e-6ae4634d599b": {
+                                "tags": [
+                                    null,
+                                    null,
+                                    "Spy"
+                                ]
+                            },
+                            "a66a221b-be51-41c0-a75f-52d3b93d856a": {
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Finance"
+                                    },
+                                    {
+                                        "name": "Mathematics"
+                                    }
+                                ],
+                                "name": "Accounting"
+                            },
+                            "d72b9b22-4a6c-4439-8dca-ec203d93bf74": {
+                                "name": "Liquid Projector",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Liquid Projector"
+                                    }
+                                ],
+                                "tags": [
+                                    "战斗",
+                                    "Ranged Combat",
+                                    "Weapon"
+                                ],
+                                "specialization": "Sprayer"
+                            },
+                            "520e6d74-09dc-41ac-bfc1-6d1327676b4a": {
+                                "name": "Observation",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Shadowing"
+                                    }
+                                ],
+                                "tags": [
+                                    "Criminal",
+                                    "Military",
+                                    "Police",
+                                    "Spy",
+                                    "Street"
+                                ]
+                            },
+                            "e9d0705e-4897-410b-8e3e-67f3901b548d": {
+                                "name": "Riding",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Animal Handling"
+                                    }
+                                ]
+                            },
+                            "042386be-e5e4-4f81-b420-1c267f21b46a": {
+                                "tags": [
+                                    null,
+                                    "Police",
+                                    "Social",
+                                    "Street"
+                                ]
+                            },
+                            "65303f54-f6eb-47db-ab20-5789b7a0dac2": {
+                                "name": "Tactics",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Strategy"
+                                    }
+                                ],
+                                "tags": [
+                                    "Military",
+                                    "Police"
+                                ]
+                            },
+                            "e0f8205d-0507-4fc5-9a31-97fa11622d05": {
+                                "name": "Tonfa",
+                                "tags": [
+                                    "战斗"
+                                ]
+                            },
+                            "a288b92c-3c1b-4bc0-81d1-676ad864e01b": {
+                                "name": "Forensics",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Criminology"
+                                    }
+                                ],
+                                "tags": [
+                                    "Police"
+                                ]
+                            },
+                            "b59c4567-e809-4bb5-ab69-2b851256d309": {
+                                "tags": [
+                                    null,
+                                    null,
+                                    null,
+                                    "Street"
+                                ]
+                            },
+                            "6d6fcefb-3eaa-4a3d-be1f-3b4152343fbb": {
+                                "tags": [
+                                    "战斗"
+                                ]
+                            }
+                        },
+                        "name": "Choose 16 points"
+                    }
+                },
+                "name": "Law Enforcement"
+            },
+            "f52802ce-a6fe-424f-9c00-02e6d9f191d4": {
+                "children": {
+                    "40c91c12-4fc8-4338-8805-12631b5b3d75": {
+                        "children": {
+                            "dd29ee0b-ae88-4a5d-91e2-ef026cb3887b": {
+                                "tags": [
+                                    null,
+                                    "Military",
+                                    "Outdoor"
+                                ]
+                            },
+                            "5e14d23f-16b8-4331-89eb-f734bfba1378": {
+                                "children": {
+                                    "b3339bfa-d4ee-4e9a-ba24-806930a8ca45": {
+                                        "tags": [
+                                            "战斗"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "f438a52d-792d-4dd7-ac5c-0d716e4e4e16": {
+                "children": {
+                    "9ab0d87b-afa1-40e6-bc7f-8f19153ceddf": {
+                        "defaults": [
+                            {
+                                "specialization": "Cryptology",
+                                "name": "Mathematics"
+                            }
+                        ],
+                        "tags": [
+                            "Military",
+                            "Spy"
+                        ]
+                    },
+                    "28229420-119b-4e96-8cec-96b48d068a34": {
+                        "name": "Fast-Draw",
+                        "tags": [
+                            "Combat",
+                            "Ranged Combat",
+                            "Weapon"
+                        ],
+                        "specialization": "Pistol"
+                    },
+                    "9e416449-38aa-4a7b-b084-90dd49d43b0e": {
+                        "name": "First Aid",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Esoteric Medicine"
+                            },
+                            {
+                                "name": "Physician"
+                            },
+                            {
+                                "name": "Veterinary"
+                            }
+                        ],
+                        "tags": [
+                            "Everyman",
+                            "Medical"
+                        ]
+                    },
+                    "89a13380-fa66-4c5b-a31e-eab0df9f3b08": {
+                        "name": "Guns",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Guns",
+                                "specialization": "Grenade Launcher"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Gyroc"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Light Anti-Armor Weapon"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Light Machine Gun"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Musket"
+                            },
+                            {
+                                "name": "Beam Weapons",
+                                "specialization": "Pistol"
+                            },
+                            {
+                                "specialization": "Rifle",
+                                "name": "Guns"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Shotgun"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Submachine Gun"
+                            }
+                        ],
+                        "tags": [
+                            "Combat",
+                            "Ranged Combat",
+                            "Weapon"
+                        ],
+                        "specialization": "Pistol"
+                    },
+                    "defeb326-0265-444d-9337-177f5f64a05f": {
+                        "name": "Guns",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Guns",
+                                "specialization": "Grenade Launcher"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Gyroc"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Light Anti-Armor Weapon"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Light Machine Gun"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Musket"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Pistol"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Rifle"
+                            },
+                            {
+                                "name": "Guns",
+                                "specialization": "Shotgun"
+                            }
+                        ],
+                        "tags": [
+                            "Combat",
+                            "Ranged Combat",
+                            "Weapon"
+                        ],
+                        "specialization": "Submachine Gun"
+                    },
+                    "3760673e-cd60-402e-a19a-98cda67b8be3": {
+                        "name": "Hazardous Materials",
+                        "children": {
+                            "57cb2987-b94d-4e3d-8fff-90214c86b63d": {
+                                "tags": [
+                                    "Technical"
+                                ],
+                                "specialization": "Biological",
+                                "name": "Hazardous Materials"
+                            },
+                            "d48c38a1-2884-479f-93e1-2e65d25dd18c": {
+                                "name": "Hazardous Materials",
+                                "tags": [
+                                    "Technical"
+                                ],
+                                "specialization": "Chemical"
+                            },
+                            "fa4698eb-e894-4e5d-9cda-81dd1dc66b28": {
+                                "name": "Hazardous Materials",
+                                "tags": [
+                                    "Technical"
+                                ]
+                            }
+                        }
+                    },
+                    "10c6a8f1-a09d-4786-924e-c69448d4722b": {
+                        "tags": [
+                            null,
+                            null,
+                            null,
+                            "Spy",
+                            "Street"
+                        ]
+                    },
+                    "ad6b4996-cbf6-4f0d-ab09-18845f53fe0c": {
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Sociology"
+                            }
+                        ],
+                        "tags": [
+                            "Humanities",
+                            "Social Sciences"
+                        ],
+                        "name": "Psychology"
+                    },
+                    "1c09628d-64bf-44a3-816f-016389dd1f0b": {
+                        "name": "Savoir-Faire",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Savoir-Faire",
+                                "specialization": "Servant"
+                            }
+                        ],
+                        "tags": [
+                            "Business",
+                            "Knowledge",
+                            "Social"
+                        ],
+                        "specialization": "High Society"
+                    },
+                    "d729e75d-f597-4b2f-a3b2-0e756f4e0899": {
+                        "name": "Savoir-Faire",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Savoir-Faire",
+                                "specialization": "High Society"
+                            }
+                        ],
+                        "tags": [
+                            "Everyman",
+                            "Knowledge",
+                            "Social"
+                        ],
+                        "specialization": "Servant"
+                    },
+                    "adb9becb-a415-4428-b085-ee3e25038aa7": {
+                        "name": "Search",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Criminology"
+                            }
+                        ],
+                        "tags": [
+                            "Police",
+                            "Spy"
+                        ]
+                    },
+                    "a0284924-5c43-488a-835c-53a4d2c647f1": {
+                        "name": "Tactics",
+                        "tags": [
+                            "Military",
+                            "Police"
+                        ],
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Strategy"
+                            }
+                        ]
+                    }
+                },
+                "notes": "Choose 20 points. Either two or six of these points may be used to raise one of these skills by one or two levels."
+            },
+            "b822eb10-c80f-47b9-876a-609a545f8a1a": {
+                "name": "Wise Master",
+                "notes": "20 points in your template's IQ-, Will-, or Per-based skills."
+            }
+        }
+    },
+    "e2285de3-281d-4474-a81e-935b74f1da03": {
+        "tags": [
+            "Wildcard"
+        ],
+        "name": "Infiltrator!"
+    },
+    "8f0e2b5e-118c-4608-a830-cf09c609f910": {
+        "name": "Shooter!",
+        "tags": [
+            "Wildcard"
+        ]
+    },
+    "b7201434-1064-46e0-b1b2-a1ee3bb8fe47": {
+        "name": "Wheel Man!",
+        "tags": [
+            "Wildcard"
+        ]
+    },
+    "f6cc8279-6763-420d-a312-1a1da025a391": {
+        "name": "Medic!",
+        "tags": [
+            "Wildcard"
+        ]
+    },
+    "e2cf0acf-754d-4a85-beae-2d713bb09804": {
+        "name": "Wire Rat!",
+        "tags": [
+            "Wildcard"
         ]
     }
 }
