@@ -28,7 +28,120 @@
         "tags": [
             "Knowledge",
             "Social"
-        ]
+        ],
+        "children": {
+            "f43436c8-d3c6-4cbc-9569-0096d9279f5f": {
+                "name": "Heraldry",
+                "defaults": [
+                    {},
+                    {
+                        "name": "Current Affairs",
+                        "specialization": "Sports"
+                    }
+                ],
+                "specialization": "Athletic Uniforms",
+                "tags": [
+                    "Knowledge",
+                    "Social"
+                ]
+            },
+            "3d1c11d4-9f4c-4e9c-bf2d-5c92cc876459": {
+                "name": "Heraldry",
+                "defaults": [
+                    {},
+                    {
+                        "specialization": "High Society",
+                        "name": "Savoir-Faire"
+                    },
+                    {
+                        "name": "Savoir-Faire",
+                        "specialization": "Servant"
+                    }
+                ],
+                "specialization": "Coats of Arms/Mon",
+                "tags": [
+                    "Knowledge",
+                    "Social"
+                ]
+            },
+            "6ff82cca-08d2-4bc0-aeba-a2b9355896a3": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Current Afairs",
+                        "specialization": "Business"
+                    }
+                ],
+                "name": "Heraldry",
+                "tags": [
+                    "Knowledge",
+                    "Social"
+                ],
+                "specialization": "Corporate Logos"
+            },
+            "da7926dd-8649-45a9-b2ff-87a81cc174fd": {
+                "specialization": "Hallmarks",
+                "tags": [
+                    "Knowledge",
+                    "Social"
+                ],
+                "name": "Heraldry",
+                "defaults": [
+                    {},
+                    {
+                        "specialization": "Jewelry",
+                        "name": "Connoisseur"
+                    }
+                ]
+            },
+            "89632b22-3b5f-4152-8352-554e5c61490e": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Religious Ritual"
+                    }
+                ],
+                "specialization": "Religious Iconography",
+                "tags": [
+                    "Knowledge",
+                    "Social"
+                ],
+                "name": "Heraldry"
+            },
+            "b9326116-5d60-4983-aa9e-7c80467e4746": {
+                "tags": [
+                    "Knowledge",
+                    "Social"
+                ],
+                "name": "Heraldry",
+                "specialization": "Grafitti Tags",
+                "defaults": [
+                    {},
+                    {
+                        "name": "Streetwise"
+                    }
+                ]
+            },
+            "56909a71-1a91-4731-a331-34da23261e81": {
+                "tags": [
+                    "Knowledge",
+                    "Social"
+                ],
+                "defaults": [
+                    {},
+                    {
+                        "name": "Savoir-Faire",
+                        "specialization": "Military"
+                    },
+                    {
+                        "specialization": "Police",
+                        "name": "Savoir-Faire"
+                    }
+                ],
+                "specialization": "Insignia and Uniforms",
+                "name": "Heraldry"
+            }
+        }
     },
     "bce4708d-844c-4c88-b168-6c401b6da6d3": {
         "name": "Hidden Lore",
@@ -43,6 +156,116 @@
         "name": "Techniques",
         "tags": [
             "Social"
-        ]
+        ],
+        "children": {
+            "4043ac0a-e81a-4679-9802-0a0321944572": {
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Propaganda"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Psychology"
+                            }
+                        }
+                    ]
+                },
+                "name": "Going Viral",
+                "tags": [
+                    "Social"
+                ],
+                "default": {
+                    "name": "Propaganda"
+                }
+            },
+            "c0c3aa67-4336-4aa6-abbc-5d846e22e8ce": {
+                "tags": [
+                    "Social"
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Writing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Publick Speaking"
+                            }
+                        }
+                    ]
+                },
+                "default": {
+                    "name": "Public Speaking or Writing"
+                },
+                "name": "Irony"
+            },
+            "754f6d41-6d97-4c0f-b4f9-df4504971ef9": {
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Sociology"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Mathematics"
+                            },
+                            "specialization": {
+                                "qualifier": "Statistics"
+                            }
+                        }
+                    ]
+                },
+                "tags": [
+                    "Social"
+                ],
+                "name": "Sociometry",
+                "default": {
+                    "name": "Sociology"
+                }
+            },
+            "305fbae5-093e-4d14-8e3f-ac83342ac5ef": {
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Influence skill"
+                            }
+                        }
+                    ]
+                },
+                "default": {
+                    "name": "Influence skill"
+                },
+                "name": "Hinting",
+                "tags": [
+                    "Social"
+                ]
+            },
+            "1fe4f156-e666-4a0e-b071-7a4ab6f571ab": {
+                "default": {
+                    "name": "Per-based social skill"
+                },
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Per-based social skill"
+                            }
+                        }
+                    ]
+                },
+                "tags": [
+                    "Social"
+                ],
+                "name": "Cutting Out"
+            }
+        }
     }
 }

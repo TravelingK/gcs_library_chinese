@@ -198,9 +198,518 @@
         }
     },
     "3826f144-94da-4a3c-87fb-e1c5833fada5": {
-        "name": "Know Thy Enemy"
+        "name": "Know Thy Enemy",
+        "children": {
+            "331f9e06-28d2-435d-bcd4-8a2fe991465e": {
+                "children": {
+                    "eca456ae-c329-44fd-9d89-de1af6ec13c4": {
+                        "name": "Biology",
+                        "specialization": "@Specialty@",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Naturalist"
+                            }
+                        ],
+                        "tags": [
+                            "Natural Science",
+                            "Plant"
+                        ]
+                    },
+                    "36929c28-7ca4-4475-8b74-b2741007640e": {
+                        "tags": [
+                            "Knowledge"
+                        ],
+                        "specialization": "Cryptozoology",
+                        "name": "Hidden Lore"
+                    },
+                    "111de201-6896-45cf-98c4-eac7e3df8545": {
+                        "defaults": [
+                            {
+                                "name": "Animal Handling"
+                            },
+                            {
+                                "name": "Physician"
+                            },
+                            {
+                                "name": "Surgery"
+                            }
+                        ],
+                        "name": "Veterinary",
+                        "tags": [
+                            "Animal",
+                            "Medical"
+                        ]
+                    },
+                    "dbb467bf-bf6a-4147-97bc-89d8f96c0416": {
+                        "specialization": "@Specialty@",
+                        "tags": [
+                            "Animal"
+                        ],
+                        "name": "Animal Handling"
+                    }
+                },
+                "name": "Cryptids",
+                "notes": "chupacabras, yeti, etc"
+            },
+            "8d3d9281-753e-4c1e-8855-527e7c857a4c": {
+                "children": {
+                    "0543f026-f519-44de-8bd0-c1d81b4eeb60": {
+                        "defaults": [
+                            {},
+                            {
+                                "specialization": "Psychotronics",
+                                "name": "Electronics Repair"
+                            },
+                            {
+                                "name": "Engineer",
+                                "specialization": "Electronics"
+                            },
+                            {
+                                "name": "Electronics Operation"
+                            }
+                        ],
+                        "tags": [
+                            "Technical"
+                        ],
+                        "specialization": "Psychotronics",
+                        "name": "Electronics Operation"
+                    },
+                    "61e1deaa-b3e5-4fc3-995a-63dc96f58597": {
+                        "tags": [
+                            "Knowledge",
+                            "Magical",
+                            "Occult",
+                            "Scholarly"
+                        ],
+                        "name": "Expert Skill",
+                        "specialization": "Psionics"
+                    },
+                    "4a3d6e12-be63-4a45-83eb-439548e6d334": {
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Sociology"
+                            }
+                        ],
+                        "tags": [
+                            "Humanities",
+                            "Social Sciences"
+                        ],
+                        "name": "Psychology"
+                    },
+                    "ed29fc1c-515b-4e71-8d98-325749edb7e5": {
+                        "tags": [
+                            "Natural Science"
+                        ],
+                        "name": "Physics",
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "specialization": {
+                                        "qualifier": "applied"
+                                    },
+                                    "name": {
+                                        "qualifier": "mathematics"
+                                    }
+                                }
+                            ]
+                        },
+                        "specialization": "Paraphysics"
+                    }
+                },
+                "name": "Rogue Psis"
+            },
+            "96284e26-4383-498b-9061-abd02c6804dc": {
+                "notes": "fae, in-betweeners, etc",
+                "name": "Free-Willed Spirits",
+                "children": {
+                    "bd95580c-163c-4e9e-83e6-e91063b14cca": {
+                        "name": "Theology",
+                        "tags": [
+                            "Humanities",
+                            "Social Sciences"
+                        ],
+                        "specialization": "Shamanic OR Voodoo",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Religious Ritual",
+                                "specialization": "@Specialty@"
+                            }
+                        ]
+                    },
+                    "1269ded7-e4d8-41a5-a98f-f832d515248f": {
+                        "tags": [
+                            "Knowledge"
+                        ],
+                        "specialization": "Free Spirits",
+                        "name": "Hidden Lore"
+                    }
+                }
+            },
+            "57103cd0-fb9c-4745-a248-11d19194f53e": {
+                "name": "Vampires",
+                "children": {
+                    "e6bbb5b0-4779-421d-aeef-87aec0ef4f76": {
+                        "specialization": "Vampires",
+                        "tags": [
+                            "Knowledge"
+                        ],
+                        "name": "Hidden Lore"
+                    }
+                }
+            },
+            "fd2addca-fe2b-4390-8a74-b7f0ad0cc168": {
+                "children": {
+                    "ecd0dbe3-1335-4101-b8cd-aa5477f4db59": {
+                        "tags": [
+                            "Magical",
+                            "Occult"
+                        ],
+                        "name": "Thaumatology"
+                    },
+                    "0e77cfc9-1864-4dc7-ba81-43484c842ede": {
+                        "tags": [
+                            "Humanities",
+                            "Social Sciences"
+                        ],
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Sociology"
+                            }
+                        ],
+                        "name": "Psychology"
+                    },
+                    "d5a12ad6-e6e6-447d-995b-f1eb08134de8": {
+                        "name": "Hidden Lore",
+                        "specialization": "Sacred Places",
+                        "tags": [
+                            "Knowledge"
+                        ]
+                    }
+                },
+                "name": "Rogue Witches"
+            },
+            "ddec70a7-d78c-48a7-b77c-a58fe10f649e": {
+                "children": {
+                    "adffca4e-efae-45ab-8417-a6e8a6f84081": {
+                        "tags": [
+                            "Knowledge"
+                        ],
+                        "specialization": "Restless Undead",
+                        "name": "Hidden Lore"
+                    },
+                    "5e8f569a-f8b8-4042-a6a2-18fbd8b19ab5": {
+                        "defaults": [
+                            {},
+                            {
+                                "specialization": "Psychotronics",
+                                "name": "Electronics Repair"
+                            },
+                            {
+                                "name": "Engineer",
+                                "specialization": "Electronics"
+                            },
+                            {
+                                "name": "Electronics Operation"
+                            }
+                        ],
+                        "name": "Electronics Operation",
+                        "specialization": "Psychotronics",
+                        "tags": [
+                            "Technical"
+                        ]
+                    },
+                    "279a2b6e-893a-4c5a-89a3-e8f14aa74e89": {
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "specialization": {
+                                        "qualifier": "applied"
+                                    },
+                                    "name": {
+                                        "qualifier": "mathematics"
+                                    }
+                                }
+                            ]
+                        },
+                        "name": "Physics",
+                        "tags": [
+                            "Natural Science"
+                        ],
+                        "specialization": "Paraphysics"
+                    },
+                    "e101ea1d-faf0-4d50-8362-3e8fe56b0a30": {
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Religious Ritual",
+                                "specialization": "@Specialty@"
+                            }
+                        ],
+                        "specialization": "Shamanic",
+                        "tags": [
+                            "Humanities",
+                            "Social Sciences"
+                        ],
+                        "name": "Theology"
+                    }
+                },
+                "name": "Ghosts"
+            },
+            "3a804ef6-edf9-46c1-b970-c2c0f6d1e6e9": {
+                "children": {
+                    "8485f3e8-bb6d-4b7b-8bc5-8e61e5c89ff7": {
+                        "tags": [
+                            "Knowledge"
+                        ],
+                        "specialization": "Restless Undead",
+                        "name": "Hidden Lore"
+                    },
+                    "00764e94-38fc-494d-973f-df9609132e6f": {
+                        "name": "Theology",
+                        "defaults": [
+                            {},
+                            {
+                                "specialization": "@Specialty@",
+                                "name": "Religious Ritual"
+                            }
+                        ],
+                        "specialization": "Voodoo",
+                        "tags": [
+                            "Humanities",
+                            "Social Sciences"
+                        ]
+                    }
+                },
+                "notes": "and Skeletons etc.",
+                "name": "Zombies"
+            },
+            "a40cb802-3df8-4ae5-8c01-e64b6fa1b4a0": {
+                "children": {
+                    "1ea09e97-88a3-4e13-b6b8-dbf30192f375": {
+                        "tags": [
+                            "Knowledge"
+                        ],
+                        "name": "Hidden Lore",
+                        "specialization": "Angels"
+                    },
+                    "57939c1a-067f-4a98-a7cc-7955ed398a72": {
+                        "tags": [
+                            "Humanities",
+                            "Social Sciences"
+                        ],
+                        "specialization": "Abrahamic",
+                        "defaults": [
+                            {},
+                            {
+                                "specialization": "@Specialty@",
+                                "name": "Religious Ritual"
+                            }
+                        ],
+                        "name": "Theology"
+                    }
+                },
+                "name": "Outcast Angels"
+            },
+            "26412c43-9069-407b-8d37-4057e31a701d": {
+                "children": {
+                    "6cca8efe-affb-4d59-bd9d-8310e8f7737d": {
+                        "name": "Hidden Lore",
+                        "tags": [
+                            "Knowledge"
+                        ],
+                        "specialization": "Demons"
+                    },
+                    "376e8d52-7e5f-469c-86d4-1a89ba02056b": {
+                        "specialization": "Abrahamic",
+                        "tags": [
+                            "Humanities",
+                            "Social Sciences"
+                        ],
+                        "defaults": [
+                            {},
+                            {
+                                "specialization": "@Specialty@",
+                                "name": "Religious Ritual"
+                            }
+                        ],
+                        "name": "Theology"
+                    }
+                },
+                "name": "Demons"
+            },
+            "afaea40a-dae0-46e5-bed5-2c8e170d4956": {
+                "children": {
+                    "f85abddb-f1b9-4c2d-adf9-890ae78cb8d2": {
+                        "name": "Veterinary",
+                        "tags": [
+                            "Animal",
+                            "Medical"
+                        ],
+                        "defaults": [
+                            {
+                                "name": "Animal Handling"
+                            },
+                            {
+                                "name": "Physician"
+                            },
+                            {
+                                "name": "Surgery"
+                            }
+                        ]
+                    },
+                    "4d154db7-23b1-4059-b12c-7a55a3854f6e": {
+                        "name": "Hidden Lore",
+                        "specialization": "Lycanthropes",
+                        "tags": [
+                            "Knowledge"
+                        ]
+                    }
+                },
+                "name": "Lycanthropes"
+            },
+            "328fc63b-6093-4f78-a1b9-a2624dedbdb8": {
+                "children": {
+                    "ab7e4615-4c64-45e2-98ba-d03e89e30102": {
+                        "defaults": [
+                            {},
+                            {
+                                "name": "First Aid"
+                            },
+                            {
+                                "name": "Physician"
+                            },
+                            {
+                                "name": "Veterinary"
+                            }
+                        ],
+                        "name": "Diagnosis",
+                        "tags": [
+                            "Medical"
+                        ]
+                    },
+                    "7c8c7923-63a6-479b-9b15-f9739f1f8198": {
+                        "tags": [
+                            "Natural Science",
+                            "Plant"
+                        ],
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Naturalist"
+                            }
+                        ],
+                        "name": "Biology",
+                        "specialization": "@Specialty@"
+                    }
+                },
+                "name": "Parasites"
+            },
+            "30ec5b2f-d608-463a-97ec-9937669eddfe": {
+                "children": {
+                    "dbcd890c-d5a8-4cfc-9f7f-14db4495dd70": {
+                        "tags": [
+                            "Humanities",
+                            "Social Sciences"
+                        ],
+                        "name": "Archaeology"
+                    },
+                    "bb6cee1b-fa34-4a86-854e-fe44d943dbbe": {
+                        "tags": [
+                            "Knowledge"
+                        ],
+                        "name": "Hidden Lore",
+                        "specialization": "Mummies"
+                    }
+                },
+                "name": "Mummies"
+            }
+        }
     },
     "48629946-5d59-4a44-9fab-59a348cde2c3": {
-        "name": "Wildcards"
+        "name": "Wildcards",
+        "children": {
+            "b00d6e21-8ff4-4576-99f0-c61342994e57": {
+                "name": "Blade!",
+                "tags": [
+                    "Combat",
+                    "Melee Combat",
+                    "Weapon",
+                    "Wildcard"
+                ]
+            },
+            "aec43ec4-a956-4eda-8255-90fa7cdfb3c1": {
+                "name": "Science!",
+                "tags": [
+                    "Design",
+                    "Humanities",
+                    "Invention",
+                    "Natural Science",
+                    "Social Sciences",
+                    "Wildcard"
+                ]
+            },
+            "7dacbc2b-faa1-4c9c-81bc-4dfa473ee608": {
+                "tags": [
+                    "Humanities",
+                    "Scholarly",
+                    "Social Sciences",
+                    "Wildcard"
+                ],
+                "name": "Lore!"
+            },
+            "41dc52c9-1b29-4192-a9d2-6742bb7da490": {
+                "name": "Medic!",
+                "tags": [
+                    "Medical",
+                    "Wildcard"
+                ]
+            },
+            "43ea2253-8657-4ae7-8b28-f57b55af9018": {
+                "tags": [
+                    "Business",
+                    "Crime",
+                    "Police",
+                    "Social",
+                    "Spy",
+                    "Wildcard"
+                ],
+                "name": "Talker!"
+            },
+            "17bf76d9-195f-4057-8aaf-a3a75b157314": {
+                "name": "Inventor!",
+                "tags": [
+                    "Design",
+                    "Invention",
+                    "Wildcard"
+                ]
+            },
+            "06ab8c97-0003-4780-8d98-e7ef0b791a7c": {
+                "tags": [
+                    "Combat",
+                    "Ranged Combat",
+                    "Weapon",
+                    "Wildcard"
+                ],
+                "name": "Gun!"
+            },
+            "72b7537a-6418-4a80-a217-9f132055e6ca": {
+                "tags": [
+                    "Police",
+                    "Wildcard"
+                ],
+                "name": "Detective!"
+            },
+            "d3a69836-464d-4674-bdf9-8b0e2ab3cdcd": {
+                "tags": [
+                    "Military",
+                    "Wildcard"
+                ],
+                "name": "Ten-Hut!"
+            }
+        }
     }
 }
