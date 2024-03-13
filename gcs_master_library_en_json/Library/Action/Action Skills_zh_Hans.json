@@ -8612,9 +8612,13 @@
                                         "specialization": "Grenade Launcher"
                                     },
                                     {
-                                        "name": "Guns"
+                                        "name": "Guns",
+                                        "specialization": "Gyroc"
                                     },
-                                    {},
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Light Anti-Armor Weapon"
+                                    },
                                     {
                                         "name": "Guns",
                                         "specialization": "Light Machine Gun"
@@ -8624,23 +8628,57 @@
                                         "specialization": "Musket"
                                     },
                                     {
-                                        "name": "Guns"
+                                        "name": "Guns",
+                                        "specialization": "Pistol"
+                                    },
+                                    {
+                                        "specialization": "Rifle",
+                                        "name": "Beam Weapons"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Shotgun"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Submachine Gun"
                                     }
                                 ],
                                 "tags": [
-                                    "战斗"
+                                    "战斗",
+                                    "Ranged Combat",
+                                    "Weapon"
                                 ],
-                                "name": "Guns"
+                                "name": "Guns",
+                                "specialization": "Rifle"
                             },
                             "920fffa8-7788-401c-a146-29c4e08f82c5": {
                                 "defaults": [
                                     {},
-                                    {},
-                                    {},
-                                    {},
-                                    {},
-                                    {},
-                                    {},
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Grenade Launcher"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Gyroc"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Light Anti-Armor Weapon"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Light Machine Gun"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Musket"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Pistol"
+                                    },
                                     {
                                         "specialization": "Rifle",
                                         "name": "Guns"
@@ -8655,25 +8693,68 @@
                                     "Ranged Combat",
                                     "Weapon"
                                 ],
-                                "specialization": "Shotgun"
+                                "specialization": "Shotgun",
+                                "name": "Guns"
                             },
                             "fe9e9223-1855-4bee-b842-d21dc9f6faa7": {
                                 "name": "Guns",
                                 "defaults": [
                                     {},
                                     {
-                                        "name": "Guns"
+                                        "name": "Guns",
+                                        "specialization": "Grenade Launcher"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Gyroc"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Light Anti-Armor Weapon"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Light Machine Gun"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Musket"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Pistol"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Rifle"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Shotgun"
                                     }
                                 ],
                                 "tags": [
-                                    "战斗"
-                                ]
+                                    "战斗",
+                                    "Ranged Combat",
+                                    "Weapon"
+                                ],
+                                "specialization": "Submachine Gun"
                             },
                             "d496a81c-e9b1-4c95-af8e-6ae4634d599b": {
                                 "tags": [
-                                    null,
-                                    null,
+                                    "Military",
+                                    "Police",
                                     "Spy"
+                                ],
+                                "name": "Interrogation",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Intimidation"
+                                    },
+                                    {
+                                        "name": "Psychology"
+                                    }
                                 ]
                             },
                             "a66a221b-be51-41c0-a75f-52d3b93d856a": {
@@ -8731,17 +8812,23 @@
                                 "defaults": [
                                     {},
                                     {
-                                        "name": "Animal Handling"
+                                        "name": "Animal Handling",
+                                        "specialization": "Equines"
                                     }
-                                ]
+                                ],
+                                "tags": [
+                                    "Animal"
+                                ],
+                                "specialization": "Equines"
                             },
                             "042386be-e5e4-4f81-b420-1c267f21b46a": {
                                 "tags": [
-                                    null,
+                                    "Criminal",
                                     "Police",
                                     "Social",
                                     "Street"
-                                ]
+                                ],
+                                "name": "Streetwise"
                             },
                             "65303f54-f6eb-47db-ab20-5789b7a0dac2": {
                                 "name": "Tactics",
@@ -8759,7 +8846,15 @@
                             "e0f8205d-0507-4fc5-9a31-97fa11622d05": {
                                 "name": "Tonfa",
                                 "tags": [
-                                    "战斗"
+                                    "战斗",
+                                    "Melee Combat",
+                                    "Weapon"
+                                ],
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Shortsword"
+                                    }
                                 ]
                             },
                             "a288b92c-3c1b-4bc0-81d1-676ad864e01b": {
@@ -8785,7 +8880,33 @@
                             },
                             "6d6fcefb-3eaa-4a3d-be1f-3b4152343fbb": {
                                 "tags": [
-                                    "战斗"
+                                    "战斗",
+                                    "Melee Combat",
+                                    "Weapon"
+                                ],
+                                "name": "Shortsword",
+                                "defaults": [
+                                    {
+                                        "name": "Broadsword"
+                                    },
+                                    {
+                                        "name": "Force Sword"
+                                    },
+                                    {
+                                        "name": "Jitte/Sai"
+                                    },
+                                    {
+                                        "name": "Knife"
+                                    },
+                                    {
+                                        "name": "Saber"
+                                    },
+                                    {
+                                        "name": "Smallsword"
+                                    },
+                                    {
+                                        "name": "Tonfa"
+                                    }
                                 ]
                             },
                             "e4acfbdb-6025-45eb-a54d-1c051c3132a1": {
@@ -8839,9 +8960,42 @@
                                     "Animal"
                                 ],
                                 "specialization": "Dogs"
+                            },
+                            "5e26b597-e786-4171-b3b2-3f37a5b0f780": {
+                                "name": "Savoir-Faire",
+                                "tags": [
+                                    "Knowledge",
+                                    "Police",
+                                    "Social"
+                                ],
+                                "specialization": "Police"
+                            },
+                            "5f52a027-3df1-4f61-bc25-c833b89e4b6a": {
+                                "name": "Search",
+                                "tags": [
+                                    "Police",
+                                    "Spy"
+                                ],
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Criminology"
+                                    }
+                                ]
                             }
                         },
-                        "name": "Choose 16 points"
+                        "name": "Choose 16 points",
+                        "notes": "Either two or six of those points may be used to increase one of these skills by one or two levels."
+                    },
+                    "6bf25994-9d6a-490c-a04b-b89c7c48547f": {
+                        "name": "Law",
+                        "tags": [
+                            "Business",
+                            "Humanities",
+                            "Police",
+                            "Social Sciences"
+                        ],
+                        "specialization": "Police"
                     }
                 },
                 "name": "Law Enforcement"
@@ -8852,23 +9006,592 @@
                         "children": {
                             "dd29ee0b-ae88-4a5d-91e2-ef026cb3887b": {
                                 "tags": [
-                                    null,
+                                    "Exploration",
                                     "Military",
                                     "Outdoor"
+                                ],
+                                "name": "Camouflage",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Survival"
+                                    }
                                 ]
                             },
                             "5e14d23f-16b8-4331-89eb-f734bfba1378": {
                                 "children": {
                                     "b3339bfa-d4ee-4e9a-ba24-806930a8ca45": {
                                         "tags": [
-                                            "战斗"
+                                            "战斗",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "name": "Artillery",
+                                        "specialization": "Beams"
+                                    },
+                                    "21dab670-4c7c-452b-9f17-6a13f4f55719": {
+                                        "name": "Artillery",
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Bombs"
+                                    },
+                                    "c4ffd06e-374e-4adc-b210-5a0d6cfdaf2d": {
+                                        "name": "Artillery",
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Cannon"
+                                    },
+                                    "21415cea-3b66-4175-9c8d-4943f20ac7e8": {
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Catapult",
+                                        "name": "Artillery"
+                                    },
+                                    "8b243ec2-8e1a-4daf-a118-56a6ceb004ff": {
+                                        "name": "Artillery",
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Guided Missile"
+                                    },
+                                    "3a067d62-c6b7-4b45-96ea-ebf9653736df": {
+                                        "name": "Artillery",
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Torpedoes"
+                                    }
+                                },
+                                "name": "Artillery"
+                            },
+                            "196e3bca-d0e3-4426-9861-1e71cd0dd68c": {
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Esoteric Medicine"
+                                    },
+                                    {
+                                        "name": "Physician"
+                                    },
+                                    {
+                                        "name": "Veterinary"
+                                    }
+                                ],
+                                "tags": [
+                                    "Everyman",
+                                    "Medical"
+                                ],
+                                "name": "First Aid"
+                            },
+                            "e55f3e1c-b388-4b49-a25c-eab0827aafe7": {
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Artillery"
+                                    }
+                                ],
+                                "tags": [
+                                    "Military"
+                                ],
+                                "name": "Forward Observer"
+                            },
+                            "1c422e94-f606-48c3-ace8-b68bb34b361f": {
+                                "name": "Gesture",
+                                "tags": [
+                                    "Social"
+                                ]
+                            },
+                            "fc344109-35c7-4b5b-b10f-719df2d82cd7": {
+                                "name": "Gunner",
+                                "children": {
+                                    "d2b952a2-6c39-4491-85db-a4f17b665fb7": {
+                                        "name": "Gunner",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Gunner"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Beams"
+                                    },
+                                    "8687c952-5a94-419a-a6de-fa584dc5b7e7": {
+                                        "name": "Gunner",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Gunner"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Cannon"
+                                    },
+                                    "af553c05-18f0-489e-9e96-c7d5edcbf8ae": {
+                                        "name": "Gunner",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Gunner"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Catapult"
+                                    },
+                                    "e9bc315e-4d37-463d-b6ee-c2e9bad1287a": {
+                                        "name": "Gunner",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Gunner"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Machine Gun"
+                                    },
+                                    "d659fed4-bb14-44af-b845-355ef5f4ce32": {
+                                        "name": "Gunner",
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Rockets",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Gunner"
+                                            }
                                         ]
                                     }
                                 }
+                            },
+                            "43033632-27f6-464a-9c77-1c4df3c79fc1": {
+                                "name": "Guns",
+                                "children": {
+                                    "a49dc06e-959a-447a-95c0-ea6b99dbfdec": {
+                                        "name": "Guns",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Guns"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Grenade Launcher"
+                                    },
+                                    "c395303a-b9bc-41c1-aa1b-f4a1c5b9ecc1": {
+                                        "name": "Guns",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Guns"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Gyroc"
+                                    },
+                                    "c9613294-4c2b-429e-93f5-7a838907e1c7": {
+                                        "name": "Guns",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Guns"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Light Anti-Armor Weapon"
+                                    },
+                                    "fdf99ccb-a231-4a56-b02e-2de4b7ebbfc0": {
+                                        "name": "Guns",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Grenade Launcher"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Gyroc"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Light Anti-Armor Weapon"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Musket"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Pistol"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Rifle"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Shotgun"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Submachine Gun"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Light Machine Gun"
+                                    },
+                                    "c5895884-07d0-454b-b58b-fbc25d25c517": {
+                                        "name": "Guns",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Grenade Launcher"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Gyroc"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Light Anti-Armor Weapon"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Light Machine Gun"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Pistol"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Rifle"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Shotgun"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Submachine Gun"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Musket"
+                                    },
+                                    "59bd9e76-9c7d-48e7-8fcf-3ac72a69fb6a": {
+                                        "name": "Guns",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Grenade Launcher"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Gyroc"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Light Anti-Armor Weapon"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Light Machine Gun"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Musket"
+                                            },
+                                            {
+                                                "name": "Beam Weapons",
+                                                "specialization": "Pistol"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Rifle"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Shotgun"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Submachine Gun"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Pistol"
+                                    },
+                                    "3dab120c-5508-437c-8d64-1b409921bc41": {
+                                        "name": "Guns",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Grenade Launcher"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Gyroc"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Light Anti-Armor Weapon"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Light Machine Gun"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Musket"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Pistol"
+                                            },
+                                            {
+                                                "specialization": "Rifle",
+                                                "name": "Beam Weapons"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Shotgun"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Submachine Gun"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Rifle"
+                                    },
+                                    "65614eb0-3433-4cff-a57d-b408606f69ae": {
+                                        "name": "Guns",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Grenade Launcher"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Gyroc"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Light Anti-Armor Weapon"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Light Machine Gun"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Musket"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Pistol"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Rifle"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Submachine Gun"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Shotgun"
+                                    },
+                                    "511c3b6f-f1f2-4c21-be40-35083bd30bf0": {
+                                        "name": "Guns",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Grenade Launcher"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Gyroc"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Light Anti-Armor Weapon"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Light Machine Gun"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Musket"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Pistol"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Rifle"
+                                            },
+                                            {
+                                                "name": "Guns",
+                                                "specialization": "Shotgun"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Combat",
+                                            "Ranged Combat",
+                                            "Weapon"
+                                        ],
+                                        "specialization": "Submachine Gun"
+                                    }
+                                }
+                            },
+                            "d25a5adc-19b8-4a0e-a353-6b764179b10c": {
+                                "name": "Knife",
+                                "defaults": [
+                                    {
+                                        "name": "Force Sword"
+                                    },
+                                    {
+                                        "name": "Main-Gauche"
+                                    },
+                                    {
+                                        "name": "Shortsword"
+                                    }
+                                ],
+                                "tags": [
+                                    "Combat",
+                                    "Melee Combat",
+                                    "Weapon"
+                                ]
+                            },
+                            "aeef04f5-a195-4699-9a66-733267ab163d": {
+                                "name": "Leadership",
+                                "tags": [
+                                    "Military",
+                                    "Social"
+                                ]
+                            },
+                            "425ed42d-a4c0-4c6c-a90a-50b8c64de044": {
+                                "name": "NBC Suit",
+                                "tags": [
+                                    "Military",
+                                    "Technical"
+                                ]
+                            },
+                            "9ea1c446-6873-454d-bf8c-deb78edf58f5": {
+                                "name": "Parachuting",
+                                "tags": [
+                                    "Athletic",
+                                    "Military",
+                                    "Technical"
+                                ]
+                            },
+                            "23ba35de-f213-4d40-b92e-592449c9394c": {
+                                "tags": [
+                                    "Knowledge",
+                                    "Military",
+                                    "Social"
+                                ],
+                                "specialization": "Military",
+                                "name": "Savoir-Faire"
+                            },
+                            "44153d7f-675d-404f-9b09-5e6c781a3122": {
+                                "name": "Scuba",
+                                "prereqs": {
+                                    "prereqs": [
+                                        {
+                                            "name": {
+                                                "qualifier": "swimming"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Diving Suit"
+                                    }
+                                ],
+                                "tags": [
+                                    "Athletic"
+                                ]
                             }
-                        }
+                        },
+                        "name": "Choose 18 points"
                     }
-                }
+                },
+                "name": "Military"
             },
             "f438a52d-792d-4dd7-ac5c-0d716e4e4e16": {
                 "children": {
