@@ -2633,7 +2633,10 @@
                 "specialization": "Psionics",
                 "name": "Expert Skill",
                 "tags": [
-                    "Knowledge"
+                    "Knowledge",
+                    "Magical",
+                    "Occult",
+                    "Scholarly"
                 ]
             },
             "4127f378-a1ce-4577-a7e6-db645ecbef1f": {
@@ -8565,19 +8568,52 @@
                                         "specialization": "Gyroc"
                                     },
                                     {
-                                        "name": "Guns"
+                                        "name": "Guns",
+                                        "specialization": "Light Anti-Armor Weapon"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Light Machine Gun"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Musket"
+                                    },
+                                    {
+                                        "name": "Beam Weapons",
+                                        "specialization": "Pistol"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Rifle"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Shotgun"
+                                    },
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Submachine Gun"
                                     }
                                 ],
                                 "name": "Guns",
                                 "tags": [
-                                    "战斗"
-                                ]
+                                    "战斗",
+                                    "Ranged Combat",
+                                    "Weapon"
+                                ],
+                                "specialization": "Pistol"
                             },
                             "4533b5a0-bf0d-4a6c-8a0d-62cb390c2ae5": {
                                 "defaults": [
                                     {},
-                                    {},
-                                    {},
+                                    {
+                                        "name": "Guns",
+                                        "specialization": "Grenade Launcher"
+                                    },
+                                    {
+                                        "name": "Guns"
+                                    },
                                     {},
                                     {
                                         "name": "Guns",
@@ -8593,7 +8629,8 @@
                                 ],
                                 "tags": [
                                     "战斗"
-                                ]
+                                ],
+                                "name": "Guns"
                             },
                             "920fffa8-7788-401c-a146-29c4e08f82c5": {
                                 "defaults": [
@@ -8646,10 +8683,17 @@
                                         "name": "Finance"
                                     },
                                     {
-                                        "name": "Mathematics"
+                                        "name": "Mathematics",
+                                        "specialization": "Statistics"
+                                    },
+                                    {
+                                        "name": "Merchant"
                                     }
                                 ],
-                                "name": "Accounting"
+                                "name": "Accounting",
+                                "tags": [
+                                    "Business"
+                                ]
                             },
                             "d72b9b22-4a6c-4439-8dca-ec203d93bf74": {
                                 "name": "Liquid Projector",
@@ -8732,16 +8776,69 @@
                             },
                             "b59c4567-e809-4bb5-ab69-2b851256d309": {
                                 "tags": [
-                                    null,
-                                    null,
-                                    null,
+                                    "Criminal",
+                                    "Police",
+                                    "Spy",
                                     "Street"
-                                ]
+                                ],
+                                "name": "Forced Entry"
                             },
                             "6d6fcefb-3eaa-4a3d-be1f-3b4152343fbb": {
                                 "tags": [
                                     "战斗"
                                 ]
+                            },
+                            "e4acfbdb-6025-45eb-a54d-1c051c3132a1": {
+                                "tags": [
+                                    "Humanities",
+                                    "Police",
+                                    "Social Sciences"
+                                ],
+                                "name": "Criminology",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Psychology"
+                                    }
+                                ]
+                            },
+                            "e18701f4-4a8c-4c2c-bfed-64a73278498b": {
+                                "name": "First Aid",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Esoteric Medicine"
+                                    },
+                                    {
+                                        "name": "Physician"
+                                    },
+                                    {
+                                        "name": "Veterinary"
+                                    }
+                                ],
+                                "tags": [
+                                    "Everyman",
+                                    "Medical"
+                                ]
+                            },
+                            "6ba78307-99a0-45d3-9109-083681e2d8eb": {
+                                "name": "Administration",
+                                "defaults": [
+                                    {
+                                        "name": "Merchant"
+                                    }
+                                ],
+                                "tags": [
+                                    "Business",
+                                    "Social"
+                                ]
+                            },
+                            "d874a2bf-80b1-4637-acf5-d62039a2a1e1": {
+                                "name": "Animal Handling",
+                                "tags": [
+                                    "Animal"
+                                ],
+                                "specialization": "Dogs"
                             }
                         },
                         "name": "Choose 16 points"
