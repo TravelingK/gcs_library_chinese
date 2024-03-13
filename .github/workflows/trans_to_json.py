@@ -112,6 +112,9 @@ class infoDict:
                 newskilline['default']={}
                 if 'name' in i['default']:
                     newskilline['default']['name']=i['default']['name']
+            if 'children' in i:
+                childrenSkl=infoDict(i,self.__getContainType(i['type']),into_list_type='children')
+                newskilline['children']=childrenSkl.getChildren()
             if 'defaults' in i:
                 defaultline=[]
                 for ii in i['defaults']:
@@ -132,6 +135,9 @@ class infoDict:
         for advlL in self.advList:
             if advlL in i:
                 newadvine[advlL]=i[advlL] 
+            if 'children' in i:
+                childrenAdv=infoDict(i,self.__getContainType(i['type']),into_list_type='children')
+                newadvine['children']=childrenAdv.getChildren()
             if 'modifiers' in i:
                 modifiersline=[]
                 for ii in i['modifiers']:
