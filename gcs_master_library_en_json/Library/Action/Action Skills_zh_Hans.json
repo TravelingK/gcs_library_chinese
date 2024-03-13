@@ -9584,11 +9584,799 @@
                                     }
                                 ],
                                 "tags": [
-                                    "Athletic"
+                                    "Athletic",
+                                    "Exploration",
+                                    "Military",
+                                    "Outdoor",
+                                    "Technical"
+                                ]
+                            },
+                            "4a7f87b6-7d0c-4a2c-b477-8b52539b35d9": {
+                                "tags": [
+                                    "Athletic",
+                                    "Exploration",
+                                    "Outdoor"
+                                ],
+                                "name": "Skiing"
+                            },
+                            "0d8cb8b2-d7a6-4b1f-9760-16bc9beaabeb": {
+                                "name": "Spear",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Polearm"
+                                    },
+                                    {
+                                        "name": "Staff"
+                                    }
+                                ],
+                                "tags": [
+                                    "Combat",
+                                    "Melee Combat",
+                                    "Weapon"
+                                ]
+                            },
+                            "cd47b149-4150-4277-a5ca-a93c9ae6e6e2": {
+                                "name": "Strategy",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Intelligence Analysis"
+                                    },
+                                    {
+                                        "name": "Tactics"
+                                    },
+                                    {
+                                        "name": "Strategy"
+                                    }
+                                ],
+                                "tags": [
+                                    "Military"
+                                ],
+                                "specialization": "Land"
+                            },
+                            "1aec8f3c-a8fc-4489-909f-778a5dc321d9": {
+                                "name": "Submariner",
+                                "tags": [
+                                    "Vehicle"
+                                ]
+                            },
+                            "2239a965-f54a-4a0c-861d-42b104fffcdf": {
+                                "name": "Survival",
+                                "children": {
+                                    "a70bce2d-2c7d-4849-97e8-c15508d44348": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "specialization": "Desert",
+                                                "name": "Survival"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Island/Beach"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Jungle"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Mountain"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Plains"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Swamplands"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Woodlands"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Arctic"
+                                    },
+                                    "74c0a932-3530-43d6-82c2-8f5ca97f7c4d": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Deep Ocean Vent"
+                                            },
+                                            {
+                                                "specialization": "Fresh-Water Lake",
+                                                "name": "Survival"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Open Ocean"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Reef"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "River/Stream"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Salt-Water Sea"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Tropical Lagoon"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Bank"
+                                    },
+                                    "7d5ddfc5-c256-4163-b11f-e7bf7fd056f5": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Bank"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Fresh-Water Lake"
+                                            },
+                                            {
+                                                "specialization": "Open Ocean",
+                                                "name": "Survival"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Reef"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "River/Stream"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Salt-Water Sea"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Tropical Lagoon"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Deep Ocean Vent"
+                                    },
+                                    "5923f6b0-c7a0-4a21-bbb6-5fad468ef12d": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Arctic"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Island/Beach"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Jungle"
+                                            },
+                                            {
+                                                "specialization": "Mountain",
+                                                "name": "Survival"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Plains"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Swampland"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Woodlands"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Desert"
+                                    },
+                                    "de1d9fba-9f5f-4784-ba09-19b7216b226b": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Bank"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Deep Ocean Vent"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Open Ocean"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Reef"
+                                            },
+                                            {
+                                                "specialization": "River/Stream",
+                                                "name": "Survival"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Salt-Water Sea"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Tropical Lagoon"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Fresh-Water Lake"
+                                    },
+                                    "75917657-1fdd-41ff-9ff0-965ddcb066a8": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Tropical Lagoon"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Arctic"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Desert"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Jungle"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Mountain"
+                                            },
+                                            {
+                                                "specialization": "Plains",
+                                                "name": "Survival"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Swampland"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Woodlands"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Island/Beach"
+                                    },
+                                    "d2b268f9-68d4-45eb-85a6-efe73602266d": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Arctic"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Desert"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Mountain"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Plains"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Swampland"
+                                            },
+                                            {
+                                                "specialization": "Island/Beach",
+                                                "name": "Survival"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Woodlands"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Jungle"
+                                    },
+                                    "014f2ece-0bdb-4f6e-a193-e7f79b9a3e97": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "specialization": "Arctic",
+                                                "name": "Survival"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Desert"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Island/Beach"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Jungle"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Plains"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Swampland"
+                                            },
+                                            {
+                                                "specialization": "Woodlands",
+                                                "name": "Survival"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Mountain"
+                                    },
+                                    "8816547d-12f1-4f53-b03e-1db126c217b0": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "specialization": "Bank",
+                                                "name": "Survival"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Deep Ocean Vent"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Fresh-Water Lake"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Reef"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "River/Stream"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Salt-Water Sea"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Tropical Lagoon"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Open Ocean"
+                                    },
+                                    "75026d63-71db-46f3-9935-3aaec82ed016": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Arctic"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Desert"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Island/Beach"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Jungle"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Mountain"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Swampland"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Woodlands"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Plains"
+                                    },
+                                    "a9f3b3f7-875e-485c-b9aa-76fc4e4d05ed": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Bank"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Deep Ocean Vent"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Fresh-Water Lake"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Open Ocean"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "River/Stream"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Salt-Water Sea"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Tropical Lagoon"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Reef"
+                                    },
+                                    "0c65d0d4-f992-4abb-8c47-9a09ba1b6936": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Swampland"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Bank"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Deep Ocean Vent"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Fresh-Water Lake"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Open Ocean"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Reef"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Salt-Water Sea"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Tropical Lagoon"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "River/Stream"
+                                    },
+                                    "a120f108-cb43-45d0-a22e-6c9341253f7a": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Bank"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Deep Ocean Vent"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Fresh-Water Lake"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Open Ocean"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Reef"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "River/Stream"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Tropical Lagoon"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Salt-Water Sea"
+                                    },
+                                    "09436c1b-f4b0-4a78-bb10-ea5ca4bb88d6": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "River/Stream"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Arctic"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Desert"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Jungle"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Mountain"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Plains"
+                                            },
+                                            {
+                                                "specialization": "Island/Beach",
+                                                "name": "Survival"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Woodlands"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Swampland"
+                                    },
+                                    "ed3b06fb-efe6-4f68-981b-1b5573b8e0f6": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Island/Beach"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Bank"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Deep Ocean Vent"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Fresh-Water Lake"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Open Ocean"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Reef"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Salt-Water Sea"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "River/Stream"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Tropical Lagoon"
+                                    },
+                                    "ab3e9bf6-ce72-4823-b25e-ed49fb3341a4": {
+                                        "name": "Survival",
+                                        "defaults": [
+                                            {},
+                                            {
+                                                "name": "Naturalist"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Arctic"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Desert"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Island/Beach"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Jungle"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Mountain"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Plains"
+                                            },
+                                            {
+                                                "name": "Survival",
+                                                "specialization": "Swampland"
+                                            }
+                                        ],
+                                        "tags": [
+                                            "Exploration",
+                                            "Outdoor"
+                                        ],
+                                        "specialization": "Woodlands"
+                                    }
+                                }
+                            },
+                            "6ac565a7-33ae-4668-9c05-515ecb6006a2": {
+                                "name": "Tactics",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Strategy"
+                                    }
+                                ],
+                                "tags": [
+                                    "Military",
+                                    "Police"
+                                ]
+                            },
+                            "11edef75-63d9-405d-ad0f-9976cbf33e3f": {
+                                "name": "Throwing",
+                                "defaults": [
+                                    {},
+                                    {
+                                        "name": "Dropping"
+                                    }
+                                ],
+                                "tags": [
+                                    "Athletic",
+                                    "Combat",
+                                    "Ranged Combat",
+                                    "Weapon"
+                                ]
+                            },
+                            "746b8aef-f4ff-418b-8e3d-f7577f65b5ef": {
+                                "name": "Seamanship",
+                                "tags": [
+                                    "Vehicle"
                                 ]
                             }
                         },
-                        "name": "Choose 18 points"
+                        "name": "Choose 18 points",
+                        "notes": "Either two or six of these points may be used to raise one of these skills by one or two levels."
+                    },
+                    "6c7f233e-27d1-435a-8a65-84fcf236effe": {
+                        "name": "Soldier",
+                        "tags": [
+                            "Military"
+                        ]
                     }
                 },
                 "name": "Military"
@@ -9605,7 +10393,8 @@
                         "tags": [
                             "Military",
                             "Spy"
-                        ]
+                        ],
+                        "name": "Cryptography"
                     },
                     "28229420-119b-4e96-8cec-96b48d068a34": {
                         "name": "Fast-Draw",
@@ -9748,17 +10537,39 @@
                                 "name": "Hazardous Materials",
                                 "tags": [
                                     "Technical"
-                                ]
+                                ],
+                                "specialization": "Magical"
+                            },
+                            "0ab89c0a-c6c1-4d68-bfaa-8b9c2dec8646": {
+                                "name": "Hazardous Materials",
+                                "tags": [
+                                    "Technical"
+                                ],
+                                "specialization": "Nanotech"
+                            },
+                            "729fe71d-2cac-4e58-a44e-742a969c4872": {
+                                "name": "Hazardous Materials",
+                                "tags": [
+                                    "Technical"
+                                ],
+                                "specialization": "Nuclear"
                             }
                         }
                     },
                     "10c6a8f1-a09d-4786-924e-c69448d4722b": {
                         "tags": [
-                            null,
-                            null,
-                            null,
+                            "Criminal",
+                            "Military",
+                            "Police",
                             "Spy",
                             "Street"
+                        ],
+                        "name": "Observation",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Shadowing"
+                            }
                         ]
                     },
                     "ad6b4996-cbf6-4f0d-ab09-18845f53fe0c": {
@@ -9831,9 +10642,113 @@
                                 "name": "Strategy"
                             }
                         ]
+                    },
+                    "46149e19-ee1f-4ee4-a018-178c61aa4057": {
+                        "name": "Administration",
+                        "defaults": [
+                            {
+                                "name": "Merchant"
+                            }
+                        ],
+                        "tags": [
+                            "Business",
+                            "Social"
+                        ]
+                    },
+                    "54d243ea-74a0-4eaa-b9aa-448ba6124e88": {
+                        "name": "Body Language",
+                        "defaults": [
+                            {
+                                "name": "Detect Lies"
+                            },
+                            {
+                                "name": "Psychology"
+                            }
+                        ],
+                        "tags": [
+                            "Police",
+                            "Social",
+                            "Spy"
+                        ]
+                    },
+                    "f46fb8c1-320f-4864-b3e3-459800c8c43a": {
+                        "name": "Brainwashing",
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "psychology"
+                                    }
+                                }
+                            ]
+                        },
+                        "tags": [
+                            "Military",
+                            "Spy"
+                        ]
+                    },
+                    "292c20bf-7cb5-435b-acdd-50f837b0fdb2": {
+                        "name": "Criminology",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Psychology"
+                            }
+                        ],
+                        "tags": [
+                            "Humanities",
+                            "Police",
+                            "Social Sciences"
+                        ]
+                    },
+                    "615d4bc6-e95f-49cd-b2c7-784056703f52": {
+                        "name": "Holdout",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Sleight of Hand"
+                            }
+                        ],
+                        "tags": [
+                            "Criminal",
+                            "Spy",
+                            "Street"
+                        ]
+                    },
+                    "aa7201f5-d492-458d-951f-0c8af7193ea3": {
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Strategy"
+                            }
+                        ],
+                        "tags": [
+                            "Military",
+                            "Police",
+                            "Spy"
+                        ],
+                        "name": "Intelligence Analysis"
+                    },
+                    "27805ba4-d556-441f-a318-6aeacaad4f7c": {
+                        "name": "Interrogation",
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Intimidation"
+                            },
+                            {
+                                "name": "Psychology"
+                            }
+                        ],
+                        "tags": [
+                            "Military",
+                            "Police",
+                            "Spy"
+                        ]
                     }
                 },
-                "notes": "Choose 20 points. Either two or six of these points may be used to raise one of these skills by one or two levels."
+                "notes": "Choose 20 points. Either two or six of these points may be used to raise one of these skills by one or two levels.",
+                "name": "Security"
             },
             "b822eb10-c80f-47b9-876a-609a545f8a1a": {
                 "name": "Wise Master",
