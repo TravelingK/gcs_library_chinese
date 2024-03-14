@@ -55,7 +55,19 @@
                             "Physical"
                         ],
                         "notes": "Security: @Title@",
-                        "name": "Rank"
+                        "name": "Rank",
+                        "modifiers": [
+                            {
+                                "2e625416-ae48-4fd1-b650-1b83cdcb9ee0": {
+                                    "name": "Replaces Status"
+                                }
+                            },
+                            {
+                                "ef6a3f27-9cda-4027-a83e-ec6e355afb18": {
+                                    "name": "Courtesy"
+                                }
+                            }
+                        ]
                     },
                     "44bc53a2-f6d0-4b75-9ba5-cae997d2b37b": {
                         "name": "Legal Enforcement Powers (@Federal or Secret Service@)",
@@ -80,7 +92,16 @@
                         "name": "Must take template's Duty",
                         "tags": [
                             "Physical"
-                        ]
+                        ],
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "Duty"
+                                    }
+                                }
+                            ]
+                        }
                     },
                     "6e5644b5-64e5-4390-ab68-d38287ef27ec": {
                         "tags": [
@@ -95,7 +116,19 @@
                             "Physical"
                         ],
                         "name": "Rank",
-                        "notes": "Police: @Title@"
+                        "notes": "Police: @Title@",
+                        "modifiers": [
+                            {
+                                "c8ed2a4f-1f78-49c3-96bc-b2b0ca4c4cd7": {
+                                    "name": "Replaces Status"
+                                }
+                            },
+                            {
+                                "2abaf0cc-5b53-4a77-b802-41b8fb53ba37": {
+                                    "name": "Courtesy"
+                                }
+                            }
+                        ]
                     }
                 },
                 "name": "Law Enforcement"
@@ -141,14 +174,184 @@
                             "Advantage",
                             "Social"
                         ],
-                        "name": "Contact (@Fence, fixer, smuggler@)"
+                        "name": "Contact (@Fence, fixer, smuggler@)",
+                        "modifiers": [
+                            {
+                                "a24e43b7-0a40-4c04-880c-4ba26d08ecb0": {
+                                    "notes": "12",
+                                    "name": "Effective skill"
+                                }
+                            },
+                            {
+                                "b774dddc-6ca2-49f6-84b0-7baf46a99abf": {
+                                    "notes": "15",
+                                    "name": "Effective skill"
+                                }
+                            },
+                            {
+                                "03f42b56-0bb7-4dd9-866c-48b94435bd96": {
+                                    "name": "Effective skill",
+                                    "notes": "18"
+                                }
+                            },
+                            {
+                                "84de33f5-6243-4f9c-805d-1fe2a93ccaa3": {
+                                    "name": "Effective skill",
+                                    "notes": "21"
+                                }
+                            },
+                            {
+                                "49384e77-b33e-4bb0-bb26-54a7c2d083cf": {
+                                    "name": "Can obtain information using supernatural talents"
+                                }
+                            },
+                            {
+                                "b5519d03-df97-43d3-a704-8ccb48c726cd": {
+                                    "name": "Group"
+                                }
+                            },
+                            {
+                                "c3e53e6d-2813-4168-831c-f0aa88afec29": {
+                                    "notes": "15-",
+                                    "name": "Appears almost all the time"
+                                }
+                            },
+                            {
+                                "211a9f69-75a3-43cc-bc45-f882f6f140ff": {
+                                    "notes": "12-",
+                                    "name": "Appears quite often"
+                                }
+                            },
+                            {
+                                "102793d6-a7ce-46fa-8e71-e9270d66c40b": {
+                                    "notes": "9-",
+                                    "name": "Appears fairly often"
+                                }
+                            },
+                            {
+                                "571a094f-b570-4c72-80a8-eafb499078c6": {
+                                    "notes": "6-",
+                                    "name": "Appears quite rarely"
+                                }
+                            },
+                            {
+                                "64bfa9f3-6d67-4209-a458-abafc855ca8c": {
+                                    "name": "Completely reliable"
+                                }
+                            },
+                            {
+                                "de1957ac-5f25-4e75-9e5b-c77d5ffcf49a": {
+                                    "name": "Usually reliable"
+                                }
+                            },
+                            {
+                                "f160e4f5-d4e6-4a04-a866-7e8f254c074e": {
+                                    "name": "Somewhat reliable"
+                                }
+                            },
+                            {
+                                "77bb37c9-a174-454d-8d53-36a85a9a2432": {
+                                    "name": "Unreliable"
+                                }
+                            },
+                            {
+                                "c2adea18-609a-41aa-b212-24fd630062d6": {
+                                    "name": "Favor"
+                                }
+                            }
+                        ]
                     },
                     "822c485a-eeb4-4f58-af91-9e9958121f95": {
                         "tags": [
                             "Advantage",
                             "Social"
                         ],
-                        "name": "Contact (@Gang@)"
+                        "name": "Contact (@Gang@)",
+                        "modifiers": [
+                            {
+                                "8c3947b1-ff53-4c1c-af0a-8575f1a568f2": {
+                                    "name": "Effective skill",
+                                    "notes": "12"
+                                }
+                            },
+                            {
+                                "342280da-27c0-4eb6-a9ab-9139fb5fffa5": {
+                                    "name": "Effective skill",
+                                    "notes": "15"
+                                }
+                            },
+                            {
+                                "860ae4aa-8ed3-4ae3-b417-75e46a604711": {
+                                    "notes": "18",
+                                    "name": "Effective skill"
+                                }
+                            },
+                            {
+                                "4e808393-a0d4-4420-95fa-d09e3771bdfa": {
+                                    "notes": "21",
+                                    "name": "Effective skill"
+                                }
+                            },
+                            {
+                                "daf61e96-1826-4a5f-bb2a-41965bb0a5e0": {
+                                    "name": "Can obtain information using supernatural talents"
+                                }
+                            },
+                            {
+                                "5736ffb4-8191-4066-9a5d-246ea0eb396a": {
+                                    "name": "Group"
+                                }
+                            },
+                            {
+                                "c69e5f8d-0b6a-4256-a78b-add4751ff93e": {
+                                    "notes": "15-",
+                                    "name": "Appears almost all the time"
+                                }
+                            },
+                            {
+                                "878244a2-9014-4446-9ce6-35a9e55e7b3d": {
+                                    "name": "Appears quite often",
+                                    "notes": "12-"
+                                }
+                            },
+                            {
+                                "3d1229b4-7a8c-4000-8695-602b7078431f": {
+                                    "notes": "9-",
+                                    "name": "Appears fairly often"
+                                }
+                            },
+                            {
+                                "e10f2ad2-6592-4cef-9b4c-ea249dc914c9": {
+                                    "name": "Appears quite rarely",
+                                    "notes": "6-"
+                                }
+                            },
+                            {
+                                "9c2f6246-a4ff-4b43-9216-1eac5e4f38c7": {
+                                    "name": "Completely reliable"
+                                }
+                            },
+                            {
+                                "c03fd06a-dc75-4e31-b5c7-a6bbb9c6d325": {
+                                    "name": "Usually reliable"
+                                }
+                            },
+                            {
+                                "4130b12b-45c3-4248-9368-5dbbc05bd481": {
+                                    "name": "Somewhat reliable"
+                                }
+                            },
+                            {
+                                "e45a4b37-debf-4bd9-84e3-a25ebf009459": {
+                                    "name": "Unreliable"
+                                }
+                            },
+                            {
+                                "4049de30-2f17-4be0-903c-dfbe70e6a26e": {
+                                    "name": "Favor"
+                                }
+                            }
+                        ]
                     }
                 },
                 "name": "Criminal"
@@ -161,13 +364,34 @@
                             "Physical"
                         ],
                         "notes": "Military: @Title@",
-                        "name": "Rank"
+                        "name": "Rank",
+                        "modifiers": [
+                            {
+                                "bf26afa5-a934-44ec-9ecb-3cc06707fa04": {
+                                    "name": "Replaces Status"
+                                }
+                            },
+                            {
+                                "efd6e245-e84b-4c44-8398-8f2ece899f2e": {
+                                    "name": "Courtesy"
+                                }
+                            }
+                        ]
                     },
                     "b561f2d5-4432-41f9-842a-316b3d8fea46": {
                         "tags": [
                             "Physical"
                         ],
-                        "name": "Must take template's Duty"
+                        "name": "Must take template's Duty",
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "Duty"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 },
                 "name": "Military"
@@ -180,13 +404,34 @@
                             "Physical"
                         ],
                         "notes": "Intelligence: @Title@",
-                        "name": "Rank"
+                        "name": "Rank",
+                        "modifiers": [
+                            {
+                                "ec580518-ab71-4eaa-bc3c-abb6e0bbb17e": {
+                                    "name": "Replaces Status"
+                                }
+                            },
+                            {
+                                "ab3052a7-b825-47de-973c-5279e38f5392": {
+                                    "name": "Courtesy"
+                                }
+                            }
+                        ]
                     },
                     "b230a925-95e4-4517-b45f-f7e69a11dc07": {
                         "name": "Must take template's Duty",
                         "tags": [
                             "Physical"
-                        ]
+                        ],
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "Duty"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 },
                 "name": "Intelligence"
@@ -205,7 +450,21 @@
                             "Mental"
                         ],
                         "name": "Enhanced Parry (All parries)",
-                        "notes": "Max level 3."
+                        "notes": "Max level 3.",
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "Trained by a Master"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Weapon Master"
+                                    }
+                                }
+                            ]
+                        }
                     },
                     "b0b4f42c-7c22-4d2b-805c-68d1e0b82bc1": {
                         "notes": "Max level 3.",
@@ -213,7 +472,21 @@
                             "Advantage",
                             "Mental"
                         ],
-                        "name": "Enhanced Dodge"
+                        "name": "Enhanced Dodge",
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "Trained by a Master"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Weapon Master"
+                                    }
+                                }
+                            ]
+                        }
                     },
                     "cb3aa100-f3da-4198-a30d-427433b086b1": {
                         "tags": [
@@ -221,7 +494,21 @@
                             "Mental"
                         ],
                         "notes": "Max level 3.",
-                        "name": "Enhanced Parry (@Melee weapon skill@)"
+                        "name": "Enhanced Parry (@Melee weapon skill@)",
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "Trained by a Master"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Weapon Master"
+                                    }
+                                }
+                            ]
+                        }
                     },
                     "fe85c03a-91e2-46b8-b9de-87788287193d": {
                         "tags": [
@@ -229,7 +516,21 @@
                             "Mental"
                         ],
                         "name": "Enhanced Parry (Bare hands)",
-                        "notes": "Max level 3."
+                        "notes": "Max level 3.",
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "Trained by a Master"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Weapon Master"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 }
             },
@@ -240,21 +541,132 @@
                     "Exotic",
                     "Physical"
                 ],
-                "name": "Damage Resistance"
+                "name": "Damage Resistance",
+                "modifiers": [
+                    {
+                        "69b432dc-3cf4-445a-92ee-abf25a22966d": {
+                            "name": "Ablative"
+                        }
+                    },
+                    {
+                        "732e250a-399d-4603-8174-e85674460366": {
+                            "name": "Absorption",
+                            "notes": "Enhances @Trait@"
+                        }
+                    },
+                    {
+                        "2b37091d-aa4f-4997-9d69-da94f4c7d692": {
+                            "name": "Absorption",
+                            "notes": "Enhances any trait"
+                        }
+                    },
+                    {
+                        "cf105409-b66c-4395-81a6-f18b8870ecaa": {
+                            "name": "Absorption",
+                            "notes": "Healing only"
+                        }
+                    },
+                    {
+                        "85ea4b4e-9bff-48c5-b065-d2e2c2210f49": {
+                            "name": "Can't wear armor"
+                        }
+                    },
+                    {
+                        "f48e012c-96a5-4887-aa2f-64af1cb6fc22": {
+                            "notes": "@Direction: Back, Right, Left, Top or Underside@",
+                            "name": "Directional"
+                        }
+                    },
+                    {
+                        "cd4b74a8-dfd3-4a01-985a-304cea2b45ef": {
+                            "name": "Directional",
+                            "notes": "Front"
+                        }
+                    },
+                    {
+                        "99cd23e9-6142-4b44-91bd-3406b894d5f9": {
+                            "name": "Flexible"
+                        }
+                    },
+                    {
+                        "3b1ae96d-e26c-4136-aaff-59a825979e99": {
+                            "name": "Hardened"
+                        }
+                    },
+                    {
+                        "3c55432f-3d69-4732-bb03-5c6f52e5a978": {
+                            "notes": "Crushing",
+                            "name": "Limited"
+                        }
+                    },
+                    {
+                        "1df7f3f4-5290-4e62-9a67-ff78ba22b4f6": {
+                            "name": "Limited",
+                            "notes": "@Occasional Attack Form@"
+                        }
+                    },
+                    {
+                        "fd8a5d23-1d99-4afb-93aa-437daff10ae9": {
+                            "name": "Limited",
+                            "notes": "@Rare Attack Form@"
+                        }
+                    },
+                    {
+                        "5ceaa089-0775-4446-aa28-55a92d49eb43": {
+                            "name": "Limited",
+                            "notes": "@Very Common Attack Form@"
+                        }
+                    },
+                    {
+                        "a9bf40fa-a41d-4a7c-b702-76cc11998d46": {
+                            "name": "Reflection"
+                        }
+                    },
+                    {
+                        "bdf237ad-4270-4031-9a6a-afe95082c175": {
+                            "name": "Semi-Ablative"
+                        }
+                    },
+                    {
+                        "bb9be000-0824-4c95-baa2-8a50a6e537ef": {
+                            "name": "Force Field"
+                        }
+                    }
+                ]
             },
             "a54f863a-5e0b-4459-9dcf-b2dfcb06f353": {
                 "tags": [
                     "Advantage",
                     "Physical"
                 ],
-                "name": "Extra Attack"
+                "name": "Extra Attack",
+                "modifiers": [
+                    {
+                        "6d6ac339-f3a3-40d4-ba26-03a14f64bee0": {
+                            "name": "Multi-Strike"
+                        }
+                    },
+                    {
+                        "c83ce495-5d9e-4a9f-b8e6-77efedeff098": {
+                            "notes": "@Skill@",
+                            "name": "Single Skill"
+                        }
+                    }
+                ]
             },
             "5bc7401b-b70c-4198-ae4b-12f0a10cd5dc": {
                 "tags": [
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Trained by a Master"
+                "name": "Trained by a Master",
+                "modifiers": [
+                    {
+                        "fc26c9b0-d994-40df-a93e-e509d16f6711": {
+                            "name": "Evasion"
+                        }
+                    }
+                ]
             },
             "3b8a862e-d00c-4499-9d73-97699f118f9a": {
                 "name": "Weapon Master (Ninja Weapons)",
@@ -262,7 +674,34 @@
                     "Advantage",
                     "Mental"
                 ],
-                "notes": "Anything with an Asian name or Holdout 0 to -2."
+                "notes": "Anything with an Asian name or Holdout 0 to -2.",
+                "modifiers": [
+                    {
+                        "551cd8fd-b252-4751-8114-750f8300f4da": {
+                            "name": "One weapon"
+                        }
+                    },
+                    {
+                        "031a95b5-d09c-4d02-af32-a52f5083a4e6": {
+                            "name": "Two weapons"
+                        }
+                    },
+                    {
+                        "d87ec030-e1c7-4c23-83b4-21c06044bdc4": {
+                            "name": "Small class"
+                        }
+                    },
+                    {
+                        "008a4b2a-ab10-44e9-98a1-16845523e35a": {
+                            "name": "Medium class"
+                        }
+                    },
+                    {
+                        "2ce984f3-1e01-4733-b98c-9f0a43164aa6": {
+                            "name": "Large class"
+                        }
+                    }
+                ]
             },
             "1c9674ab-39e7-48ae-8dfe-2bdce7880753": {
                 "name": "Zeroed",
@@ -277,7 +716,44 @@
                     "Advantage",
                     "Exotic",
                     "Physical"
-                ]
+                ],
+                "modifiers": [
+                    {
+                        "5a860619-3da6-4654-a89a-b5dc03a8722a": {
+                            "name": "No Fine Manipulators"
+                        }
+                    },
+                    {
+                        "77b24461-2330-432a-a3d1-27b0324453d9": {
+                            "name": "Size"
+                        }
+                    },
+                    {
+                        "528de191-2011-4d5c-af01-3629eadeee51": {
+                            "name": "Super Effort"
+                        }
+                    },
+                    {
+                        "951b0809-8d44-46c4-bacb-bc000b1cac5b": {
+                            "notes": "@Attack@",
+                            "name": "One Attack Only"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Weapon Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        }
+                    ]
+                }
             },
             "3b53e573-f48e-4f73-aae8-781089b33638": {
                 "tags": [
@@ -285,7 +761,14 @@
                     "Mental"
                 ],
                 "name": "Combat Reflexes",
-                "notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)"
+                "notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "fast-draw"
+                        }
+                    }
+                ]
             },
             "08260de4-23c4-40ef-8204-811ce568f402": {
                 "tags": [
@@ -299,6 +782,33 @@
                 "tags": [
                     "Advantage",
                     "Mental"
+                ],
+                "modifiers": [
+                    {
+                        "3876b123-fbf7-4f58-b561-1e23c4798c28": {
+                            "name": "One weapon"
+                        }
+                    },
+                    {
+                        "d1a10960-b082-44ef-8178-755f6d8f9a7f": {
+                            "name": "Two weapons"
+                        }
+                    },
+                    {
+                        "444360a0-ccd8-4d33-a326-22d0a975546d": {
+                            "name": "Small class"
+                        }
+                    },
+                    {
+                        "fa5c50ba-edc4-4e9d-adde-5502bf47ee05": {
+                            "name": "Medium class"
+                        }
+                    },
+                    {
+                        "5864cbe3-56a9-4368-9034-48e82ff15868": {
+                            "name": "Large class"
+                        }
+                    }
                 ]
             },
             "19c7a5d6-059e-4a16-a0a2-ab227a6123f7": {
@@ -307,7 +817,21 @@
                     "Advantage",
                     "Physical"
                 ],
-                "name": "Claws, Blunt (Hands)"
+                "name": "Claws, Blunt (Hands)",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Iron Hands"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        }
+                    ]
+                }
             },
             "aa99950e-25cd-4d02-85a8-eafd01616bb8": {
                 "notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture",
@@ -323,7 +847,23 @@
                     "Exotic",
                     "Physical"
                 ],
-                "name": "Striker, Crushing"
+                "name": "Striker, Crushing",
+                "modifiers": [
+                    {
+                        "b765b2d5-603b-4ae8-a440-f8b3f5f0c3de": {
+                            "name": "Shin"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        }
+                    ]
+                }
             },
             "be3a7fd1-d6bf-4e4a-a17c-d3155391ba05": {
                 "tags": [
@@ -331,21 +871,98 @@
                     "Physical"
                 ],
                 "name": "Lifting ST",
-                "notes": "Max level 2."
+                "notes": "Max level 2.",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        }
+                    ]
+                },
+                "modifiers": [
+                    {
+                        "1fdb558b-57dd-48e6-9b34-b382a73019d7": {
+                            "name": "No Fine Manipulators"
+                        }
+                    },
+                    {
+                        "e089ae52-f4d5-404e-91b1-694109a78c3a": {
+                            "name": "Size"
+                        }
+                    },
+                    {
+                        "43ecb25e-26da-43c1-b08e-9799375dc281": {
+                            "name": "Super-Effort"
+                        }
+                    }
+                ]
             },
             "535d1277-2d86-4b3e-b667-24db76e063f1": {
                 "tags": [
                     "Advantage",
                     "Physical"
                 ],
-                "name": "Arm ST"
+                "name": "Arm ST",
+                "modifiers": [
+                    {
+                        "4449d42f-3ac0-4197-991a-21dcd8bd81d6": {
+                            "name": "No fine manipulators"
+                        }
+                    },
+                    {
+                        "1ab93ac7-18dd-4408-b489-82ef46d0e12c": {
+                            "notes": "@Which@",
+                            "name": "Only one arm"
+                        }
+                    },
+                    {
+                        "33cd4d6f-3350-43d1-990e-d6cff64a006b": {
+                            "name": "Three arms"
+                        }
+                    },
+                    {
+                        "a89aeb6a-89ee-4a9e-aa3f-2563515ffe43": {
+                            "name": "Size"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Weapon Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        }
+                    ]
+                }
             },
             "ccb787dd-2b78-467c-bd68-cb6a9d596bde": {
                 "tags": [
                     "Advantage",
                     "Social"
                 ],
-                "name": "Zeroed (Ninja)"
+                "name": "Zeroed (Ninja)",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Weapon Master"
+                            }
+                        }
+                    ]
+                }
             }
         }
     },
@@ -368,7 +985,19 @@
                     "Physical"
                 ],
                 "notes": "DR 1",
-                "name": "Iron Hands"
+                "name": "Iron Hands",
+                "modifiers": [
+                    {
+                        "d95a766e-9aeb-496d-8d87-c88d76edaffc": {
+                            "name": "Tough Skin"
+                        }
+                    },
+                    {
+                        "379668c7-fe0d-46d5-a1c2-3164b5a95198": {
+                            "name": "Partial DR (Hands)"
+                        }
+                    }
+                ]
             },
             "91a1d648-d46c-41f4-9897-a7d8f006cc96": {
                 "notes": "Combine Mighty Blows and All Out Attack",
@@ -392,7 +1021,26 @@
                 "tags": [
                     "Perk"
                 ],
-                "notes": "When not in combat, \"urban\" obstacles require no skill rolls and have no effect on Move."
+                "notes": "When not in combat, \"urban\" obstacles require no skill rolls and have no effect on Move.",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Climbing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Acrobatics"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Jumping"
+                            }
+                        }
+                    ]
+                }
             },
             "8da813b2-8536-45ff-9488-4dfb737ca5f5": {
                 "tags": [
@@ -423,7 +1071,14 @@
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Trained by a Master"
+                "name": "Trained by a Master",
+                "modifiers": [
+                    {
+                        "05c49caf-01be-466a-b38c-30d311aa1b25": {
+                            "name": "Evasion"
+                        }
+                    }
+                ]
             },
             "fb410e11-8f32-4a0a-b252-b65e3447008f": {
                 "tags": [
@@ -443,7 +1098,16 @@
                 "tags": [
                     "Perk",
                     "Physical"
-                ]
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "High-Heeled Heroine"
+                            }
+                        }
+                    ]
+                }
             },
             "11bcb796-324d-4fd2-b28b-dd6ae7b91670": {
                 "tags": [
@@ -475,7 +1139,34 @@
                     "Advantage",
                     "Physical"
                 ],
-                "name": "Extra Attack"
+                "name": "Extra Attack",
+                "modifiers": [
+                    {
+                        "58fdf660-931a-4185-b651-bff3bc43f259": {
+                            "name": "Multi-Strike"
+                        }
+                    },
+                    {
+                        "31a19427-5635-405a-8be3-84306d5d519a": {
+                            "notes": "@Skill@",
+                            "name": "Single Skill"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Trained by a Master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Weapon Master"
+                            }
+                        }
+                    ]
+                }
             },
             "ef54581b-7b32-419e-88bb-09203a003f42": {
                 "tags": [
@@ -528,7 +1219,39 @@
                     "Advantage",
                     "Mental"
                 ],
-                "notes": "Usable once per hour of play"
+                "notes": "Usable once per hour of play",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Luck"
+                            }
+                        }
+                    ]
+                },
+                "modifiers": [
+                    {
+                        "27e8de01-9533-4fe4-8e3e-e15b6a4562ab": {
+                            "name": "Active"
+                        }
+                    },
+                    {
+                        "f8182aaf-6ba3-43fd-87e9-4650ba1e521d": {
+                            "notes": "@Aspect@",
+                            "name": "Aspected"
+                        }
+                    },
+                    {
+                        "458acbd2-5d0c-4415-9430-0a61c4c2bb02": {
+                            "name": "Defensive"
+                        }
+                    },
+                    {
+                        "df5daa6d-967d-4674-86e3-44cbc501f9ff": {
+                            "name": "Wishing"
+                        }
+                    }
+                ]
             },
             "c7d7d614-4d77-4844-abda-7302c063ddad": {
                 "tags": [
@@ -542,6 +1265,164 @@
                 "tags": [
                     "Advantage",
                     "Social"
+                ],
+                "modifiers": [
+                    {
+                        "53ed7916-9730-4d38-ada3-15184dcb8598": {
+                            "name": "Point total",
+                            "notes": "25% of your starting points"
+                        }
+                    },
+                    {
+                        "f4e428e1-bdb1-4507-8483-87a8209923bf": {
+                            "notes": "50% of your starting points",
+                            "name": "Point total"
+                        }
+                    },
+                    {
+                        "2dfed800-1f17-405f-9713-b83e544cae13": {
+                            "notes": "75% of your starting points",
+                            "name": "Point total"
+                        }
+                    },
+                    {
+                        "eb5453b5-a437-4b40-85bb-4766fd4a571a": {
+                            "name": "Point total",
+                            "notes": "100% of your starting points"
+                        }
+                    },
+                    {
+                        "d1acb0d6-1cf8-4aab-9f38-21ce268b9ce3": {
+                            "name": "Point total",
+                            "notes": "150% of your starting points"
+                        }
+                    },
+                    {
+                        "73c4ab21-cf7d-4a69-8109-3aa85fd95f43": {
+                            "name": "Appears constantly",
+                            "notes": "No roll required"
+                        }
+                    },
+                    {
+                        "23402592-d0e0-4f8d-bca3-2e696a170750": {
+                            "name": "Appears almost all the time",
+                            "notes": "15-"
+                        }
+                    },
+                    {
+                        "4858c9c2-6e01-412a-a4d1-f330505bcce3": {
+                            "name": "Appears quite often",
+                            "notes": "12-"
+                        }
+                    },
+                    {
+                        "760b07e1-6d56-4b4c-aa05-fdb6473aca9a": {
+                            "name": "Appears fairly often",
+                            "notes": "9-"
+                        }
+                    },
+                    {
+                        "215e5c56-ecca-4c38-b2eb-e4973e734a3b": {
+                            "notes": "6-",
+                            "name": "Appears quite rarely"
+                        }
+                    },
+                    {
+                        "f50ecc34-ddee-41de-a294-48d197f08c2d": {
+                            "name": "Group of 6-10"
+                        }
+                    },
+                    {
+                        "4aa3742f-8296-456c-879f-adb766d49400": {
+                            "name": "Group of 11-20"
+                        }
+                    },
+                    {
+                        "9e1bf548-3917-42c0-b49c-3d0d29b42193": {
+                            "name": "Group of 21-50"
+                        }
+                    },
+                    {
+                        "4a0912d8-3cd9-4196-89fe-c625a2f27d7d": {
+                            "name": "Group of 51-100"
+                        }
+                    },
+                    {
+                        "fbedf4c0-c3aa-48de-ad10-a176b0d9d163": {
+                            "name": "Group of 101-1000"
+                        }
+                    },
+                    {
+                        "0ffda55f-a02f-4400-ba45-29c9d8928d99": {
+                            "name": "Group of 1001-10000"
+                        }
+                    },
+                    {
+                        "f7d763df-de40-4d46-bbaa-6e854536abdb": {
+                            "name": "Group of 10001-100000"
+                        }
+                    },
+                    {
+                        "0538b253-5a0c-4acc-9473-382a18c5c43b": {
+                            "name": "Group of 100001-1000000"
+                        }
+                    },
+                    {
+                        "b3cf910b-bed8-4151-96bc-6e5a8fe6a6d1": {
+                            "name": "Minion"
+                        }
+                    },
+                    {
+                        "a23c9dbc-0b01-4886-87c1-344844d7e876": {
+                            "name": "Minion",
+                            "notes": "IQ 0 or Slave Mentality"
+                        }
+                    },
+                    {
+                        "17f37830-1b93-4604-814d-00a810501e29": {
+                            "notes": "@Abilities@",
+                            "name": "Special Abilities"
+                        }
+                    },
+                    {
+                        "58017be4-481f-4aa7-a261-6ad4fd017fed": {
+                            "name": "Summonable"
+                        }
+                    },
+                    {
+                        "1da42474-fa35-4c23-8d45-6c20ab517dd4": {
+                            "name": "Sympathy",
+                            "notes": "Death of one party reduces the other to 0 HP"
+                        }
+                    },
+                    {
+                        "65489942-9c33-4a89-9df2-9cdefb17a3a2": {
+                            "name": "Sympathy",
+                            "notes": "Death of one party reduces the other to 0 HP and wounds affect ally but not you"
+                        }
+                    },
+                    {
+                        "a1a9d90b-ee87-4a0b-b5ec-f90729dd1bc2": {
+                            "name": "Sympathy",
+                            "notes": "Death of one party kills the other"
+                        }
+                    },
+                    {
+                        "08af8a5b-7ac8-4030-be9e-e9ddcb421c39": {
+                            "notes": "Death of one party kills the other and wounds affect ally but not you",
+                            "name": "Sympathy"
+                        }
+                    },
+                    {
+                        "ded1bb02-528d-4bbd-afc0-669882bd8c3a": {
+                            "name": "Unwilling"
+                        }
+                    },
+                    {
+                        "8d248b47-9d9f-438f-b7a6-3514366d954e": {
+                            "name": "Favor"
+                        }
+                    }
                 ]
             },
             "6e9c97b6-d9f4-4186-a9d6-235495250e25": {
@@ -550,7 +1431,29 @@
                     "Mental"
                 ],
                 "notes": "+1 to Influence rolls",
-                "name": "Charisma"
+                "name": "Charisma",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "fortune-telling"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "leadership"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "panhandling"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "public speaking"
+                        }
+                    }
+                ]
             },
             "54c9465c-904a-4dc1-8109-c992166c8821": {
                 "name": "Language Talent",
@@ -564,6 +1467,23 @@
                 "tags": [
                     "Advantage",
                     "Social"
+                ],
+                "modifiers": [
+                    {
+                        "b4870d8d-7568-429e-a456-7031ea0118ee": {
+                            "name": "@Local cop@"
+                        }
+                    },
+                    {
+                        "e2e71bd2-b663-4878-9010-491f72fdb789": {
+                            "name": "@KGB@"
+                        }
+                    },
+                    {
+                        "f03bd9d6-0d3c-4088-aad7-edee0657bea1": {
+                            "name": "@FBI agent@"
+                        }
+                    }
                 ]
             },
             "0a04682c-b6d1-457d-98f3-fded64aae4c8": {
@@ -571,6 +1491,53 @@
                 "tags": [
                     "Advantage",
                     "Mental"
+                ],
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "armoury"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "carpentry"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "electrician"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "electronics repair"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "engineer"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "machinist"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "masonry"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "mechanic"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "smith"
+                        }
+                    }
                 ]
             },
             "fd419778-bec0-4c30-af2e-e005eecdaf0e": {
@@ -578,6 +1545,23 @@
                 "tags": [
                     "Advantage",
                     "Physical"
+                ],
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "piloting"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "acrobatics"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "climbing"
+                        }
+                    }
                 ]
             },
             "7b7e3c96-e2ae-4b14-b461-68c3dd8e6bc4": {
@@ -641,21 +1625,209 @@
                         }
                     }
                 ],
-                "name": "Absolute Direction"
+                "name": "Absolute Direction",
+                "modifiers": [
+                    {
+                        "b21303c4-9df1-448c-91d8-fac639fc3c8b": {
+                            "name": "Requires signal"
+                        }
+                    },
+                    {
+                        "55a32bed-b074-43b8-bf9e-ba9c3e2c8843": {
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "piloting"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "aerobatics"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "free fall"
+                                    }
+                                },
+                                {
+                                    "specialization": {
+                                        "qualifier": "hyperspace"
+                                    },
+                                    "name": {
+                                        "qualifier": "navigation"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "navigation"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "hyperspace"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "navigation"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "space"
+                                    }
+                                },
+                                {
+                                    "specialization": {
+                                        "qualifier": "space"
+                                    },
+                                    "name": {
+                                        "qualifier": "navigation"
+                                    }
+                                }
+                            ],
+                            "name": "3D Spatial Sense"
+                        }
+                    }
+                ]
             },
             "965f5bcc-9656-4fea-801d-6b8addb7aa04": {
                 "tags": [
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Intuition"
+                "name": "Intuition",
+                "modifiers": [
+                    {
+                        "ae58ede8-5eb9-4e56-9a4a-0104ecee2b0d": {
+                            "name": "Inspired"
+                        }
+                    }
+                ]
             },
             "f094b0ed-f637-4df3-88af-9b3ae11ae53b": {
                 "tags": [
                     "Advantage",
                     "Social"
                 ],
-                "name": "Patron"
+                "name": "Patron",
+                "modifiers": [
+                    {
+                        "661447ed-09aa-44d1-b655-209a701a0eb3": {
+                            "name": "@Who: Individual with 150% of PC's starting points@"
+                        }
+                    },
+                    {
+                        "3ae0d584-111d-464d-aa7b-14c85342933a": {
+                            "name": "@Who: Organization with assets of at least 1000 times starting wealth@"
+                        }
+                    },
+                    {
+                        "04f38259-c831-4fcb-b23a-fc2c550a6240": {
+                            "name": "@Who: Individual with twice the PC's starting points@"
+                        }
+                    },
+                    {
+                        "63aa597d-d853-479e-9206-3e6075daa509": {
+                            "name": "@Who: Organization with assets of at least 10000 times starting wealth@"
+                        }
+                    },
+                    {
+                        "c15fc39b-fc9f-4e90-8641-eec2fe2f2255": {
+                            "name": "@Who: An ultra-powerful individual@"
+                        }
+                    },
+                    {
+                        "cc4cb21f-f8f5-4e1e-92d4-264e3a58a4da": {
+                            "name": "@Who: Organization with assets of at least 100000 times starting wealth@"
+                        }
+                    },
+                    {
+                        "22d1745c-d253-4c17-b583-d62876c0bbe5": {
+                            "name": "@Who: Organization with assets of at least 1000000 times starting wealth@"
+                        }
+                    },
+                    {
+                        "e163cfb1-4772-410b-9182-55ce3ee5abee": {
+                            "name": "@Who: A national government or giant multi-national organization@"
+                        }
+                    },
+                    {
+                        "169ce403-db32-4c7c-bdfb-33f21bd038b2": {
+                            "name": "@Who: A diety@"
+                        }
+                    },
+                    {
+                        "2d2dab1c-6d3e-4a2f-b62d-8a9ae48604d4": {
+                            "notes": "15-",
+                            "name": "Appears almost all the time"
+                        }
+                    },
+                    {
+                        "2a6ce9d0-34f9-412e-8208-a423c3422cbf": {
+                            "notes": "12-",
+                            "name": "Appears quite often"
+                        }
+                    },
+                    {
+                        "e15cebf4-be87-4175-8c1f-24a5322d0057": {
+                            "notes": "9-",
+                            "name": "Appears fairly often"
+                        }
+                    },
+                    {
+                        "ff4f976e-ac15-4404-b5cf-ae979ecf80ac": {
+                            "notes": "6-",
+                            "name": "Appears quite rarely"
+                        }
+                    },
+                    {
+                        "d7b811b7-0084-4391-bec7-b3c194318367": {
+                            "name": "Equipment",
+                            "notes": "@Equipment worth no more than average starting wealth@"
+                        }
+                    },
+                    {
+                        "94a64fdc-7c65-47a8-9fda-9ce497045b23": {
+                            "name": "Equipment",
+                            "notes": "@Equipment worth more than average starting wealth@"
+                        }
+                    },
+                    {
+                        "1ad75e83-ecfa-4151-930e-cefae3507a53": {
+                            "name": "Highly Accessible"
+                        }
+                    },
+                    {
+                        "fc6d3102-8556-4e6b-8614-d22a16ce75e6": {
+                            "notes": "@Extensive social or political power@",
+                            "name": "Special Abilities"
+                        }
+                    },
+                    {
+                        "47956f6a-7388-4182-89af-16fa02ca1462": {
+                            "notes": "@Magical powers in a non-magical world, higher TL equipment, grants special powers or is supernatural@",
+                            "name": "Special Abilities"
+                        }
+                    },
+                    {
+                        "ba549295-a03b-4876-bec2-e763ee6a1987": {
+                            "name": "Minimal Interventions"
+                        }
+                    },
+                    {
+                        "88a8b788-ded9-44d9-8237-4da69674069d": {
+                            "name": "Secret"
+                        }
+                    },
+                    {
+                        "4ca3cc77-d6b0-4aa5-906f-afab81411718": {
+                            "name": "Unwilling"
+                        }
+                    },
+                    {
+                        "d298fe76-3863-43f7-ab9e-d716ffbc4c96": {
+                            "name": "Favor"
+                        }
+                    }
+                ]
             },
             "e2c6d810-38c4-4768-ae34-f9873b7753d3": {
                 "tags": [
@@ -663,7 +1835,35 @@
                     "Mental",
                     "Supernatural"
                 ],
-                "name": "Wild Talent"
+                "name": "Wild Talent",
+                "modifiers": [
+                    {
+                        "6c0c90e0-de1a-4a80-8958-2c267b5d6c36": {
+                            "name": "Retention"
+                        }
+                    },
+                    {
+                        "7adf2ef5-f7a9-4129-a312-ab40e71a094c": {
+                            "name": "Emergencies Only"
+                        }
+                    },
+                    {
+                        "99310762-560a-41af-8584-73e38168278d": {
+                            "notes": "@Type: Mental, Physical, Magical or Chi@",
+                            "name": "Focused"
+                        }
+                    },
+                    {
+                        "e307d4b0-9179-4d2d-a238-ca54f449faf2": {
+                            "name": "Wild Ability"
+                        }
+                    },
+                    {
+                        "4c18e21a-d680-4bcf-983f-72ce54dc4f58": {
+                            "name": "External"
+                        }
+                    }
+                ]
             },
             "08e5ae1f-e730-43fd-80b9-d8f6de907bb6": {
                 "name": "Unfazeable",
@@ -718,7 +1918,56 @@
                     "Disadvantage",
                     "Social"
                 ],
-                "name": "Wealth"
+                "name": "Wealth",
+                "modifiers": [
+                    {
+                        "80ea9fff-0abf-4faa-9566-6e2d915b7f7b": {
+                            "notes": "Starting wealth is $0",
+                            "name": "Dead Broke"
+                        }
+                    },
+                    {
+                        "db7fd170-254d-4654-a3ef-9d3fd1dfbbcd": {
+                            "notes": "Starting wealth is 1/5 average",
+                            "name": "Poor"
+                        }
+                    },
+                    {
+                        "5533ef5d-1f71-4d44-939e-d2caa94e59f8": {
+                            "name": "Struggling",
+                            "notes": "Starting wealth is 1/2 average"
+                        }
+                    },
+                    {
+                        "65b67c10-e569-4be4-99a9-1d18dcf4f7e2": {
+                            "name": "Average"
+                        }
+                    },
+                    {
+                        "9224a389-9a29-42ec-9b99-e61f8a50be1a": {
+                            "notes": "Starting wealth is 2x average",
+                            "name": "Comfortable"
+                        }
+                    },
+                    {
+                        "a5f91b36-1db4-4082-8028-35ad96846acb": {
+                            "name": "Wealthy",
+                            "notes": "Starting wealth is 5x average"
+                        }
+                    },
+                    {
+                        "b29321e9-1b31-4e55-bf42-ffc41bce0a12": {
+                            "notes": "Starting wealth is 20x average",
+                            "name": "Very Wealthy"
+                        }
+                    },
+                    {
+                        "2fc2c46b-606b-4d81-ad2e-29c421bc7e78": {
+                            "notes": "Starting wealth is 100x average",
+                            "name": "Filthy Rich"
+                        }
+                    }
+                ]
             },
             "b9b4f3fb-11c8-48ad-9d41-81892ca4c552": {
                 "features": [
@@ -781,14 +2030,157 @@
                     "Mental",
                     "Physical"
                 ],
-                "name": "Absolute Direction"
+                "name": "Absolute Direction",
+                "modifiers": [
+                    {
+                        "111d9821-e4d5-48a5-beaf-562f2fe7f7b8": {
+                            "name": "Requires signal"
+                        }
+                    },
+                    {
+                        "f5ed1d95-997c-45fb-998f-c5c31eb94016": {
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "piloting"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "aerobatics"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "free fall"
+                                    }
+                                },
+                                {
+                                    "specialization": {
+                                        "qualifier": "hyperspace"
+                                    },
+                                    "name": {
+                                        "qualifier": "navigation"
+                                    }
+                                },
+                                {
+                                    "specialization": {
+                                        "qualifier": "hyperspace"
+                                    },
+                                    "name": {
+                                        "qualifier": "navigation"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "navigation"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "space"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "navigation"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "space"
+                                    }
+                                }
+                            ],
+                            "name": "3D Spatial Sense"
+                        }
+                    }
+                ]
             },
             "8c116539-8dff-4d45-b819-597624226e9c": {
                 "tags": [
                     "Advantage",
                     "Physical"
                 ],
-                "name": "Appearance"
+                "name": "Appearance",
+                "modifiers": [
+                    {
+                        "04a85bfa-3666-4411-bd68-91ba7e5f40e5": {
+                            "name": "Universal"
+                        }
+                    },
+                    {
+                        "c4573979-9437-49f5-a8e5-04ed758007e7": {
+                            "name": "Off-the-Shelf Looks"
+                        }
+                    },
+                    {
+                        "d06e042b-d732-42df-a690-fc9b75463a31": {
+                            "name": "Androgynous"
+                        }
+                    },
+                    {
+                        "b46b841d-cb41-43e1-a9fa-db552ecfb48a": {
+                            "name": "Impressive"
+                        }
+                    },
+                    {
+                        "63dcc1ca-e6c8-4d47-9571-9ef1a6228a2e": {
+                            "name": "Attractive"
+                        }
+                    },
+                    {
+                        "af2cca08-4664-45f7-91ae-c503708a62a0": {
+                            "name": "Average"
+                        }
+                    },
+                    {
+                        "9e178587-b953-43a6-84fe-69089483fe58": {
+                            "name": "Horrific"
+                        }
+                    },
+                    {
+                        "e3747f77-b138-4a4b-b60d-caa0a8fc1241": {
+                            "name": "Monstrous"
+                        }
+                    },
+                    {
+                        "47944157-51a0-4502-a6e4-c474adb22059": {
+                            "name": "Hideous"
+                        }
+                    },
+                    {
+                        "868111be-b43f-4803-b4a9-3ab0bed43449": {
+                            "name": "Ugly"
+                        }
+                    },
+                    {
+                        "c3fde117-04cc-400d-b1c2-f86c67d64bc2": {
+                            "name": "Unattractive"
+                        }
+                    },
+                    {
+                        "be641ca2-36cd-4d1b-ba8e-15818e9d5af5": {
+                            "name": "Handsome"
+                        }
+                    },
+                    {
+                        "545d2fbc-d3f8-4567-8c57-de2489a72c5f": {
+                            "name": "Beautiful"
+                        }
+                    },
+                    {
+                        "919959d2-19cb-4c34-abe4-cb0495aef3d1": {
+                            "name": "Very Handsome"
+                        }
+                    },
+                    {
+                        "b8842003-3b2b-49ea-b822-60f5567e8b7a": {
+                            "name": "Very Beautiful"
+                        }
+                    },
+                    {
+                        "42a7b1be-0ddb-4d06-8b9c-2947bbef1f9d": {
+                            "name": "Transcendent"
+                        }
+                    }
+                ]
             },
             "a3981207-581a-4a6c-987a-f57513cdd6a3": {
                 "tags": [
@@ -802,7 +2194,92 @@
                     "Advantage",
                     "Social"
                 ],
-                "name": "Contact (@Who@)"
+                "name": "Contact (@Who@)",
+                "modifiers": [
+                    {
+                        "3540df96-874d-466a-a9df-d4fc9f5ba673": {
+                            "notes": "12",
+                            "name": "Effective skill"
+                        }
+                    },
+                    {
+                        "afc224c9-c32b-4d02-999f-61ff96c76c84": {
+                            "name": "Effective skill",
+                            "notes": "15"
+                        }
+                    },
+                    {
+                        "35d9c802-e9f9-4b94-87d7-be593f934dc3": {
+                            "notes": "18",
+                            "name": "Effective skill"
+                        }
+                    },
+                    {
+                        "252a2a2c-08b3-4f1a-b2e0-d1a0d595261a": {
+                            "name": "Effective skill",
+                            "notes": "21"
+                        }
+                    },
+                    {
+                        "3137b3f4-1906-4318-8068-f54ccc4f4a25": {
+                            "name": "Can obtain information using supernatural talents"
+                        }
+                    },
+                    {
+                        "27eb3039-bc78-4e5d-8612-0d48bf9fd861": {
+                            "name": "Group"
+                        }
+                    },
+                    {
+                        "be89b82d-e860-4e6e-acc2-61cccb248044": {
+                            "name": "Appears almost all the time",
+                            "notes": "15-"
+                        }
+                    },
+                    {
+                        "e17a49d9-6f32-4698-9fce-c6794a77fabb": {
+                            "name": "Appears quite often",
+                            "notes": "12-"
+                        }
+                    },
+                    {
+                        "ea65f120-e7e4-4042-93d3-c20b4cb4bbec": {
+                            "notes": "9-",
+                            "name": "Appears fairly often"
+                        }
+                    },
+                    {
+                        "5fa90c1c-664e-4eb9-9f26-682fe0616caa": {
+                            "name": "Appears quite rarely",
+                            "notes": "6-"
+                        }
+                    },
+                    {
+                        "7933e1d1-c1df-4515-903d-b5af9ef11eb1": {
+                            "name": "Completely reliable"
+                        }
+                    },
+                    {
+                        "e2a69986-b1fe-45a2-92ba-be9c9de89f4b": {
+                            "name": "Usually reliable"
+                        }
+                    },
+                    {
+                        "8cbea06d-bd16-4296-b0c7-1816fc237ed5": {
+                            "name": "Somewhat reliable"
+                        }
+                    },
+                    {
+                        "f7c2efc6-68a8-49bd-80dc-4035570bb7f2": {
+                            "name": "Unreliable"
+                        }
+                    },
+                    {
+                        "cc17dfc9-23b1-417b-a0b6-1cdcb4da7dc7": {
+                            "name": "Favor"
+                        }
+                    }
+                ]
             },
             "f7abfa4b-3051-4a93-ad03-2969393dda48": {
                 "name": "Luck, Ridiculous",
@@ -810,7 +2287,39 @@
                 "tags": [
                     "Advantage",
                     "Mental"
-                ]
+                ],
+                "modifiers": [
+                    {
+                        "b9a32453-7ffa-4f47-a39d-df48f24ab5b2": {
+                            "name": "Active"
+                        }
+                    },
+                    {
+                        "4e1728f2-dab1-418d-b011-7ea60a20a3df": {
+                            "name": "Aspected",
+                            "notes": "@Aspect@"
+                        }
+                    },
+                    {
+                        "c4adb2e3-6db9-4b6c-afee-6ff48d69c48e": {
+                            "name": "Defensive"
+                        }
+                    },
+                    {
+                        "1f5eb2c3-a88e-45cf-aae3-d16e26e71e3e": {
+                            "name": "Wishing"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Luck"
+                            }
+                        }
+                    ]
+                }
             },
             "abbaf844-5d37-414c-8105-0322a89ee659": {
                 "name": "Luck, Extraordinary",
@@ -818,7 +2327,39 @@
                 "tags": [
                     "Advantage",
                     "Mental"
-                ]
+                ],
+                "modifiers": [
+                    {
+                        "2a442f89-3592-49e5-8177-18e11d7696c1": {
+                            "name": "Active"
+                        }
+                    },
+                    {
+                        "f99e947e-036d-4328-adf1-7b02e3568367": {
+                            "notes": "@Aspect@",
+                            "name": "Aspected"
+                        }
+                    },
+                    {
+                        "91686309-2bf1-47b5-a2b4-a52d8fd4ade9": {
+                            "name": "Defensive"
+                        }
+                    },
+                    {
+                        "c8fc3e6e-e70e-4fa8-87a8-4f2b0aac5c3f": {
+                            "name": "Wishing"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Luck"
+                            }
+                        }
+                    ]
+                }
             },
             "2a64b69f-dec6-476d-b498-5bc286f35bf3": {
                 "tags": [
@@ -833,7 +2374,44 @@
                     "Advantage",
                     "Physical"
                 ],
-                "name": "Resistant"
+                "name": "Resistant",
+                "modifiers": [
+                    {
+                        "b5819fa2-12b5-4c15-9dfd-99af8f793815": {
+                            "name": "@Very Common: Metabolic Hazards, etc.@"
+                        }
+                    },
+                    {
+                        "119e3149-f5d9-4b87-9735-0c8c5f4d263a": {
+                            "name": "@Common: Poison, Sickness, etc.@"
+                        }
+                    },
+                    {
+                        "64009a41-9e0d-44a2-a0ea-890893ef1484": {
+                            "name": "@Occasional: Disease, Ingested Poison, etc.@"
+                        }
+                    },
+                    {
+                        "cafe4c31-536d-4a8f-9799-197a1461aa1c": {
+                            "name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@"
+                        }
+                    },
+                    {
+                        "c4b0236b-f6a1-4f71-bdac-7190aad87c44": {
+                            "name": "Immunity"
+                        }
+                    },
+                    {
+                        "cde44d3c-4510-4143-9d7d-5ee3bfde9f51": {
+                            "name": "+8 to all HT rolls to resist"
+                        }
+                    },
+                    {
+                        "5ff4b02b-784a-48b7-bb69-1263cf385742": {
+                            "name": "+3 to all HT rolls to resist"
+                        }
+                    }
+                ]
             },
             "aa70a804-03e9-438f-a3fe-4bb64f7f782f": {
                 "tags": [
@@ -842,7 +2420,47 @@
                     "Mental"
                 ],
                 "name": "Language: @Language@",
-                "notes": "With Language Talent"
+                "notes": "With Language Talent",
+                "modifiers": [
+                    {
+                        "c62842b1-90fd-4244-8483-f6f55e628e1e": {
+                            "name": "Native"
+                        }
+                    },
+                    {
+                        "01d9ff91-0a85-4654-8c6e-e6eda07c91d7": {
+                            "name": "Spoken",
+                            "notes": "Accented"
+                        }
+                    },
+                    {
+                        "8014c31e-c765-4252-8332-cd795b09231b": {
+                            "name": "Spoken",
+                            "notes": "Native"
+                        }
+                    },
+                    {
+                        "c8858bff-ebba-49fa-8790-bec09230f2e6": {
+                            "notes": "Accented",
+                            "name": "Written"
+                        }
+                    },
+                    {
+                        "88522a58-1c8b-4a67-a07f-062987582cd6": {
+                            "name": "Written",
+                            "notes": "Native"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Language Talent"
+                            }
+                        }
+                    ]
+                }
             },
             "e8644dba-902f-4eed-acfc-34acbcd27ac3": {
                 "name": "Higher Purpose (@Purpose@)",
@@ -858,13 +2476,91 @@
                     "Language",
                     "Mental"
                 ],
-                "name": "Language: @Language@"
+                "name": "Language: @Language@",
+                "modifiers": [
+                    {
+                        "673becbb-f008-430a-8667-a904e331983d": {
+                            "name": "Native"
+                        }
+                    },
+                    {
+                        "59505b5f-72f8-41fa-b484-a28c9645d7b2": {
+                            "name": "Spoken",
+                            "notes": "None"
+                        }
+                    },
+                    {
+                        "16a7310e-a3c2-491f-bb9f-5ea7e7738d01": {
+                            "notes": "Broken",
+                            "name": "Spoken"
+                        }
+                    },
+                    {
+                        "879b1ec5-564a-4b8a-afdb-555d1982ab41": {
+                            "name": "Spoken",
+                            "notes": "Accented"
+                        }
+                    },
+                    {
+                        "bd09bccc-7591-4720-9dd2-e33195fec70a": {
+                            "name": "Spoken",
+                            "notes": "Native"
+                        }
+                    },
+                    {
+                        "7e2e7d94-c4e7-40b0-82e8-9f07ef374188": {
+                            "notes": "None",
+                            "name": "Written"
+                        }
+                    },
+                    {
+                        "8b4111d1-47c6-4c8c-9494-8b25bd62a8bb": {
+                            "name": "Written",
+                            "notes": "Broken"
+                        }
+                    },
+                    {
+                        "27374fd9-cd3e-41d8-ba07-85ed32bfc20c": {
+                            "name": "Written",
+                            "notes": "Accented"
+                        }
+                    },
+                    {
+                        "89aa6054-1081-4585-95ad-a1d6998785c9": {
+                            "notes": "Native",
+                            "name": "Written"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Language Talent"
+                            }
+                        }
+                    ]
+                }
             },
             "18042571-54bf-4305-8466-f854d34f58c2": {
                 "name": "Fit",
                 "tags": [
                     "Advantage",
                     "Physical"
+                ],
+                "modifiers": [
+                    {
+                        "72906258-c9ec-4d85-a366-a8c2c45a9a4e": {
+                            "notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+                            "name": "Normal"
+                        }
+                    },
+                    {
+                        "f4f462fa-7707-44e4-b9bc-e23734ff4579": {
+                            "name": "Very",
+                            "notes": "+2 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate; lose FP at half the normal rate (in both cases, not FP spent for spells or psi powers)"
+                        }
+                    }
                 ]
             },
             "fa854df3-de3a-487c-b381-e81fc6c78b8e": {
@@ -873,6 +2569,18 @@
                     "Advantage",
                     "Exotic",
                     "Physical"
+                ],
+                "modifiers": [
+                    {
+                        "e629c80c-6f73-4663-89c7-ca10fee6e2fc": {
+                            "name": "Feather Fall"
+                        }
+                    },
+                    {
+                        "f9257659-0b48-4a5c-b08b-75ac01fdd1c2": {
+                            "name": "Parachute"
+                        }
+                    }
                 ]
             },
             "ae8a4d8c-9ffc-46f1-9309-9f434e1ac3d2": {
@@ -901,7 +2609,50 @@
                     "Advantage",
                     "Social"
                 ],
-                "name": "Reputation"
+                "name": "Reputation",
+                "modifiers": [
+                    {
+                        "e5882a26-d532-4a67-8981-00ca7bff16d3": {
+                            "notes": "Almost everyone",
+                            "name": "People Affected"
+                        }
+                    },
+                    {
+                        "a299464b-f1f6-4385-b6f3-8b985bcd56ac": {
+                            "name": "People Affected",
+                            "notes": "Almost everyone except @large class of people@"
+                        }
+                    },
+                    {
+                        "f31a8e2c-18ce-4204-af0c-54e0e770027e": {
+                            "notes": "@Large class of people@",
+                            "name": "People Affected"
+                        }
+                    },
+                    {
+                        "bf256553-c326-4cd2-8997-c4f15abb360a": {
+                            "name": "People Affected",
+                            "notes": "@Small class of people@"
+                        }
+                    },
+                    {
+                        "649e8e82-4a0d-4c02-9c66-6c788c7cb9b3": {
+                            "name": "Recognized all the time"
+                        }
+                    },
+                    {
+                        "200fcf03-e825-458c-b4a6-96b154c93448": {
+                            "notes": "10-",
+                            "name": "Recognized sometimes"
+                        }
+                    },
+                    {
+                        "77fafa8c-9b6d-455d-aa91-aa21b903ec13": {
+                            "name": "Recognized occasionally",
+                            "notes": "7-"
+                        }
+                    }
+                ]
             },
             "ac090449-cf66-4bb1-81ae-7a292080fa63": {
                 "tags": [
@@ -932,14 +2683,63 @@
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Empathy"
+                "name": "Empathy",
+                "modifiers": [
+                    {
+                        "a2c85293-685d-4344-9934-d9e25b510110": {
+                            "name": "Remote"
+                        }
+                    },
+                    {
+                        "48f31ef8-f077-4584-bce6-da89baf66e92": {
+                            "name": "Sensitive"
+                        }
+                    }
+                ]
             },
             "88c20669-691d-47e5-856a-6e77bc1ec4bd": {
                 "tags": [
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Talent (Outdoorsman)"
+                "name": "Talent (Outdoorsman)",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "camouflage"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "fishing"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "mimicry"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "naturalist"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "navigation"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "survival"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "tracking"
+                        }
+                    }
+                ]
             },
             "51b5fe57-72b8-43f7-9190-9ff05c4710f8": {
                 "name": "Gunslinger",
@@ -954,20 +2754,57 @@
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Eidetic Memory"
+                "name": "Eidetic Memory",
+                "modifiers": [
+                    {
+                        "37f282a4-e285-43bb-9261-86314ac39f33": {
+                            "name": "Photographic"
+                        }
+                    }
+                ]
             },
             "790d82c6-0cfe-4a14-8a9c-0f1b40a7db76": {
                 "tags": [
                     "Advantage",
                     "Social"
                 ],
-                "name": "Legal Immunity"
+                "name": "Legal Immunity",
+                "modifiers": [
+                    {
+                        "948bb4e6-a9d5-48eb-9427-4d74bf1383e0": {
+                            "name": "UN Observer"
+                        }
+                    },
+                    {
+                        "6305c4b5-6575-46ec-b80e-ee4e78bb1664": {
+                            "name": "Petty Diplomat"
+                        }
+                    },
+                    {
+                        "116b51c7-7b2f-40c2-b34e-23cae42c3c3a": {
+                            "name": "Diplomatic Immunity"
+                        }
+                    },
+                    {
+                        "1d7ec951-b7c0-468e-82c0-468aeec3a1a4": {
+                            "name": "Bard"
+                        }
+                    }
+                ]
             },
             "3c51688f-5628-4445-aee6-be69c5e7e886": {
                 "name": "Peripheral Vision",
                 "tags": [
                     "Advantage",
                     "Physical"
+                ],
+                "modifiers": [
+                    {
+                        "0e5d65f4-40cc-4d9b-8339-4bfd9ce2729e": {
+                            "notes": "Others can target your eyes at only -6 to hit",
+                            "name": "Easy to Hit"
+                        }
+                    }
                 ]
             },
             "ce28d2f4-43a5-4b40-b00d-c81378b2631a": {
@@ -983,6 +2820,23 @@
                 "tags": [
                     "Advantage",
                     "Physical"
+                ],
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "climbing"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "escape"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "erotic art"
+                        }
+                    }
                 ]
             },
             "9126864a-e807-49df-bd86-a80587778ddb": {
@@ -990,7 +2844,38 @@
                     "Advantage",
                     "Social"
                 ],
-                "name": "Security Clearance"
+                "name": "Security Clearance",
+                "modifiers": [
+                    {
+                        "33e32fcc-6aa3-4264-ac69-126be619736c": {
+                            "notes": "@What@",
+                            "name": "Narrow Clearance on a \"Need to Know\" Basis"
+                        }
+                    },
+                    {
+                        "7eeeb93f-445a-4020-9bad-663b860d1d3c": {
+                            "name": "Narrow Clearance with Free Access",
+                            "notes": "@What@"
+                        }
+                    },
+                    {
+                        "a14e90e7-6c9f-4b4a-9b6a-c9e76363178b": {
+                            "name": "Broad Clearance on a \"Need to Know\" Basis",
+                            "notes": "@What@"
+                        }
+                    },
+                    {
+                        "7b743986-e305-4d0c-b406-f113f90c4807": {
+                            "name": "Broad Clearance with Free Access",
+                            "notes": "@What@"
+                        }
+                    },
+                    {
+                        "d4a3740e-5a89-4792-9474-1b1cdef17053": {
+                            "name": "Minor Importance"
+                        }
+                    }
+                ]
             },
             "452f20d2-7015-427f-b780-7158bbdf3225": {
                 "name": "Hard to Subdue",
@@ -1012,6 +2897,19 @@
                 "tags": [
                     "Advantage",
                     "Mental"
+                ],
+                "modifiers": [
+                    {
+                        "5ce1ee81-9d3c-4574-91e4-025ad60556a8": {
+                            "name": "Wishing"
+                        }
+                    },
+                    {
+                        "8ae03263-7d2e-4b57-b083-8af8830a6771": {
+                            "name": "Wishing",
+                            "notes": "For others only"
+                        }
+                    }
                 ]
             },
             "28fe9c82-7cba-449f-9052-2efca8c271d3": {
@@ -1019,7 +2917,14 @@
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Cultural Adaptability"
+                "name": "Cultural Adaptability",
+                "modifiers": [
+                    {
+                        "c121389e-7153-43b8-99b4-e1d5cf5faaa1": {
+                            "name": "Xeno"
+                        }
+                    }
+                ]
             },
             "e6fc97cb-2fae-492d-8507-f92eb444ec0e": {
                 "name": "Acute Sense (@Special Sense@)",
@@ -1033,7 +2938,14 @@
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Eidetic Memory"
+                "name": "Eidetic Memory",
+                "modifiers": [
+                    {
+                        "a161aadb-99bc-448b-a800-c5a0a07bf566": {
+                            "name": "Photographic"
+                        }
+                    }
+                ]
             },
             "32b5bf1c-9183-4d66-a178-005799fcf9f3": {
                 "notes": "+5 to recover HT",
@@ -1041,21 +2953,52 @@
                     "Advantage",
                     "Physical"
                 ],
-                "name": "Rapid Healing"
+                "name": "Rapid Healing",
+                "modifiers": [
+                    {
+                        "79318e61-d6b4-44df-b939-e58cd5cff30f": {
+                            "name": "Very",
+                            "notes": "Recover 2 HP at a time"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "qualifier": {
+                                "qualifier": 10
+                            }
+                        }
+                    ]
+                }
             },
             "3e301ca9-d4e3-4447-994e-8bf60c88e366": {
                 "tags": [
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Absolute Timing"
+                "name": "Absolute Timing",
+                "modifiers": [
+                    {
+                        "3072a397-466f-454a-90e0-8f92e584d569": {
+                            "name": "Chronolocation"
+                        }
+                    }
+                ]
             },
             "a9f87ad4-d840-49c2-a8a5-21e9f39926bd": {
                 "tags": [
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Cultural Familiarity (@Culture@)"
+                "name": "Cultural Familiarity (@Culture@)",
+                "modifiers": [
+                    {
+                        "56668a94-14b3-4169-8261-00379db27c9f": {
+                            "name": "Alien"
+                        }
+                    }
+                ]
             },
             "f894c716-7411-4711-82ae-b8fd97ddb82d": {
                 "notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
@@ -1063,6 +3006,13 @@
                 "tags": [
                     "Advantage",
                     "Mental"
+                ],
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "fast-draw"
+                        }
+                    }
                 ]
             },
             "9a2981e4-ab1a-4c20-8e1c-c10903562ff4": {
@@ -1070,7 +3020,49 @@
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Talent (Business Acumen)"
+                "name": "Talent (Business Acumen)",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "accounting"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "administration"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "economics"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "finance"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "gambling"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "market analysis"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "merchant"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "propaganda"
+                        }
+                    }
+                ]
             },
             "682c25a9-3f46-49d8-a789-e3b176fc7bd2": {
                 "tags": [
@@ -1078,7 +3070,19 @@
                     "Physical"
                 ],
                 "notes": "@Type@: @Title@",
-                "name": "Rank"
+                "name": "Rank",
+                "modifiers": [
+                    {
+                        "f534a6f4-1e23-4f5d-be77-71fa3bf0b5bc": {
+                            "name": "Replaces Status"
+                        }
+                    },
+                    {
+                        "1233c171-3a9a-408f-af3a-28fe4bcbca3c": {
+                            "name": "Courtesy"
+                        }
+                    }
+                ]
             },
             "0847b06c-6e19-4689-aecd-e26624975e3d": {
                 "tags": [
@@ -1092,7 +3096,24 @@
                     "Advantage",
                     "Social"
                 ],
-                "name": "Social Regard"
+                "name": "Social Regard",
+                "modifiers": [
+                    {
+                        "4d595e25-5b61-4fb1-a6fb-f2729aec9ec6": {
+                            "name": "Feared: @Reason@"
+                        }
+                    },
+                    {
+                        "e4fb1315-54dc-400f-b54c-4a18e9b3374c": {
+                            "name": "Respected: @Reason@"
+                        }
+                    },
+                    {
+                        "df48d4d4-7691-4e47-a948-9aef0c081967": {
+                            "name": "Venerated: @Reason@"
+                        }
+                    }
+                ]
             },
             "ebe73ce2-c808-4cdf-a5ec-6e09e97c3bc2": {
                 "tags": [
@@ -1114,7 +3135,24 @@
                     "Advantage",
                     "Physical"
                 ],
-                "name": "Flexibility (Double-Jointed)"
+                "name": "Flexibility (Double-Jointed)",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "climbing"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "escape"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "erotic art"
+                        }
+                    }
+                ]
             },
             "843d29e7-6d04-41f6-978d-2c3466487bbf": {
                 "tags": [
@@ -1128,7 +3166,74 @@
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Talent (Smooth Operator)"
+                "name": "Talent (Smooth Operator)",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "acting"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "carousing"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "detect lies"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "diplomacy"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "fast-talk"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "intimidation"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "leadership"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "panhandling"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "politics"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "public speaking"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "savoir-faire"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "sex appeal"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "streetwise"
+                        }
+                    }
+                ]
             },
             "87673d65-64d2-4201-8613-3a4d52a6e7ec": {
                 "name": "Acute Vision",
@@ -1142,6 +3247,25 @@
                 "tags": [
                     "Advantage",
                     "Mental"
+                ],
+                "modifiers": [
+                    {
+                        "44f7d069-8ad0-4418-a18e-b2b3af467ee9": {
+                            "name": "Quick"
+                        }
+                    },
+                    {
+                        "b230b0d3-eeab-4e6d-a563-f9a107a4e84d": {
+                            "name": "H4xx0r",
+                            "notes": "Improvised solutions to computer-related problems"
+                        }
+                    },
+                    {
+                        "2a8c3e9e-583d-46a1-9777-f4635b131ba9": {
+                            "name": "Solder and Duct Tape",
+                            "notes": "Improvised electrical devices"
+                        }
+                    }
                 ]
             },
             "cd987851-81f8-4076-88e1-6af580998576": {
@@ -1163,13 +3287,112 @@
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Talent (Mathematical Ability)"
+                "name": "Talent (Mathematical Ability)",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "accounting"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "astronomy"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "cryptography"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "engineer"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "finance"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "market analysis"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "mathematics"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "physics"
+                        }
+                    }
+                ]
             },
             "438f6689-58da-4bb8-8f75-c0242a640d5b": {
                 "name": "High Manual Dexterity",
                 "tags": [
                     "Advantage",
                     "Physical"
+                ],
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "artist"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "jeweler"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "knot-tying"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "leatherworking"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "lockpicking"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "pickpocket"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "sewing"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "sleight of hand"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "surgery"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "machinist"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "mechanic"
+                        }
+                    }
                 ]
             },
             "589d626c-08df-48df-93df-56e5a8481831": {
@@ -1198,20 +3421,116 @@
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Rapier Wit"
+                "name": "Rapier Wit",
+                "modifiers": [
+                    {
+                        "7b52a8ce-d940-40d1-b97d-dcd49b6254d5": {
+                            "name": "Words of Power"
+                        }
+                    }
+                ]
             },
             "c134543c-8950-40c7-a776-fd3b088745b2": {
                 "tags": [
                     "Advantage",
                     "Physical"
                 ],
-                "name": "Voice"
+                "name": "Voice",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "diplomacy"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "fast-talk"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "mimicry"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "performance"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "politics"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "public speaking"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "sex appeal"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "singing"
+                        }
+                    }
+                ]
             },
             "afee5483-4e42-440d-98ad-26d0716a4e0a": {
                 "name": "Talent (Healer)",
                 "tags": [
                     "Advantage",
                     "Mental"
+                ],
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "diagnosis"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "esoteric medicine"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "first aid"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "pharmacy"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "physician"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "physiology"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "psychology"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "surgery"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "veterinary"
+                        }
+                    }
                 ]
             },
             "64d686fd-4b17-4075-aa2d-c08c37110d6b": {
@@ -1343,7 +3662,14 @@
                             "Social"
                         ],
                         "name": "Social Stigma (Ignorant; @Skill@)",
-                        "notes": "-1 Reaction"
+                        "notes": "-1 Reaction",
+                        "features": [
+                            {
+                                "name": {
+                                    "qualifier": "@Skill@"
+                                }
+                            }
+                        ]
                     },
                     "d0cd9ff5-5e6c-47a0-8fc3-676e2efc1718": {
                         "tags": [
@@ -1406,7 +3732,14 @@
                             "Disadvantage",
                             "Social"
                         ],
-                        "name": "Social Stigma (Monster)"
+                        "name": "Social Stigma (Monster)",
+                        "features": [
+                            {
+                                "name": {
+                                    "qualifier": "intimidation"
+                                }
+                            }
+                        ]
                     },
                     "87170335-d53e-47af-8d3d-542ca5e0dfab": {
                         "tags": [
@@ -1457,14 +3790,38 @@
                     "Physical"
                 ],
                 "notes": "-6 to Vision rolls to spot items within 1 yd; -3 DX to any close manual task, including close combat",
-                "name": "Bad Sight (Farsighted)"
+                "name": "Bad Sight (Farsighted)",
+                "modifiers": [
+                    {
+                        "2fd4a890-8489-4546-810f-262ea732d18f": {
+                            "name": "Mitigator",
+                            "notes": "Glasses"
+                        }
+                    }
+                ]
             },
             "09ce2289-65eb-43e2-b366-bf530fea5a6f": {
                 "tags": [
                     "Disadvantage",
                     "Physical"
                 ],
-                "name": "Klutz"
+                "name": "Klutz",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "qualifier": {
+                                "qualifier": 13
+                            }
+                        }
+                    ]
+                },
+                "modifiers": [
+                    {
+                        "9f961108-aa7b-4249-9ef8-63c281eb4f40": {
+                            "name": "Total"
+                        }
+                    }
+                ]
             },
             "c16f7c92-146f-4f77-bb5c-e5945fdd579b": {
                 "name": "Laziness",
@@ -1478,7 +3835,50 @@
                     "Disadvantage",
                     "Social"
                 ],
-                "name": "Reputation"
+                "name": "Reputation",
+                "modifiers": [
+                    {
+                        "820db01b-3d84-46d9-9bac-41ef419b8c77": {
+                            "name": "People Affected",
+                            "notes": "Almost everyone"
+                        }
+                    },
+                    {
+                        "e67569db-8290-4e65-b762-49c5438768f6": {
+                            "name": "People Affected",
+                            "notes": "Almost everyone except @large class of people@"
+                        }
+                    },
+                    {
+                        "da7230cb-3caa-41e7-9d36-33ff0628d3f2": {
+                            "notes": "@Large class of people@",
+                            "name": "People Affected"
+                        }
+                    },
+                    {
+                        "a6e6a010-26dc-4947-937d-c11f682d4825": {
+                            "notes": "@Small class of people@",
+                            "name": "People Affected"
+                        }
+                    },
+                    {
+                        "85349f89-0fbe-4d22-a24c-0838878016f5": {
+                            "name": "Recognized all the time"
+                        }
+                    },
+                    {
+                        "0af1e486-3c71-4185-96a3-4302f35bdf89": {
+                            "name": "Recognized sometimes",
+                            "notes": "10-"
+                        }
+                    },
+                    {
+                        "0b604588-54df-495f-8d5a-128b2127626a": {
+                            "notes": "7-",
+                            "name": "Recognized occasionally"
+                        }
+                    }
+                ]
             },
             "a5b8f337-f0bc-454b-b738-58a39af405cb": {
                 "name": "Wounded",
@@ -1492,7 +3892,44 @@
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Sense of Duty"
+                "name": "Sense of Duty",
+                "modifiers": [
+                    {
+                        "a1efe2dd-4df3-4e7e-82c9-b85a5c3cf32b": {
+                            "name": "Friends and Companions"
+                        }
+                    },
+                    {
+                        "c31007e0-6af9-462d-b764-c83769f10d84": {
+                            "name": "@Small Group@"
+                        }
+                    },
+                    {
+                        "e01ba2fc-971e-4dc1-beb4-03c5c32d00e3": {
+                            "name": "@Individual@"
+                        }
+                    },
+                    {
+                        "7732576c-1600-42b0-a859-007b7f84343c": {
+                            "name": "@Large Group@"
+                        }
+                    },
+                    {
+                        "752900c2-d007-4b12-a507-e0fb489cd5d3": {
+                            "name": "@Entire Race@"
+                        }
+                    },
+                    {
+                        "305c471b-4838-40f4-9dd9-9762a3f3496e": {
+                            "name": "Every Living Being"
+                        }
+                    },
+                    {
+                        "8b1a4254-6385-4f61-91a3-fd4e1330e13a": {
+                            "name": "Team"
+                        }
+                    }
+                ]
             },
             "74289fab-5cee-4fd1-9a8f-254f575f2822": {
                 "notes": "-1 to HT rolls; lose FP at twice normal rate",
@@ -1514,14 +3951,135 @@
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Flashbacks"
+                "name": "Flashbacks",
+                "modifiers": [
+                    {
+                        "1c7ecb51-a055-4c3d-a507-dc4ace866e5d": {
+                            "name": "Mild",
+                            "notes": "-2 for 2d seconds"
+                        }
+                    },
+                    {
+                        "ea855501-5de3-4233-93c3-13372d300021": {
+                            "notes": "-5 for 1d minutes",
+                            "name": "Severe"
+                        }
+                    },
+                    {
+                        "4f791258-fd07-4e5d-b3a1-9cd3a5db6f7d": {
+                            "notes": "No skills for 3d minutes.",
+                            "name": "Crippling"
+                        }
+                    }
+                ]
             },
             "cff07b64-bf24-4740-a44b-50153a35a12c": {
                 "tags": [
                     "Disadvantage",
                     "Social"
                 ],
-                "name": "Enemy (@Who@)"
+                "name": "Enemy (@Who@)",
+                "modifiers": [
+                    {
+                        "6d66086e-ac10-41c9-bd4b-d25453664404": {
+                            "notes": "50% of your starting points",
+                            "name": "Weak Individual"
+                        }
+                    },
+                    {
+                        "ad1b44f6-1322-4219-a73f-2d4c253344dd": {
+                            "name": "Equal Individual",
+                            "notes": "100% of your starting points"
+                        }
+                    },
+                    {
+                        "51edd504-54a5-438d-b87a-07fbd5bce661": {
+                            "name": "Powerful Individual",
+                            "notes": ">150% of your starting points"
+                        }
+                    },
+                    {
+                        "6528e77d-54f7-4aa3-8886-5a3d7464b470": {
+                            "name": "Weak Group"
+                        }
+                    },
+                    {
+                        "8a0d340f-1362-447d-b286-027fa2217a90": {
+                            "name": "Medium Group"
+                        }
+                    },
+                    {
+                        "c1b663de-2656-44ea-b074-d8a12e6d1e1d": {
+                            "notes": "15-",
+                            "name": "Appears almost all the time"
+                        }
+                    },
+                    {
+                        "62d8dd70-0860-4664-8d36-0d3aa1d05565": {
+                            "notes": "12-",
+                            "name": "Appears quite often"
+                        }
+                    },
+                    {
+                        "c4a0ecae-7b59-4dee-a012-999e8fd7e234": {
+                            "name": "Appears fairly often",
+                            "notes": "9-"
+                        }
+                    },
+                    {
+                        "a6be991a-c189-493e-a098-f3f93e6fb882": {
+                            "name": "Appears quite rarely",
+                            "notes": "6-"
+                        }
+                    },
+                    {
+                        "30616ced-1f90-44aa-a837-90a7bec150e8": {
+                            "name": "Large/Powerful Group"
+                        }
+                    },
+                    {
+                        "87e247c6-f3c5-43b9-ac9c-ce6f1658ef45": {
+                            "name": "Utterly Formidable Group"
+                        }
+                    },
+                    {
+                        "68caa678-0631-4b20-8f1e-5ddbfa426808": {
+                            "name": "Unknown"
+                        }
+                    },
+                    {
+                        "f0e692ce-2ec1-4712-970f-3cf74a17db4c": {
+                            "name": "Evil Twin"
+                        }
+                    },
+                    {
+                        "04615d3a-03c1-4465-a325-77ded37d185b": {
+                            "notes": "More skilled or extra abilities",
+                            "name": "Evil Twin"
+                        }
+                    },
+                    {
+                        "fab237da-da99-4941-905a-6a9ac6ee51aa": {
+                            "notes": "More skilled and extra abilities",
+                            "name": "Evil Twin"
+                        }
+                    },
+                    {
+                        "d076b9f3-9607-4657-a8bb-4e05484aac2a": {
+                            "name": "Watcher"
+                        }
+                    },
+                    {
+                        "83e95681-9b99-4494-9f3d-4f8be7d59335": {
+                            "name": "Rival"
+                        }
+                    },
+                    {
+                        "ab5310c6-129f-4c9b-a35d-a4009a8a37e0": {
+                            "name": "Hunter"
+                        }
+                    }
+                ]
             },
             "558b35f9-4e08-4b6c-9e2f-e09dd8ca91c3": {
                 "tags": [
@@ -1535,7 +4093,14 @@
                     "Disadvantage",
                     "Physical"
                 ],
-                "name": "Alcoholism"
+                "name": "Alcoholism",
+                "modifiers": [
+                    {
+                        "001c730b-886c-458f-a5a6-468a3734f600": {
+                            "name": "Illegal"
+                        }
+                    }
+                ]
             },
             "a8036af0-5ddd-42a0-b9c9-77571bfd07b6": {
                 "children": {
@@ -1558,7 +4123,24 @@
                             "Disadvantage",
                             "Mental"
                         ],
-                        "name": "Manaphobia (Magic)"
+                        "name": "Manaphobia (Magic)",
+                        "modifiers": [
+                            {
+                                "20b7440a-eca6-4d56-adbf-1ec8c3b5c15f": {
+                                    "name": "Unknown"
+                                }
+                            },
+                            {
+                                "34d32f5e-2415-47c2-a5a2-8814e7fdb3c7": {
+                                    "name": "Common"
+                                }
+                            },
+                            {
+                                "02bde57b-f645-484d-ab0f-c588359f636c": {
+                                    "name": "Uncommon"
+                                }
+                            }
+                        ]
                     },
                     "cc6ac49d-ac09-4d20-9a5c-81f82290efb4": {
                         "tags": [
@@ -1621,6 +4203,23 @@
                         "tags": [
                             "Disadvantage",
                             "Mental"
+                        ],
+                        "modifiers": [
+                            {
+                                "769fddf5-7cbd-430d-9267-116fd146244b": {
+                                    "name": "Minor"
+                                }
+                            },
+                            {
+                                "f8365d2a-da0e-4ce0-bc5d-43a812f57486": {
+                                    "name": "Major"
+                                }
+                            },
+                            {
+                                "b8b86b7c-8fb6-4edd-ba83-e1b225812d3a": {
+                                    "name": "Severe"
+                                }
+                            }
                         ]
                     },
                     "7f529bfd-f771-401d-a548-1bb95f97cbea": {
@@ -1772,7 +4371,29 @@
                     "Disadvantage",
                     "Social"
                 ],
-                "name": "Secret (@Secret@)"
+                "name": "Secret (@Secret@)",
+                "modifiers": [
+                    {
+                        "2b12dd74-1d4c-47c3-a7ef-604705c389c3": {
+                            "name": "Serious Embarrassment"
+                        }
+                    },
+                    {
+                        "390bc91c-cf6e-4178-a39b-ce482519b828": {
+                            "name": "Utter Rejection"
+                        }
+                    },
+                    {
+                        "7a49267d-6c88-48a0-b011-9269755dfdc8": {
+                            "name": "Imprisonment"
+                        }
+                    },
+                    {
+                        "3efb9a68-9325-4ff8-9988-2b2838496bc4": {
+                            "name": "Possible Death"
+                        }
+                    }
+                ]
             },
             "3ebd0584-9b97-45ee-bba8-814983ffe6ea": {
                 "name": "Post-Combat Shakes",
@@ -1786,7 +4407,16 @@
                 "tags": [
                     "Disadvantage",
                     "Mental"
-                ]
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Selfless"
+                            }
+                        }
+                    ]
+                }
             },
             "3f27bb30-49c1-47b2-a5a4-58cc3317d6cb": {
                 "children": {
@@ -1958,7 +4588,24 @@
                             "Disadvantage",
                             "Mental"
                         ],
-                        "notes": "@Behavior@"
+                        "notes": "@Behavior@",
+                        "modifiers": [
+                            {
+                                "43cc5cdf-6cd9-4688-a65b-17f730f30eaf": {
+                                    "name": "Minor"
+                                }
+                            },
+                            {
+                                "2c4815c8-2ae5-4e99-a295-eb1b550a944b": {
+                                    "name": "Major"
+                                }
+                            },
+                            {
+                                "f07d460a-15e4-4d1b-98f4-bae62b30342a": {
+                                    "name": "Severe"
+                                }
+                            }
+                        ]
                     },
                     "ec756e28-bc8f-4ab4-95ac-5e9f1603c888": {
                         "name": "Compulsive Carousing",
@@ -1980,7 +4627,16 @@
                             "Disadvantage",
                             "Mental"
                         ],
-                        "name": "Compulsive Generosity"
+                        "name": "Compulsive Generosity",
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "miserliness"
+                                    }
+                                }
+                            ]
+                        }
                     },
                     "c11668e6-e830-4d29-bff3-f128e9b8a9a9": {
                         "tags": [
@@ -2009,7 +4665,16 @@
                             "Disadvantage",
                             "Mental"
                         ],
-                        "name": "Compulsive Spending"
+                        "name": "Compulsive Spending",
+                        "prereqs": {
+                            "prereqs": [
+                                {
+                                    "name": {
+                                        "qualifier": "miserliness"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 },
                 "name": "Compulsive Behavior"
@@ -2027,7 +4692,78 @@
                     "Disadvantage",
                     "Physical"
                 ],
-                "name": "Ham-Fisted"
+                "name": "Ham-Fisted",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "artist"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "jeweler"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "knot-tying"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "leatherworking"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "lockpicking"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "pickpocket"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "sewing"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "sleight of hand"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "surgery"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "machinist"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "mechanic"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "fast-draw"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "high manual dexterity"
+                            }
+                        }
+                    ]
+                }
             },
             "da8bc31c-7e08-4b66-8c60-fea76ac33916": {
                 "features": [
@@ -2111,6 +4847,23 @@
                 "tags": [
                     "Disadvantage",
                     "Mental"
+                ],
+                "modifiers": [
+                    {
+                        "0ee656cd-a4e0-4910-a88c-692aa7665d77": {
+                            "name": "Mild"
+                        }
+                    },
+                    {
+                        "9a8e33eb-b2e3-41cb-8056-f40ea2c58b82": {
+                            "name": "Severe"
+                        }
+                    },
+                    {
+                        "15d62eb7-93c5-4e88-bf78-51e4f828e3bd": {
+                            "name": "Crippling"
+                        }
+                    }
                 ]
             },
             "356f5b6d-a300-4bc7-bcb3-532ac2787f74": {
@@ -2125,7 +4878,16 @@
                     "Disadvantage",
                     "Physical"
                 ],
-                "name": "Low Pain Threshold"
+                "name": "Low Pain Threshold",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "high pain threshold"
+                            }
+                        }
+                    ]
+                }
             },
             "0eb4e1f0-47f5-4d8a-b442-0aa0b971ab1e": {
                 "tags": [
@@ -2147,7 +4909,21 @@
                     "Disadvantage",
                     "Physical"
                 ],
-                "name": "Night Blindness"
+                "name": "Night Blindness",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "dark vision"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "night vision"
+                            }
+                        }
+                    ]
+                }
             },
             "181056c6-6eb8-4f57-9b8f-e25c1cc4f043": {
                 "tags": [
@@ -2155,13 +4931,127 @@
                     "Disadvantage",
                     "Physical"
                 ],
-                "name": "Appearance"
+                "name": "Appearance",
+                "modifiers": [
+                    {
+                        "4e19c6f0-0d0a-42eb-bdbc-efefd9328a8e": {
+                            "name": "Universal"
+                        }
+                    },
+                    {
+                        "29aa7612-fc98-4ef4-be36-aeb35db4bdff": {
+                            "name": "Off-the-Shelf Looks"
+                        }
+                    },
+                    {
+                        "06ab1f37-90c5-486f-9077-9adf76ffc32f": {
+                            "name": "Androgynous"
+                        }
+                    },
+                    {
+                        "5ba6da3a-50cf-4759-b671-7fa6cbeebecb": {
+                            "name": "Impressive"
+                        }
+                    },
+                    {
+                        "7c94ef20-e8b8-4737-a46c-a267c1462b4a": {
+                            "name": "Attractive"
+                        }
+                    },
+                    {
+                        "bea54fa7-45a9-418d-85f4-b89f2ece351b": {
+                            "name": "Average"
+                        }
+                    },
+                    {
+                        "d4aea080-3a4f-425d-a7af-c3b0033bb9a6": {
+                            "name": "Horrific"
+                        }
+                    },
+                    {
+                        "9f59e309-3bb6-4f86-bcfb-fa3025280632": {
+                            "name": "Monstrous"
+                        }
+                    },
+                    {
+                        "c5eccecc-182e-4dfa-9c9a-0b9d9f0e581e": {
+                            "name": "Hideous"
+                        }
+                    },
+                    {
+                        "531f75f6-d98e-46a6-8667-944060387977": {
+                            "name": "Ugly"
+                        }
+                    },
+                    {
+                        "869a566d-a0fa-4500-aff3-91e24bd455da": {
+                            "name": "Unattractive"
+                        }
+                    },
+                    {
+                        "6012a30a-ed8e-46fb-8a14-46a4f09183d0": {
+                            "name": "Handsome"
+                        }
+                    },
+                    {
+                        "8100fa7a-b147-44a9-a23c-f00f7a1c26ca": {
+                            "name": "Beautiful"
+                        }
+                    },
+                    {
+                        "505656df-a120-4b16-bb06-2c729feb01df": {
+                            "name": "Very Handsome"
+                        }
+                    },
+                    {
+                        "6e2ea078-6ab6-45d8-ade6-74fb3cad3d82": {
+                            "name": "Very Beautiful"
+                        }
+                    },
+                    {
+                        "f096c06e-0c4d-4067-9352-57efde4bece5": {
+                            "name": "Transcendent"
+                        }
+                    }
+                ]
             },
             "4ba44294-11e9-4300-95a8-7ceb5312e13e": {
                 "name": "Sense of Duty",
                 "tags": [
                     "Disadvantage",
                     "Mental"
+                ],
+                "modifiers": [
+                    {
+                        "94bf9cd0-2d0d-48cd-8043-7016c1bfa4e0": {
+                            "name": "Friends and Companions"
+                        }
+                    },
+                    {
+                        "712aecc5-77c0-4aa7-b793-a5a8440c32e5": {
+                            "name": "@Small Group@"
+                        }
+                    },
+                    {
+                        "cb152380-b9c8-40b8-a98d-08bd8d3b9274": {
+                            "name": "@Individual@"
+                        }
+                    },
+                    {
+                        "cfacec2d-bfba-47a7-8175-0732fad3111f": {
+                            "name": "@Large Group@"
+                        }
+                    },
+                    {
+                        "42f7086a-b7aa-4940-b20d-9917d743c107": {
+                            "name": "@Entire Race@"
+                        }
+                    },
+                    {
+                        "62953710-f54f-4ece-a186-a2a0bd5c8887": {
+                            "name": "Every Living Being"
+                        }
+                    }
                 ]
             },
             "56ebb6bc-9244-4b3b-8606-872ea6f141ae": {
@@ -2176,7 +5066,32 @@
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Delusion"
+                "name": "Delusion",
+                "modifiers": [
+                    {
+                        "1b3ea3e0-b523-4ea3-b09d-3dc61e949062": {
+                            "notes": "Reaction -1",
+                            "name": "Minor: @Belief@"
+                        }
+                    },
+                    {
+                        "79604668-f86a-47b1-ba15-7bdadc7bcf1c": {
+                            "notes": "Reaction -2",
+                            "name": "Major: @Belief@"
+                        }
+                    },
+                    {
+                        "6508b176-892e-4980-8533-b7a051319631": {
+                            "notes": "Reaction -3",
+                            "name": "Severe: @Belief@"
+                        }
+                    },
+                    {
+                        "3cd67b49-67f8-4bd0-96ce-0f252b495490": {
+                            "name": "\"I can win any chase on foot!"
+                        }
+                    }
+                ]
             },
             "270a7e16-27a0-4b1b-9626-a3ba41eecdef": {
                 "name": "Skinny",
@@ -2184,21 +5099,74 @@
                     "Disadvantage",
                     "Physical"
                 ],
-                "notes": "-2 ST vs. knockback"
+                "notes": "-2 ST vs. knockback",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "qualifier": {
+                                "qualifier": 14
+                            }
+                        }
+                    ]
+                },
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "disguise"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "shadowing"
+                        }
+                    }
+                ]
             },
             "25cf7c23-a636-46ed-96c1-8d1694313350": {
                 "tags": [
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Delusion"
+                "name": "Delusion",
+                "modifiers": [
+                    {
+                        "79af4d6d-77b3-4e3a-a704-f2e1e5358c82": {
+                            "notes": "Reaction -1",
+                            "name": "Minor: @Belief@"
+                        }
+                    },
+                    {
+                        "292aec74-d9e8-45f7-8b15-b76f731625f8": {
+                            "name": "Major: @Belief@",
+                            "notes": "Reaction -2"
+                        }
+                    },
+                    {
+                        "c538d3c6-5d7b-4098-8e60-b5f64309dd60": {
+                            "name": "Severe: @Belief@",
+                            "notes": "Reaction -3"
+                        }
+                    },
+                    {
+                        "7966c015-6ea7-4617-a5f3-f9e69b3e4f8d": {
+                            "name": "\"Guns are no match for my favorite weapon!\""
+                        }
+                    }
+                ]
             },
             "b6500d59-16bf-4860-8825-dcfb7dfee8a3": {
                 "tags": [
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Fanaticism (@Group or ideal@)"
+                "name": "Fanaticism (@Group or ideal@)",
+                "modifiers": [
+                    {
+                        "a358ffb5-f2f5-4827-9e79-ee8170f80112": {
+                            "name": "Extreme"
+                        }
+                    }
+                ]
             },
             "abdc3ed1-0b8a-4fbe-ae23-cabb6fb7aebf": {
                 "tags": [
@@ -2213,7 +5181,15 @@
                     "Physical"
                 ],
                 "name": "Bad Sight (Nearsighted)",
-                "notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks"
+                "notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
+                "modifiers": [
+                    {
+                        "8f9f3ab6-55ba-45da-a0f8-6ebf3f365f8c": {
+                            "name": "Mitigator",
+                            "notes": "Glasses"
+                        }
+                    }
+                ]
             },
             "e078d767-462e-4758-b47e-64c9d3a32088": {
                 "name": "Chummy",
@@ -2228,35 +5204,135 @@
                 "tags": [
                     "Disadvantage",
                     "Physical"
-                ]
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "voice"
+                            }
+                        }
+                    ]
+                }
             },
             "23867c08-4c34-4172-a714-3e3b365fe898": {
                 "tags": [
                     "Disadvantage",
                     "Social"
                 ],
-                "name": "Duty (@Agency, mob, service, or similar@)"
+                "name": "Duty (@Agency, mob, service, or similar@)",
+                "modifiers": [
+                    {
+                        "ea4caa10-0171-47ed-82cf-9777b9f243fd": {
+                            "name": "FR: 6"
+                        }
+                    },
+                    {
+                        "56f0eb06-f84b-4847-b4d2-d374e18b743e": {
+                            "name": "FR: 9"
+                        }
+                    },
+                    {
+                        "c032aa93-6e4b-4ec0-b484-82ed496ab081": {
+                            "name": "FR: 12"
+                        }
+                    },
+                    {
+                        "27ea747d-f88f-4e71-a0fc-b43b5903a7a9": {
+                            "name": "FR: 15"
+                        }
+                    },
+                    {
+                        "3fa3914d-395b-430e-82d0-7886f4a4f0b9": {
+                            "name": "Extremely Hazardous"
+                        }
+                    },
+                    {
+                        "5637823c-035a-43e7-af77-8fb605492f93": {
+                            "name": "Involuntary"
+                        }
+                    },
+                    {
+                        "d2bd5859-11f4-4b1d-946f-6b7df807dfbd": {
+                            "name": "Nonhazardous"
+                        }
+                    }
+                ]
             },
             "582d94ac-b5f8-4a5d-9d93-63030dc4eba1": {
                 "tags": [
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Berserk"
+                "name": "Berserk",
+                "modifiers": [
+                    {
+                        "0022a487-46e4-4425-b743-a371e42511c7": {
+                            "name": "Battle Rage"
+                        }
+                    }
+                ]
             },
             "a0f079c6-372a-4427-ae23-8f378a2b3b54": {
                 "tags": [
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Intolerance (@Class, Ethnicity, Nationality, Religion, Sex, or Species@)"
+                "name": "Intolerance (@Class, Ethnicity, Nationality, Religion, Sex, or Species@)",
+                "modifiers": [
+                    {
+                        "988a8b1a-e97b-45de-924c-e3a61811e7aa": {
+                            "name": "Scope: Common"
+                        }
+                    },
+                    {
+                        "a21ab52c-f313-4b28-9b22-ee97eaa5b3ad": {
+                            "name": "Scope: Occasional"
+                        }
+                    },
+                    {
+                        "fb218c5b-3e9d-420b-ba25-e9aedd0d8094": {
+                            "name": "Scope: Rare"
+                        }
+                    },
+                    {
+                        "480e478d-182c-4670-b6f7-29f090bd5429": {
+                            "name": "Scope: Anyone unlike you"
+                        }
+                    }
+                ]
             },
             "ed838e95-d452-47a4-b9c2-332ea9faa59e": {
                 "tags": [
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Delusion"
+                "name": "Delusion",
+                "modifiers": [
+                    {
+                        "32c60b9a-e1cf-4a87-ae6e-89bdc8f9f595": {
+                            "name": "Minor: @Belief@",
+                            "notes": "Reaction -1"
+                        }
+                    },
+                    {
+                        "50f1309e-215d-4c8b-a5a1-1e8f04dc756e": {
+                            "name": "Major: @Belief@",
+                            "notes": "Reaction -2"
+                        }
+                    },
+                    {
+                        "1929874a-4ec8-4690-a9f7-e18e948634ce": {
+                            "name": "Severe: @Belief@",
+                            "notes": "Reaction -3"
+                        }
+                    },
+                    {
+                        "0e6b2667-6c49-44b0-8179-062b42c21580": {
+                            "name": "\"Guns are no match for ninjutsu!\""
+                        }
+                    }
+                ]
             },
             "a90fee70-586c-49be-8271-c88436c0da1f": {
                 "tags": [
@@ -2264,14 +5340,62 @@
                     "Physical"
                 ],
                 "name": "Very Fat",
-                "notes": "+3 ST vs. knockback"
+                "notes": "+3 ST vs. knockback",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "disguise"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "shadowing"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "swimming"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "qualifier": {
+                                "qualifier": 13
+                            }
+                        }
+                    ]
+                }
             },
             "21d8782a-9f55-4d6e-83a8-e90589b47e2d": {
                 "tags": [
                     "Disadvantage",
                     "Social"
                 ],
-                "name": "Secret (Illegal tournament deaths)"
+                "name": "Secret (Illegal tournament deaths)",
+                "modifiers": [
+                    {
+                        "ea452c15-7542-40e9-b27c-0d994cf5d07a": {
+                            "name": "Serious Embarrassment"
+                        }
+                    },
+                    {
+                        "b8966d9b-1fa0-47b6-9de9-fd1c6743913e": {
+                            "name": "Utter Rejection"
+                        }
+                    },
+                    {
+                        "37b89cf9-901d-450e-aa26-bd6579ad0732": {
+                            "name": "Imprisonment"
+                        }
+                    },
+                    {
+                        "1ab493d2-38b5-491a-9c91-ad4513106fa3": {
+                            "name": "Possible Death"
+                        }
+                    }
+                ]
             },
             "ec37f126-a659-4867-b039-5d070a778c3a": {
                 "name": "Honesty",
@@ -2314,7 +5438,24 @@
                     "Physical",
                     "Quirk"
                 ],
-                "name": "Overweight"
+                "name": "Overweight",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "disguise"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "shadowing"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "swimming"
+                        }
+                    }
+                ]
             },
             "871063a8-5cdc-462a-8312-e4e22d68f51c": {
                 "tags": [
@@ -2328,6 +5469,31 @@
                 "tags": [
                     "Disadvantage",
                     "Mental"
+                ],
+                "modifiers": [
+                    {
+                        "a19942b8-1962-47c8-9ebc-2d6aaef37054": {
+                            "notes": "Reaction -1",
+                            "name": "Minor: @Belief@"
+                        }
+                    },
+                    {
+                        "bfcf26a8-66b9-4792-b4e9-e9cb36d338b2": {
+                            "notes": "Reaction -2",
+                            "name": "Major: @Belief@"
+                        }
+                    },
+                    {
+                        "d85856fe-174a-486c-b1e6-c2010d533ce1": {
+                            "notes": "Reaction -3",
+                            "name": "Severe: @Belief@"
+                        }
+                    },
+                    {
+                        "1e28b6de-07c7-404a-843c-84300652d970": {
+                            "name": "\"Skill always beats strength!\""
+                        }
+                    }
                 ]
             },
             "7d22d137-0eb0-438b-86bf-7c58e964324a": {
@@ -2365,7 +5531,29 @@
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Intolerance (@Rival nation or other large group@)"
+                "name": "Intolerance (@Rival nation or other large group@)",
+                "modifiers": [
+                    {
+                        "a89828f7-2044-4535-98c0-8790fa525a73": {
+                            "name": "Scope: Common"
+                        }
+                    },
+                    {
+                        "063f55ef-4fac-4ff8-b575-68dd81a61fc2": {
+                            "name": "Scope: Occasional"
+                        }
+                    },
+                    {
+                        "24111822-9671-4b9b-9800-1bc5f1b16836": {
+                            "name": "Scope: Rare"
+                        }
+                    },
+                    {
+                        "02402dca-049b-4cb3-96f8-92a34e70fea1": {
+                            "name": "Scope: Anyone unlike you"
+                        }
+                    }
+                ]
             },
             "e7d36fe3-d3c9-496e-9aed-cc6a9311dc14": {
                 "name": "Lecherousness",
@@ -2379,6 +5567,43 @@
                 "tags": [
                     "Disadvantage",
                     "Social"
+                ],
+                "modifiers": [
+                    {
+                        "71c044a9-3299-4872-87d0-b1d3a6d71a36": {
+                            "name": "FR: 6"
+                        }
+                    },
+                    {
+                        "a2c71a2d-515f-48b6-b5e9-c313e42aa1f8": {
+                            "name": "FR: 9"
+                        }
+                    },
+                    {
+                        "a078a119-9ed9-413c-b073-3185389d8cb0": {
+                            "name": "FR: 12"
+                        }
+                    },
+                    {
+                        "fafd51d8-76f7-4801-a884-6ad1ee516ce7": {
+                            "name": "FR: 15"
+                        }
+                    },
+                    {
+                        "6c07398d-301a-4fd5-9021-c54da49e26d9": {
+                            "name": "Extremely Hazardous"
+                        }
+                    },
+                    {
+                        "7d08869a-9da0-4142-93f7-b26737f338f2": {
+                            "name": "Involuntary"
+                        }
+                    },
+                    {
+                        "986cf74a-44d9-40c0-a522-614902b4008a": {
+                            "name": "Nonhazardous"
+                        }
+                    }
                 ]
             },
             "9f148d55-7035-4269-9777-9d1baedd1008": {
@@ -2387,7 +5612,33 @@
                     "Physical"
                 ],
                 "notes": "+2 ST vs. knockback",
-                "name": "Fat"
+                "name": "Fat",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "disguise"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "shadowing"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "swimming"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "qualifier": {
+                                "qualifier": 15
+                            }
+                        }
+                    ]
+                }
             },
             "a3b12381-26e5-4e26-a221-5e17a04dbf36": {
                 "tags": [
@@ -2401,7 +5652,29 @@
                     "Disadvantage",
                     "Social"
                 ],
-                "name": "Secret (Professional killer)"
+                "name": "Secret (Professional killer)",
+                "modifiers": [
+                    {
+                        "4c8edfe1-fab5-439b-810e-24c267099140": {
+                            "name": "Serious Embarrassment"
+                        }
+                    },
+                    {
+                        "cdc26566-10a1-4a57-a94e-ef8486f0953f": {
+                            "name": "Utter Rejection"
+                        }
+                    },
+                    {
+                        "cabda361-c294-4b9a-951a-98904261ed99": {
+                            "name": "Imprisonment"
+                        }
+                    },
+                    {
+                        "2608552e-48de-4244-9153-7dab7076026f": {
+                            "name": "Possible Death"
+                        }
+                    }
+                ]
             },
             "0625237a-d3c1-4d8c-88ab-116f946e3148": {
                 "tags": [
@@ -2445,6 +5718,13 @@
                 "tags": [
                     "Disadvantage",
                     "Mental"
+                ],
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "fast talk"
+                        }
+                    }
                 ]
             },
             "b4da3d68-15e3-412b-8e92-f62ed5c53907": {
@@ -2508,7 +5788,27 @@
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Delusion"
+                "name": "Delusion",
+                "modifiers": [
+                    {
+                        "12a62f0b-2cad-4f07-916d-902e1cf7cce3": {
+                            "notes": "Reaction -1",
+                            "name": "Minor: @Belief@"
+                        }
+                    },
+                    {
+                        "e21979fc-49e1-4129-a0f3-689faad8990a": {
+                            "name": "Major: @Belief@",
+                            "notes": "Reaction -2"
+                        }
+                    },
+                    {
+                        "ea397488-7538-4733-9ab7-bbc446119d46": {
+                            "name": "Severe: @Belief@",
+                            "notes": "Reaction -3"
+                        }
+                    }
+                ]
             },
             "95b37074-9e61-451e-838e-63b697dbf99e": {
                 "name": "Stubbornness",
@@ -2522,7 +5822,14 @@
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Clueless"
+                "name": "Clueless",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "savoir-faire"
+                        }
+                    }
+                ]
             },
             "587b8030-7636-45a9-b80b-f031cb27f902": {
                 "tags": [
@@ -2550,14 +5857,78 @@
                     "Disadvantage",
                     "Physical"
                 ],
-                "name": "Colorblindness"
+                "name": "Colorblindness",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "artist"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "chemistry"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "driving"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "merchant"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "piloting"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "tracking"
+                        }
+                    }
+                ]
             },
             "1a0d3384-5b08-4f2a-971c-45324ef9701a": {
                 "tags": [
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Oblivious"
+                "name": "Oblivious",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "diplomacy"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "fast-talk"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "intimidation"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "savoir-faire"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "sex appeal"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "streetwise"
+                        }
+                    }
+                ]
             },
             "03b5e7da-4d3a-420d-b9f9-9d8b9b3d7975": {
                 "notes": "React to others at +4; -2 to IQ-based skills when alone, or -1 in a group of 4 or less",
@@ -2602,6 +5973,29 @@
                 "tags": [
                     "Disadvantage",
                     "Physical"
+                ],
+                "features": [
+                    {
+                        "specialization": {
+                            "qualifier": "animals"
+                        },
+                        "name": {
+                            "qualifier": "disguise"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "disguise"
+                        },
+                        "specialization": {
+                            "qualifier": "animals"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "shadowing"
+                        }
+                    }
                 ]
             },
             "8559218f-a47f-4952-a148-defe39630fee": {
@@ -2652,14 +6046,39 @@
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Selfless"
+                "name": "Selfless",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "Selfish"
+                            }
+                        }
+                    ]
+                }
             },
             "d4dded3e-f5d8-4747-93b6-c445269018f9": {
                 "tags": [
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Gullibility"
+                "name": "Gullibility",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "merchant"
+                        }
+                    }
+                ],
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "detect lies"
+                            }
+                        }
+                    ]
+                }
             },
             "b10c44fd-d64c-4a08-9f71-f0a9b3fb8a22": {
                 "tags": [
@@ -2687,14 +6106,30 @@
                     "Disadvantage",
                     "Physical"
                 ],
-                "name": "No Depth Perception"
+                "name": "No Depth Perception",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "one eye"
+                            }
+                        }
+                    ]
+                }
             },
             "79005047-1128-4d88-994a-53ff7443e35e": {
                 "tags": [
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Fanaticism (@Employer, nation, or service@)"
+                "name": "Fanaticism (@Employer, nation, or service@)",
+                "modifiers": [
+                    {
+                        "2b3df614-716f-4245-b57b-48aaf556e56d": {
+                            "name": "Extreme"
+                        }
+                    }
+                ]
             },
             "f4ae35d3-90e9-4fc1-b89f-29ffbca94e77": {
                 "name": "Hard of Hearing",
@@ -2708,6 +6143,38 @@
                 "tags": [
                     "Disadvantage",
                     "Physical"
+                ],
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "diplomacy"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "fast-talk"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "performance"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "public speaking"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "sex appeal"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "singing"
+                        }
+                    }
                 ]
             },
             "1e8323d4-7210-48d6-8a15-76aa884ffc9b": {
@@ -2730,28 +6197,120 @@
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Fearfulness"
+                "name": "Fearfulness",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "fearlessness"
+                            }
+                        }
+                    ]
+                }
             },
             "2cb86114-50bb-4395-b390-d7456ab59591": {
                 "tags": [
                     "Disadvantage",
                     "Social"
                 ],
-                "name": "Secret Identity (@Secret ID@)"
+                "name": "Secret Identity (@Secret ID@)",
+                "modifiers": [
+                    {
+                        "482f8308-5206-45e3-8a03-5550ee6b045d": {
+                            "name": "Serious Embarrassment"
+                        }
+                    },
+                    {
+                        "c271602c-9aea-4d49-96f3-1e45de8406c7": {
+                            "name": "Utter Rejection"
+                        }
+                    },
+                    {
+                        "8e802178-5abb-43ea-a469-ee11a2b3ffc3": {
+                            "name": "Imprisonment"
+                        }
+                    },
+                    {
+                        "b0130421-4cf6-4297-b7de-1af807a36612": {
+                            "name": "Possible Death"
+                        }
+                    }
+                ]
             },
             "3707db5f-cceb-4cdc-832c-c92f45a6928c": {
                 "tags": [
                     "Mental",
                     "Quirk"
                 ],
-                "name": "Incompetence (@Skill@)"
+                "name": "Incompetence (@Skill@)",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "@Skill@"
+                        }
+                    }
+                ]
             },
             "840b62f2-2c1e-49b5-a136-b7505c617078": {
                 "tags": [
                     "Disadvantage",
                     "Physical"
                 ],
-                "name": "Motion Sickness"
+                "name": "Motion Sickness",
+                "prereqs": {
+                    "prereqs": [
+                        {
+                            "name": {
+                                "qualifier": "submariner"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "submarine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "spacer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "shiphandling"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "seamanship"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "crewman"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "boating"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "airshipman"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "driving"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "piloting"
+                            }
+                        }
+                    ]
+                }
             },
             "0ccc6163-d5a4-4a2c-b078-84cd2a8c74b1": {
                 "tags": [
@@ -2765,7 +6324,19 @@
                     "Disadvantage",
                     "Mental"
                 ],
-                "name": "Callous"
+                "name": "Callous",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "psychology"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "teaching"
+                        }
+                    }
+                ]
             },
             "415ba4d4-6efb-4685-b190-54409bc0e199": {
                 "name": "Paranoia",
@@ -2784,7 +6355,29 @@
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Talent (Driver's Reflexes)"
+                "name": "Talent (Driver's Reflexes)",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "Boating"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Driving"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Piloting"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Submarine"
+                        }
+                    }
+                ]
             },
             "292e936a-36a2-47e3-84ee-5910c97a6a2c": {
                 "name": "Talent (Strong Chi)",
@@ -2792,6 +6385,33 @@
                     "Advantage",
                     "Cinematic",
                     "Mental"
+                ],
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "Breaking Blow"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Flying Leap"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Power Blow"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Pressure Points"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Pressure Secrets"
+                        }
+                    }
                 ]
             },
             "b997cfaa-d20f-43ab-a1a1-c29b37f5c10b": {
@@ -2799,21 +6419,140 @@
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Talent (Craftiness)"
+                "name": "Talent (Craftiness)",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "Camouflage"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Disguise"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Holdout"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Shadowing"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Stealth"
+                        }
+                    }
+                ]
             },
             "969212fc-6323-451f-9884-e0fa06e88393": {
                 "tags": [
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Talent (Born to be Wired)"
+                "name": "Talent (Born to be Wired)",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "Computer Hacking"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Computer Operation"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Computer Programming"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Cryptography"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Electronics Repair"
+                        },
+                        "specialization": {
+                            "qualifier": "Computers"
+                        }
+                    },
+                    {
+                        "specialization": {
+                            "qualifier": "Computers"
+                        },
+                        "name": {
+                            "qualifier": "Electronics Repair"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Expert Skill"
+                        }
+                    }
+                ]
             },
             "630337aa-a838-4b45-bf68-de3fd560efa2": {
                 "tags": [
                     "Advantage",
                     "Mental"
                 ],
-                "name": "Talent (Circuit Sense)"
+                "name": "Talent (Circuit Sense)",
+                "features": [
+                    {
+                        "name": {
+                            "qualifier": "Electrician"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Electronics Operation"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Electronics Repair"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Engineer"
+                        },
+                        "specialization": {
+                            "qualifier": "Electrical"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Engineer"
+                        },
+                        "specialization": {
+                            "qualifier": "Electrical"
+                        }
+                    },
+                    {
+                        "specialization": {
+                            "qualifier": "Electronics"
+                        },
+                        "name": {
+                            "qualifier": "Engineer"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Engineer"
+                        },
+                        "specialization": {
+                            "qualifier": "Electronics"
+                        }
+                    }
+                ]
             }
         }
     }
