@@ -28,29 +28,17 @@ def outjson(nnskillline,docname):
         skill.write(skillline)
 
 class infoDict:
-    sklList=['name','tags','notes','specialization','vtt_notes']
-    advList=['name','tags','notes','vtt_notes']
-    admList=['name','tags','notes','vtt_notes']
-    containDict={'modifier_':'adm','trait_':'adq','skill_':'skl','equipment_':'eqp','eqp_modifier_':'eqm','note_':'not','spell_':'spl','advantage':'adv'}
+    JsonList=['name','tags','notes','specialization','vtt_notes','situation']
 
 
-    def __init__(self,info_dict,info_type,into_list_type='rows') -> None:
+    def __init__(self,info_dict,into_list_type='rows') -> None:
 
         self.dict=info_dict
-        self.type=info_type
+        #self.type=info_type
         self.list_type=into_list_type
         if into_list_type in info_dict:
             self.list=info_dict[into_list_type]
 
-
-    def __getContainType(self,containInfo:str)->str:
-        '''
-        输入从dict中获取的type信息，输出一个三字母的type缩写.缩写规则在containDict中
-        modifier -> adm; trait->adq
-        '''
-        for i in self.containDict:
-            if i in containInfo:
-                return self.containDict[i]
 
     def __getPrereqs(self,prereqs:dict):
         dictprereqs={}
@@ -72,15 +60,8 @@ class infoDict:
         get方法由type决定，针对contain需要上级判断type类型后输入
         """
         out_dict={}
-
         for i in self.list:
-            match self.type:
-                case "skl":
-                    out_dict[i['id']]=self.getSklJson(i)
-                case "adq":
-                    out_dict[i['id']]=self.getAdqJson(i)
-                case "adm":
-                    out_dict[i['id']]=self.getAdmJson(i)
+            out_dict[i['id']]=self.getJson(i)
         return out_dict
 
 
@@ -95,86 +76,43 @@ class infoDict:
                     newfeaturesline[featureInfo]['qualifier']=feature[featureInfo]['qualifier']
                     featuresline.append(newfeaturesline)
         return(featuresline)
-
-    def getSklJson(self,i:dict)->dict:
-        '''
-        self仅作为参数传递用
-        i为主要输入，为一个dict，输出翻译dict
-        '''
-        newskilline={}
-        #newskilline['id']=i['id']
-        for skilL in self.sklList:
-            if skilL in i:
-                newskilline[skilL]=i[skilL]
-            if 'prereqs' in i:
-                newskilline['prereqs']=self.__getPrereqs(i['prereqs'])
-            if 'default' in i:
-                newskilline['default']={}
-                if 'name' in i['default']:
-                    newskilline['default']['name']=i['default']['name']
-            if 'children' in i:
-                childrenSkl=infoDict(i,self.__getContainType(i['type']),into_list_type='children')
-                newskilline['children']=childrenSkl.getChildren()
-            if 'defaults' in i:
-                defaultline=[]
-                for ii in i['defaults']:
-                    nnewskilline={}
-                    if 'name' in ii:
-                        nnewskilline['name']=ii['name']
-                    if 'specialization' in ii:
-                        nnewskilline['specialization']=ii['specialization']
-                    defaultline.append(nnewskilline)
-                newskilline['defaults']=defaultline
-        return newskilline
-    def getAdqJson(self,i:dict)->dict:
-        '''
-        self仅作为参数传递用
-        i为主要输入，为一个dict，输出翻译dict
-        '''
-        newadvine={}
-        for advlL in self.advList:
-            if advlL in i:
-                newadvine[advlL]=i[advlL] 
-            if 'children' in i:
-                childrenAdv=infoDict(i,self.__getContainType(i['type']),into_list_type='children')
-                newadvine['children']=childrenAdv.getChildren()
-            if 'modifiers' in i:
-                modifiersline=[]
-                for ii in i['modifiers']:
-                    newmodifiersline={}
-                    if 'name' in ii:
-                        newmodifiersline['name']=ii['name']
-                    if 'notes' in ii:
-                        newmodifiersline['notes']=ii['notes']
-                    if 'situation' in ii:
-                        newmodifiersline['situation']=ii['situation']
-                    if 'specialization' in ii:
-                        newmodifiersline['specialization']=ii['specialization']
-                    if 'features' in ii:
-                        newmodifiersline['features']=self.__getfeature(ii['features'])
-                    if 'children' in ii:
-                        childrenAdm=infoDict(ii,self.__getContainType(ii['type']),into_list_type='children')
-                        newmodifiersline['children']=childrenAdm.getChildren()
-                    modifiersline.append(newmodifiersline)
-                newadvine['modifiers']=modifiersline
-                if 'features' in i:
-                    newadvine['features']=self.__getfeature(i['features'])
-        return(newadvine)
-    def getAdmJson(self,i:dict)->dict:
-        '''
-        self仅作为参数传递用
-        i为主要输入，为一个dict，输出翻译dict
-        '''
-        newadmline={}
-        for admL in self.admList:
+    
+    def getJson(self,i:dict)->dict:
+        newjsonline={}
+        for admL in self.JsonList:
             if admL in i:
-                newadmline[admL]=i[admL]
+                newjsonline[admL]=i[admL]
         if 'features' in i:
-            newadmline['features']=self.__getfeature(i['features'])
-        if ('children' in i ):
-            childrenAdm=infoDict(i,self.__getContainType(i['type']),into_list_type='children')
-            newadmline['children']=childrenAdm.getChildren()
-        return(newadmline)
+            newjsonline['features']=self.__getfeature(i['features'])
+        if 'children' in i :
+            childrenJson=infoDict(i,into_list_type='children')
+            newjsonline['children']=childrenJson.getChildren()
+        if 'modifiers' in i:
+            JsonModifiersline=['modifiers']
+            for ii in i['modifiers']:
+                childrenJson=infoDict(i)
+                newjsonlinemodifiers=childrenJson.getJson(ii)
+                JsonModifiersline.append(newjsonlinemodifiers)
+            newjsonline['modifiers']=JsonModifiersline
+        if 'features' in i:
+            newjsonline['features']=self.__getfeature(i['features'])
+        if 'prereqs' in i:
+            newjsonline['prereqs']=self.__getPrereqs(i['prereqs'])
+        if 'default' in i:
+            newjsonline['default']={}
+            if 'name' in i['default']:
+                newjsonline['default']['name']=i['default']['name']
+        if 'defaults' in i:
+            defaultline=[]
+            for ii in i['defaults']:
+                nnewskilline={}
+                if 'name' in ii:
+                    nnewskilline['name']=ii['name']
+                if 'specialization' in ii:
+                    nnewskilline['specialization']=ii['specialization']
+                defaultline.append(nnewskilline)
+            newjsonline['defaults']=defaultline
+        return(newjsonline)
     
 def en_to_file(input_file):
     """
@@ -196,9 +134,8 @@ def en_to_file(input_file):
     """
     mubiao_file=re.sub(".[a-z]{0,}$","_en.json",input_file)
     mubiao_file=re.sub("gcs_master_library","gcs_master_library_en_json",mubiao_file)
-    type=re.findall('(?<=.)[a-z]{0,}$',input_file)
     raw_json=getdict(input_file)
-    Info=infoDict(raw_json,type[0])
+    Info=infoDict(raw_json)
     new_json=Info.getChildren()
     outjson(new_json,mubiao_file)
     
