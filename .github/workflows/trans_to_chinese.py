@@ -67,6 +67,8 @@ def zh_to_file(mobanwenjian):
         for ii in mobanjson['rows']:
             if (ii['id']==i):
                 ii=mergeDict(ii,chinesejson[i])
+    outjson(mobanjson,mubiao_file)
+
             
 
 zh_to_file(sys.argv[1])
