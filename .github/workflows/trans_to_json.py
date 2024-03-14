@@ -88,11 +88,11 @@ class infoDict:
             childrenJson=infoDict(i,into_list_type='children')
             newjsonline['children']=childrenJson.getChildren()
         if 'modifiers' in i:
-            JsonModifiersline=['modifiers']
+            JsonModifiersline=[]
             for ii in i['modifiers']:
                 childrenJson=infoDict(i)
                 newjsonlinemodifiers=childrenJson.getJson(ii)
-                JsonModifiersline.append(newjsonlinemodifiers)
+                JsonModifiersline.append({ii['id']:newjsonlinemodifiers})
             newjsonline['modifiers']=JsonModifiersline
         if 'features' in i:
             newjsonline['features']=self.__getfeature(i['features'])
