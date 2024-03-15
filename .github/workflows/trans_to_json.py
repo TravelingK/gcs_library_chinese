@@ -28,7 +28,7 @@ def outjson(nnskillline,docname):
         skill.write(skillline)
 
 class infoDict:
-    JsonList=['name','tags','notes','specialization','vtt_notes','situation']
+    JsonList=['name','tags','notes','specialization','vtt_notes','situation','description']
 
 
     def __init__(self,info_dict,into_list_type='rows') -> None:
