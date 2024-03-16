@@ -33,13 +33,19 @@ def  mergeDict(olddict:dict,newdict:dict)->dict:
         elif isinstance(olddict[i],list) and (i in newdict):
             mDictlist=[]
             Dictnum=len(olddict[i])
-            if (i=='children')or(i=='modifiers'):
+            if (i=='children'):
+                for ti in olddict[i]:
+                    for tii in newdict[i]:
+                        if ti['id']==tii:
+                            mDictlist.append(mergeDict(ti,newdict[i][tii]))
+                            olddict[i]=mDictlist
+            elif (i=='modifiers'):
                 for ti in olddict[i]:
                     for tii in newdict[i]:
                         for tiii in tii:
                             if ti['id']==tiii:
                                 mDictlist.append(mergeDict(ti,tii[tiii]))
-                olddict[i]=mDictlist
+                                olddict[i]=mDictlist
             elif isinstance(olddict[i][0],dict):
                 while(Dictnum>len(newdict[i])):
                     newdict[i].append({}) 
