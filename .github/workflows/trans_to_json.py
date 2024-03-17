@@ -71,14 +71,15 @@ class infoDict:
         featureInfoList=['name','usage','tags','specialization']
         for feature in featureList:
             newfeaturesline={}
-            for featureInfo in featureInfoList:
-                if 'situation' in feature:
-                    newfeaturesline['situation']=feature['situation']
+            if 'situation' in feature:
+                newfeaturesline['situation']=feature['situation']
+            for featureInfo in featureInfoList:       
                 if (featureInfo in feature) and ('qualifier' in feature[featureInfo]):
                     newfeaturesline[featureInfo]={}
                     newfeaturesline[featureInfo]['qualifier']=feature[featureInfo]['qualifier']
-                    featuresline.append(newfeaturesline)
+            featuresline.append(newfeaturesline)
         return(featuresline)
+    
     
 
     
