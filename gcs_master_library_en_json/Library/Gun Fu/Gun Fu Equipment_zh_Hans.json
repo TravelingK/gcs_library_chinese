@@ -3,43 +3,176 @@
         "tags": [
             "Missile Weapon"
         ],
-        "description": "CZ Model 75, 9x19mm"
+        "description": "CZ Model 75, 9x19mm",
+        "weapons": {
+            "3ba9f448-45f6-4cc9-9f32-864d8665e4d9": {
+                "calc": {
+                    "damage": "2d+2 pi"
+                },
+                "defaults": [
+                    {
+                        "specialization": "Pistol",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns"
+                    }
+                ],
+                "damage": {
+                    "type": "pi"
+                }
+            }
+        }
     },
     "e1d6432d-2587-49de-acb2-11bcbafe355c": {
         "tags": [
             "Missile Weapon"
         ],
-        "description": "Ruger KP90, .45 ACP"
+        "description": "Ruger KP90, .45 ACP",
+        "weapons": {
+            "5fa21035-d321-40ca-a6d8-21b44daa1ea6": {
+                "defaults": [
+                    {
+                        "specialization": "Pistol",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns"
+                    }
+                ],
+                "damage": {
+                    "type": "pi+"
+                },
+                "calc": {
+                    "damage": "2d pi+"
+                }
+            }
+        }
     },
     "baf8e103-8eca-4d0e-8924-8831c03cf2c4": {
         "tags": [
             "Missile Weapon"
         ],
-        "description": "H&K USP Match, 9x19mm"
+        "description": "H&K USP Match, 9x19mm",
+        "weapons": {
+            "80803ac4-10a1-4866-9236-0a3c0b4035c3": {
+                "calc": {
+                    "damage": "2d+2 pi"
+                },
+                "defaults": [
+                    {
+                        "specialization": "Pistol",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns"
+                    }
+                ],
+                "damage": {
+                    "type": "pi"
+                }
+            }
+        }
     },
     "7cfd4b13-c6f9-445b-a31c-ed839b639ae3": {
         "tags": [
             "Missile Weapon"
         ],
-        "description": "Miroku-Browning BPS, 12G 3\""
+        "description": "Miroku-Browning BPS, 12G 3\"",
+        "weapons": {
+            "e96d9de6-05df-4c26-94ca-235115c8512e": {
+                "defaults": [
+                    {
+                        "specialization": "Shotgun",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns"
+                    }
+                ],
+                "damage": {
+                    "type": "pi"
+                },
+                "calc": {
+                    "damage": "1d+2 pi"
+                }
+            }
+        }
     },
     "5684d5e6-5947-4095-8e72-e1b8b5e304c1": {
         "tags": [
             "Missile Weapon"
         ],
-        "description": "Franchi PA3, 12G 2.75\""
+        "description": "Franchi PA3, 12G 2.75\"",
+        "weapons": {
+            "1ff95290-878c-458a-96ce-0be430bd9648": {
+                "calc": {
+                    "damage": "1d+1 pi"
+                },
+                "defaults": [
+                    {
+                        "specialization": "Shotgun",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns"
+                    }
+                ],
+                "damage": {
+                    "type": "pi"
+                }
+            }
+        }
     },
     "d38fc88f-9432-41b8-9921-81d35456bfa8": {
         "tags": [
             "Missile Weapon"
         ],
-        "description": "Mossberg Model 500 Cruiser, 12G 3\""
+        "description": "Mossberg Model 500 Cruiser, 12G 3\"",
+        "weapons": {
+            "aa09bc96-0cd0-4046-81e7-820cfd94ecf8": {
+                "calc": {
+                    "damage": "1d+2 pi"
+                },
+                "defaults": [
+                    {
+                        "specialization": "Shotgun",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns"
+                    }
+                ],
+                "damage": {
+                    "type": "pi"
+                }
+            }
+        }
     },
     "a24d5d30-133d-4961-812c-74a6c95d14a9": {
         "tags": [
             "Missile Weapon"
         ],
-        "description": "IMI Galil MAR, 5.56x45mm"
+        "description": "IMI Galil MAR, 5.56x45mm",
+        "weapons": {
+            "ab93e51a-ad9a-4473-9a53-1fa7f8a3f81d": {
+                "defaults": [
+                    {
+                        "name": "Guns",
+                        "specialization": "Rifle"
+                    },
+                    {
+                        "name": "Guns"
+                    }
+                ],
+                "damage": {
+                    "type": "pi"
+                },
+                "calc": {
+                    "damage": "4d pi"
+                }
+            }
+        }
     },
     "0af2108d-d746-4a7e-8061-5141c4b8ea08": {
         "tags": [
@@ -47,7 +180,29 @@
             "Melee Weapon",
             "Tacticool Gadget"
         ],
-        "description": "Mag Knuckles"
+        "description": "Mag Knuckles",
+        "weapons": {
+            "096f1df7-adbd-4382-83fb-fbfcafc71944": {
+                "defaults": [
+                    {
+                        "name": "Boxing"
+                    },
+                    {
+                        "name": "Brawling"
+                    },
+                    {
+                        "name": "Karate"
+                    }
+                ],
+                "usage": "Punch",
+                "damage": {
+                    "type": "cr"
+                },
+                "calc": {
+                    "damage": "thr cr"
+                }
+            }
+        }
     },
     "10f79a95-6e0d-495d-8fae-d4d6dde4f9d0": {
         "tags": [

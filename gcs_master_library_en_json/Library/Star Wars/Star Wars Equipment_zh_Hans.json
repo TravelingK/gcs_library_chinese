@@ -61,7 +61,34 @@
             "长柄武器"
         ],
         "notes": "requires two c cells to operate for almost 43 seconds",
-        "description": "Force Spike"
+        "description": "Force Spike",
+        "weapons": {
+            "78393993-5017-4e9f-b162-5c04a2aab3b7": {
+                "defaults": [
+                    {},
+                    {
+                        "specialization": "Force Spike",
+                        "name": "Polearm"
+                    },
+                    {
+                        "name": "Spear"
+                    },
+                    {
+                        "name": "Staff"
+                    },
+                    {
+                        "name": "Two-Handed Axe/Mace"
+                    }
+                ],
+                "calc": {
+                    "damage": "thr+3 imp"
+                },
+                "usage": "Force Spike - Letal mode",
+                "damage": {
+                    "type": "imp"
+                }
+            }
+        }
     },
     "e1072bfc-448e-4c2d-a376-654f34c0608b": {
         "tags": [
@@ -69,30 +96,240 @@
             "长柄武器"
         ],
         "notes": "powered by a C cell",
-        "description": "Shockprod Staff"
+        "description": "Shockprod Staff",
+        "weapons": {
+            "7b93cfa7-68d5-4277-9129-5a2ab5ab7c6e": {
+                "damage": {
+                    "type": "burn"
+                },
+                "defaults": [
+                    {},
+                    {
+                        "specialization": "Force Spike",
+                        "name": "Polearm"
+                    },
+                    {
+                        "name": "Spear"
+                    },
+                    {
+                        "name": "Staff"
+                    },
+                    {
+                        "name": "Two-Handed Axe/Mace"
+                    }
+                ],
+                "usage": "Shockprod Staff",
+                "calc": {
+                    "damage": "1d burn"
+                }
+            }
+        }
     },
     "fa479ae7-81ba-4f68-8d61-4a9ffa08899f": {
         "tags": [
             "Melee Weapon"
         ],
-        "description": "Vibroknife"
+        "description": "Vibroknife",
+        "weapons": {
+            "c591cde5-b97a-4fa0-b22c-6e2cd96c0f03": {
+                "defaults": [
+                    {
+                        "name": "Knife"
+                    },
+                    {},
+                    {
+                        "name": "Shortsword"
+                    }
+                ],
+                "usage_notes": "Not vibrating",
+                "calc": {
+                    "damage": "thr-1 imp"
+                },
+                "usage": "Knife",
+                "damage": {
+                    "type": "imp"
+                }
+            },
+            "e093f3e3-d096-4da6-8ad7-4e1b0031e8ed": {
+                "calc": {
+                    "damage": "1d(3) cut"
+                },
+                "defaults": [
+                    {
+                        "name": "Knife"
+                    },
+                    {},
+                    {
+                        "name": "Shortsword"
+                    }
+                ],
+                "usage": "Vibroknife",
+                "usage_notes": "to add to Knife damage",
+                "damage": {
+                    "type": "cut"
+                }
+            }
+        }
     },
     "bb4592c6-50fb-4aea-af6d-e78828a98b47": {
         "tags": [
             "Melee Weapon"
         ],
-        "description": "Vibroknife superfine"
+        "description": "Vibroknife superfine",
+        "weapons": {
+            "5edcfa31-64e6-4ba6-9940-0cfac9c9d28a": {
+                "usage_notes": "Not vibrating",
+                "defaults": [
+                    {
+                        "name": "Knife"
+                    },
+                    {},
+                    {
+                        "name": "Shortsword"
+                    }
+                ],
+                "damage": {
+                    "type": "imp"
+                },
+                "calc": {
+                    "damage": "thr-1 imp"
+                },
+                "usage": "Knife"
+            },
+            "70ff01f0-8df5-472b-b7f1-40eb029340f9": {
+                "defaults": [
+                    {
+                        "name": "Knife"
+                    },
+                    {},
+                    {
+                        "name": "Shortsword"
+                    }
+                ],
+                "usage": "Vibroknife superfine",
+                "damage": {
+                    "type": "cut"
+                },
+                "calc": {
+                    "damage": "1d(5) cut"
+                }
+            }
+        }
     },
     "e30cafd1-dbb0-4ce3-8cc6-41748724687d": {
         "tags": [
             "Melee Weapon"
         ],
-        "description": "Vibroknife hyperdense"
+        "description": "Vibroknife hyperdense",
+        "weapons": {
+            "79210403-31bb-480a-8edd-7b3d2cb6874e": {
+                "calc": {
+                    "damage": "1d(8) cut"
+                },
+                "usage": "Vibroknife hyperdense",
+                "usage_notes": "to add to Knife damage",
+                "defaults": [
+                    {
+                        "name": "Knife"
+                    },
+                    {},
+                    {
+                        "name": "Shortsword"
+                    }
+                ],
+                "damage": {
+                    "type": "cut"
+                }
+            },
+            "dab556c4-6a9c-44d0-b3c0-40d3008051fc": {
+                "usage": "Knife",
+                "usage_notes": "Not vibrating",
+                "defaults": [
+                    {
+                        "name": "Knife"
+                    },
+                    {},
+                    {
+                        "name": "Shortsword"
+                    }
+                ],
+                "damage": {
+                    "type": "imp"
+                },
+                "calc": {
+                    "damage": "thr-1 imp"
+                }
+            }
+        },
+        "modifiers": {
+            "2beedda0-4bc6-4972-a4db-e7ca45234528": {
+                "name": "Modifier"
+            }
+        }
     },
     "6a674b08-683e-473d-bfa1-33638ceffd91": {
         "tags": [
             "Melee Weapon"
         ],
-        "description": "Vibrosword"
+        "description": "Vibrosword",
+        "weapons": {
+            "9d626608-9a03-411e-be41-ad511088ee88": {
+                "defaults": [
+                    {
+                        "name": "Broadsword"
+                    },
+                    {},
+                    {
+                        "name": "Shortsword"
+                    }
+                ],
+                "usage": "Broadsword",
+                "usage_notes": "Not vibrating",
+                "calc": {
+                    "damage": "sw+1 imp"
+                },
+                "damage": {
+                    "type": "imp"
+                }
+            },
+            "211c795e-428d-4d9e-b185-9ec903741566": {
+                "defaults": [
+                    {
+                        "name": "Broadsword"
+                    },
+                    {},
+                    {
+                        "name": "Shortsword"
+                    }
+                ],
+                "calc": {
+                    "damage": "thr+1 imp"
+                },
+                "damage": {
+                    "type": "imp"
+                },
+                "usage": "Broadsword",
+                "usage_notes": "Not vibrating"
+            },
+            "97c4e9a6-df30-4f46-a6d0-730b263a3dc0": {
+                "defaults": [
+                    {
+                        "name": "Broadsword"
+                    },
+                    {},
+                    {
+                        "name": "Shortsword"
+                    }
+                ],
+                "usage": "Vibrosword",
+                "damage": {
+                    "type": "cut"
+                },
+                "calc": {
+                    "damage": "1d(3) cut"
+                },
+                "usage_notes": "to add to Broadsword damage"
+            }
+        }
     }
 }

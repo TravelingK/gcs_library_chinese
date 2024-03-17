@@ -69,7 +69,47 @@
         "tags": [
             "Missile Weapon"
         ],
-        "description": "Electrozap Pistol"
+        "description": "Electrozap Pistol",
+        "weapons": {
+            "155c2d98-f2e4-4391-b356-89abf41f8068": {
+                "defaults": [
+                    {},
+                    {
+                        "specialization": "Pistol",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Beam Weapons",
+                        "specialization": "Pistol"
+                    },
+                    {
+                        "specialization": "Rifle",
+                        "name": "Beam Weapons"
+                    },
+                    {
+                        "specialization": "Projector",
+                        "name": "Beam Weapons"
+                    },
+                    {
+                        "name": "Gun!"
+                    }
+                ],
+                "damage": {
+                    "type": "burn surr"
+                },
+                "calc": {
+                    "damage": "1d-1 burn surr"
+                }
+            },
+            "e5b320c6-e07d-4779-aa3d-478475267ac7": {
+                "calc": {
+                    "damage": "HT-6(2) aff"
+                },
+                "damage": {
+                    "type": "HT-6(2) aff"
+                }
+            }
+        }
     },
     "9f30d62b-ba48-40b7-82b9-e46aae0feafa": {
         "tags": [
@@ -102,13 +142,117 @@
         "tags": [
             "Missile Weapon"
         ],
-        "description": "ICW, 6.8mm"
+        "description": "ICW, 6.8mm",
+        "weapons": {
+            "d1d79d54-84a3-455b-9b5e-148341545959": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Guns",
+                        "specialization": "Pistol"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Rifle"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Shotgun"
+                    },
+                    {
+                        "specialization": "Light Machine Gun",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Submachine Gun",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Musket",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Grenade Launcher"
+                    },
+                    {
+                        "specialization": "Gyroc",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Light Anti-Armor Weapon",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Gun!"
+                    }
+                ],
+                "calc": {
+                    "damage": "6d pi"
+                },
+                "damage": {
+                    "type": "pi"
+                }
+            }
+        }
     },
     "d4cfdc04-5f07-4e06-86b1-858dd64774e9": {
         "tags": [
             "Missile Weapon"
         ],
-        "description": "ISP, 10mm"
+        "description": "ISP, 10mm",
+        "weapons": {
+            "bdd6d1df-b403-42e7-ad3e-f3fb7baccd77": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Guns",
+                        "specialization": "Pistol"
+                    },
+                    {
+                        "specialization": "Rifle",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Shotgun",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Light Machine Gun",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Submachine Gun",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Musket",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Grenade Launcher",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Gyroc",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Light Anti-Armor Weapon",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Gun!"
+                    }
+                ],
+                "damage": {
+                    "type": "pi+"
+                },
+                "calc": {
+                    "damage": "4d+1 pi+"
+                }
+            }
+        }
     },
     "6ff35596-d890-4c41-a674-37c11b7aab27": {
         "tags": [
@@ -121,7 +265,67 @@
         "tags": [
             "Missile Weapon"
         ],
-        "description": "Needle Pistol, 5mm"
+        "description": "Needle Pistol, 5mm",
+        "weapons": {
+            "b01d021f-f32a-4ea1-882b-81862c315960": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Guns",
+                        "specialization": "Pistol"
+                    },
+                    {
+                        "specialization": "Rifle",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Shotgun"
+                    },
+                    {
+                        "specialization": "Light Machine Gun",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Submachine Gun",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Musket"
+                    },
+                    {
+                        "specialization": "Grenade Launcher",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Gyroc"
+                    },
+                    {
+                        "specialization": "Light Anti-Armor Weapon",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Gun!"
+                    }
+                ],
+                "calc": {
+                    "damage": "1d-1 pi"
+                },
+                "damage": {
+                    "type": "pi"
+                }
+            },
+            "07ac3e5f-0d7c-4f94-919b-d16ed324b511": {
+                "damage": {
+                    "type": "HT-2 aff"
+                },
+                "calc": {
+                    "damage": "HT-2 aff"
+                }
+            }
+        }
     },
     "d3b57c4e-37f4-46c4-a705-5a8fb49c2baa": {
         "tags": [
@@ -134,10 +338,395 @@
         "description": "Silver Ingot"
     },
     "8511633e-b039-4d9f-8d4e-1e19796f7c1c": {
-        "description": "CF/4 Porpetine"
+        "description": "CF/4 Porpetine",
+        "weapons": {
+            "1f0ee02d-2bd2-439a-ad97-08a6057f682f": {
+                "defaults": [
+                    {},
+                    {
+                        "specialization": "Pistol",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Rifle",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Shotgun",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Light Machine Gun"
+                    },
+                    {
+                        "specialization": "Submachine Gun",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Musket",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Grenade Launcher"
+                    },
+                    {
+                        "specialization": "Gyroc",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Light Anti-Armor Weapon",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Gun!"
+                    }
+                ],
+                "calc": {
+                    "damage": "9d(10)"
+                },
+                "usage": "HEDP"
+            },
+            "abc551e0-1e3c-4890-adf2-a84f725a3d38": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Guns",
+                        "specialization": "Pistol"
+                    },
+                    {
+                        "specialization": "Rifle",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Shotgun",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Light Machine Gun"
+                    },
+                    {
+                        "specialization": "Submachine Gun",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Musket",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Grenade Launcher"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Gyroc"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Light Anti-Armor Weapon"
+                    },
+                    {
+                        "name": "Gun!"
+                    }
+                ],
+                "usage": "Slug",
+                "damage": {
+                    "type": "pi++"
+                },
+                "calc": {
+                    "damage": "7d+2 pi++"
+                }
+            },
+            "38dcaeb3-6f48-4987-9d69-6d1a48f735d1": {
+                "damage": {
+                    "fragmentation_type": "cut"
+                },
+                "defaults": [
+                    {},
+                    {
+                        "name": "Guns",
+                        "specialization": "Pistol"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Rifle"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Shotgun"
+                    },
+                    {
+                        "specialization": "Light Machine Gun",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Submachine Gun",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Musket",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Grenade Launcher"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Gyroc"
+                    },
+                    {
+                        "specialization": "Light Anti-Armor Weapon",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Gun!"
+                    }
+                ],
+                "calc": {
+                    "damage": "1d+1 [1d cut]"
+                },
+                "usage": "HE"
+            },
+            "ca89429c-c849-4172-a907-4664643a8cf9": {
+                "defaults": [
+                    {},
+                    {
+                        "specialization": "Pistol",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Rifle"
+                    },
+                    {
+                        "specialization": "Shotgun",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Light Machine Gun"
+                    },
+                    {
+                        "specialization": "Submachine Gun",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Musket",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Grenade Launcher"
+                    },
+                    {
+                        "specialization": "Gyroc",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Light Anti-Armor Weapon"
+                    },
+                    {
+                        "name": "Gun!"
+                    }
+                ],
+                "damage": {
+                    "type": "imp"
+                },
+                "calc": {
+                    "damage": "1d-1 imp"
+                },
+                "usage": "Beehive"
+            },
+            "de9e695c-70d6-4ff6-b32e-6f48ba01e9ce": {
+                "defaults": [
+                    {},
+                    {
+                        "specialization": "Pistol",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Rifle"
+                    },
+                    {
+                        "specialization": "Shotgun",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Light Machine Gun",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Submachine Gun"
+                    },
+                    {
+                        "specialization": "Musket",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Grenade Launcher"
+                    },
+                    {
+                        "specialization": "Gyroc",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Light Anti-Armor Weapon"
+                    },
+                    {
+                        "name": "Gun!"
+                    }
+                ],
+                "usage": "HEDP",
+                "calc": {
+                    "damage": "1d+1 [1d cut]"
+                },
+                "damage": {
+                    "fragmentation_type": "cut"
+                }
+            },
+            "9d2ee5c0-e2ca-4c34-b227-97e368d0e019": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Guns",
+                        "specialization": "Pistol"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Rifle"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Shotgun"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Light Machine Gun"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Submachine Gun"
+                    },
+                    {
+                        "specialization": "Musket",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Grenade Launcher",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Gyroc"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Light Anti-Armor Weapon"
+                    },
+                    {
+                        "name": "Gun!"
+                    }
+                ],
+                "calc": {
+                    "damage": "2d(0.5) cr dkb"
+                },
+                "damage": {
+                    "type": "cr dkb"
+                },
+                "usage": "Baton"
+            },
+            "415aa686-e999-41f8-b41f-add14a106112": {
+                "defaults": [
+                    {},
+                    {
+                        "specialization": "Pistol",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Rifle",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Shotgun",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Light Machine Gun"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Submachine Gun"
+                    },
+                    {
+                        "specialization": "Musket",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Grenade Launcher",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Gyroc",
+                        "name": "Guns"
+                    },
+                    {
+                        "name": "Guns",
+                        "specialization": "Light Anti-Armor Weapon"
+                    },
+                    {
+                        "name": "Gun!"
+                    }
+                ],
+                "calc": {
+                    "damage": "7d+2(0.5)"
+                },
+                "usage": "HE"
+            }
+        }
     },
     "d64d1b42-10e8-418b-8301-90b18ee297b2": {
-        "description": "CF/3 Pandar"
+        "description": "CF/3 Pandar",
+        "weapons": {
+            "acfdf5c3-b761-4d57-bab3-34cf5223beaf": {
+                "defaults": [
+                    {},
+                    {
+                        "specialization": "Pistol",
+                        "name": "Guns"
+                    },
+                    {
+                        "specialization": "Pistol",
+                        "name": "Beam Weapons"
+                    },
+                    {
+                        "name": "Beam Weapons",
+                        "specialization": "Rifle"
+                    },
+                    {
+                        "name": "Beam Weapons",
+                        "specialization": "Projector"
+                    },
+                    {
+                        "name": "Gun!"
+                    }
+                ],
+                "damage": {
+                    "type": "HT-4 (2) aff"
+                },
+                "calc": {
+                    "damage": "2 HT-4 (2) aff"
+                }
+            }
+        }
     },
     "f81ba9e6-212a-4505-92e2-bac66b31fba5": {
         "description": "C cell"

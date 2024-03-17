@@ -4,14 +4,290 @@
             "Melee Weapon"
         ],
         "notes": "Intermediate between large knife and shortsword, blade around 15\" to 23\".",
-        "description": "Long Knife"
+        "description": "Long Knife",
+        "weapons": {
+            "2f2ad09d-48bb-47a9-a070-d3594dad716f": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Shortsword"
+                    },
+                    {
+                        "name": "Broadsword"
+                    },
+                    {
+                        "name": "Force Sword"
+                    },
+                    {
+                        "name": "Jitte/Sai"
+                    },
+                    {
+                        "name": "Knife"
+                    },
+                    {
+                        "name": "Saber"
+                    },
+                    {
+                        "name": "Smallsword"
+                    },
+                    {
+                        "name": "Tonfa"
+                    },
+                    {
+                        "name": "Sword!"
+                    }
+                ],
+                "usage": "Thrust (Shortsword)",
+                "damage": {
+                    "type": "imp"
+                },
+                "calc": {
+                    "damage": "thr imp"
+                }
+            },
+            "751f75ea-84f7-4e40-bbdd-bade32678be5": {
+                "damage": {
+                    "type": "cut"
+                },
+                "defaults": [
+                    {},
+                    {
+                        "name": "Knife"
+                    },
+                    {
+                        "name": "Force Sword"
+                    },
+                    {
+                        "name": "Main-Gauche"
+                    },
+                    {
+                        "name": "Shortsword"
+                    },
+                    {
+                        "name": "Sword!"
+                    }
+                ],
+                "usage": "Swing (Knife)",
+                "calc": {
+                    "damage": "sw-1 cut"
+                }
+            },
+            "56243181-4724-42d6-8b95-3362a92238f4": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Shortsword"
+                    },
+                    {
+                        "name": "Broadsword"
+                    },
+                    {
+                        "name": "Force Sword"
+                    },
+                    {
+                        "name": "Jitte/Sai"
+                    },
+                    {
+                        "name": "Knife"
+                    },
+                    {
+                        "name": "Saber"
+                    },
+                    {
+                        "name": "Smallsword"
+                    },
+                    {
+                        "name": "Tonfa"
+                    },
+                    {
+                        "name": "Sword!"
+                    }
+                ],
+                "calc": {
+                    "damage": "sw-1 cut"
+                },
+                "usage": "Swing (Shortsword)",
+                "damage": {
+                    "type": "cut"
+                }
+            },
+            "edabce24-3b45-4ab7-9489-96be2a9ff796": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Knife"
+                    },
+                    {
+                        "name": "Force Sword"
+                    },
+                    {
+                        "name": "Main-Gauche"
+                    },
+                    {
+                        "name": "Shortsword"
+                    },
+                    {
+                        "name": "Sword!"
+                    }
+                ],
+                "damage": {
+                    "type": "imp"
+                },
+                "calc": {
+                    "damage": "thr imp"
+                },
+                "usage": "Thrust (Knife)"
+            }
+        }
     },
     "d26e4351-5d98-4162-ae28-3f56f9d4fe4e": {
         "notes": "Staff around 4' - 5' long",
-        "description": "Short Quarterstaff"
+        "description": "Short Quarterstaff",
+        "weapons": {
+            "f6d493e5-370b-4246-a5af-44e7758d0a02": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Two-Handed Sword"
+                    },
+                    {
+                        "name": "Broadsword"
+                    },
+                    {
+                        "name": "Force Sword"
+                    },
+                    {
+                        "name": "Sword!"
+                    }
+                ],
+                "usage": "Swing (2H Sword)",
+                "calc": {
+                    "damage": "sw+1 cr"
+                },
+                "damage": {
+                    "type": "cr"
+                }
+            },
+            "75c61c74-a34c-4f1a-8ad9-f67f7f882b7e": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Two-Handed Sword"
+                    },
+                    {
+                        "name": "Broadsword"
+                    },
+                    {
+                        "name": "Force Sword"
+                    },
+                    {
+                        "name": "Sword!"
+                    }
+                ],
+                "usage": "Thrust (2H Sword)",
+                "calc": {
+                    "damage": "thr+1 cr"
+                },
+                "damage": {
+                    "type": "cr"
+                }
+            },
+            "97675f2a-90ce-464e-95ca-fa938c29ff8a": {
+                "calc": {
+                    "damage": "sw+1 cr"
+                },
+                "defaults": [
+                    {},
+                    {
+                        "name": "Staff"
+                    },
+                    {
+                        "name": "Polearm"
+                    },
+                    {
+                        "name": "Spear"
+                    }
+                ],
+                "usage": "Swing (Staff)",
+                "damage": {
+                    "type": "cr"
+                }
+            },
+            "8e84a8fc-5b2e-4525-a34a-47071bbfa133": {
+                "defaults": [
+                    {},
+                    {
+                        "name": "Staff"
+                    },
+                    {
+                        "name": "Polearm"
+                    },
+                    {
+                        "name": "Spear"
+                    }
+                ],
+                "damage": {
+                    "type": "cr"
+                },
+                "usage": "Thrust (Staff)",
+                "calc": {
+                    "damage": "thr+1 cr"
+                }
+            }
+        }
     },
     "d051f9db-3429-4418-824d-3ba8a6c838a6": {
         "notes": "Essentially a cleaver fixed to a shaft",
-        "description": "Short Glaive"
+        "description": "Short Glaive",
+        "weapons": {
+            "46b558f4-6c61-47c2-9dd3-f9efad611b8c": {
+                "calc": {
+                    "damage": "thr+3 imp"
+                },
+                "defaults": [
+                    {},
+                    {
+                        "name": "Polearm"
+                    },
+                    {
+                        "name": "Spear"
+                    },
+                    {
+                        "name": "Staff"
+                    },
+                    {
+                        "name": "Two-Handed Axe/Mace"
+                    }
+                ],
+                "usage": "Thrust",
+                "damage": {
+                    "type": "imp"
+                }
+            },
+            "76ba42aa-522f-4d58-8895-d53cbe22c913": {
+                "usage": "Swing",
+                "defaults": [
+                    {},
+                    {
+                        "name": "Polearm"
+                    },
+                    {
+                        "name": "Spear"
+                    },
+                    {
+                        "name": "Staff"
+                    },
+                    {
+                        "name": "Two-Handed Axe/Mace"
+                    }
+                ],
+                "calc": {
+                    "damage": "sw+2 cut"
+                },
+                "damage": {
+                    "type": "cut"
+                }
+            }
+        }
     }
 }

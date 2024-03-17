@@ -317,35 +317,253 @@
         "description": "The Devil’s Chariot",
         "children": {
             "ba45a6dd-7cc6-4afa-bc65-bc6f80be054c": {
-                "description": "KBP GHs-23L, 23×115mm"
+                "description": "KBP GHs-23L, 23×115mm",
+                "weapons": {
+                    "cf93ac45-4695-4767-8aea-bda2ac1be99a": {
+                        "usage": "23×115mm",
+                        "calc": {
+                            "damage": "5dx3 pi++"
+                        },
+                        "defaults": [
+                            {
+                                "specialization": "Machine gun",
+                                "name": "Gunner"
+                            },
+                            {},
+                            {
+                                "name": "Gunner"
+                            }
+                        ],
+                        "damage": {
+                            "type": "pi++"
+                        }
+                    },
+                    "ecadb537-940b-4dd0-ba1f-8d6ae01de7e2": {
+                        "usage": "follow-up",
+                        "damage": {
+                            "type": "cr ex",
+                            "fragmentation_type": "cut"
+                        },
+                        "calc": {
+                            "damage": "3d cr ex [1d+1 cut]"
+                        }
+                    }
+                }
             },
             "b002bc25-d460-4ce8-b01d-76cf16e60943": {
-                "description": "KBP YakB-12.7, 12.7×108mm"
+                "description": "KBP YakB-12.7, 12.7×108mm",
+                "weapons": {
+                    "76a4119c-6be5-42fc-a38d-8fde43e5acad": {
+                        "defaults": [
+                            {
+                                "name": "Gunner",
+                                "specialization": "Machine gun"
+                            },
+                            {},
+                            {
+                                "name": "Gunner"
+                            }
+                        ],
+                        "damage": {
+                            "type": "pi inc"
+                        },
+                        "usage": "12.7×108mm",
+                        "calc": {
+                            "damage": "8d+2(2) pi inc"
+                        }
+                    }
+                }
             },
             "83659d23-ffb1-4299-af1b-c50f7394f969": {
-                "description": "KBP GShG-7.62, 7.62x54mmR"
+                "description": "KBP GShG-7.62, 7.62x54mmR",
+                "weapons": {
+                    "33beb35a-c48d-4360-88f6-ad96c3bad0c7": {
+                        "usage": "7.62x54mmR",
+                        "defaults": [
+                            {
+                                "name": "Gunner",
+                                "specialization": "Machine gun"
+                            },
+                            {},
+                            {
+                                "name": "Gunner"
+                            }
+                        ],
+                        "calc": {
+                            "damage": "7d pi inc"
+                        },
+                        "damage": {
+                            "type": "pi inc"
+                        }
+                    }
+                }
             },
             "dc0ef88d-4dd1-4abf-bd26-2197742cfd4c": {
                 "notes": "First Range figure is minimum range; Weight is empty weight.",
-                "description": "KBP AG-17A, 30x29mmB"
+                "description": "KBP AG-17A, 30x29mmB",
+                "weapons": {
+                    "7a7e258c-6e17-4405-9fac-e1b91c47e4b6": {
+                        "damage": {
+                            "fragmentation_type": "cut",
+                            "type": "cr ex"
+                        },
+                        "usage": "30x29mmB",
+                        "defaults": [
+                            {
+                                "specialization": "Machine gun",
+                                "name": "Gunner"
+                            },
+                            {},
+                            {
+                                "name": "Gunner"
+                            }
+                        ],
+                        "calc": {
+                            "damage": "4d cr ex [1d+2 cut]"
+                        }
+                    }
+                }
             },
             "a208f322-e89c-4d8a-8fce-1776949bd5bf": {
                 "notes": "First Range figure is minimum range.",
-                "description": "UB-32-57, 55mm"
+                "description": "UB-32-57, 55mm",
+                "weapons": {
+                    "24ec8f75-f473-4451-8e2f-900c1e0d3b53": {
+                        "usage": "55mm",
+                        "defaults": [
+                            {
+                                "name": "Gunner",
+                                "specialization": "Rockets"
+                            },
+                            {},
+                            {
+                                "name": "Gunner",
+                                "specialization": "Machine gun"
+                            },
+                            {
+                                "name": "Gunner"
+                            }
+                        ],
+                        "damage": {
+                            "type": "cr ex",
+                            "fragmentation_type": "cut"
+                        },
+                        "calc": {
+                            "damage": "5dx2 cr ex [3d-1 cut]"
+                        }
+                    }
+                }
             },
             "dad0da43-6cfe-4f1f-9212-e3ac03f00d95": {
                 "notes": "First Range figure is minimum range.",
-                "description": "B-8V20, 80mm"
+                "description": "B-8V20, 80mm",
+                "weapons": {
+                    "4ab7b8e1-1f82-484e-a377-6f78e2e595c6": {
+                        "defaults": [
+                            {
+                                "name": "Gunner",
+                                "specialization": "Rockets"
+                            },
+                            {},
+                            {
+                                "specialization": "Machine gun",
+                                "name": "Gunner"
+                            },
+                            {
+                                "name": "Gunner"
+                            }
+                        ],
+                        "damage": {
+                            "type": "cr ex"
+                        },
+                        "usage": "80mm",
+                        "calc": {
+                            "damage": "6dx5(10) cr ex"
+                        }
+                    },
+                    "bcabb198-cf8a-45f4-8ba6-89b09c1f3d33": {
+                        "calc": {
+                            "damage": "5dx4 cr ex [4d cut]"
+                        },
+                        "usage": "linked",
+                        "damage": {
+                            "type": "cr ex",
+                            "fragmentation_type": "cut"
+                        }
+                    }
+                }
             },
             "bf937431-4b3c-4146-8fb2-84bf4c70390b": {
                 "notes": "Missile has a minimum Guided attack (p. B412). Cost is for disposable launcher including one missile.",
-                "description": "Kolomna 9K114 Kokon, 130mm"
+                "description": "Kolomna 9K114 Kokon, 130mm",
+                "weapons": {
+                    "15fb1419-c58a-4366-a795-0b03bbdab4c5": {
+                        "calc": {
+                            "damage": "6dx6 cr ex"
+                        },
+                        "usage": "linked",
+                        "damage": {
+                            "type": "cr ex"
+                        }
+                    },
+                    "c5130ff4-6e9f-470a-8fc0-16c1f90fa2d6": {
+                        "defaults": [
+                            {
+                                "name": "Artillery",
+                                "specialization": "Guided Missile"
+                            }
+                        ],
+                        "damage": {
+                            "type": "cr ex"
+                        },
+                        "usage": "130mm",
+                        "calc": {
+                            "damage": "6dx7(10) cr ex"
+                        }
+                    }
+                }
             },
             "66039772-6f36-41af-a1d9-588c15898e5d": {
-                "description": "FAB-100 M-62, 216mm"
+                "description": "FAB-100 M-62, 216mm",
+                "weapons": {
+                    "62676048-fbbd-4a64-896b-21ec0044f33f": {
+                        "usage": "216mm",
+                        "defaults": [
+                            {
+                                "specialization": "Bombs",
+                                "name": "Artillery"
+                            }
+                        ],
+                        "calc": {
+                            "damage": "6dx22 cr ex [5dx2 cut]"
+                        },
+                        "damage": {
+                            "fragmentation_type": "cut",
+                            "type": "cr ex"
+                        }
+                    }
+                }
             },
             "a0a50ec7-30c1-4432-a694-9de7967621be": {
-                "description": "FAB-250 M-62, 292mm"
+                "description": "FAB-250 M-62, 292mm",
+                "weapons": {
+                    "98f8775a-e666-46dc-b130-22e7a1d94715": {
+                        "damage": {
+                            "type": "cr ex",
+                            "fragmentation_type": "cut"
+                        },
+                        "calc": {
+                            "damage": "6dx36 cr ex [7dx2 cut]"
+                        },
+                        "defaults": [
+                            {
+                                "name": "Artillery",
+                                "specialization": "Bombs"
+                            }
+                        ],
+                        "usage": "292mm"
+                    }
+                }
             }
         }
     },
@@ -354,28 +572,172 @@
         "children": {
             "77dfc5f6-2471-4c86-a2ce-71ee33b6ab8a": {
                 "notes": "Intended for emplaced use; weight includes 25-lb. platform. If removed from platform (30 seconds), it is 40 lbs., ST 15. Malfunctions on a 15+ (see p. B407).",
-                "description": "Brock Cemetery, .50 Flintlock"
+                "description": "Brock Cemetery, .50 Flintlock",
+                "weapons": {
+                    "46564aee-8b60-4ed0-821d-9e275d53b93e": {
+                        "defaults": [
+                            {
+                                "specialization": "Musket",
+                                "name": "Guns"
+                            },
+                            {},
+                            {
+                                "name": "Guns"
+                            }
+                        ],
+                        "usage": ".50 Flintlock",
+                        "damage": {
+                            "type": "pi+"
+                        },
+                        "calc": {
+                            "damage": "4d pi+"
+                        }
+                    }
+                }
             },
             "dc46671e-e5d9-4ffb-92b5-496173b6ca27": {
-                "description": "Brock PMG, .380 ACP"
+                "description": "Brock PMG, .380 ACP",
+                "weapons": {
+                    "a4892ad1-9a2a-454d-bd42-bc5120499756": {
+                        "defaults": [
+                            {
+                                "specialization": "SMG",
+                                "name": "Guns"
+                            },
+                            {},
+                            {
+                                "name": "Guns"
+                            }
+                        ],
+                        "damage": {
+                            "type": "pi"
+                        },
+                        "calc": {
+                            "damage": "2d-1 pi"
+                        },
+                        "usage": ".380 ACP"
+                    }
+                }
             },
             "7867cb55-dee7-4d5f-abca-d1acb4714870": {
-                "description": "Brock 45 Mark I, .45 ACP"
+                "description": "Brock 45 Mark I, .45 ACP",
+                "weapons": {
+                    "5a057108-ecf6-4f33-be8b-6af2a58196bc": {
+                        "defaults": [
+                            {
+                                "name": "Guns",
+                                "specialization": "Pistol"
+                            },
+                            {},
+                            {
+                                "name": "Guns"
+                            }
+                        ],
+                        "calc": {
+                            "damage": "2d pi+"
+                        },
+                        "damage": {
+                            "type": "pi+"
+                        },
+                        "usage": ".45 ACP"
+                    }
+                }
             },
             "441c8c3e-f03e-4b30-acd8-57ac665247d9": {
                 "notes": "If fired with a one-handed grip, use ST 11, Rcl 4.",
-                "description": "Brock 45 Mark II, .45 ACP"
+                "description": "Brock 45 Mark II, .45 ACP",
+                "weapons": {
+                    "53658ad7-7a7c-4fc5-b4c1-5ee4f7d37dd2": {
+                        "damage": {
+                            "type": "pi+"
+                        },
+                        "defaults": [
+                            {
+                                "name": "Guns",
+                                "specialization": "Pistol"
+                            },
+                            {},
+                            {
+                                "name": "Guns"
+                            }
+                        ],
+                        "usage": ".45 ACP",
+                        "calc": {
+                            "damage": "2d pi+"
+                        }
+                    }
+                }
             },
             "789d5cd5-b631-4f0b-8014-d4d973d8e6d8": {
-                "description": "Brock Paragon, .30-06"
+                "description": "Brock Paragon, .30-06",
+                "weapons": {
+                    "74587d0a-b705-43cc-b9d4-b539a4fe496c": {
+                        "calc": {
+                            "damage": "7d+1"
+                        },
+                        "defaults": [
+                            {
+                                "name": "Guns",
+                                "specialization": "Rifle"
+                            },
+                            {},
+                            {
+                                "name": "Guns"
+                            }
+                        ],
+                        "usage": ".30-06"
+                    }
+                }
             },
             "3779621a-2c06-4ac6-918c-561ae05e412b": {
                 "notes": "Divide damage by 3 at 1-2 yards and by 2 at 3-7 yards. Has no 1/2D range.",
-                "description": "Br-Av Orion, .380 ACP"
+                "description": "Br-Av Orion, .380 ACP",
+                "weapons": {
+                    "fb2617f3-e8ee-42d8-8343-00808922ce43": {
+                        "defaults": [
+                            {
+                                "specialization": "Pistol",
+                                "name": "Guns"
+                            },
+                            {},
+                            {
+                                "name": "Guns"
+                            }
+                        ],
+                        "damage": {
+                            "type": "pi"
+                        },
+                        "calc": {
+                            "damage": "2d-1 pi"
+                        },
+                        "usage": ".380 ACP"
+                    }
+                }
             },
             "1bd094e9-127a-42aa-acc5-128024f5fbae": {
                 "notes": "Divide damage by 3 at 1-2 yards and by 2 at 3-7 yards. Has no 1/2D range.",
-                "description": "Br-Av Orion, .50 Br-Av Rocket"
+                "description": "Br-Av Orion, .50 Br-Av Rocket",
+                "weapons": {
+                    "031cfe8d-1e05-4871-8aaa-4748f7294eb8": {
+                        "defaults": [
+                            {
+                                "name": "Guns",
+                                "specialization": "Gyros"
+                            },
+                            {},
+                            {
+                                "name": "Guns"
+                            }
+                        ],
+                        "damage": {
+                            "type": "pi+"
+                        },
+                        "calc": {
+                            "damage": "2d+2 pi+"
+                        },
+                        "usage": ".50 Br-Av Rocket"
+                    }
+                }
             }
         }
     },
@@ -383,13 +745,76 @@
         "description": "The Nock Volley Gun",
         "children": {
             "57bc6077-1b02-4155-9b64-b40e0d62f967": {
-                "description": "Nock Gun (rifled), .50 Flintlock"
+                "description": "Nock Gun (rifled), .50 Flintlock",
+                "weapons": {
+                    "9a61693f-2151-41a1-88f5-e5e28108f25b": {
+                        "calc": {
+                            "damage": "3d+1 pi+"
+                        },
+                        "defaults": [
+                            {
+                                "name": "guns",
+                                "specialization": "Musket"
+                            },
+                            {},
+                            {
+                                "name": "Guns"
+                            }
+                        ],
+                        "damage": {
+                            "type": "pi+"
+                        },
+                        "usage": ".50 Flintlock"
+                    }
+                }
             },
             "4e8a4fd9-43d5-4aba-bee8-475821a2fb7d": {
-                "description": "Nock Gun (smoothbore), .50 Flintlock"
+                "description": "Nock Gun (smoothbore), .50 Flintlock",
+                "weapons": {
+                    "bb55386f-90a0-4329-82da-efb294dcf0ca": {
+                        "usage": ".50 Flintlock",
+                        "damage": {
+                            "type": "pi+"
+                        },
+                        "defaults": [
+                            {
+                                "name": "guns",
+                                "specialization": "Musket"
+                            },
+                            {},
+                            {
+                                "name": "Guns"
+                            }
+                        ],
+                        "calc": {
+                            "damage": "3d+1 pi+"
+                        }
+                    }
+                }
             },
             "f8a88555-1b7e-48cc-9b0d-e39e61f7ca43": {
-                "description": "Nock Gun (rotating), .50 Flintlock"
+                "description": "Nock Gun (rotating), .50 Flintlock",
+                "weapons": {
+                    "b9d05a9f-86cf-4da5-a896-38f73b394616": {
+                        "defaults": [
+                            {
+                                "name": "guns",
+                                "specialization": "Musket"
+                            },
+                            {},
+                            {
+                                "name": "Guns"
+                            }
+                        ],
+                        "usage": ".50 Flintlock",
+                        "calc": {
+                            "damage": "3d+1 pi+"
+                        },
+                        "damage": {
+                            "type": "pi+"
+                        }
+                    }
+                }
             }
         }
     }
