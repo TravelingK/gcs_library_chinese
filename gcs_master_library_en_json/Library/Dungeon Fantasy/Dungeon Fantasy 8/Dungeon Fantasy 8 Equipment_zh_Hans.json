@@ -206,7 +206,22 @@
                     "Gloves"
                 ],
                 "notes": "Gives Bad Grip 1 (B123) and Ham-Fisted 1 (B138) with -1DX when worn. Provides +1DR bonus for cutting only.",
-                "description": "Cloth Gloves, Fitted"
+                "description": "Cloth Gloves, Fitted",
+                "weapons": {
+                    "ed4d1b22-e2f9-45a1-995a-113e7555844e": {
+                        "calc": {
+                            "damage": "-"
+                        },
+                        "damage": {
+                            "type": "-"
+                        },
+                        "defaults": [
+                            {
+                                "name": "Cloak"
+                            }
+                        ]
+                    }
+                }
             },
             "4a45fddd-38b1-492e-85f6-0717598d9e6a": {
                 "tags": [
@@ -214,7 +229,22 @@
                     "Gloves"
                 ],
                 "notes": "Gives Bad Grip 1 (B123) and Ham-Fisted 1 (B138) with -1DX when worn. Provides +2DR bonus for cutting only.",
-                "description": "Leather Gloves, Fitted"
+                "description": "Leather Gloves, Fitted",
+                "weapons": {
+                    "d8c128c0-bb44-4f9d-ad80-8b2f4449268a": {
+                        "damage": {
+                            "type": "-"
+                        },
+                        "defaults": [
+                            {
+                                "name": "Cloak"
+                            }
+                        ],
+                        "calc": {
+                            "damage": "-"
+                        }
+                    }
+                }
             },
             "2556f2b6-f051-4a61-a816-2d16f30b450a": {
                 "tags": [
@@ -222,7 +252,42 @@
                     "生存"
                 ],
                 "notes": "Set cost to 15% of cost of living for status 0 (TL5+ max status +3) DR+1 vs. cutting.",
-                "description": "Heavy Cloak - Status 0"
+                "description": "Heavy Cloak - Status 0",
+                "weapons": {
+                    "727a69e3-c019-4ae5-b583-c1a5246d8ef6": {
+                        "damage": {
+                            "type": "-"
+                        },
+                        "calc": {
+                            "damage": "-"
+                        },
+                        "defaults": [
+                            {
+                                "name": "Cloak"
+                            }
+                        ]
+                    },
+                    "b35f4640-3549-44a2-bff3-5c0babbd6b42": {
+                        "defaults": [
+                            {
+                                "name": "Cloak"
+                            },
+                            {
+                                "name": "Net"
+                            },
+                            {
+                                "name": "Shield"
+                            }
+                        ],
+                        "damage": {
+                            "type": "Special"
+                        },
+                        "calc": {
+                            "damage": "Special"
+                        },
+                        "usage": "Thrown"
+                    }
+                }
             },
             "897706f3-ef60-435e-8bca-e340e4f57fb5": {
                 "tags": [
@@ -237,7 +302,53 @@
                     "Clothing"
                 ],
                 "notes": "Set cost to 10% of cost of living for status 0 (TL5+ max status +3)",
-                "description": "Light Cloak - Status 0"
+                "description": "Light Cloak - Status 0",
+                "weapons": {
+                    "cef0d0d4-3e8f-4f2c-a343-b127d8b140ad": {
+                        "damage": {
+                            "type": "Special"
+                        },
+                        "defaults": [
+                            {},
+                            {
+                                "name": "Cloak"
+                            },
+                            {
+                                "name": "Net"
+                            },
+                            {
+                                "name": "Shield"
+                            }
+                        ],
+                        "calc": {
+                            "damage": "Special"
+                        },
+                        "usage": "Thrown"
+                    },
+                    "3d8fa9fb-b13e-49ab-9005-1076b905e22a": {
+                        "calc": {
+                            "damage": "-"
+                        },
+                        "damage": {
+                            "type": "-"
+                        },
+                        "defaults": [
+                            {
+                                "name": "Cloak"
+                            }
+                        ]
+                    }
+                },
+                "features": [
+                    {},
+                    {},
+                    {},
+                    {
+                        "name": {
+                            "qualifier": "Holdout"
+                        }
+                    }
+                ]
             },
             "2d03fb1e-c744-4005-a537-7ec099212bbc": {
                 "tags": [
