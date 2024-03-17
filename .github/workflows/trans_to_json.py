@@ -28,7 +28,8 @@ def outjson(nnskillline,docname):
         skill.write(skillline)
 
 class infoDict:
-    JsonList=['name','tags','notes','specialization','vtt_notes','situation','description']
+    JsonList=['name','tags','notes','specialization','vtt_notes','situation','description','usage','usage_notes']
+    childrenList=['children','modifiers','weapons']
 
 
     def __init__(self,info_dict,into_list_type='rows') -> None:
@@ -77,16 +78,20 @@ class infoDict:
                     featuresline.append(newfeaturesline)
         return(featuresline)
     
+
+    
     def getJson(self,i:dict)->dict:
         newjsonline={}
         for admL in self.JsonList:
             if admL in i:
                 newjsonline[admL]=i[admL]
+        for childrenL in self.childrenList:
+            if childrenL in i:
+                childrenJson=infoDict(i,into_list_type=childrenL)
+                newjsonline[childrenL]=childrenJson.getChildren()
         if 'features' in i:
             newjsonline['features']=self.__getfeature(i['features'])
-        if 'children' in i :
-            childrenJson=infoDict(i,into_list_type='children')
-            newjsonline['children']=childrenJson.getChildren()
+            """
         if 'modifiers' in i:
             JsonModifiersline=[]
             for ii in i['modifiers']:
@@ -94,6 +99,25 @@ class infoDict:
                 newjsonlinemodifiers=childrenJson.getJson(ii)
                 JsonModifiersline.append({ii['id']:newjsonlinemodifiers})
             newjsonline['modifiers']=JsonModifiersline
+        if 'weapons' in i:
+            Jsonweaponsdict={}
+            for ii in i['weapons']:
+                childrenJson=infoDict(i)
+                newjsondictweapons=childrenJson.getJson(ii)
+                Jsonweaponsdict[ii['id']]=newjsondictweapons
+            newjsonline['weapons']=Jsonweaponsdict
+            """
+        if 'damage' in i:
+            damagelin={}
+
+            if 'type' in i['damage']:
+                damagelin['type']=i['damage']['type']
+            if 'fragmentation_type' in i['damage']:
+                damagelin['fragmentation_type']=i['damage']['fragmentation_type']
+            newjsonline['damage']=damagelin
+        if ("calc" in i) and ('damage' in i['calc']):
+            newjsonline['calc']={}
+            newjsonline['calc']['damage']=i['calc']['damage']
         if 'features' in i:
             newjsonline['features']=self.__getfeature(i['features'])
         if 'prereqs' in i:
