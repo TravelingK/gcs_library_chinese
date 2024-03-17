@@ -72,6 +72,8 @@ class infoDict:
         for feature in featureList:
             newfeaturesline={}
             for featureInfo in featureInfoList:
+                if 'situation' in feature:
+                    newfeaturesline['situation']=feature['situation']
                 if (featureInfo in feature) and ('qualifier' in feature[featureInfo]):
                     newfeaturesline[featureInfo]={}
                     newfeaturesline[featureInfo]['qualifier']=feature[featureInfo]['qualifier']
