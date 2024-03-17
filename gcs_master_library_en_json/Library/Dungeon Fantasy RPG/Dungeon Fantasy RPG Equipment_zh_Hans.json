@@ -101,7 +101,12 @@
             "Clothing",
             "Special Orders"
         ],
-        "description": "Alchemist’s Garb"
+        "description": "Alchemist’s Garb",
+        "features": [
+            {
+                "situation": "DX if Alchemist's Garb is worn over armor"
+            }
+        ]
     },
     "b2f51ab0-a8cb-4fef-9b98-19db01058f80": {
         "tags": [
@@ -287,7 +292,12 @@
             "Musical Instruments"
         ],
         "notes": "Requires two hands",
-        "description": "Bagpipes"
+        "description": "Bagpipes",
+        "features": [
+            {
+                "situation": "Hearing to those within 10 yards of the bagpipes when played"
+            }
+        ]
     },
     "1b84e3df-f5b1-4f39-ae0b-b5a94b1dc1fb": {
         "tags": [
@@ -2288,14 +2298,24 @@
             "Special Orders"
         ],
         "notes": "Applied to the whole suit; Not compatiable with Ornate",
-        "description": "Dungeon Camouflage"
+        "description": "Dungeon Camouflage",
+        "features": [
+            {
+                "situation": "to Camouflage and Stealth vs Vision in underground conditions"
+            }
+        ]
     },
     "b9e2c45d-95fa-48d2-a8c8-84273a3a09ff": {
         "tags": [
             "Camping and Survival Gear",
             "Special Orders"
         ],
-        "description": "Dwarven Rations"
+        "description": "Dwarven Rations",
+        "features": [
+            {
+                "situation": "to all HT rolls against poison as long as you've had a steady diet of Dwarven Rations for a month or longer"
+            }
+        ]
     },
     "d6369729-e2f7-4c70-a5bf-eca409d71064": {
         "tags": [
@@ -3854,6 +3874,11 @@
                     {
                         "name": {
                             "qualifier": "结绳"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Knot-Tying"
                         }
                     }
                 ],
@@ -5482,7 +5507,15 @@
                     "damage": "thr cr"
                 }
             }
-        }
+        },
+        "features": [
+            {
+                "situation": "to all attacks with the non-shield hand unless you have Shield-Wall Training"
+            },
+            {
+                "situation": "to Dodge, Parry & Block against attacks from the front or shield side"
+            }
+        ]
     },
     "48a6b951-041f-4596-9391-f7e16d8122b4": {
         "tags": [
@@ -5995,6 +6028,11 @@
                         "name": {
                             "qualifier": "结绳"
                         }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Knot-Tying"
+                        }
                     }
                 ],
                 "description": "Light Mail Gloves"
@@ -6127,6 +6165,11 @@
                     {
                         "name": {
                             "qualifier": "结绳"
+                        }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Knot-Tying"
                         }
                     }
                 ],
@@ -7151,6 +7194,11 @@
                         "name": {
                             "qualifier": "结绳"
                         }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Knot-Tying"
+                        }
                     }
                 ],
                 "description": "Mail Gloves"
@@ -7467,7 +7515,12 @@
             "Scholarly Gear",
             "Special Orders"
         ],
-        "description": "Mapping Kit"
+        "description": "Mapping Kit",
+        "features": [
+            {
+                "situation": "to Cartography rolls to make maps"
+            }
+        ]
     },
     "b10ea3a9-eb7b-41bd-9962-1152ef2123f5": {
         "tags": [
@@ -7526,7 +7579,12 @@
                 },
                 "usage": "Shield Bash"
             }
-        }
+        },
+        "features": [
+            {
+                "situation": "to Dodge, Parry & Block against attacks from the front or buckler side"
+            }
+        ]
     },
     "5bba4b50-89a3-42cb-9d14-c2755e69452d": {
         "tags": [
@@ -7558,7 +7616,12 @@
                     "type": "cr"
                 }
             }
-        }
+        },
+        "features": [
+            {
+                "situation": "to Dodge, Parry & Block against attacks from the front or shield side"
+            }
+        ]
     },
     "5080aac0-0ebb-4bbe-aa9d-9505ce3778bd": {
         "tags": [
@@ -8933,6 +8996,11 @@
                         "name": {
                             "qualifier": "结绳"
                         }
+                    },
+                    {
+                        "name": {
+                            "qualifier": "Knot-Tying"
+                        }
                     }
                 ],
                 "description": "Scale Gloves"
@@ -9851,7 +9919,12 @@
                     "damage": "thr cr"
                 }
             }
-        }
+        },
+        "features": [
+            {
+                "situation": "to Dodge, Parry & Block against attacks from the front or buckler side"
+            }
+        ]
     },
     "690ec242-9e7a-4a47-8528-d45395a558e9": {
         "tags": [
@@ -10148,7 +10221,12 @@
                     "type": "cr"
                 }
             }
-        }
+        },
+        "features": [
+            {
+                "situation": "to Dodge, Parry & Block against attacks from the front or shield side"
+            }
+        ]
     },
     "72b8c7d8-8a94-401d-8b24-1b5305c1bb0b": {
         "tags": [
@@ -10997,7 +11075,12 @@
             "Special Orders"
         ],
         "notes": "Break if penetrated",
-        "description": "Tinted Goggles"
+        "description": "Tinted Goggles",
+        "features": [
+            {
+                "situation": "to resist dazzling or blindness from flashes or glare"
+            }
+        ]
     },
     "7bdeacfd-c4cf-4316-82ae-a061c2e51e3c": {
         "tags": [
@@ -11163,9 +11246,19 @@
         "description": "Trap-Finder’s Kit",
         "modifiers": {
             "193f12fb-585b-494a-8b5e-6e27c9432312": {
-                "name": "Fine"
+                "name": "Fine",
+                "features": [
+                    {
+                        "situation": "to Traps skill when actively searching for, disarming, or removing traps"
+                    }
+                ]
             }
-        }
+        },
+        "features": [
+            {
+                "situation": "to Traps skill when actively searching for, disarming, or removing traps"
+            }
+        ]
     },
     "e2ac8914-cb3a-4746-a305-b0a63254dec2": {
         "tags": [
