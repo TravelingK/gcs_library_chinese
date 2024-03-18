@@ -94,33 +94,6 @@ class infoDict:
                 newjsonline[childrenL]=childrenJson.getChildren()
         if 'features' in i:
             newjsonline['features']=self.__getfeature(i['features'])
-            """
-        if 'modifiers' in i:
-            JsonModifiersline=[]
-            for ii in i['modifiers']:
-                childrenJson=infoDict(i)
-                newjsonlinemodifiers=childrenJson.getJson(ii)
-                JsonModifiersline.append({ii['id']:newjsonlinemodifiers})
-            newjsonline['modifiers']=JsonModifiersline
-        if 'weapons' in i:
-            Jsonweaponsdict={}
-            for ii in i['weapons']:
-                childrenJson=infoDict(i)
-                newjsondictweapons=childrenJson.getJson(ii)
-                Jsonweaponsdict[ii['id']]=newjsondictweapons
-            newjsonline['weapons']=Jsonweaponsdict
-            """
-        if 'damage' in i:
-            damagelin={}
-
-            if 'type' in i['damage']:
-                damagelin['type']=i['damage']['type']
-            if 'fragmentation_type' in i['damage']:
-                damagelin['fragmentation_type']=i['damage']['fragmentation_type']
-            newjsonline['damage']=damagelin
-        if ("calc" in i) and ('damage' in i['calc']):
-            newjsonline['calc']={}
-            newjsonline['calc']['damage']=i['calc']['damage']
         if 'features' in i:
             newjsonline['features']=self.__getfeature(i['features'])
         if 'prereqs' in i:
