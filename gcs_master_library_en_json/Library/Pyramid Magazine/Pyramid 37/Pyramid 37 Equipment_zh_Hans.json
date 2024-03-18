@@ -109,13 +109,7 @@
                         "name": "Gun"
                     }
                 ],
-                "usage": "Solid Shot",
-                "calc": {
-                    "damage": "1d+1 pi-"
-                },
-                "damage": {
-                    "type": "贯通-"
-                }
+                "usage": "Solid Shot"
             }
         }
     },
@@ -169,13 +163,7 @@
                         "name": "手枪"
                     }
                 ],
-                "usage": "Solid Shot",
-                "calc": {
-                    "damage": "2d pi-"
-                },
-                "damage": {
-                    "type": "贯通-"
-                }
+                "usage": "Solid Shot"
             }
         }
     },
@@ -186,9 +174,6 @@
         "description": "7.5mmCLP Snub-Nosed Revolver",
         "weapons": {
             "3e115a85-0a17-449c-860b-21ef219ef414": {
-                "damage": {
-                    "type": "贯通-"
-                },
                 "defaults": [
                     {},
                     {
@@ -232,10 +217,7 @@
                         "name": "手枪"
                     }
                 ],
-                "usage": "Solid Shot",
-                "calc": {
-                    "damage": "2d pi-"
-                }
+                "usage": "Solid Shot"
             }
         }
     },
@@ -289,12 +271,6 @@
                         "name": "手枪"
                     }
                 ],
-                "damage": {
-                    "type": "贯通+"
-                },
-                "calc": {
-                    "damage": "3d 贯通+"
-                },
                 "usage": "Solid Shot"
             }
         }
@@ -353,12 +329,6 @@
                         "name": "手枪"
                     }
                 ],
-                "calc": {
-                    "damage": "1d+2 pi-"
-                },
-                "damage": {
-                    "type": "贯通-"
-                },
                 "usage": "Solid Shot"
             }
         }
@@ -417,12 +387,6 @@
                         "specialization": "长武器"
                     }
                 ],
-                "damage": {
-                    "type": "贯通-"
-                },
-                "calc": {
-                    "damage": "4d+1 贯通-"
-                },
                 "usage": "Solid Shot"
             }
         }
@@ -434,9 +398,6 @@
         "description": "7.5mmCLP Machine Pistol",
         "weapons": {
             "17076af7-dec2-4bc3-9801-589a390938d0": {
-                "damage": {
-                    "type": "贯通-"
-                },
                 "defaults": [
                     {},
                     {
@@ -484,10 +445,7 @@
                         "name": "手枪"
                     }
                 ],
-                "usage": "Solid Shot",
-                "calc": {
-                    "damage": "4d+1 贯通-"
-                }
+                "usage": "Solid Shot"
             }
         }
     },
@@ -508,13 +466,7 @@
                         "name": "炮手"
                     }
                 ],
-                "calc": {
-                    "damage": "15d pi+"
-                },
-                "usage": "Solid Slug",
-                "damage": {
-                    "type": "贯通+"
-                }
+                "usage": "Solid Slug"
             }
         }
     },
@@ -526,9 +478,6 @@
         "description": "25mmCLR Light Autocannon",
         "weapons": {
             "53fe77ec-83e8-4908-8be5-c56d96a12630": {
-                "calc": {
-                    "damage": "6dx4 pi++"
-                },
                 "defaults": [
                     {
                         "name": "炮手",
@@ -538,10 +487,7 @@
                         "name": "炮手"
                     }
                 ],
-                "usage": "Solid Slug",
-                "damage": {
-                    "type": "贯通++"
-                }
+                "usage": "Solid Slug"
             }
         }
     },
@@ -562,12 +508,6 @@
                         "name": "炮手"
                     }
                 ],
-                "damage": {
-                    "type": "贯通++"
-                },
-                "calc": {
-                    "damage": "6dx4 pi++"
-                },
                 "usage": "Solid Slug"
             }
         }
@@ -580,9 +520,6 @@
         "description": "40mmCL Heavy Autocannon",
         "weapons": {
             "4747e22e-9ae5-498f-9096-81d0add98ede": {
-                "calc": {
-                    "damage": "6dx6 pi++"
-                },
                 "defaults": [
                     {
                         "name": "炮手",
@@ -592,9 +529,6 @@
                         "name": "炮手"
                     }
                 ],
-                "damage": {
-                    "type": "贯通++"
-                },
                 "usage": "Solid Slug"
             }
         }
@@ -613,13 +547,7 @@
                         "specialization": "加农炮",
                         "name": "火炮"
                     }
-                ],
-                "calc": {
-                    "damage": "6dx2 pi++"
-                },
-                "damage": {
-                    "type": "贯通++"
-                }
+                ]
             },
             "e0925cdb-4b15-4430-9863-7337764a4c62": {
                 "defaults": [
@@ -629,14 +557,7 @@
                         "name": "火炮"
                     }
                 ],
-                "damage": {
-                    "type": "钝击 爆炸",
-                    "fragmentation_type": "切割"
-                },
-                "usage": "Indirect HE",
-                "calc": {
-                    "damage": "8dx2 cr ex [2d cut]"
-                }
+                "usage": "Indirect HE"
             }
         }
     },
@@ -648,9 +569,6 @@
         "description": "64mmCL Light Tank cannon",
         "weapons": {
             "d5740f84-18ce-4380-86cc-35769765c9ac": {
-                "damage": {
-                    "type": "贯通++"
-                },
                 "defaults": [
                     {},
                     {
@@ -661,9 +579,6 @@
                         "name": "炮手"
                     }
                 ],
-                "calc": {
-                    "damage": "6dx15 pi++"
-                },
                 "usage": "Direct"
             },
             "491f6d3e-fc76-4812-a5a6-c44b964cb6e0": {
@@ -673,13 +588,7 @@
                         "specialization": "加农炮"
                     }
                 ],
-                "usage": "Indirect",
-                "calc": {
-                    "damage": "6dx15 pi++"
-                },
-                "damage": {
-                    "type": "贯通++"
-                }
+                "usage": "Indirect"
             }
         }
     },
@@ -701,13 +610,7 @@
                     {
                         "name": "炮手"
                     }
-                ],
-                "calc": {
-                    "damage": "6dx8 pi++"
-                },
-                "damage": {
-                    "type": "贯通++"
-                }
+                ]
             },
             "99d38f5e-0c15-41ac-8c6a-f76ca36a5372": {
                 "usage": "Indirect",
@@ -716,13 +619,7 @@
                         "name": "火炮",
                         "specialization": "加农炮"
                     }
-                ],
-                "calc": {
-                    "damage": "6dx8 pi++"
-                },
-                "damage": {
-                    "type": "贯通++"
-                }
+                ]
             }
         }
     },
@@ -744,12 +641,6 @@
                         "name": "炮手"
                     }
                 ],
-                "calc": {
-                    "damage": "6dx8 pi++"
-                },
-                "damage": {
-                    "type": "贯通++"
-                },
                 "usage": "Direct"
             },
             "dabbf5f1-e85d-4249-aa57-60d154475795": {
@@ -759,13 +650,7 @@
                         "specialization": "加农炮",
                         "name": "火炮"
                     }
-                ],
-                "damage": {
-                    "type": "贯通++"
-                },
-                "calc": {
-                    "damage": "6dx8 pi++"
-                }
+                ]
             }
         }
     },
@@ -783,13 +668,7 @@
                         "name": "火炮"
                     }
                 ],
-                "damage": {
-                    "type": "贯通++"
-                },
-                "usage": "Indirect",
-                "calc": {
-                    "damage": "6dx12 pi++"
-                }
+                "usage": "Indirect"
             },
             "fcafaf22-dec8-4f04-b4aa-b0907f81afa0": {
                 "usage": "Direct",
@@ -802,13 +681,7 @@
                     {
                         "name": "炮手"
                     }
-                ],
-                "calc": {
-                    "damage": "6dx12 pi++"
-                },
-                "damage": {
-                    "type": "贯通++"
-                }
+                ]
             }
         }
     },
@@ -821,18 +694,12 @@
         "weapons": {
             "2597c1aa-82f6-4d5b-b644-697f37bdc2a0": {
                 "usage": "Indirect",
-                "damage": {
-                    "type": "贯通++"
-                },
                 "defaults": [
                     {
                         "specialization": "加农炮",
                         "name": "火炮"
                     }
-                ],
-                "calc": {
-                    "damage": "6dx12 pi++"
-                }
+                ]
             },
             "bc7af735-7f51-4c1d-afe2-5ee41e366946": {
                 "defaults": [
@@ -845,13 +712,7 @@
                         "name": "炮手"
                     }
                 ],
-                "usage": "Direct",
-                "calc": {
-                    "damage": "6dx12 pi++"
-                },
-                "damage": {
-                    "type": "贯通++"
-                }
+                "usage": "Direct"
             }
         }
     },
@@ -869,18 +730,9 @@
                         "specialization": "加农炮"
                     }
                 ],
-                "usage": "Indirect",
-                "damage": {
-                    "type": "贯通++"
-                },
-                "calc": {
-                    "damage": "6dx20 pi++"
-                }
+                "usage": "Indirect"
             },
             "f4949d1f-63a2-44b3-b0c0-ff791e993cd2": {
-                "calc": {
-                    "damage": "6dx20 pi++"
-                },
                 "defaults": [
                     {},
                     {
@@ -891,10 +743,7 @@
                         "name": "炮手"
                     }
                 ],
-                "usage": "Direct",
-                "damage": {
-                    "type": "贯通++"
-                }
+                "usage": "Direct"
             }
         }
     },
@@ -906,12 +755,6 @@
         "description": "160mm Railgun",
         "weapons": {
             "a42faf5b-7398-4f5e-be30-f64a51f6d7f8": {
-                "calc": {
-                    "damage": "6dx100(3) pi++"
-                },
-                "damage": {
-                    "type": "贯通++"
-                },
                 "defaults": [
                     {
                         "name": "火炮",
@@ -935,13 +778,7 @@
                         "name": "火炮",
                         "specialization": "导弹"
                     }
-                ],
-                "calc": {
-                    "damage": "6dx30 pi++"
-                },
-                "damage": {
-                    "type": "贯通++"
-                }
+                ]
             }
         }
     },
@@ -953,13 +790,7 @@
         "description": "100mm Modular Launch System",
         "weapons": {
             "c76ce817-474d-42a1-b68a-07b9c67d93aa": {
-                "calc": {
-                    "damage": "6dx30 pi++"
-                },
                 "usage": "Kinetic Missile",
-                "damage": {
-                    "type": "贯通++"
-                },
                 "defaults": [
                     {},
                     {
@@ -984,12 +815,6 @@
                         "name": "火炮"
                     }
                 ],
-                "calc": {
-                    "damage": "6dx20 pi++"
-                },
-                "damage": {
-                    "type": "贯通++"
-                },
                 "usage": "Kinetic Missile"
             }
         }
@@ -1008,13 +833,7 @@
                         "name": "火炮",
                         "specialization": "导弹"
                     }
-                ],
-                "calc": {
-                    "damage": "6dx20 pi++"
-                },
-                "damage": {
-                    "type": "贯通++"
-                }
+                ]
             }
         }
     },
@@ -1027,12 +846,6 @@
         "weapons": {
             "b6c9ef57-b0ff-46c7-9ec4-752bb7e0b427": {
                 "usage": "Kinetic Missile",
-                "damage": {
-                    "type": "贯通++"
-                },
-                "calc": {
-                    "damage": "6dx20 pi++"
-                },
                 "defaults": [
                     {
                         "name": "火炮",
@@ -1050,18 +863,12 @@
         "description": "400mm Cruise Missile",
         "weapons": {
             "9fdfb6a9-1a8e-4243-9c4f-e786c7aa4ae8": {
-                "calc": {
-                    "damage": "6dx15 pi++"
-                },
                 "defaults": [
                     {
                         "specialization": "导弹",
                         "name": "火炮"
                     }
                 ],
-                "damage": {
-                    "type": "贯通++"
-                },
                 "usage": "Kinetic Missile"
             }
         }

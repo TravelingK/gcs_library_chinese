@@ -21,13 +21,7 @@
                     {
                         "name": "Two-Handed Sword"
                     }
-                ],
-                "damage": {
-                    "type": "cr"
-                },
-                "calc": {
-                    "damage": "sw+2 cr"
-                }
+                ]
             },
             "bb2bc6b1-7fb5-4566-b57c-dcba75d2bd17": {
                 "usage": "Thrust",
@@ -36,13 +30,7 @@
                     {
                         "name": "Two-Handed Sword"
                     }
-                ],
-                "damage": {
-                    "type": "cr"
-                },
-                "calc": {
-                    "damage": "thr+1 cr"
-                }
+                ]
             }
         }
     },
@@ -87,13 +75,7 @@
                         "specialization": "Pistol",
                         "name": "Guns"
                     }
-                ],
-                "calc": {
-                    "damage": "2d+1 pi+"
-                },
-                "damage": {
-                    "type": "pi+"
-                }
+                ]
             }
         }
     },
@@ -123,13 +105,7 @@
                         "name": "Guns",
                         "specialization": "Pistol"
                     }
-                ],
-                "damage": {
-                    "type": "pi+"
-                },
-                "calc": {
-                    "damage": "2d+2 pi+"
-                }
+                ]
             }
         }
     },
@@ -159,13 +135,7 @@
                         "specialization": "Pistol",
                         "name": "Guns"
                     }
-                ],
-                "damage": {
-                    "type": "pi+"
-                },
-                "calc": {
-                    "damage": "2d pi+"
-                }
+                ]
             }
         }
     },
@@ -189,12 +159,6 @@
         "description": "Auto Pistol, .50AE",
         "weapons": {
             "e346716e-44ae-4426-9b99-c891f2b4735e": {
-                "calc": {
-                    "damage": "4d pi+"
-                },
-                "damage": {
-                    "type": "pi+"
-                },
                 "defaults": [
                     {
                         "name": "Guns",
@@ -225,12 +189,6 @@
         "description": "9mm 自动手枪",
         "weapons": {
             "da8efee3-1467-41ea-a467-13909754715e": {
-                "calc": {
-                    "damage": "2d+2 pi"
-                },
-                "damage": {
-                    "type": "pi"
-                },
                 "defaults": [
                     {
                         "name": "Guns",
@@ -254,13 +212,7 @@
                         "name": "Guns",
                         "specialization": "Pistol"
                     }
-                ],
-                "damage": {
-                    "type": "pi"
-                },
-                "calc": {
-                    "damage": "2d+2 pi"
-                }
+                ]
             }
         }
     },
@@ -299,19 +251,13 @@
         "description": "斧",
         "weapons": {
             "2f8983c4-32c8-48b7-b803-f06576c856b5": {
-                "calc": {
-                    "damage": "sw+2 cut"
-                },
                 "defaults": [
                     {},
                     {
                         "name": "Axe/Mace"
                     }
                 ],
-                "usage": "Swung",
-                "damage": {
-                    "type": "cut"
-                }
+                "usage": "Swung"
             }
         }
     },
@@ -359,13 +305,7 @@
                     {
                         "name": "Axe/Mace"
                     }
-                ],
-                "calc": {
-                    "damage": "sw+1 cr"
-                },
-                "damage": {
-                    "type": "cr"
-                }
+                ]
             }
         }
     },
@@ -423,19 +363,13 @@
         "description": "7.62mm 栓动步枪",
         "weapons": {
             "8582cb08-0f46-4590-af0d-653d59d19677": {
-                "calc": {
-                    "damage": "3d+2(2) pi"
-                },
                 "defaults": [
                     {},
                     {
                         "specialization": "Rifle",
                         "name": "Guns"
                     }
-                ],
-                "damage": {
-                    "type": "pi"
-                }
+                ]
             }
         }
     },
@@ -456,13 +390,7 @@
                         "name": "Karate"
                     }
                 ],
-                "damage": {
-                    "type": "cr"
-                },
-                "usage": "Punch",
-                "calc": {
-                    "damage": "thr cr"
-                }
+                "usage": "Punch"
             }
         }
     },
@@ -474,12 +402,6 @@
         "description": "阔剑",
         "weapons": {
             "f8d79235-2597-4a99-a06f-7fdfec2450f9": {
-                "calc": {
-                    "damage": "sw+1 cut"
-                },
-                "damage": {
-                    "type": "cut"
-                },
                 "defaults": [
                     {},
                     {
@@ -490,18 +412,12 @@
             },
             "b218440b-861f-4e3c-9f3c-7b4a4b4cae56": {
                 "usage": "Thrust",
-                "calc": {
-                    "damage": "thr+1 cr"
-                },
                 "defaults": [
                     {},
                     {
                         "name": "Broadsword"
                     }
-                ],
-                "damage": {
-                    "type": "cr"
-                }
+                ]
             }
         }
     },
@@ -589,13 +505,7 @@
                     {
                         "name": "Two-Handed Axe/Mace"
                     }
-                ],
-                "damage": {
-                    "type": "cut"
-                },
-                "calc": {
-                    "damage": "sw+1d cut"
-                }
+                ]
             }
         }
     },
@@ -639,12 +549,6 @@
         "description": "弩",
         "weapons": {
             "fbc4e502-8ab8-4fdc-b867-52ff95d66974": {
-                "calc": {
-                    "damage": "thr+4 imp"
-                },
-                "damage": {
-                    "type": "imp"
-                },
                 "defaults": [
                     {},
                     {
@@ -672,35 +576,23 @@
         "description": "撬棍，3'",
         "weapons": {
             "8cda62ad-99d0-4c8b-9a5a-2b72162f6367": {
-                "calc": {
-                    "damage": "sw+2 cr"
-                },
                 "usage": "Swung",
                 "defaults": [
                     {},
                     {
                         "name": "Axe/Mace"
                     }
-                ],
-                "damage": {
-                    "type": "cr"
-                }
+                ]
             },
             "ba13d00e-7917-4015-867b-31af03db26ec": {
                 "usage": "Thrown",
-                "calc": {
-                    "damage": "sw+2 cr"
-                },
                 "defaults": [
                     {},
                     {
                         "specialization": "Axe/Mace",
                         "name": "Thrown Weapon"
                     }
-                ],
-                "damage": {
-                    "type": "cr"
-                }
+                ]
             }
         }
     },
@@ -711,19 +603,13 @@
         "description": ".41 德林加手枪",
         "weapons": {
             "2ef7bc37-b63b-4d28-8109-5237cf3a61ee": {
-                "calc": {
-                    "damage": "1d pi+"
-                },
                 "defaults": [
                     {},
                     {
                         "specialization": "Pistol",
                         "name": "Guns"
                     }
-                ],
-                "damage": {
-                    "type": "pi+"
-                }
+                ]
             }
         }
     },
@@ -749,12 +635,6 @@
         "weapons": {
             "d7b5a101-02fc-466d-8b01-fec8b5aac917": {
                 "usage": "Slug",
-                "damage": {
-                    "type": "pi"
-                },
-                "calc": {
-                    "damage": "2d+2(2) pi"
-                },
                 "defaults": [
                     {},
                     {
@@ -771,13 +651,7 @@
                         "specialization": "Shotgun"
                     }
                 ],
-                "usage": "Shell",
-                "damage": {
-                    "type": "pi"
-                },
-                "calc": {
-                    "damage": "1d+1 pi"
-                }
+                "usage": "Shell"
             }
         }
     },
@@ -805,13 +679,7 @@
                     {
                         "name": "Two-Handed Axe/Mace"
                     }
-                ],
-                "calc": {
-                    "damage": "sw+3 cut"
-                },
-                "damage": {
-                    "type": "cut"
-                }
+                ]
             }
         }
     },
@@ -905,12 +773,6 @@
                         "name": "Two-Handed Axe/Mace"
                     }
                 ],
-                "calc": {
-                    "damage": "sw+1 cr"
-                },
-                "damage": {
-                    "type": "cr"
-                },
                 "usage": "Swung"
             }
         }
@@ -936,13 +798,7 @@
                         "name": "Axe/Mace"
                     }
                 ],
-                "usage": "Swing",
-                "calc": {
-                    "damage": "sw+2 cr"
-                },
-                "damage": {
-                    "type": "cr"
-                }
+                "usage": "Swing"
             }
         }
     },
@@ -975,13 +831,7 @@
                     {
                         "name": "Axe/Mace"
                     }
-                ],
-                "calc": {
-                    "damage": "sw cut"
-                },
-                "damage": {
-                    "type": "cut"
-                }
+                ]
             },
             "391dff15-04a1-4404-8174-ce01c9d3f7a4": {
                 "defaults": [
@@ -991,13 +841,7 @@
                         "name": "Thrown Weapon"
                     }
                 ],
-                "damage": {
-                    "type": "cut"
-                },
-                "usage": "Thrown",
-                "calc": {
-                    "damage": "sw cut"
-                }
+                "usage": "Thrown"
             }
         }
     },
@@ -1037,12 +881,6 @@
         "weapons": {
             "962a232b-5111-4149-a591-5a3b210f0c5a": {
                 "usage": "Thrust",
-                "calc": {
-                    "damage": "thr+1 imp"
-                },
-                "damage": {
-                    "type": "imp"
-                },
                 "defaults": [
                     {},
                     {
@@ -1052,18 +890,12 @@
             },
             "cdaad55e-836f-4f83-8b83-99942bc08118": {
                 "usage": "Swung",
-                "damage": {
-                    "type": "cut"
-                },
                 "defaults": [
                     {},
                     {
                         "name": "Broadsword"
                     }
-                ],
-                "calc": {
-                    "damage": "sw+1 cut"
-                }
+                ]
             }
         }
     },
@@ -1075,13 +907,7 @@
         "description": "Katana",
         "weapons": {
             "b234ac29-efb9-408a-a091-f50b21501526": {
-                "damage": {
-                    "type": "imp"
-                },
                 "usage": "Thrust",
-                "calc": {
-                    "damage": "thr+1 imp"
-                },
                 "defaults": [
                     {},
                     {
@@ -1090,12 +916,6 @@
                 ]
             },
             "b745a714-effa-4aa9-8ed0-d32288714a29": {
-                "calc": {
-                    "damage": "sw+2 cut"
-                },
-                "damage": {
-                    "type": "cut"
-                },
                 "defaults": [
                     {},
                     {
@@ -1134,9 +954,6 @@
         "description": "Large Knife",
         "weapons": {
             "e1061a00-5199-4106-a1aa-96e602e7ec5f": {
-                "damage": {
-                    "type": "imp"
-                },
                 "defaults": [
                     {},
                     {
@@ -1144,9 +961,6 @@
                         "specialization": "Knife"
                     }
                 ],
-                "calc": {
-                    "damage": "thr imp"
-                },
                 "usage": "Thrown"
             },
             "6a7259d7-a7e6-4f98-9ecc-f674fb8422ce": {
@@ -1156,13 +970,7 @@
                     {
                         "name": "Knife"
                     }
-                ],
-                "damage": {
-                    "type": "cut"
-                },
-                "calc": {
-                    "damage": "sw-2 cut"
-                }
+                ]
             },
             "e22a9832-ed35-435e-b23b-8260edfe2563": {
                 "defaults": [
@@ -1171,13 +979,7 @@
                         "name": "Knife"
                     }
                 ],
-                "usage": "Thrust",
-                "calc": {
-                    "damage": "thr imp"
-                },
-                "damage": {
-                    "type": "imp"
-                }
+                "usage": "Thrust"
             }
         }
     },
@@ -1216,19 +1018,13 @@
         "description": "Lever-Action Carbine, .30",
         "weapons": {
             "063b6e7f-74e3-4e93-97ac-faf10b9f6cdc": {
-                "damage": {
-                    "type": "pi"
-                },
                 "defaults": [
                     {},
                     {
                         "name": "Guns",
                         "specialization": "Rifle"
                     }
-                ],
-                "calc": {
-                    "damage": "2d+2(2) pi"
-                }
+                ]
             }
         }
     },
@@ -1254,12 +1050,6 @@
         "description": "长弓 Longbow",
         "weapons": {
             "403e0541-cd57-45e3-9f6b-6148aea6987a": {
-                "damage": {
-                    "type": "imp"
-                },
-                "calc": {
-                    "damage": "thr+2 imp"
-                },
                 "defaults": [
                     {},
                     {
@@ -1278,12 +1068,6 @@
         "weapons": {
             "a70f0330-9a04-4847-95ab-bee487bc0c4a": {
                 "usage": "Swung",
-                "calc": {
-                    "damage": "sw+3 cr"
-                },
-                "damage": {
-                    "type": "cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -1292,19 +1076,13 @@
                 ]
             },
             "6ef5cc95-6c4a-43e6-b899-108f799856c0": {
-                "calc": {
-                    "damage": "sw+3 cr"
-                },
                 "defaults": [
                     {},
                     {
                         "specialization": "Axe/Mace",
                         "name": "Thrown Weapon"
                     }
-                ],
-                "damage": {
-                    "type": "cr"
-                }
+                ]
             }
         }
     },
@@ -1316,28 +1094,16 @@
         "description": "Machete",
         "weapons": {
             "21f6dcd8-b31b-4af9-b3c5-54931bfb75c3": {
-                "damage": {
-                    "type": "imp"
-                },
                 "usage": "Thrust",
                 "defaults": [
                     {},
                     {
                         "name": "Knife"
                     }
-                ],
-                "calc": {
-                    "damage": "thr-1 imp"
-                }
+                ]
             },
             "e53c2b2d-8bff-4472-8174-bc8ab6dcc069": {
-                "calc": {
-                    "damage": "sw-1 cut"
-                },
                 "usage": "Swung",
-                "damage": {
-                    "type": "cut"
-                },
                 "defaults": [
                     {},
                     {
@@ -1456,13 +1222,7 @@
                     {
                         "name": "Polearm"
                     }
-                ],
-                "calc": {
-                    "damage": "sw+4 cr"
-                },
-                "damage": {
-                    "type": "cr"
-                }
+                ]
             },
             "245d3192-9d1f-46c6-bb94-cc4d4465ac2b": {
                 "defaults": [
@@ -1471,13 +1231,7 @@
                         "name": "Polearm"
                     }
                 ],
-                "usage": "Swung",
-                "calc": {
-                    "damage": "sw+4 cut"
-                },
-                "damage": {
-                    "type": "cut"
-                }
+                "usage": "Swung"
             }
         }
     },
@@ -1488,13 +1242,7 @@
         "description": "Police Baton",
         "weapons": {
             "a6218ed3-16be-4073-9178-6e72c81ea9bc": {
-                "calc": {
-                    "damage": "thr cr"
-                },
                 "usage": "Thrust",
-                "damage": {
-                    "type": "cr"
-                },
                 "defaults": [
                     {
                         "name": "Shortsword"
@@ -1502,12 +1250,6 @@
                 ]
             },
             "db10c466-f1ef-4011-b8ce-170971563902": {
-                "calc": {
-                    "damage": "sw cr"
-                },
-                "damage": {
-                    "type": "cr"
-                },
                 "usage": "Swing",
                 "defaults": [
                     {
@@ -1569,24 +1311,15 @@
         "weapons": {
             "f003ab7a-5020-4cdd-8937-1565955d5e34": {
                 "usage": "Shell",
-                "calc": {
-                    "damage": "1d+1 pi"
-                },
                 "defaults": [
                     {},
                     {
                         "name": "Guns",
                         "specialization": "Shotgun"
                     }
-                ],
-                "damage": {
-                    "type": "pi"
-                }
+                ]
             },
             "5265c477-572a-4314-ae15-8308c8fc2c88": {
-                "calc": {
-                    "damage": "2d+2(2) pi"
-                },
                 "defaults": [
                     {},
                     {
@@ -1594,10 +1327,7 @@
                         "name": "Guns"
                     }
                 ],
-                "usage": "Slug",
-                "damage": {
-                    "type": "pi"
-                }
+                "usage": "Slug"
             }
         }
     },
@@ -1608,28 +1338,16 @@
         "description": "长棍Quarterstaff",
         "weapons": {
             "c8326414-4372-4187-9407-58703f64e5ce": {
-                "calc": {
-                    "damage": "thr+2 cr"
-                },
                 "usage": "Thrust",
                 "defaults": [
                     {},
                     {
                         "name": "Staff"
                     }
-                ],
-                "damage": {
-                    "type": "cr"
-                }
+                ]
             },
             "ab5d7841-e533-47b4-b515-906d54e67e91": {
-                "calc": {
-                    "damage": "sw+2 cr"
-                },
                 "usage": "Swung",
-                "damage": {
-                    "type": "cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -1647,28 +1365,16 @@
         "description": "长棍Quarterstaff",
         "weapons": {
             "1f16c0ca-0ce3-42f1-b520-855c3613a665": {
-                "damage": {
-                    "type": "cr"
-                },
                 "defaults": [
                     {},
                     {
                         "name": "Two-Handed Sword"
                     }
                 ],
-                "usage": "Swung",
-                "calc": {
-                    "damage": "sw+2 cr"
-                }
+                "usage": "Swung"
             },
             "3f3ef46b-b79b-43ea-9bc4-0660be05dc55": {
                 "usage": "Thrust",
-                "calc": {
-                    "damage": "thr+1 cr"
-                },
-                "damage": {
-                    "type": "cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -1706,19 +1412,13 @@
         "description": "修理",
         "weapons": {
             "28f11c58-c114-4c0f-bb24-d9a5d8decea0": {
-                "calc": {
-                    "damage": "thr+1 imp"
-                },
                 "defaults": [
                     {},
                     {
                         "name": "Rapier"
                     }
                 ],
-                "usage": "Thrust",
-                "damage": {
-                    "type": "imp"
-                }
+                "usage": "Thrust"
             }
         }
     },
@@ -1729,18 +1429,12 @@
         "description": "Revolver, .38",
         "weapons": {
             "806aa6c6-3054-4d4b-a362-4b12b8477bfe": {
-                "calc": {
-                    "damage": "2d pi"
-                },
                 "defaults": [
                     {
                         "name": "Guns",
                         "specialization": "Pistol"
                     }
-                ],
-                "damage": {
-                    "type": "pi"
-                }
+                ]
             }
         }
     },
@@ -1770,13 +1464,7 @@
                         "name": "Guns",
                         "specialization": "Pistol"
                     }
-                ],
-                "damage": {
-                    "type": "pi+"
-                },
-                "calc": {
-                    "damage": "3d+2 pi+"
-                }
+                ]
             }
         }
     },
@@ -1801,18 +1489,12 @@
         "description": "Revolver, .357M",
         "weapons": {
             "d3a1316f-63c3-4646-991a-f32893e80919": {
-                "calc": {
-                    "damage": "3d pi"
-                },
                 "defaults": [
                     {
                         "name": "Guns",
                         "specialization": "Pistol"
                     }
-                ],
-                "damage": {
-                    "type": "pi"
-                }
+                ]
             }
         }
     },
@@ -1829,13 +1511,7 @@
                         "specialization": "Pistol",
                         "name": "Guns"
                     }
-                ],
-                "damage": {
-                    "type": "pi"
-                },
-                "calc": {
-                    "damage": "3d pi"
-                }
+                ]
             }
         }
     },
@@ -1887,13 +1563,7 @@
                         "specialization": "Rifle",
                         "name": "Guns"
                     }
-                ],
-                "damage": {
-                    "type": "pi"
-                },
-                "calc": {
-                    "damage": "3d+2(2) pi"
-                }
+                ]
             }
         }
     },
@@ -1905,18 +1575,12 @@
         "description": "Short Bow",
         "weapons": {
             "d48d76ab-7e7f-487e-826d-8def84aee801": {
-                "calc": {
-                    "damage": "thr imp"
-                },
                 "defaults": [
                     {},
                     {
                         "name": "Bow"
                     }
-                ],
-                "damage": {
-                    "type": "imp"
-                }
+                ]
             }
         }
     },
@@ -1927,12 +1591,6 @@
         "description": "短剑",
         "weapons": {
             "7fa9e434-198a-499c-bd82-fbe377b72f67": {
-                "damage": {
-                    "type": "imp"
-                },
-                "calc": {
-                    "damage": "thr imp"
-                },
                 "defaults": [
                     {},
                     {
@@ -1942,13 +1600,7 @@
                 "usage": "Thrust"
             },
             "bbbc09f0-bb83-4c25-a726-c7e261afa2b6": {
-                "calc": {
-                    "damage": "sw cut"
-                },
                 "usage": "Swung",
-                "damage": {
-                    "type": "cut"
-                },
                 "defaults": [
                     {},
                     {
@@ -1987,12 +1639,6 @@
         "description": "Shovel",
         "weapons": {
             "4b922f4a-0848-4aec-afb9-f5eca83b49c5": {
-                "calc": {
-                    "damage": "sw+3 cut"
-                },
-                "damage": {
-                    "type": "cut"
-                },
                 "defaults": [
                     {},
                     {
@@ -2012,12 +1658,6 @@
         "weapons": {
             "2785e2e7-ecdf-49d9-b103-961f28d66365": {
                 "usage": "Swung",
-                "calc": {
-                    "damage": "sw+4 cr"
-                },
-                "damage": {
-                    "type": "cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -2048,9 +1688,6 @@
         "description": "Small Mace",
         "weapons": {
             "078ca870-e090-4d0c-ba7c-5ac8fd5c4677": {
-                "damage": {
-                    "type": "cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -2058,18 +1695,9 @@
                         "specialization": "Axe/Mace"
                     }
                 ],
-                "calc": {
-                    "damage": "sw+2 cr"
-                },
                 "usage": "Thrown"
             },
             "2ea7caf0-ffbf-43ae-8350-6c8a3796ec53": {
-                "damage": {
-                    "type": "cr"
-                },
-                "calc": {
-                    "damage": "sw+2 cr"
-                },
                 "usage": "Swung",
                 "defaults": [
                     {},
@@ -2122,13 +1750,7 @@
                         "specialization": "Rifle",
                         "name": "Guns"
                     }
-                ],
-                "damage": {
-                    "type": "pi"
-                },
-                "calc": {
-                    "damage": "5d-1(2) pi"
-                }
+                ]
             }
         }
     },
@@ -2139,18 +1761,12 @@
         "description": "Sniper Rifle, 7.62mm",
         "weapons": {
             "62e76458-df67-437a-80ad-7ea1dd4444b9": {
-                "damage": {
-                    "type": "pi"
-                },
                 "defaults": [
                     {
                         "name": "Guns",
                         "specialization": "Rifle"
                     }
-                ],
-                "calc": {
-                    "damage": "3d+2(2) pi"
-                }
+                ]
             }
         }
     },
@@ -2180,13 +1796,7 @@
                         "name": "Guns",
                         "specialization": "Pistol"
                     }
-                ],
-                "calc": {
-                    "damage": "2d-1 pi"
-                },
-                "damage": {
-                    "type": "pi"
-                }
+                ]
             }
         }
     },
@@ -2213,12 +1823,6 @@
         "weapons": {
             "8c0e2a43-222d-4583-9b49-220bcda43ed1": {
                 "usage": "Thrown",
-                "damage": {
-                    "type": "imp"
-                },
-                "calc": {
-                    "damage": "thr+3 imp"
-                },
                 "defaults": [
                     {},
                     {
@@ -2235,12 +1839,6 @@
                 ]
             },
             "ae1ee52c-6ca9-4cf4-8fe3-6b44ea09b83e": {
-                "calc": {
-                    "damage": "thr+3 imp"
-                },
-                "damage": {
-                    "type": "imp"
-                },
                 "usage": "Thrust - 2H",
                 "defaults": [
                     {},
@@ -2250,12 +1848,6 @@
                 ]
             },
             "699204fd-86b4-46b8-b648-f772dedf7adb": {
-                "calc": {
-                    "damage": "thr+2 imp"
-                },
-                "damage": {
-                    "type": "imp"
-                },
                 "defaults": [
                     {},
                     {
@@ -2368,12 +1960,6 @@
                         "specialization": "Axe/Mace"
                     }
                 ],
-                "damage": {
-                    "type": "cut"
-                },
-                "calc": {
-                    "damage": "sw+2 cut"
-                },
                 "usage": "Thrown"
             },
             "5f4fadfb-dd59-4f0e-aa4b-a6a781a7c479": {
@@ -2383,13 +1969,7 @@
                     {
                         "name": "Axe/Mace"
                     }
-                ],
-                "damage": {
-                    "type": "cut"
-                },
-                "calc": {
-                    "damage": "sw+2 cut"
-                }
+                ]
             }
         }
     },
@@ -2401,18 +1981,12 @@
         "weapons": {
             "0acf2369-6fbb-4bc0-b255-203430494b1e": {
                 "usage": "Swung",
-                "calc": {
-                    "damage": "sw+1 cut"
-                },
                 "defaults": [
                     {},
                     {
                         "name": "Broadsword"
                     }
-                ],
-                "damage": {
-                    "type": "cut"
-                }
+                ]
             },
             "ad0fde4d-1b6b-4c86-8838-a16294c3a0a2": {
                 "defaults": [
@@ -2421,13 +1995,7 @@
                         "name": "Broadsword"
                     }
                 ],
-                "damage": {
-                    "type": "imp"
-                },
-                "usage": "Thrust",
-                "calc": {
-                    "damage": "thr+2 imp"
-                }
+                "usage": "Thrust"
             }
         }
     },
@@ -2438,34 +2006,22 @@
         "description": "Thrusting Greatsword",
         "weapons": {
             "0ba02338-f9e4-4ef1-87f4-5ee73017b221": {
-                "damage": {
-                    "type": "imp"
-                },
                 "defaults": [
                     {},
                     {
                         "name": "Two-Handed Sword"
                     }
                 ],
-                "usage": "Thrust",
-                "calc": {
-                    "damage": "thr+3 imp"
-                }
+                "usage": "Thrust"
             },
             "7a3a2184-75f1-404b-8a48-4c804f246167": {
-                "calc": {
-                    "damage": "sw+3 cut"
-                },
                 "defaults": [
                     {},
                     {
                         "name": "Two-Handed Sword"
                     }
                 ],
-                "usage": "Swung",
-                "damage": {
-                    "type": "cut"
-                }
+                "usage": "Swung"
             }
         }
     },

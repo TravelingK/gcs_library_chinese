@@ -321,9 +321,6 @@
                 "weapons": {
                     "cf93ac45-4695-4767-8aea-bda2ac1be99a": {
                         "usage": "23×115mm",
-                        "calc": {
-                            "damage": "5dx3 pi++"
-                        },
                         "defaults": [
                             {
                                 "specialization": "Machine gun",
@@ -333,20 +330,10 @@
                             {
                                 "name": "Gunner"
                             }
-                        ],
-                        "damage": {
-                            "type": "pi++"
-                        }
+                        ]
                     },
                     "ecadb537-940b-4dd0-ba1f-8d6ae01de7e2": {
-                        "usage": "follow-up",
-                        "damage": {
-                            "type": "cr ex",
-                            "fragmentation_type": "cut"
-                        },
-                        "calc": {
-                            "damage": "3d cr ex [1d+1 cut]"
-                        }
+                        "usage": "follow-up"
                     }
                 }
             },
@@ -364,13 +351,7 @@
                                 "name": "Gunner"
                             }
                         ],
-                        "damage": {
-                            "type": "pi inc"
-                        },
-                        "usage": "12.7×108mm",
-                        "calc": {
-                            "damage": "8d+2(2) pi inc"
-                        }
+                        "usage": "12.7×108mm"
                     }
                 }
             },
@@ -388,13 +369,7 @@
                             {
                                 "name": "Gunner"
                             }
-                        ],
-                        "calc": {
-                            "damage": "7d pi inc"
-                        },
-                        "damage": {
-                            "type": "pi inc"
-                        }
+                        ]
                     }
                 }
             },
@@ -403,10 +378,6 @@
                 "description": "KBP AG-17A, 30x29mmB",
                 "weapons": {
                     "7a7e258c-6e17-4405-9fac-e1b91c47e4b6": {
-                        "damage": {
-                            "fragmentation_type": "cut",
-                            "type": "cr ex"
-                        },
                         "usage": "30x29mmB",
                         "defaults": [
                             {
@@ -417,10 +388,7 @@
                             {
                                 "name": "Gunner"
                             }
-                        ],
-                        "calc": {
-                            "damage": "4d cr ex [1d+2 cut]"
-                        }
+                        ]
                     }
                 }
             },
@@ -443,14 +411,7 @@
                             {
                                 "name": "Gunner"
                             }
-                        ],
-                        "damage": {
-                            "type": "cr ex",
-                            "fragmentation_type": "cut"
-                        },
-                        "calc": {
-                            "damage": "5dx2 cr ex [3d-1 cut]"
-                        }
+                        ]
                     }
                 }
             },
@@ -473,23 +434,10 @@
                                 "name": "Gunner"
                             }
                         ],
-                        "damage": {
-                            "type": "cr ex"
-                        },
-                        "usage": "80mm",
-                        "calc": {
-                            "damage": "6dx5(10) cr ex"
-                        }
+                        "usage": "80mm"
                     },
                     "bcabb198-cf8a-45f4-8ba6-89b09c1f3d33": {
-                        "calc": {
-                            "damage": "5dx4 cr ex [4d cut]"
-                        },
-                        "usage": "linked",
-                        "damage": {
-                            "type": "cr ex",
-                            "fragmentation_type": "cut"
-                        }
+                        "usage": "linked"
                     }
                 }
             },
@@ -498,13 +446,7 @@
                 "description": "Kolomna 9K114 Kokon, 130mm",
                 "weapons": {
                     "15fb1419-c58a-4366-a795-0b03bbdab4c5": {
-                        "calc": {
-                            "damage": "6dx6 cr ex"
-                        },
-                        "usage": "linked",
-                        "damage": {
-                            "type": "cr ex"
-                        }
+                        "usage": "linked"
                     },
                     "c5130ff4-6e9f-470a-8fc0-16c1f90fa2d6": {
                         "defaults": [
@@ -513,13 +455,7 @@
                                 "specialization": "Guided Missile"
                             }
                         ],
-                        "damage": {
-                            "type": "cr ex"
-                        },
-                        "usage": "130mm",
-                        "calc": {
-                            "damage": "6dx7(10) cr ex"
-                        }
+                        "usage": "130mm"
                     }
                 }
             },
@@ -533,14 +469,7 @@
                                 "specialization": "Bombs",
                                 "name": "Artillery"
                             }
-                        ],
-                        "calc": {
-                            "damage": "6dx22 cr ex [5dx2 cut]"
-                        },
-                        "damage": {
-                            "fragmentation_type": "cut",
-                            "type": "cr ex"
-                        }
+                        ]
                     }
                 }
             },
@@ -548,13 +477,6 @@
                 "description": "FAB-250 M-62, 292mm",
                 "weapons": {
                     "98f8775a-e666-46dc-b130-22e7a1d94715": {
-                        "damage": {
-                            "type": "cr ex",
-                            "fragmentation_type": "cut"
-                        },
-                        "calc": {
-                            "damage": "6dx36 cr ex [7dx2 cut]"
-                        },
                         "defaults": [
                             {
                                 "name": "Artillery",
@@ -585,13 +507,7 @@
                                 "name": "Guns"
                             }
                         ],
-                        "usage": ".50 Flintlock",
-                        "damage": {
-                            "type": "pi+"
-                        },
-                        "calc": {
-                            "damage": "4d pi+"
-                        }
+                        "usage": ".50 Flintlock"
                     }
                 }
             },
@@ -609,12 +525,6 @@
                                 "name": "Guns"
                             }
                         ],
-                        "damage": {
-                            "type": "pi"
-                        },
-                        "calc": {
-                            "damage": "2d-1 pi"
-                        },
                         "usage": ".380 ACP"
                     }
                 }
@@ -633,12 +543,6 @@
                                 "name": "Guns"
                             }
                         ],
-                        "calc": {
-                            "damage": "2d pi+"
-                        },
-                        "damage": {
-                            "type": "pi+"
-                        },
                         "usage": ".45 ACP"
                     }
                 }
@@ -648,9 +552,6 @@
                 "description": "Brock 45 Mark II, .45 ACP",
                 "weapons": {
                     "53658ad7-7a7c-4fc5-b4c1-5ee4f7d37dd2": {
-                        "damage": {
-                            "type": "pi+"
-                        },
                         "defaults": [
                             {
                                 "name": "Guns",
@@ -661,10 +562,7 @@
                                 "name": "Guns"
                             }
                         ],
-                        "usage": ".45 ACP",
-                        "calc": {
-                            "damage": "2d pi+"
-                        }
+                        "usage": ".45 ACP"
                     }
                 }
             },
@@ -672,9 +570,6 @@
                 "description": "Brock Paragon, .30-06",
                 "weapons": {
                     "74587d0a-b705-43cc-b9d4-b539a4fe496c": {
-                        "calc": {
-                            "damage": "7d+1"
-                        },
                         "defaults": [
                             {
                                 "name": "Guns",
@@ -704,12 +599,6 @@
                                 "name": "Guns"
                             }
                         ],
-                        "damage": {
-                            "type": "pi"
-                        },
-                        "calc": {
-                            "damage": "2d-1 pi"
-                        },
                         "usage": ".380 ACP"
                     }
                 }
@@ -729,12 +618,6 @@
                                 "name": "Guns"
                             }
                         ],
-                        "damage": {
-                            "type": "pi+"
-                        },
-                        "calc": {
-                            "damage": "2d+2 pi+"
-                        },
                         "usage": ".50 Br-Av Rocket"
                     }
                 }
@@ -748,9 +631,6 @@
                 "description": "Nock Gun (rifled), .50 Flintlock",
                 "weapons": {
                     "9a61693f-2151-41a1-88f5-e5e28108f25b": {
-                        "calc": {
-                            "damage": "3d+1 pi+"
-                        },
                         "defaults": [
                             {
                                 "name": "guns",
@@ -761,9 +641,6 @@
                                 "name": "Guns"
                             }
                         ],
-                        "damage": {
-                            "type": "pi+"
-                        },
                         "usage": ".50 Flintlock"
                     }
                 }
@@ -773,9 +650,6 @@
                 "weapons": {
                     "bb55386f-90a0-4329-82da-efb294dcf0ca": {
                         "usage": ".50 Flintlock",
-                        "damage": {
-                            "type": "pi+"
-                        },
                         "defaults": [
                             {
                                 "name": "guns",
@@ -785,10 +659,7 @@
                             {
                                 "name": "Guns"
                             }
-                        ],
-                        "calc": {
-                            "damage": "3d+1 pi+"
-                        }
+                        ]
                     }
                 }
             },
@@ -806,13 +677,7 @@
                                 "name": "Guns"
                             }
                         ],
-                        "usage": ".50 Flintlock",
-                        "calc": {
-                            "damage": "3d+1 pi+"
-                        },
-                        "damage": {
-                            "type": "pi+"
-                        }
+                        "usage": ".50 Flintlock"
                     }
                 }
             }

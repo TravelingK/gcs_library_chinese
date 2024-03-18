@@ -21,10 +21,6 @@
         "weapons": {
             "ce1991e5-02ef-4248-8fd4-dd5741cc8f34": {
                 "usage_notes": "Explodes on contact. Anybody up to 8 yd takes blast damage and 1d-3 fragments, plus one per full +3 SM (but always at least one).",
-                "damage": {
-                    "fragmentation_type": "cut",
-                    "type": "cr ex"
-                },
                 "defaults": [
                     {
                         "name": "Throwing"
@@ -33,9 +29,6 @@
                         "name": "Dropping"
                     }
                 ],
-                "calc": {
-                    "damage": "4d cr ex [1d+1 cut]"
-                },
                 "usage": "Blast & Frag"
             }
         }
@@ -47,9 +40,6 @@
         "description": "Bomb, large",
         "weapons": {
             "42df62cc-c220-47cd-b940-5cc38b39ac21": {
-                "calc": {
-                    "damage": "3d cr ex [1d cut]"
-                },
                 "defaults": [
                     {
                         "name": "Throwing"
@@ -59,10 +49,6 @@
                     }
                 ],
                 "usage": "Blast & Frag",
-                "damage": {
-                    "type": "cr ex",
-                    "fragmentation_type": "cut"
-                },
                 "usage_notes": "Explodes on contact. Anybody up to 6 yd takes blast damage and 1d-3 fragments, plus one per full +3 SM (but always at least one)."
             }
         }
@@ -75,10 +61,6 @@
         "weapons": {
             "b5775696-2368-4f02-93b5-02942919fb17": {
                 "usage_notes": "Explodes on contact. Anybody up to 4 yd takes blast damage and 1d-3 fragments, plus one per full +3 SM (but always at least one).",
-                "damage": {
-                    "fragmentation_type": "cut",
-                    "type": "cr ex"
-                },
                 "defaults": [
                     {
                         "name": "Throwing"
@@ -87,9 +69,6 @@
                         "name": "Dropping"
                     }
                 ],
-                "calc": {
-                    "damage": "2d cr ex [1d-2 cut]"
-                },
                 "usage": "Blast & Frag"
             }
         }
@@ -101,10 +80,6 @@
         "description": "Bomb, small",
         "weapons": {
             "ca97f8f9-7498-48cc-b74b-0a236bc9e400": {
-                "damage": {
-                    "type": "cr ex",
-                    "fragmentation_type": "cut"
-                },
                 "defaults": [
                     {
                         "name": "Throwing"
@@ -114,10 +89,7 @@
                     }
                 ],
                 "usage": "Blast & Frag",
-                "usage_notes": "Explodes on contact. Anybody up to 2 yd takes blast damage and 1d-3 fragments, plus one per full +3 SM (but always at least one).",
-                "calc": {
-                    "damage": "1d cr ex [1d-4 cut]"
-                }
+                "usage_notes": "Explodes on contact. Anybody up to 2 yd takes blast damage and 1d-3 fragments, plus one per full +3 SM (but always at least one)."
             }
         }
     },
@@ -145,9 +117,6 @@
                 "usage_notes": "For parrying only."
             },
             "2f68326b-9d17-442c-88dc-2eca81fb473f": {
-                "calc": {
-                    "damage": "2d+1 pi++"
-                },
                 "defaults": [
                     {
                         "name": "Guns",
@@ -156,10 +125,7 @@
                     {
                         "name": "Guns"
                     }
-                ],
-                "damage": {
-                    "type": "pi++"
-                }
+                ]
             }
         }
     },
@@ -178,13 +144,7 @@
                     {
                         "name": "Guns"
                     }
-                ],
-                "damage": {
-                    "type": "pi++"
-                },
-                "calc": {
-                    "damage": "2d+1 pi++"
-                }
+                ]
             },
             "d117dbef-7366-4a83-8949-962eb00951cc": {
                 "defaults": [
@@ -201,12 +161,6 @@
                         "name": "Two-Handed Flail"
                     }
                 ],
-                "damage": {
-                    "type": "cut"
-                },
-                "calc": {
-                    "damage": "sw+4 cut"
-                },
                 "usage": "Swung"
             }
         }
@@ -226,13 +180,7 @@
                     {
                         "name": "Guns"
                     }
-                ],
-                "damage": {
-                    "type": "pi++"
-                },
-                "calc": {
-                    "damage": "2d+1 pi++"
-                }
+                ]
             },
             "860ad48a-d6eb-4ac1-8efc-6c2aa12020ea": {
                 "defaults": [
@@ -250,13 +198,7 @@
                     }
                 ],
                 "usage_notes": "May get stuck. Reduce the penalty to target armor chinks by -2.",
-                "calc": {
-                    "damage": "sw+4 imp"
-                },
-                "usage": "Swung",
-                "damage": {
-                    "type": "imp"
-                }
+                "usage": "Swung"
             }
         }
     },
@@ -267,9 +209,6 @@
         "description": "Boomstick, Single-Barreled",
         "weapons": {
             "36db85de-0ef9-48ee-80c0-7852dee083af": {
-                "damage": {
-                    "type": "pi++"
-                },
                 "defaults": [
                     {
                         "name": "Guns",
@@ -278,10 +217,7 @@
                     {
                         "name": "Guns"
                     }
-                ],
-                "calc": {
-                    "damage": "2d+1 pi++"
-                }
+                ]
             },
             "10bcb59f-2a51-495c-ab85-1dad58ac3dbc": {
                 "defaults": [
@@ -323,18 +259,9 @@
                         "name": "Two-Handed Flail"
                     }
                 ],
-                "damage": {
-                    "type": "cut"
-                },
-                "calc": {
-                    "damage": "sw+4 cut"
-                },
                 "usage": "Swung"
             },
             "e2367a44-57e3-46ce-b368-ea1ffa73e96d": {
-                "damage": {
-                    "type": "pi++"
-                },
                 "defaults": [
                     {
                         "name": "Guns",
@@ -343,10 +270,7 @@
                     {
                         "name": "Guns"
                     }
-                ],
-                "calc": {
-                    "damage": "2d+1 pi++"
-                }
+                ]
             }
         }
     },
@@ -372,13 +296,7 @@
                     }
                 ],
                 "usage_notes": "May get stuck. Reduce the penalty to target armor chinks by -2.",
-                "usage": "Swung",
-                "calc": {
-                    "damage": "sw+4 imp"
-                },
-                "damage": {
-                    "type": "imp"
-                }
+                "usage": "Swung"
             },
             "77abc1a8-dcf8-4d78-97a8-45e19410a07a": {
                 "defaults": [
@@ -389,13 +307,7 @@
                     {
                         "name": "Guns"
                     }
-                ],
-                "calc": {
-                    "damage": "2d+1 pi++"
-                },
-                "damage": {
-                    "type": "pi++"
-                }
+                ]
             }
         }
     },
@@ -414,13 +326,7 @@
                     {
                         "name": "Guns"
                     }
-                ],
-                "damage": {
-                    "type": "pi++"
-                },
-                "calc": {
-                    "damage": "2d+1 pi++"
-                }
+                ]
             },
             "e0b58b8f-8e70-426e-9d19-0f3755f5144c": {
                 "defaults": [
@@ -448,12 +354,6 @@
         "description": "Boomstick, Triple-Barreled/Great Axe",
         "weapons": {
             "1e8cdf80-6cbb-43e9-a1f7-4def958fa200": {
-                "damage": {
-                    "type": "pi++"
-                },
-                "calc": {
-                    "damage": "2d+1 pi++"
-                },
                 "defaults": [
                     {
                         "specialization": "Boomstick",
@@ -479,13 +379,7 @@
                     {
                         "name": "Two-Handed Flail"
                     }
-                ],
-                "damage": {
-                    "type": "cut"
-                },
-                "calc": {
-                    "damage": "sw+4 cut"
-                }
+                ]
             }
         }
     },
@@ -510,12 +404,6 @@
                         "name": "Two-Handed Flail"
                     }
                 ],
-                "damage": {
-                    "type": "imp"
-                },
-                "calc": {
-                    "damage": "sw+4 imp"
-                },
                 "usage_notes": "May get stuck. Reduce the penalty to target armor chinks by -2.",
                 "usage": "Swung"
             },
@@ -528,13 +416,7 @@
                     {
                         "name": "Guns"
                     }
-                ],
-                "calc": {
-                    "damage": "2d+1 pi++"
-                },
-                "damage": {
-                    "type": "pi++"
-                }
+                ]
             }
         }
     },
@@ -558,13 +440,7 @@
                         "name": "Liquid Projector"
                     }
                 ],
-                "usage_notes": "Spews flames for 30 seconds when ignited (takes a Ready maneuver). Once lit, cannot be shut off.",
-                "calc": {
-                    "damage": "2d burn"
-                },
-                "damage": {
-                    "type": "burn"
-                }
+                "usage_notes": "Spews flames for 30 seconds when ignited (takes a Ready maneuver). Once lit, cannot be shut off."
             },
             "80060983-7fbb-4311-9060-6368afd346c4": {
                 "usage_notes": "For parrying only.",
@@ -607,28 +483,16 @@
                     }
                 ],
                 "usage": "Swung",
-                "calc": {
-                    "damage": "sw+4 cut"
-                },
-                "usage_notes": "Can alternate between swung and flame attacks.",
-                "damage": {
-                    "type": "cut"
-                }
+                "usage_notes": "Can alternate between swung and flame attacks."
             },
             "7eb44c32-c63e-460a-997a-44cddb473cca": {
-                "damage": {
-                    "type": "burn"
-                },
                 "defaults": [
                     {
                         "name": "Liquid Projector",
                         "specialization": "Burner"
                     }
                 ],
-                "usage_notes": "Spews flames for 30 seconds when ignited (takes a Ready maneuver). Once lit, cannot be shut off.",
-                "calc": {
-                    "damage": "2d burn"
-                }
+                "usage_notes": "Spews flames for 30 seconds when ignited (takes a Ready maneuver). Once lit, cannot be shut off."
             }
         }
     },
@@ -640,9 +504,6 @@
         "weapons": {
             "db3c0e49-ffdb-4f57-a125-44930d42e1b5": {
                 "usage_notes": "Can alternate between swung and flame attacks.",
-                "calc": {
-                    "damage": "sw+4 imp"
-                },
                 "usage": "Swung",
                 "defaults": [
                     {
@@ -657,25 +518,16 @@
                     {
                         "name": "Two-Handed Flail"
                     }
-                ],
-                "damage": {
-                    "type": "imp"
-                }
+                ]
             },
             "21da0096-c19c-4148-8a99-309b2fd0d873": {
                 "usage_notes": "Spews flames for 30 seconds when ignited (takes a Ready maneuver). Once lit, cannot be shut off.",
-                "damage": {
-                    "type": "burn"
-                },
                 "defaults": [
                     {
                         "specialization": "Burner",
                         "name": "Liquid Projector"
                     }
-                ],
-                "calc": {
-                    "damage": "2d burn"
-                }
+                ]
             }
         }
     },

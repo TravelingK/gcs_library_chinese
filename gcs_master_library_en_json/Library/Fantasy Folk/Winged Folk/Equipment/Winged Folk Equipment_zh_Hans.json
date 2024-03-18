@@ -78,13 +78,7 @@
                         "name": "Tonfa"
                     }
                 ],
-                "usage": "Thrust",
-                "calc": {
-                    "damage": "thr+1 imp"
-                },
-                "damage": {
-                    "type": "imp"
-                }
+                "usage": "Thrust"
             },
             "fbb77b20-5cc0-45e1-9eae-bce800d7f4e9": {
                 "defaults": [
@@ -114,12 +108,6 @@
                         "name": "Tonfa"
                     }
                 ],
-                "damage": {
-                    "type": "cut"
-                },
-                "calc": {
-                    "damage": "sw cut"
-                },
                 "usage": "Swing"
             }
         }
@@ -147,18 +135,9 @@
                         "name": "Two-Handed Flail"
                     }
                 ],
-                "calc": {
-                    "damage": "sw+3 cut"
-                },
-                "damage": {
-                    "type": "cut"
-                },
                 "usage": "Axe 2H"
             },
             "8a1ef9ca-a5dc-4104-b799-71890e6163b4": {
-                "calc": {
-                    "damage": "sw+3 cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -166,10 +145,7 @@
                         "name": "Thrown Weapon"
                     }
                 ],
-                "usage": "Hammer thrown",
-                "damage": {
-                    "type": "cr"
-                }
+                "usage": "Hammer thrown"
             },
             "67a1e402-4a7f-4c63-a818-fc85673696e1": {
                 "defaults": [
@@ -184,12 +160,6 @@
                         "name": "Two-Handed Axe/Mace"
                     }
                 ],
-                "calc": {
-                    "damage": "sw+2 cut"
-                },
-                "damage": {
-                    "type": "cut"
-                },
                 "usage": "Axe 1H"
             },
             "db00097b-b6b2-48a1-bfb7-912667e5d4d2": {
@@ -205,13 +175,7 @@
                         "name": "Two-Handed Axe/Mace"
                     }
                 ],
-                "usage": "Hammer 1H",
-                "damage": {
-                    "type": "cr"
-                },
-                "calc": {
-                    "damage": "sw+3 cr"
-                }
+                "usage": "Hammer 1H"
             },
             "d2e34b95-3c96-4d1f-b52d-91cc89422d1d": {
                 "defaults": [
@@ -229,18 +193,9 @@
                         "name": "Two-Handed Flail"
                     }
                 ],
-                "usage": "Hammer 2H",
-                "calc": {
-                    "damage": "sw+4 cr"
-                },
-                "damage": {
-                    "type": "cr"
-                }
+                "usage": "Hammer 2H"
             },
             "15b1051d-5dc9-4bea-8d67-92edca4e31f6": {
-                "damage": {
-                    "type": "cut"
-                },
                 "defaults": [
                     {},
                     {
@@ -248,9 +203,6 @@
                         "specialization": "Axe/Mace"
                     }
                 ],
-                "calc": {
-                    "damage": "sw+2 cut"
-                },
                 "usage": "Axe thrown"
             }
         }
@@ -264,9 +216,6 @@
         "weapons": {
             "db00097b-b6b2-48a1-bfb7-912667e5d4d2": {
                 "usage": "Hammer 1H",
-                "calc": {
-                    "damage": "sw+2 cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -278,16 +227,10 @@
                     {
                         "name": "Two-Handed Axe/Mace"
                     }
-                ],
-                "damage": {
-                    "type": "cr"
-                }
+                ]
             },
             "67a1e402-4a7f-4c63-a818-fc85673696e1": {
                 "usage": "Axe 1H",
-                "calc": {
-                    "damage": "sw+1 cut"
-                },
                 "defaults": [
                     {},
                     {
@@ -299,10 +242,7 @@
                     {
                         "name": "Two-Handed Axe/Mace"
                     }
-                ],
-                "damage": {
-                    "type": "cut"
-                }
+                ]
             },
             "8a1ef9ca-a5dc-4104-b799-71890e6163b4": {
                 "usage": "Hammer thrown",
@@ -312,29 +252,17 @@
                         "name": "Thrown Weapon",
                         "specialization": "Axe/Mace"
                     }
-                ],
-                "calc": {
-                    "damage": "sw+2 cr"
-                },
-                "damage": {
-                    "type": "cr"
-                }
+                ]
             },
             "15b1051d-5dc9-4bea-8d67-92edca4e31f6": {
                 "usage": "Axe thrown",
-                "calc": {
-                    "damage": "sw+1 cut"
-                },
                 "defaults": [
                     {},
                     {
                         "name": "Thrown Weapon",
                         "specialization": "Axe/Mace"
                     }
-                ],
-                "damage": {
-                    "type": "cut"
-                }
+                ]
             }
         }
     }

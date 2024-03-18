@@ -39,9 +39,6 @@
         "weapons": {
             "54c68378-c851-4232-b4a1-5019faf93500": {
                 "usage": "Thrust",
-                "calc": {
-                    "damage": "thr+1 cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -50,10 +47,7 @@
                     {
                         "name": "Broadsword"
                     }
-                ],
-                "damage": {
-                    "type": "cr"
-                }
+                ]
             },
             "ff6a0340-1669-4a9c-aae5-d90cc00fa190": {
                 "defaults": [
@@ -65,13 +59,7 @@
                         "name": "Broadsword"
                     }
                 ],
-                "damage": {
-                    "type": "cr"
-                },
-                "usage": "Swing",
-                "calc": {
-                    "damage": "sw+2 cr"
-                }
+                "usage": "Swing"
             }
         },
         "modifiers": {
@@ -87,9 +75,6 @@
         "description": "Baseball Bat",
         "weapons": {
             "f85455d0-bb35-4073-b8af-191e3941cfb9": {
-                "calc": {
-                    "damage": "sw+1 cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -102,10 +87,7 @@
                         "name": "Two-Handed Axe/Mace"
                     }
                 ],
-                "usage": "Swing",
-                "damage": {
-                    "type": "cr"
-                }
+                "usage": "Swing"
             }
         }
     },
@@ -128,13 +110,7 @@
                         "name": "Two-Handed Axe/Mace"
                     }
                 ],
-                "usage": "Swing",
-                "damage": {
-                    "type": "imp"
-                },
-                "calc": {
-                    "damage": "sw-2 imp"
-                }
+                "usage": "Swing"
             }
         },
         "modifiers": {
@@ -150,13 +126,7 @@
         "description": "Box Cutter",
         "weapons": {
             "33d0ffce-f00c-423f-9c56-5bdeb30c7ed3": {
-                "calc": {
-                    "damage": "sw-3 cut"
-                },
                 "usage": "Swing",
-                "damage": {
-                    "type": "cut"
-                },
                 "defaults": [
                     {},
                     {
@@ -188,13 +158,7 @@
                         "name": "Whip"
                     }
                 ],
-                "calc": {
-                    "damage": "sw+1 cr"
-                },
-                "usage": "Strike",
-                "damage": {
-                    "type": "cr"
-                }
+                "usage": "Strike"
             }
         },
         "modifiers": {
@@ -210,9 +174,6 @@
         "description": "Digging Pick",
         "weapons": {
             "4fc842cf-022f-49b1-b61d-9c067d540787": {
-                "damage": {
-                    "type": "imp"
-                },
                 "defaults": [
                     {},
                     {
@@ -225,10 +186,7 @@
                         "name": "Two-Handed Axe/Mace"
                     }
                 ],
-                "usage": "Swing",
-                "calc": {
-                    "damage": "sw imp"
-                }
+                "usage": "Swing"
             }
         },
         "modifiers": {
@@ -244,9 +202,6 @@
         "description": "Golf Club",
         "weapons": {
             "5be1d903-4b12-4686-86da-ca62d6b55f16": {
-                "calc": {
-                    "damage": "sw+1 cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -262,9 +217,6 @@
                         "name": "Two-Handed Flail"
                     }
                 ],
-                "damage": {
-                    "type": "cr"
-                },
                 "usage": "Swing"
             }
         },
@@ -293,12 +245,6 @@
                         "name": "Two-Handed Axe/Mace"
                     }
                 ],
-                "calc": {
-                    "damage": "sw+2 cr"
-                },
-                "damage": {
-                    "type": "cr"
-                },
                 "usage": "Swing"
             }
         }
@@ -310,13 +256,7 @@
         "description": "Pitchfork",
         "weapons": {
             "6a8b598b-d8fa-47d5-940c-ab79a0aa6d32": {
-                "calc": {
-                    "damage": "thr+4(0.5) imp"
-                },
                 "usage": "Two-Handed",
-                "damage": {
-                    "type": "imp"
-                },
                 "defaults": [
                     {},
                     {
@@ -343,13 +283,7 @@
                         "name": "Staff"
                     }
                 ],
-                "calc": {
-                    "damage": "thr+3(0.5) imp"
-                },
-                "usage": "One-Handed",
-                "damage": {
-                    "type": "imp"
-                }
+                "usage": "One-Handed"
             }
         },
         "modifiers": {
@@ -365,9 +299,6 @@
         "description": "Post-Hole Digger",
         "weapons": {
             "af90f1ce-4073-4fb1-839f-c5a517e2c316": {
-                "calc": {
-                    "damage": "thr+2 cut"
-                },
                 "usage": "Thrust",
                 "defaults": [
                     {},
@@ -380,10 +311,7 @@
                     {
                         "name": "Staff"
                     }
-                ],
-                "damage": {
-                    "type": "cut"
-                }
+                ]
             }
         },
         "modifiers": {
@@ -414,13 +342,7 @@
                         "name": "Two-Handed Axe/Mace"
                     }
                 ],
-                "calc": {
-                    "damage": "sw+5 cr"
-                },
-                "usage": "Swing",
-                "damage": {
-                    "type": "cr"
-                }
+                "usage": "Swing"
             }
         },
         "modifiers": {
@@ -436,9 +358,6 @@
         "description": "Rebar, Long",
         "weapons": {
             "c0958b0f-5318-4086-ba2d-f214da229c8f": {
-                "calc": {
-                    "damage": "thr+1 cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -451,9 +370,6 @@
                         "name": "Two-Handed Sword"
                     }
                 ],
-                "damage": {
-                    "type": "cr"
-                },
                 "usage": "Thrust"
             },
             "a9e71919-3e3d-49ff-8268-9b516dcbe7c4": {
@@ -469,13 +385,7 @@
                         "name": "Two-Handed Sword"
                     }
                 ],
-                "usage": "Swing",
-                "damage": {
-                    "type": "cr"
-                },
-                "calc": {
-                    "damage": "sw+1 cr"
-                }
+                "usage": "Swing"
             }
         },
         "modifiers": {
@@ -492,9 +402,6 @@
         "weapons": {
             "3acdddbb-8cee-442a-afdc-92e27184713d": {
                 "usage": "Thrust",
-                "calc": {
-                    "damage": "thr cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -506,10 +413,7 @@
                     {
                         "name": "Knife"
                     }
-                ],
-                "damage": {
-                    "type": "cr"
-                }
+                ]
             },
             "cc4d0cdc-765a-41e1-ac5f-122bd0468e7a": {
                 "usage": "Swing",
@@ -524,13 +428,7 @@
                     {
                         "name": "Knife"
                     }
-                ],
-                "calc": {
-                    "damage": "sw cr"
-                },
-                "damage": {
-                    "type": "cr"
-                }
+                ]
             }
         },
         "modifiers": {
@@ -547,9 +445,6 @@
         "weapons": {
             "e7292699-938a-45f2-827e-bb5d1404e473": {
                 "usage": "Thrust",
-                "calc": {
-                    "damage": "thr-2 imp"
-                },
                 "defaults": [
                     {},
                     {
@@ -558,10 +453,7 @@
                     {
                         "name": "Shortsword"
                     }
-                ],
-                "damage": {
-                    "type": "imp"
-                }
+                ]
             }
         },
         "modifiers": {
@@ -592,13 +484,7 @@
                         "name": "Two-Handed Flail"
                     }
                 ],
-                "usage": "Swing",
-                "damage": {
-                    "type": "cut"
-                },
-                "calc": {
-                    "damage": "sw+3 cut"
-                }
+                "usage": "Swing"
             }
         },
         "modifiers": {
@@ -629,13 +515,7 @@
                         "name": "Two-Handed Flail"
                     }
                 ],
-                "usage": "Swing",
-                "damage": {
-                    "type": "cr"
-                },
-                "calc": {
-                    "damage": "sw+4 cr"
-                }
+                "usage": "Swing"
             }
         },
         "modifiers": {
@@ -663,13 +543,7 @@
                         "name": "Two-Handed Axe/Mace"
                     }
                 ],
-                "calc": {
-                    "damage": "sw+1 cr"
-                },
-                "usage": "Swing",
-                "damage": {
-                    "type": "cr"
-                }
+                "usage": "Swing"
             }
         },
         "modifiers": {
@@ -685,9 +559,6 @@
         "description": "Weighted Scarf",
         "weapons": {
             "8a5ac762-08f4-4d68-af29-e4f7225495a9": {
-                "calc": {
-                    "damage": "sw cr"
-                },
                 "defaults": [
                     {},
                     {
@@ -700,9 +571,6 @@
                         "name": "Two-Handed Flail"
                     }
                 ],
-                "damage": {
-                    "type": "cr"
-                },
                 "usage": "Swing"
             }
         },
@@ -776,12 +644,6 @@
         "description": "Wire Cutters",
         "weapons": {
             "fdf975c6-1b84-4e40-8c2d-9dc89dc477d6": {
-                "damage": {
-                    "type": "cut"
-                },
-                "calc": {
-                    "damage": "2d(2) cut"
-                },
                 "usage": "Cut"
             }
         },
@@ -804,13 +666,7 @@
         },
         "weapons": {
             "113a04ff-78d5-4d4e-9a4d-1834061dfe5f": {
-                "usage": "Cut",
-                "damage": {
-                    "type": "cut"
-                },
-                "calc": {
-                    "damage": "8d(2) cut"
-                }
+                "usage": "Cut"
             }
         }
     },
@@ -843,12 +699,6 @@
                         "name": "Throwing"
                     }
                 ],
-                "calc": {
-                    "damage": "9d+1 cr ex"
-                },
-                "damage": {
-                    "type": "cr ex"
-                },
                 "usage": "Throw"
             }
         },
