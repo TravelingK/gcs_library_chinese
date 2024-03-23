@@ -1,126 +1,53 @@
 {
-    "st": {
-        "name": "",
-        "full_name": ""
-    },
-    "dx": {
-        "name": "",
-        "full_name": ""
-    },
     "iq": {
-        "name": "",
-        "full_name": ""
-    },
-    "ht": {
-        "name": "",
-        "full_name": ""
+        "full_name": "Intelligence"
     },
     "will": {
-        "name": ""
+        "name": "Will"
     },
     "fright_check": {
-        "name": ""
+        "name": "Fright Check"
     },
     "per": {
-        "name": "",
-        "full_name": ""
-    },
-    "vision": {
-        "name": ""
+        "full_name": "Perception"
     },
     "hearing": {
-        "name": ""
+        "name": "Hearing"
     },
     "taste_smell": {
-        "name": ""
+        "name": "Taste & Smell"
     },
     "touch": {
-        "name": ""
-    },
-    "basic_speed": {
-        "name": ""
-    },
-    "basic_move": {
-        "name": ""
+        "name": "Touch"
     },
     "fp": {
-        "name": "",
-        "full_name": "",
         "thresholds": [
+            {},
             {
-                "state": ""
+                "state": "Collapse"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "Tired"
             },
+            {},
             {
-                "state": "",
-                "explanation": ""
-            },
-            {
-                "state": ""
-            },
-            {
-                "state": ""
+                "state": "Rested"
             }
         ]
     },
     "hp": {
-        "name": "",
-        "full_name": "",
         "thresholds": [
+            {},
+            {},
+            {},
+            {},
             {
-                "state": ""
+                "state": "Dying #1",
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)"
             },
             {
-                "state": "",
-                "explanation": ""
-            },
-            {
-                "state": "",
-                "explanation": ""
-            },
-            {
-                "state": "",
-                "explanation": ""
-            },
-            {
-                "state": "",
-                "explanation": ""
-            },
-            {
-                "state": "",
-                "explanation": ""
-            },
-            {
-                "state": "",
-                "explanation": ""
-            },
-            {
-                "state": ""
-            },
-            {
-                "state": ""
+                "state": "Collapse"
             }
         ]
-    },
-    "fdg": {
-        "name": ""
-    },
-    "cm10": {
-        "name": ""
-    },
-    "cm05": {
-        "name": ""
-    },
-    "cm": {
-        "name": ""
-    },
-    "cm15": {
-        "name": ""
-    },
-    "cm2": {
-        "name": ""
     }
 }
