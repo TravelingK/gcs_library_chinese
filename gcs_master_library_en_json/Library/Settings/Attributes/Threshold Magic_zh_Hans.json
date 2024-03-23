@@ -1,19 +1,7 @@
 {
-    "st": {
-        "name": "",
-        "full_name": ""
-    },
-    "dx": {
-        "name": "",
-        "full_name": ""
-    },
     "iq": {
-        "name": "",
-        "full_name": "Intelligence"
-    },
-    "ht": {
-        "name": "",
-        "full_name": ""
+        "full_name": "Intelligence",
+        "name": "IQ"
     },
     "will": {
         "name": "Will"
@@ -22,11 +10,8 @@
         "name": "Fright Check"
     },
     "per": {
-        "name": "",
-        "full_name": "Perception"
-    },
-    "vision": {
-        "name": ""
+        "full_name": "Perception",
+        "name": "Per"
     },
     "hearing": {
         "name": "Hearing"
@@ -34,56 +19,45 @@
     "taste_smell": {
         "name": "Taste & Smell"
     },
-    "touch": {
-        "name": ""
-    },
-    "basic_speed": {
-        "name": ""
-    },
-    "basic_move": {
-        "name": ""
-    },
     "fp": {
-        "name": "",
-        "full_name": "",
         "thresholds": [
             {
-                "state": ""
+                "state": "Unconscious"
             },
             {
                 "state": "Collapse",
-                "explanation": ""
+                "explanation": "Roll vs. Will to do anything besides talk or rest; failure causes unconsciousness\nEach FP you lose below 0 also causes 1 HP of injury\nMove, Dodge and ST are halved (B426)"
             },
             {
                 "state": "Tired",
-                "explanation": ""
+                "explanation": "Move, Dodge and ST are halved (B426)"
             },
             {
-                "state": ""
+                "state": "Tiring"
             },
             {
                 "state": "Rested"
             }
-        ]
+        ],
+        "name": "FP",
+        "full_name": "Fatigue Points"
     },
     "hp": {
-        "name": "",
-        "full_name": "",
         "thresholds": [
             {
-                "state": ""
+                "state": "Dead"
             },
             {
-                "state": "",
-                "explanation": ""
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+                "state": "Dying #4"
             },
             {
-                "state": "",
-                "explanation": ""
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+                "state": "Dying #3"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "Dying #2",
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)"
             },
             {
                 "state": "Dying #1",
@@ -91,23 +65,21 @@
             },
             {
                 "state": "Collapse",
-                "explanation": ""
+                "explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)"
             },
             {
-                "state": "",
-                "explanation": ""
+                "explanation": "Move and Dodge are halved (B419)",
+                "state": "Reeling"
             },
             {
-                "state": ""
+                "state": "Wounded"
             },
             {
-                "state": ""
+                "state": "Healthy"
             }
-        ]
-    },
-    "tm_threshold": {
-        "name": "",
-        "full_name": ""
+        ],
+        "full_name": "Hit Points",
+        "name": "HP"
     },
     "tm_pt": {
         "name": "PT",
@@ -115,24 +87,52 @@
         "thresholds": [
             {
                 "state": "Balanced",
-                "explanation": ""
+                "explanation": "The Threshold Mage is in balance with the world and can cast normally."
             },
             {
-                "state": "",
-                "explanation": "The Threshold mage is in dissonance with the world. Further casting will lead to Calamity rolls."
+                "explanation": "The Threshold mage is in dissonance with the world. Further casting will lead to Calamity rolls.",
+                "state": "Dissonant"
             }
         ]
     },
     "tm_rr": {
         "name": "RR",
-        "full_name": ""
+        "full_name": "Recharge Rate"
     },
     "tm_excess": {
-        "name": "",
-        "full_name": "Excess Power Tally"
+        "full_name": "Excess Power Tally",
+        "name": "Excess PT"
+    },
+    "touch": {
+        "name": "Touch"
+    },
+    "dx": {
+        "full_name": "Dexterity",
+        "name": "DX"
+    },
+    "ht": {
+        "name": "HT",
+        "full_name": "Health"
+    },
+    "vision": {
+        "name": "Vision"
+    },
+    "tm_threshold": {
+        "full_name": "Threshold",
+        "name": "Thresh"
+    },
+    "st": {
+        "name": "ST",
+        "full_name": "Strength"
     },
     "tm_calamity_bonus": {
-        "name": "",
-        "full_name": ""
+        "full_name": "Calamity Roll Bonus",
+        "name": "Calamity Bonus"
+    },
+    "basic_move": {
+        "name": "Basic Move"
+    },
+    "basic_speed": {
+        "name": "Basic Speed"
     }
 }
