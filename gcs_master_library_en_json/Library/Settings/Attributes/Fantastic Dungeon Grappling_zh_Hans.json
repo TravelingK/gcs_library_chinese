@@ -1,6 +1,7 @@
 {
     "iq": {
-        "full_name": "Intelligence"
+        "full_name": "智力",
+        "name": "IQ"
     },
     "will": {
         "name": "Will"
@@ -9,7 +10,8 @@
         "name": "Fright Check"
     },
     "per": {
-        "full_name": "Perception"
+        "full_name": "Perception",
+        "name": "Per"
     },
     "hearing": {
         "name": "Hearing"
@@ -18,36 +20,107 @@
         "name": "Taste & Smell"
     },
     "touch": {
-        "name": "Touch"
+        "name": "触觉"
     },
     "fp": {
         "thresholds": [
-            {},
             {
-                "state": "Collapse"
+                "state": "Unconscious"
             },
             {
-                "state": "Tired"
+                "state": "Collapse",
+                "explanation": "Roll vs. Will to do anything besides talk or rest; failure causes unconsciousness\nEach FP you lose below 0 also causes 1 HP of injury\nMove, Dodge and ST are halved (B426)"
             },
-            {},
+            {
+                "state": "Tired",
+                "explanation": "Move, Dodge and ST are halved (B426)"
+            },
+            {
+                "state": "Tiring"
+            },
             {
                 "state": "Rested"
             }
-        ]
+        ],
+        "name": "FP",
+        "full_name": "Fatigue Points"
     },
     "hp": {
         "thresholds": [
-            {},
-            {},
-            {},
-            {},
+            {
+                "state": "Dead"
+            },
+            {
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+                "state": "Dying #4"
+            },
+            {
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+                "state": "Dying #3"
+            },
+            {
+                "state": "Dying #2",
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)"
+            },
             {
                 "state": "Dying #1",
                 "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)"
             },
             {
-                "state": "Collapse"
+                "state": "Collapse",
+                "explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)"
+            },
+            {
+                "explanation": "Move and Dodge are halved (B419)",
+                "state": "Reeling"
+            },
+            {
+                "state": "Wounded"
+            },
+            {
+                "state": "Healthy"
             }
-        ]
+        ],
+        "full_name": "Hit Points",
+        "name": "HP"
+    },
+    "dx": {
+        "full_name": "Dexterity",
+        "name": "DX"
+    },
+    "ht": {
+        "name": "HT",
+        "full_name": "Health"
+    },
+    "cm2": {
+        "name": "CM x 2"
+    },
+    "cm05": {
+        "name": "CM x 0.5"
+    },
+    "vision": {
+        "name": "Vision"
+    },
+    "cm": {
+        "name": "CM"
+    },
+    "cm10": {
+        "name": "CM x 0.1"
+    },
+    "cm15": {
+        "name": "CM x 1.5"
+    },
+    "st": {
+        "name": "ST",
+        "full_name": "Strength"
+    },
+    "fdg": {
+        "name": "FDG"
+    },
+    "basic_move": {
+        "name": "Basic Move"
+    },
+    "basic_speed": {
+        "name": "基本速度"
     }
 }
