@@ -1,120 +1,115 @@
 {
-    "st": {
-        "name": "",
-        "full_name": ""
-    },
-    "dx": {
-        "name": "",
-        "full_name": ""
-    },
     "iq": {
-        "name": "",
-        "full_name": "Intelligence"
-    },
-    "ht": {
-        "name": "",
-        "full_name": ""
+        "full_name": "Intelligence",
+        "name": "IQ"
     },
     "will": {
         "name": "Will"
     },
-    "fright_check": {
-        "name": ""
-    },
-    "per": {
-        "name": "",
-        "full_name": ""
-    },
-    "vision": {
-        "name": ""
-    },
-    "hearing": {
-        "name": ""
-    },
-    "taste_smell": {
-        "name": ""
-    },
-    "touch": {
-        "name": ""
-    },
-    "forcesight": {
-        "name": ""
-    },
-    "basic_speed": {
-        "name": ""
-    },
-    "basic_move": {
-        "name": ""
-    },
     "fp": {
-        "name": "",
-        "full_name": "",
         "thresholds": [
             {
-                "state": ""
+                "state": "Unconscious"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "Collapse",
+                "explanation": "Roll vs. Will to do anything besides talk or rest; failure causes unconsciousness\nEach FP you lose below 0 also causes 1 HP of injury\nMove, Dodge and ST are halved (B426)"
             },
             {
                 "state": "Tired",
-                "explanation": ""
+                "explanation": "Move, Dodge and ST are halved (B426)"
             },
             {
-                "state": ""
+                "state": "Tiring"
             },
             {
-                "state": ""
+                "state": "Rested"
             }
-        ]
+        ],
+        "name": "FP",
+        "full_name": "Fatigue Points"
+    },
+    "fright_check": {
+        "name": "Fright Check"
     },
     "hp": {
-        "name": "",
-        "full_name": "",
         "thresholds": [
             {
-                "state": ""
+                "state": "Dead"
             },
             {
-                "state": "",
-                "explanation": ""
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+                "state": "Dying #4"
             },
             {
-                "state": "",
-                "explanation": ""
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+                "state": "Dying #3"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "Dying #2",
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "Dying #1",
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "Collapse",
+                "explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)"
             },
             {
-                "state": "",
-                "explanation": ""
+                "explanation": "Move and Dodge are halved (B419)",
+                "state": "Reeling"
             },
             {
-                "state": ""
+                "state": "Wounded"
             },
             {
-                "state": ""
+                "state": "Healthy"
             }
-        ]
+        ],
+        "full_name": "Hit Points",
+        "name": "HP"
+    },
+    "hearing": {
+        "name": "Hearing"
+    },
+    "taste_smell": {
+        "name": "Taste & Smell"
+    },
+    "per": {
+        "full_name": "Perception",
+        "name": "Per"
+    },
+    "touch": {
+        "name": "触觉"
+    },
+    "dx": {
+        "full_name": "Dexterity",
+        "name": "DX"
+    },
+    "ht": {
+        "name": "HT",
+        "full_name": "Health"
+    },
+    "vision": {
+        "name": "Vision"
+    },
+    "st": {
+        "name": "ST",
+        "full_name": "Strength"
     },
     "er": {
-        "name": "",
-        "full_name": "",
-        "thresholds": [
-            {
-                "state": ""
-            }
-        ]
+        "full_name": "Energy Reserver (Force)",
+        "name": "ER"
+    },
+    "forcesight": {
+        "name": "Force Sight"
+    },
+    "basic_move": {
+        "name": "Basic Move"
+    },
+    "basic_speed": {
+        "name": "基本速度"
     }
 }
