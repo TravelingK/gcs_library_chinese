@@ -1,19 +1,7 @@
 {
-    "st": {
-        "name": "",
-        "full_name": ""
-    },
-    "dx": {
-        "name": "",
-        "full_name": ""
-    },
     "iq": {
-        "name": "",
-        "full_name": "Intelligence"
-    },
-    "ht": {
-        "name": "",
-        "full_name": ""
+        "full_name": "Intelligence",
+        "name": "IQ"
     },
     "will": {
         "name": "Will"
@@ -22,11 +10,8 @@
         "name": "Fright Check"
     },
     "per": {
-        "name": "",
-        "full_name": "Perception"
-    },
-    "vision": {
-        "name": ""
+        "full_name": "Perception",
+        "name": "Per"
     },
     "hearing": {
         "name": "Hearing"
@@ -34,56 +19,45 @@
     "taste_smell": {
         "name": "Taste & Smell"
     },
-    "touch": {
-        "name": ""
-    },
-    "basic_speed": {
-        "name": ""
-    },
-    "basic_move": {
-        "name": ""
-    },
     "fp": {
-        "name": "",
-        "full_name": "",
         "thresholds": [
             {
-                "state": ""
+                "state": "Unconscious"
             },
             {
                 "state": "Collapse",
-                "explanation": ""
+                "explanation": "<html><body>\n<b>Roll vs. Will</b> to do anything besides talk or rest; failure causes unconsciousness<br>\nEach FP you lose below 0 also causes 1 HP of injury<br>\nMove, Dodge and ST are halved (B426)\n</body></html>"
             },
             {
                 "state": "Tired",
-                "explanation": ""
+                "explanation": "Move, Dodge and ST are halved (B426)"
             },
             {
-                "state": ""
+                "state": "Tiring"
             },
             {
                 "state": "Rested"
             }
-        ]
+        ],
+        "name": "FP",
+        "full_name": "Fatigue Points"
     },
     "hp": {
-        "name": "",
-        "full_name": "",
         "thresholds": [
             {
-                "state": ""
+                "state": "Dead"
             },
             {
-                "state": "",
-                "explanation": ""
+                "explanation": "<html><body>\n<b>Roll vs. HT</b> to avoid death<br>\n<b>Roll vs. HT-4</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>",
+                "state": "Dying #4"
             },
             {
-                "state": "",
-                "explanation": ""
+                "explanation": "<html><body>\n<b>Roll vs. HT</b> to avoid death<br>\n<b>Roll vs. HT-3</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>",
+                "state": "Dying #3"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "Dying #2",
+                "explanation": "<html><body>\n<b>Roll vs. HT</b> to avoid death<br>\n<b>Roll vs. HT-2</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>"
             },
             {
                 "state": "Dying #1",
@@ -91,43 +65,69 @@
             },
             {
                 "state": "Collapse",
-                "explanation": ""
+                "explanation": "<html><body>\n<b>Roll vs. HT</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>"
             },
             {
-                "state": "",
-                "explanation": ""
+                "explanation": "Move and Dodge are halved (B419)",
+                "state": "Reeling"
             },
             {
-                "state": ""
+                "state": "Wounded"
             },
             {
-                "state": ""
+                "state": "Healthy"
             }
-        ]
+        ],
+        "full_name": "Hit Points",
+        "name": "HP"
     },
     "qn": {
         "name": "QN",
         "full_name": "Quintessence"
     },
     "qp": {
-        "name": "",
-        "full_name": "",
         "thresholds": [
             {
                 "state": "Unconscious",
-                "explanation": ""
+                "explanation": "<html><body>\nYou are below -5xQP, you are unconscious.\n</body></html>"
             },
             {
-                "state": "",
-                "explanation": "<html><body>\nYou are supernaturally Exhausted;<br>\n <b>Quarter your QN for determining supernatural resistance</b>\n</body></html>"
+                "explanation": "<html><body>\nYou are supernaturally Exhausted;<br>\n <b>Quarter your QN for determining supernatural resistance</b>\n</body></html>",
+                "state": "Exhausted"
             },
             {
                 "state": "Drained",
-                "explanation": ""
+                "explanation": "<html><body>\nYou are supernaturally Drained;<br>\n <b>Halve your QN for determining supernatural resistance</b>\n</body></html>"
             },
             {
-                "state": ""
+                "state": "Normal"
             }
-        ]
+        ],
+        "name": "QP",
+        "full_name": "Quintessence Points"
+    },
+    "touch": {
+        "name": "Touch"
+    },
+    "dx": {
+        "full_name": "Dexterity",
+        "name": "DX"
+    },
+    "ht": {
+        "name": "HT",
+        "full_name": "Health"
+    },
+    "vision": {
+        "name": "Vision"
+    },
+    "st": {
+        "name": "ST",
+        "full_name": "Strength"
+    },
+    "basic_move": {
+        "name": "Basic Move"
+    },
+    "basic_speed": {
+        "name": "Basic Speed"
     }
 }
