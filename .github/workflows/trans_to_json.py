@@ -28,7 +28,7 @@ def outjson(nnskillline,docname):
         skill.write(skillline)
 
 class infoDict:
-    JsonList=['name','tags','notes','specialization','vtt_notes','situation','description','usage','usage_notes']
+    JsonList=['name','tags','notes','specialization','vtt_notes','situation','description','usage','usage_notes','full_name']
     childrenList=['children','modifiers','weapons']
 
 
@@ -80,7 +80,16 @@ class infoDict:
             featuresline.append(newfeaturesline)
         return(featuresline)
     
-    
+    def __getthresholds(self,thresholdsList:list):
+        thresholdsline=[]
+        thresholdsInfoList=['state','explanation']
+        for thresholds in thresholdsList:
+            newthresholdsline={}
+            for thresholdsInfo in thresholdsInfoList:
+                if (thresholdsInfo in thresholds):
+                    newthresholdsline[thresholdsInfo]=thresholds[thresholdsInfo]
+            thresholdsline.append(newthresholdsline)    
+        return(thresholdsline)
 
     
     def getJson(self,i:dict)->dict:
@@ -98,6 +107,8 @@ class infoDict:
             newjsonline['features']=self.__getfeature(i['features'])
         if 'prereqs' in i:
             newjsonline['prereqs']=self.__getPrereqs(i['prereqs'])
+        if 'thresholds' in i:
+            newjsonline['thresholds']=self.__getthresholds(i['thresholds'])
         if 'default' in i:
             newjsonline['default']={}
             if 'name' in i['default']:
