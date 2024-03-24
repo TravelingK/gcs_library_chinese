@@ -20,6 +20,8 @@ jobs:
       - name: trantojson
         run: |
           git clone https://github.com/richardwilkes/gcs_master_library.git
+          git clone https://github.com/richardwilkes/gcs.git
+          cp gcs/model/gurps/embedded_data/Standard.attr gcs_master_library/Library/Settings/
           find ./gcs_master_library/Library|egrep  ".(skl|adq|adm|eqm|eqp|attr|not|calendar)$" >> list.txt
           while read line
           do
