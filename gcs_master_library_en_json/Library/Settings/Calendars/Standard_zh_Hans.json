@@ -1,7 +1,19 @@
 {
+    "st": {
+        "name": "ST",
+        "full_name": "力量"
+    },
+    "dx": {
+        "name": "DX",
+        "full_name": "敏捷"
+    },
     "iq": {
-        "full_name": "智力",
-        "name": "IQ"
+        "name": "IQ",
+        "full_name": "智力"
+    },
+    "ht": {
+        "name": "HT",
+        "full_name": "体质"
     },
     "will": {
         "name": "Will"
@@ -10,8 +22,11 @@
         "name": "恐惧检定"
     },
     "per": {
-        "full_name": "感知",
-        "name": "Per"
+        "name": "Per",
+        "full_name": "感知"
+    },
+    "vision": {
+        "name": "视觉"
     },
     "hearing": {
         "name": "听觉"
@@ -19,7 +34,18 @@
     "taste_smell": {
         "name": "味觉/嗅觉"
     },
+    "touch": {
+        "name": "触觉"
+    },
+    "basic_speed": {
+        "name": "基本速度"
+    },
+    "basic_move": {
+        "name": "基本移动力"
+    },
     "fp": {
+        "name": "FP",
+        "full_name": "体力值",
         "thresholds": [
             {
                 "state": "失去意识"
@@ -38,22 +64,22 @@
             {
                 "state": "平静"
             }
-        ],
-        "name": "FP",
-        "full_name": "体力值"
+        ]
     },
     "hp": {
+        "name": "HP",
+        "full_name": "生命值",
         "thresholds": [
             {
                 "state": "死亡"
             },
             {
-                "explanation": "为了避免死亡，你必须进行体质检定\n每秒进行一次 -4 减值的体质检定来避免失去意识\n移动与闪避减半（B419）",
-                "state": "濒死 #4"
+                "state": "濒死 #4",
+                "explanation": "为了避免死亡，你必须进行体质检定\n每秒进行一次 -4 减值的体质检定来避免失去意识\n移动与闪避减半（B419）"
             },
             {
-                "explanation": "为了避免死亡，你必须进行体质检定\n每秒进行一次 -3 减值的体质检定来避免失去意识\n移动与闪避减半（B419）",
-                "state": "濒死 #3"
+                "state": "濒死 #3",
+                "explanation": "为了避免死亡，你必须进行体质检定\n每秒进行一次 -3 减值的体质检定来避免失去意识\n移动与闪避减半（B419）"
             },
             {
                 "state": "濒死 #2",
@@ -68,8 +94,8 @@
                 "explanation": "每秒进行一次体质检定来避免失去意识\n移动与闪避减半（B419）"
             },
             {
-                "explanation": "移动与闪避减半（B419）",
-                "state": "头晕"
+                "state": "头晕",
+                "explanation": "移动与闪避减半（B419）"
             },
             {
                 "state": "受伤"
@@ -77,35 +103,6 @@
             {
                 "state": "健康"
             }
-        ],
-        "full_name": "生命值",
-        "name": "HP"
-    },
-    "touch": {
-        "name": "触觉"
-    },
-    "dx": {
-        "full_name": "敏捷",
-        "name": "DX"
-    },
-    "ht": {
-        "name": "HT",
-        "full_name": "体质"
-    },
-    "vision": {
-        "name": "视觉"
-    },
-    "st": {
-        "name": "ST",
-        "full_name": "力量"
-    },
-    "forcesight": {
-        "name": "Force Sight"
-    },
-    "basic_move": {
-        "name": "基本移动力"
-    },
-    "basic_speed": {
-        "name": "基本速度"
+        ]
     }
 }
