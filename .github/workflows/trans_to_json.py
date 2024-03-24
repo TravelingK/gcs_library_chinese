@@ -28,7 +28,7 @@ def outjson(nnskillline,docname):
         skill.write(skillline)
 
 class infoDict:
-    JsonList=['name','tags','notes','specialization','vtt_notes','situation','description','usage','usage_notes','full_name']
+    JsonList=['name','tags','notes','specialization','vtt_notes','situation','description','usage','usage_notes','full_name',"text"]
     childrenList=['children','modifiers','weapons']
 
 

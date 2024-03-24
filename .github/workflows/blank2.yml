@@ -17,7 +17,7 @@ jobs:
       - name: trantojson
         run: |
           git clone https://github.com/richardwilkes/gcs_master_library.git
-          find ./gcs_master_library/|egrep  "..(skl|adq|adm|eqm|eqp|attr)$" >> list.txt
+          find ./gcs_master_library/|egrep  "..(skl|adq|adm|eqm|eqp|attr|not)$" >> list.txt
           while read line
           do
           echo $line
