@@ -1,0 +1,115 @@
+{
+    "iq": {
+        "full_name": "Intelligence",
+        "name": "IQ"
+    },
+    "will": {
+        "name": "Will"
+    },
+    "fp": {
+        "thresholds": [
+            {
+                "state": "失去意识"
+            },
+            {
+                "state": "崩溃",
+                "explanation": "Roll vs. Will to do anything besides talk or rest; failure causes unconsciousness\nEach FP you lose below 0 also causes 1 HP of injury\nMove, Dodge and ST are halved (B426)"
+            },
+            {
+                "state": "疲劳",
+                "explanation": "移动、闪避和ST减半（B426）"
+            },
+            {
+                "state": "疲劳"
+            },
+            {
+                "state": "平静"
+            }
+        ],
+        "name": "FP",
+        "full_name": "体力值"
+    },
+    "fright_check": {
+        "name": "Fright Check"
+    },
+    "hp": {
+        "thresholds": [
+            {
+                "state": "死亡"
+            },
+            {
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+                "state": "濒死 #4"
+            },
+            {
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+                "state": "濒死 #3"
+            },
+            {
+                "state": "濒死 #2",
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)"
+            },
+            {
+                "state": "濒死 #1",
+                "explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)"
+            },
+            {
+                "state": "崩溃",
+                "explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)"
+            },
+            {
+                "explanation": "移动与闪避减半（B419）",
+                "state": "头晕"
+            },
+            {
+                "state": "受伤"
+            },
+            {
+                "state": "健康"
+            }
+        ],
+        "full_name": "生命值",
+        "name": "HP"
+    },
+    "hearing": {
+        "name": "听觉"
+    },
+    "taste_smell": {
+        "name": "味觉/嗅觉"
+    },
+    "per": {
+        "full_name": "Perception",
+        "name": "Per"
+    },
+    "touch": {
+        "name": "触觉"
+    },
+    "dx": {
+        "full_name": "Dexterity",
+        "name": "DX"
+    },
+    "ht": {
+        "name": "HT",
+        "full_name": "Health"
+    },
+    "vision": {
+        "name": "视觉"
+    },
+    "st": {
+        "name": "ST",
+        "full_name": "Strength"
+    },
+    "er": {
+        "full_name": "Energy Reserver (Force)",
+        "name": "ER"
+    },
+    "forcesight": {
+        "name": "Force Sight"
+    },
+    "basic_move": {
+        "name": "基本移动力"
+    },
+    "basic_speed": {
+        "name": "基本速度"
+    }
+}
