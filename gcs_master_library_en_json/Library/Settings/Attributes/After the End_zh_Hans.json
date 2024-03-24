@@ -26,94 +26,94 @@
         "full_name": "Perception"
     },
     "vision": {
-        "name": "Vision"
+        "name": "视觉"
     },
     "hearing": {
-        "name": "Hearing"
+        "name": "听觉"
     },
     "taste_smell": {
-        "name": "Taste & Smell"
+        "name": "味觉/嗅觉"
     },
     "touch": {
-        "name": "Touch"
+        "name": "触觉"
     },
     "basic_speed": {
-        "name": "Basic Speed"
+        "name": "基本速度"
     },
     "basic_move": {
-        "name": "Basic Move"
+        "name": "基本移动力"
     },
     "fp": {
         "name": "FP",
-        "full_name": "Fatigue Points",
+        "full_name": "体力值",
         "thresholds": [
             {
-                "state": "Unconscious"
+                "state": "失去意识"
             },
             {
-                "state": "Collapse",
-                "explanation": "<html><body>\n<b>Roll vs. Will</b> to do anything besides talk or rest; failure causes unconsciousness<br>\nEach FP you lose below 0 also causes 1 HP of injury<br>\nMove, Dodge and ST are halved (B426)\n</body></html>"
+                "state": "崩溃",
+                "explanation": "<html><body>\n做任何事情，包括谈话与休息，都需要<b>进行意志检定</b>；失败则陷入昏迷<br>\n体力不高于 0 时，在每失去 1 点体力值的同时，你都会失去 1 点生命值<br>\n移动、闪避和ST减半（B426）\n</body></html>"
             },
             {
-                "state": "Tired",
-                "explanation": "Move, Dodge and ST are halved (B426)"
+                "state": "疲劳",
+                "explanation": "移动、闪避和ST减半（B426）"
             },
             {
-                "state": "Tiring"
+                "state": "疲劳"
             },
             {
-                "state": "Rested"
+                "state": "平静"
             }
         ]
     },
     "hp": {
         "name": "HP",
-        "full_name": "Hit Points",
+        "full_name": "生命值",
         "thresholds": [
             {
-                "state": "Dead"
+                "state": "死亡"
             },
             {
-                "state": "Dying #4",
-                "explanation": "<html><body>\n<b>Roll vs. HT</b> to avoid death<br>\n<b>Roll vs. HT-4</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>"
+                "state": "濒死 #4",
+                "explanation": "<html><body>\n为了避免死亡，你必须<b>进行体质检定</b><br>\n每秒进行一次<b> -4 减值的体质检定</b>来避免失去意识<br>\n移动与闪避减半（B419）\n</body></html>"
             },
             {
-                "state": "Dying #3",
-                "explanation": "<html><body>\n<b>Roll vs. HT</b> to avoid death<br>\n<b>Roll vs. HT-3</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>"
+                "state": "濒死 #3",
+                "explanation": "<html><body>\n为了避免死亡，你必须<b>进行体质检定</b><br>\n每秒进行一次<b> -3 减值的体质检定</b>来避免失去意识<br>\n移动与闪避减半（B419）\n</body></html>"
             },
             {
-                "state": "Dying #2",
-                "explanation": "<html><body>\n<b>Roll vs. HT</b> to avoid death<br>\n<b>Roll vs. HT-2</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>"
+                "state": "濒死 #2",
+                "explanation": "<html><body>\n为了避免死亡，你必须<b>进行体质检定</b><br>\n每秒进行一次<b> -2 减值的体质检定</b>来避免失去意识<br>\n移动与闪避减半（B419）\n</body></html>"
             },
             {
-                "state": "Dying #1",
-                "explanation": "<html><body>\n<b>Roll vs. HT</b> to avoid death<br>\n<b>Roll vs. HT-1</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>"
+                "state": "濒死 #1",
+                "explanation": "<html><body>\n为了避免死亡，你必须<b>进行体质检定</b><br>\n每秒进行一次<b> -1 减值的体质检定</b>来避免失去意识<br>\n移动与闪避减半（B419）\n</body></html>"
             },
             {
-                "state": "Collapse",
-                "explanation": "<html><body>\n<b>Roll vs. HT</b> every second to avoid falling unconscious<br>\nMove and Dodge are halved (B419)\n</body></html>"
+                "state": "崩溃",
+                "explanation": "<html><body>\n每秒进行一次<b>体质检定</b>来避免失去意识<br>\n移动与闪避减半（B419）\n</body></html>"
             },
             {
-                "state": "Reeling",
-                "explanation": "Move and Dodge are halved (B419)"
+                "state": "头晕",
+                "explanation": "移动与闪避减半（B419）"
             },
             {
-                "state": "Wounded"
+                "state": "受伤"
             },
             {
-                "state": "Healthy"
+                "state": "健康"
             }
         ]
     },
     "rp": {
         "name": "RP",
-        "full_name": "Radiation Points",
+        "full_name": "辐射剂量",
         "thresholds": [
             {
-                "state": "Dead"
+                "state": "死亡"
             },
             {
-                "state": "Unconscious",
+                "state": "失去意识",
                 "explanation": "<html><body>\nAutomatically fall unconscious<br>\n<b>Roll vs. HT</b> every hour. On a failure, you are treated as mortally wounded.<br>\nOn a critical failugre, you die!<br>\nRP loss below 0 costs 1 FP per RP lost.<br>\n</body></html>"
             },
             {
