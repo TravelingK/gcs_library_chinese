@@ -1,84 +1,84 @@
 {
     "iq": {
-        "full_name": "Intelligence",
+        "full_name": "智力",
         "name": "IQ"
     },
     "will": {
         "name": "Will"
     },
     "fright_check": {
-        "name": "Fright Check"
+        "name": "恐惧检定"
     },
     "per": {
-        "full_name": "Perception",
+        "full_name": "感知",
         "name": "Per"
     },
     "hearing": {
-        "name": "Hearing"
+        "name": "听觉"
     },
     "taste_smell": {
-        "name": "Taste & Smell"
+        "name": "味觉/嗅觉"
     },
     "fp": {
         "thresholds": [
             {
-                "state": "Unconscious"
+                "state": "失去意识"
             },
             {
-                "state": "Collapse",
+                "state": "崩溃",
                 "explanation": "<html><body>\n做任何事情，包括谈话与休息，都需要<b>进行意志检定</b>；失败则陷入昏迷<br>\n体力不高于 0 时，在每失去 1 点体力值的同时，你都会失去 1 点生命值<br>\n移动、闪避和ST减半（B426）\n</body></html>"
             },
             {
-                "state": "Tired",
-                "explanation": "Move, Dodge and ST are halved (B426)"
+                "state": "疲劳",
+                "explanation": "移动、闪避和ST减半（B426）"
             },
             {
-                "state": "Tiring"
+                "state": "疲劳"
             },
             {
-                "state": "Rested"
+                "state": "平静"
             }
         ],
         "name": "FP",
-        "full_name": "Fatigue Points"
+        "full_name": "体力值"
     },
     "hp": {
         "thresholds": [
             {
-                "state": "Dead"
+                "state": "死亡"
             },
             {
                 "explanation": "<html><body>\n为了避免死亡，你必须<b>进行体质检定</b><br>\n每秒进行一次<b> -4 减值的体质检定</b>来避免失去意识<br>\n移动与闪避减半（B419）\n</body></html>",
-                "state": "Dying #4"
+                "state": "濒死 #4"
             },
             {
                 "explanation": "<html><body>\n为了避免死亡，你必须<b>进行体质检定</b><br>\n每秒进行一次<b> -3 减值的体质检定</b>来避免失去意识<br>\n移动与闪避减半（B419）\n</body></html>",
-                "state": "Dying #3"
+                "state": "濒死 #3"
             },
             {
-                "state": "Dying #2",
+                "state": "濒死 #2",
                 "explanation": "<html><body>\n为了避免死亡，你必须<b>进行体质检定</b><br>\n每秒进行一次<b> -2 减值的体质检定</b>来避免失去意识<br>\n移动与闪避减半（B419）\n</body></html>"
             },
             {
-                "state": "Dying #1",
+                "state": "濒死 #1",
                 "explanation": "<html><body>\n为了避免死亡，你必须<b>进行体质检定</b><br>\n每秒进行一次<b> -1 减值的体质检定</b>来避免失去意识<br>\n移动与闪避减半（B419）\n</body></html>"
             },
             {
-                "state": "Collapse",
+                "state": "崩溃",
                 "explanation": "<html><body>\n每秒进行一次<b>体质检定</b>来避免失去意识<br>\n移动与闪避减半（B419）\n</body></html>"
             },
             {
-                "explanation": "Move and Dodge are halved (B419)",
-                "state": "Reeling"
+                "explanation": "移动与闪避减半（B419）",
+                "state": "头晕"
             },
             {
-                "state": "Wounded"
+                "state": "受伤"
             },
             {
-                "state": "Healthy"
+                "state": "健康"
             }
         ],
-        "full_name": "Hit Points",
+        "full_name": "生命值",
         "name": "HP"
     },
     "qn": {
@@ -107,27 +107,27 @@
         "full_name": "Quintessence Points"
     },
     "touch": {
-        "name": "Touch"
+        "name": "触觉"
     },
     "dx": {
-        "full_name": "Dexterity",
+        "full_name": "敏捷",
         "name": "DX"
     },
     "ht": {
         "name": "HT",
-        "full_name": "Health"
+        "full_name": "体质"
     },
     "vision": {
-        "name": "Vision"
+        "name": "视觉"
     },
     "st": {
         "name": "ST",
         "full_name": "力量"
     },
     "basic_move": {
-        "name": "Basic Move"
+        "name": "基本移动力"
     },
     "basic_speed": {
-        "name": "Basic Speed"
+        "name": "基本速度"
     }
 }
