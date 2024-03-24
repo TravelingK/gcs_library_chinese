@@ -145,9 +145,19 @@ def en_to_file(input_file):
     """
     mubiao_file=re.sub(".[a-z]{0,}$","_en.json",input_file)
     mubiao_file=re.sub("gcs_master_library","gcs_master_library_en_json",mubiao_file)
+    type=re.findall('(?<=.)[a-z]{0,}$',input_file)[0]
     raw_json=getdict(input_file)
     Info=infoDict(raw_json)
-    new_json=Info.getChildren()
+    if (type=='calendar'):
+        new_json={}
+        new_json['weekdays']=raw_json['weekdays']
+        for i in ['months','seasons']:
+            new_json[i]=[]
+            for ii in raw_json[i]:
+                new_json[i].append({'name':ii['name']})
+    else:
+        new_json=Info.getChildren()
+
     outjson(new_json,mubiao_file)
     
 en_to_file(sys.argv[1])

@@ -55,18 +55,20 @@ def  mergeDict(olddict:dict,newdict:dict)->dict:
 
 def zh_to_file(mobanwenjian):  
     input_file=re.sub(r"master_library","master_library_en_json",mobanwenjian)
-    type=re.findall('(?<=.)[a-z]{0,}$',mobanwenjian)
-    input_file=re.sub(f".{type[0]}","_zh_Hans.json",input_file)
-    mubiao_file=re.sub(".[a-z]{0,}$",f"_zh.{type[0]}",mobanwenjian)
+    type=re.findall('(?<=.)[a-z]{0,}$',mobanwenjian)[0]
+    input_file=re.sub(f".{type}","_zh_Hans.json",input_file)
+    mubiao_file=re.sub(".[a-z]{0,}$",f"_zh.{type}",mobanwenjian)
     mubiao_file=re.sub("gcs_master_library","gcs_chinese_library",mubiao_file)
     chinesejson=getdict(input_file)
     mobanjson=getdict(mobanwenjian)
-    for i in chinesejson:
-        for ii in mobanjson['rows']:
-            if (ii['id']==i):
-                ii=mergeDict(ii,chinesejson[i])
+    if (type=='calendar'):
+        mobanjson=mergeDict(mobanjson,chinesejson)
+    else:
+        for i in chinesejson:
+            for ii in mobanjson['rows']:
+                if (ii['id']==i):
+                    ii=mergeDict(ii,chinesejson[i])
     outjson(mobanjson,mubiao_file)
-
             
 
 zh_to_file(sys.argv[1])
