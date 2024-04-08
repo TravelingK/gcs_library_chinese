@@ -116,7 +116,7 @@
                 "name": "Self-Healing"
             },
             "3f423b56-357a-44ca-a765-fffb9b9b438e": {
-                "name": "Delayed Effect",
+                "name": "延后效果",
                 "tags": [
                     "灵能",
                     "Psychic Healing",
@@ -254,76 +254,76 @@
     },
     "1f0a0fd2-30ad-465c-ac70-f7af9be8194c": {
         "tags": [
-            "Probability Alteration",
+            "概率改变",
             "灵能"
         ],
-        "name": "Probability Alteration",
+        "name": "概率改变",
         "children": {
             "c48e2929-279f-4b66-a7b3-8236db42ef75": {
                 "tags": [
-                    "Probability Alteration",
+                    "概率改变",
                     "灵能"
                 ],
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Curse"
+                                "qualifier": "诅咒"
                             }
                         }
                     ]
                 },
-                "name": "Curse"
+                "name": "诅咒"
             },
             "e8af2ec4-fb30-4025-9c50-96cd175b4742": {
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Adjustment"
+                                "qualifier": "调整"
                             }
                         }
                     ]
                 },
                 "tags": [
-                    "Probability Alteration",
+                    "概率改变",
                     "灵能"
                 ],
-                "name": "Adjustment"
+                "name": "调整"
             },
             "dfa5c34d-deb1-4359-8b77-3a89828e14e1": {
-                "name": "Transference",
+                "name": "转送",
                 "tags": [
-                    "Probability Alteration",
+                    "概率改变",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Second Chance"
+                    "name": "二次机会"
                 }
             },
             "7ebd1eaa-c678-471e-be8a-b025db403c63": {
-                "name": "Unsupervised Change",
+                "name": "无人监管改变",
                 "tags": [
-                    "Probability Alteration",
+                    "概率改变",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Weather Control"
+                    "name": "天气控制"
                 }
             },
             "ef9d7d0c-038a-4ff1-8e45-bbb7da8c6cd5": {
                 "tags": [
-                    "Probability Alteration",
+                    "概率改变",
                     "灵能"
                 ],
-                "name": "Second Chance",
+                "name": "二次机会",
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Second Chance"
+                                "qualifier": "二次机会"
                             }
                         }
                     ]
@@ -331,66 +331,66 @@
             },
             "3d8f827c-985c-4fa9-bac8-ac6307db9649": {
                 "default": {
-                    "name": "Weather Control"
+                    "name": "天气控制"
                 },
                 "tags": [
-                    "Probability Alteration",
+                    "概率改变",
                     "灵能",
                     "技术"
                 ],
-                "name": "Faster Onset"
+                "name": "更快起效"
             },
             "b1f8e0e7-6291-41b4-bdeb-4f2fbc6125df": {
                 "tags": [
-                    "Probability Alteration",
+                    "概率改变",
                     "灵能",
                     "技术"
                 ],
-                "name": "Delayed Effect",
+                "name": "延后效果",
                 "default": {
-                    "name": "Curse"
+                    "name": "诅咒"
                 }
             },
             "be0d2a6b-8e81-4c65-9762-fe9baa14c751": {
-                "specialization": "Probability Alteration",
-                "name": "Combat Sense",
+                "specialization": "概率改变",
+                "name": "战斗感知",
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Combat Sense"
+                                "qualifier": "战斗感知"
                             }
                         }
                     ]
                 },
                 "tags": [
-                    "Probability Alteration",
+                    "概率改变",
                     "灵能"
                 ]
             },
             "b58c78bc-da79-48ec-852b-8cfc967ef27f": {
                 "tags": [
-                    "Probability Alteration",
+                    "概率改变",
                     "灵能"
                 ],
-                "name": "Coincidence",
+                "name": "巧合",
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Coincidence"
+                                "qualifier": "巧合"
                             }
                         }
                     ]
                 }
             },
             "504a65d0-3103-41b3-9f50-db7d2092a271": {
-                "name": "移除诅咒Remove Curse",
+                "name": "移除诅咒",
                 "default": {
-                    "name": "Curse"
+                    "name": "诅咒"
                 },
                 "tags": [
-                    "Probability Alteration",
+                    "概率改变",
                     "灵能",
                     "技术"
                 ]
@@ -400,14 +400,14 @@
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Weather Control"
+                                "qualifier": "天气控制"
                             }
                         }
                     ]
                 },
-                "name": "Weather Control",
+                "name": "天气控制",
                 "tags": [
-                    "Probability Alteration",
+                    "概率改变",
                     "灵能"
                 ]
             }
@@ -415,22 +415,22 @@
     },
     "1f3fdce6-4c12-46ba-b006-558e3cd5f133": {
         "tags": [
-            "Cinematic",
+            "电影化",
             "灵能",
             "技术"
         ],
         "default": {
-            "name": "@Psionic Skill@"
+            "name": "@灵能技能@"
         },
-        "name": "Permanent Effect"
+        "name": "永久效果"
     },
     "1ad2deed-0bd6-4c32-8606-12f781ac9d21": {
         "default": {
-            "name": "@Psionic Skill@"
+            "name": "@灵能技能@"
         },
-        "name": "Omnicast",
+        "name": "全能施展",
         "tags": [
-            "Cinematic",
+            "电影化",
             "灵能",
             "技术"
         ]
@@ -449,7 +449,7 @@
                             "灵能",
                             "Psychokinesis",
                             "技术",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ],
                         "default": {
                             "name": "TK Bullet"
@@ -461,7 +461,7 @@
                             "灵能",
                             "Psychokinesis",
                             "技术",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ],
                         "default": {
                             "name": "TK Crush"
@@ -473,7 +473,7 @@
                             "灵能",
                             "Psychokinesis",
                             "技术",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ],
                         "default": {
                             "name": "TK Bullet"
@@ -485,7 +485,7 @@
                             "灵能",
                             "Psychokinesis",
                             "技术",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ],
                         "name": "Mass Grab",
                         "default": {
@@ -496,7 +496,7 @@
                         "tags": [
                             "灵能",
                             "Psychokinesis",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ],
                         "name": "Levitation",
                         "prereqs": {
@@ -514,7 +514,7 @@
                             "灵能",
                             "Psychokinesis",
                             "技术",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ],
                         "default": {
                             "name": "TK Bullet"
@@ -535,7 +535,7 @@
                         "tags": [
                             "灵能",
                             "Psychokinesis",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ]
                     },
                     "573df1cd-34b9-4327-8c96-506e83e7436f": {
@@ -543,7 +543,7 @@
                             "灵能",
                             "Psychokinesis",
                             "技术",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ],
                         "default": {
                             "name": "Levitation"
@@ -563,7 +563,7 @@
                         "tags": [
                             "灵能",
                             "Psychokinesis",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ],
                         "name": "TK Crush"
                     },
@@ -572,7 +572,7 @@
                             "灵能",
                             "Psychokinesis",
                             "技术",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ],
                         "default": {
                             "name": "TK Crush"
@@ -592,7 +592,7 @@
                         "tags": [
                             "灵能",
                             "Psychokinesis",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ],
                         "name": "Telekinetic Control"
                     },
@@ -602,7 +602,7 @@
                             "灵能",
                             "Psychokinesis",
                             "技术",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ],
                         "default": {
                             "name": "TK Bullet"
@@ -612,7 +612,7 @@
                         "tags": [
                             "灵能",
                             "Psychokinesis",
-                            "心灵遥控Telekinesis"
+                            "念动力"
                         ],
                         "prereqs": {
                             "prereqs": [
@@ -629,9 +629,9 @@
                 "tags": [
                     "灵能",
                     "Psychokinesis",
-                    "心灵遥控Telekinesis"
+                    "念动力"
                 ],
-                "name": "心灵遥控Telekinesis"
+                "name": "念动力"
             },
             "3eb8909a-9d43-46dd-acb9-dcc82c902a27": {
                 "name": "Pyrokinesis",
@@ -647,7 +647,7 @@
                 "tags": [
                     "灵能",
                     "Psychokinesis",
-                    "心灵遥控Telekinesis"
+                    "念动力"
                 ]
             },
             "f2f773e0-14aa-4bbe-8704-c6d0f238c1e1": {
@@ -659,7 +659,7 @@
                 "default": {
                     "name": "PK Shield"
                 },
-                "name": "Expansion"
+                "name": "扩张"
             },
             "2797bc28-d1ce-4492-b719-dbcd0d4539bc": {
                 "tags": [
@@ -676,7 +676,7 @@
                 "tags": [
                     "灵能",
                     "Psychokinesis",
-                    "心灵遥控Telekinesis"
+                    "念动力"
                 ],
                 "prereqs": {
                     "prereqs": [
@@ -693,7 +693,7 @@
                 "tags": [
                     "灵能",
                     "Psychokinesis",
-                    "心灵遥控Telekinesis"
+                    "念动力"
                 ],
                 "prereqs": {
                     "prereqs": [
@@ -723,7 +723,7 @@
                     "Psychokinesis",
                     "技术"
                 ],
-                "name": "Suppression",
+                "name": "抑制",
                 "default": {
                     "name": "PK Shield"
                 }
@@ -757,7 +757,7 @@
                             "技术",
                             "Telepathy"
                         ],
-                        "name": "Indirect",
+                        "name": "间接",
                         "default": {
                             "name": "Instill Fear"
                         }
@@ -916,9 +916,9 @@
                             "技术",
                             "Telepathy"
                         ],
-                        "name": "Independent",
+                        "name": "独立性",
                         "default": {
-                            "name": "暗示术 Suggestion"
+                            "name": "暗示"
                         }
                     },
                     "5d4d41b3-03ee-4bdb-8d87-99b4d312e027": {
@@ -964,7 +964,7 @@
                             "技术",
                             "Telepathy"
                         ],
-                        "name": "Secondary Senses",
+                        "name": "第二感官",
                         "default": {
                             "name": "Telecontrol"
                         }
@@ -1006,9 +1006,9 @@
                             "Telepathy"
                         ],
                         "default": {
-                            "name": "暗示术 Suggestion"
+                            "name": "暗示"
                         },
-                        "name": "Pressed Attack"
+                        "name": "压迫攻击"
                     },
                     "bcd51e7f-9723-43f6-93ea-50713b13e402": {
                         "tags": [
@@ -1072,7 +1072,7 @@
                             "技术",
                             "Telepathy"
                         ],
-                        "name": "Distant Use"
+                        "name": "远程使用"
                     },
                     "f5988ca6-5cc6-4c0d-922b-ce961c799888": {
                         "tags": [
@@ -1138,7 +1138,7 @@
                             "技术",
                             "Telepathy"
                         ],
-                        "name": "Distant Use",
+                        "name": "远程使用",
                         "default": {
                             "name": "Mind Swap"
                         }
@@ -1183,7 +1183,7 @@
                             "Telepathy"
                         ],
                         "default": {
-                            "name": "暗示术 Suggestion"
+                            "name": "暗示"
                         },
                         "name": "Amnesia"
                     },
@@ -1200,7 +1200,7 @@
                                         "qualifier": "_"
                                     },
                                     "name": {
-                                        "qualifier": "暗示术 Suggestion"
+                                        "qualifier": "暗示"
                                     }
                                 },
                                 {
@@ -1213,7 +1213,7 @@
                                 }
                             ]
                         },
-                        "name": "暗示术 Suggestion"
+                        "name": "暗示"
                     },
                     "e273a7cb-314c-4c3f-9a5a-a446ca565577": {
                         "tags": [
@@ -1239,19 +1239,19 @@
                 "children": {
                     "55088d7d-04b8-43c9-9c93-2dc3f105ab3f": {
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
                         ],
-                        "name": "Universal",
+                        "name": "通用",
                         "default": {
                             "name": "Telereceive"
                         }
                     },
                     "b69329db-6120-48bf-8fd4-cade680115cc": {
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
@@ -1259,11 +1259,11 @@
                         "default": {
                             "name": "Telesend"
                         },
-                        "name": "Universal"
+                        "name": "通用"
                     },
                     "f43b424a-e335-4b62-a015-2571eaf070b9": {
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
@@ -1275,7 +1275,7 @@
                     },
                     "ecbbf976-a461-4567-9489-4d1c901197d3": {
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "Telepathy"
                         ],
@@ -1295,7 +1295,7 @@
                     },
                     "accedd9a-f794-43d2-ac52-39d3723c8ae6": {
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
@@ -1310,7 +1310,7 @@
                             "name": "Telesend"
                         },
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
@@ -1319,7 +1319,7 @@
                     },
                     "bbca1b06-972c-44b2-b81c-52097d062322": {
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "Telepathy"
                         ],
@@ -1347,7 +1347,7 @@
                     },
                     "941b9e28-27c3-4806-85e6-1507e8c0db8b": {
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
@@ -1359,7 +1359,7 @@
                     },
                     "cae88707-0cc3-4bcd-9377-b316585f90b2": {
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
@@ -1372,7 +1372,7 @@
                     "cf9a3a78-68d9-4085-a072-57684f5dd6b3": {
                         "name": "Full Communication",
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
@@ -1387,7 +1387,7 @@
                         },
                         "name": "Animalism",
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
@@ -1398,16 +1398,16 @@
                             "name": "Borrow Skill"
                         },
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
                         ],
-                        "name": "Retention"
+                        "name": "保留"
                     },
                     "2e7f7099-1980-42fa-b877-ce045e6fa64e": {
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
@@ -1420,7 +1420,7 @@
                     },
                     "56509bfc-a11f-41ff-a69d-cbbf12bbed75": {
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
@@ -1453,14 +1453,14 @@
                         },
                         "name": "Telereceive",
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "Telepathy"
                         ]
                     },
                     "6281029b-a59c-42a8-b1e5-3b3477304f5c": {
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "技术",
                             "Telepathy"
@@ -1472,7 +1472,7 @@
                     },
                     "0e6b5862-5766-4d9d-8b86-7837c654afb0": {
                         "tags": [
-                            "Communication",
+                            "交流",
                             "灵能",
                             "Telepathy"
                         ],
@@ -1489,11 +1489,11 @@
                     }
                 },
                 "tags": [
-                    "Communication",
+                    "交流",
                     "灵能",
                     "Telepathy"
                 ],
-                "name": "Communication"
+                "name": "交流"
             },
             "366e4405-778b-4d53-9766-8d325afd126f": {
                 "children": {
@@ -1588,7 +1588,7 @@
                         "default": {
                             "name": "Mind Shield"
                         },
-                        "name": "Expansion"
+                        "name": "扩张"
                     },
                     "152cbf01-4f0b-4e03-8c35-058f6d813a2a": {
                         "tags": [
@@ -1600,10 +1600,10 @@
                         "default": {
                             "name": "Mind Shield"
                         },
-                        "name": "Reflective Shield"
+                        "name": "反射护盾"
                     },
                     "d122413f-3435-4d76-87bd-ae4d6d3dbc27": {
-                        "name": "Exclusion",
+                        "name": "排除",
                         "tags": [
                             "灵能",
                             "Sense and Defense",
@@ -2116,7 +2116,7 @@
                     "技术",
                     "Teleportation"
                 ],
-                "name": "小心翼翼"
+                "name": "小心"
             },
             "92af2d03-68d6-4951-b8c9-04a129872413": {
                 "notes": "For RL exoteleport only",
@@ -2319,59 +2319,59 @@
         ],
         "name": "阻格",
         "default": {
-            "name": "@Psionic Skill@"
+            "name": "@灵能技能@"
         }
     },
     "1fc556b1-714c-49ee-a301-bbb577892052": {
         "default": {
-            "name": "@Psionic Skill@"
+            "name": "@灵能技能@"
         },
         "tags": [
             "灵能",
             "技术"
         ],
-        "name": "Hide Signature"
+        "name": "隐藏标记"
     },
     "d1e05699-ec4f-406e-985f-58c042619e57": {
         "default": {
-            "name": "@Psionic Skill@"
+            "name": "@灵能技能@"
         },
-        "name": "Lethal Attack",
+        "name": "致命打击",
         "tags": [
-            "Cinematic",
+            "电影化",
             "灵能",
             "技术"
         ]
     },
     "d422d86e-c240-4450-9331-1c25e3b3da76": {
         "tags": [
-            "Biokinesis",
+            "心控生物",
             "灵能"
         ],
-        "name": "Biokinesis",
+        "name": "心控生物",
         "children": {
             "cf369bbd-7b53-462f-b501-69c7f998191a": {
                 "tags": [
-                    "Biokinesis",
+                    "心控生物",
                     "灵能",
                     "技术"
                 ],
-                "name": "Strike Exotic (@Sense@)",
+                "name": "异种打击（@感知@）",
                 "default": {
-                    "name": "Strike Sense"
+                    "name": "感知打击"
                 },
-                "notes": "Enter default penalty manually"
+                "notes": "手动输入默认减值"
             },
             "bb0f1911-97ff-48a7-9153-e957105b6691": {
                 "tags": [
-                    "Biokinesis",
+                    "心控生物",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Strike Sense"
+                    "name": "感知打击"
                 },
-                "name": "Multichannel"
+                "name": "多重"
             },
             "853bc71f-0506-4e97-a999-97a6e07b9c67": {
                 "prereqs": {
@@ -2381,43 +2381,43 @@
                                 "qualifier": "_"
                             },
                             "name": {
-                                "qualifier": "Strike Sense"
+                                "qualifier": "感知打击"
                             }
                         }
                     ]
                 },
                 "tags": [
-                    "Biokinesis",
+                    "心控生物",
                     "灵能"
                 ],
-                "name": "Strike Sense"
+                "name": "感知打击"
             },
             "34648708-1aa9-47bd-929b-2c6fd5cb021c": {
-                "name": "Mold Flesh",
+                "name": "重塑肉体",
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Mold Flesh"
+                                "qualifier": "重塑肉体"
                             }
                         }
                     ]
                 },
                 "tags": [
-                    "Biokinesis",
+                    "心控生物",
                     "灵能"
                 ]
             },
             "8ae22abb-7de6-45f1-afb1-57d0ea798eb5": {
                 "tags": [
-                    "Biokinesis",
+                    "心控生物",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Mold Flesh"
+                    "name": "重塑肉体"
                 },
-                "name": "Fast Mold"
+                "name": "快速重塑"
             }
         }
     },
@@ -2449,14 +2449,14 @@
             },
             "4439dce3-aba9-4e94-9735-68133bf3e711": {
                 "default": {
-                    "name": "Beast Control"
+                    "name": "野兽控制"
                 },
                 "tags": [
                     "动物心灵感应",
                     "灵能",
                     "技术"
                 ],
-                "name": "Independent"
+                "name": "独立性"
             },
             "0bffa7b3-d3c7-4851-9039-36371ed37a81": {
                 "prereqs": {
@@ -2466,7 +2466,7 @@
                                 "qualifier": "_"
                             },
                             "name": {
-                                "qualifier": "Beast Control"
+                                "qualifier": "野兽控制"
                             }
                         }
                     ]
@@ -2475,10 +2475,10 @@
                     "动物心灵感应",
                     "灵能"
                 ],
-                "name": "Beast Control"
+                "name": "野兽控制"
             },
             "36914d36-5c01-4661-98f8-fa68c2802de0": {
-                "name": "Lend Intelligence",
+                "name": "借出智力",
                 "default": {
                     "name": "动物交流"
                 },
@@ -2490,14 +2490,14 @@
             },
             "dd4dad9c-b7e4-48ee-bb06-1b63677729fd": {
                 "default": {
-                    "name": "Beast Control"
+                    "name": "野兽控制"
                 },
                 "tags": [
                     "动物心灵感应",
                     "灵能",
                     "技术"
                 ],
-                "name": "Pressed Attack"
+                "name": "压迫攻击"
             },
             "3ffdd1c1-c52a-4549-ad07-a74f5de61272": {
                 "tags": [
@@ -2505,36 +2505,36 @@
                     "灵能",
                     "技术"
                 ],
-                "name": "Obedience",
+                "name": "顺从",
                 "default": {
-                    "name": "Beast Control"
+                    "name": "野兽控制"
                 }
             }
         }
     },
     "682309f1-8ec5-414f-81be-7d8223b61bfb": {
-        "name": "Dream Control",
+        "name": "梦境控制",
         "children": {
             "7173864a-f630-408c-acd0-6aa1a5db7aa6": {
                 "tags": [
-                    "Dream Control",
+                    "梦境控制",
                     "灵能",
                     "技术"
                 ],
-                "name": "Piggyback",
+                "name": "肩扛",
                 "default": {
-                    "name": "Dream Projection"
+                    "name": "梦境投射"
                 }
             },
             "f55520c1-7a19-474a-9851-3e39722ea804": {
                 "tags": [
-                    "Dream Control",
+                    "梦境控制",
                     "灵能",
                     "技术"
                 ],
-                "name": "Psychosomatic",
+                "name": "心理负担",
                 "default": {
-                    "name": "Reshape Dream"
+                    "name": "重塑梦境"
                 }
             },
             "accab6fd-e972-4da1-bb5b-451b6574397b": {
@@ -2545,20 +2545,20 @@
                                 "qualifier": "_"
                             },
                             "name": {
-                                "qualifier": "Reshape Dream"
+                                "qualifier": "重塑梦境"
                             }
                         }
                     ]
                 },
                 "tags": [
-                    "Dream Control",
+                    "梦境控制",
                     "灵能"
                 ],
-                "name": "Reshape Dream"
+                "name": "重塑梦境"
             },
             "b9750c08-8f0f-43a8-b4a0-4139bb4ae7f8": {
                 "tags": [
-                    "Dream Control",
+                    "梦境控制",
                     "灵能"
                 ],
                 "prereqs": {
@@ -2568,36 +2568,36 @@
                                 "qualifier": "_"
                             },
                             "name": {
-                                "qualifier": "Dream Control"
+                                "qualifier": "梦境控制"
                             }
                         }
                     ]
                 },
-                "name": "Dream Projection"
+                "name": "梦境投射"
             }
         }
     },
     "1e608535-95dc-4cc6-8901-081f5fabe587": {
-        "name": "Anti-Psi",
+        "name": "反灵能",
         "tags": [
-            "Anti-Psi",
+            "反灵能",
             "灵能"
         ],
         "children": {
             "2fa97d44-5eea-45e8-be0c-47283b784db2": {
-                "name": "Mind Trap",
+                "name": "思维陷阱",
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Psionic Shield"
+                    "name": "灵能护盾"
                 }
             },
             "f643fd1e-8478-4202-96fd-44e2b85513be": {
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能"
                 ],
                 "prereqs": {
@@ -2614,31 +2614,31 @@
                         }
                     ]
                 },
-                "specialization": "@Psionic ability@",
-                "name": "Psionic Resistance"
+                "specialization": "@灵能能力@",
+                "name": "心灵抵抗"
             },
             "c56ef9da-e2e4-4d83-9808-d50ea4cd2b93": {
                 "name": "投射",
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Screaming"
+                    "name": "尖啸"
                 }
             },
             "e0f32595-a278-4707-a78b-54fe224d050b": {
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能"
                 ],
-                "name": "Screaming",
+                "name": "尖啸",
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Screaming"
+                                "qualifier": "尖啸"
                             }
                         }
                     ]
@@ -2646,30 +2646,30 @@
             },
             "5c3ef845-ce02-47d4-9bc2-234e77c9d43c": {
                 "default": {
-                    "name": "Psychic Armor"
+                    "name": "心灵铠甲"
                 },
-                "name": "Expansion",
+                "name": "扩张",
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能",
                     "技术"
                 ]
             },
             "cc07beec-2338-4d0e-8876-8af984b47e05": {
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能"
                 ],
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "True Sight (Anti-Psi)"
+                                "qualifier": "真实视觉（反灵能）"
                             }
                         }
                     ]
                 },
-                "name": "True Sight (Anti-Psi)"
+                "name": "真实视觉（反灵能）"
             },
             "63d7c320-0401-48dc-af3a-3c3e35c46d34": {
                 "prereqs": {
@@ -2679,7 +2679,7 @@
                                 "qualifier": "_"
                             },
                             "name": {
-                                "qualifier": "Psionic Overload"
+                                "qualifier": "灵能超载"
                             }
                         },
                         {
@@ -2687,7 +2687,7 @@
                                 "qualifier": "_"
                             },
                             "name": {
-                                "qualifier": "Interruption"
+                                "qualifier": "打断"
                             }
                         },
                         {
@@ -2702,69 +2702,69 @@
                 },
                 "name": "取消",
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能"
                 ]
             },
             "ca3c0572-0189-4827-9120-0c21df62d6bb": {
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能",
                     "技术"
                 ],
                 "default": {
                     "name": "取消"
                 },
-                "name": "Crippling Attack"
+                "name": "致残打击"
             },
             "d48d5403-e985-4849-8fd5-97f78378ae67": {
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "True Sight (Anti-Psi)"
+                    "name": "真实视觉（反灵能）"
                 },
-                "name": "Shared Sight"
+                "name": "共享视觉"
             },
             "38ebea8d-b798-402c-916b-a3b81d44b1ea": {
                 "default": {
-                    "name": "Psionic Shield"
+                    "name": "灵能护盾"
                 },
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能",
                     "技术"
                 ],
-                "name": "Expansion"
+                "name": "扩张"
             },
             "9fe3fcef-5563-4d83-8c1c-d582b679dd57": {
                 "default": {
-                    "name": "Para-Invisibility"
+                    "name": "超隐形"
                 },
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能",
                     "技术"
                 ],
-                "name": "Expansion"
+                "name": "扩张"
             },
             "52d14f65-698a-45cc-95f1-ad4ea28318e7": {
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能",
                     "技术"
                 ],
-                "name": "Reflective Shield",
+                "name": "反射护盾",
                 "default": {
-                    "name": "Psionic Shield"
+                    "name": "灵能护盾"
                 }
             },
             "553fe9a8-9fe9-4d36-86a6-0964606e5961": {
                 "name": "Psionic Resistance (All)",
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能"
                 ],
                 "prereqs": {
@@ -2787,91 +2787,91 @@
             },
             "9b87db11-2292-4a31-b7ae-ba2ff2e1fba6": {
                 "default": {
-                    "name": "Psychic Armor"
+                    "name": "心灵铠甲"
                 },
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能",
                     "技术"
                 ],
-                "name": "Expansion"
+                "name": "扩张"
             },
             "649ed60f-e2b9-4d73-b198-dabe7b9f0ad6": {
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能",
                     "技术"
                 ],
-                "name": "Exemption",
+                "name": "豁免",
                 "default": {
-                    "name": "Screaming"
+                    "name": "尖啸"
                 }
             },
             "75074000-cac5-4b12-bb36-078b82bfd20c": {
-                "name": "Psychic Armor",
+                "name": "心灵铠甲",
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Psychic Armor"
+                                "qualifier": "心灵铠甲"
                             }
                         }
                     ]
                 },
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能"
                 ]
             },
             "ab32a290-7ecd-46be-888c-c7370de157ab": {
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能",
                     "技术"
                 ],
-                "name": "Tiring Scream",
+                "name": "疲劳尖啸",
                 "default": {
-                    "name": "Screaming"
+                    "name": "尖啸"
                 }
             },
             "413dc14f-6533-476d-950b-725cbf5b2122": {
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能",
                     "技术"
                 ],
                 "default": {
                     "name": "取消"
                 },
-                "name": "Precision Attack"
+                "name": "精确攻击"
             },
             "47f34468-5dc4-43ca-a593-f8c589bb77d3": {
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能"
                 ],
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Para-Invisibility"
+                                "qualifier": "超隐形"
                             }
                         }
                     ]
                 },
-                "name": "Para-Invisibility"
+                "name": "超隐形"
             },
             "66bcc9ab-0e22-47ac-831f-58ca12d1a143": {
-                "name": "Psionic Shield",
+                "name": "灵能护盾",
                 "tags": [
-                    "Anti-Psi",
+                    "反灵能",
                     "灵能"
                 ],
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Psionic Shield"
+                                "qualifier": "灵能护盾"
                             }
                         }
                     ]
@@ -2881,32 +2881,32 @@
     },
     "0da21eb1-0bbf-43b9-95ae-f5ab8bcbdcab": {
         "tags": [
-            "Astral Projection",
+            "星界投影",
             "灵能"
         ],
-        "name": "Astral Projection",
+        "name": "星界投影",
         "children": {
             "ac6ed4b1-3174-442e-8f87-3aa59c54bbdd": {
-                "name": "Spectral Dodge",
+                "name": "幽灵闪避",
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Astral Movement"
+                    "name": "星界移动"
                 }
             },
             "0af6c8a9-a057-473c-bc78-4c268e4945a5": {
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Astral Armor"
+                    "name": "星界铠甲"
                 },
-                "name": "Expansion"
+                "name": "扩张"
             },
             "e6ef2cbc-438a-4a54-abb3-63757debbe76": {
                 "defaults": [
@@ -2919,53 +2919,53 @@
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Astral Sword"
+                                "qualifier": "星界之剑"
                             }
                         }
                     ]
                 },
-                "name": "Astral Sword",
+                "name": "星界之剑",
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能"
                 ]
             },
             "64567b55-4887-4a75-a344-a9bf97f34ccb": {
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Astral Sword"
+                    "name": "星界之剑"
                 },
-                "name": "Penetrating Blow"
+                "name": "穿透打击"
             },
             "690426db-c2db-47c3-97e2-58ba06c528ea": {
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Astral Travel"
+                    "name": "星界旅行"
                 },
-                "name": "Barrier Breaking"
+                "name": "屏障破坏"
             },
             "7fdead84-3d88-4c22-80a7-8ec356daf81e": {
-                "name": "Piggyback",
+                "name": "肩扛",
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Astral Travel"
+                    "name": "星界旅行"
                 }
             },
             "c4e3167d-2dcf-4fb5-815b-9ad9af79ed03": {
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能"
                 ],
                 "prereqs": {
@@ -2975,27 +2975,27 @@
                                 "qualifier": "_"
                             },
                             "name": {
-                                "qualifier": "Astral Travel"
+                                "qualifier": "星界旅行"
                             }
                         }
                     ]
                 },
-                "name": "Astral Travel"
+                "name": "星界旅行"
             },
             "34286c8b-79e5-477f-8fad-ffd12b9d7d08": {
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Astral Sight"
+                    "name": "星体视觉"
                 },
-                "name": "Penetrate Disguise"
+                "name": "看穿伪装"
             },
             "45c6d04d-11bf-4976-b481-c609cabe458b": {
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能"
                 ],
                 "prereqs": {
@@ -3005,118 +3005,118 @@
                                 "qualifier": "_"
                             },
                             "name": {
-                                "qualifier": "Astral Sight"
+                                "qualifier": "星体视觉"
                             }
                         }
                     ]
                 },
-                "name": "Astral Sight"
+                "name": "星体视觉"
             },
             "6419e3ac-4b74-4257-8ce5-97c59b61df4e": {
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能",
                     "技术"
                 ],
-                "name": "Cross-World Communication",
+                "name": "跨世界沟通",
                 "default": {
-                    "name": "Astral Travel"
+                    "name": "星界旅行"
                 }
             },
             "439d96bd-f48c-4dc1-aad7-11009c838e63": {
-                "name": "Astral Crossing",
+                "name": "星界穿越",
                 "default": {
-                    "name": "Astral Travel"
+                    "name": "星界旅行"
                 },
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能",
                     "技术"
                 ]
             },
             "25c89cad-55ae-40a5-a337-059d40a15af3": {
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能"
                 ],
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Astral Armor"
+                                "qualifier": "星界铠甲"
                             }
                         }
                     ]
                 },
-                "name": "Astral Armor"
+                "name": "星界铠甲"
             },
             "79c0df7e-f3f3-4758-bd0e-bee5b5d61aa3": {
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Astral Celerity"
+                                "qualifier": "星界速度"
                             }
                         }
                     ]
                 },
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能"
                 ],
-                "name": "Astral Movement"
+                "name": "星界移动"
             },
             "439054c7-2b1d-40f1-b34c-33c23b3fd692": {
-                "name": "Piggyback",
+                "name": "肩扛",
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Astral Movement"
+                    "name": "星界移动"
                 }
             },
             "41065590-a60f-427f-943b-3206ba2f7220": {
-                "name": "Cloaking",
+                "name": "伪装",
                 "tags": [
-                    "Astral Projection",
+                    "星界投影",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Astral Travel"
+                    "name": "星界旅行"
                 }
             }
         }
     },
     "c6e0b3ad-154e-4fac-bd7c-e302d3e4f5d4": {
-        "name": "Ergokinesis",
+        "name": "心灵控电",
         "tags": [
-            "Cyberpsi",
-            "Electrokinesis",
-            "Ergokinesis",
-            "Photokinesis"
+            "数字灵能",
+            "念控电能",
+            "心灵控电",
+            "念控光能"
         ],
         "children": {
             "0073adc1-8a8b-431a-b3fd-814e15fa16ad": {
                 "children": {
                     "ea4acdf0-4232-4b76-880b-18c9b7c4bd72": {
                         "tags": [
-                            "Cyberpsi",
-                            "Ergokinesis",
+                            "数字灵能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Secondary Senses",
+                        "name": "第二感官",
                         "default": {
-                            "name": "Netrunning"
+                            "name": "网络狂奔"
                         }
                     },
                     "d3471215-e01d-4d6a-82b7-5a20f21bc588": {
                         "tags": [
-                            "Cyberpsi",
-                            "Ergokinesis",
+                            "数字灵能",
+                            "心灵控电",
                             "灵能"
                         ],
                         "prereqs": {
@@ -3126,23 +3126,23 @@
                                         "qualifier": "_"
                                     },
                                     "name": {
-                                        "qualifier": "I/O Tap"
+                                        "qualifier": "I/O 窃听"
                                     }
                                 }
                             ]
                         },
-                        "name": "I/O Tap"
+                        "name": "I/O 窃听"
                     },
                     "ebd71f63-aecf-46d8-b51a-4354a028745e": {
-                        "name": "Binary Translation",
+                        "name": "二进制翻译",
                         "tags": [
-                            "Cyberpsi",
-                            "Ergokinesis",
+                            "数字灵能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
                         "default": {
-                            "name": "Data Retrieval"
+                            "name": "数据检索"
                         }
                     },
                     "7429de10-2f4f-4e2a-bc28-fd0e30a47c9d": {
@@ -3153,30 +3153,30 @@
                                         "qualifier": "_"
                                     },
                                     "name": {
-                                        "qualifier": "Netrunning"
+                                        "qualifier": "网络狂奔"
                                     }
                                 }
                             ]
                         },
                         "tags": [
-                            "Cyberpsi",
-                            "Ergokinesis",
+                            "数字灵能",
+                            "心灵控电",
                             "灵能"
                         ],
-                        "name": "Netrunning"
+                        "name": "网络狂奔"
                     },
                     "685f3329-af3e-423f-82ff-18657321954e": {
-                        "name": "Remote Control",
+                        "name": "遥控",
                         "tags": [
-                            "Cyberpsi",
-                            "Ergokinesis",
+                            "数字灵能",
+                            "心灵控电",
                             "灵能"
                         ],
                         "prereqs": {
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Remote Control"
+                                        "qualifier": "遥控"
                                     },
                                     "notes": {
                                         "qualifier": "_"
@@ -3187,11 +3187,11 @@
                     },
                     "3da05dc9-1645-412c-a6aa-db4817ff4e77": {
                         "tags": [
-                            "Cyberpsi",
-                            "Ergokinesis",
+                            "数字灵能",
+                            "心灵控电",
                             "灵能"
                         ],
-                        "name": "Data Retrieval",
+                        "name": "数据检索",
                         "prereqs": {
                             "prereqs": [
                                 {
@@ -3199,7 +3199,7 @@
                                         "qualifier": "_"
                                     },
                                     "name": {
-                                        "qualifier": "Data Retrieval"
+                                        "qualifier": "数据检索"
                                     }
                                 }
                             ]
@@ -3207,69 +3207,69 @@
                     },
                     "f19adcef-e1ca-43c9-abe8-69dd0461fde7": {
                         "tags": [
-                            "Cyberpsi",
-                            "Ergokinesis",
+                            "数字灵能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
                         "default": {
-                            "name": "Netrunning"
+                            "name": "网络狂奔"
                         },
-                        "name": "Adaptability"
+                        "name": "适应性"
                     },
                     "0a669423-8dab-4188-a48b-b6c8825d3632": {
-                        "name": "Mirror",
+                        "name": "镜像",
                         "default": {
-                            "name": "Data Retrieval"
+                            "name": "数据检索"
                         },
                         "tags": [
-                            "Cyberpsi",
-                            "Ergokinesis",
+                            "数字灵能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ]
                     },
                     "c2b1773e-cb8c-4336-b141-ea461c1fcfc9": {
                         "default": {
-                            "name": "Netrunning"
+                            "name": "网络狂奔"
                         },
                         "tags": [
-                            "Cyberpsi",
-                            "Ergokinesis",
+                            "数字灵能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Wireless"
+                        "name": "无线"
                     },
                     "cb405e51-ab9f-450e-bb32-490a78191986": {
                         "tags": [
-                            "Cyberpsi",
-                            "Ergokinesis",
+                            "数字灵能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Binary Translation",
+                        "name": "二进制翻译",
                         "default": {
-                            "name": "I/O Tap"
+                            "name": "I/O 窃听"
                         }
                     },
                     "547c610e-500b-4a2b-82b2-c62079e2e5ca": {
-                        "name": "Reprogramming",
+                        "name": "重编程",
                         "tags": [
-                            "Cyberpsi",
-                            "Ergokinesis",
+                            "数字灵能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
                         "default": {
-                            "name": "Remote Control"
+                            "name": "遥控"
                         }
                     }
                 },
-                "name": "Cyberpsi",
+                "name": "数字灵能",
                 "tags": [
-                    "Cyberpsi",
-                    "Ergokinesis",
+                    "数字灵能",
+                    "心灵控电",
                     "灵能"
                 ]
             },
@@ -3277,20 +3277,20 @@
                 "children": {
                     "a0d98ac9-a704-4993-be7d-ed9b62453a84": {
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Extended Arc @240° or 360°@°",
+                        "name": "弧度扩展 @240° 或 360°@°",
                         "default": {
-                            "name": "Radar Sense"
+                            "name": "雷达感官"
                         }
                     },
                     "c6a04760-a424-4e21-923a-ec087618fbc6": {
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能"
                         ],
                         "name": "闪电",
@@ -3309,7 +3309,7 @@
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Confuse"
+                                        "qualifier": "混乱"
                                     },
                                     "notes": {
                                         "qualifier": "_"
@@ -3318,36 +3318,36 @@
                             ]
                         },
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能"
                         ],
-                        "name": "Confuse"
+                        "name": "混乱"
                     },
                     "8f2212b3-9e24-4aa7-b3bb-0addeff30bca": {
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
                         "default": {
-                            "name": "Confuse"
+                            "name": "混乱"
                         },
-                        "name": "Blue Screen"
+                        "name": "蓝屏"
                     },
                     "48deb27d-6107-4750-bd29-4c82958c7179": {
-                        "name": "Radar Sense",
+                        "name": "雷达感官",
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能"
                         ],
                         "prereqs": {
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Radar Sense"
+                                        "qualifier": "雷达感官"
                                     }
                                 }
                             ]
@@ -3355,28 +3355,28 @@
                     },
                     "cb23bbcf-554c-46b6-8026-508ae29fcc75": {
                         "default": {
-                            "name": "EK Shield"
+                            "name": "EK 盾"
                         },
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Suppression"
+                        "name": "抑制"
                     },
                     "9d22b724-97d6-4689-b08c-cf5b4ca9c20c": {
-                        "name": "EK Shield",
+                        "name": "EK 盾",
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能"
                         ],
                         "prereqs": {
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "EK Shield"
+                                        "qualifier": "EK 盾"
                                     }
                                 }
                             ]
@@ -3384,50 +3384,50 @@
                     },
                     "44e7f460-d43e-48c4-9ac3-f4854cc91c86": {
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
                         "name": "眩晕",
                         "default": {
-                            "name": "Confuse"
+                            "name": "混乱"
                         }
                     },
                     "a7d14adb-3e68-49f1-bada-98a443be01d0": {
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Expansion",
+                        "name": "扩张",
                         "default": {
-                            "name": "EK Shield"
+                            "name": "EK 盾"
                         }
                     },
                     "9babdfe4-f1db-4c1b-b4c2-31be54543fbb": {
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能"
                         ],
                         "prereqs": {
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Electric Vision"
+                                        "qualifier": "电气视觉"
                                     }
                                 }
                             ]
                         },
-                        "name": "Electric Vision"
+                        "name": "电气视觉"
                     },
                     "110fd6b4-2a36-41ee-8ae7-786072d636be": {
-                        "name": "Particle Beam",
+                        "name": "粒子束",
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
@@ -3437,28 +3437,28 @@
                     },
                     "a6df0685-949f-4c2d-ba0e-57744f2c29f4": {
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
                         "name": "投射",
                         "default": {
-                            "name": "Dampen"
+                            "name": "抑制"
                         }
                     },
                     "f3d310a2-f03d-472f-bbef-a6f7f371c5a0": {
-                        "name": "Dampen",
+                        "name": "抑制",
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能"
                         ],
                         "prereqs": {
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Dampen"
+                                        "qualifier": "抑制"
                                     }
                                 }
                             ]
@@ -3466,56 +3466,56 @@
                     },
                     "3da393fe-dda5-445b-996d-4f3c48452596": {
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Mass Surge",
+                        "name": "群体电涌",
                         "default": {
                             "name": "电涌"
                         }
                     },
                     "659ff6b3-884f-48ff-a30c-01e788ad3084": {
-                        "name": "Deep Scan",
+                        "name": "深度扫描",
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
                         "default": {
-                            "name": "Electric Vision"
+                            "name": "电气视觉"
                         }
                     },
                     "87876a27-acb4-4087-82d9-972529e839d3": {
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Thunderbolt",
+                        "name": "天雷",
                         "default": {
                             "name": "闪电"
                         }
                     },
                     "73052514-a0f6-47e6-aa81-60c1a9fe593b": {
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Lock On",
+                        "name": "锁定",
                         "default": {
-                            "name": "Radar Sense"
+                            "name": "雷达感官"
                         }
                     },
                     "9c118f57-79f0-489d-9fe6-59538b93858c": {
                         "tags": [
-                            "Electrokinesis",
-                            "Ergokinesis",
+                            "念控电能",
+                            "心灵控电",
                             "灵能"
                         ],
                         "name": "电涌",
@@ -3530,10 +3530,10 @@
                         }
                     }
                 },
-                "name": "Electrokinesis",
+                "name": "念控电能",
                 "tags": [
-                    "Electrokinesis",
-                    "Ergokinesis",
+                    "念控电能",
+                    "心灵控电",
                     "灵能"
                 ]
             },
@@ -3541,62 +3541,62 @@
                 "children": {
                     "e13679a7-4663-4e56-9af5-04f141faa945": {
                         "tags": [
-                            "Ergokinesis",
-                            "Photokinesis",
+                            "心灵控电",
+                            "念控光能",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Independent",
+                        "name": "独立性",
                         "default": {
-                            "name": "Hologram"
+                            "name": "全息影像"
                         }
                     },
                     "62adb7c7-b2c5-4e4f-bc09-972f6ff5e60d": {
                         "tags": [
-                            "Ergokinesis",
-                            "Photokinesis",
+                            "心灵控电",
+                            "念控光能",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Overwhelm",
+                        "name": "光潮",
                         "default": {
-                            "name": "Flash"
+                            "name": "闪光"
                         }
                     },
                     "8506013b-c00a-4c18-bb4d-da516d71313e": {
                         "default": {
-                            "name": "Photorefraction"
+                            "name": "光折射"
                         },
                         "tags": [
-                            "Ergokinesis",
-                            "Photokinesis",
+                            "心灵控电",
+                            "念控光能",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Broad Spectrum"
+                        "name": "广谱"
                     },
                     "b80ba535-9cdb-4bc9-bf4a-f5f553982631": {
                         "tags": [
-                            "Ergokinesis",
-                            "Photokinesis",
+                            "心灵控电",
+                            "念控光能",
                             "灵能",
                             "技术"
                         ],
                         "default": {
-                            "name": "Hologram"
+                            "name": "全息影像"
                         },
-                        "name": "Increased Size"
+                        "name": "增加尺寸"
                     },
                     "26f20eb5-abca-4755-89c8-e8ef328d6240": {
-                        "name": "Broad Spectrum",
+                        "name": "广谱",
                         "tags": [
-                            "Ergokinesis",
-                            "Photokinesis",
+                            "心灵控电",
+                            "念控光能",
                             "灵能",
                             "技术"
                         ],
                         "default": {
-                            "name": "Hologram"
+                            "name": "全息影像"
                         }
                     },
                     "20abbdea-0571-4c0d-a1b7-c6acadbbd9ad": {
@@ -3607,30 +3607,30 @@
                                         "qualifier": "_"
                                     },
                                     "name": {
-                                        "qualifier": "Hologram"
+                                        "qualifier": "全息影像"
                                     }
                                 }
                             ]
                         },
-                        "name": "Hologram",
+                        "name": "全息影像",
                         "tags": [
-                            "Ergokinesis",
-                            "Photokinesis",
+                            "心灵控电",
+                            "念控光能",
                             "灵能"
                         ]
                     },
                     "3538ed03-c0ba-4b33-8d67-b0f8ab1f6873": {
                         "tags": [
-                            "Ergokinesis",
-                            "Photokinesis",
+                            "心灵控电",
+                            "念控光能",
                             "灵能"
                         ],
-                        "name": "Flash",
+                        "name": "闪光",
                         "prereqs": {
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Flash"
+                                        "qualifier": "闪光"
                                     }
                                 }
                             ]
@@ -3638,16 +3638,16 @@
                     },
                     "0a4441d5-1484-4162-979a-3452fbf8a7d3": {
                         "tags": [
-                            "Ergokinesis",
-                            "Photokinesis",
+                            "心灵控电",
+                            "念控光能",
                             "灵能"
                         ],
-                        "name": "Photorefraction",
+                        "name": "光折射",
                         "prereqs": {
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Photorefraction"
+                                        "qualifier": "光折射"
                                     }
                                 }
                             ]
@@ -3655,50 +3655,50 @@
                     },
                     "50e18494-44a2-4e2b-b5bb-4632e7fba941": {
                         "default": {
-                            "name": "Photorefraction"
+                            "name": "光折射"
                         },
                         "tags": [
-                            "Ergokinesis",
-                            "Photokinesis",
+                            "心灵控电",
+                            "念控光能",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Reactive Use"
+                        "name": "被动使用"
                     },
                     "eefc6da4-7092-403b-b46a-da497686169b": {
-                        "name": "Expansion",
+                        "name": "扩张",
                         "tags": [
-                            "Ergokinesis",
-                            "Photokinesis",
+                            "心灵控电",
+                            "念控光能",
                             "灵能",
                             "技术"
                         ],
                         "default": {
-                            "name": "Photorefraction"
+                            "name": "光折射"
                         }
                     }
                 },
                 "tags": [
-                    "Photokinesis",
+                    "念控光能",
                     "灵能"
                 ],
-                "name": "Photokinesis"
+                "name": "念控光能"
             }
         }
     },
     "c30a727e-2098-489e-9e62-b11c72bf3da0": {
         "tags": [
-            "ESP",
+            "超感知",
             "灵能"
         ],
-        "name": "ESP",
+        "name": "超感知",
         "children": {
             "4de5b051-a2b1-4ae8-8f94-28f94ca9b563": {
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Spirit Communication"
+                                "qualifier": "灵魂交流"
                             },
                             "notes": {
                                 "qualifier": "_"
@@ -3707,26 +3707,26 @@
                     ]
                 },
                 "tags": [
-                    "ESP",
+                    "超感知",
                     "灵能",
                     "Remote Senses"
                 ],
-                "name": "Spirit Communication"
+                "name": "灵魂交流"
             },
             "6aeda61c-216c-4d20-9265-e530a1e9eef7": {
                 "children": {
                     "f5ce83fc-f8e5-4227-a7d4-df3d219026bc": {
                         "tags": [
-                            "预言术Divination",
-                            "ESP",
+                            "占卜",
+                            "超感知",
                             "灵能"
                         ],
-                        "name": "Prognostication",
+                        "name": "预知",
                         "prereqs": {
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Prognostication"
+                                        "qualifier": "预知"
                                     }
                                 }
                             ]
@@ -3734,37 +3734,37 @@
                     },
                     "4f8b3a5b-1e16-4f11-943c-9fe20262db0a": {
                         "tags": [
-                            "预言术Divination",
-                            "ESP",
+                            "占卜",
+                            "超感知",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Event Search",
+                        "name": "事件搜索",
                         "default": {
-                            "name": "Retrocognition"
+                            "name": "回溯认知"
                         }
                     },
                     "10268622-aa46-4ffd-98ce-ea835b688d74": {
                         "default": {
-                            "name": "Psi Sense"
+                            "name": "灵能感知"
                         },
                         "tags": [
-                            "预言术Divination",
-                            "ESP",
+                            "占卜",
+                            "超感知",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Increased Range"
+                        "name": "增加射程"
                     },
                     "2f540e88-f563-461d-89bc-aba4ba74e1e9": {
                         "tags": [
-                            "预言术Divination",
-                            "ESP",
+                            "占卜",
+                            "超感知",
                             "灵能",
                             "技术"
                         ],
                         "default": {
-                            "name": "Prognostication"
+                            "name": "预知"
                         },
                         "name": "导向性"
                     },
@@ -3773,56 +3773,56 @@
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Visions (Aspected Dream)"
+                                        "qualifier": "幻象（定向梦）"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Aspected Visions"
+                                        "qualifier": "定向幻想"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Visions (Full)"
+                                        "qualifier": "幻象（完整）"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Visions (Overwhelming)"
+                                        "qualifier": "幻象（压倒性）"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Visions (Second Sight)"
+                                        "qualifier": "幻象（第二感官）"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Visions (Dream)"
+                                        "qualifier": "幻象（梦）"
                                     }
                                 }
                             ]
                         },
                         "tags": [
-                            "预言术Divination",
-                            "ESP",
+                            "占卜",
+                            "超感知",
                             "灵能"
                         ],
-                        "name": "Visions"
+                        "name": "幻象"
                     },
                     "115cf591-da93-4613-a57b-f6031bc098f4": {
                         "tags": [
-                            "预言术Divination",
-                            "ESP",
+                            "占卜",
+                            "超感知",
                             "灵能"
                         ],
-                        "name": "Combat Sense",
-                        "specialization": "预言术Divination",
+                        "name": "战斗感知",
+                        "specialization": "占卜",
                         "prereqs": {
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Combat Sense"
+                                        "qualifier": "战斗感知"
                                     }
                                 }
                             ]
@@ -3830,8 +3830,8 @@
                     },
                     "b3fd1849-7c01-49ec-a5b2-10cb1f414f54": {
                         "tags": [
-                            "预言术Divination",
-                            "ESP",
+                            "占卜",
+                            "超感知",
                             "灵能"
                         ],
                         "prereqs": {
@@ -3841,7 +3841,7 @@
                                         "qualifier": "_"
                                     },
                                     "name": {
-                                        "qualifier": "Signature Sniffer"
+                                        "qualifier": "信号嗅探器"
                                     }
                                 },
                                 {
@@ -3849,19 +3849,19 @@
                                         "qualifier": "_"
                                     },
                                     "name": {
-                                        "qualifier": "Psi Sense"
+                                        "qualifier": "灵能感知"
                                     }
                                 }
                             ]
                         },
-                        "name": "Psi Sense"
+                        "name": "灵能感知"
                     },
                     "31eb4ae0-57ab-4421-adb9-313ad232e33a": {
                         "prereqs": {
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Retrocognitive Flashbacks"
+                                        "qualifier": "回溯认知闪回"
                                     },
                                     "notes": {
                                         "qualifier": "_"
@@ -3869,7 +3869,7 @@
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Retrocognition"
+                                        "qualifier": "回溯认知"
                                     },
                                     "notes": {
                                         "qualifier": "_"
@@ -3877,42 +3877,42 @@
                                 }
                             ]
                         },
-                        "name": "Retrocognition",
+                        "name": "回溯认知",
                         "tags": [
-                            "预言术Divination",
-                            "ESP",
+                            "占卜",
+                            "超感知",
                             "灵能"
                         ]
                     },
                     "8fa0f541-0d16-4327-bc8f-db62bcb61399": {
                         "tags": [
-                            "预言术Divination",
-                            "ESP",
+                            "占卜",
+                            "超感知",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Distant Use",
+                        "name": "远程使用",
                         "default": {
-                            "name": "Retrocognition"
+                            "name": "回溯认知"
                         }
                     },
                     "f2657f58-9bc0-4542-9c3b-230d6f3a02a9": {
                         "tags": [
-                            "预言术Divination",
-                            "ESP",
+                            "占卜",
+                            "超感知",
                             "灵能",
                             "技术"
                         ],
-                        "name": "Exclusion",
+                        "name": "排除",
                         "default": {
-                            "name": "Psi Sense"
+                            "name": "灵能感知"
                         }
                     }
                 },
-                "name": "预言术Divination",
+                "name": "占卜",
                 "tags": [
-                    "预言术Divination",
-                    "ESP",
+                    "占卜",
+                    "超感知",
                     "灵能"
                 ]
             },
@@ -3920,7 +3920,7 @@
                 "children": {
                     "b6478f7a-2369-4531-9351-e6f86b29768f": {
                         "tags": [
-                            "ESP",
+                            "超感知",
                             "灵能",
                             "Remote Senses"
                         ],
@@ -3928,7 +3928,7 @@
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Clairaudience (Have Clairvoyance)"
+                                        "qualifier": "顺风耳（拥有千里眼）"
                                     }
                                 },
                                 {
@@ -3947,32 +3947,32 @@
                     },
                     "d279949c-7125-4a28-b852-fe3a36ba476b": {
                         "tags": [
-                            "ESP",
+                            "超感知",
                             "灵能",
                             "Remote Senses",
                             "技术"
                         ],
-                        "name": "Deep Scan",
+                        "name": "深度扫描",
                         "default": {
-                            "name": "Awareness"
+                            "name": "直感"
                         }
                     },
                     "7135cd11-f9fc-4b4e-9b3d-ab54acb6d825": {
                         "tags": [
-                            "ESP",
+                            "超感知",
                             "灵能",
                             "Remote Senses",
                             "技术"
                         ],
-                        "name": "Extended Arc @240° or 360°@°",
+                        "name": "弧度扩展 @240° 或 360°@°",
                         "default": {
-                            "name": "Awareness"
+                            "name": "直感"
                         }
                     },
                     "e3ef058b-f0b8-4833-8ec4-cb2bcc64ac75": {
                         "name": "黑暗视觉",
                         "tags": [
-                            "ESP",
+                            "超感知",
                             "灵能",
                             "Remote Senses",
                             "技术"
@@ -3986,16 +3986,16 @@
                             "name": "视觉投射"
                         },
                         "tags": [
-                            "ESP",
+                            "超感知",
                             "灵能",
                             "Remote Senses",
                             "技术"
                         ],
-                        "name": "Blind Projection"
+                        "name": "不可视投射"
                     },
                     "d39b167f-561a-4712-af50-150a75806423": {
                         "tags": [
-                            "ESP",
+                            "超感知",
                             "灵能",
                             "Remote Senses",
                             "技术"
@@ -4003,23 +4003,23 @@
                         "default": {
                             "name": "视觉投射"
                         },
-                        "name": "Fast Activation"
+                        "name": "快速激活"
                     },
                     "6a886b21-735f-44da-b3d5-c0d4d4790b82": {
                         "tags": [
-                            "ESP",
+                            "超感知",
                             "灵能",
                             "Remote Senses",
                             "技术"
                         ],
-                        "name": "Visual",
+                        "name": "视觉",
                         "default": {
                             "name": "视觉投射"
                         }
                     },
                     "0141fc53-8ecd-47ef-af59-590cca106595": {
                         "tags": [
-                            "ESP",
+                            "超感知",
                             "灵能",
                             "Remote Senses"
                         ],
@@ -4027,28 +4027,28 @@
                             "prereqs": [
                                 {
                                     "name": {
-                                        "qualifier": "Awareness"
+                                        "qualifier": "直感"
                                     }
                                 }
                             ]
                         },
-                        "name": "Awareness"
+                        "name": "直感"
                     },
                     "e2e5c4f6-f34c-4400-b1ac-36ea62492050": {
                         "tags": [
-                            "ESP",
+                            "超感知",
                             "灵能",
                             "Remote Senses",
                             "技术"
                         ],
-                        "name": "Audio",
+                        "name": "音频",
                         "default": {
                             "name": "视觉投射"
                         }
                     },
                     "787a508e-c71b-4ef0-a847-2e696f6e57c4": {
                         "tags": [
-                            "ESP",
+                            "超感知",
                             "灵能",
                             "Remote Senses",
                             "技术"
@@ -4056,35 +4056,35 @@
                         "default": {
                             "name": "视觉投射"
                         },
-                        "name": "Secondary Senses"
+                        "name": "第二感官"
                     }
                 },
                 "name": "Remote Senses",
                 "tags": [
-                    "ESP",
+                    "超感知",
                     "灵能",
                     "Remote Senses"
                 ]
             },
             "d2a22c6c-1071-4164-87d4-bb8738a4ec51": {
                 "tags": [
-                    "ESP",
+                    "超感知",
                     "灵能",
                     "技术"
                 ],
-                "name": "Extended Range",
+                "name": "扩展射程",
                 "default": {
-                    "name": "Psidar"
+                    "name": "灵能雷达"
                 }
             },
             "36d3541a-20ac-4273-a78b-6ec5cbbee26a": {
                 "tags": [
-                    "ESP",
+                    "超感知",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "Psychic Hunches"
+                    "name": "灵能预感"
                 },
                 "name": "Shared Hunches"
             },
@@ -4097,14 +4097,14 @@
                                 "qualifier": "危险感知"
                             },
                             "notes": {
-                                "qualifier": "ESP"
+                                "qualifier": "超感知"
                             }
                         }
                     ]
                 },
                 "tags": [
-                    "预言术Divination",
-                    "ESP",
+                    "占卜",
+                    "超感知",
                     "灵能"
                 ]
             },
@@ -4113,7 +4113,7 @@
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Psychic Hunches"
+                                "qualifier": "灵能预感"
                             },
                             "notes": {
                                 "qualifier": "_"
@@ -4122,16 +4122,16 @@
                     ]
                 },
                 "tags": [
-                    "预言术Divination",
-                    "ESP",
+                    "占卜",
+                    "超感知",
                     "灵能"
                 ],
-                "name": "Psychic Hunches"
+                "name": "灵能预感"
             },
             "43b89b0d-5e18-442d-8d05-7ed0f3043b1b": {
                 "tags": [
-                    "预言术Divination",
-                    "ESP",
+                    "占卜",
+                    "超感知",
                     "灵能"
                 ],
                 "name": "种族记忆",
@@ -4139,7 +4139,7 @@
                     "prereqs": [
                         {
                             "notes": {
-                                "qualifier": "ESP"
+                                "qualifier": "超感知"
                             },
                             "name": {
                                 "qualifier": "种族记忆"
@@ -4150,50 +4150,50 @@
             },
             "07fdaf93-e0c2-4d19-934b-df52835dd946": {
                 "default": {
-                    "name": "Seekersense"
+                    "name": "寻物感知"
                 },
                 "tags": [
-                    "ESP",
+                    "超感知",
                     "灵能",
                     "技术"
                 ],
-                "name": "Pinpoint"
+                "name": "精确"
             },
             "527fbb17-8783-4c64-8e41-133825df93bc": {
-                "name": "Illuminated",
+                "name": "开悟",
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Illuminated"
+                                "qualifier": "开悟"
                             },
                             "notes": {
-                                "qualifier": "ESP"
+                                "qualifier": "超感知"
                             }
                         }
                     ]
                 },
                 "tags": [
-                    "预言术Divination",
-                    "ESP",
+                    "占卜",
+                    "超感知",
                     "灵能"
                 ]
             },
             "f5dc07a2-4d9a-4a9c-b431-99d47319961e": {
-                "name": "Increased Range",
+                "name": "增加射程",
                 "default": {
-                    "name": "Psi Sense"
+                    "name": "灵能感知"
                 },
                 "tags": [
-                    "预言术Divination",
-                    "ESP",
+                    "占卜",
+                    "超感知",
                     "灵能",
                     "技术"
                 ]
             },
             "e06b5934-c811-44b9-a868-e8d74841ba27": {
                 "tags": [
-                    "ESP",
+                    "超感知",
                     "灵能",
                     "Remote Senses"
                 ],
@@ -4204,16 +4204,16 @@
                                 "qualifier": "_"
                             },
                             "name": {
-                                "qualifier": "Seekersense"
+                                "qualifier": "寻物感知"
                             }
                         }
                     ]
                 },
-                "name": "Seekersense"
+                "name": "寻物感知"
             },
             "7566a4f6-de59-4665-99a5-41a4e5552c1b": {
                 "tags": [
-                    "ESP",
+                    "超感知",
                     "灵能",
                     "技术"
                 ],
@@ -4224,31 +4224,31 @@
             },
             "d8511b9a-f9fe-4efb-9b4e-22771ec352d3": {
                 "tags": [
-                    "ESP",
+                    "超感知",
                     "灵能",
                     "技术"
                 ],
                 "name": "通灵",
                 "default": {
-                    "name": "Spirit Communication"
+                    "name": "灵魂交流"
                 }
             },
             "2069e320-616c-48a8-b949-a856efa2f5e3": {
                 "tags": [
-                    "预言术Divination",
-                    "ESP",
+                    "占卜",
+                    "超感知",
                     "灵能",
                     "技术"
                 ],
-                "name": "Exclusion",
+                "name": "排除",
                 "default": {
-                    "name": "Psi Sense"
+                    "name": "灵能感知"
                 }
             },
             "732b94f9-3ca7-45e1-aad6-37efeba60bc8": {
                 "tags": [
-                    "预言术Divination",
-                    "ESP",
+                    "占卜",
+                    "超感知",
                     "灵能"
                 ],
                 "prereqs": {
@@ -4258,7 +4258,7 @@
                                 "qualifier": "常识"
                             },
                             "notes": {
-                                "qualifier": "ESP"
+                                "qualifier": "超感知"
                             }
                         }
                     ]
@@ -4270,46 +4270,46 @@
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Oracle"
+                                "qualifier": "昭示"
                             },
                             "notes": {
-                                "qualifier": "ESP"
+                                "qualifier": "超感知"
                             }
                         }
                     ]
                 },
-                "name": "Oracle",
+                "name": "昭示",
                 "tags": [
-                    "预言术Divination",
-                    "ESP",
+                    "占卜",
+                    "超感知",
                     "灵能"
                 ]
             },
             "7f5b3918-926a-44df-9ee5-1696bae98761": {
                 "tags": [
-                    "ESP",
+                    "超感知",
                     "灵能",
                     "技术"
                 ],
                 "default": {
                     "name": "常识"
                 },
-                "name": "Conscious"
+                "name": "有意识"
             },
             "72d46182-aab5-4b3e-9d64-ab87fe0d91db": {
                 "tags": [
-                    "ESP",
+                    "超感知",
                     "灵能",
                     "技术"
                 ],
                 "default": {
-                    "name": "True Sight (ESP)"
+                    "name": "真实视觉（ESP）"
                 },
-                "name": "Shared Sight"
+                "name": "共享视觉"
             },
             "b7a01d5b-38e3-4eff-a654-f049d226ebd8": {
                 "tags": [
-                    "ESP",
+                    "超感知",
                     "灵能",
                     "Remote Senses"
                 ],
@@ -4317,19 +4317,19 @@
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "True Sight (ESP)"
+                                "qualifier": "真实视觉（ESP）"
                             }
                         }
                     ]
                 },
-                "name": "True Sight (ESP)"
+                "name": "真实视觉（ESP）"
             },
             "fad9274f-2807-41c2-88c1-d843d491c465": {
                 "prereqs": {
                     "prereqs": [
                         {
                             "name": {
-                                "qualifier": "Psidar"
+                                "qualifier": "灵能雷达"
                             },
                             "notes": {
                                 "qualifier": "_"
@@ -4338,11 +4338,11 @@
                     ]
                 },
                 "tags": [
-                    "ESP",
+                    "超感知",
                     "灵能",
                     "Remote Senses"
                 ],
-                "name": "Psidar"
+                "name": "灵能雷达"
             }
         }
     }
