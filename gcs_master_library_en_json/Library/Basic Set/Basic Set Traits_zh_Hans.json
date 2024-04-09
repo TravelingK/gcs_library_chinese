@@ -29,7 +29,7 @@
             "异种",
             "生理"
         ],
-        "name": "Hermaphromorph"
+        "name": "性别变换"
     },
     "e9f8bb20-c5f2-4d2e-aa84-c51e2694e999": {
         "tags": [
@@ -37,11 +37,11 @@
             "Quirk"
         ],
         "notes": "May only know @Skill@ at default (i.e. no points spent)",
-        "name": "Incompetence (@Skill@)",
+        "name": "技能缺陷（@技能@）",
         "features": [
             {
                 "name": {
-                    "qualifier": "@Skill@"
+                    "qualifier": "@技能@"
                 }
             }
         ]
@@ -319,7 +319,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "features": [
             {
@@ -698,7 +698,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "name": "Talent (@Large@)",
         "modifiers": {
@@ -1048,7 +1048,7 @@
         }
     },
     "f3ec0e8b-53d2-4f14-ba46-29c1f62a7b7b": {
-        "name": "Increased Strength",
+        "name": "增加力量",
         "tags": [
             "优势",
             "属性",
@@ -1056,7 +1056,7 @@
         ],
         "modifiers": {
             "fc2b398f-467b-4c36-857b-98087975f0c4": {
-                "name": "No Fine Manipulators"
+                "name": "无操作肢"
             },
             "89e24b12-233b-4ad9-a77a-934e7bc640f7": {
                 "name": "Size"
@@ -1072,7 +1072,7 @@
             "异种",
             "生理"
         ],
-        "name": "Fragile (Explosive)"
+        "name": "脆弱（易爆）"
     },
     "0b5fae97-dba5-420a-a7f0-ae79fffe3bc7": {
         "name": "固有攻击（灼烧）",
@@ -1479,7 +1479,7 @@
         "tags": [
             "优势",
             "社会",
-            "Wealth"
+            "财富"
         ],
         "name": "富可敌国",
         "notes": "Starting wealth is 100x10^level normal",
@@ -1678,7 +1678,7 @@
             "劣势",
             "生理"
         ],
-        "name": "Ham-Fisted",
+        "name": "手指笨拙",
         "features": [
             {
                 "name": {
@@ -1687,57 +1687,57 @@
             },
             {
                 "name": {
-                    "qualifier": "jeweler"
+                    "qualifier": "珠宝加工"
                 }
             },
             {
                 "name": {
-                    "qualifier": "knot-tying"
+                    "qualifier": "结绳"
                 }
             },
             {
                 "name": {
-                    "qualifier": "leatherworking"
+                    "qualifier": "皮革加工"
                 }
             },
             {
                 "name": {
-                    "qualifier": "lockpicking"
+                    "qualifier": "开锁"
                 }
             },
             {
                 "name": {
-                    "qualifier": "pickpocket"
+                    "qualifier": "扒窃"
                 }
             },
             {
                 "name": {
-                    "qualifier": "sewing"
+                    "qualifier": "缝纫"
                 }
             },
             {
                 "name": {
-                    "qualifier": "sleight of hand"
+                    "qualifier": "巧手"
                 }
             },
             {
                 "name": {
-                    "qualifier": "surgery"
+                    "qualifier": "手术"
                 }
             },
             {
                 "name": {
-                    "qualifier": "machinist"
+                    "qualifier": "机工"
                 }
             },
             {
                 "name": {
-                    "qualifier": "mechanic"
+                    "qualifier": "机修"
                 }
             },
             {
                 "name": {
-                    "qualifier": "fast-draw"
+                    "qualifier": "即时备战"
                 }
             },
             {
@@ -1751,7 +1751,7 @@
             "prereqs": [
                 {
                     "name": {
-                        "qualifier": "high manual dexterity"
+                        "qualifier": "巧手"
                     }
                 }
             ]
@@ -1762,7 +1762,7 @@
             "优势",
             "异种",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "name": "Racial Skill Bonus - @Skill@ (@Specialization@)",
         "features": [
@@ -1935,67 +1935,67 @@
         "name": "飞行",
         "modifiers": {
             "6ad7ecc5-8832-4a9c-82b4-85254a94daf5": {
-                "name": "Newtonian Space Flight"
+                "name": "牛顿力学式太空飞行"
             },
             "48fd82c3-d8f0-4be7-a69b-1d5c7897f608": {
-                "name": "Space Flight"
+                "name": "太空飞行"
             },
             "b53b501f-2ecc-4c99-8766-5766e670ce73": {
-                "name": "Cannot Hover"
+                "name": "不能悬停"
             },
             "6c2b8127-d1d7-4201-bfb4-8fdb13f344e6": {
-                "name": "Controlled Gliding"
+                "name": "可控滑翔"
             },
             "0c826766-8e63-4205-aa62-db6598e2b4f0": {
-                "name": "Gliding"
+                "name": "滑翔"
             },
             "19cb7f15-94dc-4622-b798-4eb2d8dd1668": {
-                "name": "Lighter Than Air"
+                "name": "轻于空气"
             },
             "b924f3a8-46a9-41ca-93ee-8c6980e1624f": {
-                "name": "Low Ceiling",
+                "name": "低上限",
                 "notes": "30'"
             },
             "3fdb4313-9cea-4ecd-915e-82a3d9208033": {
-                "name": "Low Ceiling",
+                "name": "低上限",
                 "notes": "10'"
             },
             "033099c0-2248-40a9-bc8a-d505297693e8": {
-                "name": "Low Ceiling",
+                "name": "低上限",
                 "notes": "5'"
             },
             "eedf31a5-c7ad-4967-9c43-ec1cc31f3680": {
-                "name": "Small Wings"
+                "name": "小翅膀"
             },
             "3c786352-fa26-4862-8b6a-6cfef78a995c": {
-                "name": "Space Flight Only"
+                "name": "仅限太空飞行"
             },
             "ef21e56c-ec8d-4d9f-9643-c5ff26f41ad7": {
-                "name": "Winged"
+                "name": "大翼"
             },
             "6551975e-39ce-4013-bf89-1eda2fd4f32e": {
-                "name": "Planetary"
+                "name": "行星"
             },
             "0151bb33-5645-42aa-afbe-414074cceffb": {
-                "name": "Requires Surface"
+                "name": "需要表面"
             },
             "af1cb269-ac6e-4b29-9173-99380703cbf7": {
-                "name": "Slow",
+                "name": "缓慢",
                 "notes": "基本速度"
             },
             "ecf503cc-493c-4d8a-a0d9-7aa0b79c2bd2": {
-                "name": "Slow, Move 1"
+                "name": "缓慢，移动力 1"
             },
             "b53ded9b-d24e-4a5a-ab39-6cdaa574ae3f": {
-                "name": "Encumbrance-Limited (No encumbrance)",
+                "name": "负重限制（空载）",
                 "notes": "Can only glide at best when overburdened"
             },
             "d0a74eb5-64d3-4650-978d-6bd539d38d82": {
-                "name": "Encumbrance-Limited (Light encumbrance)",
+                "name": "负重限制（轻载）",
                 "notes": "Can only glide at best when overburdened"
             },
             "c1f771ed-e5bd-46a6-b67c-e88578c364c6": {
-                "name": "Encumbrance-Limited (Medium encumbrance)",
+                "name": "负重限制（中载）",
                 "notes": "Can only glide at best when overburdened"
             }
         }
@@ -2258,18 +2258,18 @@
             "劣势",
             "生理"
         ],
-        "name": "Extra Sleep"
+        "name": "额外睡眠"
     },
     "40536343-685d-4a93-9e35-4f9513eec973": {
         "tags": [
             "劣势",
             "心理"
         ],
-        "name": "Gullibility",
+        "name": "轻信",
         "features": [
             {
                 "name": {
-                    "qualifier": "merchant"
+                    "qualifier": "商人"
                 }
             }
         ],
@@ -2399,7 +2399,7 @@
     },
     "e8bfbdc6-b47c-470a-a80c-fe4574662193": {
         "name": "文化熟悉（@文化@）",
-        "notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+        "notes": "不会因为不熟悉而遭受 -3 的减值",
         "tags": [
             "优势",
             "心理"
@@ -2849,27 +2849,27 @@
             "异种",
             "生理"
         ],
-        "name": "Hyperspectral Vision",
+        "name": "高光谱视觉",
         "prereqs": {
             "prereqs": [
                 {
                     "name": {
-                        "qualifier": "infravision"
+                        "qualifier": "红外视觉"
                     }
                 },
                 {
                     "name": {
-                        "qualifier": "ultravision"
+                        "qualifier": "紫外视觉"
                     }
                 }
             ]
         },
         "modifiers": {
             "5fad754c-890d-45a8-a82e-cd514d8f51eb": {
-                "name": "Extended Low-Band"
+                "name": "低频扩展"
             },
             "aaf3f5a6-880b-4b10-9784-2ad92b93fdf4": {
-                "name": "Extended High-Band"
+                "name": "高频扩展"
             },
             "dd67917c-d2df-43bb-9f51-7fc564a47a03": {
                 "name": "拓展效果",
@@ -3111,7 +3111,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "name": "Talent (Artificer)",
         "features": [
@@ -3178,7 +3178,7 @@
             "劣势",
             "心理"
         ],
-        "name": "Greed",
+        "name": "贪婪",
         "notes": "Make a self-control roll any time riches are offered – as payment for fair work, gains from adventure, spoils of crime, or just bait. If you fail, you do whatever it takes to get the payoff."
     },
     "cf875dd7-1d65-4c22-9b9c-30848c1d3d5d": {
@@ -3187,13 +3187,13 @@
             "异种",
             "生理"
         ],
-        "name": "Extra Legs",
+        "name": "额外腿部",
         "modifiers": {
             "a89ee115-6a18-4524-911a-2566b8a30625": {
-                "name": "@3 or 4@"
+                "name": "@3 或 4@"
             },
             "abd75efb-89ee-4d46-a18f-8009d6ce19ad": {
-                "name": "@5 or 6@"
+                "name": "@5 或 6@"
             },
             "6639c262-12d3-486e-a428-747ddffe3a1b": {
                 "name": "@7+@"
@@ -3202,13 +3202,13 @@
                 "name": "最大"
             },
             "456497b3-3df5-4c41-a02e-23c21ba5c780": {
-                "name": "Cannot Kick"
+                "name": "不能踢击"
             },
             "f45fe2c9-1576-42d0-a98a-c7f495df7b5e": {
-                "name": "Extra Flexible"
+                "name": "非常灵活"
             },
             "6e155478-b830-4718-a134-188f08d2f0bf": {
-                "name": "Prehensile Feet"
+                "name": "可抓握足部"
             }
         }
     },
@@ -3251,7 +3251,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "name": "Talent (Animal Friend)",
         "modifiers": {
@@ -3488,7 +3488,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "name": "Talent (@Small@)",
         "modifiers": {
@@ -3502,7 +3502,7 @@
         }
     },
     "6e5526d2-66ae-4d7a-918a-7838e1478477": {
-        "name": "Flashbacks",
+        "name": "记忆闪回",
         "tags": [
             "劣势",
             "生理"
@@ -3510,15 +3510,15 @@
         "notes": "In any situation that the GM feels is stressful, he will roll 3d. On a 6 or less, you have a flashback. The GM will roll whenever you miss a Fright Check or make the roll exactly, and whenever you fail a self-control roll for another stress-related disadvantage.",
         "modifiers": {
             "dea65bf7-f5a5-408b-be53-69896a7394b9": {
-                "name": "Severe",
+                "name": "重度",
                 "notes": "Duration: 1d minutes; -5 on all skill rolls"
             },
             "e66d07e9-3a32-4993-9ec4-ab99f97d440e": {
-                "name": "Mild",
+                "name": "轻度",
                 "notes": "Duration: 2d seconds; -2 on all skill rolls"
             },
             "9529ef70-5491-4e2e-b152-9c00304b6972": {
-                "name": "Crippling",
+                "name": "残疾",
                 "notes": "Duration: 3d minutes; Precludes all skill use"
             }
         }
@@ -3787,33 +3787,33 @@
             "生理"
         ],
         "notes": "Automatically fail HT roll to stay alive if reduced to -HP or below",
-        "name": "Fragile (Unnatural)"
+        "name": "脆弱（非自然）"
     },
     "0012574a-f325-460d-a88f-7dc2d476673e": {
         "features": [
             {
                 "name": {
-                    "qualifier": "Two-Handed Thumbing"
+                    "qualifier": "双手射线武器"
                 }
             },
             {
                 "name": {
-                    "qualifier": "Thumbing"
+                    "qualifier": "射线"
                 }
             },
             {
                 "name": {
-                    "qualifier": "Quick-Shot"
+                    "qualifier": "快速射击"
                 }
             },
             {
                 "name": {
-                    "qualifier": "Fanning"
+                    "qualifier": "扫射"
                 }
             },
             {
                 "name": {
-                    "qualifier": "Fast-Firing"
+                    "qualifier": "快速射击"
                 }
             }
         ],
@@ -3821,19 +3821,19 @@
             "优势",
             "心理"
         ],
-        "name": "Gunslinger",
+        "name": "神枪手",
         "modifiers": {
             "6908987a-73aa-426c-b99e-8ca50cff8f9f": {
-                "name": "Model: @Model@ Only"
+                "name": "型号：仅限@型号@"
             },
             "30a02fdb-7ce9-4fd9-a0ac-a94396ad076a": {
-                "name": "Arsenal: @Type@ Only"
+                "name": "武器库：仅限@类型@"
             },
             "2198c5c5-2969-429c-8f3b-0e32b0e8f5f1": {
-                "name": "Gun Rack: @Type@ Only"
+                "name": "枪架：仅限@类型@"
             },
             "ce2e8e9d-da3d-4462-b1dc-401d29ccb0e1": {
-                "name": "Type: @Type@ Only"
+                "name": "类型：仅限@类型@"
             }
         }
     },
@@ -3991,10 +3991,10 @@
             "异种",
             "生理"
         ],
-        "name": "Fragile (Flammable)"
+        "name": "脆弱（高度易燃）"
     },
     "30b83f35-7eeb-43c9-8962-34f45e04dbf3": {
-        "name": "Heroic Feats of @One of Strength, Dexterity, or Health@",
+        "name": "英雄壮举：@ST，DX 或 HT 之一@",
         "notes": "Once per game session, you may add 1d to @One of Strength, Dexterity, or Health@, which lasts 3d seconds",
         "tags": [
             "优势",
@@ -4124,7 +4124,7 @@
         "tags": [
             "优势",
             "社会",
-            "Wealth"
+            "财富"
         ],
         "notes": "Starting wealth is 20x normal",
         "name": "Very Wealthy"
@@ -4133,7 +4133,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "name": "Talent (Gifted Artist)",
         "features": [
@@ -4238,74 +4238,74 @@
         "name": "治疗",
         "modifiers": {
             "bba3192a-7571-4c82-a69f-d331c9baa720": {
-                "name": "Faith Healing"
+                "name": "信仰治疗"
             },
             "5e6b1294-e3ba-4718-925a-3274831e9991": {
-                "name": "Xenohealing",
+                "name": "异种治疗",
                 "notes": "All Mammals"
             },
             "ff993d1f-034e-43c3-9fe4-cd4d52ffb130": {
-                "name": "Xenohealing",
+                "name": "异种治疗",
                 "notes": "Anything Animate"
             },
             "6532082a-8b8a-49c0-85e4-47556068668a": {
-                "name": "Xenohealing",
+                "name": "异种治疗",
                 "notes": "All Earthly Life"
             },
             "8eccd81e-4803-409e-ad5d-e427beb77cd6": {
-                "name": "Xenohealing",
+                "name": "异种治疗",
                 "notes": "All Carbon-Based Life"
             },
             "399ab66a-3763-4cc5-b335-3c4e8c69a24c": {
-                "name": "Xenohealing",
+                "name": "异种治疗",
                 "notes": "Anything Alive"
             },
             "527037e9-28cd-4bb1-9321-a979bc495cb2": {
-                "name": "Disease Only"
+                "name": "仅限疾病"
             },
             "1f5d5f74-706d-4287-ba1d-47b16b53d457": {
-                "name": "Injuries Only"
+                "name": "仅限损伤"
             },
             "3a272e23-ca77-42e9-827a-d8be53006a84": {
-                "name": "Own Race Only"
+                "name": "仅限自己的种族"
             },
             "f9993b8c-5b39-4e1e-b2f4-c7c80ef0d2ae": {
-                "name": "Psychic Healing"
+                "name": "心灵治疗"
             },
             "129983ab-8dc5-412a-91df-d40fcb2e0acc": {
-                "name": "Affects Self"
+                "name": "影响自身"
             },
             "013bc89e-d08b-4208-ba20-ac31c0ebc8f3": {
-                "name": "Cure Affliction"
+                "name": "治愈特效"
             },
             "4ebea4b1-ed77-49d5-94bb-b336845e5981": {
-                "name": "Affliction Only"
+                "name": "仅限特效"
             },
             "1218fadc-d473-4a56-a849-c665954ca1e0": {
-                "name": "Capped",
+                "name": "上限",
                 "notes": "2 FP"
             },
             "f824e930-4c27-4ab0-9cbe-6c049e3600b0": {
-                "name": "Capped",
+                "name": "上限",
                 "notes": "4 FP"
             },
             "c8e4b56a-07af-4452-8bbb-e6a2892d7a88": {
-                "name": "Capped",
+                "name": "上限",
                 "notes": "6 FP"
             },
             "4f27cf98-a413-4945-9be1-7828df4bf07b": {
-                "name": "Capped",
+                "name": "上限",
                 "notes": "8 FP"
             },
             "c8f40584-eec8-4668-b2d3-66991c5413c7": {
-                "name": "Capped",
+                "name": "上限",
                 "notes": "10 FP"
             },
             "a22bb62e-0894-466a-84f0-6de1ffefcea5": {
-                "name": "Empathic"
+                "name": "共感"
             },
             "cc59ab25-7662-4ba9-9b35-5ce9702fff8e": {
-                "name": "Restore Limbs"
+                "name": "恢复肢体"
             }
         }
     },
@@ -4419,7 +4419,7 @@
             "异种",
             "生理"
         ],
-        "name": "Horizontal"
+        "name": "非直立"
     },
     "3b2d1b82-0a5c-40b2-9816-5948ff887258": {
         "tags": [
@@ -4545,7 +4545,7 @@
             "劣势",
             "心理"
         ],
-        "name": "Hemophobia (Blood)"
+        "name": "恐血症（血）"
     },
     "5581bccb-9e2f-4e01-b431-626cd9df23ab": {
         "features": [
@@ -4572,7 +4572,7 @@
         ],
         "modifiers": {
             "15130107-a6e2-4b7f-9092-477a1428f637": {
-                "name": "Remote"
+                "name": "远程"
             }
         }
     },
@@ -4582,7 +4582,7 @@
             "劣势",
             "心理"
         ],
-        "notes": "Adhere to the ethics of your profession; always do your job to the best of your ability; support your guild, union, or professional association."
+        "notes": "你坚持你的职业道德；总是尽你所能的做好你的工作；支持你的公会，联盟，或专业协会。"
     },
     "7877ba77-8b70-42e9-9ed8-2622084f19bc": {
         "tags": [
@@ -4812,67 +4812,67 @@
         ],
         "modifiers": {
             "de332956-d4a1-4af6-9339-34f1fa617363": {
-                "name": "Weak Individual",
+                "name": "弱单体",
                 "notes": "50% of your starting points"
             },
             "73913cf5-78dc-4fa9-93e8-9182656fb07e": {
-                "name": "Equal Individual",
+                "name": "旗鼓相当单体",
                 "notes": "100% of your starting points"
             },
             "81b5a233-41ef-48a3-8d98-450dab7c74a2": {
-                "name": "Powerful Individual",
+                "name": "强单体",
                 "notes": ">150% of your starting points"
             },
             "4ad57666-9f27-4986-9191-16d65214969b": {
-                "name": "Weak Group"
+                "name": "弱团体"
             },
             "8427a345-55ea-4e91-a797-cef5991899d4": {
-                "name": "Medium Group"
+                "name": "中等团体"
             },
             "4de4b388-72a9-4143-b57b-c3ea069c1600": {
-                "name": "Appears almost all the time",
+                "name": "几乎总是出场",
                 "notes": "15-"
             },
             "98bee615-b142-4c48-be3d-ce6e87cec21b": {
-                "name": "Appears quite often",
+                "name": "出现相当频繁",
                 "notes": "12-"
             },
             "8e56e038-28dd-41ed-b516-969294228bca": {
-                "name": "Appears fairly often",
+                "name": "出场频繁",
                 "notes": "9-"
             },
             "04e80fd4-8cc7-423e-8af5-3906657f8cb2": {
-                "name": "Appears quite rarely",
+                "name": "不常出现",
                 "notes": "6-"
             },
             "08aa132f-60f2-4bed-b3a3-ef4321d2f09f": {
-                "name": "Large/Powerful Group"
+                "name": "大型/强力团体"
             },
             "19ea1f4b-fc64-4c1d-8217-1c7f5cd09190": {
-                "name": "Utterly Formidable Group"
+                "name": "无法想象的强大群体"
             },
             "1f9b2afd-1cb9-460a-ba7d-8315a7698ba8": {
-                "name": "Unknown"
+                "name": "未知"
             },
             "f6364f57-15e6-4d03-bc3f-ebf2c4718dac": {
-                "name": "Evil Twin"
+                "name": "邪恶双生子"
             },
             "4560fba2-c960-4c2d-9201-f69dc83ed26f": {
-                "name": "Evil Twin",
+                "name": "邪恶双生子",
                 "notes": "More skilled or extra abilities"
             },
             "f948ad5e-0ca0-4e8f-84c1-d65105981603": {
-                "name": "Evil Twin",
+                "name": "邪恶双生子",
                 "notes": "More skilled and extra abilities"
             },
             "43075921-7dd0-468f-9609-296e9f7ebf0b": {
-                "name": "Watcher"
+                "name": "监视"
             },
             "85d6d113-01ac-4074-a7ce-21572db84555": {
-                "name": "Rival"
+                "name": "对抗"
             },
             "1b7c0201-7ba5-46e9-9c3d-2398527a3712": {
-                "name": "Hunter"
+                "name": "捕杀"
             }
         }
     },
@@ -5261,12 +5261,12 @@
         "name": "并行思维",
         "modifiers": {
             "2da733f6-90ea-4f75-8c8a-52cbf2f5f9ca": {
-                "notes": "@Ability@",
+                "notes": "@能力@",
                 "name": "限制，一种能力"
             },
             "aab954da-74fa-42de-a380-3cc99da3285a": {
                 "name": "限制，一种异能",
-                "notes": "@Power@"
+                "notes": "@异能@"
             },
             "37af2236-c0d8-43cf-9fd4-7f0ece9086c7": {
                 "name": "多线并行"
@@ -5664,7 +5664,7 @@
         }
     },
     "2426af56-f400-44e0-b585-3ace31835a71": {
-        "name": "G-Experience (All)",
+        "name": "重力场适应（任意）",
         "tags": [
             "优势",
             "心理"
@@ -5701,7 +5701,7 @@
             "异种",
             "生理"
         ],
-        "name": "Large Piercing Striker (@Body Part@)",
+        "name": "大型贯通近战部位（@身体部分@）",
         "modifiers": {
             "317891e7-2945-4d04-8cec-798af295fb73": {
                 "name": "Cannot Parry"
@@ -6280,7 +6280,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "name": "Talent (Mathematical Ability)",
         "modifiers": {
@@ -6588,7 +6588,7 @@
             "心理",
             "超自然"
         ],
-        "name": "Frightens Animals"
+        "name": "惊吓动物"
     },
     "8031bfc2-02a5-437b-957e-e95f7893fe8d": {
         "notes": "You can never learn to use magic, and you react badly to any user of magic. Make a self-control roll whenever you are in the presence of magic. This roll is at -3 if you are to be the target of friendly magic, and -6 if you are the target of hostile magic. (The magic does not have to be real, if you believe in it!)",
@@ -6781,33 +6781,33 @@
             "优势",
             "社会"
         ],
-        "name": "Good Reputation",
+        "name": "良好声誉",
         "modifiers": {
             "ca59a34a-2467-417f-9764-46e7617201a2": {
                 "notes": "@Small class of people@",
-                "name": "People Affected"
+                "name": "影响人群"
             },
             "bf87af2b-67fd-43ca-b53d-22911e628cfe": {
-                "name": "Recognized all the time"
+                "name": "总是有人认识"
             },
             "a0d8d318-d895-4cd6-9412-3b4839438dbe": {
-                "name": "Recognized sometimes",
+                "name": "有时候有人认识",
                 "notes": "10-"
             },
             "38aa3113-4709-485c-be35-ba35d96192fd": {
-                "name": "People Affected",
+                "name": "影响人群",
                 "notes": "Almost everyone"
             },
             "39082380-367d-4319-9daf-854976f45562": {
-                "name": "People Affected",
+                "name": "影响人群",
                 "notes": "Almost everyone except @large class of people@"
             },
             "b43f0211-b5bf-4271-b6cc-acd6483af8d2": {
-                "name": "People Affected",
+                "name": "影响人群",
                 "notes": "@Large class of people@"
             },
             "c32da9c0-87ba-4504-b87d-7ae275bec1ce": {
-                "name": "Recognized occasionally",
+                "name": "偶尔有人认识",
                 "notes": "7-"
             }
         },
@@ -6849,7 +6849,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "features": [
             {
@@ -6985,19 +6985,19 @@
             "异种",
             "生理"
         ],
-        "name": "Impaling Striker (@Body Part@)",
+        "name": "穿刺近战部位（@身体部分@）",
         "modifiers": {
             "ba751621-2618-4137-a8f3-7c704dbef2a8": {
-                "name": "Cannot Parry"
+                "name": "无法招架"
             },
             "faf277a1-3d03-42a5-acba-62ac8f9b72a5": {
-                "name": "Clumsy"
+                "name": "笨拙"
             },
             "8b6a7807-7aad-4317-a9e0-07fd0c05a88e": {
-                "name": "Limited Arc (@Direction@)"
+                "name": "弧度限制（@方向@）"
             },
             "6cf9ffd0-2ea1-406e-844c-c5a23603ad30": {
-                "name": "Weak"
+                "name": "弱"
             }
         },
         "weapons": {
@@ -7120,7 +7120,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "name": "天赋（音乐天才）",
         "features": [
@@ -7268,7 +7268,7 @@
             "异种",
             "生理"
         ],
-        "name": "Increased Life Support (Massive)"
+        "name": "额外生命保障需求（重量）"
     },
     "3cad081e-04bc-47ed-8fa7-ffd05152c881": {
         "tags": [
@@ -7356,7 +7356,7 @@
         }
     },
     "c0169c8e-4530-4faf-8805-b90c5c1b409b": {
-        "name": "Horrible Hangovers",
+        "name": "可怕的宿醉",
         "tags": [
             "生理",
             "Quirk"
@@ -7372,12 +7372,12 @@
             "优势",
             "心理"
         ],
-        "name": "Fearlessness",
+        "name": "无所畏惧",
         "prereqs": {
             "prereqs": [
                 {
                     "name": {
-                        "qualifier": "Fearfulness"
+                        "qualifier": "充满恐惧"
                     }
                 }
             ]
@@ -7389,7 +7389,7 @@
             "异种",
             "生理"
         ],
-        "name": "Fragile (Combustible)"
+        "name": "脆弱（易燃）"
     },
     "4cb64fe3-4692-41f8-aa63-811ef65143fb": {
         "name": "Vacuum Support",
@@ -7501,11 +7501,11 @@
             },
             "db27da09-5815-4776-9af9-6d9741d8e52a": {
                 "name": "吸收",
-                "notes": "Healing only"
+                "notes": "仅治疗"
             },
             "0e4c391b-1076-40f2-92b6-c5d3c60b78fd": {
                 "name": "吸收",
-                "notes": "Enhances any trait"
+                "notes": "增强任意特质"
             },
             "419ab96d-ea87-4894-b6d8-a6ee32a5d416": {
                 "name": "祸根",
@@ -7538,11 +7538,11 @@
             },
             "34ffce90-cba0-4d1a-a8ce-b3e6b12a51e3": {
                 "name": "限制",
-                "notes": "@Common Attack Form@"
+                "notes": "@常见攻击类型@"
             },
             "10940926-bf24-4984-a984-d974384f0874": {
                 "name": "硬皮",
-                "notes": "Effects that just require skin contact or a scratch ignore this DR"
+                "notes": "任何只需要接触皮肤的影响忽略此 DR"
             },
             "db046fce-bac2-4fae-98d4-ee66925c0e9e": {
                 "name": "限制",
@@ -7569,14 +7569,14 @@
             },
             "0377b71f-5bfe-44a7-b1a0-db38c7952845": {
                 "name": "吸收",
-                "notes": "Enhances @Trait@"
+                "notes": "增强@特质@"
             },
             "a5e89aca-0b61-483e-8ae3-d6086856cf9a": {
                 "name": "硬化"
             },
             "131c5627-2f5a-4f3f-8a52-08417003bc95": {
                 "name": "定向",
-                "notes": "Front"
+                "notes": "前方"
             },
             "8b422514-296a-4b7c-b350-6b7e7d2be0e9": {
                 "name": "反弹"
@@ -7597,7 +7597,7 @@
             "异种",
             "生理"
         ],
-        "name": "Fangs",
+        "name": "剑齿",
         "weapons": {
             "5b7be883-a73f-415d-ba4a-38ca4f67f125": {
                 "defaults": [
@@ -7798,7 +7798,7 @@
         }
     },
     "d661e939-dee0-41ef-95bb-fdc84b5d1ac5": {
-        "name": "Illuminated",
+        "name": "开悟",
         "tags": [
             "优势",
             "心理",
@@ -7806,17 +7806,17 @@
         ]
     },
     "5c829387-ad51-4765-acb3-363526658fd4": {
-        "name": "Extra Attack",
+        "name": "额外攻击",
         "tags": [
             "优势",
             "生理"
         ],
         "modifiers": {
             "93a98a1c-c1a9-4435-91ca-749a69332a0f": {
-                "name": "Multi-Strike"
+                "name": "多重攻击"
             },
             "0a903be4-0089-4554-9aa0-c1992ba1c7db": {
-                "name": "Single Skill",
+                "name": "单一技能",
                 "notes": "@Skill@"
             }
         }
@@ -7833,7 +7833,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "features": [
             {
@@ -7994,16 +7994,16 @@
             "属性",
             "生理"
         ],
-        "name": "Extra Fatigue Points",
+        "name": "额外体力值",
         "modifiers": {
             "45214028-e559-4766-a2e7-144aa0c8e5ce": {
-                "name": "Magic Only",
+                "name": "仅限魔法",
                 "notes": "Subject to involuntary FP drain"
             }
         }
     },
     "67ea46eb-fcd0-4c60-b76a-1be42c38b521": {
-        "name": "Increased Dexterity",
+        "name": "增加敏捷",
         "tags": [
             "优势",
             "属性",
@@ -8011,7 +8011,7 @@
         ],
         "modifiers": {
             "26b39aca-fc45-404a-9dbd-be0e55323b67": {
-                "name": "No Fine Manipulators"
+                "name": "无操作肢"
             }
         }
     },
@@ -8212,7 +8212,7 @@
             "心理",
             "Quirk"
         ],
-        "name": "Imaginative"
+        "name": "想象丰富"
     },
     "5e65e898-aa9a-4311-a3ad-9ef9c6a06bbe": {
         "name": "Speak With Animals",
@@ -8374,20 +8374,20 @@
             "异种",
             "心理"
         ],
-        "name": "Extra Life",
+        "name": "额外生命",
         "modifiers": {
             "a3306518-3b87-4aee-81ae-dc3f22d6e14a": {
-                "name": "Copy"
+                "name": "复制"
             },
             "f039db6b-bd60-4bf0-a322-f0495cb185f8": {
-                "name": "Requires Body"
+                "name": "需要身体"
             },
             "739fb53c-ef1a-4e34-bb37-074b6b66899f": {
-                "name": "Requires Body",
-                "notes": "@Illegal, rare or expensive body@"
+                "name": "需要身体",
+                "notes": "@非法、稀有或者昂贵的身体@"
             },
             "b0d4534a-0b0c-4fda-bf4e-c10b75c4f6e4": {
-                "name": "Brain Pod"
+                "name": "脑舱"
             }
         }
     },
@@ -8422,7 +8422,7 @@
         }
     },
     "8dfb17db-1a7f-49f5-af74-38ced79d3875": {
-        "name": "Gluttony",
+        "name": "暴食",
         "notes": "Make a self-control roll when presented with a tempting morsel or good wine that, for some reason, you should resist. If you fail, you partake – regardless of the consequences.",
         "tags": [
             "劣势",
@@ -8507,7 +8507,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "name": "Talent (Smooth Operator)",
         "modifiers": {
@@ -8610,7 +8610,7 @@
             "异种",
             "生理"
         ],
-        "name": "Increased Life Support (Extreme Heat, above 200)"
+        "name": "额外生命保障需求（高温，高于 200 华氏度）"
     },
     "3c9a0dc8-a613-4393-926d-1a852dca573e": {
         "tags": [
@@ -8630,7 +8630,7 @@
         "tags": [
             "劣势",
             "社会",
-            "Wealth"
+            "财富"
         ],
         "notes": "Starting wealth is ½ normal"
     },
@@ -8658,7 +8658,7 @@
             "Perk",
             "生理"
         ],
-        "name": "Fur"
+        "name": "皮毛"
     },
     "2a5f5d00-4ac0-436b-92aa-ea6cefae704e": {
         "tags": [
@@ -8705,13 +8705,13 @@
             "心理"
         ],
         "name": "恐犬症（狗）",
-        "notes": "This includes all canines: foxes, wolves, coyotes, wild dogs, etc."
+        "notes": "包括所有的犬科动物：狐狸、狼、土狼、野狗等等。"
     },
     "dfe55b8a-751d-4cdb-81a6-d83ce20449e7": {
         "tags": [
             "劣势",
             "社会",
-            "Wealth"
+            "财富"
         ],
         "name": "一贫如洗",
         "notes": "Starting wealth is 0"
@@ -8791,16 +8791,16 @@
             "劣势",
             "生理"
         ],
-        "name": "Fat",
+        "name": "胖",
         "features": [
             {
                 "name": {
-                    "qualifier": "disguise"
+                    "qualifier": "易容"
                 }
             },
             {
                 "name": {
-                    "qualifier": "shadowing"
+                    "qualifier": "尾随"
                 }
             },
             {
@@ -9398,7 +9398,7 @@
             "属性",
             "生理"
         ],
-        "name": "Increased Basic Speed"
+        "name": "增加基本速度"
     },
     "022696ab-7dca-44ed-b10d-14d6a4a8bec1": {
         "name": "不耐加速",
@@ -9409,7 +9409,7 @@
     },
     "528254ea-5457-4090-979b-b06583bb2f76": {
         "notes": "@Description@",
-        "name": "High Status",
+        "name": "高社会地位",
         "tags": [
             "优势",
             "社会"
@@ -9456,7 +9456,7 @@
         "name": "共情（敏感）",
         "modifiers": {
             "8c04f995-be36-4786-9763-d0ce15d1ee75": {
-                "name": "Remote"
+                "name": "远程"
             }
         }
     },
@@ -9745,25 +9745,25 @@
             "优势",
             "心理"
         ],
-        "name": "Extraordinary Luck",
-        "notes": "Usable once per 30 minutes of play",
+        "name": "非凡的幸运",
+        "notes": "每三十分钟游戏可以用一次",
         "modifiers": {
             "ce98072c-602b-43f3-8eee-302019194e73": {
-                "name": "Active"
+                "name": "主动性"
             },
             "92d81ffe-3420-42a5-9d8c-f3d3d124c45c": {
-                "name": "Aspected",
-                "notes": "@Aspect@"
+                "name": "方向性",
+                "notes": "@方向@"
             },
             "f19083da-6b06-4316-9297-66ab804adb4f": {
-                "name": "Defensive"
+                "name": "防御性"
             },
             "7493e850-b3cb-44f7-be30-9aea7a1cff7f": {
-                "name": "Wishing"
+                "name": "祈愿"
             },
             "3423fe9f-36d5-46f3-92ed-38cd3cc927e5": {
-                "name": "Game Time",
-                "notes": "Uses per game day equal to its maximum possible uses per real hour"
+                "name": "游戏时间",
+                "notes": "游戏中一天的使用次数等于现实每小时的最大使用次数"
             }
         }
     },
@@ -9852,10 +9852,10 @@
                 "name": "极度危险"
             },
             "814f2484-cac1-4eca-af21-f9eaca8c0d0a": {
-                "name": "Involuntary"
+                "name": "被强迫的"
             },
             "5d87b90f-fc68-4d78-8547-7c2ef58ae7bd": {
-                "name": "Nonhazardous"
+                "name": "不危险的"
             }
         }
     },
@@ -10056,16 +10056,16 @@
             "劣势",
             "生理"
         ],
-        "name": "Increased Consumption",
+        "name": "增加消耗",
         "modifiers": {
             "7007ee4f-9997-431c-a0df-c1b4247b9156": {
-                "name": "Consumption x2"
+                "name": "消耗 x2"
             },
             "6bee8a11-a82a-4562-8832-9b8b9a053500": {
-                "name": "Consumption x4"
+                "name": "消耗 x4"
             },
             "9b84556f-c65d-4b0f-a9fe-d0a3d8feff8e": {
-                "name": "Consumption x8"
+                "name": "消耗 x8"
             }
         }
     },
@@ -10284,9 +10284,9 @@
         "tags": [
             "优势",
             "社会",
-            "Wealth"
+            "财富"
         ],
-        "name": "Filthy Rich"
+        "name": "异常富有"
     },
     "120798a3-772c-4f9f-b307-f960341e657c": {
         "name": "Very Fat",
@@ -10605,7 +10605,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "name": "Talent (@Medium@)",
         "modifiers": {
@@ -10633,14 +10633,14 @@
             "劣势",
             "心理"
         ],
-        "notes": "An officer should be tough but fair, lead from the front, and look out for his men; an enlisted man should look out for his buddies and take care of his kit. Every soldier should be willing to fight and die for the honor of his unit, service, and country; follow orders; obey the “rules of war”; treat an honorable enemy with respect (a dishonorable enemy deserves a bullet); and wear the uniform with pride."
+        "notes": "军官应当强硬但是公平，带头冲锋陷阵，照顾手下的弟兄；士兵应该照顾好他的战友和装备。每一个军人都应该敢于战斗，敢于为他的所在部队、军队和国家的荣誉而战死；服从命令；遵循“战争规则”，给予有荣誉感的敌人尊敬（没有荣誉感的敌人只配子弹），穿着军装的时候心中充满自豪。"
     },
     "6e4e2676-6071-4cb0-93b6-2ce842e8f40c": {
         "name": "Talent (Business Acumen)",
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "features": [
             {
@@ -10706,7 +10706,7 @@
             "劣势",
             "生理"
         ],
-        "name": "Fewer Hit Points"
+        "name": "减少生命值"
     },
     "6faaf511-d782-4997-a535-b7469dfd35bd": {
         "name": "狂暴",
@@ -10807,7 +10807,7 @@
         "tags": [
             "优势",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "features": [
             {
@@ -10992,7 +10992,7 @@
             "优势",
             "心理"
         ],
-        "name": "Gadgeteer",
+        "name": "发明奇才",
         "modifiers": {
             "b406c46f-502c-47b3-9be8-5bfb710578cf": {
                 "name": "Quick"
@@ -11013,61 +11013,61 @@
             "优势",
             "生理"
         ],
-        "name": "High Manual Dexterity",
+        "name": "巧手",
         "features": [
             {
                 "name": {
-                    "qualifier": "artist"
+                    "qualifier": "艺术家"
                 }
             },
             {
                 "name": {
-                    "qualifier": "jeweler"
+                    "qualifier": "珠宝加工"
                 }
             },
             {
                 "name": {
-                    "qualifier": "knot-tying"
+                    "qualifier": "结绳"
                 }
             },
             {
                 "name": {
-                    "qualifier": "leatherworking"
+                    "qualifier": "皮革加工"
                 }
             },
             {
                 "name": {
-                    "qualifier": "lockpicking"
+                    "qualifier": "开锁"
                 }
             },
             {
                 "name": {
-                    "qualifier": "pickpocket"
+                    "qualifier": "扒窃"
                 }
             },
             {
                 "name": {
-                    "qualifier": "sewing"
+                    "qualifier": "缝纫"
                 }
             },
             {
                 "name": {
-                    "qualifier": "sleight of hand"
+                    "qualifier": "巧手"
                 }
             },
             {
                 "name": {
-                    "qualifier": "surgery"
+                    "qualifier": "手术"
                 }
             },
             {
                 "name": {
-                    "qualifier": "machinist"
+                    "qualifier": "机工"
                 }
             },
             {
                 "name": {
-                    "qualifier": "mechanic"
+                    "qualifier": "机修"
                 }
             }
         ]
@@ -11124,7 +11124,7 @@
             "劣势",
             "心理"
         ],
-        "notes": "Protect any lady, and anyone weaker than yourself. Never break your word. Never ignore an insult to yourself, a lady, your liege-lord, or your faith; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (even in open war if the foe is also noble and chivalrous). Accept any challenge to arms from anyone of greater or equal rank.",
+        "notes": "保护任何女士，以及弱于你的人。永不食言。不容忍对自己、女士、你的君主，你的信仰的侮辱；对方的道歉和双方的决斗（不一定要致死任一方）是唯一解决侮辱的方法。不耍任何小人手段来占对方便宜；即便在公开的战争，如果你的敌人也是可敬且富有骑士精神的双方的武器也应该是平等的。接受任何更高或平等地位人的挑战。",
         "name": "荣誉准则（骑士）"
     },
     "6bd3bf15-6a6e-4764-950a-e717d1540fc2": {
@@ -11146,7 +11146,7 @@
             "生理"
         ],
         "notes": "Recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
-        "name": "Fit",
+        "name": "健康",
         "features": [
             {
                 "situation": "to all HT rolls to stay conscious, avoid death, resist disease, or resist poison"
@@ -11240,7 +11240,7 @@
             "心理",
             "Quirk"
         ],
-        "name": "Habit",
+        "name": "习惯",
         "notes": "@Habit@"
     },
     "56ffc361-b1c5-4442-b17f-b2b5dd7e239d": {
@@ -11400,12 +11400,12 @@
             "劣势",
             "生理"
         ],
-        "name": "Gigantism",
+        "name": "巨人症",
         "features": [
             {},
             {
                 "name": {
-                    "qualifier": "disguise"
+                    "qualifier": "易容"
                 },
                 "specialization": {
                     "qualifier": "animals"
@@ -11413,7 +11413,7 @@
             },
             {
                 "name": {
-                    "qualifier": "shadowing"
+                    "qualifier": "尾随"
                 }
             }
         ]
@@ -11444,7 +11444,7 @@
             "异种",
             "生理"
         ],
-        "name": "Extra Mouth"
+        "name": "额外口部"
     },
     "08b3b862-9899-48f7-b09d-60df5a75016a": {
         "tags": [
@@ -11687,27 +11687,27 @@
                 "name": "最大"
             },
             "3b1fbbca-405f-4592-b831-3ae68f98ee38": {
-                "name": "Foot Manipulators"
+                "name": "以脚为手"
             },
             "82659421-f2c1-4300-9119-c2406b9403fc": {
-                "name": "No Physical Attack"
+                "name": "不能进行物理攻击"
             },
             "c6ffffa4-1d92-4c7d-9aac-2097aa9a944e": {
-                "name": "Short"
+                "name": "短"
             },
             "3d074340-af06-4b70-aa84-22da87bb081d": {
-                "name": "Weak",
+                "name": "弱",
                 "notes": "Half body ST"
             },
             "b2cccad5-b178-43ec-afc4-eae1c478a0cc": {
-                "name": "Weak",
+                "name": "弱",
                 "notes": "Quarter body ST"
             },
             "9c654aa3-228f-4f8b-9f0f-58672c44ea9a": {
-                "name": "Weapon Mount"
+                "name": "武器座"
             },
             "e6cb0172-3f80-40db-a521-1c88f00105f6": {
-                "name": "No Grasping Hand"
+                "name": "无可抓握手部"
             }
         }
     },
@@ -11725,7 +11725,7 @@
         ]
     },
     "3f66d9eb-38a0-4914-a13c-bfcd7de462d9": {
-        "name": "Guilt Complex",
+        "name": "负罪感",
         "tags": [
             "劣势",
             "心理"
@@ -11754,7 +11754,7 @@
             "劣势",
             "生理"
         ],
-        "name": "Fewer Fatigue Points"
+        "name": "减少体力值"
     },
     "c2e4bb63-e140-480f-92fc-37cfd8efa449": {
         "tags": [
@@ -11793,7 +11793,7 @@
         }
     },
     "191c3ab3-b135-499d-bb85-53828206a4b4": {
-        "name": "Extra Hit Points",
+        "name": "额外生命值",
         "tags": [
             "优势",
             "属性",
@@ -11801,7 +11801,7 @@
         ],
         "modifiers": {
             "910bfd80-869d-46d8-aa30-5c7c5bae59a4": {
-                "name": "Size"
+                "name": "体型"
             }
         }
     },
@@ -11811,7 +11811,7 @@
             "属性",
             "心理"
         ],
-        "name": "Increased Intelligence"
+        "name": "增加智力"
     },
     "aa97ce3a-9358-4183-874e-e8ff9f7159f3": {
         "tags": [
@@ -11821,7 +11821,7 @@
         "name": "蛮勇福星",
         "features": [
             {
-                "situation": "to skill rolls any time you take an unnecessary risk (in the GM’s opinion)"
+                "situation": "对于当角色冒无必要的险（在游戏主持看来）时角色所有的技能检定"
             }
         ]
     },
@@ -11856,7 +11856,7 @@
         "tags": [
             "劣势",
             "社会",
-            "Wealth"
+            "财富"
         ],
         "notes": "Starting wealth is 1/5 normal"
     },
@@ -11928,7 +11928,7 @@
             "异种",
             "生理"
         ],
-        "name": "Increased Life Support (Pressurized)"
+        "name": "额外生命保障需求（加压）"
     },
     "f04cfe61-c5c9-49d0-bc56-2e51f46b3d5e": {
         "tags": [
@@ -12030,7 +12030,7 @@
             "异种",
             "心理"
         ],
-        "name": "Higher Purpose"
+        "name": "崇高目标"
     },
     "b2613fac-cb20-4a44-8b17-371503f41a2e": {
         "name": "Weakness",
@@ -12070,7 +12070,7 @@
         }
     },
     "d9f09cca-9509-462c-9c62-cb68952bfd78": {
-        "name": "Increased Perception",
+        "name": "增加感知",
         "tags": [
             "优势",
             "属性",
@@ -12092,7 +12092,7 @@
                         "name": "斗殴"
                     },
                     {
-                        "name": "Karate"
+                        "name": "空手技击"
                     }
                 ],
                 "usage": "Trample"
@@ -12100,7 +12100,7 @@
         }
     },
     "238fdc15-f346-4b8c-9817-34e4caeb82d2": {
-        "name": "Filter Lungs",
+        "name": "过滤性肺部",
         "tags": [
             "优势",
             "异种",
@@ -12112,7 +12112,7 @@
             "劣势",
             "生理"
         ],
-        "name": "Hunchback",
+        "name": "驼背",
         "features": [
             {
                 "name": {
@@ -12140,29 +12140,29 @@
                 },
                 {
                     "name": {
-                        "qualifier": "Appearance (Handsome)"
+                        "qualifier": "外貌（英俊的）"
                     }
                 },
                 {
                     "name": {
-                        "qualifier": "Appearance (Very Beautiful)"
+                        "qualifier": "外貌（非常美丽的）"
                     }
                 },
                 {
                     "name": {
-                        "qualifier": "Appearance (Very Handsome)"
+                        "qualifier": "外貌（非常英俊的）"
                     }
                 },
                 {
                     "name": {
-                        "qualifier": "Appearance (Attractive)"
+                        "qualifier": "外貌（有吸引力的）"
                     }
                 }
             ]
         },
         "modifiers": {
             "d47eeba8-96e5-4fcd-8455-1c125ca554a5": {
-                "name": "DX penalty if not wearing custom-made clothing and armor",
+                "name": "如果未穿着特制的装备和衣服则获得 DX 减值",
                 "notes": "Clothing and armor costs 10% more than usual"
             }
         }
@@ -12192,7 +12192,7 @@
             "优势",
             "生理"
         ],
-        "name": "Improved G-tolerance",
+        "name": "强化重力适性",
         "modifiers": {
             "329f36f7-2f56-4595-a439-d6d7ceb722da": {
                 "name": "0.3G"
@@ -12375,7 +12375,7 @@
             "优势",
             "生理"
         ],
-        "name": "Hard to Subdue",
+        "name": "难以击溃",
         "features": [
             {
                 "situation": "to any HT roll to avoid unconsciousness"
@@ -12531,7 +12531,7 @@
             "优势",
             "心理"
         ],
-        "name": "Gizmo"
+        "name": "信手拈来"
     },
     "b0d9e890-89f9-4b2e-b6a8-9ae7674bb764": {
         "tags": [
@@ -12580,10 +12580,10 @@
             "异种",
             "生理"
         ],
-        "name": "Increased Life Support (Radioactive)"
+        "name": "额外生命保障需求（辐射）"
     },
     "9f74cca6-0d99-4b16-89b1-3ac3122fbf80": {
-        "notes": "Never break your word. Never ignore an insult to yourself, a lady, or your flag; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (except in open war). This only applies between gentlemen.",
+        "notes": "永不食言。不容忍对自己、女士或自己的旗帜的侮辱；对方的道歉和双方的决斗（不一定要致死任一方）是唯一解决侮辱的方法。不耍任何小人手段来占对方便宜;武器和条件应双方相等（除了公开的战争）。该准则仅适用于绅士之间。",
         "name": "荣誉准则（绅士）",
         "tags": [
             "劣势",
@@ -12620,7 +12620,7 @@
             "属性",
             "生理"
         ],
-        "name": "Extra Fatigue Points"
+        "name": "额外体力值"
     },
     "09b0315b-9577-49f2-9ed6-a8e3b7d78f1f": {
         "tags": [
@@ -12718,7 +12718,7 @@
             "优势",
             "生理"
         ],
-        "name": "Hard to Kill",
+        "name": "难以杀死",
         "features": [
             {
                 "situation": "to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death. If this bonus makes the difference between success and failure, you collapse, apparently dead (or disabled), but come to in the usual amount of time. A successful Diagnosis roll reveals the truth."
@@ -12766,7 +12766,7 @@
             "异种",
             "生理"
         ],
-        "name": "Fragile (Brittle)"
+        "name": "脆弱（易碎）"
     },
     "717b2637-c138-4bee-b3ad-e9f21bc1d32a": {
         "tags": [
@@ -12815,7 +12815,7 @@
         }
     },
     "e5ca8d03-48db-441c-90a8-e346e147bb9c": {
-        "name": "Fearfulness",
+        "name": "充满恐惧",
         "tags": [
             "劣势",
             "心理"
@@ -12824,7 +12824,7 @@
             "prereqs": [
                 {
                     "name": {
-                        "qualifier": "fearlessness"
+                        "qualifier": "无所畏惧"
                     }
                 }
             ]
@@ -12887,14 +12887,14 @@
             "优势",
             "心理"
         ],
-        "name": "G-Experience"
+        "name": "重力场适应"
     },
     "d735e560-b267-47c3-85cc-0ce505ff59fe": {
         "tags": [
             "劣势",
             "生理"
         ],
-        "name": "G-Intolerance (0.05G increment)"
+        "name": "重力场适应（增加 0.05G）"
     },
     "2f4d5aa7-c1e7-435d-90e1-774df08eb2ef": {
         "tags": [
@@ -12999,7 +12999,7 @@
             "劣势",
             "生理"
         ],
-        "name": "G-Intolerance (0.1G increment)"
+        "name": "重力场适应（增加 0.1G）"
     },
     "e6f16f65-4eb1-4a4f-b1e2-5321ccab232b": {
         "tags": [
@@ -13033,7 +13033,7 @@
         "name": "敏锐味觉和嗅觉"
     },
     "d642a33f-906b-438d-9836-c104cc77823e": {
-        "name": "Hoplophobia (Weapons)",
+        "name": "武器恐惧症（武器）",
         "tags": [
             "劣势",
             "心理"
@@ -13075,7 +13075,7 @@
             "异种",
             "生理"
         ],
-        "notes": "If you succeed on a grapple against an opponent no larger than your own SM, on your next turn, and each successive turn, roll a Quick Contest of your ST vs. your victim’s ST or HT, whichever is higher. If you win, your victim takes damage equal to your margin of victory; otherwise, no damage is inflicted",
+        "notes": "使用这个能力，你首先得抓擒你的受害者，他的尺寸修正值（SM）不能大于你。在你的下一轮，以及接下来的每个轮，进行快速检定；你的 ST 对抗受害者的 ST 或者 HT，取最高的。如果你赢了，受害者受到你赢得的点数点的损伤，否则没有伤害。",
         "modifiers": {
             "0d75e183-9a6b-4a50-8566-8966d795fcd4": {
                 "name": "难以挣脱"
@@ -13236,7 +13236,7 @@
             "心理",
             "Quirk"
         ],
-        "name": "Humble"
+        "name": "乐于助人"
     },
     "d4540c36-67cc-404c-8c90-21c6c3571e54": {
         "tags": [
@@ -13244,7 +13244,7 @@
             "异种",
             "生理"
         ],
-        "name": "Increased Life Support (Extreme Cold, below 0)"
+        "name": "额外生命保障需求（低温，低于 0 华氏度）"
     },
     "fef0847f-778b-424b-af24-9ac92644d056": {
         "notes": "When determining the length of time you remain unconscious for any reason, divide all times by 60",
@@ -13292,7 +13292,7 @@
             "优势",
             "异种",
             "心理",
-            "Talent"
+            "天赋"
         ],
         "name": "Racial Skill Bonus - @Skill without a specialization@",
         "features": [
@@ -13308,10 +13308,10 @@
             "劣势",
             "心理"
         ],
-        "name": "Fanaticism (@Group or ideal@)",
+        "name": "狂热（@团体或理想@）",
         "modifiers": {
             "478df057-c461-425c-8d04-17a240d0e6e4": {
-                "name": "Extreme"
+                "name": "极度"
             }
         }
     },
@@ -13333,7 +13333,7 @@
             "Perk",
             "生理"
         ],
-        "name": "Honest Face",
+        "name": "貌似忠良",
         "features": [
             {
                 "situation": "to trained Acting skill for the sole purpose of \"acting innocent\""
@@ -13384,7 +13384,7 @@
             "属性",
             "生理"
         ],
-        "name": "Increased Health"
+        "name": "增加体力"
     },
     "575c2259-e845-4c57-b496-72850c68f623": {
         "tags": [
@@ -13415,7 +13415,7 @@
         "name": "Manic-Depressive"
     },
     "5d8c5bdd-b9d4-4162-bfdc-e97b105a3b20": {
-        "name": "Growth",
+        "name": "巨大化",
         "tags": [
             "优势",
             "异种",
@@ -13423,7 +13423,7 @@
         ],
         "modifiers": {
             "64550492-083e-4c4a-a86b-2b212e7d3ead": {
-                "name": "Maximum Size Only"
+                "name": "仅限最大尺寸"
             }
         }
     },
@@ -13546,7 +13546,7 @@
             "心理"
         ],
         "name": "好奇",
-        "notes": "Make a self-control roll when presented with an interesting item or situation"
+        "notes": "在遇到有趣的物品或情况时进行一个自控检定"
     },
     "3ffb9cc5-3a0c-4eb5-a906-938ef1cb8ccc": {
         "tags": [
@@ -13621,7 +13621,7 @@
             "优势",
             "心理"
         ],
-        "name": "High TL"
+        "name": "高技术等级"
     },
     "e581e220-11ad-4b13-a923-5a5eee933c76": {
         "tags": [
@@ -13663,7 +13663,7 @@
             "劣势",
             "心理"
         ],
-        "name": "Impulsiveness",
+        "name": "冲动",
         "notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act"
     },
     "7be117c6-c65e-4ed0-a1b4-37007326708a": {
@@ -13748,7 +13748,7 @@
             "劣势",
             "生理"
         ],
-        "name": "Hemophilia",
+        "name": "血友病",
         "notes": "Any untreated wound bleeds at a rate equal to its original damage every minute",
         "prereqs": {
             "prereqs": [
@@ -13845,7 +13845,7 @@
             "劣势",
             "生理"
         ],
-        "name": "Hard of Hearing",
+        "name": "听力障碍",
         "features": [
             {},
             {
@@ -14015,14 +14015,14 @@
         }
     },
     "1961983f-bc1a-4120-8fd3-13894e334995": {
-        "name": "Extra Head",
+        "name": "额外头部",
         "tags": [
             "优势",
             "生理"
         ],
         "modifiers": {
             "7f302706-640a-4325-a824-9c45b26aefb8": {
-                "name": "Extraneous"
+                "name": "次要头部"
             }
         }
     },
@@ -14043,7 +14043,7 @@
             "劣势",
             "心理"
         ],
-        "name": "Heliophobia (Sun)"
+        "name": "太阳恐惧症（太阳）"
     },
     "94652862-d400-4cb5-a2aa-cb49c68ce668": {
         "tags": [
@@ -14051,7 +14051,7 @@
             "属性",
             "生理"
         ],
-        "name": "Increased Basic Move"
+        "name": "增加基本移动力"
     },
     "bc9fe5de-5ea0-4b35-85b1-30fe4c51e3ed": {
         "name": "嗜血",
@@ -14102,7 +14102,7 @@
             "劣势",
             "心理"
         ],
-        "name": "Herpetophobia (Reptiles)"
+        "name": "爬虫恐惧症（爬行动物）"
     },
     "9457a14e-e870-4d0f-a2c6-73fa6d862d31": {
         "tags": [
@@ -14142,7 +14142,7 @@
         ]
     },
     "e9b12a42-c2b7-436e-9752-75438eebbb44": {
-        "name": "Honesty",
+        "name": "遵纪守法",
         "notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
         "tags": [
             "劣势",
@@ -14231,7 +14231,7 @@
                 "situation": "来自“同类”"
             },
             {
-                "situation": "or worse from sober-minded citizens (GM discretion)"
+                "situation": "或者更糟，来自自重的好市民（GM 自行斟酌）"
             }
         ]
     },
@@ -14240,7 +14240,7 @@
             "劣势",
             "心理"
         ],
-        "name": "Hidebound",
+        "name": "思想僵化",
         "features": [
             {
                 "situation": "on any task that requires creativity or invention, including most rolls against Artist skill, all Engineer rolls for new inventions, and all skill rolls made to use the Gadgeteer advantage"
@@ -14344,7 +14344,7 @@
             "异种",
             "生理"
         ],
-        "name": "Piercing Striker (@Body Part@)",
+        "name": "贯通近战部位（@身体部分@）",
         "modifiers": {
             "ddf19a6c-311a-4bd5-97bb-28dd648efab8": {
                 "name": "Clumsy"
@@ -14404,7 +14404,7 @@
             "劣势",
             "心理"
         ],
-        "name": "Gregarious",
+        "name": "群居动物",
         "features": [
             {
                 "situation": "to others"
@@ -14433,7 +14433,7 @@
             "优势",
             "心理"
         ],
-        "name": "Fashion Sense",
+        "name": "时尚感",
         "features": [
             {
                 "situation": "from others in social situations when you have a chance to plan your attire in advance"
@@ -14504,7 +14504,7 @@
         "name": "Tenure"
     },
     "4334f76e-8ed1-4f1a-b9bb-0a626acb5b7a": {
-        "notes": "Always avenge an insult, regardless of the danger; your buddy’s foe is your own; never attack a fellow crewman or buddy except in a fair, open duel.",
+        "notes": "不论危险与否，受到羞辱必定报仇；兄弟的仇家就是自己的仇家;除非是公平、公开的单挑，绝不对自己手下的船员或是兄弟下手。",
         "name": "荣誉准则（海盗）",
         "tags": [
             "劣势",
