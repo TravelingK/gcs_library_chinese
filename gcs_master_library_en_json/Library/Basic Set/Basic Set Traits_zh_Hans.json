@@ -36,7 +36,7 @@
             "心理",
             "Quirk"
         ],
-        "notes": "May only know @Skill@ at default (i.e. no points spent)",
+        "notes": "你的@技能@等级只有缺省值（亦即未花费点数）",
         "name": "技能缺陷（@技能@）",
         "features": [
             {
@@ -68,28 +68,28 @@
         "name": "穿越者（@世界/时间/精神体@）",
         "modifiers": {
             "615e82a3-43f2-47b8-a8f1-cdce921bb051": {
-                "name": "Limited Access",
-                "notes": "@Worlds@"
+                "name": "有限通路",
+                "notes": "@世界@"
             },
             "2139aa6d-14d2-4d33-8698-acd1cc460705": {
-                "name": "Projection",
-                "notes": "Can't Affect"
+                "name": "投射",
+                "notes": "不可影响"
             },
             "4c92ba61-e4c6-4e6b-888b-60f40293f61e": {
                 "name": "额外载荷",
-                "notes": "Up to Light Encumbrance"
+                "notes": "最多轻载"
             },
             "427f7414-654f-40eb-a7ef-9b26718d5522": {
                 "name": "额外载荷",
-                "notes": "Up to Medium Encumbrance"
+                "notes": "最多中载"
             },
             "9994f704-7401-401a-b65f-d8febd653aa0": {
                 "name": "额外载荷",
-                "notes": "Up to Heavy Encumbrance"
+                "notes": "最多重载"
             },
             "194b3e79-c636-43d1-a121-c7dedbde00c7": {
                 "name": "额外载荷",
-                "notes": "Up to Extra-Heavy Encumbrance"
+                "notes": "最多超重载"
             },
             "765d861b-7fe6-4045-bb0b-8a9df7a7ddac": {
                 "name": "新世界"
@@ -104,59 +104,59 @@
                 "name": "隧道"
             },
             "8625fd7a-88a0-4679-8a56-f9dbdea730e1": {
-                "name": "Warp Jump"
+                "name": "连穿带瞬"
             },
             "55703a5e-ad25-4343-a93f-3020886e88f0": {
-                "name": "Cannot Escort"
+                "name": "无法搭人"
             },
             "93dc5fb2-a8eb-4259-8c63-0706896ceff3": {
-                "name": "Cannot Follow"
+                "name": "无法被搭"
             },
             "02854737-c130-4235-8dbb-a86588af5ec3": {
-                "name": "Drift"
+                "name": "漂移"
             },
             "62a63074-99bd-47cc-91f1-f2cd1782347f": {
-                "name": "Limited Jump"
+                "name": "受限穿越"
             },
             "dc028e85-9126-4974-a767-05e344ed2b7d": {
-                "name": "Maximum Range"
+                "name": "最大范围"
             },
             "dc435fc9-425a-4730-a07b-43e288e5bd13": {
-                "name": "Naked"
+                "name": "裸奔"
             },
             "ffad9f80-d18a-402a-b635-7ce119225fe7": {
                 "name": "震慑"
             },
             "af77fd8f-74d4-429f-a9d3-a915a6652e44": {
-                "name": "Interplanar"
+                "name": "跨位面"
             },
             "2254b318-d27e-425e-aef4-10ca824f1c33": {
-                "name": "Interplanar Only"
+                "name": "仅限跨位面"
             },
             "5632d333-bc5c-46a1-a1e1-0635b7f5a1c2": {
-                "name": "Reliable"
+                "name": "可靠"
             },
             "22a4df9e-4ab7-444f-ab69-bdfb9f1d05e0": {
-                "name": "Projection",
-                "notes": "Can Affect"
+                "name": "投影",
+                "notes": "可影响"
             },
             "55d50f68-8d5c-4f59-99d0-4b5bdf253e9a": {
-                "name": "Projection",
+                "name": "投影",
                 "notes": "生理"
             },
             "fcaa92c7-91d1-42e2-a269-cf1ad0451d01": {
                 "name": "特殊移动",
-                "notes": "@Movement@"
+                "notes": "@移动@"
             },
             "aa67d630-2604-4b56-bdb6-750863bb7e0c": {
-                "name": "Special Portal",
-                "notes": "@Portal@"
+                "name": "特殊入口",
+                "notes": "@入口@"
             },
             "bd19252b-0597-46c9-bc3c-96e7d8f6d438": {
-                "name": "Faster Concentration"
+                "name": "快速专注"
             },
             "257b2814-d81f-4934-bba3-d68afc88ee8c": {
-                "name": "Improved"
+                "name": "改进"
             }
         }
     },
@@ -293,7 +293,7 @@
         },
         "weapons": {
             "dbf194fc-0933-473c-8708-1704bb1dbb50": {
-                "usage": "啃咬 Bite",
+                "usage": "啃咬",
                 "defaults": [
                     {
                         "name": "斗殴"
@@ -1059,10 +1059,10 @@
                 "name": "无操作肢"
             },
             "89e24b12-233b-4ad9-a77a-934e7bc640f7": {
-                "name": "Size"
+                "name": "体型"
             },
             "4f3a7bdb-ed81-4735-87e8-d9eaeb4856c7": {
-                "name": "Super-Effort"
+                "name": "超级出力"
             }
         }
     },
@@ -1208,12 +1208,12 @@
         }
     },
     "81d4e9b6-70b3-4df3-87ed-5b3ccd04b32e": {
-        "notes": "Make a self-control roll whenever you are presented with a chance to steal, at up to -3 if the item is especially interesting to you (not necessarily valuable, unless you are poor or have Greed). If you fail, you must try to steal it. You may keep or sell stolen items, but you may not return or discard them.",
+        "notes": "当偷窃的机会出现在你面前的时候，你必须做一次自控检定，对你来说特别有趣的东西有至多 -3 减值（未必是值钱的东西，除非你很穷或是具有贪婪）。如果失败，你必须偷窃它。你可以保留或变卖偷来保留或变卖偷来的赃物，但是不能归还或丢弃。",
         "tags": [
             "劣势",
             "心理"
         ],
-        "name": "Kleptomania"
+        "name": "偷窃癖"
     },
     "ad93731b-6ab5-4a41-ae0b-168cdf6e5ed5": {
         "name": "人群恐惧症（人群）",
@@ -1382,19 +1382,19 @@
             "优势",
             "社会"
         ],
-        "name": "Legal Immunity",
+        "name": "法律豁免权",
         "modifiers": {
             "ad77339d-edfa-48d0-b3f2-7c22ea8e8469": {
-                "name": "UN Observer"
+                "name": "联合国观察员"
             },
             "4b4d2cb4-eb5a-4d00-8951-08f34203c6ac": {
-                "name": "Petty Diplomat"
+                "name": "小外交官"
             },
             "df9f3531-9442-440a-a185-ca308d1e67c9": {
-                "name": "Diplomatic Immunity"
+                "name": "外交豁免权"
             },
             "4c33aae9-c577-4718-a4dd-b5d2cd18d761": {
-                "name": "Bard"
+                "name": "吟游诗人"
             }
         }
     },
@@ -1431,47 +1431,47 @@
             },
             "9e24d3f1-0f0a-456d-9ecb-5a5b86a8be2c": {
                 "name": "部分实体化",
-                "notes": "Can turn an item you are carrying substantial without dropping it"
+                "notes": "在物品不离开你身体的情况下将其实体化"
             },
             "a030dea2-6ace-439d-a795-552b09161162": {
                 "name": "总是开启"
             },
             "a12dd6b5-6bb0-4472-829f-e87adb9f370a": {
-                "name": "Usually On",
-                "notes": "Materialization costs 1 FP per second"
+                "name": "通常开启",
+                "notes": "每实体化 1 秒花费 1 FP"
             },
             "b4e2c8b3-7cd3-46a0-9c71-140d8cb7a8b5": {
-                "name": "No Vertical Move"
+                "name": "不能纵向移动"
             },
             "bf4438fc-c350-437f-b39f-b4bfab602bcb": {
-                "name": "Noisy"
+                "name": "吵闹"
             },
             "c6e94b71-4fa4-476c-b672-031da159c414": {
-                "name": "Projection"
+                "name": "投影"
             },
             "77fec951-69aa-44b0-a0cb-a110183fdd95": {
-                "name": "Reversion"
+                "name": "复归"
             },
             "3e818cad-5823-4984-bb58-8e5be1228c42": {
-                "name": "触觉",
+                "name": "触摸",
                 "notes": "总是开启"
             },
             "c130be05-af3b-4e91-896e-2e1f90e27289": {
-                "name": "触觉",
-                "notes": "Switchable"
+                "name": "触摸",
+                "notes": "可开关"
             },
             "5ef976cc-1ed0-448c-a7ca-1bd58a7001aa": {
-                "name": "Difficult Materialization",
-                "notes": "Mutually exclusive with Usually On."
+                "name": "难以物质化",
+                "notes": "与“总是开启”互斥。"
             },
             "b365f8c9-e836-4ab0-b6c7-adf848dcf04c": {
-                "name": "Ectoplasmic Materialization"
+                "name": "外质化"
             },
             "25d50ad0-0f0f-4d32-b70a-f5533ac102ea": {
-                "name": "Ghost Air"
+                "name": "幽灵空气"
             },
             "c926816f-6a45-4305-b895-a8b57b203481": {
-                "name": "Substantial Communication"
+                "name": "实体交流"
             }
         }
     },
@@ -1653,21 +1653,21 @@
         "modifiers": {
             "ad6b1bbd-4509-4607-bb31-4716db09ef1d": {
                 "name": "轻微",
-                "notes": "@Curse@"
+                "notes": "@诅咒@"
             },
             "766b3697-51ee-4c4a-ba2a-8b645f8235ce": {
                 "name": "较大",
-                "notes": "@Curse@"
+                "notes": "@诅咒@"
             },
             "88fd98f0-b110-4dac-8444-fcaba43512bd": {
                 "name": "重度",
-                "notes": "@Curse@"
+                "notes": "@诅咒@"
             }
         }
     },
     "ec9ed4f8-e647-451c-8300-a36ac0c71f86": {
-        "notes": "Your chances of getting a raise or promotion in any job are halved. If you are self-employed, halve your monthly pay.",
-        "name": "Laziness",
+        "notes": "你在任何工作中获得升职或加薪的概率减半。如果你是个体户，则你的月收入减半。",
+        "name": "懒惰",
         "tags": [
             "劣势",
             "心理"
@@ -1926,7 +1926,7 @@
         }
     },
     "e12493bf-51f3-4f78-baad-714d3d34b535": {
-        "notes": "Air Move is Basic Speed x 2 (drop all fractions)",
+        "notes": "飞行基本速度是 BS×2（舍去所有小数）",
         "tags": [
             "优势",
             "异种",
@@ -1954,15 +1954,15 @@
             },
             "b924f3a8-46a9-41ca-93ee-8c6980e1624f": {
                 "name": "低上限",
-                "notes": "30'"
+                "notes": "30 英尺"
             },
             "3fdb4313-9cea-4ecd-915e-82a3d9208033": {
                 "name": "低上限",
-                "notes": "10'"
+                "notes": "10 英尺"
             },
             "033099c0-2248-40a9-bc8a-d505297693e8": {
                 "name": "低上限",
-                "notes": "5'"
+                "notes": "5 英尺"
             },
             "eedf31a5-c7ad-4967-9c43-ec1cc31f3680": {
                 "name": "小翅膀"
@@ -1988,15 +1988,15 @@
             },
             "b53ded9b-d24e-4a5a-ab39-6cdaa574ae3f": {
                 "name": "负重限制（空载）",
-                "notes": "Can only glide at best when overburdened"
+                "notes": "当超重时最多只能滑翔"
             },
             "d0a74eb5-64d3-4650-978d-6bd539d38d82": {
                 "name": "负重限制（轻载）",
-                "notes": "Can only glide at best when overburdened"
+                "notes": "当超重时最多只能滑翔"
             },
             "c1f771ed-e5bd-46a6-b67c-e88578c364c6": {
                 "name": "负重限制（中载）",
-                "notes": "Can only glide at best when overburdened"
+                "notes": "当超重时最多只能滑翔"
             }
         }
     },
@@ -2008,10 +2008,10 @@
         ],
         "features": [
             {
-                "situation": "to others on all Empathy, Body Language, and Psychology rolls to discern your intentions or the truth of your words"
+                "situation": "对于其他人在推测你的意图或是你的话语的真实含义的时候的优势、肢体语言技能和心理学技能"
             },
             {
-                "situation": "to others on IQ, Detect Lies, and Gambling rolls in any Quick Contest with your Acting, Fast-Talk, or Gambling skill when you try to lie or bluff"
+                "situation": "对于当你试图撒谎或是欺瞒的时候或在别人对抗你的做戏、唬骗或是赌博技能的时候，别人的 IQ、侦测谎言、赌博技能"
             }
         ]
     },
@@ -2242,7 +2242,7 @@
         "name": "Weak Bite",
         "weapons": {
             "c4fba6f2-aa6c-4ba1-9d92-7b119aa27251": {
-                "usage": "啃咬 Bite",
+                "usage": "啃咬",
                 "defaults": [
                     {},
                     {
@@ -2253,7 +2253,7 @@
         }
     },
     "5ad9c2bd-fe8e-4c7a-9fba-96b8c0837b60": {
-        "notes": "Require 1 hour/level more sleep for a full night's rest (max 4)",
+        "notes": "每一级别（最高 4 级）代表着你需要额外睡眠 1 小时",
         "tags": [
             "劣势",
             "生理"
@@ -2357,10 +2357,10 @@
             "异种",
             "生理"
         ],
-        "name": "Long Spines",
+        "name": "长刺",
         "weapons": {
             "de92f282-f6f9-4bdf-9561-eddab8c33a84": {
-                "usage": "Stab"
+                "usage": "穿刺"
             }
         }
     },
@@ -2384,16 +2384,16 @@
             "劣势",
             "生理"
         ],
-        "notes": "You must reduce your Basic Move to half your Basic Speed (round down)",
-        "name": "Lame (Crippled Legs)",
+        "notes": "你的移动力必须降低到基本速度的一半（向下取整）",
+        "name": "跛足（部分腿不便）",
         "features": [
             {
-                "situation": "to use any skill that requires the use of your legs, including all Melee Weapon and unarmed combat skills (but not ranged combat skills)"
+                "situation": "对于任何需要用到腿的技能，包括所有近战武器技能和徒手战斗技能（远程战斗不受影响！）"
             }
         ],
         "modifiers": {
             "2090b232-beec-4250-b58a-373f0021b0ff": {
-                "name": "Mitigator: Flight"
+                "name": "缓解：飞行"
             }
         }
     },
@@ -2791,8 +2791,8 @@
             "劣势",
             "生理"
         ],
-        "name": "Light Sleeper",
-        "notes": "Whenever you must sleep in an uncomfortable place, or whenever there is more than the slightest noise, you must make a HT roll in order to fall asleep. On a failure, you can try again after one hour, but you will suffer all the usual effects of one hour of missed sleep."
+        "name": "睡眠不安",
+        "notes": "每当你必须在不舒服的地方睡觉，或是有稍微一点噪音，你必须进行 HT 检定才能入睡。如果失败，你可以在一小时以后重试，但是承受缺乏睡眠的通常效果。"
     },
     "300f1f8c-dec7-48d6-affb-01f0a2da82cb": {
         "name": "优柔寡断",
@@ -2800,7 +2800,7 @@
             "劣势",
             "心理"
         ],
-        "notes": "Make a self-control roll whenever a choice confronts you, modified downward by 1 for each alternative you can see. If you fail, you do nothing."
+        "notes": "每当你必须做出选择的时候，进行一次自控检定。该检定有等于你认识到的选项数量的减值。如果检定失败，你什么都不做。"
     },
     "e64aa62e-ba67-4c8c-9bff-6ecb805941b0": {
         "name": "辐射耐受力",
@@ -2873,7 +2873,7 @@
             },
             "dd67917c-d2df-43bb-9f51-7fc564a47a03": {
                 "name": "拓展效果",
-                "notes": "@Special@"
+                "notes": "@特种@"
             }
         }
     },
@@ -2972,25 +2972,25 @@
             "异种",
             "生理"
         ],
-        "name": "Lifting ST",
+        "name": "额外举力",
         "modifiers": {
             "cdcc6dd9-be46-44b2-9b2d-9258972a9abb": {
-                "name": "No Fine Manipulators"
+                "name": "无操作肢"
             },
             "3a979126-6b53-4293-825a-fd4679b99bdf": {
-                "name": "Size"
+                "name": "体型"
             },
             "4dee3f9c-cdb5-41b9-9bd9-417234971df0": {
-                "name": "Super-Effort"
+                "name": "超级出力"
             },
             "5beca2a9-73aa-4acc-a809-a69d38a0c31c": {
-                "name": "Know Your Own Strength Variant Price"
+                "name": "《了解你自己的力量》变体价格"
             },
             "e2c9f797-e7e2-4d31-a059-9af1330cfb7c": {
-                "name": "@Limb@ Grip ST"
+                "name": "@肢体@握力 ST"
             },
             "4a7c2b00-d7ab-4ea6-84a8-1d223584ade1": {
-                "name": "Bite ST"
+                "name": "啃咬 ST"
             }
         }
     },
@@ -3179,7 +3179,7 @@
             "心理"
         ],
         "name": "贪婪",
-        "notes": "Make a self-control roll any time riches are offered – as payment for fair work, gains from adventure, spoils of crime, or just bait. If you fail, you do whatever it takes to get the payoff."
+        "notes": "面对任何时候提供的财富——如，工作后的报酬、冒险所得、犯罪的脏物或者作为诱饵的金钱，你需要进行自控检定。如果检定失败，你将尽一切手段得到那笔财富。"
     },
     "cf875dd7-1d65-4c22-9b9c-30848c1d3d5d": {
         "tags": [
@@ -3272,7 +3272,7 @@
                 "name": "Unstable on solid ground"
             },
             "2d052e7c-7d82-40f6-ae57-c81ea78e09ab": {
-                "name": "Active"
+                "name": "主动性"
             }
         }
     },
@@ -3507,19 +3507,19 @@
             "劣势",
             "生理"
         ],
-        "notes": "In any situation that the GM feels is stressful, he will roll 3d. On a 6 or less, you have a flashback. The GM will roll whenever you miss a Fright Check or make the roll exactly, and whenever you fail a self-control roll for another stress-related disadvantage.",
+        "notes": "如果 GM 认为当前场景中你承受了压力，他会投 3d。投出 6 或更低的数值时，你会开始“闪回”。当你恐惧检定失败或是勉强成功（成功度为 0），当 你的另一个与压力相关的劣势自控检定失败时，GM 都可以投骰。",
         "modifiers": {
             "dea65bf7-f5a5-408b-be53-69896a7394b9": {
                 "name": "重度",
-                "notes": "Duration: 1d minutes; -5 on all skill rolls"
+                "notes": "持续 1d 分钟；所有技能检定 -5"
             },
             "e66d07e9-3a32-4993-9ec4-ab99f97d440e": {
                 "name": "轻度",
-                "notes": "Duration: 2d seconds; -2 on all skill rolls"
+                "notes": "持续 2d 秒；所有技能检定 -2"
             },
             "9529ef70-5491-4e2e-b152-9c00304b6972": {
                 "name": "残疾",
-                "notes": "Duration: 3d minutes; Precludes all skill use"
+                "notes": "持续 3d 分钟；阻止所有技能使用"
             }
         }
     },
@@ -3540,20 +3540,20 @@
         ]
     },
     "7e593de2-7e62-4a95-bc01-ba98f97a502b": {
-        "notes": "You cannot stand, kick, or walk at all and must reduce Basic Move to 0.",
+        "notes": "你不能站立、走动和踢击。你的移动力必须降低到 0。",
         "tags": [
             "劣势",
             "生理"
         ],
-        "name": "Lame (Legless)",
+        "name": "跛足（缺失全部腿）",
         "modifiers": {
             "9702217e-975e-472a-a03e-62d8220b9a11": {
-                "name": "Mitigator: Flight"
+                "name": "缓解：飞行"
             }
         },
         "features": [
             {
-                "situation": "to use any skill that requires the use of your legs, including all Melee Weapon and unarmed combat skills (but not ranged combat skills)"
+                "situation": "对于任何需要用到腿的技能，包括所有近战武器技能和徒手战斗技能（远程战斗不受影响！）"
             }
         ]
     },
@@ -3786,7 +3786,7 @@
             "异种",
             "生理"
         ],
-        "notes": "Automatically fail HT roll to stay alive if reduced to -HP or below",
+        "notes": "在下降到 -1×HP 或更低后为了存活而进行 HT 检定中自动失败",
         "name": "脆弱（非自然）"
     },
     "0012574a-f325-460d-a88f-7dc2d476673e": {
@@ -3842,21 +3842,21 @@
             "劣势",
             "心理"
         ],
-        "name": "Low Empathy",
+        "name": "低共情",
         "features": [
             {
                 "name": {
-                    "qualifier": "acting"
+                    "qualifier": "做戏"
                 }
             },
             {
                 "name": {
-                    "qualifier": "carousing"
+                    "qualifier": "宴饮"
                 }
             },
             {
                 "name": {
-                    "qualifier": "criminology"
+                    "qualifier": "犯罪学"
                 }
             },
             {
@@ -3871,17 +3871,17 @@
             },
             {
                 "name": {
-                    "qualifier": "enthrallment"
+                    "qualifier": "惑控"
                 }
             },
             {
                 "name": {
-                    "qualifier": "fast-talk"
+                    "qualifier": "唬骗"
                 }
             },
             {
                 "name": {
-                    "qualifier": "interrogation"
+                    "qualifier": "审讯"
                 }
             },
             {
@@ -3891,12 +3891,12 @@
             },
             {
                 "name": {
-                    "qualifier": "merchant"
+                    "qualifier": "商人"
                 }
             },
             {
                 "name": {
-                    "qualifier": "politics"
+                    "qualifier": "政治"
                 }
             },
             {
@@ -3906,22 +3906,22 @@
             },
             {
                 "name": {
-                    "qualifier": "savoir-faire"
+                    "qualifier": "礼仪"
                 }
             },
             {
                 "name": {
-                    "qualifier": "sex appeal"
+                    "qualifier": "性感"
                 }
             },
             {
                 "name": {
-                    "qualifier": "sociology"
+                    "qualifier": "社会学"
                 }
             },
             {
                 "name": {
-                    "qualifier": "streetwise"
+                    "qualifier": "黑街"
                 }
             }
         ],
@@ -3929,17 +3929,17 @@
             "prereqs": [
                 {
                     "name": {
-                        "qualifier": "oblivious"
+                        "qualifier": "不谙世事"
                     }
                 },
                 {
                     "name": {
-                        "qualifier": "callous"
+                        "qualifier": "冷酷无情"
                     }
                 },
                 {
                     "name": {
-                        "qualifier": "empathy"
+                        "qualifier": "共情"
                     }
                 }
             ]
@@ -4314,25 +4314,25 @@
             "优势",
             "心理"
         ],
-        "name": "Luck",
-        "notes": "Usable once per hour of play",
+        "name": "幸运",
+        "notes": "游戏的每个小时可用一次",
         "modifiers": {
             "b5f2c667-bec1-442e-9ef9-f051a6c31510": {
-                "name": "Active"
+                "name": "主动性"
             },
             "d9965ee9-527e-4933-95ef-ef8a02ed7683": {
-                "name": "Aspected",
-                "notes": "@Aspect@"
+                "name": "方向性",
+                "notes": "@方向@"
             },
             "67318c7d-d090-4012-a955-0d1a36052c27": {
-                "name": "Defensive"
+                "name": "防御性"
             },
             "4f41a545-c80c-4754-bf3c-93b9662beef2": {
-                "name": "Wishing"
+                "name": "祈愿"
             },
             "bd444173-1094-4eb2-9728-c01d338dd4d6": {
-                "name": "Game Time",
-                "notes": "Uses per game day equal to its maximum possible uses per real hour"
+                "name": "游戏时间",
+                "notes": "游戏中一天的使用次数等于现实每小时的最大使用次数"
             }
         }
     },
@@ -4429,7 +4429,7 @@
         "name": "受伤"
     },
     "317da0b6-4914-4d51-9a00-2a54d43782d0": {
-        "notes": "You are afraid of all “bugs.” Large or poisonous ones give -3 to self-control rolls. Very large ones, or large numbers, give -6. Avoid hills of giant ants.",
+        "notes": "你害怕各种“虫子”。大型的或是有毒虫子使得自控检定有 -3 减值。非常巨大的虫子或是非常多的虫子，减值为 -6。建议避开巨蚁的蚁穴。",
         "tags": [
             "劣势",
             "心理"
@@ -5006,7 +5006,7 @@
             "异种",
             "心理"
         ],
-        "name": "附身Possession",
+        "name": "占据",
         "modifiers": {
             "21df3e01-0fd6-4f59-b5fe-6e69feb77d9f": {
                 "name": "Assimilation"
@@ -5400,7 +5400,7 @@
         ]
     },
     "ac22577e-4f37-48ca-8304-1c3d27211231": {
-        "notes": "Impossible to influence through ordinary words or actions",
+        "notes": "一般的言语与行为不可能对你有影响",
         "name": "不可动摇",
         "tags": [
             "优势",
@@ -5496,51 +5496,51 @@
             "语言",
             "心理"
         ],
-        "name": "Language: @Language@",
+        "name": "语言：@语言@",
         "prereqs": {
             "prereqs": [
                 {
                     "name": {
-                        "qualifier": "Language Talent"
+                        "qualifier": "语言天赋"
                     }
                 }
             ]
         },
         "modifiers": {
             "ff972d9a-b925-4895-a489-f3d14999074d": {
-                "name": "Native"
+                "name": "纯正的"
             },
             "e9f38c71-c4bd-45ee-a5e2-b47a33029f96": {
-                "name": "Spoken",
-                "notes": "None"
+                "name": "口语",
+                "notes": "一无所知"
             },
             "6cd10ab4-c4f9-4764-a47d-0e77d105d862": {
-                "name": "Spoken",
-                "notes": "Broken"
+                "name": "口语",
+                "notes": "结巴的"
             },
             "3c7caa3c-055e-4422-ac8e-6a2d632b391c": {
-                "name": "Spoken",
-                "notes": "Accented"
+                "name": "口语",
+                "notes": "有口音的"
             },
             "231ba28d-11ce-44e1-8d23-074d40ca57c6": {
-                "name": "Spoken",
-                "notes": "Native"
+                "name": "口语",
+                "notes": "纯正的"
             },
             "152ad20b-dc58-4abb-b256-71da14dbb89c": {
-                "name": "Written",
-                "notes": "None"
+                "name": "书写",
+                "notes": "一无所知"
             },
             "6304a0d6-80f3-4a5f-b3cc-3ba2ae0c8063": {
-                "name": "Written",
-                "notes": "Broken"
+                "name": "书写",
+                "notes": "结巴的"
             },
             "5818ab4a-2c4b-4c3e-a711-c4b6332daaca": {
-                "name": "Written",
-                "notes": "Accented"
+                "name": "书写",
+                "notes": "有口音的"
             },
             "1b77515e-5789-49a0-8238-7242900c8c2c": {
-                "name": "Written",
-                "notes": "Native"
+                "name": "书写",
+                "notes": "纯正的"
             }
         }
     },
@@ -5680,15 +5680,15 @@
         "modifiers": {
             "0b3cd004-28b0-4c0f-97ad-749d0aae1b10": {
                 "name": "常见",
-                "notes": "@Substance@"
+                "notes": "@物质@"
             },
             "3c8a963e-83aa-4147-abbc-8a749c522ed4": {
                 "name": "不常见",
-                "notes": "@Substance@"
+                "notes": "@物质@"
             },
             "86c1bb1d-7504-48d7-b9e1-72aaf533570b": {
                 "name": "稀有",
-                "notes": "@Substance@"
+                "notes": "@物质@"
             },
             "e47610c1-d110-4443-a360-ae490fbaf687": {
                 "name": "非法"
@@ -5704,16 +5704,16 @@
         "name": "大型贯通近战部位（@身体部分@）",
         "modifiers": {
             "317891e7-2945-4d04-8cec-798af295fb73": {
-                "name": "Cannot Parry"
+                "name": "无法招架"
             },
             "f00e42ef-a525-478b-b96a-8d63b3d11457": {
-                "name": "Clumsy"
+                "name": "笨拙"
             },
             "66a2939c-99b1-4dfb-87fd-526345fff3cb": {
-                "name": "Limited Arc (@Direction@)"
+                "name": "弧度限制（@方向@）"
             },
             "5c8ca7e2-bd02-4c18-90a4-d899d387c3f6": {
-                "name": "Weak"
+                "name": "弱"
             }
         },
         "weapons": {
@@ -6615,11 +6615,11 @@
             "劣势",
             "生理"
         ],
-        "notes": "Make a HT roll whenever you are in a stressful situation (especially if your life or the life of a friend is threatened). If you have any sort of Phobia, exposure to the object of your fear counts as a stressful situation; roll vs. HT once every 10 minutes. On a failure, you suffer a seizure that lasts 1d minutes and costs you 1d FP. You can do nothing during that time."
+        "notes": "在充满压力的情况下你需要做一次 HT 检定（特别是你和你同伴的生命受到威胁的情况下）。如果你有任何种类的恐惧症，暴露于你恐惧的对象被作为一个充满压力的情况；每隔十分钟检定一次 HT。如果失败，你持续发作 1d 分钟并损失 1d FP。你在那段时间里什么都不能做。"
     },
     "2d8df8e4-960b-4884-98ed-4cbaee294e68": {
-        "name": "Lecherousness",
-        "notes": "Make a self-control roll whenever you have more than the briefest contact with an appealing member of the sex you find attractive, at -5 if this person is Handsome/Beautiful, or at -10 if Very Handsome/Very Beautiful. If you fail, you must make a “pass” using whatever wiles and skills you can bring to bear.",
+        "name": "风流好色",
+        "notes": "当你与你喜好的性别的漂亮成员有着超过最低限度的接触后，进行一次自控检定——如果对方是英俊/美丽有 -5，如果对方是非常英俊/非常美丽则是 -10。如果你失败了，你必须去“勾搭”对方，用上你能用出的所有花招和技术。",
         "tags": [
             "劣势",
             "心理"
@@ -6796,7 +6796,7 @@
             },
             "38aa3113-4709-485c-be35-ba35d96192fd": {
                 "name": "影响人群",
-                "notes": "Almost everyone"
+                "notes": "几乎所有人"
             },
             "39082380-367d-4319-9daf-854976f45562": {
                 "name": "影响人群",
@@ -6890,7 +6890,7 @@
         }
     },
     "03fe2b6c-9fe3-4685-b568-cbc2de72c44b": {
-        "notes": "May not come within level yards of @What@",
+        "notes": "无法走进@所惧怕的物质@该劣势等级的码数内",
         "name": "畏怖",
         "tags": [
             "劣势",
@@ -6944,7 +6944,7 @@
             "生理"
         ],
         "name": "增强移动（@类型@）",
-        "notes": "Double your normal @type@ Move for each level",
+        "notes": "每个级别都会让你的@移动类型@的速度翻倍",
         "modifiers": {
             "e316a3e2-cc8d-4b99-8cd0-bd01ccf20388": {
                 "name": "牛顿力学"
@@ -6957,7 +6957,7 @@
             },
             "ca26e704-8033-4901-bb38-c0e0510ed357": {
                 "name": "超元",
-                "notes": "Instantaneous Acceleration"
+                "notes": "瞬间加速"
             },
             "79398643-ba30-4f08-9b12-3405312a3683": {
                 "name": "操纵性加值"
@@ -6967,7 +6967,7 @@
             },
             "fa245c74-9d18-4ca8-8c4e-024c63ccaac1": {
                 "name": "超元",
-                "notes": "Complete Maneuverability"
+                "notes": "完全机动性"
             }
         }
     },
@@ -7065,7 +7065,7 @@
                 "name": "被动"
             },
             "bf910aea-fc7e-4f49-a6ca-dd62db6e946b": {
-                "name": "Active"
+                "name": "主动"
             },
             "6f8c98b9-041c-435f-a29f-dc59d88fdd8d": {
                 "name": "浸没"
@@ -7100,7 +7100,7 @@
             "异种",
             "生理"
         ],
-        "name": "沉默术Silence",
+        "name": "悄无声息",
         "notes": "Bonuses help only when hearing is the only sense that can be used to detect you.",
         "modifiers": {
             "11a92b4d-003f-4dd9-97e3-9af9e0f75206": {
@@ -7214,30 +7214,30 @@
             "劣势",
             "生理"
         ],
-        "name": "Killjoy",
+        "name": "快感缺失",
         "features": [
             {
                 "name": {
-                    "qualifier": "carousing"
+                    "qualifier": "宴饮"
                 }
             },
             {
                 "name": {
-                    "qualifier": "connoisseur"
+                    "qualifier": "鉴赏家"
                 }
             },
             {
                 "name": {
-                    "qualifier": "erotic art"
+                    "qualifier": "房中术"
                 }
             },
             {
                 "name": {
-                    "qualifier": "gambling"
+                    "qualifier": "赌博"
                 }
             },
             {
-                "situation": "(up to -3, at GM's discretion) from others in any situation where your lack of appreciation becomes obvious (GM’s decision)"
+                "situation": "（最高 -3，GM 决定）来自其他人，当你的无感很明显的时候（GM 决定）"
             }
         ]
     },
@@ -7331,14 +7331,14 @@
         }
     },
     "2c71cf8a-9c27-4734-9991-fb13571a34cd": {
-        "name": "Intuition",
+        "name": "直觉",
         "tags": [
             "优势",
             "心理"
         ],
         "modifiers": {
             "e06e6e3c-d4d0-43d5-8c38-b91e8b10d310": {
-                "name": "Inspired"
+                "name": "启示"
             }
         }
     },
@@ -7363,7 +7363,7 @@
         ],
         "features": [
             {
-                "situation": "added to any penalties assessed for excessive drinking the previous evening and add 3 hours to hangover duration"
+                "situation": "添加到由宿醉带来的减值，并且这种负面状态的持续时间延长三小时"
             }
         ]
     },
@@ -7454,7 +7454,7 @@
         "notes": "@分支@",
         "modifiers": {
             "b86c5f36-bb6b-44b9-80c2-7ec8d2946da6": {
-                "name": "Minor"
+                "name": "轻微"
             },
             "9140caed-80fb-42d8-bd78-4dd02a1d5503": {
                 "name": "Major"
@@ -7605,7 +7605,7 @@
                         "name": "斗殴"
                     }
                 ],
-                "usage": "啃咬 Bite"
+                "usage": "啃咬"
             }
         }
     },
@@ -7783,7 +7783,7 @@
                 "name": "Reflection"
             },
             "4c252b32-b393-4c65-9a93-9c6c4c2b111b": {
-                "name": "Active"
+                "name": "主动性"
             },
             "322cbf32-bde8-45ec-a13a-a30cdbda33c6": {
                 "name": "总是开启"
@@ -7817,7 +7817,7 @@
             },
             "0a903be4-0089-4554-9aa0-c1992ba1c7db": {
                 "name": "单一技能",
-                "notes": "@Skill@"
+                "notes": "@技能@"
             }
         }
     },
@@ -7891,24 +7891,24 @@
             "劣势",
             "心理"
         ],
-        "name": "Intolerance (@Class, Ethnicity, Nationality, Religion, Sex, or Species@)",
+        "name": "偏见（@阶级、民族、国家、宗教、 性别或是物种@）",
         "modifiers": {
             "0e1c693c-166b-417f-b6aa-1c6e04afbd68": {
-                "name": "Scope: Common"
+                "name": "范围：常见"
             },
             "e21c80e8-cdd8-4040-b7a1-33af63210703": {
-                "name": "Scope: Occasional"
+                "name": "范围：偶见"
             },
             "2655dfad-4f5e-4367-a524-fad35a774654": {
-                "name": "Scope: Rare"
+                "name": "范围：稀有"
             },
             "522dbb89-3781-4d8b-bf72-a6d24892dce2": {
-                "name": "Scope: Anyone unlike you"
+                "name": "范围：任何与你不同的人"
             }
         },
         "features": [
             {
-                "situation": "from victims of your intolerance (may be as much as -5, at GM's discretion)"
+                "situation": "来自感受到你的歧视的对象（最高到 -5，GM 决定）"
             }
         ]
     },
@@ -7998,7 +7998,7 @@
         "modifiers": {
             "45214028-e559-4766-a2e7-144aa0c8e5ce": {
                 "name": "仅限魔法",
-                "notes": "Subject to involuntary FP drain"
+                "notes": "属于非自愿 FP 抽取"
             }
         }
     },
@@ -8174,8 +8174,8 @@
             "优势",
             "生理"
         ],
-        "notes": "Require 1 hour/level less sleep for a full night's rest (max 4)",
-        "name": "Less Sleep"
+        "notes": "每级此优势——最多 4 级——允许你减少一个小时的睡眠需求",
+        "name": "少眠"
     },
     "1bf8c968-8f91-401a-8990-0eb6938acc38": {
         "tags": [
@@ -8311,23 +8311,23 @@
                 "name": "映像可见"
             },
             "850cfdf9-3f6a-4465-93a6-5e4d8b0932c5": {
-                "name": "Affects Machines"
+                "name": "影响机器"
             },
             "b2874261-ee61-41f1-b30b-70cea214ea0a": {
                 "name": "可以携带物品",
-                "notes": "Up to No Encumbrance"
+                "notes": "最多空载"
             },
             "7c5c100f-dbe6-4c95-8ade-2a67f5038baa": {
                 "name": "可以携带物品",
-                "notes": "Up to Light Encumbrance"
+                "notes": "最多轻载"
             },
             "80e2f366-8d67-4d29-866a-fc2d75ee7add": {
                 "name": "可以携带物品",
-                "notes": "Up to Medium Encumbrance"
+                "notes": "中等重量"
             },
             "86c568c7-be28-4319-acce-b3c9ecf5bb1c": {
                 "name": "可以携带物品",
-                "notes": "Up to Heavy Encumbrance"
+                "notes": "最多重载"
             },
             "61e6764e-1bc1-4cf7-b693-06c02a17c548": {
                 "name": "拓展效果",
@@ -8338,7 +8338,7 @@
             },
             "091056db-e035-406e-ac01-a34146bc5697": {
                 "name": "通常开启",
-                "notes": "Turning visible costs 1 FP per second"
+                "notes": "每现身 1 秒花费 1 FP"
             },
             "b3cecff4-4ccc-4cd0-b24b-95f18faf0034": {
                 "name": "仅限机械"
@@ -8347,7 +8347,7 @@
                 "name": "投影可见"
             },
             "f24d05ed-5bd5-4d9c-ba57-902a29a71b2f": {
-                "name": "Fringe"
+                "name": "轮廓"
             }
         }
     },
@@ -8423,7 +8423,7 @@
     },
     "8dfb17db-1a7f-49f5-af74-38ced79d3875": {
         "name": "暴食",
-        "notes": "Make a self-control roll when presented with a tempting morsel or good wine that, for some reason, you should resist. If you fail, you partake – regardless of the consequences.",
+        "notes": "面对丰盛的酒宴时，你需要进行自我控制检定来决定能否抵制住食物的诱惑。如果检定失败，你将不顾后果地大吃大喝。",
         "tags": [
             "劣势",
             "心理"
@@ -8546,7 +8546,7 @@
             },
             "ff796ec8-c350-48cc-b6a2-74f7c48bc261": {
                 "name": "无眼",
-                "notes": "不能被攻击眼睛。免疫致盲攻击。"
+                "notes": "不能被攻击眼睛。免疫致盲攻击"
             },
             "cdab2614-a6a1-47ea-8c7c-f42698d872cb": {
                 "name": "无头",
@@ -8809,7 +8809,7 @@
                 }
             },
             {
-                "situation": "to ST vs knockback"
+                "situation": "对于对抗击倒时的 ST"
             }
         ],
         "prereqs": {
@@ -8823,15 +8823,15 @@
         }
     },
     "c5d785d4-3f98-4d31-ad20-7f5a48cd543e": {
-        "name": "Lunacy",
-        "notes": "During the full moon, you are extremely emotional and volatile, while on nights of the new moon you are very passive (you temporarily suffer from the Laziness disadvantage, B142). While the moon is waxing, you are focused and pleasant; while it is waning, you are apathetic and a little touchy.",
+        "name": "月狂病",
+        "notes": "在满月期间，你极度情绪化而且放纵（所有意志和自控 -2），而在新月期间，你非常消沉（你暂时获得懒惰劣势）。当月渐盈的时候，你专注而快乐；当月渐缺的时候，你比较麻木而且有些容易发火。",
         "tags": [
             "劣势",
             "生理"
         ],
         "features": [
             {
-                "situation": "to all Will and self-control rolls during the full moon"
+                "situation": "对于满月期间的所有意志和自控检定"
             }
         ]
     },
@@ -8972,8 +8972,8 @@
         }
     },
     "cca6a9b5-4067-420d-954d-2c5e08dc0e90": {
-        "notes": "With Language Talent",
-        "name": "Language: @Language@",
+        "notes": "有语言天赋",
+        "name": "语言：@语言@",
         "tags": [
             "优势",
             "语言",
@@ -8983,30 +8983,30 @@
             "prereqs": [
                 {
                     "name": {
-                        "qualifier": "Language Talent"
+                        "qualifier": "语言天赋"
                     }
                 }
             ]
         },
         "modifiers": {
             "6e350dac-03e7-454b-aae0-910e3480d549": {
-                "name": "Native"
+                "name": "纯正的"
             },
             "8b45dbdd-df61-46c2-ac1d-a4512c1b6f87": {
-                "name": "Spoken",
-                "notes": "Accented"
+                "name": "口语",
+                "notes": "有口音的"
             },
             "f1b65fd7-b774-4c35-89c8-4bcae8e38203": {
-                "name": "Spoken",
-                "notes": "Native"
+                "name": "口语",
+                "notes": "纯正的"
             },
             "4e5950f0-3680-4091-9cbb-ad9a6bdf6e58": {
-                "name": "Written",
-                "notes": "Accented"
+                "name": "书写",
+                "notes": "有口音的"
             },
             "5a815059-e937-4dce-b933-c8b9b83c9a3e": {
-                "name": "Written",
-                "notes": "Native"
+                "name": "书写",
+                "notes": "纯正的"
             }
         }
     },
@@ -9267,7 +9267,7 @@
             "劣势",
             "心理"
         ],
-        "notes": "You have a written comprehension level of \"None\" for all languages, which cannot be improved",
+        "notes": "你的所有语言的书面理解水平为“无”，且无法升级到更高水平",
         "name": "阅读障碍"
     },
     "adc31fa2-7771-4242-ad70-b40435a721a1": {
@@ -9408,7 +9408,7 @@
         ]
     },
     "528254ea-5457-4090-979b-b06583bb2f76": {
-        "notes": "@Description@",
+        "notes": "@描述@",
         "name": "高社会地位",
         "tags": [
             "优势",
@@ -10094,7 +10094,7 @@
         "name": "Unluckiness"
     },
     "672f266f-4e98-4e9f-91ef-ffc64b4d2d82": {
-        "notes": "Make a self-control roll when confronted with something strange. If you fail, you ignore it!",
+        "notes": "当你遇到不寻常的东西时进行一次自控检定，如果失败，你没有注意到它！",
         "tags": [
             "劣势",
             "心理"
@@ -10102,7 +10102,7 @@
         "name": "缺乏好奇心",
         "features": [
             {
-                "situation": "to new things"
+                "situation": "对于新事物"
             }
         ]
     },
@@ -10280,7 +10280,7 @@
         ]
     },
     "d93a66a3-94f3-410d-9119-13fb5f1b8171": {
-        "notes": "Starting wealth is 100x normal",
+        "notes": "起始财富是其社会平均水平的 100 倍",
         "tags": [
             "优势",
             "社会",
@@ -10485,8 +10485,8 @@
             "优势",
             "社会"
         ],
-        "name": "Legal Enforcement Powers",
-        "notes": "@Description@"
+        "name": "执法权",
+        "notes": "@描述@"
     },
     "a282e8ab-9cdb-4d80-9c9a-0f127c7e8c3f": {
         "tags": [
@@ -10519,7 +10519,7 @@
         "name": "易于杀死",
         "features": [
             {
-                "situation": "to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death. You may not reduce your HT roll below 3."
+                "situation": "对于在你的 HP 低于负一倍或更低时你的生存 HT 检定，以及任何会导致你死亡的 HT 检定。你不能把你的 HT 检定缩减至 3 以下。"
             }
         ]
     },
@@ -10893,7 +10893,7 @@
         "name": "梦想家",
         "features": [
             {
-                "situation": "on any long task"
+                "situation": "在任意长任务上"
             }
         ]
     },
@@ -11145,11 +11145,11 @@
             "优势",
             "生理"
         ],
-        "notes": "Recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+        "notes": "FP 回复速度加倍（魔法、 异能带来的损失则不被减免）",
         "name": "健康",
         "features": [
             {
-                "situation": "to all HT rolls to stay conscious, avoid death, resist disease, or resist poison"
+                "situation": "对于所有保持意识、避免死亡、抵抗疾病或抵抗毒药的 HT 检定"
             }
         ]
     },
@@ -11241,7 +11241,7 @@
             "Quirk"
         ],
         "name": "习惯",
-        "notes": "@Habit@"
+        "notes": "@习惯@"
     },
     "56ffc361-b1c5-4442-b17f-b2b5dd7e239d": {
         "tags": [
@@ -11408,7 +11408,7 @@
                     "qualifier": "易容"
                 },
                 "specialization": {
-                    "qualifier": "animals"
+                    "qualifier": "动物"
                 }
             },
             {
@@ -11419,7 +11419,7 @@
         ]
     },
     "f9016b57-ba56-4ed4-b048-bc8f54f3f4e0": {
-        "name": "Invertebrate",
+        "name": "无脊椎",
         "tags": [
             "劣势",
             "异种",
@@ -11461,12 +11461,12 @@
         ]
     },
     "9bbb06dc-5928-4edf-b987-4ec0f7c2f500": {
-        "name": "Low Status ",
+        "name": "低社会地位 ",
         "tags": [
             "劣势",
             "社会"
         ],
-        "notes": "@Description@"
+        "notes": "@描述@"
     },
     "bd56b1ff-55d0-4f27-8ed4-a7101a23a827": {
         "name": "不解风情",
@@ -11497,20 +11497,20 @@
         "name": "Uncontrollable Appetite (@Craving@)"
     },
     "512fde79-d6fa-4a92-a091-1b6f6007a0c9": {
-        "name": "Lame (Paraplegic)",
+        "name": "跛足（半身不遂）",
         "tags": [
             "劣势",
             "生理"
         ],
-        "notes": "You cannot stand, kick, or walk at all and must reduce Basic Move to 0.",
+        "notes": "你不能站立、走动和踢击。你的移动力必须降低到 0。",
         "modifiers": {
             "78413b18-70ca-4693-b572-26b5549ca56d": {
-                "name": "Mitigator: Flight"
+                "name": "缓解：飞行"
             }
         },
         "features": [
             {
-                "situation": "to use any skill that requires the use of your legs, including all Melee Weapon and unarmed combat skills (but not ranged combat skills)"
+                "situation": "对于任何需要用到腿的技能，包括所有近战武器技能和徒手战斗技能（远程战斗不受影响！）"
             }
         ]
     },
@@ -11523,7 +11523,7 @@
         "name": "Ridiculous Luck",
         "modifiers": {
             "357dada4-0a36-4bce-8f1e-227ed666303a": {
-                "name": "Active"
+                "name": "主动性"
             },
             "ffdba32c-f767-4162-a5c4-a877ade68f95": {
                 "name": "Aspected",
@@ -11697,11 +11697,11 @@
             },
             "3d074340-af06-4b70-aa84-22da87bb081d": {
                 "name": "弱",
-                "notes": "Half body ST"
+                "notes": "只有一半力量"
             },
             "b2cccad5-b178-43ec-afc4-eae1c478a0cc": {
                 "name": "弱",
-                "notes": "Quarter body ST"
+                "notes": "只有 1/4 力量"
             },
             "9c654aa3-228f-4f8b-9f0f-58672c44ea9a": {
                 "name": "武器座"
@@ -12083,7 +12083,7 @@
             "优势",
             "生理"
         ],
-        "name": "蹄击Hooves",
+        "name": "蹄子",
         "weapons": {
             "1dd5ef16-e1a2-4722-8dd4-5a45c3c6c75b": {
                 "defaults": [
@@ -12095,7 +12095,7 @@
                         "name": "空手技击"
                     }
                 ],
-                "usage": "Trample"
+                "usage": "践踏"
             }
         }
     },
@@ -12128,7 +12128,7 @@
                 "situation": "对其他人"
             },
             {
-                "situation": "to others attempting to identify or follow you"
+                "situation": "对于其他人尝试认出或是跟踪你的检定"
             }
         ],
         "prereqs": {
@@ -12163,7 +12163,7 @@
         "modifiers": {
             "d47eeba8-96e5-4fcd-8455-1c125ca554a5": {
                 "name": "如果未穿着特制的装备和衣服则获得 DX 减值",
-                "notes": "Clothing and armor costs 10% more than usual"
+                "notes": "衣物和护甲比平常额外花费 10%"
             }
         }
     },
@@ -12180,10 +12180,10 @@
             "劣势",
             "心理"
         ],
-        "name": "Low Self-Image",
+        "name": "自轻自贱",
         "features": [
             {
-                "situation": "to all skill rolls whenever you believe that the odds are against you or others expect you to fail (GM’s judgment)"
+                "situation": "对于当你相信情况对你不利或者其他人等着你失败的时候，你的所有技能检定（由 GM 判定）"
             }
         ]
     },
@@ -12247,30 +12247,30 @@
             },
             "b43ccd22-d6c7-4f5a-b280-55943589bd9d": {
                 "name": "鳃",
-                "notes": "Suffocates in air"
+                "notes": "在空气中窒息"
             },
             "1ba12fe1-335e-4d84-9bbe-bbceb062c966": {
                 "name": "吸收氧气"
             },
             "c6fc6b99-b257-41e8-b7f9-4737752adaa9": {
                 "name": "氧气储存",
-                "notes": "Can hold breath 25 times as long as normal"
+                "notes": "“屏息”时间是通常情况的 25 倍"
             },
             "191bb6c2-2e0a-4b94-bf46-75db1d9e4b04": {
                 "name": "氧气储存",
-                "notes": "Can hold breath 50 times as long as normal"
+                "notes": "“屏息”时间是通常情况的 50 倍"
             },
             "9801cedb-4b05-4d86-b65f-3c0d4418b8a7": {
                 "name": "氧气储存",
-                "notes": "Can hold breath 100 times as long as normal"
+                "notes": "“屏息”时间是通常情况的 100 倍"
             },
             "8b514228-a261-4a95-ab1d-45b893a77df1": {
                 "name": "氧气储存",
-                "notes": "Can hold breath 200 times as long as normal"
+                "notes": "“屏息”时间是通常情况的 200 倍"
             },
             "cc70e80e-c5a7-4193-bd17-50da8902073b": {
                 "name": "氧气储存",
-                "notes": "Can hold breath 300 times as long as normal"
+                "notes": "“屏息”时间是通常情况的 300 倍"
             },
             "5bf5ac51-9155-48dd-a836-c61786f9e602": {
                 "name": "燃烧氧气"
@@ -12485,7 +12485,7 @@
                 "name": "总是开启"
             },
             "c92f6e66-f1cc-41e1-8585-6f528b7ce1c3": {
-                "name": "Active"
+                "name": "主动"
             },
             "2f042b70-8e3c-44c2-8534-145ad0b4b58b": {
                 "name": "Presence"
@@ -12493,7 +12493,7 @@
         }
     },
     "c12f68d8-25e3-40f1-9bdd-57b500268aca": {
-        "name": "Language Talent",
+        "name": "语言天赋",
         "tags": [
             "优势",
             "心理"
@@ -12773,8 +12773,8 @@
             "优势",
             "生理"
         ],
-        "name": "Longevity",
-        "notes": "You fail aging rolls only on a 17 or 18, or only on an 18 if your modified HT is 17 or better"
+        "name": "长寿",
+        "notes": "你的自然寿命很长。你的老化检定只在投出 17 或 18 时失败——或只有 18，如果你有着 17 以上的HT"
     },
     "526c7704-5563-4822-860f-ada8eb9ee43b": {
         "tags": [
@@ -12782,7 +12782,7 @@
             "生理"
         ],
         "name": "低痛阈",
-        "notes": "Double the shock from any injury. Whenever you take a wound that does more than 1 HP of damage, you must make a Will roll to avoid crying out.",
+        "notes": "损伤的休克减值翻倍。如果你受到超过 1 点损伤，你必须检定意志，只有成功才能控制住自己不发出惨叫。",
         "prereqs": {
             "prereqs": [
                 {
@@ -12794,10 +12794,10 @@
         },
         "features": [
             {
-                "situation": "from \"macho\" individuals"
+                "situation": "来自“男子气概”的角色"
             },
             {
-                "situation": "to resist knockdown, stunning, and physical torture"
+                "situation": "对于抵抗击倒、震慑、身体折磨"
             }
         ]
     },
@@ -12934,7 +12934,7 @@
     },
     "3ab3121b-372e-44da-bde6-14588183a155": {
         "name": "增强时间感",
-        "notes": "You immediately act in combat before those without Enhanced Time Sense; Never freeze",
+        "notes": "你永远自动在没有 ETS 的生物之前行动；不会呆滞",
         "tags": [
             "优势",
             "异种",
@@ -12951,10 +12951,10 @@
             {},
             {},
             {
-                "situation": "on all IQ rolls to wake up or to recover from surprise or mental stun"
+                "situation": "对于从心理震慑中恢复的 IQ 检定"
             },
             {
-                "situation": "to your side on initiative rolls (+2 if you're the leader)"
+                "situation": "对于你所在队伍的主动性检定（如果你是队伍的领导者，则获得 +2）"
             }
         ],
         "prereqs": {
@@ -13022,8 +13022,8 @@
             "劣势",
             "心理"
         ],
-        "notes": "Make a self-control roll whenever anyone lingers nearby, watches over your shoulder, etc. If you fail, you lash out at that person just as if you had Bad Temper.",
-        "name": "Loner"
+        "notes": "当有人在旁边晃来晃去、站在你身后俯视你等事情发生时，你需要进行自控检定。如果你失败，你会对那个人发脾气，如同你具有坏脾气劣势。",
+        "name": "需要独处"
     },
     "2295ec18-75d8-4f4c-9274-c0164d2f6773": {
         "tags": [
@@ -13038,7 +13038,7 @@
             "劣势",
             "心理"
         ],
-        "notes": "The presence of any sort of weaponry is stressful. Trying to use a weapon, or being threatened with one, requires a self-control roll at -2."
+        "notes": "出现任何类型的武器都会让你产生压力。如果你尝试使用武器或是被一把武器威胁，就需要进行一次有 -2 减值的自控检定。"
     },
     "8999487a-7c11-4d69-8c4c-29b0a387ee98": {
         "tags": [
@@ -13336,7 +13336,7 @@
         "name": "貌似忠良",
         "features": [
             {
-                "situation": "to trained Acting skill for the sole purpose of \"acting innocent\""
+                "situation": "对于当你只想表演一个“无辜的人”时你训练过的做戏技能"
             }
         ]
     },
@@ -13402,7 +13402,7 @@
         "name": "增强招架（徒手）",
         "features": [
             {
-                "situation": "to Parry with bare hands"
+                "situation": "对于徒手招架"
             }
         ]
     },
@@ -13605,7 +13605,7 @@
         "name": "善妒",
         "features": [
             {
-                "situation": "toward those you are jealous of (may be as much as -4, at GM's discretion)"
+                "situation": "对于你嫉妒的对象（最高 -4，GM 决定）"
             }
         ]
     },
@@ -13664,7 +13664,7 @@
             "心理"
         ],
         "name": "冲动",
-        "notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act"
+        "notes": "当正确的选择是等待并思考的时候，进行一次自控检定。如果失败，你必须行动起来"
     },
     "7be117c6-c65e-4ed0-a1b4-37007326708a": {
         "name": "酒精耐受",
@@ -13711,7 +13711,7 @@
         "name": "敏锐视觉"
     },
     "43deafab-dce4-4e71-b42c-40847484dcb8": {
-        "name": "Low TL",
+        "name": "低技术等级",
         "tags": [
             "劣势",
             "社会"
@@ -13765,7 +13765,7 @@
             "劣势",
             "生理"
         ],
-        "name": "Klutz",
+        "name": "笨拙",
         "prereqs": {
             "prereqs": [
                 {
@@ -13786,7 +13786,7 @@
             "心理",
             "Quirk"
         ],
-        "notes": "\"@Saying@\"",
+        "notes": "“@口癖@”",
         "name": "口癖"
     },
     "72a21967-202b-4c54-8ec1-0b014a15a733": {
@@ -13825,10 +13825,10 @@
             "优势",
             "心理"
         ],
-        "name": "Lightning Calculator",
+        "name": "闪电计算者",
         "modifiers": {
             "6e674a5c-f7c3-411e-9f19-a0eb4f682c5b": {
-                "name": "Intuitive Mathematician"
+                "name": "直觉数学家"
             }
         }
     },
@@ -13858,35 +13858,35 @@
             "优势",
             "生理"
         ],
-        "name": "Long Talons",
+        "name": "巨爪",
         "weapons": {
             "60ffb2ef-bc85-42f8-a14c-2050f1b4e82f": {
-                "usage": "Slash",
+                "usage": "挥砍",
                 "defaults": [
                     {},
                     {
                         "name": "斗殴"
                     },
                     {
-                        "name": "Boxing"
+                        "name": "拳击"
                     },
                     {
-                        "name": "Karate"
+                        "name": "空手技击"
                     }
                 ]
             },
             "937eab10-dd9a-45ef-b5fe-442345a76fc4": {
-                "usage": "Stab",
+                "usage": "穿刺",
                 "defaults": [
                     {},
                     {
                         "name": "斗殴"
                     },
                     {
-                        "name": "Boxing"
+                        "name": "拳击"
                     },
                     {
-                        "name": "Karate"
+                        "name": "空手技击"
                     }
                 ]
             }
@@ -14109,16 +14109,16 @@
             "劣势",
             "生理"
         ],
-        "notes": "Using crutches or a peg leg, you can stand up and walk slowly. You must reduce Basic Move to 2.",
-        "name": "Lame (Missing Legs)",
+        "notes": "通过拐杖或假腿，你可以站起来以及慢慢走路。你的移动力必须降低到 2。",
+        "name": "跛足（缺失部分腿）",
         "modifiers": {
             "9277fdb9-781f-4da2-8389-9bff54237422": {
-                "name": "Mitigator: Flight"
+                "name": "缓解：飞行"
             }
         },
         "features": [
             {
-                "situation": "to use any skill that requires the use of your legs, including all Melee Weapon and unarmed combat skills (but not ranged combat skills)"
+                "situation": "对于任何需要用到腿的技能，包括所有近战武器技能和徒手战斗技能（远程战斗不受影响！）"
             }
         ]
     },
@@ -14137,13 +14137,13 @@
         ],
         "features": [
             {
-                "situation": "to Parry with @Melee weapon skill@"
+                "situation": "对于使用@近战武器技能@的招架"
             }
         ]
     },
     "e9b12a42-c2b7-436e-9752-75438eebbb44": {
         "name": "遵纪守法",
-        "notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+        "notes": "当你“必须”违反无意义的法规的时候，你必须进行一次自控检定；如果你失败了，你必须遵守这条法律，不论后果如何。如果你成功地抵挡了你的守法冲动违法了，在事后进行第二次自控检定，如果失败，你就必须向权力机构自首！",
         "tags": [
             "劣势",
             "心理"
@@ -14197,7 +14197,7 @@
             "心理",
             "Quirk"
         ],
-        "name": "Likes @Item@"
+        "name": "喜欢@物品@"
     },
     "227d7609-ce56-4314-8c6a-9d5cb8863e9b": {
         "tags": [
@@ -14407,10 +14407,10 @@
         "name": "群居动物",
         "features": [
             {
-                "situation": "to others"
+                "situation": "对于其他人"
             },
             {
-                "situation": "to IQ-based skills when alone, or only -1 if in a group of 4 or less"
+                "situation": "对于孤身一人时所有基于 IQ 的 技能，或有 4 个或更少的人时减轻为 -1"
             }
         ]
     },
@@ -14436,10 +14436,10 @@
         "name": "时尚感",
         "features": [
             {
-                "situation": "from others in social situations when you have a chance to plan your attire in advance"
+                "situation": "来自你可以预先为自己设计服装的社会场合里其他人的反应检定"
             },
             {
-                "situation": "to someone else's reaction bonus from others when you put together their outfit"
+                "situation": "对于你为他人设计服装后其他人对该人的反应检定"
             }
         ]
     },
