@@ -275,7 +275,7 @@
         ],
         "features": [
             {
-                "situation": "to orders, insults, or social slights"
+                "situation": "对于遭遇命令，侮辱，或社会蔑视"
             }
         ]
     },
@@ -1764,14 +1764,14 @@
             "心理",
             "天赋"
         ],
-        "name": "Racial Skill Bonus - @Skill@ (@Specialization@)",
+        "name": "种族技能加值 - @技能@（@分支@）",
         "features": [
             {
                 "name": {
-                    "qualifier": "@Skill@"
+                    "qualifier": "@技能@"
                 },
                 "specialization": {
-                    "qualifier": "@Specialization@"
+                    "qualifier": "@分支@"
                 }
             }
         ]
@@ -3103,7 +3103,7 @@
                 "name": "只能被动使用"
             },
             "b06d4ed3-e9f1-44f8-8cd8-d05c199df2de": {
-                "name": "Visions"
+                "name": "显现"
             }
         }
     },
@@ -5049,37 +5049,37 @@
             },
             "010fefba-be0f-40b4-b663-f17c3376b690": {
                 "name": "特化",
-                "notes": "@Basis: Carbon Based@"
+                "notes": "@基础：碳基@"
             },
             "b2b4ab75-2433-44a0-9074-4700e3c0cb19": {
                 "name": "特化",
-                "notes": "@Planet of Origin: Terran@"
+                "notes": "@起源星球：泰伦@"
             },
             "04677030-80b7-401c-801d-c49333702074": {
                 "name": "特化",
-                "notes": "@Kingdom: Animalia@"
+                "notes": "@界：动物界@"
             },
             "222fd22d-ba69-4b2b-bed3-73823bae23ec": {
                 "name": "特化",
-                "notes": "@Class: Mammalia@"
+                "notes": "@纲：哺乳动物@"
             },
             "4e4ca72d-00c6-405d-9a77-ef06d6bebf16": {
                 "name": "特化",
-                "notes": "@Species: Canis Lupus@"
+                "notes": "@种：狼@"
             },
             "b6a6b5e9-7f18-4724-bb63-b5829658848f": {
                 "name": "特化",
-                "notes": "@Family: Canidae@"
+                "notes": "@科：犬科@"
             },
             "540361a0-4d05-4b53-af8d-9108995b7814": {
-                "name": "Poor Control"
+                "name": "控制不良"
             },
             "47d9a263-9d44-4890-9991-75868b4426b5": {
-                "name": "Poor Control",
-                "notes": "40 Hour Practice"
+                "name": "控制不良",
+                "notes": "40 小时练习"
             },
             "40eb887e-586b-4e53-9457-c8e534e220f1": {
-                "name": "Poor Control, Permanent"
+                "name": "控制不良，永久"
             }
         }
     },
@@ -5854,17 +5854,17 @@
             "心理",
             "超自然"
         ],
-        "name": "Precognition",
+        "name": "预知",
         "modifiers": {
             "30ba3ae1-d30e-46b1-842e-fa5fe5d55973": {
                 "name": "导向性"
             },
             "89d82798-1d5b-42e4-bc8b-7fd5b94d5cc2": {
-                "name": "Can't See Own Death"
+                "name": "不能看自己的死亡"
             },
             "89e18824-fb84-4940-9cfd-3db3debac4ba": {
-                "name": "One Event",
-                "notes": "@Event Type@"
+                "name": "单一事件",
+                "notes": "@事件类型@"
             },
             "0efb47f3-b9a5-453b-9751-16b0d0163eb3": {
                 "name": "只能主动使用"
@@ -5877,7 +5877,7 @@
             },
             "39802f82-5c97-46ad-afae-20b7389a3af5": {
                 "name": "梦境",
-                "notes": "Combined with Active Only or Can't See Own Death"
+                "notes": "结合主动或不能看自己的死亡"
             }
         }
     },
@@ -8734,7 +8734,7 @@
         }
     },
     "6a5038f2-5373-4f1f-bdd9-c4f56add9911": {
-        "notes": "Even a burning cigarette bothers you if it comes within five yards.",
+        "notes": "即使是点燃的香烟，如果靠近到了 5 尺以内，也会影响你。",
         "tags": [
             "劣势",
             "心理"
@@ -10165,8 +10165,8 @@
             "劣势",
             "心理"
         ],
-        "notes": "Make a self-control roll at the end of any battle. If you fail, roll 3d, add the amount by which you failed your self-control roll, and look up the result on the Fright Check Table.",
-        "name": "Post-Combat Shakes"
+        "notes": "每次战斗结束时投自控骰。自控检定失败后，记录失败度，投 3d+ 自控检定失败度，查恐惧检定表得出结果。",
+        "name": "阵后战栗"
     },
     "4fbcb45c-d58a-4cab-9fbf-cff3423c3c98": {
         "tags": [
@@ -11899,7 +11899,7 @@
         "name": "唇枪舌剑",
         "modifiers": {
             "616e216a-3f22-40f8-aa0c-a3d997844516": {
-                "name": "Words of Power"
+                "name": "力量之语"
             }
         }
     },
@@ -12212,7 +12212,7 @@
         }
     },
     "40b6ad86-3a5f-4e8d-ab63-cffc0bd01421": {
-        "name": "Power Investiture",
+        "name": "天授力量",
         "tags": [
             "优势",
             "心理",
@@ -12314,7 +12314,7 @@
         "name": "个人标记"
     },
     "c5d96a85-b000-4d52-b879-44dc004dd46a": {
-        "notes": "Make a self-control roll whenever you have an opportunity to set a fire",
+        "notes": "每当你有机会放火的时候，进行自控检定",
         "tags": [
             "劣势",
             "心理"
@@ -13294,11 +13294,11 @@
             "心理",
             "天赋"
         ],
-        "name": "Racial Skill Bonus - @Skill without a specialization@",
+        "name": "种族技能加值- @无分支技能@",
         "features": [
             {
                 "name": {
-                    "qualifier": "@Skill without a specialization@"
+                    "qualifier": "@无分支技能@"
                 }
             }
         ]
@@ -14181,7 +14181,7 @@
         },
         "features": [
             {
-                "situation": "to your effective HT whenever you roll to recover lost HP or to see if you can get over a crippling injury"
+                "situation": "对于当你投骰去恢复失去的 HP 时或恢复严重的伤口时你的有效 HT"
             }
         ]
     },
