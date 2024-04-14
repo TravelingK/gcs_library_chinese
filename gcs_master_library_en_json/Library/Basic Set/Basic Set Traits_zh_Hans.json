@@ -165,22 +165,22 @@
             "心理",
             "Quirk"
         ],
-        "name": "Obsession",
+        "name": "执念",
         "notes": "@分支@"
     },
     "5e6823d9-f372-4b29-ab16-aea1323df21d": {
-        "notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
+        "notes": "如果 GM 认为人物过于谨慎，可能要求人物进行自我控制检定，如果检定失败，人物不再畏缩不前，就像你能解决问题一样！",
         "tags": [
             "劣势",
             "心理"
         ],
-        "name": "Overconfidence",
+        "name": "自负",
         "features": [
             {
-                "situation": "from young or naive individuals who believe you are as good as you say you are"
+                "situation": "来自年青幼稚的人，他们相信你的吹牛"
             },
             {
-                "situation": "from experienced NPCs"
+                "situation": "来自老练的 NPC"
             }
         ]
     },
@@ -1482,7 +1482,7 @@
             "财富"
         ],
         "name": "富可敌国",
-        "notes": "Starting wealth is 100x10^level normal",
+        "notes": "起始财富为社会平均水平的 100x10^等级 倍",
         "prereqs": {
             "prereqs": [
                 {
@@ -1604,10 +1604,10 @@
         ],
         "modifiers": {
             "48eb5da9-3d8b-4449-a379-6e0d9891444e": {
-                "name": "Power Theft, Weak"
+                "name": "弱异能窃取"
             },
             "8beaf9a0-9cee-4b77-bacb-e47c1afa0f4c": {
-                "name": "Interruption"
+                "name": "打断"
             },
             "f23d4f0a-390e-4b3f-af06-32bc23ecec16": {
                 "name": "异能窃取"
@@ -1624,14 +1624,14 @@
                 "name": "精准"
             },
             "6052c843-45ff-4b61-88e0-230dacce5ee6": {
-                "name": "Derange"
+                "name": "错乱"
             },
             "c5ecdab5-75ad-47d8-914f-a25cfd1ad68f": {
-                "name": "One Ability",
-                "notes": "@Ability@ in @Power@"
+                "name": "一种能力",
+                "notes": "@异能@中的@能力@"
             },
             "83ef8bf5-009f-4d99-a20a-d875697e379a": {
-                "name": "Derangable"
+                "name": "错乱"
             }
         }
     },
@@ -1866,25 +1866,25 @@
             "劣势",
             "生理"
         ],
-        "name": "Night Blindness",
-        "notes": "If the vision or combat penalty for poor lighting is between -1 and -4 for most people, your penalty is the worse of double the usual penalty or -3. If the usual penalty is -5 or worse, you function as though you were completely blind. If you have Acute Vision, it only applies in situations with no darkness penalty.",
+        "name": "夜盲症",
+        "notes": "如果由于照明不良引起的视觉和战斗减值对于一般人来说在 -1 到 -4，你的减值翻倍，翻倍后如果不足 -3 则改为 -3。如果对于一般人而言减值是 -5，则你视为完全目盲。如果你拥有敏锐视觉，那么只有在没有黑暗减值的时候才有效。",
         "prereqs": {
             "prereqs": [
                 {
                     "name": {
-                        "qualifier": "dark vision"
+                        "qualifier": "黑暗视觉"
                     }
                 },
                 {
                     "name": {
-                        "qualifier": "night vision"
+                        "qualifier": "夜视"
                     }
                 }
             ]
         }
     },
     "e3ed1e65-811e-4ff3-8035-6ed6199b921d": {
-        "name": "Modular Abilities (Cosmic Power)",
+        "name": "模块化能力（超元力量）",
         "tags": [
             "优势",
             "异种",
@@ -1892,36 +1892,36 @@
         ],
         "modifiers": {
             "f757a250-2f35-4f30-bb96-6e589488393d": {
-                "name": "Physical Only"
+                "name": "仅限生理"
             },
             "ced42412-bc6f-4d84-9bfb-6e446e68df65": {
                 "name": "生理"
             },
             "d1bf4afa-31f7-4692-ab3e-d98415c0ee40": {
-                "name": "Spells Only"
+                "name": "仅限法术"
             },
             "5dcd5c5a-170d-408a-b064-d187b212588d": {
-                "name": "Virtual",
-                "notes": "@Realm@"
+                "name": "虚拟",
+                "notes": "@界域@"
             },
             "9a0a4d35-42bc-408a-b5fd-9ba50f83b1b3": {
-                "name": "Social Only"
+                "name": "仅限社会"
             },
             "67f23b67-f7fb-43d2-a1d5-e974102e60ce": {
                 "name": "社会"
             },
             "a9f9b8c5-4922-4b1c-9203-4189746ac093": {
-                "name": "Focus-Limited (@Very versatile focus@)"
+                "name": "焦点限制（@非常通用的焦点@）"
             },
             "351ee5bb-81a7-4a88-ac79-4c4a1f4b8d0e": {
-                "name": "Focus-Limited (@Any ordinary variety of matter or energy@)"
+                "name": "焦点限制（@任意常见种类的物质或能量@）"
             },
             "4b7d80c5-eff2-471a-96f4-23e8d75c6afd": {
-                "name": "Focus-Limited (@Specialized focus@)"
+                "name": "焦点限制（@特殊焦点@）"
             },
             "51853524-ab5f-4821-ba12-1f604beed848": {
-                "name": "Trait-Limited (@Subset of traits@)",
-                "notes": "Set cost manually"
+                "name": "特质限制（@特质的子集@）",
+                "notes": "手动设置花费"
             }
         }
     },
@@ -2760,11 +2760,11 @@
             "劣势",
             "生理"
         ],
-        "notes": "You cannot use two-handed weapons, wield two weapons at once (or a weapon and a shield), or perform any task that requires two arms",
-        "name": "One Arm",
+        "notes": "你不能使用双手武器，同时挥舞两把武器（或一手武器一手持盾），或执行任何需要两只手臂的任务",
+        "name": "独臂",
         "features": [
             {
-                "situation": "on tasks that are possible with one arm but that are usually executed with two"
+                "situation": "在可以通过一 只手臂完成但通常需要两只手臂的任务上"
             }
         ]
     },
@@ -3532,7 +3532,7 @@
         "name": "Revulsion (@Common substance@)"
     },
     "1df242ab-6d8f-4e2d-97d7-d445086b7594": {
-        "name": "No Legs (Sessile)",
+        "name": "无腿（固定）",
         "tags": [
             "劣势",
             "异种",
@@ -3642,7 +3642,7 @@
             "异种",
             "生理"
         ],
-        "name": "Parabolic Hearing"
+        "name": "远距离听觉"
     },
     "1575bc92-513b-4b86-ade9-e08eb50e5241": {
         "name": "Speak With Plants",
@@ -3951,13 +3951,13 @@
             "异种",
             "生理"
         ],
-        "name": "No Legs (Aquatic)",
+        "name": "无腿（水生）",
         "modifiers": {
             "5f030d3c-8167-4c45-a086-b64a3a6c476e": {
-                "name": "Can't dive"
+                "name": "无法潜水"
             },
             "2ae0c860-ff99-4eff-9167-a5fca83d598b": {
-                "name": "Can't armor @Fins/Masts/Sails/Paddles@"
+                "name": "@鳍、桅杆、桨或帆@无法保护"
             }
         }
     },
@@ -4343,7 +4343,7 @@
             "心理",
             "生理"
         ],
-        "name": "Telecommunication",
+        "name": "通讯",
         "modifiers": {
             "c9e96f67-4858-4f1d-8e2e-f7e1e788aacd": {
                 "name": "声纳"
@@ -4370,7 +4370,7 @@
                 "name": "Telesend"
             },
             "8dfb3cc3-5eaf-44d1-af2d-82c681b6cc6c": {
-                "name": "Broadcast"
+                "name": "广播"
             },
             "8bd06112-302f-40b9-9c81-cf05367f8427": {
                 "name": "Short Wave"
@@ -4379,10 +4379,10 @@
                 "name": "通用"
             },
             "89ba8d02-bab8-4e80-9c5e-e8528d296414": {
-                "name": "Video"
+                "name": "影像"
             },
             "215e5a1a-ac21-4676-9e7e-66bf441ce8c8": {
-                "name": "Racial"
+                "name": "种族隔绝"
             },
             "d7f2bdef-fbb0-4adc-b9b7-4fd7fcd9d0f6": {
                 "name": "Receive Only"
@@ -5621,18 +5621,18 @@
         ]
     },
     "302b6def-9f0f-48e7-83d4-e58221f952b3": {
-        "notes": "@Goal@; Make a self-control roll whenever it would be wise to deviate from your goal. If you fail, you continue to pursue your Obsession, regardless of the consequences.",
+        "notes": "@目标@；当暂时放下这个目标比较明智的时候，你需要进行自控检定，失败则不顾后果地去追逐目标。",
         "tags": [
             "劣势",
             "心理"
         ],
-        "name": "Obsession",
+        "name": "执念",
         "modifiers": {
             "aadc441c-1423-4e59-a5ee-9a628b843420": {
-                "name": "Short term"
+                "name": "短期"
             },
             "31e5b8b9-f9ba-44e3-8afd-e6b285be3b93": {
-                "name": "Long term"
+                "name": "长期"
             }
         }
     },
@@ -6372,7 +6372,7 @@
             "劣势",
             "心理"
         ],
-        "name": "Oblivious",
+        "name": "不谙世事",
         "features": [
             {
                 "name": {
@@ -6405,7 +6405,7 @@
                 }
             },
             {
-                "situation": "to resist Influence skills: Diplomacy, Fast-Talk, Intimidation, Savoir-Faire, Sex Appeal, and Streetwise"
+                "situation": "对于抵抗影响技能：外交、唬骗、威吓、礼仪、性感和黑街"
             }
         ]
     },
@@ -6750,7 +6750,7 @@
             "异种",
             "生理"
         ],
-        "name": "No Legs (Bounces)"
+        "name": "无腿（蹦跳）"
     },
     "264875f8-9136-4f49-afae-9c69ba062cbe": {
         "tags": [
@@ -6935,7 +6935,7 @@
             "劣势",
             "生理"
         ],
-        "name": "No Sense of Smell/Taste"
+        "name": "无嗅/味觉"
     },
     "bdd03b24-27af-406c-9d91-1a6354ca2489": {
         "tags": [
@@ -7017,39 +7017,39 @@
             "异种",
             "心理"
         ],
-        "name": "Modular Abilities (Super-Memorization)",
+        "name": "模块化能力（超级记忆）",
         "modifiers": {
             "ec37c7fa-ae90-4988-88c2-7c5649946fa4": {
-                "name": "Spells Only"
+                "name": "仅限法术"
             },
             "910a3a99-f36c-43bb-ba70-ba04df414dc2": {
                 "name": "生理"
             },
             "cc306036-66cf-4e12-ab17-423b26370304": {
-                "name": "Physical Only"
+                "name": "仅限生理"
             },
             "fb15a03b-7600-4294-9820-c4789280a88e": {
-                "name": "Virtual",
-                "notes": "@Realm@"
+                "name": "虚拟",
+                "notes": "@界域@"
             },
             "dca2e513-ac23-44cc-bb64-124382c743d1": {
-                "name": "Social Only"
+                "name": "仅限社会"
             },
             "26156d1d-ab8f-4e9b-93c3-1bf64c85e9af": {
                 "name": "社会"
             },
             "763ea500-24dd-4b3b-b653-fb12b6069301": {
-                "name": "Focus-Limited (@Very versatile focus@)"
+                "name": "焦点限制（@非常通用的焦点@）"
             },
             "52e92e78-46bd-487d-8baa-539ad9419b6e": {
-                "name": "Focus-Limited (@Any ordinary variety of matter or energy@)"
+                "name": "焦点限制（@任意常见种类的物质或能量@）"
             },
             "b169a37a-0afa-41f2-8812-ee5c3f98a85f": {
-                "name": "Focus-Limited (@Specialized focus@)"
+                "name": "焦点限制（@特殊焦点@）"
             },
             "6d41662c-e079-4c9f-bf8a-4dec028b7425": {
-                "name": "Trait-Limited (@Subset of traits@)",
-                "notes": "Set cost manually"
+                "name": "特质限制（@特质的子集@）",
+                "notes": "手动设置花费"
             }
         }
     },
@@ -7473,14 +7473,14 @@
         "notes": "Any “unnatural” creature sets off this fear. You have -1 to -4 on the self-control roll if the monster seems very large or dangerous, or if there are a lot of them. Note that the definition of “monster” depends on experience. An American Indian would consider an elephant monstrous, while an African pygmy would not!"
     },
     "10e3f617-1fe3-4a97-9e57-a4540dfd5970": {
-        "name": "No Sense of Humor",
+        "name": "无幽默感",
         "tags": [
             "劣势",
             "心理"
         ],
         "features": [
             {
-                "situation": "from others in any situation where No Sense of Humor becomes evident"
+                "situation": "来自当无幽默感劣势显而易见的情况下的其他人"
             }
         ]
     },
@@ -7636,7 +7636,7 @@
             "劣势",
             "生理"
         ],
-        "name": "No Manipulators"
+        "name": "无肢"
     },
     "45d282f6-7671-459b-8e87-97d8df4736b9": {
         "name": "强壮手臂",
@@ -7716,7 +7716,7 @@
         "features": [
             {
                 "name": {
-                    "qualifier": "thaumatology"
+                    "qualifier": "魔导学"
                 }
             },
             {
@@ -7731,26 +7731,26 @@
                 "name": "舞蹈"
             },
             "f151ee39-e427-4d37-810e-d4f332b69405": {
-                "name": "Dark-Aspected"
+                "name": "黑暗倾向"
             },
             "b391ce81-ecb1-4bb5-8a76-17654ea96a3a": {
-                "name": "Day-Aspected"
+                "name": "白昼倾向"
             },
             "b65098b9-542f-4074-a84c-cb91b491c685": {
-                "name": "Musical"
+                "name": "音乐魔法"
             },
             "8e0c6667-35ec-443d-ab58-2744547934a2": {
-                "name": "Night-Aspected"
+                "name": "黑夜倾向"
             },
             "33aee417-5f27-43ed-9e74-96f6f2ddb2fc": {
-                "name": "One College",
-                "notes": "@College@"
+                "name": "单一学派",
+                "notes": "@学派@"
             },
             "ab51bbd4-d383-4f72-a9c0-2ad5064a177b": {
-                "name": "Solitary"
+                "name": "孤独施法"
             },
             "edf1d838-59d8-4946-b094-0a471d9e8318": {
-                "name": "Song"
+                "name": "唱歌施法"
             }
         }
     },
@@ -8021,7 +8021,7 @@
             "异种",
             "生理"
         ],
-        "name": "No Legs (Semi-Aquatic)"
+        "name": "无腿（半水生）"
     },
     "8cd14308-70e6-47e4-a78e-8456144d1127": {
         "tags": [
@@ -8041,7 +8041,7 @@
                 "name": "可以抵抗"
             },
             "81557fda-960c-4567-8b62-92c171f7b45f": {
-                "name": "Discriminatory"
+                "name": "识别性"
             },
             "20149ce7-11c0-409d-821f-1b3f8459ce9c": {
                 "name": "疲劳"
@@ -8287,11 +8287,11 @@
             "劣势",
             "心理"
         ],
-        "notes": "You are psychologically unprepared to kill people. Whenever you make a deadly attack (e.g., with a knife or a gun) against an obvious person whose face is visible to you, you are at -4 to hit and may not Aim. If you cannot see the foe’s face (due to a mask, darkness, or distance, or because you attacked from behind), the penalty is only -2, save in close combat. You have no penalty to attack a vehicle (even an occupied one), an opponent you do not believe is a person (including things with Horrific or Monstrous appearance), or a target you can’t actually see (e.g., a set of map coordinates or a blip on a radar screen). If you kill a recognizable person, the effect on you is the same as for Pacifism: Cannot Kill. You have no problem with your allies killing; you may even supply ammo, loaded weapons, and encouragement! You just can’t do the killing yourself.",
-        "name": "Pacifism: Reluctant Killer",
+        "notes": "你在心理上对于杀“人”没有做好准备。每当你试图对于一个明显是人、看得见脸的东西进行可能致死的攻击，你的攻击承受 -4 而且不能瞄准。如果你不能看到它的脸（由于面具、黑暗或是距离、或是因为你从后面攻击），减值只有 -2，除非你与他在进行贴身战队。你可以没有减值地攻击载具（哪怕里面明显有人）、你不能相信是人的对手（例如那些外貌低到恐怖或是怪兽级别的人物）、或是你没有亲眼看到的目标（例如一张地图上的坐标或是雷达上的一个光点，没有杀人惩罚）。如果你杀死了一个你能够亲眼认出来是人的人，你承受的负面情绪与“和平主义：无法杀戮”相同。你对于队友进行杀戮没有任何问题，你甚至可以为他们提供弹药、装填武器和加油鼓劲！你只是自己下不了手而已。",
+        "name": "和平主义：不愿杀人",
         "modifiers": {
             "6d3031de-32e5-4203-a9ad-f1ff23f723fd": {
-                "name": "Species-Specific"
+                "name": "物种特异性的"
             }
         }
     },
@@ -8586,8 +8586,8 @@
             "劣势",
             "心理"
         ],
-        "notes": "Make a self-control roll each morning upon awakening. If you fail, you suffered nightmares; this costs you 1 FP that you can only recover through sleep. On a roll of 17 or 18, you are left shaking, and are at -1 to all skill and Perception rolls for the entire day.",
-        "name": "Nightmares"
+        "notes": "每天早晨醒来的时候进行一次自控，失败则损失 1FP，这个 FP 只能通过睡眠恢复。在投出 17 或 18 的时候，你由于梦境颤栗不已，所有技能检定和感知检定有 -1 减值，持续一整天。",
+        "name": "噩梦缠身"
     },
     "6e4cb440-84a4-481a-ae1a-467743192710": {
         "name": "Single-Minded",
@@ -8749,13 +8749,13 @@
         "name": "危险感知"
     },
     "dbc8fcd8-e471-4d89-aaed-92388d5ca3aa": {
-        "name": "No Legs (Tracked)",
+        "name": "无腿（履带）",
         "tags": [
             "劣势",
             "异种",
             "生理"
         ],
-        "notes": "@Number of Treads@ treads"
+        "notes": "@履带的数量@条履带"
     },
     "8d19ef6a-ed87-40e4-ade0-735f6a166f52": {
         "tags": [
@@ -8763,7 +8763,7 @@
             "异种",
             "生理"
         ],
-        "name": "No Legs (Aerial)",
+        "name": "无腿（空生）",
         "prereqs": {
             "prereqs": [
                 {
@@ -8912,7 +8912,7 @@
             "心理"
         ],
         "name": "污脏恐惧症（肮脏）",
-        "notes": "You are deathly afraid of infection, or just of dirt and filth. Make a self-control roll when you must do something that might get you dirty. Roll at -5 to eat any unaccustomed food. You should act as “finicky” as possible."
+        "notes": "你对于感染怕得要死，或是只是对泥土和肮脏怕得要死。当你做一些可能弄脏自己的事情的时候，进行自控检定。食用不寻常的食物的时候检定有 -5 减值。你应该尽力表现“有洁癖”。"
     },
     "3a7d4158-d8a1-49ee-8e24-1039ef6d053f": {
         "name": "异变时流",
@@ -9465,7 +9465,7 @@
             "心理",
             "Quirk"
         ],
-        "name": "Nosy"
+        "name": "爱管闲事"
     },
     "ef1d2fb4-4f4b-4fb6-a149-98f067da0f20": {
         "tags": [
@@ -9737,7 +9737,7 @@
             "劣势",
             "心理"
         ],
-        "notes": "You are terrified by the idea of death. Make a self-control roll in the presence of any dead body (animals don’t count, but portions of human bodies do). Roll at -4 if the body is that of someone you know, or -6 if the body is unnaturally animated in some way. A ghost (or apparent ghost) also requires a roll at -6.",
+        "notes": "想到死亡让你害怕。当你遇到尸体（动物的不算，但是人类尸体的残片算）你需要做自控检定。如果尸体是你认识的人的，自控有 -4 减值；或者如果尸体不正常地活动起来了，-6。鬼魂（或是看起来是鬼魂的玩意）同样触发自控 -6 检定。",
         "name": "死亡恐惧症（死亡）"
     },
     "9a28293b-1ccc-4cfb-8c86-d78cde3342a8": {
@@ -9826,8 +9826,8 @@
             "劣势",
             "生理"
         ],
-        "notes": "Your arc of vision is a 120° wedge to the front. On a map, your “left” and “right” hexes become “back” hexes – that is, you have three “back” hexes, and get no defense against attacks originating from these hexes!",
-        "name": "No Peripheral Vision"
+        "notes": "你的视角锁定在前方的 120 度。在地图上，你的侧面格子变成“后方”。因此，你有了三个后方格子，从这些格子中发出的攻击都无法防御！",
+        "name": "无边缘视野"
     },
     "afc12fc8-21a3-4b87-b541-86148579a289": {
         "name": "职责（@职责@）",
@@ -9899,7 +9899,7 @@
             "异种",
             "生理"
         ],
-        "name": "Morph",
+        "name": "变形",
         "modifiers": {
             "256abf35-ba9e-4bfb-adf9-9b1160eb1681": {
                 "name": "无限制"
@@ -9908,31 +9908,31 @@
                 "name": "变更容貌"
             },
             "df2d9420-a499-4a4c-87ab-27b9bcd7e159": {
-                "name": "Retains Shape"
+                "name": "保持形态"
             },
             "4f84495c-1628-4c9f-9ad8-08c7fd0d3ce9": {
-                "name": "Mass Conservation"
+                "name": "保持质量"
             },
             "50c07901-2485-4733-bfd4-7c8c99d374e7": {
                 "name": "激活变形"
             },
             "d921b98c-4a39-4164-a8de-8ee05d4d1f80": {
-                "name": "Improvised Forms"
+                "name": "临时形态"
             },
             "9edb757f-a8ad-4489-a730-cc19ddfb8327": {
-                "name": "Cosmic (For Improvised Forms)"
+                "name": "超元（对于临时形态）"
             },
             "79cadbb2-9a8a-4063-8aff-6213b733f3c0": {
-                "name": "No Memorization Required"
+                "name": "无需记忆"
             },
             "20988bb7-8846-4d1e-a497-c66d5796678c": {
-                "name": "Cannot Memorize Forms"
+                "name": "无法记忆形态"
             },
             "f0241224-4e6a-4ebf-8a97-b87e00a168c9": {
-                "name": "Flawed"
+                "name": "残缺"
             },
             "73d30418-6a28-4302-8699-2a0d6c205d63": {
-                "name": "Unliving Forms Only"
+                "name": "仅限无生命形态"
             }
         }
     },
@@ -9941,7 +9941,7 @@
             "劣势",
             "生理"
         ],
-        "name": "No Fine Manipulators"
+        "name": "无操作肢"
     },
     "914296e1-facd-4368-817d-8bc082cd678e": {
         "tags": [
@@ -10070,7 +10070,7 @@
         }
     },
     "05397dba-3a42-49b2-b03e-46bd6c9df7a2": {
-        "name": "No Legs (Rolls)",
+        "name": "无腿（滚动）",
         "tags": [
             "劣势",
             "异种",
@@ -10336,22 +10336,22 @@
             "劣势",
             "心理"
         ],
-        "name": "Non-Iconographic",
+        "name": "图形盲",
         "prereqs": {
             "prereqs": [
                 {
                     "name": {
-                        "qualifier": "symbol drawing"
+                        "qualifier": "绘制符文"
                     }
                 },
                 {
                     "name": {
-                        "qualifier": "heraldry"
+                        "qualifier": "纹章学"
                     }
                 },
                 {
                     "name": {
-                        "qualifier": "cartography"
+                        "qualifier": "制图"
                     }
                 }
             ]
@@ -10407,15 +10407,15 @@
         ]
     },
     "02b0051f-766c-4320-bcb4-b67092d53002": {
-        "notes": "You may fight – you may even start fights – but you may only use deadly force on a foe that is attempting to do you serious harm. Capture is not “serious harm” unless you are already under penalty of death or have a Code of Honor that would require suicide if captured. You never intentionally do anything that causes, or even threatens to cause, injury to the uninvolved – particularly if they are “ordinary folks.”",
-        "name": "Pacifism: Cannot Harm Innocents",
+        "notes": "你可以战斗——你甚至可以挑起战斗——但是你只能对于想要对你施加严重伤害的敌人使用致命武力。抓捕不属于“严重伤害”，除非对方已经对你判处了死刑或是你具有的荣誉准则要求你被俘后自尽。你从来不能做那些会危害哪些无关人士——特别是“无辜群众”的事情。",
+        "name": "和平主义：不能伤害无辜",
         "tags": [
             "劣势",
             "心理"
         ],
         "modifiers": {
             "74354ea8-96ba-4eee-9027-9f746e9bd941": {
-                "name": "Species-Specific"
+                "name": "物种特异性的"
             }
         }
     },
@@ -10424,7 +10424,7 @@
             "生理",
             "Quirk"
         ],
-        "name": "Overweight",
+        "name": "超重",
         "features": [
             {
                 "name": {
@@ -10442,7 +10442,7 @@
                 }
             },
             {
-                "situation": "to ST vs. knockback"
+                "situation": "对于对抗击倒时的 ST"
             }
         ]
     },
@@ -10756,15 +10756,15 @@
         }
     },
     "38d0c011-b055-44f6-ab8e-befc480f146f": {
-        "name": "On the Edge",
+        "name": "不顾一切",
         "tags": [
             "劣势",
             "心理"
         ],
-        "notes": "Make a self-control roll whenever you face a life-threatening situation: piloting a burning vehicle, staring down an entire street gang while armed only with a toothbrush, etc. If you fail, you may not back down from the challenge – but you may roll again after every success roll or reaction roll relating to the situation. In combat, make a self-control roll every time you take your turn. If you fail, you must make an All-Out attack or engage in some other kind of near-insane, suicidal behavior.",
+        "notes": "在你面对生命威胁时：驾驶正在燃烧的车辆，身上的武器只有牙刷的情况下挑衅地怒视着一整条街的帮派份子，等等。你需要进行一次自控检定。如果你失败了，你不能从这种挑战中转进——但是每有一次成败检定或是反应检定，你都得到一次重新检定的机会。在战斗中，在你的轮开始时，你需要做一次自控检定。失败则你必须进行全力攻击或是采取其他近乎疯狂的，自杀式的行为。",
         "features": [
             {
-                "situation": "from others if they witness your On the Edge behavior, unless it is someone who values bravery over self-preservation (GM’s decision), who will react at +2 instead"
+                "situation": "来自对于见过你的不顾一切行为的人。不过那些重视勇气胜过自保的人（GM决定）对你反应 +2"
             }
         ]
     },
@@ -10917,22 +10917,22 @@
             "劣势",
             "生理"
         ],
-        "name": "No Depth Perception",
+        "name": "无深度视觉",
         "prereqs": {
             "prereqs": [
                 {
                     "name": {
-                        "qualifier": "one eye"
+                        "qualifier": "独眼"
                     }
                 }
             ]
         },
         "features": [
             {
-                "situation": "to DX in combat and on any task involving hand-eye coordination"
+                "situation": "对于任何需要用到手眼协调性的动作，以及战斗中所需的 DX 检定"
             },
             {
-                "situation": "on ranged attacks (unless you Aim first) and on rolls to operate any vehicle faster than a horse and buggy"
+                "situation": "在操作远程武器（除非你预先瞄准），或是驾驭比马匹或童车更快的载具上"
             }
         ]
     },
@@ -11005,8 +11005,8 @@
             "异种",
             "生理"
         ],
-        "notes": "@Number of Wheels@ wheels",
-        "name": "No Legs (Wheeled)"
+        "notes": "@轮子的数量@个轮子",
+        "name": "无脚（轮子）"
     },
     "22228b89-7c80-4441-9ff3-ac569bfaf1b1": {
         "tags": [
@@ -11132,11 +11132,11 @@
             "劣势",
             "生理"
         ],
-        "notes": "You cannot use two-handed weapons, wield two weapons at once (or a weapon and a shield), or perform any task that requires two arms",
-        "name": "One Hand",
+        "notes": "你不能使用双手武器，同时挥舞两把武器（或一手武器一手持盾），或执行任何需要两只手臂的任务",
+        "name": "独手",
         "features": [
             {
-                "situation": "on tasks that are possible with one arm but that are usually executed with two"
+                "situation": "在可以通过一 只手臂完成但通常需要两只手臂的任务上"
             }
         ]
     },
@@ -11317,7 +11317,7 @@
         "name": "性交恐惧症（性）"
     },
     "15cb67fd-4d54-44ae-926d-fea39149d0ea": {
-        "name": "Obscure (@Sense@)",
+        "name": "遮蔽（@感官@）",
         "tags": [
             "优势",
             "异种",
@@ -11325,31 +11325,31 @@
         ],
         "modifiers": {
             "6bcd1d67-4bec-45c5-8e53-afcf2af34415": {
-                "name": "Defensive"
+                "name": "防御性"
             },
             "2cc1e79d-54bb-4e39-9b05-a6ec10b60b94": {
-                "name": "拓展效果",
+                "name": "延展",
                 "notes": "@感官@"
             },
             "d1ae6617-1d6b-47e6-a392-826bd1eeea0d": {
                 "name": "远程"
             },
             "a7936ef4-b7e5-4d81-9efb-37d49050530c": {
-                "name": "Stealthy"
+                "name": "匿踪"
             },
             "2fa9a36c-0cb6-4e3c-ba52-47f404f91cb1": {
                 "name": "总是开启"
             },
             "7779354f-7658-4c57-8861-eb03382a92f7": {
-                "name": "Limited",
-                "notes": "@Source@"
+                "name": "限制",
+                "notes": "@来源@"
             },
             "e2eea33e-e7d3-46af-b926-5f6dd0e066f5": {
-                "name": "Limited",
+                "name": "限制",
                 "notes": "@异能@"
             },
             "a367fc81-3857-46e0-ae56-eaf3d4769c97": {
-                "name": "Anti-Targeting"
+                "name": "反攻击"
             }
         }
     },
@@ -11542,15 +11542,15 @@
         }
     },
     "b70003ce-071b-48a3-bfc4-41513d9ba055": {
-        "name": "Pacifism: Self-Defense Only",
-        "notes": "You only fight to defend yourself or those in your care, using only as much force as necessary (no pre-emptive strikes allowed!). You must do your best to discourage others from starting fights.",
+        "name": "和平主义：只能自卫",
+        "notes": "你只能为保护你自己和你所珍惜的人儿战斗，只使用绝对必要的武力（禁止先发制人！）。你必须尽力劝阻别人发起战斗。",
         "tags": [
             "劣势",
             "心理"
         ],
         "modifiers": {
             "49522b66-fa2d-4daa-8672-487ba857cc9f": {
-                "name": "Species-Specific"
+                "name": "物种特异性的"
             }
         }
     },
@@ -11884,10 +11884,10 @@
             "异种",
             "生理"
         ],
-        "name": "Nocturnal",
+        "name": "夜行性",
         "modifiers": {
             "17779d0e-b107-4e43-b6b9-9d799eba06d8": {
-                "name": "Permanent Paralysis"
+                "name": "永久麻痹"
             }
         }
     },
@@ -11916,7 +11916,7 @@
         ]
     },
     "b3878ca3-efd0-4c61-977b-0a63aaaadf68": {
-        "name": "No Hangover",
+        "name": "不会宿醉",
         "tags": [
             "Perk",
             "生理"
@@ -12595,22 +12595,22 @@
             "劣势",
             "生理"
         ],
-        "name": "One Eye",
+        "name": "独眼",
         "prereqs": {
             "prereqs": [
                 {
                     "name": {
-                        "qualifier": "No Depth Perception"
+                        "qualifier": "无深度视觉"
                     }
                 }
             ]
         },
         "features": [
             {
-                "situation": "to DX in combat and on any task involving hand-eye coordination"
+                "situation": "对于任何需要用到手眼协调性的动作，以及战斗中所需的 DX 检定"
             },
             {
-                "situation": "on ranged attacks (unless you Aim first) and on rolls to operate any vehicle faster than a horse and buggy"
+                "situation": "在操作远程武器（除非你预先瞄准），或是驾驭比马匹或童车更快的载具上"
             }
         ]
     },
@@ -13109,17 +13109,17 @@
             "劣势",
             "生理"
         ],
-        "name": "Odious Personal Habit",
+        "name": "个人恶习",
         "notes": "@习惯@",
         "modifiers": {
             "3d982038-f3cc-476f-8f1a-1221f87c1ec8": {
-                "name": "-1 Reaction"
+                "name": "-1 反应"
             },
             "9dd7b646-b563-4eb1-ac3b-6672412868c1": {
-                "name": "-2 Reaction"
+                "name": "-2 反应"
             },
             "5ed445b6-67ea-4f24-af06-50d80a1d0d94": {
-                "name": "-3 Reaction"
+                "name": "-3 反应"
             }
         }
     },
@@ -13136,10 +13136,10 @@
             "异种",
             "生理"
         ],
-        "name": "Nictitating Membrane",
+        "name": "瞬膜",
         "features": [
             {
-                "situation": "to all HT rolls concerned with eye damage"
+                "situation": "对于与眼部伤害有关的 HT 检定"
             }
         ]
     },
@@ -13553,11 +13553,11 @@
             "劣势",
             "心理"
         ],
-        "name": "Pacifism: Cannot Kill",
-        "notes": "You may fight – you may even start fights – but you may never do anything that seems likely to kill another. This includes abandoning a wounded foe to die “on his own”! You must do your best to keep your companions from killing, too. If you do kill someone (or feel responsible for a death), you immediately suffer a nervous breakdown. Roll 3d and be totally morose and useless for that many days. During this time, you must make a Will roll to offer any sort of violence toward anyone, for any reason.",
+        "name": "和平主义：无法杀戮",
+        "notes": "你可以战斗——你甚至可以挑起战斗——但是你不能做任何看起来会造成死亡的事情。这个包括了抛下受伤的敌人让他“自己照顾自己”！而且你必须尽力阻止队友的杀戮。如果你还是杀了人（或者是感觉对于他的死有责任），你立即不堪精神重负而崩溃。投 3d，在这些天内，你整天郁郁不乐，什么都不想干（扮演出来！）。在这段时间里，你对于任何人由于任何原因使用暴力都需要进行意志检定。",
         "modifiers": {
             "90acca03-6b28-4979-a04f-b2f75d4d1fa9": {
-                "name": "Species-Specific"
+                "name": "物种特异性的"
             }
         }
     },
@@ -13696,10 +13696,10 @@
             "心理",
             "超自然"
         ],
-        "name": "Oracle",
+        "name": "昭示",
         "modifiers": {
             "a4f7fa0a-c2c7-4267-83da-30dd4620e58f": {
-                "name": "Inspired"
+                "name": "启示"
             }
         }
     },
@@ -13722,11 +13722,11 @@
             "劣势",
             "心理"
         ],
-        "name": "Pacifism: Total Nonviolence",
-        "notes": "You will not lift a hand against another intelligent creature, for any reason. You must do your nonviolent best to discourage violent behavior in others, too. You are free to defend yourself against attacks by animals, mosquitoes, etc.",
+        "name": "和平主义：完全非暴力",
+        "notes": "不论有什么的原因，你都不会对于任何智慧生物施加任何程度的暴力。你必须尽你非暴力的最大努力来阻止别人的暴力。对于蚊子、动物等的侵袭你可以自卫。",
         "modifiers": {
             "d80be636-1a32-4d36-af97-04d6e459d119": {
-                "name": "Species-Specific"
+                "name": "物种特异性的"
             }
         }
     },
@@ -13897,8 +13897,8 @@
             "劣势",
             "生理"
         ],
-        "notes": "You may never learn any vehicle-operation skill. You must roll vs. HT as soon as you are aboard a moving vehicle. On a failure, you vomit and are at -5 on all DX, IQ, and skill rolls for the rest of the journey. On a success, you are merely miserably queasy and at -2 on DX, IQ, and skill rolls. Roll daily on long journeys.",
-        "name": "Motion Sickness",
+        "notes": "你无法学习任何载具操作技能。当你登上在运动的载具的时候，你必须立即进行 HT 检定。如果失败，你呕吐不止，并且在剩下的旅途中承受 DX、IQ 和技能检定上 -5 的减值。如果成功，你只不过是非常不舒服，所有减值为 -2。很长的行程则每天检定一次。",
+        "name": "运动病",
         "prereqs": {
             "prereqs": [
                 {
@@ -13908,7 +13908,7 @@
                 },
                 {
                     "name": {
-                        "qualifier": "submarine"
+                        "qualifier": "潜水艇"
                     }
                 },
                 {
@@ -13918,7 +13918,7 @@
                 },
                 {
                     "name": {
-                        "qualifier": "shiphandling"
+                        "qualifier": "船舶掌握"
                     }
                 },
                 {
@@ -14034,7 +14034,7 @@
         ],
         "features": [
             {
-                "situation": "to HT rolls to avoid illness brought on by rich or spicy food, strong drink, etc."
+                "situation": "对于避免油腻辛辣的食物、酒等所带来的恶心的 HT 检定。"
             }
         ]
     },
@@ -14150,7 +14150,7 @@
         ]
     },
     "707e522a-2fd6-412e-ac81-b44721b44de6": {
-        "name": "Night Vision",
+        "name": "夜视",
         "tags": [
             "优势",
             "生理"
@@ -14517,14 +14517,14 @@
             "异种",
             "生理"
         ],
-        "name": "No Legs (Slithers)"
+        "name": "无腿（蛇形）"
     },
     "3f790223-b8b2-4070-8400-ca375fb88dbe": {
         "tags": [
             "劣势",
             "生理"
         ],
-        "name": "Numb"
+        "name": "触觉丧失"
     },
     "b35faada-beef-4615-81c4-0fe76df9bc80": {
         "tags": [
