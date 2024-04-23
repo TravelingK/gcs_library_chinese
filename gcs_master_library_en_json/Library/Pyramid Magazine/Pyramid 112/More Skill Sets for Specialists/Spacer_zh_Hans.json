@@ -6,8 +6,8 @@
                 "b4eaf5fd-3693-4c18-845d-131d3e251807": {
                     "name": "Seasoned Spacer",
                     "tags": [
-                        "Advantage",
-                        "Mental",
+                        "优势",
+                        "心理",
                         "Perk"
                     ],
                     "notes": "+1 on all DX, HT, Free Fall, Piloting, Spacer, and Vacc Suit rolls to resist personal (not vehicular) disasters aboard ship."
@@ -16,10 +16,10 @@
                     "name": "When doubling up",
                     "children": {
                         "b333c0ed-af28-4f08-bd9e-d72711d0ac88": {
-                            "name": "G-Experience",
+                            "name": "重力场适应",
                             "tags": [
-                                "Advantage",
-                                "Mental"
+                                "优势",
+                                "心理"
                             ]
                         }
                     }
@@ -32,8 +32,8 @@
                 "bc5d2d93-ca34-4a9f-84bf-c8c5262210e3": {
                     "name": "Seasoned Spacer",
                     "tags": [
-                        "Advantage",
-                        "Mental",
+                        "优势",
+                        "心理",
                         "Perk"
                     ],
                     "notes": "+1 on all DX, HT, Free Fall, Piloting, Spacer, and Vacc Suit rolls to resist personal (not vehicular) disasters aboard ship."
@@ -42,10 +42,10 @@
                     "name": "When doubling up",
                     "children": {
                         "df257fc0-b351-4fa6-b4b0-b3fd90d530b5": {
-                            "name": "G-Experience",
+                            "name": "重力场适应",
                             "tags": [
-                                "Advantage",
-                                "Mental"
+                                "优势",
+                                "心理"
                             ]
                         }
                     }
@@ -61,18 +61,18 @@
                     "name": "4 points in",
                     "children": {
                         "538de5c7-8262-4780-9303-b565d61e3323": {
-                            "name": "Freight Handling",
+                            "name": "装卸",
                             "tags": [
-                                "Technical",
-                                "Vehicle"
+                                "技术",
+                                "载具"
                             ]
                         },
                         "e400b42d-a411-4f57-89ce-7c8b11ed1ec0": {
-                            "name": "Smuggling",
+                            "name": "走私",
                             "tags": [
-                                "Criminal",
-                                "Spy",
-                                "Street"
+                                "犯罪",
+                                "间谍",
+                                "街头"
                             ]
                         }
                     }
@@ -84,9 +84,9 @@
                             "name": "2 points in G-Experience"
                         },
                         "9d280e4c-36e6-426c-b049-aa57f0261cea": {
-                            "name": "Free Fall",
+                            "name": "自由落体",
                             "tags": [
-                                "Athletic"
+                                "运动"
                             ]
                         }
                     }
@@ -95,114 +95,114 @@
                     "name": "Choose one",
                     "children": {
                         "dbcd1d52-27de-40c1-a86f-cbfdc86af7fd": {
-                            "name": "Piloting",
+                            "name": "飞行驾驶",
                             "tags": [
-                                "Vehicle"
+                                "载具"
                             ],
-                            "specialization": "Aerospace",
+                            "specialization": "空天飞机",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Piloting",
-                                    "specialization": "High-Performance Airplane"
+                                    "name": "飞行驾驶",
+                                    "specialization": "高性能飞机"
                                 },
                                 {
-                                    "name": "Piloting"
+                                    "name": "飞行驾驶"
                                 }
                             ]
                         },
                         "909cf9b5-bb21-48f9-827c-bd1d5cd9197d": {
-                            "name": "Piloting",
+                            "name": "飞行驾驶",
                             "tags": [
-                                "Vehicle"
+                                "载具"
                             ],
-                            "specialization": "High-Performance Spacecraft",
+                            "specialization": "高性能航天器",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Piloting",
-                                    "specialization": "Aerospace"
+                                    "name": "飞行驾驶",
+                                    "specialization": "空天飞机"
                                 },
                                 {
-                                    "name": "Piloting",
-                                    "specialization": "Low-Performance Spacecraft"
+                                    "name": "飞行驾驶",
+                                    "specialization": "低性能航天器"
                                 }
                             ]
                         }
                     }
                 },
                 "11ed3efe-d2f1-4de9-b339-75888e36f9b9": {
-                    "name": "Mechanic",
+                    "name": "机修",
                     "tags": [
-                        "Maintenance",
-                        "Repair"
+                        "维护",
+                        "修理"
                     ],
-                    "specialization": "Spaceship",
+                    "specialization": "太空船",
                     "defaults": [
                         {},
                         {
-                            "name": "Engineer",
-                            "specialization": "Aerospace"
+                            "name": "工程学",
+                            "specialization": "空天飞机"
                         },
                         {
-                            "name": "Machinist"
+                            "name": "机工"
                         },
                         {
-                            "name": "Mechanic"
+                            "name": "机修"
                         }
                     ]
                 },
                 "f7d5e013-60f7-4a02-944b-91cc84414365": {
-                    "name": "Navigation",
+                    "name": "导航",
                     "tags": [
-                        "Exploration",
-                        "Outdoor",
-                        "Technical",
-                        "Vehicle"
+                        "探索",
+                        "户外",
+                        "技术",
+                        "载具"
                     ],
-                    "specialization": "Space",
+                    "specialization": "太空",
                     "defaults": [
                         {
-                            "name": "Astronomy"
+                            "name": "天文学"
                         },
                         {
-                            "name": "Mathematics",
-                            "specialization": "Applied"
+                            "name": "数学",
+                            "specialization": "应用"
                         },
                         {
-                            "name": "Navigation",
-                            "specialization": "Hyperspace"
+                            "name": "导航",
+                            "specialization": "超空间"
                         }
                     ]
                 },
                 "6f1aaa96-51cd-4a95-95a6-b62880de0897": {
-                    "name": "Scrounging",
+                    "name": "搜集",
                     "tags": [
-                        "Criminal",
-                        "Street"
+                        "犯罪",
+                        "街头"
                     ]
                 },
                 "7cb36f5e-ede9-45c3-aed4-09b296a9ee24": {
-                    "name": "Spacer",
+                    "name": "空间",
                     "tags": [
-                        "Vehicle"
+                        "载具"
                     ]
                 },
                 "3cfcc32b-f17e-4b67-93f9-d7f43aa8b366": {
-                    "name": "Vacc Suit",
+                    "name": "真空服",
                     "tags": [
-                        "Technical"
+                        "技术"
                     ],
                     "defaults": [
                         {},
                         {
-                            "name": "Diving Suit"
+                            "name": "潜水服"
                         },
                         {
-                            "name": "NBC Suit"
+                            "name": "三防服"
                         },
                         {
-                            "name": "Battlesuit"
+                            "name": "战斗服"
                         }
                     ]
                 }
@@ -218,9 +218,9 @@
                             "name": "2 points in G-Experience"
                         },
                         "aad9564c-abe9-4313-a23f-115928eef682": {
-                            "name": "Free Fall",
+                            "name": "自由落体",
                             "tags": [
-                                "Athletic"
+                                "运动"
                             ]
                         }
                     }
@@ -229,37 +229,37 @@
                     "name": "Choose one",
                     "children": {
                         "b1af33d8-4f0f-427c-9413-c2c54c772597": {
-                            "name": "Piloting",
+                            "name": "飞行驾驶",
                             "tags": [
-                                "Vehicle"
+                                "载具"
                             ],
-                            "specialization": "Aerospace",
+                            "specialization": "空天飞机",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Piloting",
-                                    "specialization": "High-Performance Airplane"
+                                    "name": "飞行驾驶",
+                                    "specialization": "高性能飞机"
                                 },
                                 {
-                                    "name": "Piloting"
+                                    "name": "飞行驾驶"
                                 }
                             ]
                         },
                         "68ed53be-3b8f-4d70-aabb-8b60097c9f4a": {
-                            "name": "Piloting",
+                            "name": "飞行驾驶",
                             "tags": [
-                                "Vehicle"
+                                "载具"
                             ],
-                            "specialization": "High-Performance Spacecraft",
+                            "specialization": "高性能航天器",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Piloting",
-                                    "specialization": "Aerospace"
+                                    "name": "飞行驾驶",
+                                    "specialization": "空天飞机"
                                 },
                                 {
-                                    "name": "Piloting",
-                                    "specialization": "Low-Performance Spacecraft"
+                                    "name": "飞行驾驶",
+                                    "specialization": "低性能航天器"
                                 }
                             ]
                         }
@@ -271,34 +271,34 @@
                         "04cb3127-175f-4c00-b409-9728a4db9962": {
                             "name": "Artillery",
                             "tags": [
-                                "Combat",
-                                "Ranged Combat",
-                                "Weapon"
+                                "战斗",
+                                "远程战斗",
+                                "武器"
                             ],
-                            "specialization": "Beams"
+                            "specialization": "光束"
                         },
                         "e1eff0c1-7005-4423-996b-268c36f92f45": {
                             "name": "Artillery",
                             "tags": [
-                                "Combat",
-                                "Ranged Combat",
-                                "Weapon"
+                                "战斗",
+                                "远程战斗",
+                                "武器"
                             ],
                             "specialization": "Bombs"
                         },
                         "a1276ddc-0b62-4c64-b5f5-500f7427c404": {
                             "name": "Artillery",
                             "tags": [
-                                "Combat",
-                                "Ranged Combat",
-                                "Weapon"
+                                "战斗",
+                                "远程战斗",
+                                "武器"
                             ],
                             "specialization": "Guided Missile"
                         },
                         "4c10605f-110e-4bb2-8f2c-d24a5ec6023f": {
-                            "name": "Forward Observer",
+                            "name": "前方观察员",
                             "tags": [
-                                "Military"
+                                "军事"
                             ],
                             "defaults": [
                                 {},
@@ -310,11 +310,11 @@
                         "0e25f69b-6679-4403-a3ac-1255457209f1": {
                             "name": "Gunner",
                             "tags": [
-                                "Combat",
-                                "Ranged Combat",
-                                "Weapon"
+                                "战斗",
+                                "远程战斗",
+                                "武器"
                             ],
-                            "specialization": "Beams",
+                            "specialization": "光束",
                             "defaults": [
                                 {},
                                 {
@@ -325,9 +325,9 @@
                         "90533ac8-c78c-44fc-ba1e-511305fcc61e": {
                             "name": "Gunner",
                             "tags": [
-                                "Combat",
-                                "Ranged Combat",
-                                "Weapon"
+                                "战斗",
+                                "远程战斗",
+                                "武器"
                             ],
                             "specialization": "Cannon",
                             "defaults": [
@@ -340,11 +340,11 @@
                         "d37352ba-e6c0-4e84-aabb-a08e61c66031": {
                             "name": "Gunner",
                             "tags": [
-                                "Combat",
-                                "Ranged Combat",
-                                "Weapon"
+                                "战斗",
+                                "远程战斗",
+                                "武器"
                             ],
-                            "specialization": "Machine Gun",
+                            "specialization": "机枪",
                             "defaults": [
                                 {},
                                 {
@@ -355,9 +355,9 @@
                         "cc28295d-996f-4f55-9151-b602ea6e21f2": {
                             "name": "Gunner",
                             "tags": [
-                                "Combat",
-                                "Ranged Combat",
-                                "Weapon"
+                                "战斗",
+                                "远程战斗",
+                                "武器"
                             ],
                             "specialization": "Rockets",
                             "defaults": [
@@ -368,103 +368,103 @@
                             ]
                         },
                         "2c2bc113-7d79-4ece-87f4-ecf890f39569": {
-                            "name": "Guns",
+                            "name": "手枪",
                             "tags": [
-                                "Combat",
-                                "Ranged Combat",
-                                "Weapon"
+                                "战斗",
+                                "远程战斗",
+                                "武器"
                             ],
                             "specialization": "@Any@",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Guns"
+                                    "name": "手枪"
                                 }
                             ]
                         }
                     }
                 },
                 "e23f7ceb-73ee-493c-89af-f428f89836fa": {
-                    "name": "Mechanic",
+                    "name": "机修",
                     "tags": [
-                        "Maintenance",
-                        "Repair"
+                        "维护",
+                        "修理"
                     ],
-                    "specialization": "Spaceship",
+                    "specialization": "太空船",
                     "defaults": [
                         {},
                         {
-                            "name": "Engineer",
-                            "specialization": "Aerospace"
+                            "name": "工程学",
+                            "specialization": "空天飞机"
                         },
                         {
-                            "name": "Machinist"
+                            "name": "机工"
                         },
                         {
-                            "name": "Mechanic"
+                            "name": "机修"
                         }
                     ]
                 },
                 "3de6f08d-3531-4943-b25c-6aa65895c039": {
-                    "name": "Navigation",
+                    "name": "导航",
                     "tags": [
-                        "Exploration",
-                        "Outdoor",
-                        "Technical",
-                        "Vehicle"
+                        "探索",
+                        "户外",
+                        "技术",
+                        "载具"
                     ],
-                    "specialization": "Space",
+                    "specialization": "太空",
                     "defaults": [
                         {
-                            "name": "Astronomy"
+                            "name": "天文学"
                         },
                         {
-                            "name": "Mathematics",
-                            "specialization": "Applied"
+                            "name": "数学",
+                            "specialization": "应用"
                         },
                         {
-                            "name": "Navigation",
-                            "specialization": "Hyperspace"
+                            "name": "导航",
+                            "specialization": "超空间"
                         }
                     ]
                 },
                 "33bb6136-952e-4158-b3db-35f62235070f": {
-                    "name": "Savoir-Faire",
+                    "name": "礼仪",
                     "tags": [
-                        "Knowledge",
-                        "Military",
-                        "Social"
+                        "知识",
+                        "军事",
+                        "社会"
                     ],
-                    "specialization": "Military"
+                    "specialization": "军事"
                 },
                 "87d0704e-70d7-48f7-93f5-0ef5de9847cc": {
-                    "name": "Scrounging",
+                    "name": "搜集",
                     "tags": [
-                        "Criminal",
-                        "Street"
+                        "犯罪",
+                        "街头"
                     ]
                 },
                 "8ec7aa8a-a762-4fbb-9fef-d2a0c3cd4d3d": {
-                    "name": "Spacer",
+                    "name": "空间",
                     "tags": [
-                        "Vehicle"
+                        "载具"
                     ]
                 },
                 "423cada7-7f01-4896-bda8-c5917fffff82": {
-                    "name": "Vacc Suit",
+                    "name": "真空服",
                     "tags": [
-                        "Technical"
+                        "技术"
                     ],
                     "defaults": [
                         {},
                         {
-                            "name": "Diving Suit"
+                            "name": "潜水服"
                         },
                         {
-                            "name": "NBC Suit"
+                            "name": "三防服"
                         },
                         {
-                            "name": "Battlesuit"
+                            "name": "战斗服"
                         }
                     ]
                 }
