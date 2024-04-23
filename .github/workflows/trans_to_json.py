@@ -28,7 +28,7 @@ def outjson(nnskillline,docname):
         skill.write(skillline)
 
 class infoDict:
-    JsonList=['name','tags','notes','specialization','vtt_notes','situation','description','usage','usage_notes','full_name',"text"]
+    JsonList=['name','tags','notes','specialization','vtt_notes','situation','description','usage','usage_notes','full_name',"text",'power_source','spell_class','casting_time','duration','casting_cost','maintenance_cost','college']
     childrenList=['children','modifiers','weapons']
 
 
@@ -155,7 +155,25 @@ def en_to_file(input_file):
             new_json[i]=[]
             for ii in raw_json[i]:
                 new_json[i].append({'name':ii['name']})
+    elif(type=='body'):
+        locations_info_list=['choice_name','table_name','description']
+        new_json={}
+        new_json['name']=raw_json['name']
+        new_json['locations']={}
+        for i in raw_json['locations']:
+            new_json['locations'][i['id']]={}
+            for locations_info in locations_info_list:
+                if locations_info in i:
+                    new_json['locations'][i['id']][locations_info]=i[locations_info]
+    elif (type=='gct'):
+        new_json={}
+        infolist=['traits','skills','spells','equipment','notes']
+        for infoI in infolist:
+            if infoI in raw_json:
+                Info=infoDict(raw_json,into_list_type=infoI)
+                new_json[infoI]=Info.getChildren()
     else:
+        Info=infoDict(raw_json)
         new_json=Info.getChildren()
 
     outjson(new_json,mubiao_file)

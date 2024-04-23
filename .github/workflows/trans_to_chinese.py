@@ -63,6 +63,21 @@ def zh_to_file(mobanwenjian):
     mobanjson=getdict(mobanwenjian)
     if (type=='calendar'):
         mobanjson=mergeDict(mobanjson,chinesejson)
+    elif (type=='gct'):
+        for i2 in chinesejson:
+            for i in chinesejson[i2]:
+                for ii in mobanjson[i2]:
+                    if (ii['id']==i):
+                        ii=mergeDict(ii,chinesejson[i2][i])
+    elif (type=='body'):
+        mobanjson['name']=chinesejson['name']
+        location_list=[]
+        for i in mobanjson['locations']:
+            for ii in chinesejson['locations']:
+                if (i['id']==ii):
+                    location_list.append(mergeDict(i,chinesejson['locations'][ii]))
+        mobanjson['locations']=location_list
+
     else:
         for i in chinesejson:
             for ii in mobanjson['rows']:

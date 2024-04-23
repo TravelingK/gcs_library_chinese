@@ -19,7 +19,7 @@ jobs:
           git clone https://github.com/richardwilkes/gcs_master_library.git
           git clone https://github.com/richardwilkes/gcs.git
           cp gcs/model/gurps/embedded_data/Standard.attr gcs_master_library/Library/Settings/Calendars/
-          find ./gcs_master_library/|egrep  "..(skl|adq|adm|eqm|eqp|attr|not|calendar)$" >> list.txt
+          find ./gcs_master_library/Library|egrep  ".(skl|adq|adm|eqm|eqp|attr|not|calendar|spl|gct|body)$" >> list.txt
           while read line
           do
           echo $line
