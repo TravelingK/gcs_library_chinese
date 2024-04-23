@@ -4,42 +4,42 @@
             "name": "1 - Attributes",
             "children": {
                 "163ffa27-327d-40bb-86ee-24b9f1cb3302": {
-                    "name": "Increased Dexterity",
+                    "name": "增加敏捷",
                     "tags": [
-                        "Advantage",
-                        "Attribute",
-                        "Physical"
+                        "优势",
+                        "属性",
+                        "生理"
                     ],
                     "modifiers": {
                         "4b9dfa97-cfbd-49b3-9298-fcee7a974d23": {
-                            "name": "No Fine Manipulators"
+                            "name": "无操作肢"
                         }
                     }
                 },
                 "04ebaa4d-9458-44e9-8746-a6c9a4fc24aa": {
-                    "name": "Increased Health",
+                    "name": "增加体力",
                     "tags": [
-                        "Advantage",
-                        "Attribute",
-                        "Physical"
+                        "优势",
+                        "属性",
+                        "生理"
                     ]
                 },
                 "4758f140-a9bf-4461-a61e-15115590c737": {
-                    "name": "Increased Strength",
+                    "name": "增加力量",
                     "tags": [
-                        "Advantage",
-                        "Attribute",
-                        "Physical"
+                        "优势",
+                        "属性",
+                        "生理"
                     ],
                     "modifiers": {
                         "2ec65a0e-2e9c-455d-84d8-814822455abe": {
-                            "name": "No Fine Manipulators"
+                            "name": "无操作肢"
                         },
                         "ef2cca32-786c-4ff8-8fcc-ca2d4b8a07ea": {
-                            "name": "Size"
+                            "name": "体型"
                         },
                         "f4325a50-0bf1-4272-b3cb-b0a789c44d8a": {
-                            "name": "Super-Effort"
+                            "name": "超级出力"
                         }
                     }
                 }
@@ -49,16 +49,16 @@
             "name": "2 - Base Advantages",
             "children": {
                 "469440f1-788f-40de-b912-b1f3db91aa2f": {
-                    "name": "Combat Reflexes",
+                    "name": "战斗反射",
                     "tags": [
-                        "Advantage",
-                        "Mental"
+                        "优势",
+                        "心理"
                     ],
-                    "notes": "Never freeze",
+                    "notes": "永远不会“惊呆”",
                     "features": [
                         {
                             "name": {
-                                "qualifier": "fast-draw"
+                                "qualifier": "即时备战"
                             }
                         },
                         {},
@@ -66,17 +66,17 @@
                         {},
                         {},
                         {
-                            "situation": "on all IQ rolls to wake up or to recover from surprise or mental stun"
+                            "situation": "对于从心理震慑中恢复的 IQ 检定"
                         },
                         {
-                            "situation": "to initiative rolls for your side (+2 if you are the leader)"
+                            "situation": "对于你的队伍避免突袭的对抗（如果你是领导者则 +2）"
                         }
                     ],
                     "prereqs": {
                         "prereqs": [
                             {
                                 "name": {
-                                    "qualifier": "Enhanced Time Sense"
+                                    "qualifier": "增强时间感"
                                 }
                             }
                         ]
@@ -85,123 +85,123 @@
                 "475d1464-5290-4bb5-8347-a59f9e4f927d": {
                     "name": "Elasticity Talent",
                     "tags": [
-                        "Advantage",
-                        "Mental",
+                        "优势",
+                        "心理",
                         "Power"
                     ]
                 },
                 "02d130ba-f6df-47ca-82ed-c8ccdf31ff53": {
-                    "name": "Extra Arm",
+                    "name": "额外手臂",
                     "tags": [
-                        "Advantage",
-                        "Exotic",
-                        "Physical"
+                        "优势",
+                        "异种",
+                        "生理"
                     ],
                     "modifiers": {
                         "77b2d247-773e-4375-a4f7-92e2bd4351ce": {
-                            "name": "Extra-Flexible"
+                            "name": "非常灵活"
                         },
                         "02451344-cf2f-4473-bce3-93ef315e7950": {
-                            "name": "Long"
+                            "name": "最大"
                         },
                         "241ff768-2a02-47e6-8f49-23dfa3cd48a0": {
-                            "name": "Foot Manipulators"
+                            "name": "以脚为手"
                         },
                         "e7f7710b-da04-4023-be12-19fcb57ba669": {
-                            "name": "No Physical Attack"
+                            "name": "不能进行物理攻击"
                         },
                         "d28a5fa4-94f8-438c-8a39-2e84379c36b6": {
-                            "name": "Short"
+                            "name": "短"
                         },
                         "aab4c1a6-e72c-4d15-9a03-93805edb3f8a": {
-                            "name": "Weak",
-                            "notes": "Half body ST"
+                            "name": "弱",
+                            "notes": "只有一半力量"
                         },
                         "c73c9fb0-3447-4d35-a69b-d57b96a30214": {
-                            "name": "Weak",
-                            "notes": "Quarter body ST"
+                            "name": "弱",
+                            "notes": "只有 1/4 力量"
                         },
                         "562c720c-baab-471b-a08d-21ebcc0ab580": {
-                            "name": "Weapon Mount"
+                            "name": "武器座"
                         },
                         "a903ba7c-6f76-4c3f-affa-3cf2f4aed266": {
-                            "name": "No Grasping Hand"
+                            "name": "无可抓握手部"
                         }
                     }
                 },
                 "2c554d1c-d683-4980-abec-e6011830b790": {
-                    "name": "Fit",
+                    "name": "健康",
                     "tags": [
-                        "Advantage",
-                        "Physical"
+                        "优势",
+                        "生理"
                     ],
-                    "notes": "Recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+                    "notes": "FP 回复速度加倍（魔法、 异能带来的损失则不被减免）",
                     "features": [
                         {
-                            "situation": "to all HT rolls to stay conscious, avoid death, resist disease, or resist poison"
+                            "situation": "对于所有保持意识、避免死亡、抵抗疾病或抵抗毒药的 HT 检定"
                         }
                     ]
                 },
                 "5cd58c6d-a9cc-4144-8eea-f7e372538b82": {
-                    "name": "High Manual Dexterity",
+                    "name": "巧手",
                     "tags": [
-                        "Advantage",
-                        "Physical"
+                        "优势",
+                        "生理"
                     ],
                     "features": [
                         {
                             "name": {
-                                "qualifier": "artist"
+                                "qualifier": "艺术家"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "jeweler"
+                                "qualifier": "珠宝加工"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "knot-tying"
+                                "qualifier": "结绳"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "leatherworking"
+                                "qualifier": "皮革加工"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "lockpicking"
+                                "qualifier": "开锁"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "pickpocket"
+                                "qualifier": "扒窃"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "sewing"
+                                "qualifier": "缝纫"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "sleight of hand"
+                                "qualifier": "巧手"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "surgery"
+                                "qualifier": "手术"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "machinist"
+                                "qualifier": "机工"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "mechanic"
+                                "qualifier": "机修"
                             }
                         }
                     ]
@@ -209,19 +209,19 @@
                 "f03a8c07-0308-421c-8084-4718b76c5663": {
                     "name": "Injury Tolerance (Unbreakable Bones)",
                     "tags": [
-                        "Advantage",
-                        "Physical"
+                        "优势",
+                        "生理"
                     ]
                 },
                 "6b169432-fea8-4142-ba6a-2e8e442e9786": {
-                    "name": "Versatile",
+                    "name": "天马行空",
                     "tags": [
-                        "Advantage",
-                        "Mental"
+                        "优势",
+                        "心理"
                     ],
                     "features": [
                         {
-                            "situation": "on any task that requires creativity or invention, including most rolls against Artist skill and all Engineer rolls for new inventions"
+                            "situation": "在任何需要创造性和创意的任务上，包括大部分艺术家技能，所有发明新东西的工程学检定"
                         }
                     ]
                 }
@@ -234,38 +234,38 @@
                 "41a532c8-a19f-4589-adc9-3b4d0a9c6e7e": {
                     "name": "Bouncing: Super Jump",
                     "tags": [
-                        "Advantage",
-                        "Exotic",
-                        "Physical"
+                        "优势",
+                        "异种",
+                        "生理"
                     ],
-                    "notes": "Bouncing Only",
+                    "notes": "仅限弹跳",
                     "modifiers": {
                         "14a7e514-0b50-4ee8-806f-294f53cd6afb": {
-                            "name": "Bouncing"
+                            "name": "弹跳"
                         },
                         "5ab3fcb2-7663-474e-98e9-95f23c3f2365": {
-                            "name": "Maneuverable"
+                            "name": "空中操纵"
                         },
                         "1b3e20e4-8134-48c5-856d-74ee700716c3": {
-                            "name": "Full Power Only"
+                            "name": "仅能全力"
                         },
                         "2a9f0bcc-e072-4934-b1ee-8eb15f1898ad": {
-                            "name": "Horizontal Only"
+                            "name": "仅限跳远"
                         },
                         "d791c067-9f58-41dc-8b0b-30d0730ce90d": {
-                            "name": "Lighter Than Air"
+                            "name": "轻于空气"
                         },
                         "b130473b-064d-41e6-a13c-0569153e854f": {
-                            "name": "Planetary"
+                            "name": "行星"
                         },
                         "496db337-5105-4329-b878-15ac22eddb62": {
-                            "name": "Projectile"
+                            "name": "射弹"
                         },
                         "60521361-b171-40cf-ae68-fd16d829cbba": {
-                            "name": "Vertical Only"
+                            "name": "仅限跳高"
                         },
                         "5894b559-55fb-407b-b15f-20a46b23c698": {
-                            "name": "Bouncing Only"
+                            "name": "仅限弹跳"
                         },
                         "4a829ba8-f105-4b7c-a3ae-9e3ec770c779": {
                             "name": "Super",
@@ -276,63 +276,63 @@
                 "8a8e594e-ada5-4c63-89c3-6ac19834161e": {
                     "name": "Gliding Membrane: Flight",
                     "tags": [
-                        "Advantage",
-                        "Exotic",
-                        "Physical"
+                        "优势",
+                        "异种",
+                        "生理"
                     ],
-                    "notes": "Air Move is Basic Speed x 2 (drop all fractions)",
+                    "notes": "飞行基本速度是 BS×2（舍去所有小数）",
                     "modifiers": {
                         "5d24ae47-cc0f-4a1e-90a6-b40c5117a7e2": {
-                            "name": "Newtonian Space Flight"
+                            "name": "牛顿力学式太空飞行"
                         },
                         "ab8d181a-f532-46a3-85df-c7d4f304a6a8": {
-                            "name": "Space Flight"
+                            "name": "太空飞行"
                         },
                         "d57620ed-d6ab-4ab1-b410-187ba52ddbc8": {
-                            "name": "Cannot Hover"
+                            "name": "不能悬停"
                         },
                         "8193c1ef-431a-48dc-bd26-663afa2a5c74": {
-                            "name": "Controlled Gliding"
+                            "name": "可控滑翔"
                         },
                         "b5e853e9-fc84-4415-8ce6-42454317dd6d": {
-                            "name": "Gliding"
+                            "name": "滑翔"
                         },
                         "53c4a0e4-9fd8-4a69-a14a-16968183bf22": {
-                            "name": "Lighter Than Air"
+                            "name": "轻于空气"
                         },
                         "24f96bdd-d617-4930-83ed-cb503b94080b": {
-                            "name": "Low Ceiling",
-                            "notes": "30'"
+                            "name": "低上限",
+                            "notes": "30 英尺"
                         },
                         "2b6bcd79-f31a-4cc3-9d88-63c72c93da36": {
-                            "name": "Low Ceiling",
-                            "notes": "10'"
+                            "name": "低上限",
+                            "notes": "10 英尺"
                         },
                         "d39867e0-7bd0-4c29-bbdc-c07460339f1f": {
-                            "name": "Low Ceiling",
-                            "notes": "5'"
+                            "name": "低上限",
+                            "notes": "5 英尺"
                         },
                         "c07ad7f3-925f-4aa8-80d4-bd9caa0e10f4": {
-                            "name": "Small Wings"
+                            "name": "小翅膀"
                         },
                         "744d3bb5-051a-4772-8289-8809a87e4caf": {
-                            "name": "Space Flight Only"
+                            "name": "仅限太空飞行"
                         },
                         "dbe25fc0-ce53-49fd-aa60-2248c86b2d10": {
-                            "name": "Winged"
+                            "name": "大翼"
                         },
                         "49895c85-1c33-4b68-be50-198826640be7": {
-                            "name": "Planetary"
+                            "name": "行星"
                         },
                         "07852638-40e9-4f28-8301-07da4f3ee031": {
-                            "name": "Requires Surface"
+                            "name": "需要表面"
                         },
                         "cac32b66-32f2-4314-a4f8-014ef208755e": {
-                            "name": "Slow",
-                            "notes": "Basic Speed"
+                            "name": "慢速",
+                            "notes": "基本速度"
                         },
                         "fa91a955-3ce2-4630-9f4d-a95724653383": {
-                            "name": "Slow, Move 1"
+                            "name": "缓慢，移动力 1"
                         },
                         "ae00f9a3-8c4e-4e5a-a7f1-89c7c0634295": {
                             "name": "Super",
@@ -346,9 +346,9 @@
                         "0628649b-a475-4a04-8a22-c305dd63e65b": {
                             "name": "Crushing Striker (One Arm)",
                             "tags": [
-                                "Advantage",
-                                "Exotic",
-                                "Physical"
+                                "优势",
+                                "异种",
+                                "生理"
                             ],
                             "modifiers": {
                                 "518b5841-e655-48e3-8856-39f71468412f": {
@@ -360,14 +360,14 @@
                                     "notes": "SM+1"
                                 },
                                 "95d5fc78-2dda-4de6-9aa8-33d89a8d1568": {
-                                    "name": "Reduced Time"
+                                    "name": "减少启动时间"
                                 },
                                 "50c35852-16b1-4e79-b8f8-5617d84d012f": {
-                                    "name": "Switchable"
+                                    "name": "可开关"
                                 },
                                 "249409f2-16c6-41ed-b4f7-d962828eeebb": {
-                                    "name": "Temporary Disadvantage",
-                                    "notes": "One Arm"
+                                    "name": "临时性劣势",
+                                    "notes": "独臂"
                                 }
                             },
                             "weapons": {
@@ -382,28 +382,28 @@
                             }
                         },
                         "934d9af4-264b-4555-ae42-acdf9b6be3ca": {
-                            "name": "Striking ST",
+                            "name": "击打力量",
                             "tags": [
-                                "Advantage",
-                                "Exotic",
-                                "Physical"
+                                "优势",
+                                "异种",
+                                "生理"
                             ],
                             "modifiers": {
                                 "c4ea3480-55e9-493e-959e-aa941d45b9de": {
-                                    "name": "No Fine Manipulators"
+                                    "name": "无操作肢"
                                 },
                                 "1dd98d99-ae5d-4c40-8c73-1bc47900065a": {
-                                    "name": "Size"
+                                    "name": "体型"
                                 },
                                 "92268d44-fb26-4de6-9f09-4a211734d112": {
-                                    "name": "Super Effort"
+                                    "name": "超级出力"
                                 },
                                 "7ec76b55-669c-4506-ab8b-0a519a008970": {
-                                    "name": "One Attack Only",
+                                    "name": "仅限一次攻击",
                                     "notes": "Crushing Striker"
                                 },
                                 "5a72d381-c79b-47a3-af5e-cbed755dd78b": {
-                                    "name": "Know Your Own Strength Pricing Variant"
+                                    "name": "《了解你自己的力量》价格变体"
                                 },
                                 "687e56ae-9584-4d1e-afce-fcee1a86deb9": {
                                     "name": "Super",
@@ -416,9 +416,9 @@
                 "9cee4739-12ca-4341-b68e-e9d31d676695": {
                     "name": "Impact Absorption: Damage Resistance",
                     "tags": [
-                        "Advantage",
-                        "Exotic",
-                        "Physical"
+                        "优势",
+                        "异种",
+                        "生理"
                     ],
                     "notes": "Power Block: 11",
                     "modifiers": {
@@ -426,90 +426,90 @@
                             "name": "Force Field"
                         },
                         "85e6b7de-16ff-4a5c-97fa-337274c6d3a0": {
-                            "name": "Hardened"
+                            "name": "硬化"
                         },
                         "467f089f-88a4-45f9-9b3d-cefa75456090": {
-                            "name": "Absorption",
-                            "notes": "Enhances @Trait@"
+                            "name": "吸收",
+                            "notes": "增强@特质@"
                         },
                         "cb6249af-ea13-45d6-bcbb-c200e2dc732e": {
-                            "name": "Absorption",
-                            "notes": "Healing only"
+                            "name": "吸收",
+                            "notes": "仅治疗"
                         },
                         "1842bb58-4e88-4631-9687-3378d20859e1": {
-                            "name": "Absorption",
-                            "notes": "Enhances any trait"
+                            "name": "吸收",
+                            "notes": "增强任意特质"
                         },
                         "0b00bd42-d5ad-4767-8cb9-1657120da7b9": {
-                            "name": "Reflection"
+                            "name": "反射"
                         },
                         "da0701fb-8947-49de-b6d4-de634f742087": {
-                            "name": "Bane",
-                            "notes": "@Rare@"
+                            "name": "祸根",
+                            "notes": "@罕见@"
                         },
                         "6d6a1c30-c32c-4954-a01f-1b3e1da0f995": {
-                            "name": "Bane",
-                            "notes": "@Occasional@"
+                            "name": "祸根",
+                            "notes": "@偶见@"
                         },
                         "f33112e3-d020-4797-9c08-72113a9b0817": {
-                            "name": "Bane",
-                            "notes": "@Common@"
+                            "name": "祸根",
+                            "notes": "@常见@"
                         },
                         "2562b698-57ce-4818-bc5e-8f96a2fc90ed": {
-                            "name": "Bane",
-                            "notes": "@Very Common@"
+                            "name": "祸根",
+                            "notes": "@非常常见@"
                         },
                         "c6d115b3-370a-43c6-8986-af0db9ddbc1a": {
-                            "name": "Directional",
-                            "notes": "Front"
+                            "name": "定向",
+                            "notes": "前方"
                         },
                         "97e4aab3-3c64-425e-8049-29bd9bdf0555": {
-                            "name": "Flexible"
+                            "name": "柔性"
                         },
                         "c1bdb460-6c31-4e19-a76d-954e6e5372cf": {
-                            "name": "Limited",
+                            "name": "限制",
                             "notes": "Physical Attacks"
                         },
                         "7af630c2-d4d6-4a03-9c54-bcd48521cc5c": {
-                            "name": "Semi-Ablative"
+                            "name": "半剥离"
                         },
                         "e849eca7-2192-4594-b75c-f385419a6353": {
-                            "name": "Can't wear armor"
+                            "name": "无法穿着护甲"
                         },
                         "caceff5b-15ca-4aa5-8af5-b0ff2ed6a0ce": {
-                            "name": "Directional",
-                            "notes": "@Direction: Back, Right, Left, Top or Underside@"
+                            "name": "定向",
+                            "notes": "@方向：后方、左、右、上、下@"
                         },
                         "c9b1fa86-4036-4cf0-b7d1-341a24a79cc5": {
-                            "name": "Limited",
-                            "notes": "@Common Attack Form@"
+                            "name": "限制",
+                            "notes": "@常见攻击类型@"
                         },
                         "54ad3d43-0b08-48db-a05d-b372f75b979c": {
-                            "name": "Tough Skin",
-                            "notes": "Effects that just require skin contact or a scratch ignore this DR"
+                            "name": "硬皮",
+                            "notes": "任何只需要接触皮肤的影响忽略此 DR"
                         },
                         "30237b85-f819-47f1-869a-017aba906d8d": {
-                            "name": "Limited",
-                            "notes": "@Occasional Attack Form@"
+                            "name": "限制",
+                            "notes": "@偶见攻击类型@"
                         },
                         "6780abef-7a52-48af-b8ab-5fa86c7f719e": {
-                            "name": "Ablative"
+                            "name": "剥离"
                         },
                         "8e222796-6d13-457f-b042-05da4d8b0d6c": {
-                            "name": "Limited",
-                            "notes": "@Rare Attack Form@"
+                            "name": "限制",
+                            "notes": "@罕见攻击类型@"
                         },
                         "6791134b-f628-4c3a-af11-8f4dbc829cf7": {
-                            "name": "Laminate"
+                            "name": "叠层"
                         },
                         "b2ea8934-8cdc-4566-b121-c503551509c1": {
-                            "name": "Malediction-Proof"
+                            "name": "咒术防御"
                         },
                         "bdb3e2c2-a813-4ffe-9587-aa04ecb0cca3": {
-                            "name": "Maledictions Only"
+                            "name": "仅限咒术"
                         },
                         "508ede17-7af2-4232-bde7-09c6f60757de": {
-                            "name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)"
+                            "name": "部分（@部位，每攻击部位调整值 1 等级，躯干在一个等级上 -10% @）"
                         },
                         "72c53570-479f-4986-9845-46e45e7a1cd0": {
                             "name": "Super",
@@ -520,9 +520,9 @@
                 "1d925ed5-1278-44ca-beb1-0cf5d642d0b9": {
                     "name": "Mask: Elastic Skin",
                     "tags": [
-                        "Advantage",
-                        "Exotic",
-                        "Physical"
+                        "优势",
+                        "异种",
+                        "生理"
                     ],
                     "modifiers": {
                         "7cd98b62-ce7c-40a3-84f4-f5b48097a6c4": {
@@ -536,7 +536,7 @@
                     "features": [
                         {
                             "name": {
-                                "qualifier": "disguise"
+                                "qualifier": "易容"
                             }
                         }
                     ]
@@ -545,16 +545,16 @@
                     "name": "Plasticity",
                     "children": {
                         "438b0afa-25fa-4ead-b7a6-dcb0121f16af": {
-                            "name": "Constriction Attack",
+                            "name": "勒扼杀法",
                             "tags": [
-                                "Advantage",
-                                "Exotic",
-                                "Physical"
+                                "优势",
+                                "异种",
+                                "生理"
                             ],
-                            "notes": "If you succeed on a grapple against an opponent no larger than your own SM, on your next turn, and each successive turn, roll a Quick Contest of your ST vs. your victim’s ST or HT, whichever is higher. If you win, your victim takes damage equal to your margin of victory; otherwise, no damage is inflicted",
+                            "notes": "使用这个能力，你首先得抓擒你的受害者，他的尺寸修正值（SM）不能大于你。在你的下一轮，以及接下来的每个轮，进行快速检定；你的 ST 对抗受害者的 ST 或者 HT，取最高的。如果你赢了，受害者受到你赢得的点数点的损伤，否则没有伤害",
                             "modifiers": {
                                 "0422662e-a16d-42b5-9c55-e0e237cfbeb7": {
-                                    "name": "Engulfing"
+                                    "name": "难以挣脱"
                                 },
                                 "4060c047-8740-4a28-870b-6659610a4f43": {
                                     "name": "Super",
@@ -563,31 +563,31 @@
                             }
                         },
                         "79cb7d7d-dc2a-4c47-9bb2-f9f5c9134f77": {
-                            "name": "Stretching",
+                            "name": "拉伸肢体",
                             "tags": [
-                                "Advantage",
-                                "Exotic",
-                                "Physical"
+                                "优势",
+                                "异种",
+                                "生理"
                             ],
                             "modifiers": {
                                 "4e868c2c-2dd9-484f-9eb4-8fd566e5a5da": {
-                                    "name": "Force Extension"
+                                    "name": "力场伸展"
                                 },
                                 "a8a2ef80-ee87-4dba-9fe6-97a205e286c6": {
-                                    "name": "Limited",
-                                    "notes": "Arms Only"
+                                    "name": "限制",
+                                    "notes": "仅限手臂"
                                 },
                                 "8f202441-8b20-437d-a2a3-3b41b0050544": {
-                                    "name": "Limited",
-                                    "notes": "Legs Only"
+                                    "name": "限制",
+                                    "notes": "仅限腿"
                                 },
                                 "54bcbc9f-8262-4d2f-9a13-93f48f2a74b5": {
-                                    "name": "Limited",
-                                    "notes": "@Single Limb@"
+                                    "name": "限制",
+                                    "notes": "@单一肢体@"
                                 },
                                 "aa2f1b42-13c6-44f0-ab58-db69d87a49bb": {
-                                    "name": "Limited",
-                                    "notes": "Neck Only"
+                                    "name": "限制",
+                                    "notes": "仅限脖子"
                                 },
                                 "535a6228-9da3-41ef-b4e0-aeb933312835": {
                                     "name": "Super",
@@ -603,36 +603,36 @@
             "name": "4 - Disadvantages",
             "children": {
                 "4cc58561-93a6-4c9f-a96d-9fa1d435574d": {
-                    "name": "Vulnerability",
+                    "name": "易伤",
                     "tags": [
-                        "Disadvantage",
-                        "Exotic",
-                        "Physical"
+                        "劣势",
+                        "异种",
+                        "生理"
                     ],
                     "modifiers": {
                         "4c68b0cc-6a00-486c-a3af-29005f6f4641": {
-                            "name": "@Rare attack@"
+                            "name": "@罕见攻击@"
                         },
                         "62401833-4138-4143-8074-98d3ba660f51": {
-                            "name": "@Occasional attack@"
+                            "name": "@偶见攻击@"
                         },
                         "5195e19a-6c9e-48f0-a6ed-1dfcee1db23b": {
                             "name": "Cutting Damage"
                         },
                         "08919669-f50f-44d3-94cd-3617b67f4ee6": {
-                            "name": "@Very common attack@"
+                            "name": "@非常常见攻击@"
                         },
                         "acd3ab85-711e-494f-b2d4-d96004f922d3": {
-                            "name": "Wounding x2"
+                            "name": "伤害 x2"
                         },
                         "1256962d-407f-42e6-aebd-ae39afbc2e94": {
-                            "name": "Wounding x3"
+                            "name": "伤害 x3"
                         },
                         "e9f34f51-0ef5-4fb1-8a36-c1cc67a496ad": {
-                            "name": "Wounding x4"
+                            "name": "伤害 x4"
                         },
                         "0b98c4ca-9b40-4336-8e40-a7925cc56439": {
-                            "name": "Fatigue Only"
+                            "name": "仅限体力"
                         }
                     }
                 }
@@ -644,44 +644,44 @@
             "name": "5 - Ordinary Skills",
             "children": {
                 "d95128a2-ac63-44db-8e6b-69bd5cd93455": {
-                    "name": "Escape",
+                    "name": "逃脱",
                     "tags": [
-                        "Criminal",
-                        "Street"
+                        "犯罪",
+                        "街头"
                     ]
                 },
                 "1049f4d8-d7a5-4142-a536-7d58bcf8e27f": {
                     "name": "Wrestling",
                     "tags": [
-                        "Combat",
-                        "Melee Combat",
-                        "Weapon"
+                        "战斗",
+                        "近战",
+                        "武器"
                     ]
                 },
                 "8563bb97-133b-49c6-8ea9-2726a60962ce": {
                     "name": "Pick two of the following Skills",
                     "children": {
                         "4c193ed4-b9c6-41c2-a0a0-00f6e424ea72": {
-                            "name": "Aerobatics",
+                            "name": "空中杂技",
                             "tags": [
-                                "Athletic"
+                                "运动"
                             ],
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Acrobatics"
+                                    "name": "杂技"
                                 },
                                 {
-                                    "name": "Aquabatics"
+                                    "name": "水上杂技"
                                 }
                             ]
                         },
                         "ba540c45-60e9-40c1-a3e0-8158e5801775": {
                             "name": "Brawling",
                             "tags": [
-                                "Combat",
-                                "Melee Combat",
-                                "Weapon"
+                                "战斗",
+                                "近战",
+                                "武器"
                             ],
                             "features": [
                                 {
@@ -692,58 +692,58 @@
                             ]
                         },
                         "a8871f96-659d-40e3-b8dc-4c55674b08e8": {
-                            "name": "Climbing",
+                            "name": "攀爬",
                             "tags": [
-                                "Athletic",
-                                "Criminal",
-                                "Exploration",
-                                "Outdoor",
-                                "Street"
+                                "运动",
+                                "犯罪",
+                                "探索",
+                                "户外",
+                                "街头"
                             ]
                         },
                         "24e45a10-150b-453a-abe0-e7698278057d": {
-                            "name": "Disguise",
+                            "name": "易容",
                             "tags": [
-                                "Criminal",
-                                "Spy",
-                                "Street"
+                                "犯罪",
+                                "间谍",
+                                "街头"
                             ],
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Makeup"
+                                    "name": "化妆"
                                 }
                             ]
                         },
                         "a1befc8f-be77-4c26-bfea-9f4c0616e2d2": {
-                            "name": "Erotic Art",
+                            "name": "房中术",
                             "tags": [
-                                "Social"
+                                "社会"
                             ],
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Acrobatics"
+                                    "name": "杂技"
                                 }
                             ]
                         },
                         "3b061666-f314-498d-8e6f-1a83b1c065f2": {
-                            "name": "Jumping",
+                            "name": "跳跃",
                             "tags": [
-                                "Athletic"
+                                "运动"
                             ]
                         },
                         "4c691116-5182-4248-ae97-babbcbfcfaa2": {
-                            "name": "Sleight of Hand",
+                            "name": "巧手",
                             "tags": [
-                                "Arts",
-                                "Criminal",
-                                "Entertainment",
-                                "Street"
+                                "艺术",
+                                "犯罪",
+                                "娱乐",
+                                "街头"
                             ],
                             "defaults": [
                                 {
-                                    "name": "Filch"
+                                    "name": "偷窃"
                                 }
                             ]
                         }
