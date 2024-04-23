@@ -4,45 +4,45 @@
             "name": "1 - Attributes",
             "children": {
                 "f76e243e-74dc-4cdd-a404-24b28e4b69dc": {
-                    "name": "Increased Dexterity",
+                    "name": "增加敏捷",
                     "tags": [
-                        "Advantage",
-                        "Attribute",
-                        "Physical"
+                        "优势",
+                        "属性",
+                        "生理"
                     ]
                 },
                 "7a7325cd-c543-45e7-a431-6cf4ef1a6084": {
-                    "name": "Increased Health",
+                    "name": "增加体力",
                     "tags": [
-                        "Advantage",
-                        "Attribute",
-                        "Physical"
+                        "优势",
+                        "属性",
+                        "生理"
                     ]
                 },
                 "06e57782-90e9-49cd-9a83-ee1c90e69903": {
-                    "name": "Increased Intelligence",
+                    "name": "增加智力",
                     "tags": [
-                        "Advantage",
-                        "Attribute",
-                        "Mental"
+                        "优势",
+                        "属性",
+                        "心理"
                     ]
                 },
                 "f7e01015-c93f-49fc-90e6-1036c24f982b": {
-                    "name": "Increased Strength",
+                    "name": "增加力量",
                     "tags": [
-                        "Advantage",
-                        "Attribute",
-                        "Physical"
+                        "优势",
+                        "属性",
+                        "生理"
                     ],
                     "modifiers": {
                         "d5162ecc-ee07-4cb9-8e46-33fb27f7368b": {
-                            "name": "No Fine Manipulators"
+                            "name": "无操作肢"
                         },
                         "514830d6-8dd1-4b4d-b07c-f21eb692759b": {
-                            "name": "Size"
+                            "name": "体型"
                         },
                         "63352bf1-62a1-4ee0-937e-277f9bed3924": {
-                            "name": "Super-Effort"
+                            "name": "超级出力"
                         }
                     }
                 }
@@ -54,19 +54,19 @@
                 "57f79e82-d78f-4e17-9592-ba7d1a5d90f4": {
                     "name": "Elemental Talent",
                     "tags": [
-                        "Physical"
+                        "生理"
                     ]
                 },
                 "3fed0414-1e64-4668-9478-505907deb8ab": {
-                    "name": "Fit",
+                    "name": "健康",
                     "tags": [
-                        "Advantage",
-                        "Physical"
+                        "优势",
+                        "生理"
                     ],
-                    "notes": "Recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+                    "notes": "FP 回复速度加倍（魔法、 异能带来的损失则不被减免）",
                     "features": [
                         {
-                            "situation": "to all HT rolls to stay conscious, avoid death, resist disease, or resist poison"
+                            "situation": "对于所有保持意识、避免死亡、抵抗疾病或抵抗毒药的 HT 检定"
                         }
                     ]
                 },
@@ -74,145 +74,145 @@
                     "name": "Pick 10 Points from the following:",
                     "children": {
                         "ae07c6b9-cb58-4788-a793-d55e5c74b483": {
-                            "name": "Single-Minded",
+                            "name": "专心致志",
                             "tags": [
-                                "Advantage",
-                                "Mental"
+                                "优势",
+                                "心理"
                             ],
                             "features": [
                                 {
-                                    "situation": "to rolls for any lengthy mental task you concentrate on to the exclusion of other activities, if the GM feels such focus would be beneficial"
+                                    "situation": "对于你在集中精力进行长时间精神工作、并且不参与任何其他活动时的判定——只要 GM 认为这种集中是有益的"
                                 },
                                 {
-                                    "situation": "to all rolls to notice interruptions while obsessed with a task"
+                                    "situation": "对于当你沉浸于这些工作时在任何用于感知干扰因素的掷骰"
                                 }
                             ]
                         },
                         "6028642f-8479-460e-a2da-a39cf594fd87": {
-                            "name": "Talent (Artificer)",
+                            "name": "天赋（能工巧匠）",
                             "tags": [
-                                "Advantage",
-                                "Mental",
-                                "Talent"
+                                "优势",
+                                "心理",
+                                "天赋"
                             ],
                             "features": [
                                 {
                                     "name": {
-                                        "qualifier": "armoury"
+                                        "qualifier": "军械修造"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Carpentry"
+                                        "qualifier": "木艺"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Electrician"
+                                        "qualifier": "电气技师"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Electronics Repair"
+                                        "qualifier": "电子维修"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Engineer"
+                                        "qualifier": "工程学"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Machinist"
+                                        "qualifier": "机工"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Masonry"
+                                        "qualifier": "石工"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Mechanic"
+                                        "qualifier": "机修"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Smith"
+                                        "qualifier": "金属加工"
                                     }
                                 },
                                 {
-                                    "situation": "from any employer"
+                                    "situation": "来自任何雇主"
                                 }
                             ]
                         },
                         "87f195be-e059-4a61-a522-55543c0e9a10": {
-                            "name": "Talent (Gifted Artist)",
+                            "name": "天赋（艺术天才）",
                             "tags": [
-                                "Advantage",
-                                "Mental",
-                                "Talent"
+                                "优势",
+                                "心理",
+                                "天赋"
                             ],
                             "features": [
                                 {
                                     "name": {
-                                        "qualifier": "Artist"
+                                        "qualifier": "艺术家"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Jeweler"
+                                        "qualifier": "珠宝加工"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Leatherworking"
+                                        "qualifier": "皮革加工"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Photography"
+                                        "qualifier": "摄影"
                                     }
                                 },
                                 {
                                     "name": {
-                                        "qualifier": "Sewing"
+                                        "qualifier": "缝纫"
                                     }
                                 },
                                 {
-                                    "situation": "from buyers and critics"
+                                    "situation": "来自买家与评论家"
                                 }
                             ]
                         },
                         "fcd8c104-45c7-4072-b292-9a5ede4aebe3": {
-                            "name": "Versatile",
+                            "name": "天马行空",
                             "tags": [
-                                "Advantage",
-                                "Mental"
+                                "优势",
+                                "心理"
                             ],
                             "features": [
                                 {
-                                    "situation": "on any task that requires creativity or invention, including most rolls against Artist skill and all Engineer rolls for new inventions"
+                                    "situation": "在任何需要创造性和创意的任务上，包括大部分艺术家技能，所有发明新东西的工程学检定"
                                 }
                             ]
                         },
                         "6e75c00d-b4e4-4005-9b3b-ac50eeeeba18": {
-                            "name": "Visualization",
+                            "name": "模拟训练",
                             "tags": [
-                                "Advantage",
-                                "Mental",
-                                "Supernatural"
+                                "优势",
+                                "心理",
+                                "超自然"
                             ],
                             "modifiers": {
                                 "f803d3f1-1e2f-439c-ba58-167eb684cea1": {
-                                    "name": "Blessing"
+                                    "name": "祝福"
                                 },
                                 "905d9701-0c56-43b7-a56a-309c02389b14": {
-                                    "name": "Blessing",
-                                    "notes": "Others Only"
+                                    "name": "祝福",
+                                    "notes": "仅限其他人"
                                 },
                                 "5472eb7e-974b-496a-a905-ed96424a675c": {
-                                    "name": "Cursing"
+                                    "name": "诅咒"
                                 }
                             }
                         }
@@ -225,14 +225,14 @@
             "notes": "Select a power and spend 365 points on Talents and Abilities",
             "children": {
                 "1f1378f0-9f6e-4583-87c1-ffbb9f7020d1": {
-                    "name": "Air",
+                    "name": "空中",
                     "children": {
                         "09bf2b30-a13b-4c57-8a99-191981ed94ec": {
                             "name": "Air Cushion: Damage Resistance",
                             "tags": [
-                                "Advantage",
-                                "Exotic",
-                                "Physical"
+                                "优势",
+                                "异种",
+                                "生理"
                             ],
                             "notes": "Power Block 9",
                             "modifiers": {
@@ -240,90 +240,90 @@
                                     "name": "Force Field"
                                 },
                                 "6bb22cdf-9e78-4754-b667-499788b57d60": {
-                                    "name": "Hardened"
+                                    "name": "硬化"
                                 },
                                 "87e65dd9-1dd6-4fed-9fca-cd5b4bffd30a": {
-                                    "name": "Absorption",
-                                    "notes": "Enhances @Trait@"
+                                    "name": "吸收",
+                                    "notes": "增强@特质@"
                                 },
                                 "76a047f9-d866-4789-bbed-25d229abc673": {
-                                    "name": "Absorption",
-                                    "notes": "Healing only"
+                                    "name": "吸收",
+                                    "notes": "仅治疗"
                                 },
                                 "3e47b90d-06e4-4563-a4d3-5baaabf0425f": {
-                                    "name": "Absorption",
-                                    "notes": "Enhances any trait"
+                                    "name": "吸收",
+                                    "notes": "增强任意特质"
                                 },
                                 "661bd474-a7ae-444f-8580-8cbc786491fb": {
-                                    "name": "Reflection"
+                                    "name": "反射"
                                 },
                                 "27cfb85c-c166-4337-abf3-b6fd59cafa5a": {
-                                    "name": "Bane",
-                                    "notes": "@Rare@"
+                                    "name": "祸根",
+                                    "notes": "@罕见@"
                                 },
                                 "04d6d722-f700-448d-af1c-43e5c469b4c5": {
-                                    "name": "Bane",
-                                    "notes": "@Occasional@"
+                                    "name": "祸根",
+                                    "notes": "@偶见@"
                                 },
                                 "4d4f50e5-1b48-4a26-8576-0af7b264d379": {
-                                    "name": "Bane",
-                                    "notes": "@Common@"
+                                    "name": "祸根",
+                                    "notes": "@常见@"
                                 },
                                 "104c588d-f4dc-4faf-a4a3-feb6b8e9f48f": {
-                                    "name": "Bane",
-                                    "notes": "@Very Common@"
+                                    "name": "祸根",
+                                    "notes": "@非常常见@"
                                 },
                                 "72e3603e-421b-4285-97be-c3686b18db97": {
-                                    "name": "Directional",
-                                    "notes": "Front"
+                                    "name": "定向",
+                                    "notes": "前方"
                                 },
                                 "43cf6131-efa3-4cd6-9416-26d6e307ce1c": {
-                                    "name": "Flexible"
+                                    "name": "柔性"
                                 },
                                 "2881ad13-4c5c-4bb3-a8a8-514d752a5688": {
-                                    "name": "Limited",
-                                    "notes": "Physical"
+                                    "name": "限制",
+                                    "notes": "生理"
                                 },
                                 "94ee1edd-5552-48a4-b9a1-301f26019c9b": {
-                                    "name": "Semi-Ablative"
+                                    "name": "半剥离"
                                 },
                                 "e57c490d-0c7c-4156-8f67-0d732c7b4678": {
-                                    "name": "Can't wear armor"
+                                    "name": "无法穿着护甲"
                                 },
                                 "5b5daecf-647b-4208-9e48-f0f14b7307e1": {
-                                    "name": "Directional",
-                                    "notes": "@Direction: Back, Right, Left, Top or Underside@"
+                                    "name": "定向",
+                                    "notes": "@方向：后方、左、右、上、下@"
                                 },
                                 "914e1eac-cf8b-461d-8623-b366ed3982f3": {
-                                    "name": "Limited",
-                                    "notes": "@Common Attack Form@"
+                                    "name": "限制",
+                                    "notes": "@常见攻击类型@"
                                 },
                                 "bc4733f2-270d-47b9-ad75-28d34a966ac1": {
-                                    "name": "Tough Skin",
-                                    "notes": "Effects that just require skin contact or a scratch ignore this DR"
+                                    "name": "硬皮",
+                                    "notes": "任何只需要接触皮肤的影响忽略此 DR"
                                 },
                                 "37a6fa06-3a61-4e19-aa18-b77494955b8c": {
-                                    "name": "Limited",
-                                    "notes": "@Occasional Attack Form@"
+                                    "name": "限制",
+                                    "notes": "@偶见攻击类型@"
                                 },
                                 "a36c9af0-7e47-4623-a271-34dae15937a0": {
-                                    "name": "Ablative"
+                                    "name": "剥离"
                                 },
                                 "c73b3f2a-459b-4413-adc8-3418792bb5da": {
-                                    "name": "Limited",
-                                    "notes": "@Rare Attack Form@"
+                                    "name": "限制",
+                                    "notes": "@罕见攻击类型@"
                                 },
                                 "3facca9f-e286-45be-b1f3-33b83095a786": {
-                                    "name": "Laminate"
+                                    "name": "叠层"
                                 },
                                 "6ac3cafb-260f-4499-9257-cc9750b73e36": {
-                                    "name": "Malediction-Proof"
+                                    "name": "咒术防御"
                                 },
                                 "9589a1a3-6b8a-4b4a-a88b-fef06d980430": {
-                                    "name": "Maledictions Only"
+                                    "name": "仅限咒术"
                                 },
                                 "c42808f8-02cc-4db3-b0a5-0e8cae343394": {
-                                    "name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)"
+                                    "name": "部分（@部位，每攻击部位调整值 1 等级，躯干在一个等级上 -10% @）"
                                 },
                                 "3598cfbb-0812-45a0-a03c-f480c9df4e00": {
                                     "name": "Elemental"
@@ -340,75 +340,75 @@
                         "55f61954-7a2d-444c-af8d-f47549b18c8d": {
                             "name": "Air Jet: Innate Attack (Crush)",
                             "tags": [
-                                "Advantage",
-                                "Exotic",
-                                "Physical"
+                                "优势",
+                                "异种",
+                                "生理"
                             ],
                             "notes": "Power Parry: 11",
                             "modifiers": {
                                 "d7595bd1-4a8c-425f-9851-f968b6b36895": {
-                                    "name": "Explosion"
+                                    "name": "爆炸"
                                 },
                                 "b96842e6-3221-41ba-baa9-373f4983ad6e": {
-                                    "name": "Fragmentation"
+                                    "name": "破片"
                                 },
                                 "5342d3d9-cedb-4690-bf94-e3db84d55f10": {
-                                    "name": "Fragmentation",
-                                    "notes": "Hot"
+                                    "name": "破片",
+                                    "notes": "高热"
                                 },
                                 "649ea1ce-8f52-4e97-a1b6-8c9b0d6512ed": {
-                                    "name": "Surge"
+                                    "name": "电涌"
                                 },
                                 "9a2d4208-fa1a-4aa8-9e42-afd0dbccd826": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "2"
                                 },
                                 "f4bd79c7-1a67-4f7b-afdb-ddd8c80728ca": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "3"
                                 },
                                 "8b8bebe1-ba97-41be-ad0b-3e5012b1b5e4": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "5"
                                 },
                                 "4f056001-93d2-49f3-ab63-4b9dad8988b2": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "10"
                                 },
                                 "4cc6d750-6a2a-4dd5-9332-f8381c8b5915": {
-                                    "name": "Side Effect",
-                                    "notes": "@Effect@"
+                                    "name": "派生效果",
+                                    "notes": "@效果@"
                                 },
                                 "21412441-cea5-44d4-8a44-feba10678396": {
-                                    "name": "Symptoms",
-                                    "notes": "@Effect@"
+                                    "name": "附加症状",
+                                    "notes": "@效果@"
                                 },
                                 "d6d12850-50b7-4afb-b9e6-67dd036536e5": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "0.5"
                                 },
                                 "1a0b4319-7bfe-4378-90cf-42b3d68e1128": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "0.2"
                                 },
                                 "809d8d06-fab0-4ab3-8967-f2c28d7d7261": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "0.1"
                                 },
                                 "928346e4-9fc6-4f1c-83b1-afe64756acbf": {
-                                    "name": "No Blunt Trauma"
+                                    "name": "无瘀伤"
                                 },
                                 "09d1de42-2ebe-40cd-8499-8b5ba8791892": {
-                                    "name": "No Knockback"
+                                    "name": "无击退"
                                 },
                                 "534b54ca-c1f4-471a-a079-be97277df0f2": {
-                                    "name": "No Wounding"
+                                    "name": "无杀伤"
                                 },
                                 "961bf12b-7bb5-414a-9ee4-70d668851625": {
-                                    "name": "Double Knockback"
+                                    "name": "双倍击退"
                                 },
                                 "cfe195a9-e463-4b11-9212-b0df182cc739": {
-                                    "name": "Incendiary"
+                                    "name": "燃烧"
                                 },
                                 "df4e850a-eae8-43bb-bca9-557de3c4cdb6": {
                                     "name": "Super",
@@ -418,17 +418,17 @@
                                     "name": "Elemental"
                                 },
                                 "9d66b003-9676-4dcb-88be-d1c1429a33f2": {
-                                    "name": "2x Increased Range"
+                                    "name": "增加 2 倍射程"
                                 },
                                 "c4202d43-9301-4410-86c5-f945aa00d128": {
-                                    "name": "Jet"
+                                    "name": "射流"
                                 },
                                 "8f2c81be-82fe-463d-80ac-08ae6324cf11": {
-                                    "name": "Side Effect",
-                                    "notes": "Stunning"
+                                    "name": "派生效果",
+                                    "notes": "震慑"
                                 },
                                 "d5bb8d2b-c4b9-4d40-98d5-3e624f36c051": {
-                                    "name": "Variable"
+                                    "name": "强度可变"
                                 },
                                 "05e49a86-5e9c-4f8f-9502-88ede20dc7f3": {
                                     "name": "Elemental"
@@ -438,11 +438,11 @@
                                 "591231cc-b759-48f5-8477-a4874b31b09a": {
                                     "defaults": [
                                         {
-                                            "name": "Innate Attack",
+                                            "name": "固有攻击",
                                             "specialization": "Crushing Attack"
                                         },
                                         {
-                                            "name": "Innate Attack"
+                                            "name": "固有攻击"
                                         }
                                     ]
                                 }
@@ -451,15 +451,15 @@
                         "6b4f908e-f516-4608-bccc-a69b8b5b2e67": {
                             "name": "Master of the Air: Control (Air)",
                             "tags": [
-                                "Advantage",
-                                "Physical"
+                                "优势",
+                                "生理"
                             ],
                             "modifiers": {
                                 "67a4bcc1-3c21-417a-bbf8-b941762dd3b2": {
-                                    "name": "Persistent"
+                                    "name": "持续效果"
                                 },
                                 "0a44aaaa-1189-49e5-93e2-f3137f339f17": {
-                                    "name": "Ranged"
+                                    "name": "远程"
                                 },
                                 "0226eaaa-5a3c-43ba-84de-b96de2c08f46": {
                                     "name": "Collective"
@@ -468,19 +468,19 @@
                                     "name": "Natural Phenomena"
                                 },
                                 "dd4b3e67-f339-4511-8509-345e0fa3f0b7": {
-                                    "name": "Cosmetic"
+                                    "name": "变更容貌"
                                 },
                                 "60b36436-8381-4f7f-9046-dbacc7f8360f": {
-                                    "name": "Super-Effort"
+                                    "name": "超级出力"
                                 },
                                 "563556b6-a25d-48bb-89ed-c15ae5010c32": {
-                                    "name": "Rare"
+                                    "name": "稀有"
                                 },
                                 "407756fb-4c67-43ff-a1bc-6a924211e44c": {
-                                    "name": "Occasional"
+                                    "name": "不常见"
                                 },
                                 "4a526b51-e4fb-4475-a2b5-fca5fb4b3c81": {
-                                    "name": "Common"
+                                    "name": "常见"
                                 },
                                 "bee4e691-2938-4d67-838f-7a1726727d03": {
                                     "name": "Elemental"
@@ -497,34 +497,34 @@
                                 "93ede202-5e00-48b3-a1b9-8b6cd39306d7": {
                                     "name": "Enhanced Move (Air)",
                                     "tags": [
-                                        "Advantage",
-                                        "Exotic",
-                                        "Physical"
+                                        "优势",
+                                        "异种",
+                                        "生理"
                                     ],
                                     "notes": "Multiply normal Air Move by 1 + level",
                                     "modifiers": {
                                         "cc0d01be-6352-4aef-bc2c-e6251619f52c": {
-                                            "name": "Handling Bonus"
+                                            "name": "操纵性加值"
                                         },
                                         "63849fdb-0c68-41be-953d-e48b51afa1fd": {
-                                            "name": "Handling Penalty"
+                                            "name": "操纵性减值"
                                         },
                                         "ea3de206-e23b-49e6-b2f6-75b2958e5ad2": {
-                                            "name": "Newtonian"
+                                            "name": "牛顿力学"
                                         },
                                         "9a99960d-1636-481c-a6d8-398469da1a68": {
-                                            "name": "Road-Bound"
+                                            "name": "依赖道路"
                                         },
                                         "d867914a-f7cb-43f8-9ad3-a43c4dd53ad4": {
-                                            "name": "All-Out"
+                                            "name": "全力"
                                         },
                                         "3cccabb2-1e0b-4087-bbf2-1928ea83f5fa": {
-                                            "name": "Cosmic",
-                                            "notes": "Instantaneous Acceleration"
+                                            "name": "超元",
+                                            "notes": "瞬间加速"
                                         },
                                         "a13133f1-e905-4390-b996-6a098a13ed52": {
-                                            "name": "Cosmic",
-                                            "notes": "Complete Maneuverability"
+                                            "name": "超元",
+                                            "notes": "完全机动性"
                                         },
                                         "2d7bce25-a6da-4d08-b7ee-da829c2ecc92": {
                                             "name": "Elemental"
@@ -536,65 +536,65 @@
                                     }
                                 },
                                 "9fd99ce5-4544-42c7-8d5e-6877e999a111": {
-                                    "name": "Flight",
+                                    "name": "飞行",
                                     "tags": [
-                                        "Advantage",
-                                        "Exotic",
-                                        "Physical"
+                                        "优势",
+                                        "异种",
+                                        "生理"
                                     ],
-                                    "notes": "Air Move is Basic Speed x 2 (drop all fractions)",
+                                    "notes": "飞行基本速度是 BS×2（舍去所有小数）",
                                     "modifiers": {
                                         "ab0909c7-9661-4e65-81e3-53f8f590c6b1": {
-                                            "name": "Newtonian Space Flight"
+                                            "name": "牛顿力学式太空飞行"
                                         },
                                         "3d4c36f3-7600-4bbf-a084-8e1a1fd5f2b7": {
-                                            "name": "Space Flight"
+                                            "name": "太空飞行"
                                         },
                                         "2fe3fa6c-c370-4667-a85d-7e45a0d34e94": {
-                                            "name": "Cannot Hover"
+                                            "name": "不能悬停"
                                         },
                                         "c48ed753-861f-4163-a7b2-54f0dd3a03b2": {
-                                            "name": "Controlled Gliding"
+                                            "name": "可控滑翔"
                                         },
                                         "3fbfbe48-a618-48cd-96f7-a1d85d51f8da": {
-                                            "name": "Gliding"
+                                            "name": "滑翔"
                                         },
                                         "5663ed9a-ed56-4496-b920-2d0a9fb570b5": {
-                                            "name": "Lighter Than Air"
+                                            "name": "轻于空气"
                                         },
                                         "a72b259a-aa13-4863-b540-6114e83d3cfc": {
-                                            "name": "Low Ceiling",
-                                            "notes": "30'"
+                                            "name": "低上限",
+                                            "notes": "30 英尺"
                                         },
                                         "fe0fd389-968a-4572-ba0f-878e2f2df72b": {
-                                            "name": "Low Ceiling",
-                                            "notes": "10'"
+                                            "name": "低上限",
+                                            "notes": "10 英尺"
                                         },
                                         "e8685766-a7e2-4cd9-a442-ec18b16bd49d": {
-                                            "name": "Low Ceiling",
-                                            "notes": "5'"
+                                            "name": "低上限",
+                                            "notes": "5 英尺"
                                         },
                                         "07206fdc-a11f-43d8-92a2-74eab68fef99": {
-                                            "name": "Small Wings"
+                                            "name": "小翅膀"
                                         },
                                         "59f79476-77e7-4f50-93f4-a70752b245d7": {
-                                            "name": "Space Flight Only"
+                                            "name": "仅限太空飞行"
                                         },
                                         "7954980f-f9c6-42f8-92f2-ff968a44480d": {
-                                            "name": "Winged"
+                                            "name": "大翼"
                                         },
                                         "8c0bc892-0d45-40d3-904f-66803060872f": {
-                                            "name": "Planetary"
+                                            "name": "行星"
                                         },
                                         "b35982cd-0e27-4787-8a70-0c9c78b3120f": {
-                                            "name": "Requires Surface"
+                                            "name": "需要表面"
                                         },
                                         "c43fb4de-680f-46a1-b198-7f705fdfb846": {
-                                            "name": "Slow",
-                                            "notes": "Basic Speed"
+                                            "name": "慢速",
+                                            "notes": "基本速度"
                                         },
                                         "a2fcb7cf-4176-4fc4-8c4a-64e6e6f1c597": {
-                                            "name": "Slow, Move 1"
+                                            "name": "缓慢，移动力 1"
                                         },
                                         "b825a320-9b3f-465f-aca8-403471afbf6c": {
                                             "name": "Super",
@@ -604,7 +604,7 @@
                                             "name": "Elemental"
                                         },
                                         "c17dd537-a6e5-47e3-a0f4-2735f9e98ff5": {
-                                            "name": "Persistent"
+                                            "name": "持续效果"
                                         }
                                     }
                                 }
@@ -613,75 +613,75 @@
                         "372986a6-a12d-4165-ad4b-b24c0163c7e7": {
                             "name": "Windblast: Innate Attack (Crush)",
                             "tags": [
-                                "Advantage",
-                                "Exotic",
-                                "Physical"
+                                "优势",
+                                "异种",
+                                "生理"
                             ],
                             "notes": "Power Parry: 11",
                             "modifiers": {
                                 "b8c4eec4-9a7b-46b8-b1bb-719fb0168bc0": {
-                                    "name": "Explosion"
+                                    "name": "爆炸"
                                 },
                                 "82af8966-f128-4519-a2e6-7c6405174c53": {
-                                    "name": "Fragmentation"
+                                    "name": "破片"
                                 },
                                 "9453ed68-ac35-4f87-ade0-1cb392bf91d9": {
-                                    "name": "Fragmentation",
-                                    "notes": "Hot"
+                                    "name": "破片",
+                                    "notes": "高热"
                                 },
                                 "5e1ef086-9fd7-4143-8cfe-eba07acc2d50": {
-                                    "name": "Surge"
+                                    "name": "电涌"
                                 },
                                 "ce38f91c-79d5-4f10-8cac-dbf4d918e5b7": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "2"
                                 },
                                 "6f3bbff4-50b8-46b0-a5be-f79859b17c89": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "3"
                                 },
                                 "c733356d-6d1d-479a-b7b4-66a43e80c4c7": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "5"
                                 },
                                 "ea765f32-6a6c-417a-b481-9de05dd0d3f7": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "10"
                                 },
                                 "aea8a34d-e416-4f82-979b-6a75631d4019": {
-                                    "name": "Side Effect",
-                                    "notes": "@Effect@"
+                                    "name": "派生效果",
+                                    "notes": "@效果@"
                                 },
                                 "48e442ef-01ca-4d62-bccd-874105d53888": {
-                                    "name": "Symptoms",
-                                    "notes": "@Effect@"
+                                    "name": "附加症状",
+                                    "notes": "@效果@"
                                 },
                                 "70537804-3b70-414b-8241-7dacea9f6220": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "0.5"
                                 },
                                 "3431f23b-ddf5-49d0-be81-0c3edbff0db1": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "0.2"
                                 },
                                 "844c1d99-781f-4bb2-a6f4-6ff66036f6a0": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "0.1"
                                 },
                                 "069219de-c839-4907-96e5-c6152e0993a7": {
-                                    "name": "No Blunt Trauma"
+                                    "name": "无瘀伤"
                                 },
                                 "a03b09c3-712f-44e9-b9c9-bed5529b3ed3": {
-                                    "name": "No Knockback"
+                                    "name": "无击退"
                                 },
                                 "6a584600-8db9-4ac6-81d3-65a1cbbed37b": {
-                                    "name": "No Wounding"
+                                    "name": "无杀伤"
                                 },
                                 "48678479-bdfa-4224-b97f-49778f607901": {
-                                    "name": "Double Knockback"
+                                    "name": "双倍击退"
                                 },
                                 "0a93b923-3a64-421d-8c84-808078a512c0": {
-                                    "name": "Incendiary"
+                                    "name": "燃烧"
                                 },
                                 "8411de58-8df0-4a5a-b0f0-ba74cdfcafaf": {
                                     "name": "Super",
@@ -695,22 +695,22 @@
                                     "name": "Cone 10 Yards"
                                 },
                                 "e8506520-30bc-47c0-a074-2a9e0f8ac7f0": {
-                                    "name": "Nuisance Effect",
+                                    "name": "不便副作用",
                                     "notes": "Roaring Winds"
                                 },
                                 "f40dd849-1c00-47ba-bb21-fba5142569ad": {
-                                    "name": "Variable"
+                                    "name": "强度可变"
                                 }
                             },
                             "weapons": {
                                 "cf3983b7-4e20-486b-a08c-e3b291a90f7d": {
                                     "defaults": [
                                         {
-                                            "name": "Innate Attack",
-                                            "specialization": "Air"
+                                            "name": "固有攻击",
+                                            "specialization": "空中"
                                         },
                                         {
-                                            "name": "Innate Attack"
+                                            "name": "固有攻击"
                                         }
                                     ]
                                 }
@@ -719,15 +719,15 @@
                         "216c1e04-aea9-4223-b3ab-aee35caeae73": {
                             "name": "Windstorm: Control (Winds)",
                             "tags": [
-                                "Advantage",
-                                "Physical"
+                                "优势",
+                                "生理"
                             ],
                             "modifiers": {
                                 "08818b5a-8314-4335-8821-d0b81860b649": {
-                                    "name": "Persistent"
+                                    "name": "持续效果"
                                 },
                                 "9ab12081-0188-4df6-98ae-6a0bbac7bc31": {
-                                    "name": "Ranged"
+                                    "name": "远程"
                                 },
                                 "464f0836-afca-4d0a-b478-6857b7bc3734": {
                                     "name": "Collective"
@@ -736,19 +736,19 @@
                                     "name": "Natural Phenomena"
                                 },
                                 "0aa60bfe-1c24-478b-9ad2-57a246e01483": {
-                                    "name": "Cosmetic"
+                                    "name": "变更容貌"
                                 },
                                 "f1f156c9-192a-4745-81dc-ce8f1adbcd6e": {
-                                    "name": "Super-Effort"
+                                    "name": "超级出力"
                                 },
                                 "e598cb7d-288f-4bfe-904b-dfcef5bbed60": {
-                                    "name": "Rare"
+                                    "name": "稀有"
                                 },
                                 "92a5a743-d8b3-440e-932a-69611a93c152": {
-                                    "name": "Occasional"
+                                    "name": "不常见"
                                 },
                                 "0a2f0d71-4acb-4c72-8b18-2280983ea567": {
-                                    "name": "Common"
+                                    "name": "常见"
                                 },
                                 "e1afc519-aa97-4702-8c09-74328100221e": {
                                     "name": "Elemental"
@@ -758,26 +758,26 @@
                                     "notes": "Opposed by Anti-powers and weird science gadgets"
                                 },
                                 "ff059fd3-57cc-4cc4-af00-0b3db25f38ce": {
-                                    "name": "Onset",
-                                    "notes": "1 minute"
+                                    "name": "定时发作",
+                                    "notes": "1 分钟"
                                 }
                             }
                         }
                     }
                 },
                 "d8d7a1a6-901c-4e29-8584-c9c609806bc0": {
-                    "name": "Earth",
+                    "name": "地球",
                     "children": {
                         "756f54f7-5c30-4ba0-9e67-f9d0d688fa80": {
                             "name": "Excavation: Tunneling",
                             "tags": [
-                                "Advantage",
-                                "Exotic",
-                                "Physical"
+                                "优势",
+                                "异种",
+                                "生理"
                             ],
                             "modifiers": {
                                 "21f90aa6-8dc9-4a4f-9ee8-209cf0b71e2f": {
-                                    "name": "Hands Free"
+                                    "name": "无需手"
                                 },
                                 "919110e3-9900-4195-bf8e-2e09119fe148": {
                                     "name": "Super",
@@ -787,24 +787,24 @@
                                     "name": "Elemental"
                                 },
                                 "5f904be0-1a07-43a2-b99b-19edab8ebaf7": {
-                                    "name": "Costs Fatigue"
+                                    "name": "消耗 FP"
                                 }
                             }
                         },
                         "1666a4ef-65a3-4bf5-8692-21c30d35e22e": {
                             "name": "Geosenses: Detect",
                             "tags": [
-                                "Advantage",
-                                "Exotic",
-                                "Mental",
-                                "Physical"
+                                "优势",
+                                "异种",
+                                "心理",
+                                "生理"
                             ],
                             "modifiers": {
                                 "17e20829-a19a-40a8-acfc-7017b6137111": {
-                                    "name": "@Rare Substance/Condition@"
+                                    "name": "@稀有物质或状况@"
                                 },
                                 "dba12384-23a1-462c-94d0-f15d6a26f072": {
-                                    "name": "@Occasional Substance/Condition@"
+                                    "name": "@时常出现物质或状况@"
                                 },
                                 "f9d4c93e-4a5d-4680-aadc-8d5eef904918": {
                                     "name": "Minerals"
@@ -813,28 +813,28 @@
                                     "name": "Minerals"
                                 },
                                 "0886568a-43bd-4d38-b3cd-7d186ff2c6f6": {
-                                    "name": "Precise"
+                                    "name": "精准"
                                 },
                                 "297e1480-c106-4704-911a-bc560e736342": {
-                                    "name": "Signal Detection"
+                                    "name": "信号检测"
                                 },
                                 "7ef2540f-bf38-4fcb-aaab-b638590a31dd": {
-                                    "name": "Vague"
+                                    "name": "模糊"
                                 },
                                 "07253fa4-23f2-4c0b-b5aa-3c85acf5ad00": {
-                                    "name": "Analyzing"
+                                    "name": "分析"
                                 },
                                 "19e46264-977e-48c1-8fff-4e405ede2130": {
-                                    "name": "Lock-On"
+                                    "name": "锁定"
                                 },
                                 "100fb890-84e1-4768-b805-f6935575d7a9": {
-                                    "name": "Precise, Nontargeting"
+                                    "name": "精准，无目标"
                                 },
                                 "2e9eee7c-06fd-4751-947f-2299df0b3fe2": {
-                                    "name": "Analysis Only"
+                                    "name": "仅分析"
                                 },
                                 "cf7fe0d5-5c07-48a3-8179-cf2cd602920b": {
-                                    "name": "Cannot Analyze"
+                                    "name": "无法分析"
                                 },
                                 "8f69a298-aaed-4dbd-97ba-44d4638d8ee1": {
                                     "name": "Elemental"
@@ -851,15 +851,15 @@
                         "a6df5a0d-f21d-447a-8002-b815bdd00b60": {
                             "name": "Master of the Earth: Control (Earth)",
                             "tags": [
-                                "Advantage",
-                                "Physical"
+                                "优势",
+                                "生理"
                             ],
                             "modifiers": {
                                 "b25647fc-417b-4352-923a-a8154c6a0c31": {
-                                    "name": "Persistent"
+                                    "name": "持续效果"
                                 },
                                 "c580e572-10dd-49c7-a7f3-858d710e389b": {
-                                    "name": "Ranged"
+                                    "name": "远程"
                                 },
                                 "c4a89f4f-ac73-4a0e-a39d-aa50a1a8688c": {
                                     "name": "Collective"
@@ -868,19 +868,19 @@
                                     "name": "Natural Phenomena"
                                 },
                                 "b293f40f-9a7f-4a14-8d5a-c5945e9afeb3": {
-                                    "name": "Cosmetic"
+                                    "name": "变更容貌"
                                 },
                                 "fa0eb12c-6ab3-4e9d-bb13-e6793658a9be": {
-                                    "name": "Super-Effort"
+                                    "name": "超级出力"
                                 },
                                 "dc388d99-014a-4b88-ad79-93179ff7cc97": {
-                                    "name": "Rare"
+                                    "name": "稀有"
                                 },
                                 "79e09ea3-1fc1-4aa3-9bd3-d87e3a3f063e": {
-                                    "name": "Occasional"
+                                    "name": "不常见"
                                 },
                                 "827e72a1-35d4-43ed-9ea7-a600890b530f": {
-                                    "name": "Common"
+                                    "name": "常见"
                                 },
                                 "2e46d397-8b8a-498d-9dee-30328ebbe432": {
                                     "name": "Super",
@@ -894,9 +894,9 @@
                         "f6731427-5938-432f-aac0-2f665463af9a": {
                             "name": "Mudman: Damage Resistance",
                             "tags": [
-                                "Advantage",
-                                "Exotic",
-                                "Physical"
+                                "优势",
+                                "异种",
+                                "生理"
                             ],
                             "notes": "Power Block: 9",
                             "modifiers": {
@@ -904,90 +904,90 @@
                                     "name": "Force Field"
                                 },
                                 "37ac0fdc-d443-4250-9eee-22611221d520": {
-                                    "name": "Hardened"
+                                    "name": "硬化"
                                 },
                                 "0481a9b9-0fc9-4411-b715-f26a84ecb0bd": {
-                                    "name": "Absorption",
-                                    "notes": "Enhances @Trait@"
+                                    "name": "吸收",
+                                    "notes": "增强@特质@"
                                 },
                                 "d3e15b32-4fc4-4f70-893f-da54a2466005": {
-                                    "name": "Absorption",
-                                    "notes": "Healing only"
+                                    "name": "吸收",
+                                    "notes": "仅治疗"
                                 },
                                 "8c6a2864-a263-49c9-93d9-049fb0acd9c7": {
-                                    "name": "Absorption",
-                                    "notes": "Enhances any trait"
+                                    "name": "吸收",
+                                    "notes": "增强任意特质"
                                 },
                                 "b8942166-e599-4987-be6b-0e1fcc25f627": {
-                                    "name": "Reflection"
+                                    "name": "反射"
                                 },
                                 "e2c63d93-eac6-413f-920e-a49ebc43223e": {
-                                    "name": "Bane",
-                                    "notes": "@Rare@"
+                                    "name": "祸根",
+                                    "notes": "@罕见@"
                                 },
                                 "f676d667-054e-499a-a8fe-fca7e3cce2ec": {
-                                    "name": "Bane",
-                                    "notes": "@Occasional@"
+                                    "name": "祸根",
+                                    "notes": "@偶见@"
                                 },
                                 "00ee193e-1895-4beb-85b8-188148671b1d": {
-                                    "name": "Bane",
-                                    "notes": "@Common@"
+                                    "name": "祸根",
+                                    "notes": "@常见@"
                                 },
                                 "e9933921-44f4-4964-90df-872677191b05": {
-                                    "name": "Bane",
-                                    "notes": "@Very Common@"
+                                    "name": "祸根",
+                                    "notes": "@非常常见@"
                                 },
                                 "0e9ff75e-ac96-4015-a454-48c51222459e": {
-                                    "name": "Directional",
-                                    "notes": "Front"
+                                    "name": "定向",
+                                    "notes": "前方"
                                 },
                                 "f36aa056-9d94-470e-b4d9-4bce287d2f61": {
-                                    "name": "Flexible"
+                                    "name": "柔性"
                                 },
                                 "a70d589f-34fa-4d70-987b-9ec8982a548a": {
-                                    "name": "Limited",
+                                    "name": "限制",
                                     "notes": "Must be touching the ground to initiate"
                                 },
                                 "a89c894d-98f4-4e2c-a8cc-d4de0bb4992c": {
-                                    "name": "Semi-Ablative"
+                                    "name": "半剥离"
                                 },
                                 "0be37854-73bc-4c87-b696-673b3c73a8ec": {
-                                    "name": "Can't wear armor"
+                                    "name": "无法穿着护甲"
                                 },
                                 "f733eb31-30f6-4a63-b53b-50a0613a2bde": {
-                                    "name": "Directional",
-                                    "notes": "@Direction: Back, Right, Left, Top or Underside@"
+                                    "name": "定向",
+                                    "notes": "@方向：后方、左、右、上、下@"
                                 },
                                 "026eaa45-2cb0-4496-b305-739da8eebec3": {
-                                    "name": "Limited",
-                                    "notes": "@Common Attack Form@"
+                                    "name": "限制",
+                                    "notes": "@常见攻击类型@"
                                 },
                                 "7e4733a3-a020-4c90-998c-175eb0bb64de": {
-                                    "name": "Tough Skin",
-                                    "notes": "Effects that just require skin contact or a scratch ignore this DR"
+                                    "name": "硬皮",
+                                    "notes": "任何只需要接触皮肤的影响忽略此 DR"
                                 },
                                 "6d18b0df-c54c-4715-a7a9-1c51b93b6d51": {
-                                    "name": "Limited",
-                                    "notes": "@Occasional Attack Form@"
+                                    "name": "限制",
+                                    "notes": "@偶见攻击类型@"
                                 },
                                 "c2d8432e-0192-4f16-b5b1-08f7c115b36e": {
-                                    "name": "Ablative"
+                                    "name": "剥离"
                                 },
                                 "a4ef9398-1194-4f42-ad2e-824e2ff2bd1b": {
-                                    "name": "Limited",
-                                    "notes": "@Rare Attack Form@"
+                                    "name": "限制",
+                                    "notes": "@罕见攻击类型@"
                                 },
                                 "c89e05fa-b315-450e-babd-9540a17fbef0": {
-                                    "name": "Laminate"
+                                    "name": "叠层"
                                 },
                                 "cc4c578c-5b92-4d59-bf61-323b62000f95": {
-                                    "name": "Malediction-Proof"
+                                    "name": "咒术防御"
                                 },
                                 "5a5e719e-d496-4f4b-b530-8eb251de4c33": {
-                                    "name": "Maledictions Only"
+                                    "name": "仅限咒术"
                                 },
                                 "46c73d90-394c-4c87-96a2-96932c84ef62": {
-                                    "name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)"
+                                    "name": "部分（@部位，每攻击部位调整值 1 等级，躯干在一个等级上 -10% @）"
                                 },
                                 "1ecee840-627e-449f-88ec-848d7b792629": {
                                     "name": "Elemental"
@@ -997,48 +997,48 @@
                                     "notes": "Opposed by Anti-powers and weird science gadgets"
                                 },
                                 "2404134c-8513-461e-b0f1-174ec7319dfe": {
-                                    "name": "Switchable"
+                                    "name": "可开关"
                                 }
                             }
                         },
                         "6037f47e-99cd-4b3b-aae9-d55aae0fef98": {
                             "name": "Quicksand: Binding",
                             "tags": [
-                                "Advantage",
-                                "Exotic",
-                                "Physical"
+                                "优势",
+                                "异种",
+                                "生理"
                             ],
                             "modifiers": {
                                 "09d659f0-177d-4e11-a9bc-35ab44ed3216": {
-                                    "name": "Engulfing"
+                                    "name": "难以挣脱"
                                 },
                                 "697dd44e-661e-4ce9-81a5-d59f2caebbcc": {
-                                    "name": "Only Damaged by @Burning/Corrosion/Cutting/Crushing@"
+                                    "name": "只会受到@燃烧，腐蚀，钝击，或是切割@伤害"
                                 },
                                 "a2539ed2-eaf3-4cc1-a34b-f74758a30f52": {
                                     "name": "Only Damaged by Corrosion or Cutting"
                                 },
                                 "84382a49-bb86-4686-86b6-057d8d59613c": {
-                                    "name": "Only Damaged by @1. Choose one from Burning/Corrosion/Cutting/Crushing@, @2. Choose one from Burning/Corrosion/Cutting/Crushing@ or @3. Choose one from Burning/Corrosion/Cutting/Crushing@"
+                                    "name": "只会受到@1、燃烧，腐蚀，钝击，或是切割中的一种@或@2、燃烧，腐蚀，钝击，或是切割中的一种@或@3、燃烧，腐蚀，钝击，或是切割中的一种@伤害"
                                 },
                                 "0189b5d3-df83-4928-a51b-70d319396e09": {
-                                    "name": "Sticky"
+                                    "name": "充满粘性"
                                 },
                                 "dc20ab0b-7fa3-4136-8b32-3513b6d42482": {
-                                    "name": "Unbreakable"
+                                    "name": "无法破坏"
                                 },
                                 "747fc9bd-910c-419a-9928-fd7308070fc8": {
-                                    "name": "One Shot"
+                                    "name": "无法叠加"
                                 },
                                 "10b915aa-99ff-4c9a-97a7-99f6faa7454a": {
-                                    "name": "Super-Binding"
+                                    "name": "超能束缚"
                                 },
                                 "caadad07-c950-4b12-b0c9-bad960c5770a": {
                                     "name": "Environmental (Victim must be touching the ground)"
                                 },
                                 "85fed4c1-7cc2-4293-b87c-f232da3daf39": {
-                                    "name": "Area Effect",
-                                    "notes": "2^level radius"
+                                    "name": "范围效果",
+                                    "notes": "2^等级 半径"
                                 },
                                 "e26bd285-ed80-4971-88bf-713de736b1f2": {
                                     "name": "Super",
@@ -1052,74 +1052,74 @@
                         "76235324-b4d5-4ef6-9039-78ff3f6ec59d": {
                             "name": "Tremor: Innate Attack (Crush)",
                             "tags": [
-                                "Advantage",
-                                "Exotic",
-                                "Physical"
+                                "优势",
+                                "异种",
+                                "生理"
                             ],
                             "modifiers": {
                                 "0ab27876-26fa-428b-9c58-1ac4ad286b8e": {
-                                    "name": "Explosion"
+                                    "name": "爆炸"
                                 },
                                 "03e251ce-56a5-4ac0-bd61-96a40f497957": {
-                                    "name": "Fragmentation"
+                                    "name": "破片"
                                 },
                                 "b02d92c6-3e31-4353-80fa-f724c67fc719": {
-                                    "name": "Fragmentation",
-                                    "notes": "Hot"
+                                    "name": "破片",
+                                    "notes": "高热"
                                 },
                                 "5c621279-4fa4-4b51-ab76-98c97c808a29": {
-                                    "name": "Surge"
+                                    "name": "电涌"
                                 },
                                 "833f1e32-a7b8-478b-9330-3c796d01d1b5": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "2"
                                 },
                                 "f48fca66-41d2-468c-8c8b-9fe396e44385": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "3"
                                 },
                                 "5be1bf56-09f7-43e6-97dc-43606c534a8b": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "5"
                                 },
                                 "e4459f7c-0f39-482c-9ddb-63bed68c691d": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "10"
                                 },
                                 "ced49e98-8c60-4bd3-bb95-ce4ed7add533": {
-                                    "name": "Side Effect",
-                                    "notes": "@Effect@"
+                                    "name": "派生效果",
+                                    "notes": "@效果@"
                                 },
                                 "782cda18-a124-41b1-bffc-6ba6b5c9e81b": {
-                                    "name": "Symptoms",
-                                    "notes": "@Effect@"
+                                    "name": "附加症状",
+                                    "notes": "@效果@"
                                 },
                                 "e02048af-2be6-4d2b-83bc-f4b2e1e2f764": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "0.5"
                                 },
                                 "9fdf0268-135b-47ea-9c17-fe3b9628b784": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "0.2"
                                 },
                                 "63fa2962-6bc2-45d7-9d11-a02139b0d33f": {
-                                    "name": "Armor Divisor",
+                                    "name": "护甲除数",
                                     "notes": "0.1"
                                 },
                                 "089adac2-1a72-457e-ba04-d4b82eebb776": {
-                                    "name": "No Blunt Trauma"
+                                    "name": "无瘀伤"
                                 },
                                 "df6542a9-ef01-4283-abe3-0790284d5497": {
-                                    "name": "No Knockback"
+                                    "name": "无击退"
                                 },
                                 "b7ab65c2-923e-4223-86a4-7c0dafe27f4d": {
-                                    "name": "No Wounding"
+                                    "name": "无杀伤"
                                 },
                                 "79a31f82-0f02-4d7e-8412-b0d44c208803": {
-                                    "name": "Double Knockback"
+                                    "name": "双倍击退"
                                 },
                                 "cb63da96-1c07-439f-9fcc-da0eda66e7c4": {
-                                    "name": "Incendiary"
+                                    "name": "燃烧"
                                 },
                                 "4346b270-1468-400a-8002-163f97d12a9a": {
                                     "name": "Environmental (Mechanically coupled to the ground)"
@@ -1133,32 +1133,32 @@
                                     "notes": "Opposed by Anti-powers and weird science gadgets"
                                 },
                                 "150b8f06-fb17-476a-8566-519e73db742c": {
-                                    "name": "Area Effect",
-                                    "notes": "2^level radius"
+                                    "name": "范围效果",
+                                    "notes": "2^等级 半径"
                                 },
                                 "cf1277a1-3431-405f-adb4-ee2dedcb1a7f": {
                                     "name": "Based on DX"
                                 },
                                 "3272ae4f-a025-43c6-bd31-e74c5efbb8fa": {
-                                    "name": "Malediction",
-                                    "notes": "-1 per yard of range"
+                                    "name": "咒术",
+                                    "notes": "每距离目标 1 码就 -1 的距离减值"
                                 },
                                 "1940ac7f-2643-403f-b17c-2b05079ad888": {
-                                    "name": "Underwater"
+                                    "name": "能在水下使用"
                                 },
                                 "86932489-1c6d-493e-a092-6b57f0f01bd4": {
-                                    "name": "Takes Extra Time"
+                                    "name": "需要额外时间"
                                 }
                             },
                             "weapons": {
                                 "89440dce-1d30-4f7b-b5d2-dc1d5cf8966e": {
                                     "defaults": [
                                         {
-                                            "name": "Innate Attack",
+                                            "name": "固有攻击",
                                             "specialization": "Crushing Attack"
                                         },
                                         {
-                                            "name": "Innate Attack"
+                                            "name": "固有攻击"
                                         }
                                     ]
                                 }
@@ -1175,8 +1175,8 @@
                 "cecddf50-50e1-4c79-8f02-9e702c581593": {
                     "name": "Mania",
                     "tags": [
-                        "Disadvantage",
-                        "Mental"
+                        "劣势",
+                        "心理"
                     ],
                     "notes": "Make a self-control roll whenever you have an opportunity to do something to satisfy your mania"
                 },
@@ -1184,59 +1184,59 @@
                     "name": "Obsession - Choose Quirk, Short Term, Long Term",
                     "children": {
                         "23359d7f-1e17-4b00-8eb3-3629e9d1c221": {
-                            "name": "Obsession",
+                            "name": "执念",
                             "tags": [
-                                "Mental",
+                                "心理",
                                 "Quirk"
                             ]
                         },
                         "31de25a5-92da-4465-b7f7-9929d5c1fba6": {
-                            "name": "Obsession",
+                            "name": "执念",
                             "tags": [
-                                "Disadvantage",
-                                "Mental"
+                                "劣势",
+                                "心理"
                             ],
                             "notes": "; Make a self-control roll whenever it would be wise to deviate from your goal. If you fail, you continue to pursue your Obsession, regardless of the consequences.",
                             "modifiers": {
                                 "0ca1e33f-d6ce-4e63-badc-633720486a78": {
-                                    "name": "Short term"
+                                    "name": "短期"
                                 },
                                 "00099d08-99df-4a0d-9ddd-a2eea5c014f4": {
-                                    "name": "Long term"
+                                    "name": "长期"
                                 }
                             }
                         },
                         "4c7db64b-d2bd-4537-9b02-b9c8fef550e3": {
-                            "name": "Obsession",
+                            "name": "执念",
                             "tags": [
-                                "Disadvantage",
-                                "Mental"
+                                "劣势",
+                                "心理"
                             ],
                             "notes": "; Make a self-control roll whenever it would be wise to deviate from your goal. If you fail, you continue to pursue your Obsession, regardless of the consequences.",
                             "modifiers": {
                                 "01e7d679-ab87-44c5-99dc-474df17925c7": {
-                                    "name": "Short term"
+                                    "name": "短期"
                                 },
                                 "ff432094-c2da-441a-9ee7-4a0318b23bde": {
-                                    "name": "Long term"
+                                    "name": "长期"
                                 }
                             }
                         }
                     }
                 },
                 "ce01237a-3d65-44a5-915f-3388732df074": {
-                    "name": "Overconfidence",
+                    "name": "自负",
                     "tags": [
-                        "Disadvantage",
-                        "Mental"
+                        "劣势",
+                        "心理"
                     ],
-                    "notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
+                    "notes": "如果 GM 认为人物过于谨慎，可能要求人物进行自我控制检定，如果检定失败，人物不再畏缩不前，就像你能解决问题一样！",
                     "features": [
                         {
-                            "situation": "from young or naive individuals who believe you are as good as you say you are"
+                            "situation": "来自年青幼稚的人，他们相信你的吹牛"
                         },
                         {
-                            "situation": "from experienced NPCs"
+                            "situation": "来自老练的 NPC"
                         }
                     ]
                 },
@@ -1244,33 +1244,33 @@
                     "name": "Trademark - Choose Quirk, Simple or Complex",
                     "children": {
                         "eac178df-5a8c-4d64-a566-765e9e1d9fa8": {
-                            "name": "Trademark",
+                            "name": "个人标记",
                             "tags": [
-                                "Mental",
+                                "心理",
                                 "Quirk"
                             ]
                         },
                         "407fdbc0-9454-4537-a265-2d4c1bb0bb21": {
                             "name": "Trademark (Complex)",
                             "tags": [
-                                "Disadvantage",
-                                "Mental"
+                                "劣势",
+                                "心理"
                             ]
                         },
                         "107c5791-eeff-4df0-927f-3f0eb040286a": {
                             "name": "Trademark (Simple)",
                             "tags": [
-                                "Disadvantage",
-                                "Mental"
+                                "劣势",
+                                "心理"
                             ]
                         }
                     }
                 },
                 "ec9d4ae1-576c-4e6f-9a26-e7cea3eaf51e": {
-                    "name": "Workaholic",
+                    "name": "工作狂",
                     "tags": [
-                        "Disadvantage",
-                        "Physical"
+                        "劣势",
+                        "生理"
                     ]
                 }
             }
@@ -1283,9 +1283,9 @@
                 "778081f3-aad0-4e7f-b86e-f37a2dab3d1b": {
                     "name": "Brawling",
                     "tags": [
-                        "Combat",
-                        "Melee Combat",
-                        "Weapon"
+                        "战斗",
+                        "近战",
+                        "武器"
                     ],
                     "features": [
                         {
@@ -1298,11 +1298,11 @@
                 "e2ab76f2-65ba-464f-9f2b-dd619eb83501": {
                     "name": "Judo",
                     "tags": [
-                        "Combat",
-                        "Melee Combat",
-                        "Weapon"
+                        "战斗",
+                        "近战",
+                        "武器"
                     ],
-                    "notes": "Allows parrying two different attacks per turn, one with each hand."
+                    "notes": "使得你获得每轮用两只手各招架一次的能力。"
                 }
             }
         },
@@ -1310,49 +1310,49 @@
             "name": "6 - Choose one of the following Skills:",
             "children": {
                 "8556dda2-c22f-4a05-bab4-b1e5d5672d3c": {
-                    "name": "Climbing",
+                    "name": "攀爬",
                     "tags": [
-                        "Athletic",
-                        "Criminal",
-                        "Exploration",
-                        "Outdoor",
-                        "Street"
+                        "运动",
+                        "犯罪",
+                        "探索",
+                        "户外",
+                        "街头"
                     ]
                 },
                 "d203c3d8-b5c5-4cb7-a9e5-ec73ab1c0204": {
-                    "name": "Flight",
+                    "name": "飞行",
                     "tags": [
-                        "Athletic"
+                        "运动"
                     ],
                     "prereqs": {
                         "prereqs": [
                             {
                                 "name": {
-                                    "qualifier": "flight"
+                                    "qualifier": "飞行"
                                 }
                             }
                         ]
                     }
                 },
                 "be5c79a2-7099-4add-bb9f-f6493f3df85b": {
-                    "name": "Jumping",
+                    "name": "跳跃",
                     "tags": [
-                        "Athletic"
+                        "运动"
                     ]
                 },
                 "80130875-dc48-4e36-bad5-8350843aac3f": {
-                    "name": "Skating",
+                    "name": "滑冰",
                     "tags": [
-                        "Exploration",
-                        "Outdoor"
+                        "探索",
+                        "户外"
                     ]
                 },
                 "0e870087-5ef6-4e4c-906b-24d8d511c63f": {
-                    "name": "Swimming",
+                    "name": "游泳",
                     "tags": [
-                        "Athletic",
-                        "Exploration",
-                        "Outdoor"
+                        "运动",
+                        "探索",
+                        "户外"
                     ]
                 }
             }
@@ -1361,16 +1361,16 @@
             "name": "7 - Choose two of the following Skills:",
             "children": {
                 "022b812c-ed86-42d8-b03b-fce1e7586449": {
-                    "name": "Architecture",
+                    "name": "建筑学",
                     "tags": [
-                        "Design",
-                        "Invention"
+                        "设计",
+                        "发明"
                     ],
                     "defaults": [
                         {},
                         {
-                            "name": "Engineer",
-                            "specialization": "Civil"
+                            "name": "工程学",
+                            "specialization": "民间工程"
                         }
                     ]
                 },
@@ -1378,34 +1378,34 @@
                     "name": "Armoury - Pick One: Body Armor or Melee Weapons",
                     "children": {
                         "3948b0cb-2197-467a-a3a3-4de68de1ba5d": {
-                            "name": "Armoury",
+                            "name": "军械修造",
                             "tags": [
-                                "Maintenance",
-                                "Military",
-                                "Repair"
+                                "维护",
+                                "军事",
+                                "修理"
                             ],
-                            "specialization": "Body Armor",
+                            "specialization": "身体装甲",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Engineer",
-                                    "specialization": "Body Armor"
+                                    "name": "工程学",
+                                    "specialization": "身体装甲"
                                 }
                             ]
                         },
                         "82d20f17-60c2-4173-80e7-f789be7ef408": {
-                            "name": "Armoury",
+                            "name": "军械修造",
                             "tags": [
-                                "Maintenance",
-                                "Military",
-                                "Repair"
+                                "维护",
+                                "军事",
+                                "修理"
                             ],
-                            "specialization": "Melee Weapons",
+                            "specialization": "近战武器",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Engineer",
-                                    "specialization": "Melee Weapons"
+                                    "name": "工程学",
+                                    "specialization": "近战武器"
                                 }
                             ]
                         }
@@ -1415,118 +1415,118 @@
                     "name": "Artist - Pick One: Pottery, Sculpting or Woodworking",
                     "children": {
                         "a7e5ea65-af75-44e7-86b5-f125ea1506fd": {
-                            "name": "Artist",
+                            "name": "艺术家",
                             "tags": [
-                                "Arts",
-                                "Craft",
-                                "Entertainment"
+                                "艺术",
+                                "工艺",
+                                "娱乐"
                             ],
-                            "specialization": "Pottery",
+                            "specialization": "陶艺",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Artist"
+                                    "name": "艺术家"
                                 }
                             ]
                         },
                         "da05de7e-d0ff-4e85-86a2-96a5e59b576d": {
-                            "name": "Artist",
+                            "name": "艺术家",
                             "tags": [
-                                "Arts",
-                                "Craft",
-                                "Entertainment"
+                                "艺术",
+                                "工艺",
+                                "娱乐"
                             ],
-                            "specialization": "Sculpting",
+                            "specialization": "雕塑",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Artist"
+                                    "name": "艺术家"
                                 }
                             ]
                         },
                         "5e2fdb72-0cde-49b8-984e-1c9b272b2ea9": {
-                            "name": "Artist",
+                            "name": "艺术家",
                             "tags": [
-                                "Arts",
-                                "Craft",
-                                "Entertainment"
+                                "艺术",
+                                "工艺",
+                                "娱乐"
                             ],
-                            "specialization": "Woodworking",
+                            "specialization": "木艺",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Carpentry"
+                                    "name": "木艺"
                                 },
                                 {
-                                    "name": "Artist",
-                                    "specialization": "Interior Decorating"
+                                    "name": "艺术家",
+                                    "specialization": "室内装饰"
                                 },
                                 {
-                                    "name": "Artist",
-                                    "specialization": "Scene Design"
+                                    "name": "艺术家",
+                                    "specialization": "布景设计"
                                 },
                                 {
-                                    "name": "Artist"
+                                    "name": "艺术家"
                                 }
                             ]
                         }
                     }
                 },
                 "30971b1c-f50a-447f-ade7-cfdcb78890f7": {
-                    "name": "Camouflage",
+                    "name": "伪装",
                     "tags": [
-                        "Exploration",
-                        "Military",
-                        "Outdoor"
+                        "探索",
+                        "军事",
+                        "户外"
                     ],
                     "defaults": [
                         {},
                         {
-                            "name": "Survival"
+                            "name": "生存"
                         }
                     ]
                 },
                 "31d90911-9fc4-4e56-b025-a2c9c791d5db": {
-                    "name": "Carpentry",
+                    "name": "木艺",
                     "tags": [
-                        "Craft"
+                        "工艺"
                     ]
                 },
                 "d6b89932-665d-426e-9892-38fd87a67a25": {
-                    "name": "Chemistry",
+                    "name": "化学",
                     "tags": [
-                        "Natural Science"
+                        "自然科学"
                     ],
                     "defaults": [
                         {},
                         {
-                            "name": "Alchemy"
+                            "name": "炼金术"
                         }
                     ]
                 },
                 "fa57c8d7-ec65-40d6-be92-4194e1a050d5": {
-                    "name": "Expert Skill",
+                    "name": "专家技能",
                     "tags": [
-                        "Knowledge",
-                        "Natural Science",
-                        "Scholarly"
+                        "知识",
+                        "自然科学",
+                        "学校"
                     ],
-                    "specialization": "Hydrology"
+                    "specialization": "水文学"
                 },
                 "9182ad24-d07f-446e-b155-629dfb189627": {
-                    "name": "Geology",
+                    "name": "地质学",
                     "tags": [
-                        "Natural Science"
+                        "自然科学"
                     ],
-                    "specialization": "Earthlike",
+                    "specialization": "类地行星",
                     "defaults": [
                         {},
                         {
-                            "name": "Geography",
-                            "specialization": "Physical, Earthlike"
+                            "name": "地理学",
+                            "specialization": "政治，类地行星"
                         },
                         {
-                            "name": "Prospecting"
+                            "name": "探矿"
                         }
                     ]
                 },
@@ -1534,39 +1534,39 @@
                     "name": "Hazardous Materials - Pick One: Biological, Chemical, Magical, Nanotech, Nuclear",
                     "children": {
                         "f105c0b9-b167-4b77-b16e-43bba8c92cdd": {
-                            "name": "Hazardous Materials",
+                            "name": "危险材料",
                             "tags": [
-                                "Technical"
+                                "技术"
                             ],
-                            "specialization": "Biological"
+                            "specialization": "生物"
                         },
                         "01cd57e1-c3e9-4837-9c7a-ef9bb2055f9f": {
-                            "name": "Hazardous Materials",
+                            "name": "危险材料",
                             "tags": [
-                                "Technical"
+                                "技术"
                             ],
-                            "specialization": "Chemical"
+                            "specialization": "化学"
                         },
                         "92d7cbd5-80ad-4182-b874-51839d3d2f06": {
-                            "name": "Hazardous Materials",
+                            "name": "危险材料",
                             "tags": [
-                                "Technical"
+                                "技术"
                             ],
-                            "specialization": "Magical"
+                            "specialization": "魔法"
                         },
                         "79183c7d-6905-4bc6-b66d-6adda3ed0a1f": {
-                            "name": "Hazardous Materials",
+                            "name": "危险材料",
                             "tags": [
-                                "Technical"
+                                "技术"
                             ],
-                            "specialization": "Nanotech"
+                            "specialization": "纳米"
                         },
                         "3a6eb461-f2dc-455c-9ed4-708e313e92cc": {
-                            "name": "Hazardous Materials",
+                            "name": "危险材料",
                             "tags": [
-                                "Technical"
+                                "技术"
                             ],
-                            "specialization": "Nuclear"
+                            "specialization": "辐射"
                         }
                     }
                 },
@@ -1574,138 +1574,138 @@
                     "name": "Innate Attack - Pick One: Beam, Breath, Gaze, Projectile",
                     "children": {
                         "530ac865-e610-43c7-b9f8-6f14ae765df5": {
-                            "name": "Innate Attack",
+                            "name": "固有攻击",
                             "tags": [
-                                "Combat",
-                                "Ranged Combat",
-                                "Weapon"
+                                "战斗",
+                                "远程战斗",
+                                "武器"
                             ],
-                            "specialization": "Beam",
+                            "specialization": "光束",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Innate Attack"
+                                    "name": "固有攻击"
                                 }
                             ]
                         },
                         "f9c6d58e-a502-4287-86b5-4488a60d2879": {
-                            "name": "Innate Attack",
+                            "name": "固有攻击",
                             "tags": [
-                                "Combat",
-                                "Ranged Combat",
-                                "Weapon"
+                                "战斗",
+                                "远程战斗",
+                                "武器"
                             ],
-                            "specialization": "Breath",
+                            "specialization": "吐息",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Innate Attack"
+                                    "name": "固有攻击"
                                 }
                             ]
                         },
                         "147f8ffa-d346-4b01-a55f-31efb9defc98": {
-                            "name": "Innate Attack",
+                            "name": "固有攻击",
                             "tags": [
-                                "Combat",
-                                "Ranged Combat",
-                                "Weapon"
+                                "战斗",
+                                "远程战斗",
+                                "武器"
                             ],
-                            "specialization": "Gaze",
+                            "specialization": "凝视",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Innate Attack"
+                                    "name": "固有攻击"
                                 }
                             ]
                         },
                         "e8acb8b2-8b85-4d34-afc0-03943e3997cf": {
-                            "name": "Innate Attack",
+                            "name": "固有攻击",
                             "tags": [
-                                "Combat",
-                                "Ranged Combat",
-                                "Weapon"
+                                "战斗",
+                                "远程战斗",
+                                "武器"
                             ],
-                            "specialization": "Projectile",
+                            "specialization": "射弹",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "Innate Attack"
+                                    "name": "固有攻击"
                                 }
                             ]
                         }
                     }
                 },
                 "84fac542-252b-4ecc-bf14-19f7f5307336": {
-                    "name": "Jeweler",
+                    "name": "珠宝加工",
                     "tags": [
-                        "Craft"
+                        "工艺"
                     ],
                     "defaults": [
                         {},
                         {
-                            "name": "Smith",
-                            "specialization": "Copper"
+                            "name": "金属加工",
+                            "specialization": "CP"
                         },
                         {
-                            "name": "Smith",
-                            "specialization": "Lead & Tin"
+                            "name": "金属加工",
+                            "specialization": "铅与锡"
                         }
                     ]
                 },
                 "647775a5-c9fc-4128-8d26-1b15cd7f977c": {
-                    "name": "Masonry",
+                    "name": "石工",
                     "tags": [
-                        "Craft"
+                        "工艺"
                     ]
                 },
                 "06e086e2-490a-4023-b8db-77e0457e41d3": {
-                    "name": "Metallurgy",
+                    "name": "冶金学",
                     "tags": [
-                        "Natural Science"
+                        "自然科学"
                     ],
                     "defaults": [
                         {
-                            "name": "Chemistry"
+                            "name": "化学"
                         },
                         {
-                            "name": "Jeweler"
+                            "name": "珠宝加工"
                         },
                         {
-                            "name": "Smith"
+                            "name": "金属加工"
                         }
                     ]
                 },
                 "7524538c-d7c4-4d0b-abb1-6d8256c92110": {
-                    "name": "Meteorology",
+                    "name": "气象学",
                     "tags": [
-                        "Natural Science"
+                        "自然科学"
                     ],
-                    "specialization": "Earthlike"
+                    "specialization": "类地行星"
                 },
                 "0a1223a4-5bf4-4aae-aa08-4c288bfb3c00": {
-                    "name": "Prospecting",
+                    "name": "探矿",
                     "tags": [
-                        "Exploration",
-                        "Outdoor"
+                        "探索",
+                        "户外"
                     ],
                     "defaults": [
                         {},
                         {
-                            "name": "Geology"
+                            "name": "地质学"
                         }
                     ]
                 },
                 "dbb9cbb1-957a-465a-9564-1d7da16df42c": {
                     "name": "Traps",
                     "tags": [
-                        "Criminal",
-                        "Military",
-                        "Street"
+                        "犯罪",
+                        "军事",
+                        "街头"
                     ],
                     "defaults": [
                         {},
                         {
-                            "name": "Lockpicking"
+                            "name": "开锁"
                         }
                     ]
                 }
@@ -1715,12 +1715,12 @@
             "name": "8 - Additional Skills",
             "children": {
                 "eec6da96-f415-4b3d-9b78-0458c77b533d": {
-                    "name": "Forced Entry",
+                    "name": "破门",
                     "tags": [
-                        "Criminal",
-                        "Police",
-                        "Spy",
-                        "Street"
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
                     ]
                 }
             }
