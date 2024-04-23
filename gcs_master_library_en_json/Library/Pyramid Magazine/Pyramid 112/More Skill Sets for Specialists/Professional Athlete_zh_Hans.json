@@ -1,0 +1,206 @@
+{
+    "traits": {
+        "63334dca-cb19-4415-9a63-7c02c4c67636": {
+            "name": "Professional Athlete",
+            "children": {
+                "842ee61f-9ba2-4f10-8c20-bddebd68925d": {
+                    "name": "健康",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)"
+                },
+                "6b43c49f-498d-4505-9d4b-1ffd7ec7f5b4": {
+                    "name": "Skill Adaptation (Broader Sports defaults for skills)",
+                    "tags": [
+                        "心理",
+                        "Perk",
+                        "生理"
+                    ]
+                },
+                "37c4c7ca-cb3f-4d26-ad13-db19f8c3d077": {
+                    "name": "Talent (Natural Athlete)",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "天赋"
+                    ],
+                    "notes": "Specialists should put points in specific Sports/Games skills instead.",
+                    "modifiers": {
+                        "710dff53-efd0-4c70-a825-55bca442efde": {
+                            "name": "Reaction Bonus",
+                            "notes": "Sports fans, coaches, and recruiters"
+                        },
+                        "52b30b01-80d1-4a07-870f-74759a5e19ea": {
+                            "name": "可选增益",
+                            "notes": "Bonus to HT to recover from injuries resulting from failures with covered skills"
+                        },
+                        "ce9d4c17-cf45-4733-817c-c557d28e07a4": {
+                            "name": "可选花费"
+                        }
+                    },
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "自行车"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "呼吸控制"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "远足"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "跳跃"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "举重"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "跑步"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "滑冰"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "滑雪"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "运动"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "游泳"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "投掷"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "skills": {
+        "41ec3f02-58c3-446d-873f-1c753489d747": {
+            "name": "Professional Athlete",
+            "children": {
+                "58546e8e-6028-4a4a-9c35-65917da64a06": {
+                    "name": "Choose one",
+                    "children": {
+                        "2aa33258-ef20-4a79-a4bd-10b4e71bb95c": {
+                            "name": "Athlete",
+                            "children": {
+                                "bba6de4f-3d5b-47be-95d4-aa8d17ad299e": {
+                                    "name": "游戏",
+                                    "tags": [
+                                        "知识"
+                                    ],
+                                    "specialization": "@分支@"
+                                },
+                                "ac14ee0d-66c2-4028-b745-3cc747d315cd": {
+                                    "name": "运动",
+                                    "tags": [
+                                        "运动"
+                                    ],
+                                    "specialization": "@分支@"
+                                }
+                            }
+                        },
+                        "e966f509-168e-4c30-8399-7f84ef67396e": {
+                            "name": "Professional Wrestler",
+                            "children": {
+                                "02bda1cf-dd8f-480b-853f-4bbf87acfefd": {
+                                    "name": "9 points in",
+                                    "children": {
+                                        "9bfd2545-d1c6-486a-9aae-5da217ab386b": {
+                                            "name": "Brawling Art",
+                                            "tags": [
+                                                "运动"
+                                            ],
+                                            "defaults": [
+                                                {
+                                                    "name": "Brawling"
+                                                },
+                                                {
+                                                    "name": "Brawling Sport"
+                                                }
+                                            ]
+                                        },
+                                        "9888f3cd-e9ae-487a-aa0d-54d90a71a028": {
+                                            "name": "Or Trademark Move perk"
+                                        },
+                                        "f105fd74-aa09-4f2f-9076-6b80c2f7ff7b": {
+                                            "name": "团体表演",
+                                            "tags": [
+                                                "艺术",
+                                                "娱乐"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "做戏"
+                                                },
+                                                {
+                                                    "name": "演讲"
+                                                }
+                                            ]
+                                        },
+                                        "19575822-cce0-4718-b8cd-6d36390c011a": {
+                                            "name": "Wrestling Art",
+                                            "tags": [
+                                                "运动"
+                                            ],
+                                            "defaults": [
+                                                {
+                                                    "name": "Wrestling"
+                                                },
+                                                {
+                                                    "name": "Wrestling Sport"
+                                                }
+                                            ]
+                                        },
+                                        "a2b952d4-5a50-4f45-80fe-5548287c2b0e": {
+                                            "name": "Wrestling Sport",
+                                            "tags": [
+                                                "运动"
+                                            ],
+                                            "defaults": [
+                                                {
+                                                    "name": "Wrestling"
+                                                },
+                                                {
+                                                    "name": "Wrestling Art"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
