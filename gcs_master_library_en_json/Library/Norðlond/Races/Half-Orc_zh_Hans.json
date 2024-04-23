@@ -1,0 +1,135 @@
+{
+    "traits": {
+        "f877bc7a-bd38-4c31-b610-1b11ebee5aa2": {
+            "name": "Half-Orc",
+            "children": {
+                "4eab7f55-3708-4b22-a398-3a7d68ecbdda": {
+                    "name": "增加体力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "60979941-a2fd-4dbb-b761-84d4d6d0cbdb": {
+                    "name": "额外生命值",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "27f59906-331d-4111-a077-ff89e253e3e5": {
+                    "name": "敏锐听觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "899549bc-1f0f-4c08-bca9-4d29c6b7b540": {
+                    "name": "夜视",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "abe256fd-9af6-49ae-bb90-d4ec820864bc": {
+                    "name": "快速愈合",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "qualifier": {
+                                    "qualifier": "10"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "0c224a4b-d7b1-408e-870f-89122503eda9": {
+                    "name": "Resistant to Disease",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "e00723ce-52a1-4819-a751-cb4f5cbdd269": {
+                            "name": "+5 to all HT rolls to resist"
+                        }
+                    }
+                },
+                "bcdf74e1-6516-480c-add5-b1371b6f4f5b": {
+                    "name": "Resistant to Poison",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "4266432b-2a5e-4e96-bc74-a81fb769d33d": {
+                            "name": "+5 to all HT rolls to resist"
+                        }
+                    }
+                },
+                "1ca8111e-8486-42b8-bcdb-43bdc3806ab2": {
+                    "name": "外貌",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "6329af92-c966-4ad9-bd21-e7e7b5c58ba5": {
+                            "name": "无吸引力的"
+                        }
+                    }
+                },
+                "5f7a6ca9-4de6-46f7-aa56-27e79f4ddbb2": {
+                    "name": "Social Stigma (Savage)",
+                    "tags": [
+                        "劣势",
+                        "社会"
+                    ],
+                    "notes": "-2 reaction; -4 to skills; Denied entry to town on 6 or less"
+                }
+            }
+        },
+        "10a2d3f6-64db-4385-87d1-1d0c27adf318": {
+            "name": "Half-Orc Gifts",
+            "children": {
+                "8f433312-1409-47cc-be50-3ccff42c0b88": {
+                    "name": "Rapid Healing, Very",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "qualifier": {
+                                    "qualifier": "12"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "370551ab-b6cf-40f0-ab5d-0a5677ac6306": {
+                    "name": "恢复",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "e0e55a59-4bc8-4004-96e9-05311ba7ec48": {
+                    "name": "Eh, That's Just Grug",
+                    "tags": [
+                        "生理"
+                    ],
+                    "notes": "Eliminates penalties for Social Stigma (Savage) in any town that you've spent at least one week in after a succesful adventure."
+                }
+            }
+        }
+    }
+}
