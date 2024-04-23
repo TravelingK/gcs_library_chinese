@@ -1,0 +1,364 @@
+{
+    "traits": {
+        "1e53522e-9125-429f-90b9-8780aa9238df": {
+            "name": "Gargoyle",
+            "children": {
+                "c1026c36-fde7-420d-8db0-b61521f7dbed": {
+                    "name": "Attributes",
+                    "children": {
+                        "33ad0c2b-07c0-4784-ba71-13723c862359": {
+                            "name": "Decreased Intelligence",
+                            "tags": [
+                                "Attribute",
+                                "Disadvantage",
+                                "Mental"
+                            ]
+                        },
+                        "0298b048-df54-4a2b-a8f8-66a59b5a4b15": {
+                            "name": "Decreased Strength",
+                            "tags": [
+                                "Attribute",
+                                "Disadvantage",
+                                "Physical"
+                            ]
+                        },
+                        "91731997-fa0c-4873-92ba-1be247ba0cf2": {
+                            "name": "Increased Health",
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Physical"
+                            ]
+                        },
+                        "88af0a91-119b-410f-86db-3e37c7fb3232": {
+                            "name": "Decreased Size Modifier",
+                            "tags": [
+                                "Physical"
+                            ]
+                        }
+                    }
+                },
+                "bf546306-fd62-4072-819f-35a30bcd5bf9": {
+                    "name": "Racial Advantage",
+                    "children": {
+                        "c3319765-fd68-42fb-87ba-7c6311fad659": {
+                            "name": "Claws, Blunt (Hands)",
+                            "tags": [
+                                "Advantage",
+                                "Physical"
+                            ],
+                            "notes": "Only pay for hands or feet, not both",
+                            "weapons": {
+                                "034854a2-3f27-499f-ba69-b935a98758dc": {
+                                    "usage": "Punch",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Brawling"
+                                        },
+                                        {
+                                            "name": "Boxing"
+                                        },
+                                        {
+                                            "name": "Karate"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "d8033e72-ab36-45f1-ae9c-726e7c619a64": {
+                            "name": "Damage Resistance",
+                            "tags": [
+                                "Advantage",
+                                "Exotic",
+                                "Physical"
+                            ],
+                            "modifiers": {
+                                "049f75ef-d469-48ec-a74f-3cdd910bacf3": {
+                                    "name": "Force Field"
+                                },
+                                "87de85e9-447d-46c3-b402-9960eecb9f74": {
+                                    "name": "Hardened"
+                                },
+                                "db88b073-bad8-4c2e-87ef-afdb4eb6e43b": {
+                                    "name": "Absorption",
+                                    "notes": "Enhances @Trait@"
+                                },
+                                "5c4148e5-8807-46f5-873e-a7b1bbac3ea7": {
+                                    "name": "Absorption",
+                                    "notes": "Healing only"
+                                },
+                                "b274def8-fe0e-49d9-aa64-64e95b9c1f3e": {
+                                    "name": "Absorption",
+                                    "notes": "Enhances any trait"
+                                },
+                                "f2f8f454-d4b4-4e33-b5cf-7121f9806937": {
+                                    "name": "Reflection"
+                                },
+                                "b56dfe4c-639e-4ec5-9762-6e08d1266236": {
+                                    "name": "Bane",
+                                    "notes": "@Rare@"
+                                },
+                                "5ada75b5-9d8c-4f1d-8772-4f39d580244d": {
+                                    "name": "Bane",
+                                    "notes": "@Occasional@"
+                                },
+                                "aa70fb94-e1df-48d6-9930-df91b1c442e4": {
+                                    "name": "Bane",
+                                    "notes": "@Common@"
+                                },
+                                "8c03b67e-d0bf-45da-82ae-195d7cdcbc5b": {
+                                    "name": "Bane",
+                                    "notes": "@Very Common@"
+                                },
+                                "fb91db81-be01-46eb-8ae4-d8be35ad4a41": {
+                                    "name": "Directional",
+                                    "notes": "Front"
+                                },
+                                "95862eba-a4e8-4cb5-808b-3afa82614857": {
+                                    "name": "Flexible"
+                                },
+                                "a7289245-e2bb-4420-a1bd-4ee137041eca": {
+                                    "name": "Limited",
+                                    "notes": "@Very Common Attack Form@"
+                                },
+                                "6b59db06-e0c9-4c2a-9df0-c603d87bbd32": {
+                                    "name": "Semi-Ablative"
+                                },
+                                "6be1e979-1311-4b84-a7fa-7830e87a2a82": {
+                                    "name": "Can't wear armor"
+                                },
+                                "eee2be6f-c45d-4e4d-b526-0e1d9352097f": {
+                                    "name": "Directional",
+                                    "notes": "@Direction: Back, Right, Left, Top or Underside@"
+                                },
+                                "200e597f-a603-4d64-a6aa-b5c5baaeb415": {
+                                    "name": "Limited",
+                                    "notes": "@Common Attack Form@"
+                                },
+                                "2fbe3fda-b4db-444a-9ccf-09c55dfb14b0": {
+                                    "name": "Tough Skin",
+                                    "notes": "Effects that just require skin contact or a scratch ignore this DR"
+                                },
+                                "7d3f0eab-eff9-4e57-9c59-9dca82575804": {
+                                    "name": "Limited",
+                                    "notes": "@Occasional Attack Form@"
+                                },
+                                "f6455913-ac83-44e7-aa0b-efb2d627069c": {
+                                    "name": "Ablative"
+                                },
+                                "0db52624-0bdd-462f-ba48-c0a74c9761cc": {
+                                    "name": "Limited",
+                                    "notes": "@Rare Attack Form@"
+                                },
+                                "ad29aaa9-47fd-4a97-8ef3-c774ab815a32": {
+                                    "name": "Laminate"
+                                }
+                            }
+                        },
+                        "93928d71-dd37-4362-9b2d-3a4a900adc24": {
+                            "name": "Extended Lifespan",
+                            "tags": [
+                                "Advantage",
+                                "Exotic",
+                                "Physical"
+                            ]
+                        },
+                        "babb007c-7a2f-4277-aa50-f135c7605899": {
+                            "name": "Flight",
+                            "tags": [
+                                "Advantage",
+                                "Exotic",
+                                "Physical"
+                            ],
+                            "modifiers": {
+                                "733e8ac0-70ab-4b44-98e0-a219c9df1aad": {
+                                    "name": "Newtonian Space Flight"
+                                },
+                                "c3090746-2052-46b4-b502-70147628de55": {
+                                    "name": "Space Flight"
+                                },
+                                "37cc3463-9200-4d3a-90a0-09ee89618e9f": {
+                                    "name": "Cannot Hover"
+                                },
+                                "73b6f51c-ae1d-41bf-9d3c-cbe98b44dd8b": {
+                                    "name": "Controlled Gliding"
+                                },
+                                "e0a6412e-b5cf-4cc1-a261-220e1a5db29e": {
+                                    "name": "Gliding"
+                                },
+                                "7c9fdc59-3e90-4e04-8ce0-7592295a834f": {
+                                    "name": "Lighter Than Air"
+                                },
+                                "e8dd51ad-30b0-4c56-9cff-2ed260a90976": {
+                                    "name": "Low Ceiling",
+                                    "notes": "30'"
+                                },
+                                "3594b4dc-74cf-4cd8-8a15-619fb453c03a": {
+                                    "name": "Low Ceiling",
+                                    "notes": "10'"
+                                },
+                                "793d2947-783b-40ba-b3f4-62c395b2d6ee": {
+                                    "name": "Low Ceiling",
+                                    "notes": "5'"
+                                },
+                                "c8e2dbe7-239b-4aa2-942d-c72b27a55151": {
+                                    "name": "Small Wings"
+                                },
+                                "44e94993-1fc4-424f-ac20-390ae905f7b8": {
+                                    "name": "Space Flight Only"
+                                },
+                                "cb1465c3-2f2a-4762-a49c-e06a1bb80794": {
+                                    "name": "Winged"
+                                },
+                                "da78e021-3fce-4afc-b01d-249231db9b64": {
+                                    "name": "Planetary"
+                                },
+                                "cae69b1e-db8a-4774-bcbd-b6e632839571": {
+                                    "name": "Requires Surface"
+                                }
+                            }
+                        },
+                        "049f4b07-6336-4235-b8b7-01977d296823": {
+                            "name": "Night Vision",
+                            "tags": [
+                                "Advantage",
+                                "Physical"
+                            ]
+                        }
+                    }
+                },
+                "22cff11e-f614-4376-ae26-f5cab1011c6a": {
+                    "name": "Racial Disadvantage",
+                    "children": {
+                        "5f0101ff-117f-4d91-8f7c-5b4f75b13a0d": {
+                            "name": "Appearance",
+                            "tags": [
+                                "Advantage",
+                                "Physical"
+                            ],
+                            "modifiers": {
+                                "b9aced40-1c35-4c4e-a603-0cad2afb6400": {
+                                    "name": "Universal"
+                                },
+                                "32c14174-8e60-4889-a61e-7764a1a31b57": {
+                                    "name": "Off-the-Shelf Looks"
+                                },
+                                "822e99f7-a21e-4725-8bf8-54dee2425e70": {
+                                    "name": "Androgynous"
+                                },
+                                "40d26a01-69cc-4826-a10d-361e7336862c": {
+                                    "name": "Impressive"
+                                },
+                                "495dac8d-3816-4e83-8272-222d3a8d86f0": {
+                                    "name": "Attractive"
+                                },
+                                "f11b3327-0faa-4727-8cd9-8e8f41fa3811": {
+                                    "name": "Average"
+                                },
+                                "1ba9d29d-1a15-4061-8096-60e6114871e4": {
+                                    "name": "Horrific"
+                                },
+                                "7ceef783-9c4a-421d-aebf-854d16d4f7f6": {
+                                    "name": "Monstrous"
+                                },
+                                "33b3769d-4b8d-4552-910f-6db67b243daf": {
+                                    "name": "Hideous"
+                                },
+                                "5d5c790a-5aa7-468c-8259-9c1969b84259": {
+                                    "name": "Ugly"
+                                },
+                                "efe4614a-5a94-41ec-90de-19180fc84332": {
+                                    "name": "Unattractive"
+                                },
+                                "ec0a4798-390f-4db4-b072-d952859d1f87": {
+                                    "name": "Handsome"
+                                },
+                                "6355b3c2-4a05-4357-a379-6a43b93ae516": {
+                                    "name": "Beautiful"
+                                },
+                                "0d1f6cd7-5294-4f07-a953-af2390c92627": {
+                                    "name": "Very Handsome"
+                                },
+                                "b80cbc7a-ac05-43ff-bd40-283686b61db8": {
+                                    "name": "Very Beautiful"
+                                },
+                                "9ece3f9d-9d6a-4b51-a582-f9b7e3b21315": {
+                                    "name": "Transcendent"
+                                }
+                            }
+                        },
+                        "cd8e9a42-d2a9-4c72-b836-3e4ec48277ca": {
+                            "name": "Gluttony",
+                            "tags": [
+                                "Disadvantage",
+                                "Mental"
+                            ]
+                        },
+                        "c1844f01-996e-4149-b57b-c207f81d5db6": {
+                            "name": "Social Stigma (Uneducated Pest)",
+                            "tags": [
+                                "Disadvantage",
+                                "Social"
+                            ],
+                            "notes": "-1 Reaction"
+                        },
+                        "2f2b310f-e5af-41b3-ac9a-d0a25b6318be": {
+                            "name": "Wealth",
+                            "tags": [
+                                "Advantage",
+                                "Disadvantage",
+                                "Social"
+                            ],
+                            "modifiers": {
+                                "ad47e22a-408f-4e72-a67e-c5970bfb6bd1": {
+                                    "name": "Dead Broke",
+                                    "notes": "Starting wealth is $0"
+                                },
+                                "aee91df0-8a1a-4f4e-9087-6949a25ac177": {
+                                    "name": "Poor",
+                                    "notes": "Starting wealth is 1/5 average"
+                                },
+                                "87baa95d-244c-4dd3-9258-a5ad0bcabc13": {
+                                    "name": "Struggling",
+                                    "notes": "Starting wealth is 1/2 average"
+                                },
+                                "1d9ad5fc-3266-47dc-9eb7-33e416e701df": {
+                                    "name": "Average"
+                                },
+                                "5d047da9-4a60-44ae-a2b1-b1b916abb21a": {
+                                    "name": "Comfortable",
+                                    "notes": "Starting wealth is 2x average"
+                                },
+                                "c279a218-e0da-46d0-bfee-f4b71d40d79b": {
+                                    "name": "Wealthy",
+                                    "notes": "Starting wealth is 5x average"
+                                },
+                                "9c2279db-69a2-4f54-a075-92902f26cd16": {
+                                    "name": "Very Wealthy",
+                                    "notes": "Starting wealth is 20x average"
+                                },
+                                "18b701c5-3b3d-44da-bb25-0dcb2b0a3847": {
+                                    "name": "Filthy Rich",
+                                    "notes": "Starting wealth is 100x average"
+                                }
+                            }
+                        },
+                        "98b1176a-fef6-409f-a9c6-bd12c57077be": {
+                            "name": "Moderately Lazy",
+                            "tags": [
+                                "Physical"
+                            ]
+                        },
+                        "7d605653-870b-4190-bd96-e9c7656a184a": {
+                            "name": "No respect for learning",
+                            "tags": [
+                                "Physical"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
