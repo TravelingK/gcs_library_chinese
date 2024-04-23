@@ -4,42 +4,42 @@
             "name": "1 - Attributes",
             "children": {
                 "dcc013f9-8a3d-45a2-a5fe-30a2346982c4": {
-                    "name": "Increased Dexterity",
+                    "name": "增加敏捷",
                     "tags": [
-                        "Advantage",
-                        "Attribute",
-                        "Physical"
+                        "优势",
+                        "属性",
+                        "生理"
                     ],
                     "modifiers": {
                         "ca78dac4-bb3e-4f3e-956e-3fe0562459d6": {
-                            "name": "No Fine Manipulators"
+                            "name": "无操作肢"
                         }
                     }
                 },
                 "2e01d95a-e27b-4789-8aec-818cfa60f808": {
-                    "name": "Increased Health",
+                    "name": "增加体力",
                     "tags": [
-                        "Advantage",
-                        "Attribute",
-                        "Physical"
+                        "优势",
+                        "属性",
+                        "生理"
                     ]
                 },
                 "6256ce94-ffe8-43d8-b02f-f94f8f1d5878": {
-                    "name": "Increased Strength",
+                    "name": "增加力量",
                     "tags": [
-                        "Advantage",
-                        "Attribute",
-                        "Physical"
+                        "优势",
+                        "属性",
+                        "生理"
                     ],
                     "modifiers": {
                         "93ad36ab-4986-4b21-9cb3-941054442bd4": {
-                            "name": "No Fine Manipulators"
+                            "name": "无操作肢"
                         },
                         "1e62cc0f-86be-4598-8c43-304946e2ccd3": {
-                            "name": "Size"
+                            "name": "体型"
                         },
                         "07bae94c-9f08-4fc2-8c86-5cf8768b54a2": {
-                            "name": "Super-Effort"
+                            "name": "超级出力"
                         }
                     }
                 }
@@ -49,16 +49,16 @@
             "name": "2 - Base Advantages",
             "children": {
                 "78c87bdc-8952-4bf9-b738-bef139285e9e": {
-                    "name": "Combat Reflexes",
+                    "name": "战斗反射",
                     "tags": [
-                        "Advantage",
-                        "Mental"
+                        "优势",
+                        "心理"
                     ],
-                    "notes": "Never freeze",
+                    "notes": "永远不会“惊呆”",
                     "features": [
                         {
                             "name": {
-                                "qualifier": "fast-draw"
+                                "qualifier": "即时备战"
                             }
                         },
                         {},
@@ -66,17 +66,17 @@
                         {},
                         {},
                         {
-                            "situation": "on all IQ rolls to wake up or to recover from surprise or mental stun"
+                            "situation": "对于从心理震慑中恢复的 IQ 检定"
                         },
                         {
-                            "situation": "to initiative rolls for your side (+2 if you are the leader)"
+                            "situation": "对于你的队伍避免突袭的对抗（如果你是领导者则 +2）"
                         }
                     ],
                     "prereqs": {
                         "prereqs": [
                             {
                                 "name": {
-                                    "qualifier": "Enhanced Time Sense"
+                                    "qualifier": "增强时间感"
                                 }
                             }
                         ]
@@ -88,53 +88,53 @@
             "name": "3 - Choose 30 points in Advantages from the following list:",
             "children": {
                 "f28ef0a9-155d-4916-adcb-8804a68b3dfb": {
-                    "name": "Catfall",
+                    "name": "猫式落体",
                     "tags": [
-                        "Advantage",
-                        "Exotic",
-                        "Physical"
+                        "优势",
+                        "异种",
+                        "生理"
                     ],
                     "modifiers": {
                         "e8a31fe8-6ba6-400b-8d58-c6af30942763": {
-                            "name": "Feather Fall"
+                            "name": "羽落"
                         },
                         "c5f9d281-523b-4bf2-84b4-85de5c2e9d8e": {
-                            "name": "Parachute"
+                            "name": "降落伞"
                         }
                     }
                 },
                 "47783498-8d3c-4d96-b134-1d2eb4ecf608": {
-                    "name": "Daredevil",
+                    "name": "蛮勇福星",
                     "tags": [
-                        "Advantage",
-                        "Mental"
+                        "优势",
+                        "心理"
                     ],
                     "features": [
                         {
-                            "situation": "to skill rolls any time you take an unnecessary risk (in the GM’s opinion)"
+                            "situation": "对于当角色冒无必要的险（在游戏主持看来）时角色所有的技能检定"
                         }
                     ]
                 },
                 "2ab4fd85-e0d4-4329-b0a2-4aa86f78bb27": {
-                    "name": "Enhanced Dodge",
+                    "name": "增强闪避",
                     "tags": [
-                        "Advantage",
-                        "Mental"
+                        "优势",
+                        "心理"
                     ]
                 },
                 "80ca188f-2f02-43c3-94c3-6284d46fe79e": {
-                    "name": "Extra Attack",
+                    "name": "额外攻击",
                     "tags": [
-                        "Advantage",
-                        "Physical"
+                        "优势",
+                        "生理"
                     ],
                     "modifiers": {
                         "391ffc52-53c6-497e-b688-6b515e9cfd32": {
-                            "name": "Multi-Strike"
+                            "name": "多重攻击"
                         },
                         "a78555d9-ef6c-49f0-8572-66fa062afa74": {
-                            "name": "Single Skill",
-                            "notes": "@Skill@"
+                            "name": "单一技能",
+                            "notes": "@技能@"
                         }
                     }
                 },
@@ -142,153 +142,153 @@
                     "name": "Fit or Very Fit",
                     "children": {
                         "a07938b5-9690-4c8b-812d-9a987b8e28ab": {
-                            "name": "Fit",
+                            "name": "健康",
                             "tags": [
-                                "Advantage",
-                                "Physical"
+                                "优势",
+                                "生理"
                             ],
-                            "notes": "Recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+                            "notes": "FP 回复速度加倍（魔法、 异能带来的损失则不被减免）",
                             "features": [
                                 {
-                                    "situation": "to all HT rolls to stay conscious, avoid death, resist disease, or resist poison"
+                                    "situation": "对于所有保持意识、避免死亡、抵抗疾病或抵抗毒药的 HT 检定"
                                 }
                             ]
                         },
                         "52abcb30-6912-4c81-8554-2d051ea9b5a8": {
-                            "name": "Very Fit",
+                            "name": "非常健康",
                             "tags": [
-                                "Advantage",
-                                "Physical"
+                                "优势",
+                                "生理"
                             ],
-                            "notes": "Recover FP at twice the normal rate; lose FP at half the normal rate (in both cases, not FP spent for spells or psi powers)",
+                            "notes": "FP 回复速度加倍；失去 FP 的速度减半（魔法、异能带来的损失则不被减免）",
                             "features": [
                                 {
-                                    "situation": "to all HT rolls to stay conscious, avoid death, resist disease, resist poison"
+                                    "situation": "对于所有保持意识、避免死亡、抵抗疾病、抵抗毒药的 HT 检定"
                                 }
                             ]
                         }
                     }
                 },
                 "a94f1942-ec24-4d21-916c-76d4fbd51deb": {
-                    "name": "Flexibility",
+                    "name": "灵活",
                     "tags": [
-                        "Advantage",
-                        "Physical"
+                        "优势",
+                        "生理"
                     ],
                     "features": [
                         {
                             "name": {
-                                "qualifier": "climbing"
+                                "qualifier": "攀爬"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "escape"
+                                "qualifier": "逃脱"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "erotic art"
+                                "qualifier": "房中术"
                             }
                         },
                         {
-                            "situation": "in penalties may be ignored when due to close quarters"
+                            "situation": "免去在有限空间作业时的减值"
                         }
                     ]
                 },
                 "959bf19c-ea79-4581-ae70-0811b28a680f": {
-                    "name": "Perfect Balance",
+                    "name": "完美平衡",
                     "tags": [
-                        "Advantage",
-                        "Physical"
+                        "优势",
+                        "生理"
                     ],
                     "features": [
                         {
                             "name": {
-                                "qualifier": "piloting"
+                                "qualifier": "飞行驾驶"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "acrobatics"
+                                "qualifier": "杂技"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "climbing"
+                                "qualifier": "攀爬"
                             }
                         }
                     ]
                 },
                 "9cf089b9-944f-4c64-939c-3ed10dc69429": {
-                    "name": "Signature Gear",
+                    "name": "标志性装备",
                     "tags": [
-                        "Advantage",
-                        "Social"
+                        "优势",
+                        "社会"
                     ],
-                    "notes": "For equipment normally bought with money, each point gives goods worth up to 50% of the average campaign starting wealth (but never cash)."
+                    "notes": "对于一般用钱买来的装备，例如武器与铠甲而言，每 1 点此优势给予这些装备最多等于模组中平均开始财富值 50% 的额外价值（但绝不会是现金）。"
                 },
                 "89fa51c5-5543-4c6f-b707-c207f0a24b73": {
-                    "name": "Super Climbing",
+                    "name": "超级攀爬",
                     "tags": [
-                        "Advantage",
-                        "Exotic",
-                        "Physical"
+                        "优势",
+                        "异种",
+                        "生理"
                     ],
                     "notes": "Climbing Move: ",
                     "modifiers": {
                         "d29e3a74-c1c5-4c69-a73a-25d48498b9ae": {
-                            "name": "Specific",
-                            "notes": "@Common Surface@"
+                            "name": "特化",
+                            "notes": "@常见表面@"
                         },
                         "2a1b1a98-b015-45b8-8601-5e8e17539a9b": {
-                            "name": "Specific",
-                            "notes": "Ferrous Metals"
+                            "name": "特化",
+                            "notes": "铁质金属"
                         },
                         "9921c0b8-ba08-483d-8e6d-9f02ff501fca": {
-                            "name": "Specific",
-                            "notes": "@Uncommon Surface@"
+                            "name": "特化",
+                            "notes": "@不常见的表面@"
                         },
                         "3e5dc5ea-32b9-40b9-9492-b6e8907913b3": {
-                            "name": "Requires Low Gravity",
-                            "notes": "@Threshold@"
+                            "name": "需求低重力",
+                            "notes": "@阈值@"
                         }
                     }
                 },
                 "c534be0b-8c1d-4d9e-9096-4eefee2da613": {
-                    "name": "Super Jump",
+                    "name": "超级跳跃",
                     "tags": [
-                        "Advantage",
-                        "Exotic",
-                        "Physical"
+                        "优势",
+                        "异种",
+                        "生理"
                     ],
                     "modifiers": {
                         "c588f84e-dd4c-4efe-b40e-2b522ac87e54": {
-                            "name": "Bouncing"
+                            "name": "弹跳"
                         },
                         "82ba064b-ea87-4dd8-99b1-de0218e3abf7": {
-                            "name": "Maneuverable"
+                            "name": "空中操纵"
                         },
                         "c898b400-ae65-4c83-aab0-2a57fc7fe8df": {
-                            "name": "Full Power Only"
+                            "name": "仅能全力"
                         },
                         "e4e280f1-a9f4-42b3-8cd5-8af2599447cc": {
-                            "name": "Horizontal Only"
+                            "name": "仅限跳远"
                         },
                         "8ae8ad79-f55e-4077-a933-388f97119177": {
-                            "name": "Lighter Than Air"
+                            "name": "轻于空气"
                         },
                         "b080be68-3c42-47fb-8474-e166f71d90f9": {
-                            "name": "Planetary"
+                            "name": "行星"
                         },
                         "5652fb05-76f5-4e5e-b1b2-76712945af02": {
-                            "name": "Projectile"
+                            "name": "射弹"
                         },
                         "5659f31e-6569-4b9b-9bce-f147f0a41434": {
-                            "name": "Vertical Only"
+                            "name": "仅限跳高"
                         },
                         "06976c96-85ff-42c5-83dc-50c772cb01d5": {
-                            "name": "Bouncing Only"
+                            "name": "仅限弹跳"
                         }
                     }
                 },
@@ -298,48 +298,48 @@
                         "c611589d-b7fc-4c6a-82b4-657083f52391": {
                             "name": "Weapon Master (choose a speciality)",
                             "tags": [
-                                "Advantage",
-                                "Mental"
+                                "优势",
+                                "心理"
                             ],
                             "modifiers": {
                                 "8c046f46-8890-4630-a4a5-8f5967aaf0a1": {
-                                    "name": "One weapon"
+                                    "name": "一种特定的武器"
                                 },
                                 "91a7372b-43e6-4dc4-94b5-dea7c4f41347": {
-                                    "name": "Two weapons"
+                                    "name": "两种通常会在一起使用的武器"
                                 },
                                 "bbf1cf6a-e17f-4f78-a334-ba2269edabd0": {
-                                    "name": "Small class"
+                                    "name": "一小类武器"
                                 },
                                 "80aef745-bf99-48e1-bcfc-05fd874c7f59": {
-                                    "name": "Medium class"
+                                    "name": "不那么大的一类武器"
                                 },
                                 "4544c0e5-32d7-472b-8b88-0d626da576f3": {
-                                    "name": "Large class"
+                                    "name": "一大类武器"
                                 }
                             }
                         },
                         "c360a194-0020-4647-812a-693cd0672dce": {
                             "name": "Weapon Master (choose a speciality)",
                             "tags": [
-                                "Advantage",
-                                "Mental"
+                                "优势",
+                                "心理"
                             ],
                             "modifiers": {
                                 "26a5216f-e27d-4166-a6bc-e4172c796877": {
-                                    "name": "One weapon"
+                                    "name": "一种特定的武器"
                                 },
                                 "8673b7a5-4e3b-4495-8dd4-b60744303c49": {
-                                    "name": "Two weapons"
+                                    "name": "两种通常会在一起使用的武器"
                                 },
                                 "66317e65-e896-4d20-9898-7adecaada143": {
-                                    "name": "Small class"
+                                    "name": "一小类武器"
                                 },
                                 "99c60529-edee-4e7f-ba9d-23be6ab6faa3": {
-                                    "name": "Medium class"
+                                    "name": "不那么大的一类武器"
                                 },
                                 "8e297221-1e9a-4e83-baca-55ddc66d1ae5": {
-                                    "name": "Large class"
+                                    "name": "一大类武器"
                                 }
                             }
                         }
@@ -354,24 +354,24 @@
                     "name": "Cloaked",
                     "tags": [
                         "Perk",
-                        "Physical"
+                        "生理"
                     ]
                 },
                 "7d8ccf3e-dd55-47d8-bbc3-4e83f0872e9f": {
-                    "name": "Shtick",
+                    "name": "特色",
                     "tags": [
-                        "Mental",
+                        "心理",
                         "Perk",
-                        "Physical"
+                        "生理"
                     ]
                 },
                 "b4606785-2674-489d-b71d-65b458c1a44d": {
                     "name": "Swinging",
                     "tags": [
-                        "Cinematic",
-                        "Mental",
+                        "电影化",
+                        "心理",
                         "Perk",
-                        "Physical"
+                        "生理"
                     ]
                 }
             }
@@ -386,57 +386,57 @@
                         "7c5360dc-0c73-42de-8793-93dab03f6834": {
                             "name": "Code of Honor (Comics Code)",
                             "tags": [
-                                "Disadvantage",
-                                "Mental"
+                                "劣势",
+                                "心理"
                             ]
                         },
                         "fdd735eb-aaf2-4026-8301-9171693a4584": {
-                            "name": "Code of Honor (Gentleman's)",
+                            "name": "荣誉准则（绅士）",
                             "tags": [
-                                "Disadvantage",
-                                "Mental"
+                                "劣势",
+                                "心理"
                             ],
-                            "notes": "Never break your word. Never ignore an insult to yourself, a lady, or your flag; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (except in open war). This only applies between gentlemen."
+                            "notes": "永不食言。不容忍对自己、女士或自己的旗帜的侮辱；对方的道歉和双方的决斗（不一定要致死任一方）是唯一解决侮辱的方法。不耍任何小人手段来占对方便宜;武器和条件应双方相等（除了公开的战争）。该准则仅适用于绅士之间。"
                         },
                         "8e0860dc-7912-471b-9cf4-7abb1e79fcfa": {
-                            "name": "Code of Honor (Soldier's)",
+                            "name": "荣誉准则（士兵）",
                             "tags": [
-                                "Disadvantage",
-                                "Mental"
+                                "劣势",
+                                "心理"
                             ],
-                            "notes": "An officer should be tough but fair, lead from the front, and look out for his men; an enlisted man should look out for his buddies and take care of his kit. Every soldier should be willing to fight and die for the honor of his unit, service, and country; follow orders; obey the “rules of war”; treat an honorable enemy with respect (a dishonorable enemy deserves a bullet); and wear the uniform with pride."
+                            "notes": "军官应当强硬但是公平，带头冲锋陷阵，照顾手下的弟兄；士兵应该照顾好他的战友和装备。每一个军人都应该敢于战斗，敢于为他的所在部队、军队和国家的荣誉而战死；服从命令；遵循“战争规则”，给予有荣誉感的敌人尊敬（没有荣誉感的敌人只配子弹），穿着军装的时候心中充满自豪。"
                         }
                     }
                 },
                 "ebaebbf8-bbb3-47b6-b051-4e3bb97b1851": {
-                    "name": "Impulsiveness",
+                    "name": "冲动",
                     "tags": [
-                        "Disadvantage",
-                        "Mental"
+                        "劣势",
+                        "心理"
                     ],
-                    "notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act"
+                    "notes": "当正确的选择是等待并思考的时候，进行一次自控检定。如果失败，你必须行动起来"
                 },
                 "d6d723d9-be31-4ec1-9779-0c1addfa6db6": {
-                    "name": "Overconfidence",
+                    "name": "自负",
                     "tags": [
-                        "Disadvantage",
-                        "Mental"
+                        "劣势",
+                        "心理"
                     ],
-                    "notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
+                    "notes": "如果 GM 认为人物过于谨慎，可能要求人物进行自我控制检定，如果检定失败，人物不再畏缩不前，就像你能解决问题一样！",
                     "features": [
                         {
-                            "situation": "from young or naive individuals who believe you are as good as you say you are"
+                            "situation": "来自年青幼稚的人，他们相信你的吹牛"
                         },
                         {
-                            "situation": "from experienced NPCs"
+                            "situation": "来自老练的 NPC"
                         }
                     ]
                 },
                 "c3e03598-e524-4e51-9abd-69f42065d40d": {
                     "name": "Trademark (Simple)",
                     "tags": [
-                        "Disadvantage",
-                        "Mental"
+                        "劣势",
+                        "心理"
                     ],
                     "notes": "Choose a Trademark"
                 }
@@ -448,34 +448,34 @@
             "name": "1 - Choose one Skill from the following list:",
             "children": {
                 "47bbad2a-de78-4ea7-8890-1159d931d9a9": {
-                    "name": "Body Language",
+                    "name": "肢体语言",
                     "tags": [
-                        "Police",
-                        "Social",
-                        "Spy"
+                        "警察",
+                        "社会",
+                        "间谍"
                     ],
                     "defaults": [
                         {
-                            "name": "Detect Lies"
+                            "name": "侦测谎言"
                         },
                         {
-                            "name": "Psychology"
+                            "name": "心理学"
                         }
                     ]
                 },
                 "e0c0f87f-d830-4c21-a5a7-cefcc687d0b2": {
-                    "name": "Observation",
+                    "name": "观察",
                     "tags": [
-                        "Criminal",
-                        "Military",
-                        "Police",
-                        "Spy",
-                        "Street"
+                        "犯罪",
+                        "军事",
+                        "警察",
+                        "间谍",
+                        "街头"
                     ],
                     "defaults": [
                         {},
                         {
-                            "name": "Shadowing"
+                            "name": "尾随"
                         }
                     ]
                 }
@@ -485,74 +485,74 @@
             "name": "2 - Choose one additional Skill from the following list:",
             "children": {
                 "7faf6c4b-d785-4d9f-acf5-453d6c7118bc": {
-                    "name": "Acrobatics",
+                    "name": "杂技",
                     "tags": [
-                        "Athletic"
+                        "运动"
                     ],
                     "defaults": [
                         {},
                         {
-                            "name": "Aerobatics"
+                            "name": "空中杂技"
                         },
                         {
-                            "name": "Aquabatics"
+                            "name": "水上杂技"
                         }
                     ]
                 },
                 "afb80eef-39c4-4d47-a922-e2bb35a5e90b": {
-                    "name": "Boxing",
+                    "name": "拳击",
                     "tags": [
-                        "Combat",
-                        "Melee Combat",
-                        "Weapon"
+                        "战斗",
+                        "近战",
+                        "武器"
                     ],
                     "features": [
                         {
                             "name": {
-                                "qualifier": "Boxing"
+                                "qualifier": "拳击"
                             }
                         },
                         {
                             "name": {
-                                "qualifier": "Boxing"
+                                "qualifier": "拳击"
                             }
                         }
                     ]
                 },
                 "e8464668-8894-49e6-b993-254165d18d40": {
-                    "name": "Climbing",
+                    "name": "攀爬",
                     "tags": [
-                        "Athletic",
-                        "Criminal",
-                        "Exploration",
-                        "Outdoor",
-                        "Street"
+                        "运动",
+                        "犯罪",
+                        "探索",
+                        "户外",
+                        "街头"
                     ]
                 },
                 "89efb74b-a310-4031-8d27-f15ce862293d": {
-                    "name": "Jumping",
+                    "name": "跳跃",
                     "tags": [
-                        "Athletic"
+                        "运动"
                     ]
                 },
                 "93d14249-c098-456c-85ec-5ea55397a514": {
                     "name": "or a Weapon Skill"
                 },
                 "950f0895-508c-4855-9c8f-30f5561a3574": {
-                    "name": "Stealth",
+                    "name": "潜行",
                     "tags": [
-                        "Criminal",
-                        "Police",
-                        "Spy",
-                        "Street"
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
                     ]
                 },
                 "16b50964-2e0e-4e93-bdee-701f08c2eda0": {
                     "name": "Wrestling",
                     "tags": [
-                        "Combat",
-                        "Melee Combat",
-                        "Weapon"
+                        "战斗",
+                        "近战",
+                        "武器"
                     ]
                 }
             }
