@@ -1,0 +1,1629 @@
+{
+    "traits": {
+        "ba114400-2429-47b2-ae1a-24ff2cd31bd6": {
+            "name": "Astronaut",
+            "children": {
+                "0f3a3968-2cda-4350-80f7-d86ec8497bff": {
+                    "name": "Attributes",
+                    "children": {
+                        "68425afc-20a6-449f-a990-c77d36ba6195": {
+                            "name": "Increased Basic Speed",
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Physical"
+                            ]
+                        },
+                        "8dcc37ad-605c-4cc7-a05a-ca4a867434d6": {
+                            "name": "Increased Dexterity",
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Physical"
+                            ],
+                            "modifiers": {
+                                "022ce0af-5186-421e-a084-dcd77064693a": {
+                                    "name": "No Fine Manipulators"
+                                }
+                            }
+                        },
+                        "6ab47cee-f803-4552-971a-73fc59636330": {
+                            "name": "Increased Intelligence",
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Mental"
+                            ]
+                        }
+                    }
+                },
+                "5dc3a45b-0acf-4187-a725-02863d87fef3": {
+                    "name": "Class Advantage",
+                    "children": {
+                        "0958e9dd-3f24-4533-905d-e39e9eb243a8": {
+                            "name": "20 points chosen from",
+                            "children": {
+                                "2cd0a3f9-d42e-4ce2-9ea8-8901d215f753": {
+                                    "name": "Absolute Direction",
+                                    "tags": [
+                                        "Advantage",
+                                        "Mental",
+                                        "Physical"
+                                    ],
+                                    "modifiers": {
+                                        "eba568fb-1b9c-46c9-a185-fc75dd0da1eb": {
+                                            "name": "Requires signal"
+                                        },
+                                        "ca80bc22-c94c-4526-99d8-0fb50a7d2725": {
+                                            "name": "3D Spatial Sense",
+                                            "features": [
+                                                {
+                                                    "name": {
+                                                        "qualifier": "piloting"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "aerobatics"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "free fall"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "navigation"
+                                                    },
+                                                    "specialization": {
+                                                        "qualifier": "hyperspace"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "navigation"
+                                                    },
+                                                    "specialization": {
+                                                        "qualifier": "space"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "body sense"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "navigation"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "air"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "navigation"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "land"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "navigation"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "sea"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "92b5fd75-050c-4102-b32f-99d633b8f038": {
+                                    "name": "Acute Vision",
+                                    "tags": [
+                                        "Advantage",
+                                        "Physical"
+                                    ],
+                                    "notes": "Up to 5"
+                                },
+                                "ea343022-d9c5-4224-a13e-9b98fb31f983": {
+                                    "name": "Fearlessness",
+                                    "tags": [
+                                        "Advantage",
+                                        "Mental"
+                                    ]
+                                },
+                                "23b532b8-0f2f-4d6d-ab09-5a11dceb7b86": {
+                                    "name": "G-Experience",
+                                    "tags": [
+                                        "Advantage",
+                                        "Mental"
+                                    ],
+                                    "notes": "Up to 10"
+                                },
+                                "1812033b-38fd-41b6-8d70-a9c21ded7478": {
+                                    "name": "High Manual Dexterity",
+                                    "tags": [
+                                        "Advantage",
+                                        "Physical"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "artist"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "jeweler"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "knot-tying"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "leatherworking"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "lockpicking"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "pickpocket"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "sewing"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "sleight of hand"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "surgery"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "machinist"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "mechanic"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "38bd801d-7d61-44f3-b67e-8acb052d0cba": {
+                                    "name": "Improved G-tolerance",
+                                    "tags": [
+                                        "Advantage",
+                                        "Physical"
+                                    ],
+                                    "modifiers": {
+                                        "47b0e0fa-334a-4d59-bd75-c19e2484f706": {
+                                            "name": "0.3G"
+                                        },
+                                        "118b6f1b-1da6-4df9-a1b3-d6808944ca37": {
+                                            "name": "0.5G"
+                                        },
+                                        "8da69e35-c3b2-4150-859a-8c139acf22c5": {
+                                            "name": "1G"
+                                        },
+                                        "ccd2d6e7-ec38-49c2-a550-ec438b2018b3": {
+                                            "name": "5G"
+                                        },
+                                        "1eebab2a-a094-476f-a5d0-7f9bece59d9c": {
+                                            "name": "10G"
+                                        }
+                                    }
+                                },
+                                "86d0f92b-76ae-4f1b-a9f7-638e9308e261": {
+                                    "name": "Improved G-tolerance",
+                                    "tags": [
+                                        "Advantage",
+                                        "Physical"
+                                    ],
+                                    "modifiers": {
+                                        "4876f697-2e77-4c2a-b142-c6168956ba4c": {
+                                            "name": "0.3G"
+                                        },
+                                        "d31539c9-9f19-42bb-8f9d-74c38d49b36b": {
+                                            "name": "0.5G"
+                                        },
+                                        "055752ff-c127-482b-b948-f273a9bca278": {
+                                            "name": "1G"
+                                        },
+                                        "6861e2e7-8ee6-481b-b752-60f0ef579b58": {
+                                            "name": "5G"
+                                        },
+                                        "d2ae761d-143f-41f3-a7ee-435f3804bbb1": {
+                                            "name": "10G"
+                                        }
+                                    }
+                                },
+                                "44418883-9918-4d4c-8af5-5537db49871e": {
+                                    "name": "Increased Health",
+                                    "tags": [
+                                        "Advantage",
+                                        "Attribute",
+                                        "Physical"
+                                    ]
+                                },
+                                "89c39502-ea00-486c-bb5f-49c379e1682d": {
+                                    "name": "Increased Perception",
+                                    "tags": [
+                                        "Advantage",
+                                        "Attribute",
+                                        "Mental",
+                                        "Physical"
+                                    ],
+                                    "notes": "Up to 4"
+                                },
+                                "88daa3db-14cb-404a-a528-ba1d2d6d418c": {
+                                    "name": "Perfect Balance",
+                                    "tags": [
+                                        "Advantage",
+                                        "Physical"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "piloting"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "acrobatics"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "climbing"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "b7795d14-4ab9-4a4f-8c70-84a558067c9d": {
+                                    "name": "Rank",
+                                    "tags": [
+                                        "Advantage",
+                                        "Physical"
+                                    ],
+                                    "notes": "@Type@: @Title@",
+                                    "modifiers": {
+                                        "47461898-6ff4-4d9c-b972-cd754d1faee3": {
+                                            "name": "Replaces Status"
+                                        },
+                                        "07c9dc8d-a198-473e-88ff-8bea4c91121b": {
+                                            "name": "Courtesy"
+                                        }
+                                    }
+                                },
+                                "fcd9255b-60ae-4b37-8106-62b921e00441": {
+                                    "name": "Resistant",
+                                    "tags": [
+                                        "Advantage",
+                                        "Physical"
+                                    ],
+                                    "modifiers": {
+                                        "e1b766bd-9ba0-4a14-aaa3-787ebb8c3a12": {
+                                            "name": "@Very Common: Metabolic Hazards, etc.@"
+                                        },
+                                        "3da8bc15-f488-476d-96b7-560021da0e53": {
+                                            "name": "@Common: Poison, Sickness, etc.@"
+                                        },
+                                        "0c3a5e2b-2b82-4342-ad43-0dbb41caa73e": {
+                                            "name": "@Occasional: Disease, Ingested Poison, etc.@"
+                                        },
+                                        "a1ffd086-fa80-4a62-b396-93b4573a5490": {
+                                            "name": "Space Sickness"
+                                        },
+                                        "c6a6b623-0203-41a3-9224-8cfe226130ae": {
+                                            "name": "Immunity"
+                                        },
+                                        "28a45795-f7fb-4da3-a3a8-43aa016c229e": {
+                                            "name": "+8 to all HT rolls to resist"
+                                        },
+                                        "12547431-f43f-46e2-89b1-6b4f4c07c60c": {
+                                            "name": "+3 to all HT rolls to resist"
+                                        }
+                                    }
+                                },
+                                "5843aaaa-8617-4b43-9937-567f321f623b": {
+                                    "name": "Security Clearance",
+                                    "tags": [
+                                        "Advantage",
+                                        "Social"
+                                    ],
+                                    "modifiers": {
+                                        "bd6a1680-c596-4bc0-a023-473ec93aedb7": {
+                                            "name": "Narrow Clearance on a \"Need to Know\" Basis",
+                                            "notes": "@What@"
+                                        },
+                                        "2085fa4e-5b56-4ada-8101-83448173f56c": {
+                                            "name": "Narrow Clearance with Free Access",
+                                            "notes": "@What@"
+                                        },
+                                        "464723f2-5634-4c72-adb4-15e8fc31ef45": {
+                                            "name": "Broad Clearance on a \"Need to Know\" Basis",
+                                            "notes": "@What@"
+                                        },
+                                        "25ded39b-8d13-4c4a-a936-1b4499bc08df": {
+                                            "name": "Broad Clearance with Free Access",
+                                            "notes": "@What@"
+                                        },
+                                        "c35c52d4-795f-4462-b1a9-313756ff0979": {
+                                            "name": "Minor Importance"
+                                        }
+                                    }
+                                },
+                                "f4b63cee-c525-4ea8-b8d8-9e81624c65b7": {
+                                    "name": "Single-Minded",
+                                    "tags": [
+                                        "Advantage",
+                                        "Mental"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "153ae012-17bb-4357-80b4-18aff526267f": {
+                    "name": "Class Disadvantage",
+                    "children": {
+                        "02816cfe-14b4-4dd7-b76c-24a3c4713316": {
+                            "name": "-35 points chosen from",
+                            "children": {
+                                "d7445616-2ffd-4a85-96e5-48bd74d1b5c6": {
+                                    "name": "Duty (@Duty@)",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Social"
+                                    ],
+                                    "modifiers": {
+                                        "16534f9b-1e1d-4f68-ad77-e1393bedd09b": {
+                                            "name": "FR: 6"
+                                        },
+                                        "bd13d1c0-c14d-4ebf-9085-a3710cdd5124": {
+                                            "name": "FR: 9"
+                                        },
+                                        "88330d48-57ee-4051-b700-1df87c82fcb1": {
+                                            "name": "FR: 12"
+                                        },
+                                        "865d6a52-74e8-4f0e-bc17-54c18d36a19e": {
+                                            "name": "FR: 15"
+                                        },
+                                        "0dcf8dab-f2ed-4464-9dc2-07243afee416": {
+                                            "name": "Extremely Hazardous"
+                                        },
+                                        "2e95e8f2-c757-4651-8866-fc921ef4e00d": {
+                                            "name": "Involuntary"
+                                        },
+                                        "22e03904-5731-4459-91a2-809e26638931": {
+                                            "name": "Nonhazardous"
+                                        }
+                                    }
+                                },
+                                "3eb5782e-2635-42db-8793-722e092c9620": {
+                                    "name": "Honesty",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ]
+                                },
+                                "26a6ef05-dbfb-48a4-935f-0e2803e3e025": {
+                                    "name": "Jealousy",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ]
+                                },
+                                "f63bc8fa-9fde-4d75-ac29-0c652b85c10d": {
+                                    "name": "Loner",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ]
+                                },
+                                "2898d709-a827-407c-9f94-ac5e5db05164": {
+                                    "name": "No Sense of Humor",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Physical"
+                                    ],
+                                    "notes": "-2 Reaction"
+                                },
+                                "95fc674a-ac86-47e2-a979-560e49776cf4": {
+                                    "name": "Oblivious",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "diplomacy"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "fast-talk"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "intimidation"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "savoir-faire"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "sex appeal"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "streetwise"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "40a90101-e701-477a-949d-206fd7923a55": {
+                                    "name": "Overconfidence",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ]
+                                },
+                                "6ac91f3e-a1fb-4473-8662-d159b27dd5f3": {
+                                    "name": "Post-Combat Shakes",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ]
+                                },
+                                "8f999537-7b3a-42c0-bf84-8a61dea76b26": {
+                                    "name": "Sense of Duty",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ],
+                                    "modifiers": {
+                                        "57c68cd4-b91f-47ab-99a3-e6af7e4e0530": {
+                                            "name": "Friends and Companions"
+                                        },
+                                        "d97ce6b7-6e75-4435-98c1-b88d07336be6": {
+                                            "name": "Comrades"
+                                        },
+                                        "d6438082-1db3-468c-b129-7e6277a1653c": {
+                                            "name": "@Individual@"
+                                        },
+                                        "380d469e-f5f5-498e-a99c-a597203293af": {
+                                            "name": "@Large Group@"
+                                        },
+                                        "7f34de3f-67a1-4405-bc1b-b087a488537d": {
+                                            "name": "@Entire Race@"
+                                        },
+                                        "5eee2d21-adab-483e-93c1-b8bbc64ea5ef": {
+                                            "name": "Every Living Being"
+                                        }
+                                    }
+                                },
+                                "24fafbdb-57d9-4390-9616-f742a2ca4d9c": {
+                                    "name": "Squeamish",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Physical"
+                                    ]
+                                },
+                                "0d9ca1e7-5f02-4102-ac76-3b2794d1bc2e": {
+                                    "name": "Stubbornness",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ]
+                                },
+                                "62a99036-d85d-4171-a3ea-bd6c54d961d3": {
+                                    "name": "Workaholic",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Physical"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "754d3f36-9eab-4bb4-9fd4-a84172f83497": {
+            "name": "Astronaut Lenses",
+            "children": {
+                "dfa21806-7d90-4184-b02e-1de15a5fa250": {
+                    "name": "Engineering Officer",
+                    "children": {
+                        "88df94af-e957-479f-9033-4cc0848ee4fe": {
+                            "name": "Talent (Artificer)",
+                            "tags": [
+                                "Advantage",
+                                "Mental",
+                                "Talent"
+                            ],
+                            "modifiers": {
+                                "18b552b3-50aa-4ca2-af37-492c8b26546e": {
+                                    "name": "Reaction Bonus",
+                                    "notes": "Any employer"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "armoury"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Carpentry"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Electrician"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Electronics Repair"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Engineer"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Machinist"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Masonry"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Mechanic"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Smith"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "8e75c932-e1c9-4d61-b428-a8342428fbea": {
+                    "name": "Fighter Jock",
+                    "children": {
+                        "0d00ccf5-60bc-4ae4-803a-5d9692c84d50": {
+                            "name": "Choose one",
+                            "children": {
+                                "7e77d4b6-d6fb-4edb-b100-5555c5d0cc85": {
+                                    "name": "Danger Sense",
+                                    "tags": [
+                                        "Advantage",
+                                        "Mental"
+                                    ]
+                                },
+                                "d03424ee-95c8-4b78-87c9-8adae282cce7": {
+                                    "name": "Daredevil",
+                                    "tags": [
+                                        "Advantage",
+                                        "Mental"
+                                    ]
+                                },
+                                "32b790c6-5df1-4bb4-9993-5c25959b7c8f": {
+                                    "name": "Luck",
+                                    "tags": [
+                                        "Advantage",
+                                        "Mental"
+                                    ],
+                                    "notes": "Usable once per hour of play",
+                                    "modifiers": {
+                                        "b6f5fb92-3a77-4e0a-a4e1-ad838a28214e": {
+                                            "name": "Active"
+                                        },
+                                        "5fd495f6-bc17-45e6-8caa-0948aab0c51a": {
+                                            "name": "Aspected",
+                                            "notes": "@Aspect@"
+                                        },
+                                        "d218a7fc-a3df-4504-86f8-ca42604105c3": {
+                                            "name": "Defensive"
+                                        },
+                                        "af0fbe12-81cd-4100-b66d-a9c2a960212e": {
+                                            "name": "Wishing"
+                                        }
+                                    },
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Luck"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "f3eb5465-5a70-4eeb-a2c8-a12311e335bb": {
+                                    "name": "Serendipity",
+                                    "tags": [
+                                        "Advantage",
+                                        "Mental"
+                                    ],
+                                    "modifiers": {
+                                        "2db32640-a810-4205-ade7-bc217cf17f11": {
+                                            "name": "Wishing"
+                                        },
+                                        "8de7b01b-a3a9-477d-a8d0-167688153cda": {
+                                            "name": "Wishing",
+                                            "notes": "For others only"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "b7fe9980-aeb7-4a7d-b48b-5f4e7a74e636": {
+                    "name": "Present-Day Astronaut",
+                    "children": {
+                        "75884b8d-349f-46fd-b8bf-b425e83da0ea": {
+                            "name": "Fit",
+                            "tags": [
+                                "Advantage",
+                                "Physical"
+                            ],
+                            "notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)"
+                        }
+                    }
+                },
+                "78023d9f-bb30-4ee6-afde-1011314186a3": {
+                    "name": "Starship Captain",
+                    "children": {
+                        "2e6ef872-cbc3-4213-9688-7d4d2ff9f5ee": {
+                            "name": "Rank",
+                            "tags": [
+                                "Advantage",
+                                "Physical"
+                            ],
+                            "notes": "@Type@: @Title@",
+                            "modifiers": {
+                                "5b66efd9-8acd-46ea-b6cc-d9397938e800": {
+                                    "name": "Replaces Status"
+                                },
+                                "4978a57b-fa8e-41f6-a17c-d805d43d67c1": {
+                                    "name": "Courtesy"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "bd475ccd-5294-4669-a6aa-026146c360bb": {
+            "name": "Astronaut",
+            "children": {
+                "cbdbbc15-2cb4-4fa7-9e75-3c5556316aef": {
+                    "name": "Primary Skill",
+                    "children": {
+                        "45ee6f01-738f-4891-b627-f558249183d5": {
+                            "name": "Mathematics",
+                            "tags": [
+                                "Natural Science"
+                            ],
+                            "specialization": "Applied",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Physics"
+                                },
+                                {
+                                    "name": "Engineer"
+                                }
+                            ]
+                        },
+                        "d24e02b1-a9cb-4204-a9f0-869e978f601f": {
+                            "name": "8 points chosen from",
+                            "children": {
+                                "56653e99-30d6-4bfb-9fce-0d0bb5f9d786": {
+                                    "name": "Artillery",
+                                    "tags": [
+                                        "Combat",
+                                        "Ranged Combat",
+                                        "Weapon"
+                                    ],
+                                    "specialization": "@Weapon type@"
+                                },
+                                "692749be-11eb-462a-97f2-b58f5696c0a5": {
+                                    "name": "Electronics Operation",
+                                    "tags": [
+                                        "Technical"
+                                    ],
+                                    "specialization": "@Electronics type@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Electronics Operation"
+                                        },
+                                        {
+                                            "name": "Electronics Repair",
+                                            "specialization": "Communications"
+                                        },
+                                        {
+                                            "name": "Engineer",
+                                            "specialization": "Electronics"
+                                        }
+                                    ]
+                                },
+                                "0ba45cc4-4c53-4934-8bde-8a498add6806": {
+                                    "name": "Electronics Repair",
+                                    "tags": [
+                                        "Maintenance",
+                                        "Repair"
+                                    ],
+                                    "specialization": "@Electronics type@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Electronics Operation",
+                                            "specialization": "Communications"
+                                        },
+                                        {
+                                            "name": "Engineer",
+                                            "specialization": "Electronics"
+                                        },
+                                        {
+                                            "name": "Electronics Repair"
+                                        }
+                                    ]
+                                },
+                                "f46fcc2d-ebb2-44a7-a9c5-4997876eaac8": {
+                                    "name": "Freight Handling",
+                                    "tags": [
+                                        "Technical",
+                                        "Vehicle"
+                                    ]
+                                },
+                                "c119fa68-5ecf-41ea-bbe5-a3a82621a0fd": {
+                                    "name": "Gunner",
+                                    "tags": [
+                                        "Combat",
+                                        "Ranged Combat",
+                                        "Weapon"
+                                    ],
+                                    "specialization": "@Gun class@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Gunner"
+                                        }
+                                    ]
+                                },
+                                "5a11e4d4-3be3-4e31-828a-22683fc04276": {
+                                    "name": "Leadership",
+                                    "tags": [
+                                        "Military",
+                                        "Social"
+                                    ]
+                                },
+                                "d4b60c1a-0e23-4bcc-ae41-439f205c2f6c": {
+                                    "name": "Mechanic",
+                                    "tags": [
+                                        "Maintenance",
+                                        "Repair"
+                                    ],
+                                    "specialization": "@spacecraft type@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Engineer",
+                                            "specialization": "Aerospace"
+                                        },
+                                        {
+                                            "name": "Machinist"
+                                        },
+                                        {
+                                            "name": "Mechanic"
+                                        }
+                                    ]
+                                },
+                                "c62a2280-25f0-4ac6-bfb3-8e0271627658": {
+                                    "name": "Navigation",
+                                    "tags": [
+                                        "Exploration",
+                                        "Outdoor",
+                                        "Technical",
+                                        "Vehicle"
+                                    ],
+                                    "specialization": "Hyperspace",
+                                    "defaults": [
+                                        {
+                                            "name": "Astronomy"
+                                        },
+                                        {
+                                            "name": "Mathematics",
+                                            "specialization": "Applied"
+                                        },
+                                        {
+                                            "name": "Navigation",
+                                            "specialization": "Space"
+                                        }
+                                    ]
+                                },
+                                "a90e1875-e5ea-4491-80a6-9bcb35ecdfa4": {
+                                    "name": "Navigation",
+                                    "tags": [
+                                        "Exploration",
+                                        "Outdoor",
+                                        "Technical",
+                                        "Vehicle"
+                                    ],
+                                    "specialization": "Space",
+                                    "defaults": [
+                                        {
+                                            "name": "Astronomy"
+                                        },
+                                        {
+                                            "name": "Mathematics",
+                                            "specialization": "Applied"
+                                        },
+                                        {
+                                            "name": "Navigation",
+                                            "specialization": "Hyperspace"
+                                        }
+                                    ]
+                                },
+                                "72aeb2bd-e684-4e75-831b-1e276c4be339": {
+                                    "name": "Shiphandling",
+                                    "tags": [
+                                        "Vehicle"
+                                    ],
+                                    "specialization": "Spaceship",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "spacer"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "navigation"
+                                                },
+                                                "specialization": {
+                                                    "qualifier": "space"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "leadership"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Spacer"
+                                        },
+                                        {
+                                            "name": "Piloting",
+                                            "specialization": "Low-Performance Spacecraft"
+                                        },
+                                        {
+                                            "name": "Piloting",
+                                            "specialization": "High-Performance Spacecraft"
+                                        }
+                                    ]
+                                },
+                                "e10c1e28-de2a-4222-8f63-6403e9c1d198": {
+                                    "name": "Shiphandling",
+                                    "tags": [
+                                        "Vehicle"
+                                    ],
+                                    "specialization": "Starship",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "spacer"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "navigation"
+                                                },
+                                                "specialization": {
+                                                    "qualifier": "hyperspace"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "leadership"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Spacer"
+                                        },
+                                        {
+                                            "name": "Piloting",
+                                            "specialization": "Low-Performance Spacecraft"
+                                        },
+                                        {
+                                            "name": "Piloting",
+                                            "specialization": "High-Performance Spacecraft"
+                                        }
+                                    ]
+                                },
+                                "a5325428-4fb5-4524-847e-cf74651f11b5": {
+                                    "name": "Piloting",
+                                    "tags": [
+                                        "Vehicle"
+                                    ],
+                                    "specialization": "@spacecraft type@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Piloting",
+                                            "specialization": "High-Performance Airplane"
+                                        },
+                                        {
+                                            "name": "Piloting"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "4014fd44-1d28-428b-a2bc-2d4e83417efd": {
+                    "name": "Secondary Skill",
+                    "children": {
+                        "d40673a7-ae32-429d-bda3-8e6aacb60bef": {
+                            "name": "Astronomy",
+                            "tags": [
+                                "Natural Science"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "mathematics"
+                                        },
+                                        "specialization": {
+                                            "qualifier": "applied"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "ca07d220-4cfd-499e-9b1c-f2c71d5e8087": {
+                            "name": "Free Fall",
+                            "tags": [
+                                "Athletic"
+                            ]
+                        },
+                        "87d89e69-97fe-44ba-bc26-c2ced60e0f2f": {
+                            "name": "Physics",
+                            "tags": [
+                                "Natural Science"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "mathematics"
+                                        },
+                                        "specialization": {
+                                            "qualifier": "applied"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "779321e8-a45d-44f0-9a5f-509eeeb42b9d": {
+                            "name": "Spacer",
+                            "tags": [
+                                "Vehicle"
+                            ]
+                        },
+                        "826ee59f-d58f-45ed-a670-0c95d6a625ca": {
+                            "name": "Vacc Suit",
+                            "tags": [
+                                "Technical"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Diving Suit"
+                                },
+                                {
+                                    "name": "NBC Suit"
+                                },
+                                {
+                                    "name": "Battlesuit"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "f35d25c6-2808-4819-a60f-b2aec16e39fe": {
+                    "name": "Background Skill",
+                    "children": {
+                        "85e5f1f7-4bec-4a6d-afe6-9b0ba13ac564": {
+                            "name": "Computer Operation",
+                            "tags": [
+                                "Everyman",
+                                "Scholarly",
+                                "Technical"
+                            ]
+                        },
+                        "fbff6dad-a7d7-4257-ad7a-5449dc25405c": {
+                            "name": "First Aid",
+                            "tags": [
+                                "Everyman",
+                                "Medical"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Esoteric Medicine"
+                                },
+                                {
+                                    "name": "Physician"
+                                },
+                                {
+                                    "name": "Veterinary"
+                                }
+                            ]
+                        },
+                        "ac69c3b4-f96f-4d93-bf25-dee190b842c5": {
+                            "name": "Choose one",
+                            "children": {
+                                "95766f82-c8e6-4f48-83e3-41431cd26e1f": {
+                                    "name": "Beam Weapons",
+                                    "tags": [
+                                        "Combat",
+                                        "Ranged Combat",
+                                        "Weapon"
+                                    ],
+                                    "specialization": "Pistol",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Beam Weapons"
+                                        },
+                                        {
+                                            "name": "Guns",
+                                            "specialization": "Pistol"
+                                        }
+                                    ]
+                                },
+                                "781bc7d1-1ae6-47db-99bc-312766a8f324": {
+                                    "name": "Carousing",
+                                    "tags": [
+                                        "Criminal",
+                                        "Social",
+                                        "Street"
+                                    ]
+                                },
+                                "3a7da5c0-4e6a-40c2-beda-c95601c2be6b": {
+                                    "name": "Smuggling",
+                                    "tags": [
+                                        "Criminal",
+                                        "Spy",
+                                        "Street"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "e8d43f0f-d5b8-43a3-866e-43fc98c6bf2c": {
+            "name": "Astronaut Lenses",
+            "children": {
+                "f217fa3b-eee8-4c0f-a76a-73a38f989153": {
+                    "name": "Engineering Officer",
+                    "children": {
+                        "0a20820c-21a6-4c4b-a21c-9eab41a21d2a": {
+                            "name": "Computer Programming",
+                            "tags": [
+                                "Design",
+                                "Invention"
+                            ]
+                        },
+                        "edee7f98-2f3c-47ba-846e-cd154ec9892e": {
+                            "name": "Engineer",
+                            "tags": [
+                                "Design",
+                                "Engineer",
+                                "Invention"
+                            ],
+                            "specialization": "@spacecraft type@",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "mathematics"
+                                        },
+                                        "specialization": {
+                                            "qualifier": "applied"
+                                        }
+                                    }
+                                ]
+                            },
+                            "defaults": [
+                                {
+                                    "name": "Armoury",
+                                    "specialization": "Heavy Weapons"
+                                }
+                            ]
+                        },
+                        "166fadee-5e1e-4361-a589-dc56194f83aa": {
+                            "name": "Physics",
+                            "tags": [
+                                "Natural Science"
+                            ],
+                            "notes": "Add to existing skill",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "mathematics"
+                                        },
+                                        "specialization": {
+                                            "qualifier": "applied"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "e5b68a5c-0c04-4dd1-9deb-afe12a0a4a25": {
+                    "name": "Fighter Jock",
+                    "notes": "Must take Piloting as primary skill and either Beam Weapons or Carousing as background.",
+                    "children": {
+                        "252363f2-5c94-4c09-a311-e24567386938": {
+                            "name": "Piloting",
+                            "tags": [
+                                "Vehicle"
+                            ],
+                            "notes": "Add to existing skill",
+                            "specialization": "@spacecraft type@",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Piloting",
+                                    "specialization": "High-Performance Airplane"
+                                },
+                                {
+                                    "name": "Piloting"
+                                }
+                            ]
+                        },
+                        "97e920eb-a502-4ca7-a9a6-ebf6d847d1ed": {
+                            "name": "Choose corresponding skill",
+                            "children": {
+                                "93f11808-0482-4ba2-b6de-c24d781442e4": {
+                                    "name": "Beam Weapons",
+                                    "tags": [
+                                        "Combat",
+                                        "Ranged Combat",
+                                        "Weapon"
+                                    ],
+                                    "notes": "Add to existing skill",
+                                    "specialization": "Pistol",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Beam Weapons"
+                                        },
+                                        {
+                                            "name": "Guns",
+                                            "specialization": "Pistol"
+                                        }
+                                    ]
+                                },
+                                "93eb9a04-bd53-427d-9dbe-d3ae363df89e": {
+                                    "name": "Carousing",
+                                    "tags": [
+                                        "Criminal",
+                                        "Social",
+                                        "Street"
+                                    ],
+                                    "notes": "Add to existing skill"
+                                }
+                            }
+                        }
+                    }
+                },
+                "ab9b4d4d-920f-42cc-a8d3-8627a37473b4": {
+                    "name": "Present-Day Astronaut",
+                    "children": {
+                        "d23b40d9-aa3f-4edd-99d7-7b88e1203971": {
+                            "name": "Research",
+                            "tags": [
+                                "Scholarly",
+                                "Spy"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Computer Operation"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Language"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "Written (Native"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "Language"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "Written (Accented)"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "Language"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "Written (Broken)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Writing"
+                                }
+                            ]
+                        },
+                        "a479f1ed-1951-415b-8b84-6bde88c70bae": {
+                            "name": "Survival",
+                            "tags": [
+                                "Exploration",
+                                "Outdoor"
+                            ],
+                            "specialization": "@Environment@",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Naturalist"
+                                },
+                                {
+                                    "name": "Survival",
+                                    "specialization": "Bank"
+                                },
+                                {
+                                    "name": "Survival",
+                                    "specialization": "Deep Ocean Vent"
+                                },
+                                {
+                                    "name": "Survival",
+                                    "specialization": "Fresh-Water Lake"
+                                },
+                                {
+                                    "name": "Survival",
+                                    "specialization": "Open Ocean"
+                                },
+                                {
+                                    "name": "Survival",
+                                    "specialization": "Reef"
+                                },
+                                {
+                                    "name": "Survival",
+                                    "specialization": "River/Stream"
+                                },
+                                {
+                                    "name": "Survival",
+                                    "specialization": "Tropical Lagoon"
+                                }
+                            ]
+                        },
+                        "6598c04c-574a-4dce-b2d1-ff89fac105a6": {
+                            "name": "Choose one",
+                            "children": {
+                                "ecffdf9d-7b03-474f-ac63-02cd6a2f4632": {
+                                    "name": "Biology",
+                                    "tags": [
+                                        "Natural Science",
+                                        "Plant"
+                                    ],
+                                    "specialization": "@Specialty@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Naturalist"
+                                        }
+                                    ]
+                                },
+                                "24a7ca59-c7cd-4eae-9e7f-5d2c40082812": {
+                                    "name": "Geology",
+                                    "tags": [
+                                        "Natural Science"
+                                    ],
+                                    "specialization": "@Planet class@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Geography",
+                                            "specialization": "Physical, Earthlike"
+                                        },
+                                        {
+                                            "name": "Prospecting"
+                                        }
+                                    ]
+                                },
+                                "672f5a24-bf41-40dc-be60-e2b5931a82f5": {
+                                    "name": "Physician",
+                                    "tags": [
+                                        "Medical"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "First Aid"
+                                        },
+                                        {
+                                            "name": "Veterinary"
+                                        }
+                                    ]
+                                },
+                                "0e086020-e1c5-4092-8108-cbcf36808cbf": {
+                                    "name": "Or",
+                                    "children": {
+                                        "d96ecb66-026a-48cc-9512-1e6a9401635a": {
+                                            "name": "Physics",
+                                            "tags": [
+                                                "Natural Science"
+                                            ],
+                                            "notes": "Add to existing skill",
+                                            "prereqs": {
+                                                "prereqs": [
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "mathematics"
+                                                        },
+                                                        "specialization": {
+                                                            "qualifier": "applied"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "8d58f487-a569-45e1-91d4-283f10b02add": {
+                                            "name": "Mathematics",
+                                            "tags": [
+                                                "Natural Science"
+                                            ],
+                                            "notes": "Add to existing skill",
+                                            "specialization": "Applied",
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Physics"
+                                                },
+                                                {
+                                                    "name": "Engineer"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "5d0e4a24-71a4-471f-86cb-0666c714b856": {
+                    "name": "Starship Captain",
+                    "notes": "Must take Navigation and Shiphandling as primary skills",
+                    "children": {
+                        "06e56dbf-69f2-479b-a894-e416ff577bd8": {
+                            "name": "10 points chosen from",
+                            "children": {
+                                "34cc4d1b-b132-4a44-a63f-c233740a971b": {
+                                    "name": "Diplomacy",
+                                    "tags": [
+                                        "Business",
+                                        "Police",
+                                        "Social"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Politics"
+                                        }
+                                    ]
+                                },
+                                "ebe4cfc0-18e6-402f-b1c1-b46232ad9bfc": {
+                                    "name": "Law",
+                                    "tags": [
+                                        "Business",
+                                        "Humanities",
+                                        "Police",
+                                        "Social Sciences"
+                                    ],
+                                    "specialization": "Space"
+                                },
+                                "a6bf5b57-b345-4618-b201-c43ed01d989d": {
+                                    "name": "Leadership",
+                                    "tags": [
+                                        "Military",
+                                        "Social"
+                                    ]
+                                },
+                                "24fb0138-e524-4c2c-bce5-4d3c528d1a3b": {
+                                    "name": "Merchant",
+                                    "tags": [
+                                        "Business",
+                                        "Social"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Finance"
+                                        },
+                                        {
+                                            "name": "Market Analysis"
+                                        }
+                                    ]
+                                },
+                                "2fc85324-7bb9-43db-a741-01fa135cb85b": {
+                                    "name": "Market Analysis",
+                                    "tags": [
+                                        "Business"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Economics"
+                                        },
+                                        {
+                                            "name": "Merchant"
+                                        }
+                                    ]
+                                },
+                                "e99c0e43-aa9a-4964-bfa1-81c5d83af99d": {
+                                    "name": "Navigation",
+                                    "tags": [
+                                        "Exploration",
+                                        "Outdoor",
+                                        "Technical",
+                                        "Vehicle"
+                                    ],
+                                    "notes": "Add to existing skill",
+                                    "specialization": "@corresponding skill@",
+                                    "defaults": [
+                                        {
+                                            "name": "Astronomy"
+                                        },
+                                        {
+                                            "name": "Mathematics",
+                                            "specialization": "Applied"
+                                        },
+                                        {
+                                            "name": "Navigation",
+                                            "specialization": "Hyperspace"
+                                        }
+                                    ]
+                                },
+                                "45927b9a-74cc-42a2-918b-c54a4bdd97f2": {
+                                    "name": "Savoir-Faire",
+                                    "tags": [
+                                        "Knowledge",
+                                        "Military",
+                                        "Social"
+                                    ],
+                                    "specialization": "Military"
+                                },
+                                "a9e2f107-1b65-4f6b-90a9-cf815c448160": {
+                                    "name": "Shiphandling",
+                                    "tags": [
+                                        "Vehicle"
+                                    ],
+                                    "notes": "Add to existing skill",
+                                    "specialization": "@corresponding skill@",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "spacer"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "navigation"
+                                                },
+                                                "specialization": {
+                                                    "qualifier": "space"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "leadership"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Spacer"
+                                        },
+                                        {
+                                            "name": "Piloting",
+                                            "specialization": "Low-Performance Spacecraft"
+                                        },
+                                        {
+                                            "name": "Piloting",
+                                            "specialization": "High-Performance Spacecraft"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
