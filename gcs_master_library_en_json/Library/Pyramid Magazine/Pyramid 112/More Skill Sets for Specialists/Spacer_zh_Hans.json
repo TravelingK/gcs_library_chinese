@@ -1,25 +1,25 @@
 {
     "traits": {
         "f6960cc8-80e7-46c3-ab73-4bfb5b117f1f": {
-            "name": "",
+            "name": "Civilian Spacer",
             "children": {
                 "b4eaf5fd-3693-4c18-845d-131d3e251807": {
-                    "name": "",
+                    "name": "Seasoned Spacer",
                     "tags": [
-                        "",
-                        "",
-                        ""
+                        "Advantage",
+                        "Mental",
+                        "Perk"
                     ],
-                    "notes": ""
+                    "notes": "+1 on all DX, HT, Free Fall, Piloting, Spacer, and Vacc Suit rolls to resist personal (not vehicular) disasters aboard ship."
                 },
                 "0c7b0c31-5c1b-423e-ac24-9902c6058907": {
-                    "name": "",
+                    "name": "When doubling up",
                     "children": {
                         "b333c0ed-af28-4f08-bd9e-d72711d0ac88": {
-                            "name": "",
+                            "name": "G-Experience",
                             "tags": [
-                                "",
-                                ""
+                                "Advantage",
+                                "Mental"
                             ]
                         }
                     }
@@ -27,25 +27,25 @@
             }
         },
         "3fe5b595-784e-4478-a208-d82dfe5d1b46": {
-            "name": "",
+            "name": "Military Spacer",
             "children": {
                 "bc5d2d93-ca34-4a9f-84bf-c8c5262210e3": {
-                    "name": "",
+                    "name": "Seasoned Spacer",
                     "tags": [
-                        "",
-                        "",
-                        ""
+                        "Advantage",
+                        "Mental",
+                        "Perk"
                     ],
-                    "notes": ""
+                    "notes": "+1 on all DX, HT, Free Fall, Piloting, Spacer, and Vacc Suit rolls to resist personal (not vehicular) disasters aboard ship."
                 },
                 "b82b5893-24e4-4c12-b26d-2a0d0c78cab1": {
-                    "name": "",
+                    "name": "When doubling up",
                     "children": {
                         "df257fc0-b351-4fa6-b4b0-b3fd90d530b5": {
-                            "name": "",
+                            "name": "G-Experience",
                             "tags": [
-                                "",
-                                ""
+                                "Advantage",
+                                "Mental"
                             ]
                         }
                     }
@@ -55,416 +55,416 @@
     },
     "skills": {
         "ea9698c4-4462-4c8a-9423-d78e1d9552e1": {
-            "name": "",
+            "name": "Civilian Spacer",
             "children": {
                 "a8e6dc71-8d19-41b2-b6df-96475b9e13f2": {
-                    "name": "",
+                    "name": "4 points in",
                     "children": {
                         "538de5c7-8262-4780-9303-b565d61e3323": {
-                            "name": "",
+                            "name": "Freight Handling",
                             "tags": [
-                                "",
-                                ""
+                                "Technical",
+                                "Vehicle"
                             ]
                         },
                         "e400b42d-a411-4f57-89ce-7c8b11ed1ec0": {
-                            "name": "",
+                            "name": "Smuggling",
                             "tags": [
-                                "",
-                                "",
-                                ""
+                                "Criminal",
+                                "Spy",
+                                "Street"
                             ]
                         }
                     }
                 },
                 "61bd4ecb-a341-4073-a82d-449794ac9ffb": {
-                    "name": "",
+                    "name": "Choose one",
                     "children": {
                         "1ca942bc-af2f-4e0d-9b98-4d6cfebfe7e6": {
-                            "name": ""
+                            "name": "2 points in G-Experience"
                         },
                         "9d280e4c-36e6-426c-b049-aa57f0261cea": {
-                            "name": "",
+                            "name": "Free Fall",
                             "tags": [
-                                ""
+                                "Athletic"
                             ]
                         }
                     }
                 },
                 "d8a0dc61-21b3-452d-baf1-169abe893990": {
-                    "name": "",
+                    "name": "Choose one",
                     "children": {
                         "dbcd1d52-27de-40c1-a86f-cbfdc86af7fd": {
-                            "name": "",
+                            "name": "Piloting",
                             "tags": [
-                                ""
+                                "Vehicle"
                             ],
-                            "specialization": "",
+                            "specialization": "Aerospace",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "",
-                                    "specialization": ""
+                                    "name": "Piloting",
+                                    "specialization": "High-Performance Airplane"
                                 },
                                 {
-                                    "name": ""
+                                    "name": "Piloting"
                                 }
                             ]
                         },
                         "909cf9b5-bb21-48f9-827c-bd1d5cd9197d": {
-                            "name": "",
+                            "name": "Piloting",
                             "tags": [
-                                ""
+                                "Vehicle"
                             ],
-                            "specialization": "",
+                            "specialization": "High-Performance Spacecraft",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "",
-                                    "specialization": ""
+                                    "name": "Piloting",
+                                    "specialization": "Aerospace"
                                 },
                                 {
-                                    "name": "",
-                                    "specialization": ""
+                                    "name": "Piloting",
+                                    "specialization": "Low-Performance Spacecraft"
                                 }
                             ]
                         }
                     }
                 },
                 "11ed3efe-d2f1-4de9-b339-75888e36f9b9": {
-                    "name": "",
+                    "name": "Mechanic",
                     "tags": [
-                        "",
-                        ""
+                        "Maintenance",
+                        "Repair"
                     ],
-                    "specialization": "",
+                    "specialization": "Spaceship",
                     "defaults": [
                         {},
                         {
-                            "name": "",
-                            "specialization": ""
+                            "name": "Engineer",
+                            "specialization": "Aerospace"
                         },
                         {
-                            "name": ""
+                            "name": "Machinist"
                         },
                         {
-                            "name": ""
+                            "name": "Mechanic"
                         }
                     ]
                 },
                 "f7d5e013-60f7-4a02-944b-91cc84414365": {
-                    "name": "",
+                    "name": "Navigation",
                     "tags": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "Exploration",
+                        "Outdoor",
+                        "Technical",
+                        "Vehicle"
                     ],
-                    "specialization": "",
+                    "specialization": "Space",
                     "defaults": [
                         {
-                            "name": ""
+                            "name": "Astronomy"
                         },
                         {
-                            "name": "",
-                            "specialization": ""
+                            "name": "Mathematics",
+                            "specialization": "Applied"
                         },
                         {
-                            "name": "",
-                            "specialization": ""
+                            "name": "Navigation",
+                            "specialization": "Hyperspace"
                         }
                     ]
                 },
                 "6f1aaa96-51cd-4a95-95a6-b62880de0897": {
-                    "name": "",
+                    "name": "Scrounging",
                     "tags": [
-                        "",
-                        ""
+                        "Criminal",
+                        "Street"
                     ]
                 },
                 "7cb36f5e-ede9-45c3-aed4-09b296a9ee24": {
-                    "name": "",
+                    "name": "Spacer",
                     "tags": [
-                        ""
+                        "Vehicle"
                     ]
                 },
                 "3cfcc32b-f17e-4b67-93f9-d7f43aa8b366": {
-                    "name": "",
+                    "name": "Vacc Suit",
                     "tags": [
-                        ""
+                        "Technical"
                     ],
                     "defaults": [
                         {},
                         {
-                            "name": ""
+                            "name": "Diving Suit"
                         },
                         {
-                            "name": ""
+                            "name": "NBC Suit"
                         },
                         {
-                            "name": ""
+                            "name": "Battlesuit"
                         }
                     ]
                 }
             }
         },
         "42fb1fbe-e4cd-473e-8eff-9f07d4448707": {
-            "name": "",
+            "name": "Military Spacer",
             "children": {
                 "7abbf56b-e944-46d7-bd70-ac3a9aeaabc2": {
-                    "name": "",
+                    "name": "Choose one",
                     "children": {
                         "c49833aa-3343-4bf1-b1b4-3a747226064c": {
-                            "name": ""
+                            "name": "2 points in G-Experience"
                         },
                         "aad9564c-abe9-4313-a23f-115928eef682": {
-                            "name": "",
+                            "name": "Free Fall",
                             "tags": [
-                                ""
+                                "Athletic"
                             ]
                         }
                     }
                 },
                 "849fba10-6bea-4824-a28b-e25b39922a9d": {
-                    "name": "",
+                    "name": "Choose one",
                     "children": {
                         "b1af33d8-4f0f-427c-9413-c2c54c772597": {
-                            "name": "",
+                            "name": "Piloting",
                             "tags": [
-                                ""
+                                "Vehicle"
                             ],
-                            "specialization": "",
+                            "specialization": "Aerospace",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "",
-                                    "specialization": ""
+                                    "name": "Piloting",
+                                    "specialization": "High-Performance Airplane"
                                 },
                                 {
-                                    "name": ""
+                                    "name": "Piloting"
                                 }
                             ]
                         },
                         "68ed53be-3b8f-4d70-aabb-8b60097c9f4a": {
-                            "name": "",
+                            "name": "Piloting",
                             "tags": [
-                                ""
+                                "Vehicle"
                             ],
-                            "specialization": "",
+                            "specialization": "High-Performance Spacecraft",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "",
-                                    "specialization": ""
+                                    "name": "Piloting",
+                                    "specialization": "Aerospace"
                                 },
                                 {
-                                    "name": "",
-                                    "specialization": ""
+                                    "name": "Piloting",
+                                    "specialization": "Low-Performance Spacecraft"
                                 }
                             ]
                         }
                     }
                 },
                 "a7ed2aed-0cc1-4909-817b-5d1824cbac8c": {
-                    "name": "",
+                    "name": "Choose three",
                     "children": {
                         "04cb3127-175f-4c00-b409-9728a4db9962": {
-                            "name": "",
+                            "name": "Artillery",
                             "tags": [
-                                "",
-                                "",
-                                ""
+                                "Combat",
+                                "Ranged Combat",
+                                "Weapon"
                             ],
-                            "specialization": ""
+                            "specialization": "Beams"
                         },
                         "e1eff0c1-7005-4423-996b-268c36f92f45": {
-                            "name": "",
+                            "name": "Artillery",
                             "tags": [
-                                "",
-                                "",
-                                ""
+                                "Combat",
+                                "Ranged Combat",
+                                "Weapon"
                             ],
-                            "specialization": ""
+                            "specialization": "Bombs"
                         },
                         "a1276ddc-0b62-4c64-b5f5-500f7427c404": {
-                            "name": "",
+                            "name": "Artillery",
                             "tags": [
-                                "",
-                                "",
-                                ""
+                                "Combat",
+                                "Ranged Combat",
+                                "Weapon"
                             ],
-                            "specialization": ""
+                            "specialization": "Guided Missile"
                         },
                         "4c10605f-110e-4bb2-8f2c-d24a5ec6023f": {
-                            "name": "",
+                            "name": "Forward Observer",
                             "tags": [
-                                ""
+                                "Military"
                             ],
                             "defaults": [
                                 {},
                                 {
-                                    "name": ""
+                                    "name": "Artillery"
                                 }
                             ]
                         },
                         "0e25f69b-6679-4403-a3ac-1255457209f1": {
-                            "name": "",
+                            "name": "Gunner",
                             "tags": [
-                                "",
-                                "",
-                                ""
+                                "Combat",
+                                "Ranged Combat",
+                                "Weapon"
                             ],
-                            "specialization": "",
+                            "specialization": "Beams",
                             "defaults": [
                                 {},
                                 {
-                                    "name": ""
+                                    "name": "Gunner"
                                 }
                             ]
                         },
                         "90533ac8-c78c-44fc-ba1e-511305fcc61e": {
-                            "name": "",
+                            "name": "Gunner",
                             "tags": [
-                                "",
-                                "",
-                                ""
+                                "Combat",
+                                "Ranged Combat",
+                                "Weapon"
                             ],
-                            "specialization": "",
+                            "specialization": "Cannon",
                             "defaults": [
                                 {},
                                 {
-                                    "name": ""
+                                    "name": "Gunner"
                                 }
                             ]
                         },
                         "d37352ba-e6c0-4e84-aabb-a08e61c66031": {
-                            "name": "",
+                            "name": "Gunner",
                             "tags": [
-                                "",
-                                "",
-                                ""
+                                "Combat",
+                                "Ranged Combat",
+                                "Weapon"
                             ],
-                            "specialization": "",
+                            "specialization": "Machine Gun",
                             "defaults": [
                                 {},
                                 {
-                                    "name": ""
+                                    "name": "Gunner"
                                 }
                             ]
                         },
                         "cc28295d-996f-4f55-9151-b602ea6e21f2": {
-                            "name": "",
+                            "name": "Gunner",
                             "tags": [
-                                "",
-                                "",
-                                ""
+                                "Combat",
+                                "Ranged Combat",
+                                "Weapon"
                             ],
-                            "specialization": "",
+                            "specialization": "Rockets",
                             "defaults": [
                                 {},
                                 {
-                                    "name": ""
+                                    "name": "Gunner"
                                 }
                             ]
                         },
                         "2c2bc113-7d79-4ece-87f4-ecf890f39569": {
-                            "name": "",
+                            "name": "Guns",
                             "tags": [
-                                "",
-                                "",
-                                ""
+                                "Combat",
+                                "Ranged Combat",
+                                "Weapon"
                             ],
-                            "specialization": "",
+                            "specialization": "@Any@",
                             "defaults": [
                                 {},
                                 {
-                                    "name": ""
+                                    "name": "Guns"
                                 }
                             ]
                         }
                     }
                 },
                 "e23f7ceb-73ee-493c-89af-f428f89836fa": {
-                    "name": "",
+                    "name": "Mechanic",
                     "tags": [
-                        "",
-                        ""
+                        "Maintenance",
+                        "Repair"
                     ],
-                    "specialization": "",
+                    "specialization": "Spaceship",
                     "defaults": [
                         {},
                         {
-                            "name": "",
-                            "specialization": ""
+                            "name": "Engineer",
+                            "specialization": "Aerospace"
                         },
                         {
-                            "name": ""
+                            "name": "Machinist"
                         },
                         {
-                            "name": ""
+                            "name": "Mechanic"
                         }
                     ]
                 },
                 "3de6f08d-3531-4943-b25c-6aa65895c039": {
-                    "name": "",
+                    "name": "Navigation",
                     "tags": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "Exploration",
+                        "Outdoor",
+                        "Technical",
+                        "Vehicle"
                     ],
-                    "specialization": "",
+                    "specialization": "Space",
                     "defaults": [
                         {
-                            "name": ""
+                            "name": "Astronomy"
                         },
                         {
-                            "name": "",
-                            "specialization": ""
+                            "name": "Mathematics",
+                            "specialization": "Applied"
                         },
                         {
-                            "name": "",
-                            "specialization": ""
+                            "name": "Navigation",
+                            "specialization": "Hyperspace"
                         }
                     ]
                 },
                 "33bb6136-952e-4158-b3db-35f62235070f": {
-                    "name": "",
+                    "name": "Savoir-Faire",
                     "tags": [
-                        "",
-                        "",
-                        ""
+                        "Knowledge",
+                        "Military",
+                        "Social"
                     ],
-                    "specialization": ""
+                    "specialization": "Military"
                 },
                 "87d0704e-70d7-48f7-93f5-0ef5de9847cc": {
-                    "name": "",
+                    "name": "Scrounging",
                     "tags": [
-                        "",
-                        ""
+                        "Criminal",
+                        "Street"
                     ]
                 },
                 "8ec7aa8a-a762-4fbb-9fef-d2a0c3cd4d3d": {
-                    "name": "",
+                    "name": "Spacer",
                     "tags": [
-                        ""
+                        "Vehicle"
                     ]
                 },
                 "423cada7-7f01-4896-bda8-c5917fffff82": {
-                    "name": "",
+                    "name": "Vacc Suit",
                     "tags": [
-                        ""
+                        "Technical"
                     ],
                     "defaults": [
                         {},
                         {
-                            "name": ""
+                            "name": "Diving Suit"
                         },
                         {
-                            "name": ""
+                            "name": "NBC Suit"
                         },
                         {
-                            "name": ""
+                            "name": "Battlesuit"
                         }
                     ]
                 }
