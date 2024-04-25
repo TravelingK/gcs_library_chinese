@@ -1,0 +1,318 @@
+{
+    "traits": {
+        "76d8f0e5-f02a-4da9-afea-df39b809c996": {
+            "name": "Goblin",
+            "children": {
+                "3af7f4b9-b17e-49c3-80bb-a06cfa3ac85e": {
+                    "name": "Decreased Strength",
+                    "tags": [
+                        "Attribute",
+                        "Disadvantage",
+                        "Physical"
+                    ]
+                },
+                "331869e5-2656-4c7c-83fe-d5ff176a5111": {
+                    "name": "Increased Dexterity",
+                    "tags": [
+                        "Advantage",
+                        "Attribute",
+                        "Physical"
+                    ]
+                },
+                "93d9b905-b07f-4d3d-a747-70ed2eb99201": {
+                    "name": "Increased Intelligence",
+                    "tags": [
+                        "Advantage",
+                        "Attribute",
+                        "Mental"
+                    ]
+                },
+                "f33fed3a-ad58-4915-a2b5-eda21e11a112": {
+                    "name": "Select level of night vision",
+                    "notes": "4 is fairly realistic, 9 is perfect, or use infravision",
+                    "children": {
+                        "b8058b6f-6644-436c-9a1a-06b5589bfffc": {
+                            "name": "Night Vision",
+                            "tags": [
+                                "Advantage",
+                                "Physical"
+                            ]
+                        },
+                        "15afefb2-a5b1-4e87-9fea-8f95fd137ff1": {
+                            "name": "Night Vision",
+                            "tags": [
+                                "Advantage",
+                                "Physical"
+                            ]
+                        },
+                        "041bc0a9-4df4-453d-b4ee-5f1bd146c668": {
+                            "name": "Infravision",
+                            "tags": [
+                                "Advantage",
+                                "Exotic",
+                                "Physical"
+                            ]
+                        }
+                    }
+                },
+                "a8474a6f-ddb5-4459-bf0b-1ad735b093a6": {
+                    "name": "Pick a role for Goblins in society",
+                    "children": {
+                        "57e2bd4f-8a09-40d5-82bb-3beab764346d": {
+                            "name": "Banker or Craftworker",
+                            "notes": "Choose some relevant traits",
+                            "children": {
+                                "c1113c9e-e9d4-4ab4-baa1-6698d1e120ce": {
+                                    "name": "贪婪",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "面对任何时候提供的财富——如，工作后的报酬、冒险所得、犯罪的脏物或者作为诱饵的金钱，你需要进行自控检定。如果检定失败，你将尽一切手段得到那笔财富。"
+                                },
+                                "b24360a1-8c9c-494d-a18d-c96d01aee8b3": {
+                                    "name": "吝啬",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "当你需要花钱的时候，进行一次自控检定。如果数额巨大，你检定受到至多 -5 的减值（GM裁定）。失败意味着你拒绝出钱。"
+                                },
+                                "b6d7ecaa-a73a-4088-a8cf-076601494a68": {
+                                    "name": "执念",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "Achieve perfection in chosen profession; Make a self-control roll whenever it would be wise to deviate from your goal. If you fail, you continue to pursue your Obsession, regardless of the consequences."
+                                }
+                            }
+                        },
+                        "98e2627f-44d3-4ade-af94-9b4ab9995ea0": {
+                            "name": "Bickering hierarchical society",
+                            "notes": "Choose some relevant traits",
+                            "children": {
+                                "2e36598a-db4d-4843-9fe4-bc191b7248d9": {
+                                    "name": "冲动",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "当正确的选择是等待并思考的时候，进行一次自控检定。如果失败，你必须行动起来"
+                                },
+                                "89c27556-a8a4-43f0-a60f-58fc37c9e413": {
+                                    "name": "自我中心",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "当你被明显看轻或是被故意冷落的时候，进行一次自控检定。如果失败，你对着侮辱你的一方大发脾气，如同你具有坏脾气劣势。",
+                                    "features": [
+                                        {
+                                            "situation": "来自当你表现出自我中心时的其他人"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "4e0c8c48-9f47-4fcd-b87b-a4c4507fe97e": {
+                            "name": "Nice and friendly",
+                            "notes": "Choose some relevant traits",
+                            "children": {
+                                "0750b4b1-bd90-47e6-85f3-97596e18047f": {
+                                    "name": "期待陪伴",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "situation": "对于其他人"
+                                        },
+                                        {
+                                            "situation": "对于所有基于 IQ 的技能"
+                                        }
+                                    ]
+                                },
+                                "717121ef-c224-4d36-8f6e-a41a1da302fc": {
+                                    "name": "冲动",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "当正确的选择是等待并思考的时候，进行一次自控检定。如果失败，你必须行动起来"
+                                }
+                            }
+                        },
+                        "96622c45-bd8f-44ab-b789-0443ed4897f9": {
+                            "name": "Prankster",
+                            "notes": "Choose some relevant traits",
+                            "children": {
+                                "b22bfd00-9171-4a90-859d-7fba3f03709d": {
+                                    "name": "冷酷无情",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "心理学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "教学"
+                                            }
+                                        },
+                                        {
+                                            "situation": "来自过去的受害者以及任何具有共情的角色"
+                                        },
+                                        {
+                                            "situation": "对于恐吓和折磨的手段来进行的审讯和威吓技能检定"
+                                        }
+                                    ]
+                                },
+                                "841ff7db-4feb-4054-a0b6-de4fd022982f": {
+                                    "name": "冲动",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "当正确的选择是等待并思考的时候，进行一次自控检定。如果失败，你必须行动起来"
+                                },
+                                "f04fd0e5-e4a1-42a4-b9d4-eab9402d35cf": {
+                                    "name": "施虐狂",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "当你有机会放纵自己的欲望，并且你知道自己不应该这么做（例如，因为你接手的囚犯应该安然无恙地被释放），那么进行一个自控检定。如果你失败了，你无法克制自己。",
+                                    "features": [
+                                        {
+                                            "situation": "来自那些发现你这一问题的人，除非他们来自一个不怎么尊重生命的文化环境"
+                                        }
+                                    ]
+                                },
+                                "40a3781a-1373-40e1-9992-a65031195ff5": {
+                                    "name": "作死能手",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "每天进行一次自控检定。如果你失败了，你必须尝试戏弄一个危险的目标：熟练的战士、危险的怪物、一群能力足够的对手，等等。如果你抵抗住了冲动，你的这个自控获得累加的 -1 减值，直到你某次自控失败为止！"
+                                }
+                            }
+                        },
+                        "87af7d8d-d7a7-4f9f-8c5a-3c7aa45cee7a": {
+                            "name": "超自然",
+                            "notes": "Choose some relevant traits",
+                            "children": {
+                                "4db94f45-8806-4c13-a8d5-5af6952e0121": {
+                                    "name": "冲动",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "当正确的选择是等待并思考的时候，进行一次自控检定。如果失败，你必须行动起来"
+                                },
+                                "3a3b2ef2-2a09-4cdc-bbc0-48346af8d8df": {
+                                    "name": "魔法天赋",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "超自然"
+                                    ],
+                                    "modifiers": {
+                                        "10b7c609-d742-473c-a229-fd39e10a948f": {
+                                            "name": "舞蹈"
+                                        },
+                                        "8cffcc39-a19c-4aa2-8a65-f270534b6ad7": {
+                                            "name": "黑暗倾向"
+                                        },
+                                        "9a43b6eb-5fca-4b3b-9475-9c8922652001": {
+                                            "name": "白昼倾向"
+                                        },
+                                        "1db3c1d2-12b8-4d9f-aaec-8a1f58f99922": {
+                                            "name": "音乐魔法"
+                                        },
+                                        "7ef63d35-934c-4046-8b55-22208f7a99b6": {
+                                            "name": "黑夜倾向"
+                                        },
+                                        "0f92e868-30bd-4a88-8dd7-d1929eb47c0e": {
+                                            "name": "单一学派",
+                                            "notes": "@学派@"
+                                        },
+                                        "7a67c4c3-2454-43a0-acd4-aac1265bd79a": {
+                                            "name": "孤独施法"
+                                        },
+                                        "162576be-563f-43f2-9bd3-91db2defc569": {
+                                            "name": "唱歌施法"
+                                        }
+                                    },
+                                    "features": [
+                                        {},
+                                        {
+                                            "name": {
+                                                "qualifier": "魔导学"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "c519d96e-5036-4fdb-997a-20b7eacec86b": {
+                    "name": "Optional minor traits",
+                    "children": {
+                        "02db87f3-84f2-4a05-975e-9b5929e633c1": {
+                            "name": "Interested in magic and mages",
+                            "tags": [
+                                "Mental",
+                                "Quirk"
+                            ]
+                        },
+                        "73b956d8-7bc4-4280-bfb9-e3b7743ed10d": {
+                            "name": "Likes to hang around with wizards",
+                            "tags": [
+                                "Mental",
+                                "Quirk"
+                            ]
+                        },
+                        "b31c6a9e-f9f3-4412-8f8b-7c061a9dbc04": {
+                            "name": "Curious",
+                            "tags": [
+                                "Disadvantage",
+                                "Mental"
+                            ],
+                            "notes": "Make a self-control roll when presented with an interesting item or situation"
+                        },
+                        "750ad8a5-d34e-45e4-84c9-0319b564cf97": {
+                            "name": "Compulsive Wanderlust",
+                            "tags": [
+                                "Disadvantage",
+                                "Mental"
+                            ]
+                        },
+                        "50e7b9a0-7993-49dd-b988-5ddd808a186d": {
+                            "name": "Broad-Minded",
+                            "tags": [
+                                "Mental",
+                                "Quirk"
+                            ]
+                        },
+                        "2b6fa081-8c68-4146-9460-fd161efb8f1c": {
+                            "name": "Imitative",
+                            "tags": [
+                                "Mental",
+                                "Quirk"
+                            ],
+                            "notes": "Will habitually emulate other beings after spending a little time with them"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

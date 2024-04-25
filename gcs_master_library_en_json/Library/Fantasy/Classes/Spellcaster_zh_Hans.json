@@ -1,0 +1,1858 @@
+{
+    "traits": {
+        "54d64360-a298-4274-b086-75e3fe5744c0": {
+            "name": "Spellcaster",
+            "children": {
+                "4087526d-3d7d-442c-96e8-180f364a4da8": {
+                    "name": "Attributes",
+                    "children": {
+                        "a12c8914-fc60-4df9-b356-9e26d6ff0e1d": {
+                            "name": "减少感知",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "心理",
+                                "生理"
+                            ]
+                        },
+                        "f971a2bd-dc1d-496d-b2af-5d7b444312e1": {
+                            "name": "减少力量",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "653e9d5f-2091-46ef-9bcf-d33881f8e115": {
+                            "name": "额外体力值",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "11fb4d2c-277a-4f48-8dba-ccc909c2ec62": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "23d64892-2566-4170-a5cc-1b8ff77daafd": {
+                            "name": "增加智力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        }
+                    }
+                },
+                "763d7e78-24c4-4eb8-8fb0-da081c48cd46": {
+                    "name": "Class Advantage",
+                    "children": {
+                        "cb8c0932-10ce-41fd-9443-cab5fcc3785a": {
+                            "name": "魔法天赋",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "超自然"
+                            ],
+                            "modifiers": {
+                                "c0469f9f-70b8-4560-a389-59fe02fc0eca": {
+                                    "name": "舞蹈"
+                                },
+                                "c3176901-c182-45c8-8cfa-9f5b3e6f3de9": {
+                                    "name": "黑暗倾向"
+                                },
+                                "5e24582e-bb46-4d17-8fa5-e16bcadf11bf": {
+                                    "name": "白昼倾向"
+                                },
+                                "7a8df0cc-a9f0-443b-9f64-126289f65948": {
+                                    "name": "音乐魔法"
+                                },
+                                "cc151633-5d50-460b-b233-69136f46d578": {
+                                    "name": "黑夜倾向"
+                                },
+                                "4b0f3d13-ae03-45fb-bfda-3bdf0ce61a95": {
+                                    "name": "单一学派",
+                                    "notes": "@学派@"
+                                },
+                                "d762d0b8-2758-47ce-aa91-10b8ec874c89": {
+                                    "name": "孤独施法"
+                                },
+                                "c0c275b8-6274-4141-92d2-1a98667e58c6": {
+                                    "name": "唱歌施法"
+                                }
+                            },
+                            "features": [
+                                {},
+                                {
+                                    "name": {
+                                        "qualifier": "魔导学"
+                                    }
+                                }
+                            ]
+                        },
+                        "9156e195-f4e8-48a7-b4cf-29ca4477d67d": {
+                            "name": "Two of:",
+                            "children": {
+                                "d3f22b80-950c-456b-8e64-5d3198855b26": {
+                                    "name": "逼真记忆",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "a6e858f3-094e-4afd-a3d8-d7f515a429dd": {
+                                            "name": "摄影式"
+                                        }
+                                    }
+                                },
+                                "8252f167-f74d-407e-aab8-8f8befd0d552": {
+                                    "name": "语言：@语言@",
+                                    "tags": [
+                                        "优势",
+                                        "语言",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "c3f35d45-c843-4c6e-99f0-362d6f4d3f9e": {
+                                            "name": "纯正的"
+                                        },
+                                        "7e9d8f45-a4b9-4350-9c48-26ddf55136c2": {
+                                            "name": "口语",
+                                            "notes": "一无所知"
+                                        },
+                                        "59571094-e358-4755-a27b-0b4654f18bfd": {
+                                            "name": "口语",
+                                            "notes": "结巴的"
+                                        },
+                                        "8184c9b6-0594-4a69-835b-ac2aa9308fee": {
+                                            "name": "口语",
+                                            "notes": "有口音的"
+                                        },
+                                        "b0e5318a-a8c5-40ab-b8c0-7177c05678e6": {
+                                            "name": "口语",
+                                            "notes": "纯正的"
+                                        },
+                                        "6c2dce76-51fe-4e21-8178-d3c6a40d4e46": {
+                                            "name": "书写",
+                                            "notes": "一无所知"
+                                        },
+                                        "481bddb0-7996-48ac-8971-eacae1d7282c": {
+                                            "name": "书写",
+                                            "notes": "结巴的"
+                                        },
+                                        "918f1863-d56c-4ad7-ad9c-234dc170b2e1": {
+                                            "name": "书写",
+                                            "notes": "有口音的"
+                                        },
+                                        "aa589003-0443-4e8d-853c-efc2aa959dee": {
+                                            "name": "书写",
+                                            "notes": "纯正的"
+                                        }
+                                    }
+                                },
+                                "aa039af3-9c17-4691-bcf9-38ddb4bdcc3a": {
+                                    "name": "专心致志",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "3651d31f-e474-410d-9bb4-771926c541a5": {
+                                    "name": "Status",
+                                    "tags": [
+                                        "优势",
+                                        "社会"
+                                    ],
+                                    "notes": "@描述@"
+                                },
+                                "ea16f941-d98b-4469-a71b-75158ef43087": {
+                                    "name": "天马行空",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "9b234d01-38d6-429e-8ebd-1b2947380c32": {
+                                    "name": "增加意志",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "心理"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "972de701-935a-4839-9981-01dbe3b1dfb3": {
+                    "name": "Class Disadvantage",
+                    "children": {
+                        "78666cf7-3706-46c8-af4e-9853d57d8d59": {
+                            "name": "-30 points chosen from:",
+                            "children": {
+                                "ed9d4b51-2555-4b37-bd24-750aeefca3e3": {
+                                    "name": "心不在焉",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "adff6c75-89cf-4f8e-b851-adf1012061cf": {
+                                    "name": "视力不良（远视）",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "notes": "-6 to Vision rolls to spot items within 1 yd; -3 DX to any close manual task, including close combat",
+                                    "modifiers": {
+                                        "289e1d1e-f1d2-4454-b1c2-0bc68dae5f71": {
+                                            "name": "缓解",
+                                            "notes": "眼镜"
+                                        }
+                                    }
+                                },
+                                "3fd66e80-fcd7-4504-a647-c9552663bc92": {
+                                    "name": "视力不良（近视）",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
+                                    "modifiers": {
+                                        "7e64dae1-7aec-408d-96e6-16bc7c0c5d8c": {
+                                            "name": "缓解",
+                                            "notes": "眼镜"
+                                        }
+                                    }
+                                },
+                                "3332105e-8a15-4776-8d87-5442e8d758ca": {
+                                    "name": "坏脾气",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "d7354abd-3a3f-4b69-985e-fc984451b1d8": {
+                                    "name": "好奇",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "2b789069-8508-408d-a154-15ea04014cf8": {
+                                    "name": "职责（@职责@）",
+                                    "tags": [
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "5367a796-da2b-4508-8fda-785c06873805": {
+                                            "name": "FR: 6"
+                                        },
+                                        "dcb05458-b991-4ebe-bfef-b3a3b10e774f": {
+                                            "name": "FR: 9"
+                                        },
+                                        "cd8b6889-ee2d-4d26-80a1-bea0c1f4714e": {
+                                            "name": "FR: 12"
+                                        },
+                                        "d09f54de-69c3-4b7a-9da5-a9daa5bd16e4": {
+                                            "name": "FR: 15"
+                                        },
+                                        "39c18dd8-5989-4fe9-a8b1-4fdddd0a3082": {
+                                            "name": "极度危险"
+                                        },
+                                        "24a5927e-64c0-421a-a606-ef7e16918191": {
+                                            "name": "被强迫的"
+                                        },
+                                        "fb7d2ee6-714b-4d97-8abf-4c7c028cdec8": {
+                                            "name": "不危险的"
+                                        }
+                                    }
+                                },
+                                "da176a54-9dba-49fb-8229-28360fbbe915": {
+                                    "name": "暴食",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "bdd3e3b8-005d-4825-bf41-792150b89575": {
+                                    "name": "执念",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "notes": "@Goal@",
+                                    "modifiers": {
+                                        "a2fbc28d-32ea-4d6b-8d37-46320cb22706": {
+                                            "name": "短期"
+                                        },
+                                        "5c0c2045-f74e-4734-903a-8464167253f7": {
+                                            "name": "长期"
+                                        }
+                                    }
+                                },
+                                "e3f4f92d-e16f-4984-b92c-afd0c11f094b": {
+                                    "name": "秘密（@秘密@）",
+                                    "tags": [
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "2b1ddf47-2580-4cac-8ffd-f3204c5f97ee": {
+                                            "name": "剧烈羞辱"
+                                        },
+                                        "852629cc-a2b1-491a-9990-608cdd185888": {
+                                            "name": "直接排斥"
+                                        },
+                                        "e6ca6d62-3966-497b-a692-e50efd0769bb": {
+                                            "name": "监禁"
+                                        },
+                                        "cc7f9faf-7ab1-41a3-acda-1d0a25220e9c": {
+                                            "name": "可能死亡"
+                                        }
+                                    }
+                                },
+                                "0db28668-e073-4fea-9f54-24726bdd9789": {
+                                    "name": "责任感",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "e9801649-9a89-46de-a0f9-7ef795e9a09c": {
+                                            "name": "朋友和伙伴"
+                                        },
+                                        "ef7ee42e-d565-4dc5-964d-d1ce51988c0a": {
+                                            "name": "@小组织@"
+                                        },
+                                        "687d33fb-f1d0-4eac-8b39-2b1013256210": {
+                                            "name": "@个人@"
+                                        },
+                                        "c812bca1-9a59-44c9-bd29-3860dfbb2219": {
+                                            "name": "@大组织@"
+                                        },
+                                        "d5b4aa25-0346-402e-ae44-cf1180724fe2": {
+                                            "name": "@整个种族@"
+                                        },
+                                        "46cd31d5-a40d-4545-9923-250359251425": {
+                                            "name": "所有活物"
+                                        }
+                                    }
+                                },
+                                "c7952031-9f5b-43eb-8a05-218289a5a544": {
+                                    "name": "Shyness",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "8ad923c6-f265-4455-b2c0-4157cfac928f": {
+                                            "name": "轻度",
+                                            "features": [
+                                                {
+                                                    "name": {
+                                                        "qualifier": "做戏"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "宴饮"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "外交"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "唬骗"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "威吓"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "领导力"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "商人"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "乞讨"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "表演"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "政治"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "演讲"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "礼仪"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "性感"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "黑街"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "教学"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "b217b77e-1218-458c-8ce4-7cbd11f97e01": {
+                                            "name": "重度",
+                                            "features": [
+                                                {
+                                                    "name": {
+                                                        "qualifier": "做戏"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "宴饮"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "外交"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "唬骗"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "威吓"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "领导力"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "商人"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "乞讨"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "表演"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "政治"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "演讲"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "礼仪"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "性感"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "黑街"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "教学"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "e2315c26-a47b-4b2f-a06e-41c119c66625": {
+                                            "name": "残疾",
+                                            "features": [
+                                                {
+                                                    "name": {
+                                                        "qualifier": "做戏"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "宴饮"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "外交"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "唬骗"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "威吓"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "领导力"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "商人"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "乞讨"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "表演"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "政治"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "演讲"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "礼仪"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "性感"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "黑街"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "教学"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "ba20b89d-e984-453c-93ae-071a464a021f": {
+            "name": "Spellcaster",
+            "children": {
+                "271c8424-44fc-40b9-b8c4-5fa16746baa0": {
+                    "name": "Background Skill",
+                    "children": {
+                        "434d4352-266a-4f2c-8e16-ce3ce7f9e042": {
+                            "name": "One of:",
+                            "children": {
+                                "983e4389-9523-493f-8c64-1f03c97efb3c": {
+                                    "name": "Knife",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "能量剑"
+                                        },
+                                        {
+                                            "name": "Main-Gauche"
+                                        },
+                                        {
+                                            "name": "Shortsword"
+                                        }
+                                    ]
+                                },
+                                "79518def-ba90-40c7-8c9d-db72753a54e0": {
+                                    "name": "骑术",
+                                    "tags": [
+                                        "动物"
+                                    ],
+                                    "specialization": "@分支@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "驯兽",
+                                            "specialization": "@分支@"
+                                        }
+                                    ]
+                                },
+                                "ee78dfaf-8fe2-4a55-9017-aaebb52b4dc1": {
+                                    "name": "Shortsword",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "Broadsword"
+                                        },
+                                        {
+                                            "name": "能量剑"
+                                        },
+                                        {
+                                            "name": "十手/钗"
+                                        },
+                                        {
+                                            "name": "Knife"
+                                        },
+                                        {
+                                            "name": "Saber"
+                                        },
+                                        {
+                                            "name": "Smallsword"
+                                        },
+                                        {
+                                            "name": "武术拐"
+                                        }
+                                    ]
+                                },
+                                "1ffe76f3-34ce-48cc-9feb-a4724c828a49": {
+                                    "name": "Staff",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Polearm"
+                                        },
+                                        {
+                                            "name": "Spear"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "42425abc-d26a-44c8-a566-881013593493": {
+                            "name": "One of:",
+                            "children": {
+                                "0cc2cd71-dfa5-4e11-a4c4-d29d25f00bb8": {
+                                    "name": "礼仪",
+                                    "tags": [
+                                        "商业",
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "上流社会",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "礼仪",
+                                            "specialization": "仆从"
+                                        }
+                                    ]
+                                },
+                                "5fbc5162-d92f-4421-b037-f618d1d36014": {
+                                    "name": "礼仪",
+                                    "tags": [
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "魔法",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "游戏"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "8836c9e3-a010-4a9a-a78b-7db76502ba20": {
+                    "name": "Secondary Skill",
+                    "children": {
+                        "be1fe481-fdef-4d00-9116-7c956e91db93": {
+                            "name": "Three of:",
+                            "children": {
+                                "cb7c0ab3-9ddd-4275-9840-a5c04b84b7a0": {
+                                    "name": "游戏",
+                                    "tags": [
+                                        "知识"
+                                    ],
+                                    "specialization": "Magical Challenges"
+                                },
+                                "6fb14fa5-4496-4160-93a8-64a486256a48": {
+                                    "name": "隐秘学识",
+                                    "tags": [
+                                        "知识"
+                                    ],
+                                    "specialization": "@分支@"
+                                },
+                                "3a74490c-ce9b-440a-8681-51b26fb85aae": {
+                                    "name": "神秘学",
+                                    "tags": [
+                                        "魔法",
+                                        "神秘学"
+                                    ]
+                                },
+                                "36b750b2-8907-4045-83bc-63bb6b33e5ae": {
+                                    "name": "研究",
+                                    "tags": [
+                                        "学校",
+                                        "间谍"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "prereqs": [
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "电脑操作"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "prereqs": [
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "语言"
+                                                        },
+                                                        "notes": {
+                                                            "qualifier": "书面语（纯正的）"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "语言"
+                                                        },
+                                                        "notes": {
+                                                            "qualifier": "书面语（有口音的）"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "语言"
+                                                        },
+                                                        "notes": {
+                                                            "qualifier": "书面语（结巴的）"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "写作"
+                                        }
+                                    ]
+                                },
+                                "ec222e75-c997-4da9-bd6e-9c00139ce4d3": {
+                                    "name": "天文学",
+                                    "tags": [
+                                        "自然科学"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "数学"
+                                                },
+                                                "specialization": {
+                                                    "qualifier": "应用"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "e0674a5b-79b8-46b1-b141-bed0f86d471e": {
+                                    "name": "密码学",
+                                    "tags": [
+                                        "军事",
+                                        "间谍"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "数学",
+                                            "specialization": "密码研究"
+                                        }
+                                    ]
+                                },
+                                "d31cf280-d253-49f8-9659-51a22fe154b4": {
+                                    "name": "专家技能",
+                                    "tags": [
+                                        "知识",
+                                        "自然科学",
+                                        "学校"
+                                    ],
+                                    "specialization": "@分支@"
+                                },
+                                "07e0b900-88ed-46b6-b8b8-2a2eb2827cc6": {
+                                    "name": "数学",
+                                    "tags": [
+                                        "自然科学"
+                                    ],
+                                    "specialization": "@分支@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "物理学"
+                                        },
+                                        {
+                                            "name": "工程学"
+                                        }
+                                    ]
+                                },
+                                "b6c7fd3e-aa3b-4406-86f8-d7f3deb59ade": {
+                                    "name": "博物学",
+                                    "tags": [
+                                        "动物",
+                                        "探索",
+                                        "自然科学",
+                                        "户外",
+                                        "植物"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "生物学"
+                                        }
+                                    ]
+                                },
+                                "a8cc3421-ef76-42cd-8c3c-196ee707286e": {
+                                    "name": "神学",
+                                    "tags": [
+                                        "人文学科",
+                                        "社会科学"
+                                    ],
+                                    "specialization": "@分支@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "宗教仪式",
+                                            "specialization": "@分支@"
+                                        }
+                                    ]
+                                },
+                                "9192b2ea-b60b-4f0d-b78d-f63af6ce3b6e": {
+                                    "name": "梦境",
+                                    "tags": [
+                                        "秘技"
+                                    ]
+                                },
+                                "224a704f-e037-49c7-8e23-b609c5591fe5": {
+                                    "name": "冥想",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "自我催眠"
+                                        }
+                                    ]
+                                },
+                                "7d3b47a5-a89e-4cde-bf31-4c3afc6ad4ea": {
+                                    "name": "炼金术",
+                                    "tags": [
+                                        "魔法",
+                                        "自然科学",
+                                        "神秘学"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "5f7fa1fe-fd0f-4508-83d5-6bbd0f9429ed": {
+                    "name": "Primary Skill",
+                    "children": {
+                        "b38ff586-2a34-4289-a002-6624427e67eb": {
+                            "name": "魔导学",
+                            "tags": [
+                                "魔法",
+                                "神秘学"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "spells": {
+        "62bc2538-baa2-4dad-b4ab-24fa34540e6c": {
+            "name": "Spellcaster",
+            "children": {
+                "41befec6-88f4-4a43-bca5-3a90f0751a7f": {
+                    "name": "Detect Magic",
+                    "tags": [
+                        "知识"
+                    ],
+                    "power_source": "Arcane",
+                    "spell_class": "常规",
+                    "casting_time": "5 sec",
+                    "duration": "Instant",
+                    "casting_cost": "2",
+                    "maintenance_cost": "-",
+                    "college": [
+                        "知识"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "magery"
+                                },
+                                "notes": {
+                                    "qualifier": "one college (knowledge)"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "magery"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "52d6ef5a-0555-4e05-9a49-770c96a0aa40": {
+                    "name": "Lend Energy",
+                    "tags": [
+                        "治疗"
+                    ],
+                    "power_source": "Arcane",
+                    "spell_class": "常规",
+                    "casting_time": "1 秒",
+                    "duration": "永久",
+                    "casting_cost": "1/pt",
+                    "maintenance_cost": "-",
+                    "college": [
+                        "治疗"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "magery"
+                                        },
+                                        "notes": {
+                                            "qualifier": "one college (healing)"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "magery"
+                                        },
+                                        "notes": {
+                                            "qualifier": "one college"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "共情"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "dd3d1139-518c-4ae8-a697-d6680e20dde1": {
+                    "name": "Choose One:",
+                    "children": {
+                        "1956ac67-0ef7-4ac0-a79a-cd48c60b7379": {
+                            "name": "Elementalist",
+                            "children": {
+                                "10b2c4f2-4d2f-4cdc-bb33-19e2323fe882": {
+                                    "name": "Create Air",
+                                    "tags": [
+                                        "空中"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Area",
+                                    "casting_time": "1 秒",
+                                    "duration": "5 sec",
+                                    "casting_cost": "1",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "空中"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "purify air"
+                                                }
+                                            },
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "seek air"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "a91dcee7-9dfc-4107-af8a-c1f3a4592897": {
+                                    "name": "Create Fire",
+                                    "tags": [
+                                        "Fire"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Area",
+                                    "casting_time": "1 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "2",
+                                    "maintenance_cost": "Half",
+                                    "college": [
+                                        "Fire"
+                                    ],
+                                    "weapons": {
+                                        "3c449c08-d82b-4fd6-a008-648c4b7e1404": {
+                                            "usage": "Area"
+                                        }
+                                    },
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "seek fire"
+                                                }
+                                            },
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "ignite fire"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "d444317d-06a7-4334-86f3-ccfe1bc672d8": {
+                                    "name": "Create Water",
+                                    "tags": [
+                                        "水面"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "1 秒",
+                                    "duration": "永久",
+                                    "casting_cost": "2/gal",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "水面"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "purify water"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "d8d71dcb-2505-46da-817b-b15d825ed103": {
+                                    "name": "Ignite Fire",
+                                    "tags": [
+                                        "Fire"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "1 秒",
+                                    "duration": "1 秒",
+                                    "casting_cost": "1-4",
+                                    "maintenance_cost": "Same",
+                                    "college": [
+                                        "Fire"
+                                    ]
+                                },
+                                "2dee0ac1-2c93-4a30-a8ff-0d8ecba9df73": {
+                                    "name": "Purify Air",
+                                    "tags": [
+                                        "空中"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Area",
+                                    "casting_time": "1 秒",
+                                    "duration": "Instant",
+                                    "casting_cost": "1",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "空中"
+                                    ]
+                                },
+                                "07f970c8-d8d2-4154-92d8-ba146614da44": {
+                                    "name": "Purify Water",
+                                    "tags": [
+                                        "水面"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Special",
+                                    "casting_time": "5-10/gal#",
+                                    "duration": "永久",
+                                    "casting_cost": "1/gal",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "水面"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "seek water"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "cc1996c7-30aa-4f05-ac6e-4d73824387b4": {
+                                    "name": "Seek Earth",
+                                    "tags": [
+                                        "地球"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Info",
+                                    "casting_time": "10 秒",
+                                    "duration": "Instant",
+                                    "casting_cost": "3",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "地球"
+                                    ]
+                                },
+                                "99974603-61c2-4a29-a633-55344eeb6b7d": {
+                                    "name": "Seek Water",
+                                    "tags": [
+                                        "水面"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Info",
+                                    "casting_time": "1 秒",
+                                    "duration": "Instant",
+                                    "casting_cost": "2",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "水面"
+                                    ]
+                                },
+                                "5ea05693-22ec-445a-8914-09ad536aa746": {
+                                    "name": "Shape Air",
+                                    "tags": [
+                                        "空中"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "1 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "1-10",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "空中"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "create air"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "2b12ac4f-c8d3-4fb4-80aa-a54c9b4aa4c0": {
+                                    "name": "Shape Earth",
+                                    "tags": [
+                                        "地球"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "1 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "1/25 cu ft",
+                                    "maintenance_cost": "Half",
+                                    "college": [
+                                        "地球"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "seek earth"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "595a1e91-515f-4e6f-b70e-e2bb9762bdfa": {
+                                    "name": "Shape Fire",
+                                    "tags": [
+                                        "Fire"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Area",
+                                    "casting_time": "1 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "2",
+                                    "maintenance_cost": "Half",
+                                    "college": [
+                                        "Fire"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "ignite fire"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "530900b5-88a6-4997-8d34-87c2d8ffeb02": {
+                                    "name": "Choose two spells and raise them to 4 points."
+                                }
+                            }
+                        },
+                        "7bdd89b0-0eb9-45cd-b2ea-13405a277d0a": {
+                            "name": "Mentalist",
+                            "children": {
+                                "a54238bd-f5fa-48f4-a43a-cd8e2e911f64": {
+                                    "name": "眩晕",
+                                    "tags": [
+                                        "心灵控制"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "2 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "3",
+                                    "maintenance_cost": "2",
+                                    "college": [
+                                        "心灵控制"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "foolishness"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "c08553b4-b2be-4443-9e50-1e58592f83a4": {
+                                    "name": "Fear",
+                                    "tags": [
+                                        "心灵控制"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Area",
+                                    "casting_time": "1 秒",
+                                    "duration": "10 min",
+                                    "casting_cost": "1",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "心灵控制"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "sense emotion"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "共情"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "911636da-1c62-40b8-aee1-768f2dc81322": {
+                                    "name": "Foolishness",
+                                    "tags": [
+                                        "心灵控制"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "1 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "1-5",
+                                    "maintenance_cost": "Half",
+                                    "college": [
+                                        "心灵控制"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "12"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "19ad2443-9d4a-4b79-85b0-a916bc37c275": {
+                                    "name": "Forgetfulness",
+                                    "tags": [
+                                        "心灵控制"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "10 秒",
+                                    "duration": "1 小时",
+                                    "casting_cost": "3",
+                                    "maintenance_cost": "3",
+                                    "college": [
+                                        "心灵控制"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "foolishness"
+                                                }
+                                            },
+                                            {
+                                                "prereqs": [
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "magery"
+                                                        },
+                                                        "notes": {
+                                                            "qualifier": "one college (mind control)"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "magery"
+                                                        },
+                                                        "notes": {
+                                                            "qualifier": "one college"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "d91a9ebd-41c8-4949-a485-b36c8782f54f": {
+                                    "name": "Hide Thoughts",
+                                    "tags": [
+                                        "交流"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "1 秒",
+                                    "duration": "10 min",
+                                    "casting_cost": "3",
+                                    "maintenance_cost": "1",
+                                    "college": [
+                                        "Communication & Empathy"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "truthsayer"
+                                                }
+                                            },
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "hide emotion"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "3852cdc0-0ae3-486c-bac3-3ae80bb98c76": {
+                                    "name": "Mind-Reading",
+                                    "tags": [
+                                        "交流"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "10 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "4",
+                                    "maintenance_cost": "2",
+                                    "college": [
+                                        "Communication & Empathy"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "truthsayer"
+                                                }
+                                            },
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "borrow language"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "df6d9f8d-0b98-4b4b-9dc5-66350e6711b0": {
+                                    "name": "Mind-Sending",
+                                    "tags": [
+                                        "交流"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "4 sec",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "4",
+                                    "maintenance_cost": "4",
+                                    "college": [
+                                        "Communication & Empathy"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "mind-reading"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "7ce59798-492f-4815-b3a9-54a2ccac1574": {
+                                    "name": "Sense Emotion",
+                                    "tags": [
+                                        "交流"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "1 秒",
+                                    "duration": "Instant",
+                                    "casting_cost": "2",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "Communication & Empathy"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "sense foes"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "e8da8ff4-a8f2-4c13-abb7-62a86b9dda5b": {
+                                    "name": "Sense Foes",
+                                    "tags": [
+                                        "交流"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Info/Area",
+                                    "casting_time": "1 秒",
+                                    "duration": "Instant",
+                                    "casting_cost": "1/area, min 2",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "Communication & Empathy"
+                                    ]
+                                },
+                                "ea53bc1b-037e-4a0a-ac18-c0003bb856cb": {
+                                    "name": "沉睡",
+                                    "tags": [
+                                        "心灵控制"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "3 sec",
+                                    "duration": "Until awakened",
+                                    "casting_cost": "4",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "心灵控制"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "daze"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "878386f8-e827-4ed6-a31b-9ad58ff25aec": {
+                                    "name": "Truthsayer",
+                                    "tags": [
+                                        "交流"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Info",
+                                    "casting_time": "1 秒",
+                                    "duration": "Instant",
+                                    "casting_cost": "2",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "Communication & Empathy"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "sense emotion"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "0e55ce33-593b-4016-bf9b-7bd328c25328": {
+                                    "name": "Choose two spells and raise them to 4 points."
+                                }
+                            }
+                        },
+                        "218a6730-3939-442e-8cb4-421752b7ce2b": {
+                            "name": "Illusionist",
+                            "children": {
+                                "9e1104ac-19b1-4466-8156-16388f93aa7f": {
+                                    "name": "Blur",
+                                    "tags": [
+                                        "Light"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "2 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "1-5",
+                                    "maintenance_cost": "Same",
+                                    "college": [
+                                        "Light & Darkness"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "darkness"
+                                                }
+                                            },
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "gloom"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "3b38c02f-bde6-4a6f-a2ae-563e8f8e8f19": {
+                                    "name": "Complex Illusion",
+                                    "tags": [
+                                        "Illusion & Creation"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Area",
+                                    "casting_time": "1 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "2",
+                                    "maintenance_cost": "Half",
+                                    "college": [
+                                        "Illusion & Creation"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "sound"
+                                                }
+                                            },
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "simple illusion"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "43e1c8d5-1772-40d8-a1e3-b78139acbb97": {
+                                    "name": "Continual Light",
+                                    "tags": [
+                                        "Light"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "1 秒",
+                                    "duration": "2d days",
+                                    "casting_cost": "2 moon, 4 torch, 6 day",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "Light & Darkness"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "light"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "32f4f6f3-7321-40f2-8ffb-74016312a6bb": {
+                                    "name": "Darkness",
+                                    "tags": [
+                                        "Light"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Area",
+                                    "casting_time": "1 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "2",
+                                    "maintenance_cost": "1",
+                                    "college": [
+                                        "Light & Darkness"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "continual light"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "0767aa3b-3c8f-40fa-ba3e-493f06b31e1d": {
+                                    "name": "Hide",
+                                    "tags": [
+                                        "Light"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "5 secs",
+                                    "duration": "1 小时",
+                                    "casting_cost": "1-5",
+                                    "maintenance_cost": "Same",
+                                    "college": [
+                                        "Light & Darkness"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "blur"
+                                                }
+                                            },
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "forgetfulness"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "37415525-e759-4e83-9863-6df08dbddb20": {
+                                    "name": "Illusion Disguise",
+                                    "tags": [
+                                        "Illusion & Creation"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "1 秒",
+                                    "duration": "Until illusion ends",
+                                    "casting_cost": "3",
+                                    "maintenance_cost": "-",
+                                    "college": [
+                                        "Illusion & Creation"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "simple illusion"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "f5b19a82-e0a4-4c53-afa1-405cda2b247a": {
+                                    "name": "Illusion Shell",
+                                    "tags": [
+                                        "Illusion & Creation"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "1 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "1 or 2",
+                                    "maintenance_cost": "Half",
+                                    "college": [
+                                        "Illusion & Creation"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "simple illusion"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "cf426edd-caa0-4759-ac57-1b9214cb3e6d": {
+                                    "name": "Light",
+                                    "tags": [
+                                        "Light"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "1 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "1",
+                                    "maintenance_cost": "1",
+                                    "college": [
+                                        "Light & Darkness"
+                                    ]
+                                },
+                                "cccc4316-03b9-4a77-bea8-c23cb3423393": {
+                                    "name": "Simple Illusion",
+                                    "tags": [
+                                        "Illusion & Creation"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Area",
+                                    "casting_time": "1 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "1",
+                                    "maintenance_cost": "Half",
+                                    "college": [
+                                        "Illusion & Creation"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "blind"
+                                                }
+                                            },
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "11"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "3964cf22-5f8a-4767-92cf-cfd4c6622833": {
+                                    "name": "悄无声息",
+                                    "tags": [
+                                        "Sound"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "Area",
+                                    "casting_time": "1 秒",
+                                    "duration": "1 分钟",
+                                    "casting_cost": "2",
+                                    "maintenance_cost": "Half",
+                                    "college": [
+                                        "Sound"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "sound"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "d924bfaa-e434-4f90-9501-4678fdb50153": {
+                                    "name": "Sound",
+                                    "tags": [
+                                        "Sound"
+                                    ],
+                                    "power_source": "Arcane",
+                                    "spell_class": "常规",
+                                    "casting_time": "1 秒",
+                                    "duration": "Varies",
+                                    "casting_cost": "Varies",
+                                    "maintenance_cost": "1/ min",
+                                    "college": [
+                                        "Sound"
+                                    ]
+                                },
+                                "d7cc63d4-b243-4893-a4ba-e65a637356d7": {
+                                    "name": "Choose two spells and raise them to 4 points."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

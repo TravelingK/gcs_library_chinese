@@ -1,0 +1,196 @@
+{
+    "traits": {
+        "afdd7a89-ff11-4947-8b62-9144de19b93c": {
+            "name": "Centaur",
+            "children": {
+                "1c2a9ff2-b452-4bb9-8a93-185817b20773": {
+                    "name": "Attributes",
+                    "children": {
+                        "c98bae07-0133-4058-afa6-b521d2998ccd": {
+                            "name": "减少智力",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "db6cb9c1-ad1f-4cf0-bbb8-93aa1a7ab373": {
+                            "name": "增加基本移动力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "8ac04372-b569-4272-8bae-7a2ff97ea4e2": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "abd19923-6f74-4972-a301-b63ad3a3308b": {
+                            "name": "增加感知",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理",
+                                "生理"
+                            ]
+                        },
+                        "33053440-9043-44b7-af99-2276b3792581": {
+                            "name": "增加力量",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "91e25363-ae8f-4521-b7bb-4a3a7dd91bd6": {
+                                    "name": "无操作肢"
+                                },
+                                "f6fcf1cb-ea31-4884-95c5-496a86e788c3": {
+                                    "name": "体型"
+                                },
+                                "9f0cb74b-c4a4-490f-8095-2502d53b562a": {
+                                    "name": "超级出力"
+                                }
+                            }
+                        },
+                        "cb0577ba-726a-472e-92d2-cb418cf814b8": {
+                            "name": "增加尺寸",
+                            "tags": [
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "45fdaa61-6390-41d7-a82c-69a30e5cd6ed": {
+                    "name": "Racial Advantage",
+                    "children": {
+                        "8cf4b4eb-254d-42b8-8cf3-540fb06c0562": {
+                            "name": "Enhanced Move (Ground: @New Move@)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "4e69fd8a-d588-4e23-99b3-ec9a59657619": {
+                                    "name": "操纵性加值"
+                                },
+                                "0f1b4ece-e6a0-49f1-9a18-a23c000942ad": {
+                                    "name": "操纵性减值"
+                                },
+                                "64e22dd5-245a-47ad-a71e-9037b9e3a372": {
+                                    "name": "牛顿力学"
+                                },
+                                "80c4c6e5-be40-466d-8590-e4ee8e5351c4": {
+                                    "name": "依赖道路"
+                                },
+                                "29f8434a-d319-4dc4-8a6d-801124e3b27c": {
+                                    "name": "全力"
+                                },
+                                "6c28a320-f384-48d6-8642-09beaf8201a7": {
+                                    "name": "超元",
+                                    "notes": "瞬间加速"
+                                },
+                                "a5b61f30-679f-4881-9b5b-f8632289df3a": {
+                                    "name": "超元",
+                                    "notes": "完全机动性"
+                                }
+                            }
+                        },
+                        "37c38850-8ee3-45bb-b21a-06ecc48ab989": {
+                            "name": "额外腿部",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "30499bdb-3321-4691-8f4b-1dc815cd03a7": {
+                                    "name": "4"
+                                },
+                                "39d7858c-b17e-41a5-8bc7-a1b6baa485ac": {
+                                    "name": "@5 或 6@"
+                                },
+                                "c1476523-0e97-4ca9-8457-c391bde0d5c0": {
+                                    "name": "@7+@"
+                                },
+                                "c48062fd-07c7-48dd-acb6-0c5c144614af": {
+                                    "name": "最大"
+                                },
+                                "6ca9de8f-ec50-489d-9057-af0e514c81e6": {
+                                    "name": "不能踢击"
+                                }
+                            }
+                        },
+                        "c8d55431-96de-4ec3-9d4a-0b0fcff2dc94": {
+                            "name": "无所畏惧",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ]
+                        },
+                        "1722f4ff-87e8-4691-b180-e2ad610091c8": {
+                            "name": "Claws, Hooves",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "Only pay for hands or feet, not both",
+                            "weapons": {
+                                "fb1cda71-65c9-48ca-ad73-30c187e6123a": {
+                                    "usage": "践踏",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "斗殴"
+                                        },
+                                        {
+                                            "name": "空手技击"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "010b03dd-f2d2-470f-9035-0ecb1a8c8ddf": {
+                    "name": "Racial Disadvantage",
+                    "children": {
+                        "0a04140e-d953-4bf2-816b-66997fcad141": {
+                            "name": "冲动",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "c8126184-460c-4a24-be14-3f471895ca04": {
+                            "name": "自负",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "bba61301-f508-494e-a871-6a90655dfc7c": {
+                            "name": "Party Animal",
+                            "tags": [
+                                "生理"
+                            ],
+                            "notes": "聚会成性"
+                        },
+                        "d604bc1a-0d3b-4268-837d-b1c7da7a3986": {
+                            "name": "Finds the trappings of domesticated horses offensive",
+                            "tags": [
+                                "生理"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

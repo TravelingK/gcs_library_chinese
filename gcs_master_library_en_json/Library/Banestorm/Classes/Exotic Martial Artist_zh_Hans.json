@@ -1,0 +1,1234 @@
+{
+    "traits": {
+        "2cd2f797-d983-4dbb-96cb-7f693be063a4": {
+            "name": "Exotic Martial Artist",
+            "children": {
+                "c5a009b4-3f1b-457a-9c87-2b68f5a372f2": {
+                    "name": "Attributes",
+                    "children": {
+                        "fe92281a-d157-4fa6-87fd-8431a3ebcadb": {
+                            "name": "增加敏捷",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "34a03eba-f08d-4ecf-affe-4f48faf90c63": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        },
+                        "3b15e81b-222d-4ccb-a042-fe643793291b": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "34647935-ecec-4c55-9417-d48789e25fc9": {
+                            "name": "增加智力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        },
+                        "dbc999d8-6b5b-412b-83dd-147f490584d9": {
+                            "name": "增加力量",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "5a18a5e3-69d3-480c-86bf-73a7f7cdd3e6": {
+                                    "name": "无操作肢"
+                                },
+                                "7396319c-ec33-4bc2-b9fc-6071081f3087": {
+                                    "name": "体型"
+                                },
+                                "6f1e38aa-b096-4e53-9c3a-4ba59119ade6": {
+                                    "name": "超级出力"
+                                }
+                            }
+                        }
+                    }
+                },
+                "b4d9cf57-ef7e-4d62-9ab2-2c65d875503e": {
+                    "name": "Class Advantage",
+                    "children": {
+                        "81b1db21-68af-4c4e-891b-ca5966c943bd": {
+                            "name": "大师传承",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ]
+                        },
+                        "5dac8e1f-463e-49a4-854d-a1b4c3634bad": {
+                            "name": "20 points chosen from",
+                            "children": {
+                                "40e46900-0b5f-4371-be4a-3ee78176c5d2": {
+                                    "name": "敏锐听觉",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ]
+                                },
+                                "d9a59e61-2734-415b-8bc8-aaadab95c174": {
+                                    "name": "敏锐味觉和嗅觉",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ]
+                                },
+                                "c7061415-a656-4512-9a56-19adb21bc02e": {
+                                    "name": "敏锐触觉",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ]
+                                },
+                                "6f5df22a-f6a2-4fbe-87e9-0d1293430387": {
+                                    "name": "敏锐视觉",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ]
+                                },
+                                "f5dfab51-52ca-4f77-b918-56e258327b7d": {
+                                    "name": "双巧手",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ]
+                                },
+                                "b5df74fa-2a7e-4caf-a5a1-aa2ce23cba06": {
+                                    "name": "战斗反射",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "即时备战"
+                                            }
+                                        }
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "增强时间感"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "4fe63e0a-dfdc-4a3f-b787-03f9fca222bd": {
+                                    "name": "蛮勇福星",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "6d33b124-4ac5-4204-b5f1-110674b4b6de": {
+                                    "name": "健康",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)"
+                                },
+                                "40d92f43-b490-4625-a9d8-108b0a4fb926": {
+                                    "name": "Fit, Very",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "notes": "+2 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate; lose FP at half the normal rate (in both cases, not FP spent for spells or psi powers)"
+                                },
+                                "78bbe6ec-1846-4106-af51-5ad18985526f": {
+                                    "name": "灵活",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "攀爬"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "逃脱"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "房中术"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "255ae1f7-421a-4e8d-aa18-f491b8fc4ce7": {
+                                    "name": "灵活（双关节）",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "攀爬"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "逃脱"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "房中术"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "77b7092b-392c-4526-9863-8749e738d9b5": {
+                                    "name": "高痛阈",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture"
+                                }
+                            }
+                        },
+                        "075e987e-c84d-4287-a7aa-bbe4d28d908a": {
+                            "name": "Additional 20 points in Exotic traits",
+                            "children": {
+                                "ba87151d-ad9c-4a69-ab39-ce3b43a595de": {
+                                    "name": "固有攻击（钝击）",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "dbe799f9-c755-4465-9b62-f30aeee0e927": {
+                                            "name": "爆炸"
+                                        },
+                                        "f9007d3a-7a76-4d6a-8574-8d616e810b46": {
+                                            "name": "破片"
+                                        },
+                                        "d991553e-00b2-4692-94c2-ab68a3110f1a": {
+                                            "name": "破片",
+                                            "notes": "高热"
+                                        },
+                                        "004fd26e-d77e-4238-87eb-3e4c416e8353": {
+                                            "name": "电涌"
+                                        },
+                                        "768ad796-939e-4989-aef8-0f72fe546f54": {
+                                            "name": "护甲除数",
+                                            "notes": "2"
+                                        },
+                                        "2df8e57f-ce84-45bd-b81e-4e5a28bccefd": {
+                                            "name": "护甲除数",
+                                            "notes": "3"
+                                        },
+                                        "a5f2d455-7f3d-4222-a675-056c6bc39e70": {
+                                            "name": "护甲除数",
+                                            "notes": "5"
+                                        },
+                                        "1ad5a248-a79b-4daf-b309-15a4714fca71": {
+                                            "name": "护甲除数",
+                                            "notes": "10"
+                                        },
+                                        "cfcc8494-716e-44c8-8cec-a06cb5cc38fb": {
+                                            "name": "派生效果",
+                                            "notes": "@效果@"
+                                        },
+                                        "8f75edfc-df6a-4e1d-8b8e-5393901fb357": {
+                                            "name": "附加症状",
+                                            "notes": "@效果@"
+                                        },
+                                        "df663284-5d48-41a3-9382-3fdcf81f4a2c": {
+                                            "name": "护甲除数",
+                                            "notes": "0.5"
+                                        },
+                                        "61dc21b2-3ada-4764-ad39-8abde5f1a048": {
+                                            "name": "护甲除数",
+                                            "notes": "0.2"
+                                        },
+                                        "353c1d79-9cbf-4277-be9d-ee6af55baf7b": {
+                                            "name": "护甲除数",
+                                            "notes": "0.1"
+                                        },
+                                        "ffb6d58e-9c2a-4822-8335-bb4ff42a2896": {
+                                            "name": "无瘀伤"
+                                        },
+                                        "edf7e1c7-bbff-45bc-808b-0195faeab6ce": {
+                                            "name": "无击退"
+                                        },
+                                        "ae8b6be0-c2af-4830-8df0-15873c4dd367": {
+                                            "name": "无杀伤"
+                                        },
+                                        "666499a5-3927-45ed-88cb-f09d5a957f44": {
+                                            "name": "双倍击退"
+                                        },
+                                        "5ca717ab-3ecd-43f0-8091-56d8600ef499": {
+                                            "name": "燃烧"
+                                        },
+                                        "522cc986-d419-40d5-a714-42470bd22b44": {
+                                            "name": "消耗 FP"
+                                        },
+                                        "120590ab-0f81-4107-8beb-c0b28470719e": {
+                                            "name": "Reduced Range 1/2"
+                                        }
+                                    },
+                                    "weapons": {
+                                        "cae48559-25be-4d67-a680-d1dec684e4a3": {
+                                            "usage": "Chi Blast",
+                                            "defaults": [
+                                                {
+                                                    "name": "固有攻击",
+                                                    "specialization": "射弹"
+                                                },
+                                                {
+                                                    "name": "固有攻击"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "d7717898-dcbd-4519-9360-adfa13561629": {
+                                    "name": "危险感知",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "19d67434-d49c-497a-9808-e690e860f8bb": {
+                                    "name": "增强盾挡",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "63d408f6-7bed-42c1-9424-c9ad019bd463": {
+                                    "name": "增强闪避",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "d3adc44a-78c6-42c4-b4d1-48aa3f4e5f8b": {
+                                    "name": "增强招架（徒手）",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "40812b85-044a-4d6d-8aae-5817d343b2a1": {
+                                    "name": "Enhanced Move (Ground: @New Move@)",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "e04907e7-ade2-4924-92ef-bc5e775d31b2": {
+                                            "name": "操纵性加值"
+                                        },
+                                        "95b6b2ac-0993-4c7a-9258-0131676d8540": {
+                                            "name": "操纵性减值"
+                                        },
+                                        "19b3ec9a-2220-496f-8c86-f7f6bfbfb62b": {
+                                            "name": "牛顿力学"
+                                        },
+                                        "9ca99653-8563-4871-bc36-363bd7d8796b": {
+                                            "name": "依赖道路"
+                                        },
+                                        "dda26826-dd8c-495f-9ee0-8d94ba0a096f": {
+                                            "name": "全力"
+                                        },
+                                        "8bb053d4-9dd9-44d7-aec9-cea01865fcc8": {
+                                            "name": "超元",
+                                            "notes": "瞬间加速"
+                                        },
+                                        "73956081-c66f-43f4-a005-ed4bdd24a02c": {
+                                            "name": "超元",
+                                            "notes": "完全机动性"
+                                        }
+                                    }
+                                },
+                                "86b7fffd-ee07-4a33-b769-ccc5233a6462": {
+                                    "name": "难以杀死",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ]
+                                },
+                                "15270443-dbfd-4895-83ef-510f00a20a5e": {
+                                    "name": "难以击溃",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ]
+                                },
+                                "1a957fb6-0ca3-4a86-ac4e-91aad629acb5": {
+                                    "name": "Higher Purpose (Become the best)",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "心理"
+                                    ]
+                                },
+                                "5920b39b-5b3e-4e9f-890a-06a0221cfc9a": {
+                                    "name": "长寿",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ]
+                                },
+                                "cc390d20-a330-4b0b-bc6a-2b9712640984": {
+                                    "name": "恢复",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "生理"
+                                    ]
+                                },
+                                "a21187bc-f16c-4332-a3a8-78ff33d980b7": {
+                                    "name": "超级跳跃",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "生理"
+                                    ],
+                                    "notes": "@新的移动和跳跃数据@",
+                                    "modifiers": {
+                                        "0bf2639e-71cf-4bbc-8b8d-96d9789a3455": {
+                                            "name": "弹跳"
+                                        },
+                                        "048497e6-8121-4b67-b57a-131dd83ebc0c": {
+                                            "name": "空中操纵"
+                                        },
+                                        "b27f74b1-1c64-4d59-92aa-c526744fdee4": {
+                                            "name": "仅能全力"
+                                        },
+                                        "8ae2aebe-a3ac-444c-b9b8-c21076486282": {
+                                            "name": "仅限跳远"
+                                        },
+                                        "8fd1040b-e333-44fe-8762-f1a623fbddac": {
+                                            "name": "轻于空气"
+                                        },
+                                        "d19010b3-3471-49a4-8164-50558add48f0": {
+                                            "name": "行星"
+                                        },
+                                        "955e6a24-d699-4fea-856b-5aae5a3fd52e": {
+                                            "name": "射弹"
+                                        },
+                                        "d68eae71-30bb-4175-910f-04e238897189": {
+                                            "name": "仅限跳高"
+                                        },
+                                        "d1bd1b9f-73f3-4a2d-b85b-8a2d69fbd070": {
+                                            "name": "仅限弹跳"
+                                        }
+                                    }
+                                },
+                                "8c1ff29c-eb28-44d5-ae20-1c9340460a4b": {
+                                    "name": "超温耐受",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ]
+                                },
+                                "72400f8f-a761-4a30-8d51-20ef0c01518b": {
+                                    "name": "无师自通",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "超自然"
+                                    ],
+                                    "modifiers": {
+                                        "4123b91d-c401-4c27-91fb-2866d5934ea8": {
+                                            "name": "保留"
+                                        },
+                                        "c68b8b63-1b2f-4520-abdc-aab1ec771176": {
+                                            "name": "仅限紧急情况"
+                                        },
+                                        "91f7ef17-115d-4713-ad71-9b45bde6deaf": {
+                                            "name": "范围聚焦",
+                                            "notes": "@类型：精神、物理、魔法或气@"
+                                        },
+                                        "396837bc-f24c-4475-812f-169823b6cdfc": {
+                                            "name": "无师自能"
+                                        },
+                                        "bc33f2cc-9965-496b-a27c-f56eda63fb3c": {
+                                            "name": "外部"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "3a3cb41f-ed94-405d-8112-e3b0488df6ed": {
+                    "name": "Class Disadvantage",
+                    "children": {
+                        "70138d3f-0a2a-4df2-a84e-d20b39709800": {
+                            "name": "-20 points chosen from",
+                            "children": {
+                                "57321e5a-562a-4c04-a741-126039054954": {
+                                    "name": "坏脾气",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "eeebea94-d6da-46a3-b26f-135f7aeed870": {
+                                    "name": "横行霸道",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "bc07a3b3-489d-4630-ac30-ff77943caec7": {
+                                    "name": "Code of Honor (@Type@)",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "5a4f0e64-d883-4167-8652-f16ef2eae2d3": {
+                                            "name": "轻微"
+                                        },
+                                        "ad57f931-915a-40a8-ae2c-3dd3e2cf9013": {
+                                            "name": "较大"
+                                        },
+                                        "fc57cc7e-3798-4e4e-ac4f-c16cbb616d8d": {
+                                            "name": "巨大"
+                                        }
+                                    }
+                                },
+                                "5ce94dd2-f856-4599-a484-a3f8557bd3de": {
+                                    "name": "荣誉准则（海盗）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "5fe66675-9aa6-4bc8-ae44-c3ff893073d1": {
+                                    "name": "Code of Honor (Sahudese)",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "6ece8f1b-bfdf-4285-970b-558cfe117cdf": {
+                                    "name": "执念",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "notes": "Become a master",
+                                    "modifiers": {
+                                        "b0d70258-a7f4-458d-b595-fc51461733da": {
+                                            "name": "短期"
+                                        },
+                                        "cbcabb60-c24c-4839-8d6f-f72070353b87": {
+                                            "name": "长期"
+                                        }
+                                    }
+                                },
+                                "74ae18dc-70c6-458c-bca7-1efa17f15321": {
+                                    "name": "自负",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "cb5d8a6c-2d6e-4163-b9b2-88071321b062": {
+                                    "name": "和平主义：不能伤害无辜",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "77e9fa06-682c-4b4f-8087-670710930783": {
+                                            "name": "物种特异性的"
+                                        }
+                                    }
+                                },
+                                "2220e70b-7b2e-4c10-a544-47c1fd8a71c0": {
+                                    "name": "和平主义：无法杀戮",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "34f4db1d-5c12-4728-b0b4-e83a44644672": {
+                                            "name": "物种特异性的"
+                                        }
+                                    }
+                                },
+                                "d63cdb94-5a3d-457b-9d75-639c52d1fac4": {
+                                    "name": "和平主义：不愿杀人",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "0269c040-e3c6-43f6-892c-d32b3c372a96": {
+                                            "name": "物种特异性的"
+                                        }
+                                    }
+                                },
+                                "f75f03ba-2674-472c-b5d4-0c70246b79a3": {
+                                    "name": "和平主义：只能自卫",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "23f77d62-e8f7-48e3-965b-365d698149f8": {
+                                            "name": "物种特异性的"
+                                        }
+                                    }
+                                },
+                                "f7516a68-8d4d-4460-9212-437409939d0d": {
+                                    "name": "Vow (Use no weapons)",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "3fed0404-5629-405a-a574-660c06a48ef6": {
+                                            "name": "轻微"
+                                        },
+                                        "82b49282-6f65-4dac-946a-9162b4c49a05": {
+                                            "name": "较大"
+                                        },
+                                        "6d8c002f-6f0a-4e36-8ae4-280a21488c1c": {
+                                            "name": "巨大"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "a8c74689-25c5-41ce-9973-def0062d524f": {
+            "name": "Exotic Martial Artist",
+            "children": {
+                "b74d6fa7-0d4b-4d49-a8f4-1efe5271a454": {
+                    "name": "Primary Skill",
+                    "children": {
+                        "86b658bc-1e5f-4aa6-a095-fa3361ed2615": {
+                            "name": "Judo",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "notes": "使得你获得每轮用两只手各招架一次的能力。"
+                        },
+                        "dee78ce8-a8b9-4894-aaa5-8b2a8da47f3d": {
+                            "name": "空手技击",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "空手技击"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "空手技击"
+                                    }
+                                }
+                            ]
+                        },
+                        "028a6155-8f72-4ed3-bba7-bb3dcfff62a4": {
+                            "name": "礼仪",
+                            "tags": [
+                                "知识",
+                                "社会"
+                            ],
+                            "specialization": "道场",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "游戏"
+                                }
+                            ]
+                        },
+                        "2f18c7da-d44c-49e7-b0cf-bc3b25e770c9": {
+                            "name": "Techniques",
+                            "children": {
+                                "eb7eba28-d4e3-4372-a046-e9a7675d1215": {
+                                    "name": "锁臂",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "技术",
+                                        "武器"
+                                    ],
+                                    "default": {
+                                        "name": "Judo"
+                                    }
+                                },
+                                "cea3da6b-51ac-4092-8e0d-ecfc42f36ba0": {
+                                    "name": "后踢",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "技术",
+                                        "武器"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "空手技击"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "default": {
+                                        "name": "空手技击"
+                                    }
+                                },
+                                "581393dc-5ed4-4799-9942-27e70d94cf36": {
+                                    "name": "锁喉",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "技术",
+                                        "武器"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Judo"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "default": {
+                                        "name": "Judo"
+                                    }
+                                },
+                                "97fb1155-54d8-4760-bb4a-d21c25d747aa": {
+                                    "name": "缴械",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "技术",
+                                        "武器"
+                                    ],
+                                    "default": {
+                                        "name": "空手技击"
+                                    }
+                                },
+                                "49f2d7a2-7e5a-46ad-9005-5fd255eb4bb7": {
+                                    "name": "肘击",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "技术",
+                                        "武器"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "空手技击"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "default": {
+                                        "name": "空手技击"
+                                    }
+                                },
+                                "48a4a01b-14e2-4173-b9c0-26b9cad9bc33": {
+                                    "name": "佯攻",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "技术",
+                                        "武器"
+                                    ],
+                                    "default": {
+                                        "name": "空手技击"
+                                    }
+                                },
+                                "9900ad4e-8d66-40f0-91b7-4b04c656ba7f": {
+                                    "name": "地面格斗",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "技术",
+                                        "武器"
+                                    ],
+                                    "default": {
+                                        "name": "空手技击"
+                                    }
+                                },
+                                "3c4f8d81-99a2-43e5-a6f8-4a32747a9eb9": {
+                                    "name": "飞踢",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "技术",
+                                        "武器"
+                                    ],
+                                    "default": {
+                                        "name": "空手技击"
+                                    }
+                                },
+                                "8bddf2b8-cff8-46df-a9b5-66fc6a5bc50a": {
+                                    "name": "踢击",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "技术",
+                                        "武器"
+                                    ],
+                                    "default": {
+                                        "name": "空手技击"
+                                    }
+                                },
+                                "a15d0c46-608b-4c4e-8274-4b98527086b6": {
+                                    "name": "膝击",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "技术",
+                                        "武器"
+                                    ],
+                                    "default": {
+                                        "name": "空手技击"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "8d7230aa-c241-4352-8ddf-531b7e469369": {
+                    "name": "Secondary Skill",
+                    "children": {
+                        "04733571-feb6-460c-a55c-4df111097bf5": {
+                            "name": "杂技",
+                            "tags": [
+                                "运动"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "空中杂技"
+                                },
+                                {
+                                    "name": "水上杂技"
+                                }
+                            ]
+                        },
+                        "104a28ce-1565-4f16-bd5a-71437c5674a6": {
+                            "name": "跳跃",
+                            "tags": [
+                                "运动"
+                            ]
+                        },
+                        "d024d1ac-c6b6-41b7-9b9b-b6ad80e10eed": {
+                            "name": "12 points chosen from",
+                            "children": {
+                                "bfff8316-ceab-4f80-9a1b-534b38fd1e78": {
+                                    "name": "十手/钗",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "能量剑"
+                                        },
+                                        {
+                                            "name": "Main-Gauche"
+                                        },
+                                        {
+                                            "name": "Shortsword"
+                                        }
+                                    ]
+                                },
+                                "6caa8e3b-4e3e-45d3-bdd6-caf36c57efd4": {
+                                    "name": "Staff",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Polearm"
+                                        },
+                                        {
+                                            "name": "Spear"
+                                        }
+                                    ]
+                                },
+                                "83e58812-0aad-4deb-8819-92d79d0c5e16": {
+                                    "name": "武术拐",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Shortsword"
+                                        }
+                                    ]
+                                },
+                                "963ccc1b-cef9-4a1d-be8b-fff87fc63e45": {
+                                    "name": "Flail",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Axe/Mace"
+                                        },
+                                        {
+                                            "name": "Two-Handed Flail"
+                                        }
+                                    ]
+                                },
+                                "df0e9cb4-2203-4658-bd2b-3963e5457bd7": {
+                                    "name": "领导力",
+                                    "tags": [
+                                        "军事",
+                                        "社会"
+                                    ]
+                                },
+                                "53549b38-b673-44d1-85e7-7096890eb94e": {
+                                    "name": "教学",
+                                    "tags": [
+                                        "学校",
+                                        "社会"
+                                    ]
+                                },
+                                "d20924ff-2324-4a58-9983-2808a4308ef6": {
+                                    "name": "威吓",
+                                    "tags": [
+                                        "犯罪",
+                                        "警察",
+                                        "社会",
+                                        "街头"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "做戏"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "5072d664-dc2f-415a-b964-dcc723c26a12": {
+                    "name": "Background Skill",
+                    "children": {
+                        "bc5bf8c3-a4ca-49c5-a00c-2cef8b0159b9": {
+                            "name": "4 points chosen from",
+                            "children": {
+                                "a65d63c2-fc06-4652-8abc-31ef91ab983b": {
+                                    "name": "Knife",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "能量剑"
+                                        },
+                                        {
+                                            "name": "Main-Gauche"
+                                        },
+                                        {
+                                            "name": "Shortsword"
+                                        }
+                                    ]
+                                },
+                                "0ce92903-9a09-4eba-aee2-83f341a2a4ce": {
+                                    "name": "潜行",
+                                    "tags": [
+                                        "犯罪",
+                                        "警察",
+                                        "间谍",
+                                        "街头"
+                                    ]
+                                },
+                                "a8ecffc2-006d-4e6d-aa0a-e59510f1026b": {
+                                    "name": "战术",
+                                    "tags": [
+                                        "军事",
+                                        "警察"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "战略"
+                                        }
+                                    ]
+                                },
+                                "5c00190e-85de-4b0e-a733-036214dd4a0f": {
+                                    "name": "冥想",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "自我催眠"
+                                        }
+                                    ]
+                                },
+                                "fb0dc401-6e86-4661-812d-59aa1b1981ea": {
+                                    "name": "肢体语言",
+                                    "tags": [
+                                        "警察",
+                                        "社会",
+                                        "间谍"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "侦测谎言"
+                                        },
+                                        {
+                                            "name": "心理学"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "742ad4f8-5e7f-4b3e-b0e3-dbad6211b76b": {
+                    "name": "Exotic Skills",
+                    "children": {
+                        "81241f83-251e-42b9-979b-59d2c98e3aec": {
+                            "name": "10 points chosen from",
+                            "children": {
+                                "c8e0f4e1-e8f1-49b4-8b46-fac57a5cbe65": {
+                                    "name": "固有攻击",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "notes": "You may not take the Innate Attack skill unless you take the Crushing Attack advantage",
+                                    "specialization": "射弹",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "固有攻击"
+                                        }
+                                    ]
+                                },
+                                "74842195-cf5e-446c-a73e-648744070c5f": {
+                                    "name": "千斤坠",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "大师传承"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "2e28cb2a-1548-4dd2-8d52-b0ad83aa5772": {
+                                    "name": "推劲",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "大师传承"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "c357a863-9cd4-46eb-80ab-eaac18747389": {
+                                    "name": "投掷绝学",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "武器大师"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "大师传承"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "07656ae6-7919-4612-bfc8-d80846ce1b5d": {
+                                    "name": "破势掌",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "大师传承"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "a9dd16c9-2014-46a7-b43b-437f211ca695": {
+                                    "name": "点穴",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "武器大师"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "大师传承"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "2f5547de-565e-4ee6-b5d3-0d4967497c66": {
+                                    "name": "气合",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "武器大师"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "大师传承"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "56ae71a2-7f06-495d-9d57-213947c546d6": {
+                                    "name": "精神力量",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "武器大师"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "大师传承"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "027e7f1b-f48c-4c7d-969c-18f40970bb7d": {
+                                    "name": "斗气击",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "武器大师"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "大师传承"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "7f004b62-2bb0-4367-ab45-675486d147a2": {
+                                    "name": "盲斗",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "武器大师"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "大师传承"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

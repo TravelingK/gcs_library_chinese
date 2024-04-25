@@ -1,0 +1,774 @@
+{
+    "traits": {
+        "9085a610-c67d-43e8-ad93-b88cf55aa65f": {
+            "name": "Selkie",
+            "children": {
+                "de2508df-2333-4d58-8a7a-1451b4750d19": {
+                    "name": "Attributes",
+                    "children": {
+                        "e46d63d8-a30a-44ea-ae12-451600971391": {
+                            "name": "增加敏捷",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "95d64f1e-f116-4dcb-b2a5-df43d076e3c5": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        },
+                        "71bbbc26-bdc9-4218-a95c-4ba47afc9213": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "7460d519-3936-48bd-a753-653c639430e7": {
+                            "name": "增加感知",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "89304aa7-a9e8-49ee-be5c-9b89863f765c": {
+                    "name": "Racial Advantage",
+                    "children": {
+                        "8008f1d7-8352-4da9-9fd6-f98821dd7c72": {
+                            "name": "变换形态",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "af40cbc5-11cd-4dc9-9743-f48edfbb3f26": {
+                                    "name": "不可记忆形态",
+                                    "notes": "仅适用于变形。"
+                                },
+                                "c7961cf1-add9-4cb6-9c2a-515b2499d332": {
+                                    "name": "有残缺",
+                                    "notes": "仅适用于变形。有缺陷与变更容貌是互斥的。"
+                                },
+                                "3af1b053-f5a5-40a4-8d8f-d54580d849bd": {
+                                    "name": "需要样本",
+                                    "notes": "仅适用于变形。你必须触摸目标。"
+                                },
+                                "e361115c-13ca-4412-a029-9d3d129fa2f5": {
+                                    "name": "需要样本",
+                                    "notes": "仅适用于变形。你需要来自目标的一滴血，一缕头发等等。"
+                                },
+                                "5ca5aefd-6d5f-48c3-9e39-ebf0f843dbf1": {
+                                    "name": "需要样本",
+                                    "notes": "仅适用于变形。你必须吞噬整个目标。"
+                                },
+                                "da33421d-e864-4686-ba9e-7a577033938f": {
+                                    "name": "替身",
+                                    "notes": " 仅适用于变换形态。"
+                                },
+                                "6ae95fe6-b480-4982-87ec-2609c9e90a47": {
+                                    "name": "Skinbound, DR 1, Repaired by Healing Rolls, SM -4, Can be Stolen by Stealth or Trickery, Does Not Work for Thief, Unique",
+                                    "notes": "仅用于变换形态。"
+                                }
+                            }
+                        },
+                        "768e5d9c-61ec-4733-8e73-32253a0e27f9": {
+                            "name": "伤害减免",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "fc327cdd-45d1-4ed1-a49f-64f1e0b54d38": {
+                                    "name": "Force Field"
+                                },
+                                "ec2d69db-8aa8-472a-a3e8-9d7868384849": {
+                                    "name": "硬化"
+                                },
+                                "be1d8170-a4a1-4b5a-9458-9db368b02a97": {
+                                    "name": "吸收",
+                                    "notes": "增强@特质@"
+                                },
+                                "01d56f34-db6a-4d60-8c9f-83cc65d1d254": {
+                                    "name": "吸收",
+                                    "notes": "仅治疗"
+                                },
+                                "9d4460ad-8380-4bb8-a681-bb4ed3918e94": {
+                                    "name": "吸收",
+                                    "notes": "增强任意特质"
+                                },
+                                "6ae9a4c0-2065-49ec-b303-5605c7acfe23": {
+                                    "name": "反射"
+                                },
+                                "70b153da-e498-4647-abb6-acb0488dccf5": {
+                                    "name": "祸根",
+                                    "notes": "@罕见@"
+                                },
+                                "c9caadda-545f-4d9e-aac3-e123aefe110c": {
+                                    "name": "祸根",
+                                    "notes": "@偶见@"
+                                },
+                                "9bb78945-73a7-4c73-9ce6-f79d7080899b": {
+                                    "name": "祸根",
+                                    "notes": "@常见@"
+                                },
+                                "b75e197c-acf2-4527-a65c-ee8699ba8b2e": {
+                                    "name": "祸根",
+                                    "notes": "@非常常见@"
+                                },
+                                "d1e961e9-a934-4288-9d36-1ae9a497608e": {
+                                    "name": "定向",
+                                    "notes": "前方"
+                                },
+                                "8bd08926-1bf8-43e7-b61e-3fe04bec47e8": {
+                                    "name": "柔性"
+                                },
+                                "42e3e535-0adc-49e3-a2b4-a8771ce4fbad": {
+                                    "name": "限制",
+                                    "notes": "@很常见攻击类型@"
+                                },
+                                "156b0759-b7dd-4caf-b26c-9104ae3833c1": {
+                                    "name": "半剥离"
+                                },
+                                "10ccdb5b-5476-499b-92ba-c6bfe4668266": {
+                                    "name": "无法穿着护甲"
+                                },
+                                "7dca4372-4066-4bcb-92d9-ce17a9c4dff2": {
+                                    "name": "定向",
+                                    "notes": "@方向：后方、左、右、上、下@"
+                                },
+                                "cc3c4fe7-68a5-4492-a47b-4b3d4ebc6734": {
+                                    "name": "限制",
+                                    "notes": "@常见攻击类型@"
+                                },
+                                "f2764b03-384c-4aaf-8924-88838df722ac": {
+                                    "name": "硬皮",
+                                    "notes": "任何只需要接触皮肤的影响忽略此 DR"
+                                },
+                                "ac4c5776-2fa4-48d2-8c1b-fe07ca0bb2a6": {
+                                    "name": "限制",
+                                    "notes": "@偶见攻击类型@"
+                                },
+                                "b884b038-8b9a-470e-a578-193f0b301d00": {
+                                    "name": "剥离"
+                                },
+                                "126fd9b8-5682-43c7-81bc-f51e6397971a": {
+                                    "name": "限制",
+                                    "notes": "@罕见攻击类型@"
+                                },
+                                "e94a51cc-ab2d-4e9b-b522-8acdbeacdc86": {
+                                    "name": "叠层"
+                                }
+                            }
+                        },
+                        "3150d469-50a0-4426-90c8-a2f97699f989": {
+                            "name": "无需呼吸",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "99e068d3-14dc-43d6-b404-02e110c5df0c": {
+                                    "name": "鳃"
+                                },
+                                "33f7157d-c9a6-47db-83b4-ce8be440c32a": {
+                                    "name": "鳃",
+                                    "notes": "在空气中窒息"
+                                },
+                                "e8870c0f-20ff-4f41-961e-0d3c3d93b714": {
+                                    "name": "吸收氧气"
+                                },
+                                "4ba41edb-d91a-4c3d-91ca-98ec199f1274": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 25 倍"
+                                },
+                                "626552ce-ed92-4e24-b535-a1f985edcfce": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 50 倍"
+                                },
+                                "cae2e499-3a79-4d6d-8ef9-69a0e747222c": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 100 倍"
+                                },
+                                "d8d42099-4593-4ff5-af16-e43b150e51b4": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 200 倍"
+                                },
+                                "274021fd-be28-461e-b1ae-f9dc75518b61": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 300 倍"
+                                },
+                                "c9695332-2ece-48b9-9492-e72fd6280757": {
+                                    "name": "燃烧氧气"
+                                }
+                            }
+                        },
+                        "2a884b1e-d623-41f3-add9-2c3366f0119e": {
+                            "name": "Enhanced Move (Water: @New Move@)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "68325b48-8a46-408f-b52a-5afe3d3b73ca": {
+                                    "name": "操纵性加值"
+                                },
+                                "536ead29-ba02-4ea2-9d77-cfd78e69fe64": {
+                                    "name": "操纵性减值"
+                                },
+                                "ddccc113-4259-463d-801d-fb17af8bac8d": {
+                                    "name": "牛顿力学"
+                                },
+                                "05b6e5d7-8864-49f3-9398-f0af95d20627": {
+                                    "name": "依赖道路"
+                                },
+                                "705ca659-d38a-414e-a6b9-68f6a2b0eae1": {
+                                    "name": "全力"
+                                },
+                                "e55ff268-3496-427b-aaeb-8be9082294e5": {
+                                    "name": "超元",
+                                    "notes": "瞬间加速"
+                                },
+                                "3f3d89c0-a284-4467-93a8-1039889c30e3": {
+                                    "name": "超元",
+                                    "notes": "完全机动性"
+                                }
+                            }
+                        },
+                        "c5b5d0bd-1fb7-4348-8696-2a14e0c50152": {
+                            "name": "皮毛",
+                            "tags": [
+                                "异种",
+                                "Perk",
+                                "生理"
+                            ]
+                        },
+                        "78c5dc30-f9ea-4ddd-befe-a9e788703d45": {
+                            "name": "瞬膜",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "ddc3e520-929f-45b6-9745-86a5e9635a83": {
+                            "name": "穿透性的嗓音",
+                            "tags": [
+                                "Perk",
+                                "生理"
+                            ]
+                        },
+                        "596a305a-c948-4471-9c9a-3c12785ea7e8": {
+                            "name": "高压生存",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "47c64d71-a728-460a-896c-085e07bd1734": {
+                            "name": "完美平衡",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "飞行驾驶"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "杂技"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "攀爬"
+                                    }
+                                }
+                            ]
+                        },
+                        "f613741c-cbfb-4526-88ce-55de5b4ce81a": {
+                            "name": "Teeth, Sharp",
+                            "tags": [
+                                "异种",
+                                "Perk",
+                                "生理"
+                            ],
+                            "weapons": {
+                                "7a4d99b8-0499-45fe-8b6f-f28ef74346b2": {
+                                    "usage": "啃咬",
+                                    "defaults": [
+                                        {
+                                            "name": "斗殴"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "32439c2f-0e05-44d8-a91b-0a411128fbc9": {
+                            "name": "超温耐受",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "(Cold)"
+                        },
+                        "1f5c132e-554f-4a22-a4de-cac32fb71455": {
+                            "name": "不老",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "1261962a-1801-4e7d-bc8a-bca3b440c017": {
+                                    "name": "年龄控制"
+                                },
+                                "2dfca512-38e7-47f2-9edf-b1efbecf3f2b": {
+                                    "name": "仅限 IQ"
+                                }
+                            }
+                        }
+                    }
+                },
+                "dd3c0a8b-b36f-4525-afe7-ea871daa5d35": {
+                    "name": "Racial Disadvantage",
+                    "children": {
+                        "a449f9a6-2038-4715-84bf-6be1048068ad": {
+                            "name": "期待陪伴",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "React to others at +2; -1 to IQ-based skills when alone"
+                        },
+                        "d537e548-06de-4bfb-9085-3337f36906ab": {
+                            "name": "色盲",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "艺术家"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "化学"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "驾驶"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "商人"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "飞行驾驶"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "追踪"
+                                    }
+                                }
+                            ]
+                        },
+                        "ce797a0d-c695-4f5a-992b-7e1ddd23dc18": {
+                            "name": "非直立",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "9e192a95-9ce6-4297-9a03-da5c32359089": {
+                            "name": "冲动",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "4cc27c15-0ae1-4cf4-bf08-5df126f8b1da": {
+                            "name": "无操作肢",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "3cf0d2e2-b7d2-436b-b92c-64ccd86c25d7": {
+                            "name": "无腿（半水生）",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "9c7ee830-3a40-4fe5-8c55-9904f2748111": {
+                            "name": "易伤",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "3f353e94-730b-43fd-880e-592d4c1622ef": {
+                                    "name": "@罕见攻击@"
+                                },
+                                "6baa28ab-5718-4055-abcc-490f7e6b4d77": {
+                                    "name": "铁"
+                                },
+                                "31534585-89f0-4196-996a-9b3d2767af32": {
+                                    "name": "@常见攻击@"
+                                },
+                                "3a37f631-2d77-46ad-8b12-e8bcd6628467": {
+                                    "name": "@非常常见攻击@"
+                                },
+                                "913271d0-8abd-45eb-9872-0d4e84724c71": {
+                                    "name": "伤害 x2"
+                                },
+                                "7335051d-5f75-4433-99dd-5063d7843152": {
+                                    "name": "伤害 x3"
+                                },
+                                "1cc122c8-4c6d-4879-bfb6-a53d68f21383": {
+                                    "name": "伤害 x4"
+                                },
+                                "1b297ab4-276e-459f-becd-45b3157757e8": {
+                                    "name": "仅限体力"
+                                }
+                            }
+                        },
+                        "e806db3e-507f-4a7c-9773-b77acd6e8ef7": {
+                            "name": "Sexually attracted to mortals",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "4bacc65b-cd3f-4b3a-8d52-4400831377c4": {
+                            "name": "Distractable",
+                            "tags": [
+                                "生理"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "5f52d628-376e-4aeb-9aa8-87de5ea432d6": {
+            "name": "Selkie Human Form",
+            "notes": "变换形态",
+            "children": {
+                "b4e3191a-2f8d-4dd9-adec-240f224e2c71": {
+                    "name": "Attributes",
+                    "children": {
+                        "b4bf9fac-9ac7-4a0f-b974-0f32096a39e9": {
+                            "name": "增加敏捷",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "17950c7b-a50b-45b4-a83f-54df58ac10b8": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        },
+                        "f6cd7591-2a54-47b3-bcbb-58c87a0fd313": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "9b0226fd-fedf-4897-96b1-5cd0a52576d2": {
+                    "name": "Racial Advantage",
+                    "children": {
+                        "8509032e-6ee9-4808-850f-10f3d1851606": {
+                            "name": "外貌",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "8ef0527c-59ae-4b41-adfd-e4e595b170cf": {
+                                    "name": "通用"
+                                },
+                                "abc6a095-19d5-47bf-b072-8c87b60e68d2": {
+                                    "name": "审美疲劳的"
+                                },
+                                "a2001218-9f46-4baa-9b81-bc567af9fa94": {
+                                    "name": "Androgynous"
+                                },
+                                "3007d874-7ded-495d-89d4-00c787dcd9fe": {
+                                    "name": "气质吸引力"
+                                },
+                                "6a18698d-b9c7-4f79-8803-a89ea0b31b3e": {
+                                    "name": "有吸引力的"
+                                },
+                                "b9915407-9c76-4fb1-ad84-6be6a926edb0": {
+                                    "name": "普通的"
+                                },
+                                "1c89f92a-d349-49ce-ad1c-3d5193d304ae": {
+                                    "name": "恐怖的"
+                                },
+                                "b8b7354d-1a42-4f8c-9d33-c8a30d6ed03a": {
+                                    "name": "畸形的"
+                                },
+                                "2c7b74a6-3e07-4f71-b07e-6eb2235909de": {
+                                    "name": "可憎的"
+                                },
+                                "136cefcd-b33e-4368-8077-767f594b82be": {
+                                    "name": "丑陋的"
+                                },
+                                "f2b2cce6-c87b-48f0-aa39-bb11f6f4abe9": {
+                                    "name": "无吸引力的"
+                                },
+                                "d7162e85-81e6-4921-9b7f-6e3b164226dc": {
+                                    "name": "英俊的"
+                                },
+                                "7eec1dee-237b-4e24-832a-b4438da708d7": {
+                                    "name": "美丽的"
+                                },
+                                "4508ec0e-bc72-443b-8d18-3b17c1866394": {
+                                    "name": "非常英俊的"
+                                },
+                                "68786c32-219e-4f4e-b7cf-722913f4ed31": {
+                                    "name": "非常美丽的"
+                                },
+                                "c3056e17-8c76-4c7c-b8d4-ef690251e995": {
+                                    "name": "天姿国色"
+                                }
+                            }
+                        },
+                        "757d5298-a0b2-44de-b34b-3b6eae537493": {
+                            "name": "超凡魅力",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "+1/level to Influence rolls",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "预言"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "领导力"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "乞讨"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "演讲"
+                                    }
+                                }
+                            ]
+                        },
+                        "4e4b9194-438b-49d3-b3db-12c0a4c242c8": {
+                            "name": "完美平衡",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "飞行驾驶"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "杂技"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "攀爬"
+                                    }
+                                }
+                            ]
+                        },
+                        "44d0e5cb-a27b-4301-b9e8-8668f5b81a8d": {
+                            "name": "不老",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "161b1ba2-c0d0-4768-ac95-0bbc90913537": {
+                                    "name": "年龄控制"
+                                },
+                                "786096fb-c8a4-4c00-8299-bb07f02fa8dd": {
+                                    "name": "仅限 IQ"
+                                }
+                            }
+                        }
+                    }
+                },
+                "48a9c43c-8158-4507-9c9e-9d9c0ea11929": {
+                    "name": "Racial Disadvantage",
+                    "children": {
+                        "230f51c8-1db0-4127-9679-4efb4adac57a": {
+                            "name": "冲动",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "78131b13-41d4-4d6b-8222-8384eda9bbc2": {
+                            "name": "易伤",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "1ae671cb-559a-44e7-83d5-fb9f9055f49d": {
+                                    "name": "@罕见攻击@"
+                                },
+                                "9a290823-2cb9-47fc-ad96-506d8f89c4b5": {
+                                    "name": "铁"
+                                },
+                                "db8ee814-736f-4038-bfdf-9906a408f3a5": {
+                                    "name": "@常见攻击@"
+                                },
+                                "0efc80a5-9ee2-4fa4-a742-872d0b81c5a9": {
+                                    "name": "@非常常见攻击@"
+                                },
+                                "6bf61e8c-3e3e-435e-85d2-cb2c603c5a9d": {
+                                    "name": "伤害 x2"
+                                },
+                                "816c5266-729c-49c1-bdb7-940bc3da8cb0": {
+                                    "name": "伤害 x3"
+                                },
+                                "2a84944d-8ef9-4fba-aedf-2a086959094d": {
+                                    "name": "伤害 x4"
+                                },
+                                "7d40ee51-7040-4648-8ccd-5394251cea26": {
+                                    "name": "仅限体力"
+                                }
+                            }
+                        },
+                        "c459a5b7-d946-4c2a-b71c-2fc9a31161cc": {
+                            "name": "Sea-aspected moods",
+                            "tags": [
+                                "生理"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "764cea9b-41f2-4cf7-b6ea-7cdcde876bec": {
+            "name": "Selkie",
+            "children": {
+                "2f3bbeb0-cbe7-4a87-9be2-30494081d7f5": {
+                    "name": "生存",
+                    "tags": [
+                        "探索",
+                        "户外"
+                    ],
+                    "specialization": "大洋",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "海岸"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "海沟"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "淡水湖"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "珊瑚丛"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "河流/溪流"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "咸水海"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "热带环礁"
+                        }
+                    ]
+                }
+            }
+        },
+        "92682fbd-244a-425e-92c5-7b938c8ddf86": {
+            "name": "Selkie Human Form",
+            "children": {
+                "d7802fdd-9e77-4178-b0a2-e6d8020d7711": {
+                    "name": "杂技",
+                    "tags": [
+                        "运动"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "空中杂技"
+                        },
+                        {
+                            "name": "水上杂技"
+                        }
+                    ]
+                },
+                "d09f3a51-f9c8-4cfa-8a44-0014789c3942": {
+                    "name": "性感",
+                    "tags": [
+                        "社会"
+                    ]
+                }
+            }
+        }
+    },
+    "notes": {
+        "02f155e6-438d-46e5-923f-b6f055a6de7d": {
+            "text": "IMPORTANT!\n\nThe Selkie template is 91 points instead of the listed 90 point."
+        }
+    }
+}

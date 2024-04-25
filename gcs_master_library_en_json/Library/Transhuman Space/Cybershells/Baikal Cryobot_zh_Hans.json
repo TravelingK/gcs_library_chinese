@@ -1,0 +1,714 @@
+{
+    "traits": {
+        "d762ce30-129b-4b52-8a05-1ee6278cd924": {
+            "name": "Baikal Cryobot",
+            "tags": [
+                "Aquatic",
+                "Cybershell",
+                "探索"
+            ],
+            "notes": "2050; $350,000 + computer; 2,500 lb; 7' tall;Vosper-Babbage",
+            "children": {
+                "abd6bc85-e4f0-4652-86a0-a7727a0595e5": {
+                    "name": "Increased ST",
+                    "tags": [
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "84aa5a3e-700c-449a-b654-5be3478a3f28": {
+                            "name": "体型"
+                        },
+                        "23eeb563-051a-4fae-b921-940b55f8761f": {
+                            "name": "无操作肢"
+                        }
+                    }
+                },
+                "ebc97d53-3a0d-4c85-9d62-4c83690d5a85": {
+                    "name": "Increased HT",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "d92b8a2c-42a0-4bdb-8965-96dd2bdf5868": {
+                    "name": "额外生命值",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "e6f620e5-677a-44fb-a844-b5528fa2186a": {
+                            "name": "体型"
+                        },
+                        "7db57704-2b13-4976-bc6d-db8d2e23ab56": {
+                            "name": "无操作肢"
+                        }
+                    }
+                },
+                "3e1c8bc6-ce57-4931-b68d-24785d74e030": {
+                    "name": "Increased Size modifier",
+                    "tags": [
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "5ae54203-8865-48e3-9351-1ef814dfb8de": {
+                    "name": "伤害减免",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "f6e2d389-7fe0-4c29-85cb-46ec2459295c": {
+                            "name": "Force Field"
+                        },
+                        "9f78e0b5-6735-4be6-bc67-87a32f9722ad": {
+                            "name": "硬化"
+                        },
+                        "e7cd7246-1d17-4992-82a4-906f3fd50a5d": {
+                            "name": "吸收",
+                            "notes": "增强@特质@"
+                        },
+                        "f3541e4e-af06-4619-bda7-ce1cdb85fca3": {
+                            "name": "吸收",
+                            "notes": "仅治疗"
+                        },
+                        "4e13b1d1-ab20-49b7-80d3-229a87e0cc54": {
+                            "name": "吸收",
+                            "notes": "增强任意特质"
+                        },
+                        "60b871ae-a679-4ac2-882d-dba94df58ff2": {
+                            "name": "反射"
+                        },
+                        "c283e7cf-2c5c-41d1-98c3-27b57dd2a5fe": {
+                            "name": "祸根",
+                            "notes": "@罕见@"
+                        },
+                        "3ebf839d-fd03-468a-820a-0cfe10620260": {
+                            "name": "祸根",
+                            "notes": "@偶见@"
+                        },
+                        "e7e5a918-6f9d-4eb7-b9ba-e1be7630b532": {
+                            "name": "祸根",
+                            "notes": "@常见@"
+                        },
+                        "a263fd0b-964f-4a66-b7d9-b801f8053f02": {
+                            "name": "祸根",
+                            "notes": "@非常常见@"
+                        },
+                        "aff162db-eea1-479b-8ec9-55d66bf5a2b7": {
+                            "name": "定向",
+                            "notes": "前方"
+                        },
+                        "6227b8ad-fdd1-4347-b8aa-26ccc44f7a3c": {
+                            "name": "柔性"
+                        },
+                        "23361f6f-4117-4722-9653-b74f25ee1307": {
+                            "name": "限制",
+                            "notes": "@很常见攻击类型@"
+                        },
+                        "4481b4e2-9330-47dd-95db-9a743d60b890": {
+                            "name": "半剥离"
+                        },
+                        "159a73ec-9a07-4bf9-98ef-c6dfd8ec50c5": {
+                            "name": "无法穿着护甲"
+                        },
+                        "9384a9f8-69e2-49ae-a055-60baac4e20ce": {
+                            "name": "定向",
+                            "notes": "@方向：后方、左、右、上、下@"
+                        },
+                        "aa141a5b-5486-471b-977c-a8dd8389e85d": {
+                            "name": "限制",
+                            "notes": "@常见攻击类型@"
+                        },
+                        "d2a4d578-1528-4c98-87de-79a4ec35086b": {
+                            "name": "硬皮",
+                            "notes": "任何只需要接触皮肤的影响忽略此 DR"
+                        },
+                        "443bc70f-1d64-420d-83a7-1cfce1299981": {
+                            "name": "限制",
+                            "notes": "@偶见攻击类型@"
+                        },
+                        "36f7a9b6-18e8-4cdf-ae80-ce351cc0f381": {
+                            "name": "剥离"
+                        },
+                        "d4b46867-c5f1-4615-9f27-1c2ee70e56de": {
+                            "name": "限制",
+                            "notes": "@罕见攻击类型@"
+                        },
+                        "4d053adc-0629-4898-8984-769565ec84b9": {
+                            "name": "叠层"
+                        }
+                    }
+                },
+                "34c7247d-90ce-4be7-af9d-95f39265953d": {
+                    "name": "无需呼吸",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "8d19b773-14d5-43d2-8e75-4b9d6bfed1ee": {
+                            "name": "鳃"
+                        },
+                        "02f74e54-e9e1-4d89-800e-f3bbf1bdf1d2": {
+                            "name": "鳃",
+                            "notes": "在空气中窒息"
+                        },
+                        "177ec298-9791-4066-a618-59658eeccd6f": {
+                            "name": "吸收氧气"
+                        },
+                        "b2f21a31-1192-40d5-9239-4a6080ac39ac": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 25 倍"
+                        },
+                        "1105ab92-ca48-4d4b-aa08-3c3b9ce3abc4": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 50 倍"
+                        },
+                        "e0253ce5-89c5-4927-9908-8b827cf19d03": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 100 倍"
+                        },
+                        "e721b078-2c34-41ca-9b80-613f34ba392a": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 200 倍"
+                        },
+                        "ff96ac6c-152c-4004-8def-023f015fa154": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 300 倍"
+                        },
+                        "4a20e875-f546-4e14-b6b0-22e90ce9d396": {
+                            "name": "燃烧氧气"
+                        }
+                    }
+                },
+                "8874b243-b2ba-402e-8940-384230f67a22": {
+                    "name": "无需饮食",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "9f76744d-73c9-469e-9feb-2b9167cb5870": {
+                    "name": "Enhanced Move (Water)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "5ea2cfa7-2be6-42e4-8e48-ce304793213d": {
+                            "name": "操纵性加值"
+                        },
+                        "a154df19-7830-4212-8a2b-4b6423e9a62f": {
+                            "name": "操纵性减值"
+                        },
+                        "d2062e36-e490-4f66-8e87-cc464e3d88fa": {
+                            "name": "牛顿力学"
+                        },
+                        "25a795ba-d978-4890-b7cf-725c8a2c3f66": {
+                            "name": "依赖道路"
+                        },
+                        "d0adb9de-1c51-4dc0-84a1-84b544060e01": {
+                            "name": "全力"
+                        },
+                        "120e687f-b2ff-49e6-8096-49255ef2bbc1": {
+                            "name": "超元",
+                            "notes": "瞬间加速"
+                        },
+                        "b9e92f95-5d37-4154-802f-a77f922746d2": {
+                            "name": "超元",
+                            "notes": "完全机动性"
+                        }
+                    }
+                },
+                "0f12487f-e165-470e-8460-19bff9a4c6a6": {
+                    "name": "Extra  Flexibe Arms",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "8aff19ad-669a-4189-8191-fd144b40d048": {
+                    "name": "Meta-Trait: Machine",
+                    "children": {
+                        "9fb271ea-181b-431a-841d-9c475316292e": {
+                            "name": "Eight-hour energy reserve, Refuel 3 times per day",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "99002245-9372-4ee2-ad42-a2c2ee39a11b": {
+                            "name": "Injury Tolerance (No Blood)",
+                            "tags": [
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "b3cd89dd-5e10-4711-874b-ea4c4b2269d0": {
+                            "name": "Injury Tolerance (Unliving)",
+                            "tags": [
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "5977550a-5411-4d73-8fca-0905ba3ba308": {
+                            "name": "No fatigue points, Don't spend fatigue points",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "abec8442-5b65-4b77-b381-61ec22427320": {
+                            "name": "Resistant (Immunity to Metabolic Hazards)",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "32436007-420c-433f-ae27-ce4460c2fb2a": {
+                            "name": "无法治愈（完全）",
+                            "tags": [
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "ea0133fa-2e69-4a52-b790-dae4fc19198e": {
+                            "name": "Wears out instead of aging",
+                            "tags": [
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "5288a3c1-169e-4abe-8f9e-ae96725fa11f": {
+                    "name": "显微视觉",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "c8bf4bd5-2140-4f1c-923f-ac73ed1ab265": {
+                    "name": "穿入",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "cc90110a-d9b8-4f31-90f9-b8f224f58360": {
+                            "name": "@非常常见物质：泥土、金属、石头、木头等@"
+                        },
+                        "94707bef-6a9f-471f-9819-e62f2f7cfb8d": {
+                            "name": "@常见物质：混凝土、塑料、钢铁等@"
+                        },
+                        "7f9675d7-c313-48e1-b671-e4c6b894cc40": {
+                            "name": "Ice"
+                        },
+                        "947ed30f-dbf1-43e7-8ff9-d80b3b332d17": {
+                            "name": "@罕见物质：骨头、血肉、纸张等@"
+                        },
+                        "a09b47c9-0a0a-4ee7-af0b-8489660e2126": {
+                            "name": "可以携带物品",
+                            "notes": "最多空载"
+                        },
+                        "a96e2026-92bb-4e41-a9e7-ccad40842192": {
+                            "name": "可以携带物品",
+                            "notes": "最多轻载"
+                        },
+                        "c5f65a98-7ea6-4a0e-8356-d54b0e97fc8b": {
+                            "name": "可以携带物品",
+                            "notes": "最多中载"
+                        },
+                        "f70a6ce6-a434-41eb-96eb-c262e8388f08": {
+                            "name": "可以携带物品",
+                            "notes": "最多重载"
+                        },
+                        "1b3531c0-2a82-4bf8-a55f-b53a3b8a049b": {
+                            "name": "通道"
+                        },
+                        "49751bd7-71eb-4055-9a8b-ed8875285fad": {
+                            "name": "拓展效果",
+                            "notes": "@关联类型@"
+                        },
+                        "fcd6aa8d-7052-4d31-a8d8-03a5b22e2ccc": {
+                            "name": "融合"
+                        },
+                        "d895b358-031c-4e7f-b90a-d970c28f749e": {
+                            "name": "Very Slow: 1 yd / 40 s"
+                        }
+                    }
+                },
+                "48ca4746-c74d-4c13-96e3-2a5de1fc29ee": {
+                    "name": "高压生存",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "a34910b7-4064-4dc2-bc55-6c8085bafed4": {
+                    "name": "辐射耐受力",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "0fa8abff-575e-4676-aaa3-9a3fe87491d8": {
+                            "name": "拓展效果",
+                            "notes": "@类型@"
+                        },
+                        "6e338498-7d51-4efa-83ef-1763b2199f6a": {
+                            "name": "PF: 2"
+                        },
+                        "06e70d99-f091-4cb4-ae6e-693044fae735": {
+                            "name": "PF: 5"
+                        },
+                        "6062bc88-932d-49ff-a03d-03a3cfdc1423": {
+                            "name": "PF: 10"
+                        },
+                        "d76493bd-ae60-4763-ba59-a8486b7868f3": {
+                            "name": "PF: 20"
+                        },
+                        "e41687d0-42f0-4078-bd4f-98451090a549": {
+                            "name": "PF: 50"
+                        },
+                        "e26bec2e-4266-4852-a6a7-9d18a0f11e13": {
+                            "name": "PF: 100"
+                        },
+                        "154cd94e-6eb5-476b-99ea-63cf39f9b6ef": {
+                            "name": "PF: 200"
+                        },
+                        "0b3df002-f47d-4470-937c-2f9364b8ee2a": {
+                            "name": "PF: 500"
+                        },
+                        "f47ac9b9-c3be-4a79-9082-491b39ea57de": {
+                            "name": "PF: 1000"
+                        }
+                    }
+                },
+                "0129c7df-4e67-471b-8c70-86c3c5742884": {
+                    "name": "扫描式感官",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "45f2188c-4440-41dd-bf7c-4ff0bea926ad": {
+                            "name": "成像雷达"
+                        },
+                        "044d8cc9-a718-4160-bbaa-1e1f4c54459f": {
+                            "name": "雷达"
+                        },
+                        "4274d879-f6be-4297-bef3-49e63f354b7d": {
+                            "name": "激光雷达"
+                        },
+                        "45f66fb4-5ba7-44d2-862c-7d613b34e1e0": {
+                            "name": "超雷达"
+                        },
+                        "4cb7b983-7120-4304-8e74-244c767fce4a": {
+                            "name": "声纳"
+                        },
+                        "c4ca06a1-71b4-492a-be8c-24abb8d7ead6": {
+                            "name": "扩大扇形",
+                            "notes": "240°"
+                        },
+                        "11610a4f-5c24-4663-90b8-c615f3193f5b": {
+                            "name": "扩大扇形",
+                            "notes": "360°"
+                        },
+                        "5dae0d75-1cbc-43f7-b551-469b7e71b68e": {
+                            "name": "低截获率"
+                        },
+                        "3e48f002-dd5f-4276-bc14-31f3be54db41": {
+                            "name": "多模式"
+                        },
+                        "ff6bd267-21b8-4627-b987-955a4dc37f72": {
+                            "name": "穿透"
+                        },
+                        "2bfe1033-eddd-4f2f-8798-acc087845b73": {
+                            "name": "定位"
+                        },
+                        "fa5efe75-3943-4055-99dc-03ca9ad2147a": {
+                            "name": "只能定位"
+                        },
+                        "3ac43619-90ac-4f22-a287-287cac04648f": {
+                            "name": "需激活红外线"
+                        },
+                        "e7b1fe7f-ee64-42d0-b51a-dfcd6d5079e9": {
+                            "name": "T 射线视觉"
+                        },
+                        "e5020dbe-68c0-46c0-bbf0-13cf983b2e47": {
+                            "name": "生理扫描"
+                        },
+                        "f8dc9b50-493e-491e-aa8c-d943df4466f1": {
+                            "name": "无法拦截"
+                        },
+                        "2d656b7b-17a6-41fc-a04f-3f55f89e6951": {
+                            "name": "扫描器"
+                        },
+                        "f7180e07-de49-4470-a96c-97b911781210": {
+                            "name": "场感官"
+                        },
+                        "f7e77efc-3450-4282-bf4e-3c413467f7d2": {
+                            "name": "Must extend vulnerable sensor in direction to scan"
+                        }
+                    }
+                },
+                "723d0061-4eaa-4d31-a365-616da6020a85": {
+                    "name": "密封",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "3ca45e57-e81a-48e4-a8c5-a0f8495cc016": {
+                    "name": "通讯",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "心理",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "a0f556d0-d6e6-4b26-a5df-b963417af3d4": {
+                            "name": "红外线通讯"
+                        },
+                        "2b5d264c-1714-451c-a5d2-3fcb1032227f": {
+                            "name": "激光通讯"
+                        },
+                        "4bb432bf-5467-4db8-a6b9-b51ede33c7cb": {
+                            "name": "无线电"
+                        },
+                        "e0f20853-f9e0-4d30-8885-cc8ec295ede2": {
+                            "name": "心灵传话"
+                        },
+                        "bf5e957e-73c9-4e4f-8ed6-864ac01d6e92": {
+                            "name": "广播"
+                        },
+                        "ee31101f-bdf6-4534-be34-fb2e59db9a1b": {
+                            "name": "短波"
+                        },
+                        "593a6ad7-5594-4b25-a48a-d593760f2cf3": {
+                            "name": "通用"
+                        },
+                        "4a488a49-6f8e-4c34-89e5-e13b30e12c76": {
+                            "name": "影像"
+                        },
+                        "98afd683-de24-45a4-8543-65321029f463": {
+                            "name": "种族隔绝"
+                        },
+                        "300cd7ae-3eea-43e7-9d85-6dc2a9d687f4": {
+                            "name": "只能接收"
+                        },
+                        "e9b4147e-2478-4ae6-9acd-57bf27c3f86f": {
+                            "name": "只能发送"
+                        },
+                        "3dee94b1-6ed8-4748-87cc-5ef5a3b0ba1a": {
+                            "name": "模糊"
+                        },
+                        "a46be56b-1ba4-4c55-ad45-28e7d88c0e7f": {
+                            "name": "定向声音"
+                        },
+                        "2238d25b-ef98-4c14-91c1-2e7230a7f710": {
+                            "name": "重力波"
+                        },
+                        "dc5daed9-3048-4b1d-bccd-c8d77d2ed8f6": {
+                            "name": "中微子"
+                        },
+                        "07971772-7e78-4489-b8cf-65bc9f7a461e": {
+                            "name": "声纳"
+                        },
+                        "5012adde-2f96-45ac-9440-a2e4df05bfc2": {
+                            "name": "快传"
+                        },
+                        "862f2123-e282-43e1-b1ca-302be15cad59": {
+                            "name": "超光速"
+                        },
+                        "e9d032f0-ac47-4b48-b74b-244da49de797": {
+                            "name": "加密"
+                        },
+                        "2e84beac-67e7-4eac-8bce-0462a989caba": {
+                            "name": "感官"
+                        },
+                        "2ecf0da9-1d50-4236-a05a-27d4abd0fcc0": {
+                            "name": "电缆插座"
+                        }
+                    }
+                },
+                "92b85c4e-05fb-4318-b3ef-0f6a38abe6fe": {
+                    "name": "通讯",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "心理",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "001cf6d7-a6a4-4bef-af60-10169a58b1ae": {
+                            "name": "红外线通讯"
+                        },
+                        "85ed0549-11de-4969-8f91-8cd4a37daf28": {
+                            "name": "激光通讯"
+                        },
+                        "6973609a-d20c-4061-b62f-d6658b233bda": {
+                            "name": "无线电"
+                        },
+                        "c5a6db70-1347-408f-a2e0-6e7a6ffb83d7": {
+                            "name": "心灵传话"
+                        },
+                        "423b182c-51f6-4815-a402-7e8ae7b4bf4a": {
+                            "name": "广播"
+                        },
+                        "fac01f63-5240-4b40-844b-663cc205f56b": {
+                            "name": "短波"
+                        },
+                        "0675a49a-2e66-41f8-85b7-a68b7aa2cfc6": {
+                            "name": "通用"
+                        },
+                        "5094bfa9-ebe7-4e75-bfb7-b614b9355802": {
+                            "name": "影像"
+                        },
+                        "edd006e9-71c6-4a89-96d5-7159770b9fc5": {
+                            "name": "种族隔绝"
+                        },
+                        "628e3c03-f3b3-4069-bf46-8bb3d9d1c54d": {
+                            "name": "只能接收"
+                        },
+                        "355d8678-55f2-442d-80cd-bf38bb6e6280": {
+                            "name": "只能发送"
+                        },
+                        "8809dae7-e836-4adc-a47b-3f03f886a84b": {
+                            "name": "模糊"
+                        },
+                        "d71c384c-cc84-4d12-a71c-d9c5383044a8": {
+                            "name": "定向声音"
+                        },
+                        "e36df127-5327-4e45-94c3-4b0f05964e6e": {
+                            "name": "重力波"
+                        },
+                        "50d25fcd-0024-4744-b052-e72373fb427e": {
+                            "name": "中微子"
+                        },
+                        "140ea242-df10-4334-8292-0f138e46265f": {
+                            "name": "声纳"
+                        },
+                        "c512dc8e-b4a7-439b-89a2-825ce4ba149d": {
+                            "name": "快传"
+                        },
+                        "85799225-f033-4be6-a17b-3d3a00ebb8e4": {
+                            "name": "超光速"
+                        },
+                        "cbfeafb1-fcd7-4624-82ab-664bbe6427c0": {
+                            "name": "加密"
+                        },
+                        "4459ba75-dcea-40af-82c6-12c75845d260": {
+                            "name": "感官"
+                        },
+                        "42df98a5-f0fc-4ad1-8b86-7047ae761d9d": {
+                            "name": "电缆插座"
+                        }
+                    }
+                },
+                "6e903077-c785-48e9-8c7c-9e7045dce494": {
+                    "name": "超温耐受",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "45c6f673-6d24-4ca5-b207-61b99633c8de": {
+                    "name": "真空生存",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "4574f52f-7748-42e6-acdf-16187f94ae6d": {
+                    "name": "Onboard computer (Microframe)",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "185abded-4325-4060-a2dc-249162da5ba2": {
+                    "name": "目盲",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ],
+                    "notes": "-6 to all combat skills; cannot target hit locations"
+                },
+                "a8f96de4-1396-4142-8d61-02c5334b1a1b": {
+                    "name": "Cybershell",
+                    "tags": [
+                        "AI",
+                        "Cybershell",
+                        "Meta-Trait"
+                    ],
+                    "children": {
+                        "ff9d0d3d-73d5-4819-81d7-dc195fb1c1b2": {
+                            "name": "电气",
+                            "tags": [
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "e7ab7f85-bdd1-4515-8a3d-719a193b87db": {
+                            "name": "Injury Tolerance (No Neck)",
+                            "tags": [
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "51372f38-d791-49a0-bc90-92074a223f4c": {
+                            "name": "Sterile",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "aa67e0be-4cf1-45aa-9ef3-f96b546e82d8": {
+                            "name": "Taboo trait: Physical changes",
+                            "tags": [
+                                "生理",
+                                "Trait",
+                                "Upgrade"
+                            ]
+                        }
+                    }
+                },
+                "61a40749-dafb-490d-8f7e-d5eb5117fa93": {
+                    "name": "无腿（水生）",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "d40173d9-01a5-4d3e-a626-4d904cd5b4f6": {
+                            "name": "无法潜水"
+                        },
+                        "52b05054-a228-4851-b6fc-fe12587f8b40": {
+                            "name": "@鳍、桅杆、桨或帆@无法保护"
+                        }
+                    }
+                },
+                "47a2f948-092f-422d-b780-081372cb6765": {
+                    "name": "Individuals of the same model closely resemble each other",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                }
+            }
+        }
+    }
+}

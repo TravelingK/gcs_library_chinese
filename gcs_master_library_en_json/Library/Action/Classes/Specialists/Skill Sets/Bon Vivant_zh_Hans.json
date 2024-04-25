@@ -1,0 +1,161 @@
+{
+    "traits": {
+        "d73c13dc-91ca-470f-b5ea-4cc7392703c4": {
+            "name": "Bon Vivant",
+            "children": {
+                "0fe6fbef-d2bf-443d-ade1-a673555eda61": {
+                    "name": "时尚感",
+                    "tags": [
+                        "优势",
+                        "心理"
+                    ]
+                },
+                "dda5d718-0487-43e5-ac6b-5910d23965d5": {
+                    "name": "When doubling up, the second instance gives",
+                    "children": {
+                        "ba391a5d-2c5f-4944-b746-3fd753ca7516": {
+                            "name": "超凡魅力",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "+1/level to Influence rolls",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "预言"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "领导力"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "乞讨"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "演讲"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "3e8ff23d-abb3-44ae-9c66-0cad003cb452": {
+                    "name": "Two of:",
+                    "children": {
+                        "327fb966-a8b4-4e86-9407-3fc3a9854b83": {
+                            "name": "酒精耐受",
+                            "tags": [
+                                "Perk",
+                                "生理"
+                            ]
+                        },
+                        "ca43822b-23fa-4fa3-ab5c-ac77eccbe090": {
+                            "name": "High-Heeled Heroine",
+                            "tags": [
+                                "Perk",
+                                "生理"
+                            ]
+                        },
+                        "628815fd-ca47-4f1f-8d29-a778d780fb9f": {
+                            "name": "High-Heeled Hurt",
+                            "tags": [
+                                "Perk",
+                                "生理"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "High-Heeled Heroine"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "06c33d18-0136-4c04-8ed8-9f4ff0c29dea": {
+                            "name": "貌似忠良",
+                            "tags": [
+                                "Perk",
+                                "生理"
+                            ]
+                        },
+                        "543151ea-19f3-4d2d-991d-4a834557bb3c": {
+                            "name": "不会宿醉",
+                            "tags": [
+                                "Perk",
+                                "生理"
+                            ]
+                        },
+                        "4460efd4-366e-46fc-9f22-ddc14513cba8": {
+                            "name": "Sartorial Integrity",
+                            "tags": [
+                                "电影化",
+                                "心理",
+                                "Perk"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "f8101812-b1a8-4061-9c49-f3ab9139e6d2": {
+            "name": "Bon Vivant",
+            "children": {
+                "c9ce0744-146f-4088-bcf5-2cd12aef3dbe": {
+                    "name": "宴饮",
+                    "tags": [
+                        "犯罪",
+                        "社会",
+                        "街头"
+                    ]
+                },
+                "6bd2cb34-acdd-4344-b09f-6122e5596e09": {
+                    "name": "鉴赏家",
+                    "tags": [
+                        "艺术",
+                        "娱乐",
+                        "知识",
+                        "社会"
+                    ],
+                    "specialization": "@分支@"
+                },
+                "5510d356-45d5-4b17-9c4c-6be1c6a3b3c5": {
+                    "name": "舞蹈",
+                    "tags": [
+                        "艺术",
+                        "娱乐"
+                    ]
+                },
+                "05e2b955-30ae-48db-9936-201e785e1c2e": {
+                    "name": "赌博",
+                    "tags": [
+                        "犯罪",
+                        "社会",
+                        "街头"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "数学",
+                            "specialization": "统计学"
+                        }
+                    ]
+                },
+                "8b28991d-326f-4190-978f-1de7ff976d3e": {
+                    "name": "性感",
+                    "tags": [
+                        "社会"
+                    ]
+                }
+            }
+        }
+    }
+}

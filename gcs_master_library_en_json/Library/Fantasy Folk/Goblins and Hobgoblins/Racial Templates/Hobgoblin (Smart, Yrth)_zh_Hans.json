@@ -1,0 +1,236 @@
+{
+    "traits": {
+        "ec9982b0-9f0b-4974-8f2a-9c1128f02000": {
+            "name": "Hobgoblin (Yrth)",
+            "children": {
+                "d7ae23c9-6e94-455d-8e7a-76a54df2a12a": {
+                    "name": "增加力量",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "17c29c8d-d887-4ed2-bb2c-dc4f5d80ab29": {
+                    "name": "增加敏捷",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "a16bae93-9468-40d1-860f-8fcc4c06be5a": {
+                    "name": "减少智力",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "7f3fee9f-39ff-4f2b-b088-8bbeb5f3dd39": {
+                    "name": "Select level of night vision",
+                    "notes": "4 is fairly realistic, 9 is perfect, or use infravision",
+                    "children": {
+                        "aa42887b-41b6-476b-aa5b-9cb5a2a0ad87": {
+                            "name": "夜视",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "283dfc52-e157-45ce-9fb8-615c3a74a1de": {
+                            "name": "夜视",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "9ed2933c-384f-421d-98ce-b47e9d890d76": {
+                            "name": "红外视觉",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "eb4394f6-a757-450b-adb4-ef3f75d80234": {
+                    "name": "坏脾气",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "41917c67-50f4-4882-9986-85ee1e3fa212": {
+                    "name": "顽固",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "来自其他人"
+                        }
+                    ]
+                },
+                "d82763fa-972e-417d-b430-40449011b863": {
+                    "name": "Select an optional role in society",
+                    "children": {
+                        "ad94f088-1dc2-4636-bec6-c41ef30b0e5b": {
+                            "name": "Animalistic enforcer",
+                            "notes": "Select some relevant traits",
+                            "children": {
+                                "c2ec905d-1221-4e32-9607-f1eb2585ae92": {
+                                    "name": "增加感知",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "心理",
+                                        "生理"
+                                    ]
+                                },
+                                "5b200f6a-43e5-4f7e-b77c-19790438803b": {
+                                    "name": "识别性嗅觉",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "追踪"
+                                            }
+                                        },
+                                        {
+                                            "situation": "在任何需要利用嗅觉的任务中"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "56814823-039f-4bf9-a8c1-b9e71d720c02": {
+                            "name": "Downright nasty",
+                            "notes": "Select some relevant traits",
+                            "children": {
+                                "933e2203-e7fa-4bc7-9289-06224cee664e": {
+                                    "name": "横行霸道",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "situation": "来自其他人"
+                                        }
+                                    ]
+                                },
+                                "a22b78bc-c9a2-41df-9056-d154344f96d9": {
+                                    "name": "冷酷无情",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "心理学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "教学"
+                                            }
+                                        },
+                                        {
+                                            "situation": "来自过去的受害者以及任何具有共情的角色"
+                                        },
+                                        {
+                                            "situation": "对于恐吓和折磨的手段来进行的审讯和威吓技能检定"
+                                        }
+                                    ]
+                                },
+                                "e9b2f98b-78e4-4a10-9cd0-c86dbc918fd4": {
+                                    "name": "施虐狂",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "当你有机会放纵自己的欲望，并且你知道自己不应该这么做（例如，因为你接手的囚犯应该安然无恙地被释放），那么进行一个自控检定。如果你失败了，你无法克制自己。",
+                                    "features": [
+                                        {
+                                            "situation": "来自那些发现你这一问题的人，除非他们来自一个不怎么尊重生命的文化环境"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "4994667c-09cd-4b57-bb02-349e4279f19d": {
+                            "name": "Stolid mostly harmless muscle",
+                            "notes": "Select some relevant traits (and can remove stubbornness)",
+                            "children": {
+                                "482fa8d0-5e03-4fec-928e-da3b212eb229": {
+                                    "name": "思想僵化",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "situation": "在需要创造力或发明精神的事务的检定，包括大多数艺术创作技能检定，所有用来发明的工程学技能检定，以及使用发明奇才优势的所有技能检定"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "6a8f64c9-b304-48c6-8910-10e6324068c2": {
+                            "name": "Tough goon",
+                            "notes": "Select some relevant traits",
+                            "children": {
+                                "d19b5c63-2859-494c-b4d9-556886f5682d": {
+                                    "name": "增加力量",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "生理"
+                                    ]
+                                },
+                                "b0f7ff56-1083-47c3-a207-53c77f51ad67": {
+                                    "name": "增加体力",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "生理"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "77dfc293-cf5d-483d-af67-9d98dc41a0db": {
+            "name": "Hobgoblin (Yrth)",
+            "children": {
+                "c6fe10d4-858e-41ed-acf3-ad1813311f1c": {
+                    "name": "斗殴",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "斗殴"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

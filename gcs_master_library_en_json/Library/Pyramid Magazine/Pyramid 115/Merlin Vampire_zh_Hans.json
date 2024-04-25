@@ -1,0 +1,752 @@
+{
+    "traits": {
+        "0b3c6eb4-a10e-40ec-af5f-a38c3bbb40ce": {
+            "name": "Merlin Vampire",
+            "children": {
+                "006184a9-c798-483f-89e9-458bb6569659": {
+                    "name": "属性修正",
+                    "children": {
+                        "eb9df5fb-e0a9-4436-bb8a-b5b0731090d0": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "ad2f3968-3457-409a-a1cc-f2e37f9a221d": {
+                            "name": "增加力量",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "c49a9b50-ea02-4b15-9739-7157d8fa007f": {
+                                    "name": "无操作肢"
+                                },
+                                "e2eeab3b-c452-4aca-b0ba-01648f4d7c1d": {
+                                    "name": "体型"
+                                },
+                                "941ffbec-f3a0-4412-b1fa-56692a9b11bb": {
+                                    "name": "超级出力"
+                                }
+                            }
+                        }
+                    }
+                },
+                "3d5bc4b1-0ea1-4afc-b51a-b45e85def1f0": {
+                    "name": "Advantages",
+                    "children": {
+                        "5687357d-abe4-4a09-ab11-e5845a6a4593": {
+                            "name": "识别性味觉",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "fab7ee41-00dd-4313-b5b9-ead7e31bd3ae": {
+                                    "name": "侧写"
+                                }
+                            }
+                        },
+                        "c5c0f2c4-ba4e-409f-84c6-314d9b20a1d9": {
+                            "name": "无需呼吸",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "43719ab1-782a-4049-8a18-fee34a4c6700": {
+                                    "name": "鳃"
+                                },
+                                "bc748479-a93f-455c-9650-93e0b4781bf8": {
+                                    "name": "鳃",
+                                    "notes": "在空气中窒息"
+                                },
+                                "319ef4a1-ad24-4bb2-93d4-8cbbc092fa43": {
+                                    "name": "吸收氧气"
+                                },
+                                "02e7a1d3-d2f8-4f36-be4b-37f990decfec": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 25 倍"
+                                },
+                                "54fd0ccf-aeae-40cb-ad90-8f9ef01d848d": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 50 倍"
+                                },
+                                "733252a6-d5b2-45c3-ae72-2f0e5a16b92a": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 100 倍"
+                                },
+                                "0f2288bd-0720-4018-a624-bd457cc7380f": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 200 倍"
+                                },
+                                "8b229b00-8d7c-4382-9e59-ff63a8b56255": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 300 倍"
+                                },
+                                "b6fbdef5-a5c9-4cb8-a258-223c501836cb": {
+                                    "name": "燃烧氧气"
+                                }
+                            }
+                        },
+                        "815a1c23-b392-4404-967d-e5c158711dc8": {
+                            "name": "隐身",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "心理",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "b9e98dc4-4305-4dbb-834b-5f1f6a368cd0": {
+                                    "name": "影响机器"
+                                },
+                                "c8f8181d-721d-4669-9d90-02a1075377a1": {
+                                    "name": "可以携带物品",
+                                    "notes": "最多空载"
+                                },
+                                "8fa93beb-31a0-4995-a892-24c47607a021": {
+                                    "name": "可以携带物品",
+                                    "notes": "最多轻载"
+                                },
+                                "0ded0a8d-2827-46df-9857-fbcd2700d502": {
+                                    "name": "可以携带物品",
+                                    "notes": "最多中载"
+                                },
+                                "995bef20-a38a-4082-b433-f592c92e0e6c": {
+                                    "name": "可以携带物品",
+                                    "notes": "最多重载"
+                                },
+                                "fd812ff8-b17f-4195-9deb-d460d92bedd2": {
+                                    "name": "拓展效果",
+                                    "notes": "@类型@"
+                                },
+                                "68b60827-01c8-4e80-bcb4-2a82f7a291cc": {
+                                    "name": "可开关"
+                                },
+                                "8caf15ca-2e29-40d1-89d6-2425e21c4de7": {
+                                    "name": "通常开启",
+                                    "notes": "每现身 1 秒花费 1 FP"
+                                },
+                                "41651551-85ae-444b-973a-bbeda746b2ef": {
+                                    "name": "仅限机械"
+                                },
+                                "6be8cc24-6ce1-499c-82b0-6c732cc7835e": {
+                                    "name": "仅限实体"
+                                },
+                                "fed497d0-1075-4029-a07b-cb76918948c2": {
+                                    "name": "映像可见"
+                                },
+                                "339cdf0b-62ea-4a33-99cc-d03f4ec7954a": {
+                                    "name": "投影可见"
+                                },
+                                "169a7ff5-d00d-4adf-ad9f-82180816e9ac": {
+                                    "name": "轮廓"
+                                }
+                            }
+                        },
+                        "ed060da4-231f-4055-8049-5b9bed3eadc9": {
+                            "name": "不老",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "4a45ffdf-92dc-4d32-9317-c52cc92480c5": {
+                                    "name": "年龄控制"
+                                },
+                                "68d1827d-5b43-4cfe-9778-84b10cc54d12": {
+                                    "name": "仅限 IQ"
+                                },
+                                "d5e8b416-e3fb-489a-932e-337e2b7b7f6a": {
+                                    "name": "延缓衰老，每周"
+                                },
+                                "9b244b09-455d-412b-9c46-1571c5a25f09": {
+                                    "name": "延缓衰老，每月"
+                                },
+                                "c622a4b4-1dbf-446f-88ef-fa0108c9acc8": {
+                                    "name": "延缓衰老，每年"
+                                },
+                                "99f553c8-9e89-4aae-ab33-f15089c05c8b": {
+                                    "name": "延长寿命"
+                                }
+                            }
+                        },
+                        "23f100f4-8f05-43a3-8b69-d214d2709d32": {
+                            "name": "吸血鬼之咬",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "5161bbae-fe91-4776-868a-8ba9c39866ff": {
+                            "name": "阴影形态",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "0c0bbbcd-523b-47f0-b1e0-f294f92d4eb5": {
+                                    "name": "可以携带物品",
+                                    "notes": "最多空载"
+                                },
+                                "993d6a7f-3bfb-4b93-aaeb-f57f03175cd7": {
+                                    "name": "可以携带物品",
+                                    "notes": "最多轻载"
+                                },
+                                "02736bf9-f13b-4702-96e3-a8d0d026dd19": {
+                                    "name": "可以携带物品",
+                                    "notes": "最多中载"
+                                },
+                                "fc6497da-2ae9-428c-a016-c92e2318f50a": {
+                                    "name": "可以携带物品",
+                                    "notes": "最多重载"
+                                },
+                                "ae8be6f4-b14b-43dc-bd8a-7a1e730a9f72": {
+                                    "name": "三维移动"
+                                },
+                                "d3d7549a-629f-4b50-aa01-874b02ca5cf3": {
+                                    "name": "光线钝感"
+                                },
+                                "898cf3a9-3c65-4da6-bd17-913d3ac98bba": {
+                                    "name": "指定厚度"
+                                }
+                            }
+                        },
+                        "d40bd761-d9ea-4349-8480-98f51ba7a907": {
+                            "name": "超自然耐性",
+                            "tags": [
+                                "优势",
+                                "生理",
+                                "超自然"
+                            ],
+                            "notes": "Killed by depleted necronium and silver"
+                        },
+                        "f6015f2b-f768-4c19-98cd-ce0f641418ee": {
+                            "name": "夜视",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "9ec40640-a419-416a-9578-877a76191177": {
+                            "name": "难以杀死",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "1d814bbe-b147-449f-aec0-ac3295c1191e": {
+                            "name": "魔法天赋",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "超自然"
+                            ],
+                            "modifiers": {
+                                "980bab89-0033-4684-bccf-a8b66045aabb": {
+                                    "name": "舞蹈"
+                                },
+                                "11a24ff2-b7bd-4e72-a4cd-361d5926579a": {
+                                    "name": "黑暗倾向"
+                                },
+                                "ab22d3ff-dbb6-4273-9b93-704ab04140fb": {
+                                    "name": "白昼倾向"
+                                },
+                                "4ef33bc8-63ef-4ddd-bde8-413e3dcc9f45": {
+                                    "name": "音乐魔法"
+                                },
+                                "31ec71f7-4f2f-4243-bdb2-5b03826abbe5": {
+                                    "name": "黑夜倾向"
+                                },
+                                "42986d48-9897-48d9-be79-28a82e455e49": {
+                                    "name": "单一学派",
+                                    "notes": "@学派@"
+                                },
+                                "dae7f55a-ea38-460c-a750-af32a4f2c731": {
+                                    "name": "孤独施法"
+                                },
+                                "c9706701-4839-45aa-a810-8e9066f87f91": {
+                                    "name": "唱歌施法"
+                                }
+                            },
+                            "features": [
+                                {},
+                                {
+                                    "name": {
+                                        "qualifier": "魔导学"
+                                    }
+                                }
+                            ]
+                        },
+                        "bfe95cc2-d150-40d6-a877-b59e7d1f17ac": {
+                            "name": "抵抗力",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "7a6d6022-6ca3-4a22-af95-2dd0a42cbe86": {
+                                    "name": "新陈代谢危险"
+                                },
+                                "04e7aed5-fc42-4c51-b807-76c396ade7a9": {
+                                    "name": "@常见：毒药，病征等@"
+                                },
+                                "05b3654c-fffb-4f00-aa48-d3b17193a1e1": {
+                                    "name": "@偶尔：疾病，摄入的毒药等@"
+                                },
+                                "df94fe31-2d6a-4108-bcac-df5c81c45cf7": {
+                                    "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                                },
+                                "9a075bd7-d5bd-4c40-ac94-f7cfeca89852": {
+                                    "name": "免疫力"
+                                },
+                                "31aee04b-5418-4350-8bac-38685b0d8905": {
+                                    "name": "抵抗的 HT 检定 +8"
+                                },
+                                "7825d276-e5a6-4274-8fa0-478d970f4cc2": {
+                                    "name": "抵抗的 HT 检定 +3"
+                                }
+                            }
+                        }
+                    }
+                },
+                "7f14b002-252f-48f6-8e78-6c2dcd8f6aa2": {
+                    "name": "Disadvantages",
+                    "children": {
+                        "fbe8e25c-abcd-4308-b270-e6cb412ea92f": {
+                            "name": "Dependency (Mana)",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "a95217db-8780-4cb8-808e-8ae209ab7917": {
+                                    "name": "稀有度：稀有"
+                                },
+                                "c343f207-7a88-4bf7-9211-67684f106d2a": {
+                                    "name": "稀有度：不常见"
+                                },
+                                "784ad043-5e70-492b-b5a4-12be85e4c1dc": {
+                                    "name": "稀有度：普遍"
+                                },
+                                "12dc0709-c02b-4e82-8a4a-8a783f83c47e": {
+                                    "name": "稀有度：很普遍"
+                                },
+                                "39734175-ac4b-4e21-8064-e7431254faf6": {
+                                    "name": "非法"
+                                },
+                                "c665259d-916e-4ffe-a6a5-f35ae39976b1": {
+                                    "name": "频率：不断地",
+                                    "notes": "在没有这种物质的每一分钟里失去 1 点 HP"
+                                },
+                                "a94875e3-c686-4871-b4bf-7840bf311eac": {
+                                    "name": "频率：每小时",
+                                    "notes": "在没有保证每小时剂量的每 10 分钟里失去 1 点 HP"
+                                },
+                                "be567b0d-aaec-478b-b1b6-7b3f29d4554f": {
+                                    "name": "频率：每日",
+                                    "notes": "在没有保证每日剂量的每小时里失去 1 点 HP"
+                                },
+                                "7e0fee96-6687-496f-8a39-2a4a7558df30": {
+                                    "name": "频率：每周",
+                                    "notes": "在没有保证每周剂量的每六小时里失去 1 点 HP"
+                                },
+                                "042bf08f-4bba-4f29-adbc-60cf3eecbc3e": {
+                                    "name": "频率：每月",
+                                    "notes": "在没有保证每月剂量的每天里失去 1 点 HP"
+                                },
+                                "59a77c45-50aa-4092-ab22-d954275f7798": {
+                                    "name": "频率：每季度",
+                                    "notes": "在没有保证每季剂量的每三天里失去 1 点 HP"
+                                },
+                                "ceef3f0e-4bd0-44f2-8af9-0279ffeab264": {
+                                    "name": "频率：每年",
+                                    "notes": "在没有保证每年剂量的每两周里失去 1 点 HP"
+                                },
+                                "5bcff5fa-2b4d-48a6-8377-ef8ebdc0b5df": {
+                                    "name": "衰老",
+                                    "notes": "每因为此依赖损失 1 HP，你老化两岁"
+                                }
+                            }
+                        },
+                        "d712e42b-42b2-43a1-b134-2f762e3fa162": {
+                            "name": "Draining (Blood)",
+                            "tags": [
+                                "劣势",
+                                "生理",
+                                "超自然"
+                            ],
+                            "modifiers": {
+                                "4d243423-001d-4d03-9db9-974b53ac356f": {
+                                    "name": "常见"
+                                },
+                                "4d52f8f3-f8f4-437d-abd7-687531a692d9": {
+                                    "name": "不常见"
+                                },
+                                "dc9f269a-dc9f-48b1-b360-908e5b6d7c98": {
+                                    "name": "稀有"
+                                },
+                                "1bf1044f-a888-4f10-adc4-f4ffa4f32578": {
+                                    "name": "非法"
+                                }
+                            }
+                        },
+                        "b543efd5-52f9-4503-be30-036d9c9f280d": {
+                            "name": "死亡灵光",
+                            "tags": [
+                                "劣势",
+                                "心理",
+                                "超自然"
+                            ]
+                        },
+                        "004d4fc0-5925-47b4-a653-4c9aba60aad4": {
+                            "name": "感染攻击",
+                            "tags": [
+                                "劣势",
+                                "生理",
+                                "超自然"
+                            ]
+                        },
+                        "62ca7933-ae0b-47ba-9e16-39e7a6cd11f3": {
+                            "name": "社会污名（怪物）",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "notes": "-3 反应",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "威吓"
+                                    }
+                                }
+                            ]
+                        },
+                        "23358f0e-b33a-4961-a716-e1c2c8dc03e7": {
+                            "name": "Supernatural Features (No Body Heat; No Reflection; Pallor)",
+                            "tags": [
+                                "劣势",
+                                "生理",
+                                "超自然"
+                            ],
+                            "notes": "Pallor and No Body Heat temporarily dissappear after feeding"
+                        },
+                        "a0d79364-c856-4e2f-8e50-130faebd4760": {
+                            "name": "Uncontrollable Appetite (Blood)",
+                            "tags": [
+                                "劣势",
+                                "心理",
+                                "超自然"
+                            ]
+                        },
+                        "3a6304c4-7662-4923-8106-8c2b6e2b7012": {
+                            "name": "无法治愈（部分）",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "3f859d36-de11-4c0a-9841-b588d4de5ef9": {
+                            "name": "弱点",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "9157cea3-25cf-495a-ba7a-334cfa1d63bb": {
+                                    "name": "每分钟 1d 伤害"
+                                },
+                                "ab658a47-65d5-474f-8b9b-d20ea1d02e35": {
+                                    "name": "每 5 分钟 1d 伤害"
+                                },
+                                "56a1e389-4052-4566-8b51-9d3787031d39": {
+                                    "name": "每 30 分钟 1d 伤害"
+                                },
+                                "1ca01733-b8d0-42a3-a25b-c5660c3a7e26": {
+                                    "name": "@稀有物质@"
+                                },
+                                "cd18abc3-4785-42ca-a474-36c991ccd369": {
+                                    "name": "@偶见物质@"
+                                },
+                                "ae29c004-9f9b-4ecf-85c3-9c337ebcb1a3": {
+                                    "name": "@常见物质@"
+                                },
+                                "1e153836-3dc3-43fa-9b48-152c2f1ff71f": {
+                                    "name": "Sunlight"
+                                },
+                                "43b56221-29e8-481d-81b3-dc562ac94c01": {
+                                    "name": "仅限体力"
+                                },
+                                "7363cb66-53ae-4011-a814-237c2b776fdf": {
+                                    "name": "强度可变"
+                                }
+                            }
+                        },
+                        "7f61153f-fe54-43cb-b6c1-af904cabb928": {
+                            "name": "易伤",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "50e81eda-c7ad-4c38-97a0-db23fc4f0200": {
+                                    "name": "@罕见攻击@"
+                                },
+                                "670e88b6-06b4-4544-b1df-c7412fe0485e": {
+                                    "name": "Depleted Necronium or Silver"
+                                },
+                                "35f8334b-6005-4ff6-8122-e9dbe70a083a": {
+                                    "name": "@常见攻击@"
+                                },
+                                "b63130a5-3bbf-4cc1-b609-30f1ac384b3a": {
+                                    "name": "@非常常见攻击@"
+                                },
+                                "9cedefab-cb4e-4a8b-8e3d-bf23833d2ea0": {
+                                    "name": "伤害 x2"
+                                },
+                                "6ee269f9-c3ef-476b-8b74-8d74d2d0a240": {
+                                    "name": "伤害 x3"
+                                },
+                                "ce67b260-d280-4e10-b0bb-8076d0595fa5": {
+                                    "name": "伤害 x4"
+                                },
+                                "8dfbf278-7b6c-400d-ac9e-4c5f246121d0": {
+                                    "name": "仅限体力"
+                                }
+                            }
+                        },
+                        "450d2087-78ec-4843-9f76-933b9ac8d00f": {
+                            "name": "Dependency (Rest nightly in earth of homeland)",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "e6d73cbe-e2d7-46e9-a69f-77efc41de94b": {
+                                    "name": "稀有度：稀有"
+                                },
+                                "12db9bd1-d076-4c99-8469-891220d3f5c6": {
+                                    "name": "稀有度：不常见"
+                                },
+                                "14a4e4fd-3074-4380-beba-379dc9b54698": {
+                                    "name": "稀有度：普遍"
+                                },
+                                "5f8128c2-b7b9-4a80-923a-acc1a98def94": {
+                                    "name": "稀有度：很普遍"
+                                },
+                                "f2be2107-1a72-4c28-b163-a7b778f34725": {
+                                    "name": "非法"
+                                },
+                                "c4fcda20-8bbc-43bd-9fb4-16a8a149c2dd": {
+                                    "name": "频率：不断地",
+                                    "notes": "在没有这种物质的每一分钟里失去 1 点 HP"
+                                },
+                                "b18e0b54-fa5a-4492-975c-34ca79ec11f1": {
+                                    "name": "频率：每小时",
+                                    "notes": "在没有保证每小时剂量的每 10 分钟里失去 1 点 HP"
+                                },
+                                "21a20443-951f-4962-b8de-8d9d83e7af3b": {
+                                    "name": "频率：每日",
+                                    "notes": "在没有保证每日剂量的每小时里失去 1 点 HP"
+                                },
+                                "9c6739df-a72f-41b4-9481-5ba143f50896": {
+                                    "name": "频率：每周",
+                                    "notes": "在没有保证每周剂量的每六小时里失去 1 点 HP"
+                                },
+                                "a64879ed-c81e-431e-a311-b8851775f7f6": {
+                                    "name": "频率：每月",
+                                    "notes": "在没有保证每月剂量的每天里失去 1 点 HP"
+                                },
+                                "26fdb107-1f80-4c9d-b747-9bb2de28066f": {
+                                    "name": "频率：每季度",
+                                    "notes": "在没有保证每季剂量的每三天里失去 1 点 HP"
+                                },
+                                "e3c3fff7-7f42-480d-9fcf-6cade5ff9557": {
+                                    "name": "频率：每年",
+                                    "notes": "在没有保证每年剂量的每两周里失去 1 点 HP"
+                                },
+                                "e9f12868-d4ec-44b6-88d3-163333888d9c": {
+                                    "name": "衰老",
+                                    "notes": "每因为此依赖损失 1 HP，你老化两岁"
+                                }
+                            }
+                        },
+                        "f3d1985d-0fcb-48f6-bec1-fdcb1b3f9f5a": {
+                            "name": "冷酷无情",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "心理学"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "教学"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "2020ee92-9d7b-4304-882f-e2b47f6d0556": {
+                    "name": "Feature: Sterile",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "9b00a29d-a7f8-47ed-8a51-477e4290f445": {
+                    "name": "Spell Limitation Workarounds",
+                    "children": {
+                        "dc3b5188-db54-465f-864d-e7fbd5ce9411": {
+                            "name": "Create Servant - Only works on reflections, -50%",
+                            "tags": [
+                                "生理"
+                            ],
+                            "notes": "Manually adjust with additional points invested in Create Servant"
+                        },
+                        "b45d04db-8eee-4b38-95f9-3c9c725395c2": {
+                            "name": "Teleport - Can only be used to travel between two mirrors big enough to walk through, -50%",
+                            "tags": [
+                                "生理"
+                            ],
+                            "notes": "Manually adjust with additional points invested in Teleport"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "spells": {
+        "5e73c9ec-088a-4891-a77d-394b48d500b2": {
+            "name": "Merlin Vampire",
+            "children": {
+                "4737047d-5e23-486a-a316-f98727f24dc6": {
+                    "name": "Create Servant",
+                    "tags": [
+                        "Illusion & Creation"
+                    ],
+                    "power_source": "Arcane",
+                    "spell_class": "常规",
+                    "casting_time": "3 sec",
+                    "duration": "1 分钟",
+                    "casting_cost": "Varies",
+                    "maintenance_cost": "Varies",
+                    "college": [
+                        "Illusion & Creation"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "qualifier": {
+                                    "qualifier": "create object"
+                                }
+                            },
+                            {
+                                "qualifier": {
+                                    "qualifier": "12"
+                                }
+                            },
+                            {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "magery"
+                                        },
+                                        "notes": {
+                                            "qualifier": "one college (illusion & creation)"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "magery"
+                                        },
+                                        "notes": {
+                                            "qualifier": "one college"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "7e6320c9-466a-4bac-81a7-e3fa9bb101a4": {
+                    "name": "Shape Darkness",
+                    "tags": [
+                        "Light"
+                    ],
+                    "power_source": "Arcane",
+                    "spell_class": "Area",
+                    "casting_time": "1 秒",
+                    "duration": "1 分钟",
+                    "casting_cost": "2#",
+                    "maintenance_cost": "Same",
+                    "college": [
+                        "Light & Darkness"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "qualifier": {
+                                    "qualifier": "darkness"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "99a2a2f4-4900-4c6b-b5bb-80790d0e83f9": {
+                    "name": "Teleport",
+                    "tags": [
+                        "Gate",
+                        "移动"
+                    ],
+                    "power_source": "Arcane",
+                    "spell_class": "Special",
+                    "casting_time": "1 秒",
+                    "duration": "Instant",
+                    "casting_cost": "Varies",
+                    "maintenance_cost": "-",
+                    "college": [
+                        "Gate",
+                        "移动"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "qualifier": {
+                                    "qualifier": "hawk flight"
+                                }
+                            },
+                            {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "13"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

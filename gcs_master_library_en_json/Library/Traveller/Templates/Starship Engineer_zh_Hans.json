@@ -1,0 +1,1688 @@
+{
+    "traits": {
+        "27482b20-b23d-40de-ae2d-3d836ce45223": {
+            "name": "Starship Engineer",
+            "children": {
+                "c10e88ca-350b-4ba5-bc75-af712684b5ce": {
+                    "name": "Attributes",
+                    "children": {
+                        "f6c86efa-2a34-4bf7-8dc3-6d1168de9969": {
+                            "name": "增加敏捷",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "56baa8a5-b9c0-4335-ac89-010a36a52c8b": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        },
+                        "ab67ead0-d4a8-4a5e-931d-d5ffa44e49c4": {
+                            "name": "增加智力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        }
+                    }
+                },
+                "53a647e3-644a-41b4-b9dd-a6d238ccd303": {
+                    "name": "Advantages",
+                    "children": {
+                        "45b826fd-c996-4ffd-8673-700183687a01": {
+                            "name": "绝对方向感",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "9f159217-9eab-4fad-8ade-50b896c921e9": {
+                                    "name": "需求信号"
+                                },
+                                "60a8e633-af92-4a42-b949-3ff05018ad08": {
+                                    "name": "三维空间感",
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "飞行驾驶"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "空中杂技"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "自由落体"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "导航"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "超空间"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "导航"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "太空"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "稳定身形"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "空中"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "陆地"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "海上"
+                                    }
+                                }
+                            ]
+                        },
+                        "67fbc6b1-47ce-4d73-b605-d179422b51bb": {
+                            "name": "天赋（能工巧匠）",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "天赋"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "军械修造"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "木艺"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "电气技师"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "电子维修"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "工程学"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "机工"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "石工"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "机修"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "金属加工"
+                                    }
+                                },
+                                {
+                                    "situation": "来自任何雇主"
+                                }
+                            ]
+                        },
+                        "546800d4-e8c4-44c5-b946-a15e6d655480": {
+                            "name": "战斗反射",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "永远不会“惊呆”",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "即时备战"
+                                    }
+                                },
+                                {},
+                                {},
+                                {},
+                                {},
+                                {
+                                    "situation": "对于从心理震慑中恢复的 IQ 检定"
+                                },
+                                {
+                                    "situation": "对于你的队伍避免突袭的对抗（如果你是领导者则 +2）"
+                                }
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "增强时间感"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "07a1edb5-c5d9-4520-9ad7-66d3c57db40b": {
+                            "name": "宽裕财富",
+                            "tags": [
+                                "优势",
+                                "社会",
+                                "财富"
+                            ],
+                            "notes": "起始财富为社会平均水平的两倍"
+                        },
+                        "e657cf2a-6677-49e2-8a1b-a8d64b86f59a": {
+                            "name": "Cultural Familiarity (any)",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "不会因为不熟悉而遭受 -3 的减值",
+                            "modifiers": {
+                                "a69c34f2-7593-452e-b7f3-dcece4c1cb2b": {
+                                    "name": "异种族"
+                                },
+                                "4709a633-7e6e-48ee-b5ba-17046b13e0a3": {
+                                    "name": "纯正的"
+                                }
+                            }
+                        },
+                        "4bea66fa-ee2d-4921-83e0-118f875408d3": {
+                            "name": "Cultural Familiarity (any)",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "不会因为不熟悉而遭受 -3 的减值",
+                            "modifiers": {
+                                "61de7814-f3ab-4250-9390-fe03cd09570b": {
+                                    "name": "异种族"
+                                },
+                                "7dc59d97-3341-4ad9-9342-8512f9d4bbfe": {
+                                    "name": "纯正的"
+                                }
+                            }
+                        },
+                        "f268b8ac-b588-4b44-bce5-8645dcb4df17": {
+                            "name": "健康",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "FP 回复速度加倍（魔法、 异能带来的损失则不被减免）",
+                            "features": [
+                                {
+                                    "situation": "对于所有保持意识、避免死亡、抵抗疾病或抵抗毒药的 HT 检定"
+                                }
+                            ]
+                        },
+                        "643cc2ce-209d-47f4-96d6-8e2881b6ab9a": {
+                            "name": "重力场适应",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ]
+                        },
+                        "4bf8cfb7-972b-4b62-84f5-524a2431acd3": {
+                            "name": "信手拈来",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ]
+                        },
+                        "b7ffd969-0b74-454f-aa84-c3e0a1285d75": {
+                            "name": "巧手",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "艺术家"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "珠宝加工"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "结绳"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "皮革加工"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "开锁"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "扒窃"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "缝纫"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "巧手"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "手术"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "机工"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "机修"
+                                    }
+                                }
+                            ]
+                        },
+                        "e6101637-8159-46a9-9c9b-3749ef951d2f": {
+                            "name": "强化重力适性",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "6e1970a5-ddab-43fa-8f4d-3d45c04cf70f": {
+                                    "name": "0.3G"
+                                },
+                                "48d2c150-4006-45a4-91e8-f5cc97eb4d29": {
+                                    "name": "0.5G"
+                                },
+                                "37f0c58a-827d-4991-b351-6c6ba10f0e95": {
+                                    "name": "1G"
+                                },
+                                "99d8a3bc-3c37-43ee-9454-da39deced113": {
+                                    "name": "5G"
+                                },
+                                "2df776d6-4809-4085-9a09-cd9ec4d90a18": {
+                                    "name": "10G"
+                                }
+                            }
+                        },
+                        "c87f0cc1-1c30-4a42-96d2-52b92c61443d": {
+                            "name": "Language: any",
+                            "tags": [
+                                "优势",
+                                "语言",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "c8739118-4cef-4d78-ac9b-6c47a2ba0f46": {
+                                    "name": "纯正的"
+                                },
+                                "bfd50230-044c-4682-bd8b-4591cd220828": {
+                                    "name": "口语",
+                                    "notes": "一无所知"
+                                },
+                                "64677122-4979-475f-a426-52d8109a6849": {
+                                    "name": "口语",
+                                    "notes": "结巴的"
+                                },
+                                "d4b0130f-4b22-41c6-88a1-996b91ce0be6": {
+                                    "name": "口语",
+                                    "notes": "有口音的"
+                                },
+                                "afcc1859-385b-418e-8a43-6248fd36b503": {
+                                    "name": "口语",
+                                    "notes": "纯正的"
+                                },
+                                "82c321b9-9419-49ab-97a5-2036b363a649": {
+                                    "name": "书写",
+                                    "notes": "一无所知"
+                                },
+                                "f410af76-d7e1-4710-a146-8027bf8ab872": {
+                                    "name": "书写",
+                                    "notes": "结巴的"
+                                },
+                                "43556609-8cd3-467a-91f0-88a6b4cdd33e": {
+                                    "name": "书写",
+                                    "notes": "有口音的"
+                                },
+                                "9e2c671e-6dd0-4a41-a86c-689b6eb5fb4e": {
+                                    "name": "书写",
+                                    "notes": "纯正的"
+                                }
+                            }
+                        },
+                        "460e2840-6966-4ee1-9bda-df6e4a2c5d99": {
+                            "name": "Merchant Rank",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "23225b43-e7c7-4f48-9d08-98ec2cbba583": {
+                                    "name": "包含社会地位"
+                                },
+                                "7610d688-69b2-4347-8271-c8b08db831e5": {
+                                    "name": "荣誉"
+                                }
+                            }
+                        },
+                        "80e054b8-9a02-43be-bb9b-04ba7f4e77ef": {
+                            "name": "Merchant Rank",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "ea437d35-1c05-4dc2-bc1c-f7f22c577964": {
+                                    "name": "包含社会地位"
+                                },
+                                "1118bf44-9f8a-44c7-bb49-b8de87017229": {
+                                    "name": "荣誉"
+                                }
+                            }
+                        },
+                        "b785cbee-0f88-4017-8be2-abe189eda20a": {
+                            "name": "Military Rank",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "50eb97b8-ff01-42ee-9750-3ebe5379c093": {
+                                    "name": "包含社会地位"
+                                },
+                                "36508d65-7105-4e8c-b8ac-968b8c09b0b8": {
+                                    "name": "荣誉"
+                                }
+                            }
+                        },
+                        "340be293-3281-41e0-a677-b5a65ce08564": {
+                            "name": "Military Rank",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "a3d434c3-61d7-48e4-9574-e8659a275e6a": {
+                                    "name": "包含社会地位"
+                                },
+                                "a229dd7e-9ee6-427e-8d64-9c5ee4973086": {
+                                    "name": "荣誉"
+                                }
+                            }
+                        },
+                        "8b3c2718-e16a-4e5f-81b0-da8f4e2a3d94": {
+                            "name": "Reputation",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "c8cc0663-478f-4ed3-88d8-2528e9e37ae4": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人"
+                                },
+                                "4f8fd0f0-3865-403e-a981-b84d136e3ec6": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人，刨去@一大群人@"
+                                },
+                                "8c21ea5f-7918-4cee-b900-6fa7ff6ff213": {
+                                    "name": "影响人群",
+                                    "notes": "@一大群人@"
+                                },
+                                "68c1df80-1ddd-41c2-a149-afe4de50edac": {
+                                    "name": "影响人群",
+                                    "notes": "@一小群人@"
+                                },
+                                "5cd206c1-2c09-42d5-a0b0-e99d5b120550": {
+                                    "name": "总是有人认识"
+                                },
+                                "eae66a8c-3efb-4316-a347-8fd4b66f73d4": {
+                                    "name": "有时候有人认识",
+                                    "notes": "10-"
+                                },
+                                "b596e798-0167-404b-9b7f-b7547fee6be4": {
+                                    "name": "偶尔有人认识",
+                                    "notes": "7-"
+                                }
+                            }
+                        },
+                        "78263f2f-8b8c-42bd-bff7-c5bf5f5441aa": {
+                            "name": "Status",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "notes": "any"
+                        },
+                        "c7e9278a-60c9-4730-b3c3-9ac4f6202b7f": {
+                            "name": "Talent (Intuitive Admiral)",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "天赋"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "空间"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Expert Skill (Military Science)"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "历史"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "军事"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "情报分析"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "领导力"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "礼仪"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "军事"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "船舶掌握"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "太空船"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "船舶掌握"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "星舰"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "战略"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "太空"
+                                    }
+                                },
+                                {
+                                    "situation": "Anyone you service with (or command) in the Navy"
+                                }
+                            ]
+                        },
+                        "043b09dc-1d6d-4c93-b29f-799e3af48ba6": {
+                            "name": "天赋（数学天才）",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "天赋"
+                            ],
+                            "modifiers": {
+                                "11541f77-f1dc-4fb9-a8a1-ca2d146eadf6": {
+                                    "name": "可选增益",
+                                    "notes": "抵抗数值相关欺骗时获得加值"
+                                },
+                                "3bb556c6-a102-4ee0-a0fc-dbaa21a35e27": {
+                                    "name": "可选花费"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "会计学"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "天文学"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "密码学"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "工程学"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "金融"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "市场分析"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "数学"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "物理学"
+                                    }
+                                },
+                                {
+                                    "situation": "来自工程师和科学家"
+                                }
+                            ]
+                        },
+                        "84f9f7b9-c83c-4b21-a230-c8ae6fd5c424": {
+                            "name": "非常健康",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "FP 回复速度加倍；失去 FP 的速度减半（魔法、异能带来的损失则不被减免）",
+                            "features": [
+                                {
+                                    "situation": "对于所有保持意识、避免死亡、抵抗疾病、抵抗毒药的 HT 检定"
+                                }
+                            ]
+                        },
+                        "b5903cb1-a435-46a3-a235-adf4cfebb0c4": {
+                            "name": "非常富有",
+                            "tags": [
+                                "优势",
+                                "社会",
+                                "财富"
+                            ],
+                            "notes": "起始财富是其社会平均水平的 20 倍"
+                        },
+                        "ed159792-09ef-4e94-92cf-28c8ea904e41": {
+                            "name": "迷人声线",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "外交"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "唬骗"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "模仿声音"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "表演"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "政治"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "演讲"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "性感"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "唱歌"
+                                    }
+                                },
+                                {
+                                    "situation": "来自任何能听到你声音的人"
+                                }
+                            ]
+                        },
+                        "794d31a3-a84e-40dd-8d1b-d4af5334465b": {
+                            "name": "富有",
+                            "tags": [
+                                "优势",
+                                "社会",
+                                "财富"
+                            ],
+                            "notes": "起 始财富是其社会平均水平的 5 倍"
+                        }
+                    }
+                },
+                "87f3e0c4-e40d-4f00-95c9-14cbd204fae7": {
+                    "name": "Disadvantages",
+                    "children": {
+                        "a7ec905e-8539-4a00-ba6e-42432b70c92b": {
+                            "name": "期待陪伴",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "对于其他人"
+                                },
+                                {
+                                    "situation": "对于所有基于 IQ 的技能"
+                                }
+                            ]
+                        },
+                        "ea63727a-499d-4675-95d9-c9e71430f45a": {
+                            "name": "荣誉准则（专业人员）",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "你坚持你的职业道德；总是尽你所能的做好你的工作；支持你的公会，联盟，或专业协会。"
+                        },
+                        "ad2458e1-29e5-4aa3-80ef-8286b968cde3": {
+                            "name": "好奇",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "在遇到有趣的物品或情况时进行一个自控检定"
+                        },
+                        "29afcd7d-1c3b-467c-b4c6-1082ba6a7797": {
+                            "name": "Duty (variable)",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "fa576d41-f6fa-433a-b2ab-66743f2e6587": {
+                                    "name": "FR: 6"
+                                },
+                                "c2787da1-3786-42ab-90e1-6f9f7a867ab3": {
+                                    "name": "FR: 9"
+                                },
+                                "adfc04a5-2a07-41e7-b0d4-38459bea69e5": {
+                                    "name": "FR: 12"
+                                },
+                                "a2e72aeb-26ba-42d8-a3fa-931974819827": {
+                                    "name": "FR: 15"
+                                },
+                                "e29d702c-d451-4630-9847-a5f0a468d4a9": {
+                                    "name": "极度危险"
+                                },
+                                "083b0f28-c5a2-4ceb-bb69-2d1c829ed720": {
+                                    "name": "被强迫的"
+                                },
+                                "d0185eb3-c347-4751-851a-41bf4601f82a": {
+                                    "name": "不危险的"
+                                }
+                            }
+                        },
+                        "c611369d-be14-41c5-b1f4-ce4f0a6e650b": {
+                            "name": "Enemy (Military or commercial rival)",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "b9f1d936-e451-4af4-add4-5b2781d90bd9": {
+                                    "name": "弱单体",
+                                    "notes": "你初始点数的 50%"
+                                },
+                                "357b41e8-e7d6-4bb3-9686-04c7c5a7cb30": {
+                                    "name": "旗鼓相当单体",
+                                    "notes": "你初始点数的 100%"
+                                },
+                                "a8e01c53-b464-4fdb-9fd8-cd97aff82483": {
+                                    "name": "强单体",
+                                    "notes": "大于你初始点数的 150%"
+                                },
+                                "21d776b9-5312-4f2b-922b-8875c3df0623": {
+                                    "name": "弱团体"
+                                },
+                                "9d731b78-dca2-4d33-8751-55fd9eb53263": {
+                                    "name": "中等团体"
+                                },
+                                "261f6ee0-70cc-497c-8a99-59ba6150ef7a": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "98071e14-7711-40e4-8311-76fd6690523d": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "8400e3ea-2532-4903-bbda-97a0848dd9d1": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "10dce17e-7319-4cdb-a618-a84bbf646caf": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "ac018ac3-b490-4797-abdc-0aef6171c574": {
+                                    "name": "大型/强力团体"
+                                },
+                                "743d7741-d933-4a9f-9c9d-d1a877ee7949": {
+                                    "name": "无法想象的强大群体"
+                                },
+                                "894adc9d-7d0b-4ffa-9f84-369fce13c437": {
+                                    "name": "不为人知"
+                                },
+                                "407918f9-69a2-4518-8d9a-be32b606aa8d": {
+                                    "name": "邪恶双生子"
+                                },
+                                "de53142d-1ebc-48f0-a3fb-1e6661822ea6": {
+                                    "name": "邪恶双生子",
+                                    "notes": "在你拥有的能力上更加强大或拥有你没有的能力"
+                                },
+                                "eea539d9-94d1-487c-87f3-5dc816af96ba": {
+                                    "name": "邪恶双生子",
+                                    "notes": "在你拥有的能力上更加强大且拥有你没有的能力"
+                                },
+                                "addc5045-ae09-45f9-b520-f489a88d085a": {
+                                    "name": "监视"
+                                },
+                                "a84d27ac-bbd0-4f5e-9ab9-ff44a810268f": {
+                                    "name": "对抗"
+                                },
+                                "9ee7d742-b545-4b26-ade4-700ec86b3de7": {
+                                    "name": "捕杀"
+                                }
+                            }
+                        },
+                        "8b2224e0-0cde-4098-80ef-476a1fc6e91f": {
+                            "name": "Fanaticism (Patriot)",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "12881cde-e387-4bb8-9076-16f6c2e7ccf2": {
+                                    "name": "极度"
+                                }
+                            }
+                        },
+                        "bce81b62-9c35-400f-920a-2247619bb057": {
+                            "name": "记忆闪回",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "notes": "如果 GM 认为当前场景中你承受了压力，他会投 3d。投出 6 或更低的数值时，你会开始“闪回”。当你恐惧检定失败或是勉强成功（成功度为 0），当 你的另一个与压力相关的劣势自控检定失败时，GM 都可以投骰。",
+                            "modifiers": {
+                                "f018eee1-7b83-4402-9393-1215959ddda2": {
+                                    "name": "轻度",
+                                    "notes": "持续 2d 秒；所有技能检定 -2"
+                                },
+                                "0b556760-6276-4838-8e9b-ba774144bc8f": {
+                                    "name": "重度",
+                                    "notes": "持续 1d 分钟；所有技能检定 -5"
+                                },
+                                "cc322ecb-6a38-41d5-a58f-8c8b9cb30c21": {
+                                    "name": "残疾",
+                                    "notes": "持续 3d 分钟；阻止所有技能使用"
+                                }
+                            }
+                        },
+                        "e973f43b-19cb-4d1a-a45e-bd4847b6e88d": {
+                            "name": "贪婪",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "面对任何时候提供的财富——如，工作后的报酬、冒险所得、犯罪的脏物或者作为诱饵的金钱，你需要进行自控检定。如果检定失败，你将尽一切手段得到那笔财富。"
+                        },
+                        "e30b2971-6204-4457-b661-ccb749778918": {
+                            "name": "遵纪守法",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你“必须”违反无意义的法规的时候，你必须进行一次自控检定；如果你失败了，你必须遵守这条法律，不论后果如何。如果你成功地抵挡了你的守法冲动违法了，在事后进行第二次自控检定，如果失败，你就必须向权力机构自首！"
+                        },
+                        "e103507b-c2c0-4e27-9325-5cb531739aad": {
+                            "name": "Intolerance (varies)",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "807eed06-9cde-4a8c-83b3-a0ce0b0b0346": {
+                                    "name": "范围：常见"
+                                },
+                                "35e6c234-feeb-42d0-98b7-a2295c1709d2": {
+                                    "name": "范围：偶见"
+                                },
+                                "d24f9881-2a95-4fb6-a148-b0c4b5f825a6": {
+                                    "name": "范围：稀有"
+                                },
+                                "25186f43-d8d6-498b-ab11-43154097931d": {
+                                    "name": "范围：任何与你不同的人"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "situation": "来自感受到你的歧视的对象（最高到 -5，GM 决定）"
+                                }
+                            ]
+                        },
+                        "541e2d89-1af2-4c6b-b059-8f3931e89131": {
+                            "name": "善妒",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "对于你嫉妒的对象（最高 -4，GM 决定）"
+                                }
+                            ]
+                        },
+                        "8d1de9e5-7838-44a9-8d9c-ff17de0dfd17": {
+                            "name": "风流好色",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你与你喜好的性别的漂亮成员有着超过最低限度的接触后，进行一次自控检定——如果对方是英俊/美丽有 -5，如果对方是非常英俊/非常美丽则是 -10。如果你失败了，你必须去“勾搭”对方，用上你能用出的所有花招和技术。"
+                        },
+                        "6bdcc6ad-a375-459c-a324-911d09b0dbb0": {
+                            "name": "吝啬",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你需要花钱的时候，进行一次自控检定。如果数额巨大，你检定受到至多 -5 的减值（GM裁定）。失败意味着你拒绝出钱。"
+                        },
+                        "90862b82-5676-494f-b9bb-4da97971929a": {
+                            "name": "噩梦缠身",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "每天早晨醒来的时候进行一次自控，失败则损失 1FP，这个 FP 只能通过睡眠恢复。在投出 17 或 18 的时候，你由于梦境颤栗不已，所有技能检定和感知检定有 -1 减值，持续一整天。"
+                        },
+                        "5498764d-0e31-47a3-8579-97d1288c38fd": {
+                            "name": "无幽默感",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "来自当无幽默感劣势显而易见的情况下的其他人"
+                                }
+                            ]
+                        },
+                        "8021a502-5022-45f3-a403-1ed3dadbd091": {
+                            "name": "自负",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "如果 GM 认为人物过于谨慎，可能要求人物进行自我控制检定，如果检定失败，人物不再畏缩不前，就像你能解决问题一样！",
+                            "features": [
+                                {
+                                    "situation": "来自年青幼稚的人，他们相信你的吹牛"
+                                },
+                                {
+                                    "situation": "来自老练的 NPC"
+                                }
+                            ]
+                        },
+                        "5a55025e-9a52-4c5c-b75a-95341796aae0": {
+                            "name": "责任感",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "0f999873-2bc9-4ca8-bf99-d0dfa0348430": {
+                                    "name": "朋友和伙伴"
+                                },
+                                "e64278ed-c47d-4af3-916c-b2d8726fca63": {
+                                    "name": "@小组织@"
+                                },
+                                "c01a062a-7af6-4de7-9db7-f8cea35474d4": {
+                                    "name": "@个人@"
+                                },
+                                "f4c04929-b6fd-4dcb-b596-ceda847f3384": {
+                                    "name": "@大组织@"
+                                },
+                                "8379a458-8a77-4802-a66d-c39697b09295": {
+                                    "name": "@整个种族@"
+                                },
+                                "564a52a4-54a8-44eb-bb65-ca0e3a3e8e37": {
+                                    "name": "所有活物"
+                                }
+                            }
+                        },
+                        "d9609857-c260-4ee6-b1d9-cb02c6722994": {
+                            "name": "神经脆弱",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "5dba288d-750e-42ee-a35d-4d3e1349c08d": {
+                            "name": "顽固",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "来自其他人"
+                                }
+                            ]
+                        },
+                        "d6ca7668-eb8a-47cf-afdb-7eaab240481d": {
+                            "name": "作死能手",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "每天进行一次自控检定。如果你失败了，你必须尝试戏弄一个危险的目标：熟练的战士、危险的怪物、一群能力足够的对手，等等。如果你抵抗住了冲动，你的这个自控获得累加的 -1 减值，直到你某次自控失败为止！"
+                        },
+                        "46e79c02-c162-4a25-9393-9871dcbb5288": {
+                            "name": "不幸",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "每次游戏中，GM 总要特别不怀好意地将你的事情弄糟。"
+                        },
+                        "24bfd227-3f56-4d53-9911-f37035db0ad7": {
+                            "name": "工作狂",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "afaf2572-5c70-48bb-b8dc-2275d393e5ef": {
+                            "name": "异类癖好",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "fdc51465-fe46-42d4-80e4-4cdc47f00828": {
+            "name": "Starship Engineer",
+            "children": {
+                "57f06d51-d502-44fd-a31c-6acfdd157c9e": {
+                    "name": "Primary Skills",
+                    "children": {
+                        "085ccd75-d49b-4ead-bc9e-53a8796db560": {
+                            "name": "空间",
+                            "tags": [
+                                "载具"
+                            ]
+                        }
+                    }
+                },
+                "b1393c38-a2b0-40e9-9b6f-6332604daa8e": {
+                    "name": "Secondary Skills",
+                    "children": {
+                        "28b9010f-604d-40e8-887e-5663edd7e677": {
+                            "name": "电脑操作",
+                            "tags": [
+                                "常识",
+                                "学校",
+                                "技术"
+                            ]
+                        },
+                        "120c6be4-6806-4008-a0b6-7dbe08402efb": {
+                            "name": "自由落体",
+                            "tags": [
+                                "运动"
+                            ]
+                        },
+                        "8fff5f3e-74af-47e8-96d1-9b21fb5bceee": {
+                            "name": "真空服",
+                            "tags": [
+                                "技术"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "潜水服"
+                                },
+                                {
+                                    "name": "三防服"
+                                },
+                                {
+                                    "name": "战斗服"
+                                }
+                            ]
+                        },
+                        "d63b230e-9223-41f5-b1af-37a0086ca230": {
+                            "name": "Any four of",
+                            "children": {
+                                "02a0f829-2c73-43c2-a130-e6adffbfdd9c": {
+                                    "name": "军械修造",
+                                    "tags": [
+                                        "Maintainance",
+                                        "军事",
+                                        "修理"
+                                    ],
+                                    "specialization": "重武器",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "重武器"
+                                        }
+                                    ]
+                                },
+                                "ecf2089f-bcb2-43e1-a2de-529d76272bb7": {
+                                    "name": "军械修造",
+                                    "tags": [
+                                        "Maintainance",
+                                        "军事",
+                                        "修理"
+                                    ],
+                                    "specialization": "载具装甲",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "载具装甲"
+                                        }
+                                    ]
+                                },
+                                "e49ffd2e-457e-4e72-bafb-813c3c76f2a0": {
+                                    "name": "电气技师",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "电气"
+                                        }
+                                    ]
+                                },
+                                "b644ad4d-c318-46ad-b92c-e1e835731c91": {
+                                    "name": "电子维修",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "specialization": "电脑",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "电脑操作"
+                                        },
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "电子"
+                                        },
+                                        {
+                                            "name": "电子维修"
+                                        }
+                                    ]
+                                },
+                                "6ee6890c-8f51-4c97-a70c-1c9e4711f9dd": {
+                                    "name": "电子维修",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "specialization": "医学",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "电子操作",
+                                            "specialization": "医学"
+                                        },
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "电子"
+                                        },
+                                        {
+                                            "name": "电子维修"
+                                        }
+                                    ]
+                                },
+                                "f3f66291-e381-4779-b182-747045f82380": {
+                                    "name": "工程学",
+                                    "tags": [
+                                        "设计",
+                                        "工程学",
+                                        "发明"
+                                    ],
+                                    "specialization": "星际飞船",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "数学"
+                                                },
+                                                "specialization": {
+                                                    "qualifier": "应用"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "defaults": [
+                                        {
+                                            "name": "机修",
+                                            "specialization": "星际飞船"
+                                        }
+                                    ]
+                                },
+                                "ea268191-241b-471c-98cd-a6bf4a8f7fc6": {
+                                    "name": "电子维修",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "specialization": "传感",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "电子操作",
+                                            "specialization": "传感"
+                                        },
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "电子"
+                                        },
+                                        {
+                                            "name": "电子维修"
+                                        }
+                                    ]
+                                },
+                                "9c19338c-a4aa-4d63-94db-3a1128976b9f": {
+                                    "name": "电脑编程",
+                                    "tags": [
+                                        "设计",
+                                        "发明"
+                                    ]
+                                },
+                                "f76020be-8794-4bff-800e-723f40cdf029": {
+                                    "name": "机工",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "机修"
+                                        }
+                                    ]
+                                },
+                                "463a63bb-e41b-4b0a-a529-8a10bf4b7564": {
+                                    "name": "机修",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "specialization": "空天飞机",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "空天飞机"
+                                        },
+                                        {
+                                            "name": "机工"
+                                        },
+                                        {
+                                            "name": "机修"
+                                        }
+                                    ]
+                                },
+                                "a2164258-9290-4505-9bb9-9ca91a9de1db": {
+                                    "name": "机修",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "specialization": "高性能航天器",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "高性能航天器"
+                                        },
+                                        {
+                                            "name": "机工"
+                                        },
+                                        {
+                                            "name": "机修"
+                                        }
+                                    ]
+                                },
+                                "2180fced-079b-4b65-9fa4-637dd032d8c4": {
+                                    "name": "机修",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "specialization": "Jump Drive",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "空天飞机"
+                                        },
+                                        {
+                                            "name": "机工"
+                                        },
+                                        {
+                                            "name": "机修"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "2ef27f20-e0d6-4b80-b05e-550a711b348d": {
+                    "name": "Background Skills",
+                    "children": {
+                        "23e47018-477a-4686-806d-4b1804e102b8": {
+                            "name": "管理",
+                            "tags": [
+                                "商业",
+                                "社会"
+                            ],
+                            "defaults": [
+                                {
+                                    "name": "商人"
+                                }
+                            ]
+                        },
+                        "f59330bd-a6bd-4f09-964e-37fa13395b09": {
+                            "name": "宴饮",
+                            "tags": [
+                                "犯罪",
+                                "社会",
+                                "街头"
+                            ]
+                        },
+                        "5187f842-e378-4bc8-a555-db076e54069c": {
+                            "name": "Guns",
+                            "tags": [
+                                "战斗",
+                                "远程战斗",
+                                "武器"
+                            ],
+                            "specialization": "any",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Guns"
+                                }
+                            ]
+                        },
+                        "aaa0d381-d797-465a-acef-fa6133d0a1ed": {
+                            "name": "礼仪",
+                            "tags": [
+                                "知识",
+                                "社会"
+                            ],
+                            "specialization": "Merchant or Military",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "游戏"
+                                }
+                            ]
+                        },
+                        "47a0dca5-d1a4-4903-8037-0b9884137467": {
+                            "name": "Three extra points in primary or secondary skills",
+                            "children": {
+                                "fc5d55f9-2b25-4f77-a68c-091e17140719": {
+                                    "name": "空间",
+                                    "tags": [
+                                        "载具"
+                                    ]
+                                },
+                                "3eb8a660-bbf4-4728-814c-005beaab1b14": {
+                                    "name": "电脑操作",
+                                    "tags": [
+                                        "常识",
+                                        "学校",
+                                        "技术"
+                                    ]
+                                },
+                                "8be92cd5-f2c6-47bc-9858-c1b14a78601d": {
+                                    "name": "自由落体",
+                                    "tags": [
+                                        "运动"
+                                    ]
+                                },
+                                "31973a1a-b871-4746-a5ca-e93de5718fbb": {
+                                    "name": "真空服",
+                                    "tags": [
+                                        "技术"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "潜水服"
+                                        },
+                                        {
+                                            "name": "三防服"
+                                        },
+                                        {
+                                            "name": "战斗服"
+                                        }
+                                    ]
+                                },
+                                "c241d9df-3e6c-4f83-a867-17cab37819e9": {
+                                    "name": "军械修造",
+                                    "tags": [
+                                        "Maintainance",
+                                        "军事",
+                                        "修理"
+                                    ],
+                                    "specialization": "重武器",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "重武器"
+                                        }
+                                    ]
+                                },
+                                "49debd60-6017-44d3-a35e-ef3b80711c81": {
+                                    "name": "军械修造",
+                                    "tags": [
+                                        "Maintainance",
+                                        "军事",
+                                        "修理"
+                                    ],
+                                    "specialization": "载具装甲",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "载具装甲"
+                                        }
+                                    ]
+                                },
+                                "d231c7f7-aeba-4715-a00a-92c1337a2091": {
+                                    "name": "电气技师",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "电气"
+                                        }
+                                    ]
+                                },
+                                "156a9997-57fe-4520-8c1c-ce4082f1b742": {
+                                    "name": "电子维修",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "specialization": "电脑",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "电脑操作"
+                                        },
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "电子"
+                                        },
+                                        {
+                                            "name": "电子维修"
+                                        }
+                                    ]
+                                },
+                                "f5ecdc0f-0440-4828-8564-d6aedad21fa0": {
+                                    "name": "电子维修",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "specialization": "医学",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "电子操作",
+                                            "specialization": "医学"
+                                        },
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "电子"
+                                        },
+                                        {
+                                            "name": "电子维修"
+                                        }
+                                    ]
+                                },
+                                "3e07dbff-08ff-4aa7-b86f-e37935774c24": {
+                                    "name": "工程学",
+                                    "tags": [
+                                        "设计",
+                                        "工程学",
+                                        "发明"
+                                    ],
+                                    "specialization": "星际飞船",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "数学"
+                                                },
+                                                "specialization": {
+                                                    "qualifier": "应用"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "defaults": [
+                                        {
+                                            "name": "机修",
+                                            "specialization": "星际飞船"
+                                        }
+                                    ]
+                                },
+                                "70d0979b-99c0-412c-acb9-ced3e1336e8e": {
+                                    "name": "电子维修",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "specialization": "传感",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "电子操作",
+                                            "specialization": "传感"
+                                        },
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "电子"
+                                        },
+                                        {
+                                            "name": "电子维修"
+                                        }
+                                    ]
+                                },
+                                "40765d36-27a9-440e-aaf6-f3ebd70a5c6b": {
+                                    "name": "电脑编程",
+                                    "tags": [
+                                        "设计",
+                                        "发明"
+                                    ]
+                                },
+                                "71d468a2-d7d6-4b62-8010-c3129281b5b4": {
+                                    "name": "机工",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "机修"
+                                        }
+                                    ]
+                                },
+                                "9c010377-577f-45e6-9fbf-7a2bded42ad4": {
+                                    "name": "机修",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "specialization": "空天飞机",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "空天飞机"
+                                        },
+                                        {
+                                            "name": "机工"
+                                        },
+                                        {
+                                            "name": "机修"
+                                        }
+                                    ]
+                                },
+                                "1ddfbad1-1e86-4a78-ab24-11639cc933fc": {
+                                    "name": "机修",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "specialization": "高性能航天器",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "高性能航天器"
+                                        },
+                                        {
+                                            "name": "机工"
+                                        },
+                                        {
+                                            "name": "机修"
+                                        }
+                                    ]
+                                },
+                                "4060b3c2-0b27-4e98-b216-68bc9d220284": {
+                                    "name": "机修",
+                                    "tags": [
+                                        "Maintainance",
+                                        "修理"
+                                    ],
+                                    "specialization": "Jump Drive",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "空天飞机"
+                                        },
+                                        {
+                                            "name": "机工"
+                                        },
+                                        {
+                                            "name": "机修"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

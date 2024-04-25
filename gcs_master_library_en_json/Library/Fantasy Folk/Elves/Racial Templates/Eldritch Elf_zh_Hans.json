@@ -1,0 +1,344 @@
+{
+    "traits": {
+        "2bf0e721-94f4-4ca1-8fa9-de1f66ff96c4": {
+            "name": "Race: Eldritch Elf",
+            "children": {
+                "999ad6dd-fd64-4ac6-950c-795c29beca19": {
+                    "name": "增加敏捷",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "3e033d4a-4518-466a-a271-d47308fab60d": {
+                    "name": "增加智力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理"
+                    ]
+                },
+                "19312c15-df5c-4d35-8ebd-8954e024e3ec": {
+                    "name": "增加体力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "9d0a6c08-5d37-4842-9aa0-bdbf158a0a62": {
+                    "name": "增加感知",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理",
+                        "生理"
+                    ]
+                },
+                "728a47d1-0908-4cc9-95ae-03c2f7db8ac0": {
+                    "name": "Appearance (Attractive, Universal)",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "from others who see your looks regardless of race"
+                        }
+                    ]
+                },
+                "0cd82206-a1e3-4959-8eb1-371cad3d7935": {
+                    "name": "超凡魅力",
+                    "tags": [
+                        "优势",
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "预言"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "领导力"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "乞讨"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "演讲"
+                            }
+                        },
+                        {
+                            "situation": "来自主动交流（对话，演说等等）的智慧生物"
+                        },
+                        {
+                            "situation": "对于影响检定"
+                        }
+                    ]
+                },
+                "38544c0b-6727-498d-98a6-830e6e6285e6": {
+                    "name": "无所畏惧",
+                    "tags": [
+                        "优势",
+                        "心理"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "充满恐惧"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "2526e200-8498-444a-a2d2-655261780b23": {
+                    "name": "魔法天赋",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "超自然"
+                    ],
+                    "features": [
+                        {},
+                        {
+                            "name": {
+                                "qualifier": "魔导学"
+                            }
+                        }
+                    ]
+                },
+                "a90fcadb-c1a0-48e7-8195-bd892e671720": {
+                    "name": "夜视",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "af42aa4c-9893-453b-b6d3-39969b2b9756": {
+                    "name": "远距离听觉",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "d1387c50-d0c6-4a1b-b488-c9d3ac42aece": {
+                    "name": "完美平衡",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "在试图保持站立或避免被击倒的 DX 投骰或基于 DX 的技能投骰上"
+                        },
+                        {
+                            "situation": "在表面湿润、滑溜的、或不稳定时的保持站立的检定上"
+                        },
+                        {
+                            "name": {
+                                "qualifier": "飞行驾驶"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "杂技"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "攀爬"
+                            }
+                        }
+                    ]
+                },
+                "7e2cdd81-c0ee-474a-a0df-b518f705ea91": {
+                    "name": "Resistant (Metabolic Hazards)",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "to all HT rolls to resist all metabolic hazards"
+                        }
+                    ]
+                },
+                "b3360987-9efb-45a1-bd6e-04380af10033": {
+                    "name": "望远视觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "aa16b14a-507e-4a17-9806-90ce7a1bb087": {
+                    "name": "迷人声线",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "外交"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "唬骗"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "模仿声音"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "表演"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "政治"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "演讲"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "性感"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "唱歌"
+                            }
+                        },
+                        {
+                            "situation": "来自任何能听到你声音的人"
+                        }
+                    ]
+                },
+                "61bb5900-7d8d-4e91-83ef-05d1195d3164": {
+                    "name": "Passing Appearance (Androgynous)",
+                    "tags": [
+                        "Perk",
+                        "生理"
+                    ],
+                    "notes": "Looks don't trigger intolerance or bias against your sex"
+                },
+                "43efc0a3-5297-4ce1-bb19-cd0911d56d3b": {
+                    "name": "清洁代谢",
+                    "tags": [
+                        "Perk",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "来自封闭的区域内的其他人"
+                        },
+                        {
+                            "situation": "试图通过气味追踪你"
+                        }
+                    ]
+                },
+                "ecb51d86-52e2-46be-a198-280fcb8e05fa": {
+                    "name": "冷酷无情",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "心理学"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "教学"
+                            }
+                        },
+                        {
+                            "situation": "来自过去的受害者以及任何具有共情的角色"
+                        },
+                        {
+                            "situation": "对于恐吓和折磨的手段来进行的审讯和威吓技能检定"
+                        }
+                    ]
+                },
+                "4b3043c3-e919-4e7a-971f-e2df84f0f9fd": {
+                    "name": "思想僵化",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "在需要创造力或发明精神的事务的检定，包括大多数艺术创作技能检定，所有用来发明的工程学技能检定，以及使用发明奇才优势的所有技能检定"
+                        }
+                    ]
+                },
+                "6c8937fb-98a2-4f20-96ae-98ee57e30b03": {
+                    "name": "沙文主义",
+                    "tags": [
+                        "心理",
+                        "Quirk"
+                    ],
+                    "features": [
+                        {
+                            "situation": "来自与你互动的对批评或侮辱敏感的人"
+                        }
+                    ]
+                },
+                "af8186df-0369-49a8-b685-7c5bcdc71838": {
+                    "name": "傲慢",
+                    "tags": [
+                        "心理",
+                        "Quirk"
+                    ],
+                    "features": [
+                        {
+                            "situation": "对于遭遇命令，侮辱，或社会蔑视"
+                        }
+                    ]
+                },
+                "9c557b97-863b-43ec-9de5-bfd42afade69": {
+                    "name": "Skill bonus (Thaumatology)",
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "魔导学"
+                            }
+                        }
+                    ]
+                },
+                "36be845b-f1d2-4115-af6e-975e3a25d376": {
+                    "name": "Select if unaging",
+                    "children": {
+                        "3d58c3f6-e7ad-48f3-a5ed-e9f50f7c346c": {
+                            "name": "不老",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

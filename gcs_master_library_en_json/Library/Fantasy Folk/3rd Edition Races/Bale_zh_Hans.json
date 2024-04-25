@@ -1,0 +1,258 @@
+{
+    "traits": {
+        "ef7ff127-4581-4c52-b067-9cc4d55c25a0": {
+            "name": "Race: Bale",
+            "children": {
+                "97fcf057-840e-476c-af4d-98712c6fa503": {
+                    "name": "增加智力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理"
+                    ]
+                },
+                "f35dd55d-fd4c-4f31-9045-60ae529ac83f": {
+                    "name": "增加体力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "ec6f17e9-045d-4712-9e2f-e662a785acc4": {
+                    "name": "Damage Resistance (Flexible; Tough Skin)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "notes": "Flexible (-20%, doesn't protect against crushing damage); Tough Skin (-40%, doesn't protect against touch or scratches)"
+                },
+                "a3f16f57-bc55-4dfc-a5ef-e5099f95eadb": {
+                    "name": "无需饮食",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "dfbec855-124b-4353-8349-703b5abe67cd": {
+                    "name": "难以杀死",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "对于你的 HP 低于负一倍时给你的生存 HT 检定，以及任何会导致你死亡的 HT 检定。如果这个奖励正好让失败变成了成功，你倒下， 并且看起来死了（或关机了），但经过一段时间之后会恢复意识。 一个成功的诊断技能检定（或对于机器而言，机修技能）会揭示你并没有死的真相。"
+                        }
+                    ]
+                },
+                "410a0092-298e-4565-b71a-f4a2cf992b23": {
+                    "name": "Immunity: Disease",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "fc45d060-1312-4ef4-9532-e023b82886d6": {
+                    "name": "Immunity: Poison",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "8612cf1d-8aed-44cb-91e6-f5c26f42f5b5": {
+                    "name": "Injury Tolerance (No blood)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "notes": "不会流血，不会被血源性毒物影响，并且对任何通过切断你身体部分血液供应造 成伤害的攻击免疫"
+                },
+                "d00bb759-d339-461d-86c8-50c1feecbdcc": {
+                    "name": "魔法天赋",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "超自然"
+                    ],
+                    "features": [
+                        {},
+                        {
+                            "name": {
+                                "qualifier": "魔导学"
+                            }
+                        }
+                    ]
+                },
+                "d87ff8ee-45ca-4447-aa0c-4aa832b234f7": {
+                    "name": "新陈代谢控制",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "45c165a6-e272-463c-84ac-1f40af3855a7": {
+                    "name": "Regeneration (recover 1 HP per hour)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "f174e2ae-22b3-4220-86f8-148dc73b9fdc": {
+                    "name": "超温耐受",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "7b08962d-8f0c-4149-bd79-17f02d30fa8c": {
+                    "name": "不老",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "87ffe555-683b-46cb-ba8d-24f113ffe267": {
+                    "name": "嗜血",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "notes": "当你需要接受投降、避开哨兵、抓俘虏的时候，你需要进行自控检定。"
+                },
+                "0b40ed32-dbc9-48ce-8b0f-fcc31ac2e68f": {
+                    "name": "Dependency (Sentient blood, illegal, monthly)",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ],
+                    "notes": "Lose 1 HP per day after missing a monthly dose, rarity occasional, illegal"
+                },
+                "2b61f9f0-88aa-4d82-bc7e-256836bc42df": {
+                    "name": "狂热（@团体或理想@）",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "8911a4ef-98f9-451d-82a4-cfa13c0f0621": {
+                    "name": "Intolerance (Anyone unlike you)",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "来自感受到你的歧视的对象（最高到 -5，GM 决定）"
+                        }
+                    ]
+                },
+                "6568844a-3854-49a4-88cb-38f44b7eab86": {
+                    "name": "狂妄自大",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "5a268308-ca11-4f64-837b-c4d4e9dcec5d": {
+                    "name": "Odious Racial Habit: Blood-drinker",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "from anyone aware you are a blood-drinking Bane"
+                        }
+                    ]
+                },
+                "a001b6f9-b24b-4a55-9d64-00ed8779bc94": {
+                    "name": "疑神疑鬼",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "来自其他人"
+                        },
+                        {
+                            "situation": "对于任何“合理的”反应减值（例如，对于不友好的种族或国籍的人）翻倍"
+                        }
+                    ]
+                },
+                "bdea2278-d92e-475c-8173-62f6a5d6b92d": {
+                    "name": "施虐狂",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "notes": "当你有机会放纵自己的欲望，并且你知道自己不应该这么做（例如，因为你接手的囚犯应该安然无恙地被释放），那么进行一个自控检定。如果你失败了，你无法克制自己。",
+                    "features": [
+                        {
+                            "situation": "来自那些发现你这一问题的人，除非他们来自一个不怎么尊重生命的文化环境"
+                        }
+                    ]
+                },
+                "00caf58d-03eb-4440-a609-456da69f6126": {
+                    "name": "Talent (Occult, but not spells)",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "天赋"
+                    ],
+                    "modifiers": {
+                        "c6ea8bca-069a-4cf8-83ed-947d27add466": {
+                            "name": "可选增益",
+                            "notes": "@可选增益@"
+                        },
+                        "1cdcb9fd-d3bb-41c7-bb49-3eb770056e9d": {
+                            "name": "可选花费"
+                        }
+                    },
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "炼金术"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "神秘学"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Rune-Lore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "魔导学"
+                            }
+                        },
+                        {
+                            "situation": "from others who appreciate your occult knowledge and ability"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "notes": {
+        "e17062b6-bc1b-449d-8576-1e95e46e2093": {
+            "text": "Race: Bale",
+            "children": {
+                "06ea33be-2f32-41df-96c0-1bb565c043d9": {
+                    "text": "Outwardly, there is very little to distinguish the Bales from any other humanoid race.  They are normally a beautiful people with glossy black hair, narrow faces and arched brows, and swarthy complexions.  They are taller than humans, but very slender (determine height and weight normally for ST, then add 6\").  Bales have two nonhuman traits - their pupils are slitted vertically, like a cat's, and their hands each have six long fingers, each with an extra joint.  Bales prefer rich but somber clothing after the human fashion.  They do not bear arms unless preparing for battle or while on a dangerous journey."
+                }
+            }
+        }
+    }
+}

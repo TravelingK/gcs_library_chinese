@@ -1,0 +1,632 @@
+{
+    "traits": {
+        "25ba3fc4-5bef-423e-8b9c-a0d89b3c9e83": {
+            "name": "Sasquatch (-98)",
+            "tags": [
+                "Bioroid"
+            ],
+            "notes": "2098; $75,000; the Society for Applied Teratology",
+            "children": {
+                "413d9c16-00be-428b-ae55-f873fc823007": {
+                    "name": "Increased ST",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "dee73aec-a2cc-4f4e-bb3b-2156bbb16a5d": {
+                            "name": "体型"
+                        },
+                        "e1a5f14c-4645-438f-80db-ca11e61d3dfa": {
+                            "name": "无操作肢"
+                        }
+                    }
+                },
+                "12f6c17b-64a7-4451-85a6-5216346d7faf": {
+                    "name": "Increased DX",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "bd887359-51b4-4d37-9da6-5e908bed857d": {
+                            "name": "无操作肢"
+                        }
+                    }
+                },
+                "9c34c67e-4440-450d-ba33-32fba0a4f4ec": {
+                    "name": "Decreased IQ",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "a89ddaf7-4835-4f7c-9252-03a7b470b07a": {
+                    "name": "Increased HT",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "eed53d3d-a284-4e8b-a2dc-7ed5534288fd": {
+                    "name": "增加感知",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理",
+                        "生理"
+                    ]
+                },
+                "a49578d8-07e9-465c-a167-82942db1fff4": {
+                    "name": "Increased Size modifier",
+                    "tags": [
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "ab6f009e-9f78-4366-a9c8-d27ea1520081": {
+                    "name": "敏锐味觉和嗅觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "5932b657-bf3e-4a7c-99f3-b747faf34f76": {
+                    "name": "Claws, Long Talons (Hands)",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "notes": "Only pay for hands or feet, not both",
+                    "weapons": {
+                        "19810dbb-ba92-4a19-aecf-232772fdfcbe": {
+                            "usage": "挥砍",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "斗殴"
+                                },
+                                {
+                                    "name": "拳击"
+                                },
+                                {
+                                    "name": "空手技击"
+                                }
+                            ]
+                        },
+                        "649def3b-c1f5-4da1-aed8-917c7953d503": {
+                            "usage": "穿刺",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "斗殴"
+                                },
+                                {
+                                    "name": "拳击"
+                                },
+                                {
+                                    "name": "空手技击"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "9ecab13a-be36-46a9-a9bb-38e5529f8d51": {
+                    "name": "伤害减免",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "3b154472-ba54-4ec1-aa53-09d3b4276e3e": {
+                            "name": "Force Field"
+                        },
+                        "56e2f167-ebad-4c0e-abd1-117973721ae7": {
+                            "name": "硬化"
+                        },
+                        "e6b6a7d3-e146-4876-9c22-8973c99a8cfa": {
+                            "name": "吸收",
+                            "notes": "增强@特质@"
+                        },
+                        "27c8022b-a241-4970-be75-7baf26a9fd64": {
+                            "name": "吸收",
+                            "notes": "仅治疗"
+                        },
+                        "74303f07-be56-46ab-9ee4-97d749aa6d9a": {
+                            "name": "吸收",
+                            "notes": "增强任意特质"
+                        },
+                        "e35ae6e1-576f-4477-b57b-60afdcb8f55a": {
+                            "name": "反射"
+                        },
+                        "34b0c841-fc06-47cc-a3fe-7f44541d0c9b": {
+                            "name": "祸根",
+                            "notes": "@罕见@"
+                        },
+                        "5948f467-75ab-4d7e-8f62-5b992348c824": {
+                            "name": "祸根",
+                            "notes": "@偶见@"
+                        },
+                        "9d048df6-07c7-41be-bd6f-fb3c02944c22": {
+                            "name": "祸根",
+                            "notes": "@常见@"
+                        },
+                        "65b9525c-75cb-4efc-b98c-3e099fef61d9": {
+                            "name": "祸根",
+                            "notes": "@非常常见@"
+                        },
+                        "eefb5c41-2734-4d72-8f58-92a0d81b5f0e": {
+                            "name": "定向",
+                            "notes": "前方"
+                        },
+                        "e49ba3bf-867e-42ea-90f3-57796bc8a3d8": {
+                            "name": "柔性"
+                        },
+                        "0fa53b63-56bc-40d3-9846-e81dc48d09c8": {
+                            "name": "限制",
+                            "notes": "@很常见攻击类型@"
+                        },
+                        "091fa552-b222-4442-b539-0332b1249152": {
+                            "name": "半剥离"
+                        },
+                        "acfd88f1-dd32-4a6e-864e-9dd5cf4adf66": {
+                            "name": "无法穿着护甲"
+                        },
+                        "1d14f744-5ed9-4aff-abc3-7fb392ca80b6": {
+                            "name": "定向",
+                            "notes": "@方向：后方、左、右、上、下@"
+                        },
+                        "41cabc3b-f0f0-429e-8887-73e5647a8d28": {
+                            "name": "限制",
+                            "notes": "@常见攻击类型@"
+                        },
+                        "75cff7f9-404d-41ee-8513-a0553c6c5723": {
+                            "name": "硬皮",
+                            "notes": "任何只需要接触皮肤的影响忽略此 DR"
+                        },
+                        "3408e055-9fc4-4589-a60a-42934e040215": {
+                            "name": "限制",
+                            "notes": "@偶见攻击类型@"
+                        },
+                        "c0141d15-90da-4c55-beb7-55dc11a15cff": {
+                            "name": "剥离"
+                        },
+                        "f63a1670-6cc6-42de-8d10-adadf3aa802d": {
+                            "name": "限制",
+                            "notes": "@罕见攻击类型@"
+                        },
+                        "5d15497c-1de9-4a36-a23e-3c66788b1135": {
+                            "name": "叠层"
+                        }
+                    }
+                },
+                "ae314174-a3e2-4df0-b0fd-aaca765c53a9": {
+                    "name": "Enhanced Move (Ground)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "817b53a2-4963-4e7a-b726-77009002384f": {
+                            "name": "操纵性加值"
+                        },
+                        "3258aad3-0cd0-4d98-8614-6d9c180fadd6": {
+                            "name": "操纵性减值"
+                        },
+                        "45729d21-2f0f-4c5b-98eb-88b79522dbcd": {
+                            "name": "牛顿力学"
+                        },
+                        "dfb554ee-86b6-40bb-9db5-6b180b66aa24": {
+                            "name": "依赖道路"
+                        },
+                        "25170385-9ceb-4637-b562-89bcc27bf3db": {
+                            "name": "全力"
+                        },
+                        "d82dff07-3dd5-4abf-a46d-3fcef7f9955f": {
+                            "name": "超元",
+                            "notes": "瞬间加速"
+                        },
+                        "a34b6868-a1ab-4aa3-aeab-b8efe6953e47": {
+                            "name": "超元",
+                            "notes": "完全机动性"
+                        }
+                    }
+                },
+                "8a7c9020-24ed-4a16-bf01-10a55f5c0f1e": {
+                    "name": "无所畏惧",
+                    "tags": [
+                        "优势",
+                        "心理"
+                    ]
+                },
+                "9466bde5-8735-4d46-9a3b-873cc78f07db": {
+                    "name": "夜视",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "0808208f-86f3-4b8c-8b9a-1efbc965c2e4": {
+                    "name": "抵抗力",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "27d70cab-aa70-408b-a4a6-f8fa9601ca4e": {
+                            "name": "@非常常见：新陈代谢危险等@"
+                        },
+                        "71324ab3-8a8f-424c-b363-045a3287c772": {
+                            "name": "@常见：毒药，病征等@"
+                        },
+                        "be1b7665-f64d-4126-bf80-b55e4e453b28": {
+                            "name": "传染病"
+                        },
+                        "e01e8f86-f7e5-4816-addb-14b1901ce221": {
+                            "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                        },
+                        "689e3839-17ce-42b0-bb92-ea14aed75431": {
+                            "name": "免疫力"
+                        },
+                        "aea8abf7-9da1-4c9d-b740-18c365cd258e": {
+                            "name": "抵抗的 HT 检定 +8"
+                        },
+                        "feb4b91a-968b-4449-a785-3e99ffc60b28": {
+                            "name": "抵抗的 HT 检定 +3"
+                        }
+                    }
+                },
+                "e51ce71e-eff4-4df8-8b4c-3f9daaf5de11": {
+                    "name": "皮毛",
+                    "tags": [
+                        "异种",
+                        "Perk",
+                        "生理"
+                    ]
+                },
+                "bf6cf1e7-4b2e-45c9-93a3-778ee58431f9": {
+                    "name": "超温耐受",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "73dff807-f5cc-4043-96ad-816175eb0ddb": {
+                    "name": "外貌",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "e0d45961-930b-49a8-888a-d52e25c7c23c": {
+                            "name": "通用"
+                        },
+                        "f10f68e7-52e4-4683-94b4-6cdd8a334c90": {
+                            "name": "审美疲劳的"
+                        },
+                        "4e5354d3-4200-4377-a39e-173a2a9b443c": {
+                            "name": "Androgynous"
+                        },
+                        "49c89c9a-e05c-4e85-b4b4-36eb589565f9": {
+                            "name": "气质吸引力"
+                        },
+                        "879533a6-9e98-4f9e-ac97-485a02996746": {
+                            "name": "有吸引力的"
+                        },
+                        "ca82e200-bfbc-4b1b-87cf-c9338e0c3a52": {
+                            "name": "普通的"
+                        },
+                        "438be66a-0659-4a8d-9138-48789575aebd": {
+                            "name": "恐怖的"
+                        },
+                        "14c344ad-e889-4550-a95f-8631ea24fe85": {
+                            "name": "畸形的"
+                        },
+                        "9d9ea3aa-c0f4-4058-87f4-036e44f9d146": {
+                            "name": "可憎的"
+                        },
+                        "c8df7265-43c9-4fd9-8c05-7dfef8804fcd": {
+                            "name": "丑陋的"
+                        },
+                        "90202ab5-a34b-4306-919e-8867ee4d060e": {
+                            "name": "无吸引力的"
+                        },
+                        "9b359495-da93-4fdf-8a78-b1193cb5dba3": {
+                            "name": "英俊的"
+                        },
+                        "635fd47f-ffa3-4739-add8-8c9c26b6a7c9": {
+                            "name": "美丽的"
+                        },
+                        "67c8f687-f080-459f-933e-eafa59d803f6": {
+                            "name": "非常英俊的"
+                        },
+                        "f703d97f-a833-421e-9fa6-e8612ab1e782": {
+                            "name": "非常美丽的"
+                        },
+                        "3a419fd5-70c7-4dea-90ff-a0cd3e6ada9c": {
+                            "name": "天姿国色"
+                        }
+                    }
+                },
+                "4a02104f-71ea-4f32-b076-94fa3f757c81": {
+                    "name": "兽性",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "心理"
+                    ]
+                },
+                "d3c9e104-cee8-45cf-85ec-98d5d8092399": {
+                    "name": "Bioroid Body",
+                    "tags": [
+                        "Bioroid",
+                        "Meta-Trait"
+                    ],
+                    "children": {
+                        "85f046b9-bef9-4b21-b520-20f47788552f": {
+                            "name": "No degeneration in zero G",
+                            "tags": [
+                                "Perk",
+                                "生理",
+                                "太空",
+                                "Upgrade"
+                            ]
+                        },
+                        "ddbb3724-0d3c-4db3-ac80-dc2d141cb299": {
+                            "name": "非正常生化机制",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "2cd9de33-db4d-440b-9eb9-a5f5447440b3": {
+                            "name": "Early maturation",
+                            "tags": [
+                                "Bioroid",
+                                "生理",
+                                "Trait",
+                                "Upgrade"
+                            ],
+                            "modifiers": {
+                                "af02ce68-71ce-4e10-a444-1856979316af": {
+                                    "name": "9 years"
+                                },
+                                "965af16a-d180-4506-acdb-6102f4c0ca5b": {
+                                    "name": "4 years"
+                                },
+                                "9a508046-04c4-4c25-a383-115884b9e340": {
+                                    "name": "2 years"
+                                },
+                                "b9287e6c-c542-4111-a303-3aecd0b8f7ff": {
+                                    "name": "1 year"
+                                },
+                                "5ebc07da-569a-4ba8-994e-91cf41dd2117": {
+                                    "name": "6 months"
+                                }
+                            }
+                        },
+                        "b41119d0-98fd-4747-917d-c647a5e078ba": {
+                            "name": "Intron messages",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "a2973c35-0170-4d63-b47f-d99e3cd3f984": {
+                            "name": "Clostely resembles others of the same model",
+                            "tags": [
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "70396aa3-7e76-4c74-82d7-983fe847bf2c": {
+                    "name": "数学盲",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "物理学"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "市场分析"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "金融"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "工程学"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "密码学"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "天文学"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "会计学"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "经济学"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "电脑编程"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "eb19e5d7-eb31-4ff1-b718-5268cc181700": {
+                    "name": "Language: @Native Language for Illiteracy@",
+                    "tags": [
+                        "优势",
+                        "语言",
+                        "心理"
+                    ],
+                    "modifiers": {
+                        "99c30de2-4983-47ba-ae8f-0e426a53ddff": {
+                            "name": "纯正的"
+                        },
+                        "4ccde5bc-3c15-4cd5-957f-54628f79b612": {
+                            "name": "口语",
+                            "notes": "一无所知"
+                        },
+                        "00f9b777-a4ce-442e-ac93-41405b1b1871": {
+                            "name": "口语",
+                            "notes": "结巴的"
+                        },
+                        "cfc8700e-353b-4075-a36d-bce3c65e934e": {
+                            "name": "口语",
+                            "notes": "有口音的"
+                        },
+                        "436eb1f3-6e7a-4c0b-a867-c5cbfd86d29f": {
+                            "name": "口语",
+                            "notes": "纯正的"
+                        },
+                        "fa875a78-109d-4242-8066-716723d9297a": {
+                            "name": "书写",
+                            "notes": "一无所知"
+                        },
+                        "634668d6-60e2-4dc5-97a0-4b6c358b752a": {
+                            "name": "书写",
+                            "notes": "结巴的"
+                        },
+                        "181f6892-f293-4576-8d96-c0f313de82e4": {
+                            "name": "书写",
+                            "notes": "有口音的"
+                        },
+                        "ad467d8f-14cf-49cb-8cc4-07682270cca3": {
+                            "name": "书写",
+                            "notes": "纯正的"
+                        }
+                    }
+                },
+                "3d5599ae-2238-4ec0-a366-27b8a881598f": {
+                    "name": "Shyness",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "modifiers": {
+                        "2b738935-ad02-4eb6-99b2-98c2d1c68350": {
+                            "name": "轻度"
+                        },
+                        "96ef62dc-3413-477b-a8e0-30fb2ad73002": {
+                            "name": "重度"
+                        },
+                        "e1d7e303-1b42-4db0-af20-3a8e05bc43e2": {
+                            "name": "残疾"
+                        }
+                    },
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "做戏"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "宴饮"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "外交"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "唬骗"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "威吓"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "领导力"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "商人"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "乞讨"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "表演"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "政治"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "演讲"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "礼仪"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "性感"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "黑街"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "教学"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

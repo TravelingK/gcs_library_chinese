@@ -1,0 +1,622 @@
+{
+    "traits": {
+        "b55f4c6b-a22c-4fa4-be5b-4d29d82da6ad": {
+            "name": "Chiroptian",
+            "tags": [
+                "Parahuman",
+                "太空"
+            ],
+            "notes": "2077; $167,000; Biotech Euphrates",
+            "children": {
+                "dd74e968-1158-408d-814c-bb2d76e948b4": {
+                    "name": "Decreased ST",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "生理"
+                    ]
+                },
+                "6ab6702c-7e0b-44ff-88ea-3a014684aaad": {
+                    "name": "Increased DX",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "db4f0844-d803-4a26-8161-727cfc05e22c": {
+                            "name": "无操作肢"
+                        }
+                    }
+                },
+                "22662abc-c04f-4ae6-aae9-51ff05fe9521": {
+                    "name": "绝对方向感",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "c545d3c7-5a55-4a6b-b7f6-f9a1b0e0b751": {
+                            "name": "需求信号"
+                        },
+                        "8499277f-f2b9-4121-a3cf-5e741f07fe1e": {
+                            "name": "三维空间感",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "飞行驾驶"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "空中杂技"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "自由落体"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "超空间"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "太空"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "稳定身形"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "空中"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "陆地"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "海上"
+                            }
+                        }
+                    ]
+                },
+                "99a247b5-b6fe-45ac-962b-369ec87f9e57": {
+                    "name": "敏锐听觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "cfb8954d-d53f-439b-afa8-82c78c328f25": {
+                    "name": "敏锐味觉和嗅觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "20b1711e-3bd8-4329-b47b-fd40f14bf381": {
+                    "name": "Claws, Sharp",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "weapons": {
+                        "d93aef44-480b-4553-bfee-534ae88ed408": {
+                            "usage": "挥砍",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "斗殴"
+                                },
+                                {
+                                    "name": "拳击"
+                                },
+                                {
+                                    "name": "空手技击"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "5c9b4098-5496-4060-8715-240b9c3d4273": {
+                    "name": "寿命延长",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "ac2b6a4e-37c6-43d5-b0e7-83dc4d98dd62": {
+                    "name": "无需呼吸",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "79646d5d-b34f-4e34-836e-12078174f818": {
+                            "name": "鳃"
+                        },
+                        "127f4a75-f75e-4ab2-89a5-356f4ba1e5b1": {
+                            "name": "鳃",
+                            "notes": "在空气中窒息"
+                        },
+                        "1498bf3c-e203-40fe-98b7-b7911beee7c5": {
+                            "name": "吸收氧气"
+                        },
+                        "2ba0850d-7b24-4528-a132-b130d8485f85": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 25 倍"
+                        },
+                        "146d0748-ab8b-4d59-ac57-7bb5a6f2eda6": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 50 倍"
+                        },
+                        "b86c76fa-60a7-4572-9d74-453d7415d726": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 100 倍"
+                        },
+                        "d19d3cbc-eaf5-4ed7-aa9a-66dc47d84131": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 200 倍"
+                        },
+                        "c700336d-9651-4716-aa2e-6b33f65fc8cb": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 300 倍"
+                        },
+                        "9efe20eb-1ad9-418c-b020-999b2ce35831": {
+                            "name": "燃烧氧气"
+                        }
+                    }
+                },
+                "a5221186-beb6-46ec-b41f-5a2803de9ab5": {
+                    "name": "额外手臂",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "ad3f4956-0a02-47b2-848a-82b45d730e2e": {
+                            "name": "非常灵活"
+                        },
+                        "613fb494-e8dd-43ec-9f87-0e718b045ca5": {
+                            "name": "最大"
+                        },
+                        "27242ae3-6d21-49d0-8a2f-b96a7f80c577": {
+                            "name": "以脚为手"
+                        },
+                        "462cfa4f-9cc7-4ff8-99c5-b70ff81a801f": {
+                            "name": "不能进行物理攻击"
+                        },
+                        "127f334d-b8d4-4502-92cc-3802b0a6bd53": {
+                            "name": "短"
+                        },
+                        "9d3d685e-38b5-4cba-94a0-de7b76d14f2a": {
+                            "name": "弱",
+                            "notes": "只有一半力量"
+                        },
+                        "66775ba5-9090-4c77-8c23-b10a7ba08123": {
+                            "name": "弱",
+                            "notes": "只有 1/4 力量"
+                        },
+                        "1e8604b7-04dc-40c9-adc9-518c4d5a3d58": {
+                            "name": "武器座"
+                        }
+                    }
+                },
+                "638f1da7-ed5f-4444-9eda-1301ee2b3ff4": {
+                    "name": "飞行",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "2be9981b-a882-42af-8f64-32cd67ba19ce": {
+                            "name": "牛顿力学式太空飞行"
+                        },
+                        "f4b008b9-1f7e-40d9-a9bf-9ee39ad3fc1d": {
+                            "name": "太空飞行"
+                        },
+                        "8a09e88a-ec89-4a9c-81cf-1fcef2d9f2fd": {
+                            "name": "不能悬停"
+                        },
+                        "50aeec02-752f-484f-b1c3-1e9d6a65db4f": {
+                            "name": "可控滑翔"
+                        },
+                        "ff05ad40-e317-49d3-8a61-7298a560f105": {
+                            "name": "滑翔"
+                        },
+                        "57182d0d-bc65-4c6e-90ce-b1e199974efd": {
+                            "name": "轻于空气"
+                        },
+                        "a4c94d18-99ed-49eb-882b-7804ef147e65": {
+                            "name": "低上限",
+                            "notes": "30 英尺"
+                        },
+                        "aa6dc36a-1ab8-4d0e-be84-60a92e137720": {
+                            "name": "低上限",
+                            "notes": "10 英尺"
+                        },
+                        "5e1714d5-2ef7-4a34-bfbe-c1fa231aba5b": {
+                            "name": "低上限",
+                            "notes": "5 英尺"
+                        },
+                        "edb9e071-440a-419d-ac01-96bbbfdf1662": {
+                            "name": "小翅膀"
+                        },
+                        "3a6008a2-d547-4ccf-87cf-f24cd49ba9a5": {
+                            "name": "仅限太空飞行"
+                        },
+                        "35bfbe72-2652-41a8-9a77-7c61a4043433": {
+                            "name": "大翼"
+                        },
+                        "098f9078-fec8-4ff0-8b98-75290558954a": {
+                            "name": "行星"
+                        },
+                        "a55cc3e4-9da9-4d2d-9667-66de4ee7d93d": {
+                            "name": "需要表面"
+                        },
+                        "6e3c8be3-2025-4668-a0e4-5937f60ac84c": {
+                            "name": "Requires Low Gravity: 0.35 G"
+                        },
+                        "d5865cba-6045-4248-a6cd-2e1de875f5c4": {
+                            "name": "Temporary Disadvantage: No Fine Manipulators"
+                        }
+                    }
+                },
+                "0277250e-54ca-4ec1-bf8e-8c2ef8f80d98": {
+                    "name": "长寿",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "c9e77f9c-89af-4afa-9889-4baacbac9c1e": {
+                    "name": "辐射耐受力",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "8fbe5fc9-11a1-4496-b4a0-54f19d6294de": {
+                            "name": "拓展效果",
+                            "notes": "@类型@"
+                        },
+                        "f51b738b-a328-4241-ba99-bd3b3ac1d7a8": {
+                            "name": "PF: 2"
+                        },
+                        "02beede4-24a6-450a-8b8a-1bc863b85a16": {
+                            "name": "PF: 5"
+                        },
+                        "264a829f-d491-4aa2-9745-75c6080f6e6f": {
+                            "name": "PF: 10"
+                        },
+                        "82bbc80b-818f-48e1-94bf-1da7a1790426": {
+                            "name": "PF: 20"
+                        },
+                        "97cf6ada-0050-48b0-ab15-975aa4f4f7e8": {
+                            "name": "PF: 50"
+                        },
+                        "09a656eb-1607-4085-9988-357ab1dad502": {
+                            "name": "PF: 100"
+                        },
+                        "633b39a0-eb17-4a79-b7ab-c620c6a144c3": {
+                            "name": "PF: 200"
+                        },
+                        "61f7a7d7-c701-457d-b8f5-9d349f17f3dd": {
+                            "name": "PF: 500"
+                        },
+                        "d4346615-fe37-451e-afa2-0abaa96a51d3": {
+                            "name": "PF: 1000"
+                        }
+                    }
+                },
+                "b6928348-b6d8-4c63-bf7f-7bedb31b6d9a": {
+                    "name": "抵抗力",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "e09b3787-4a29-440f-be88-d7754e3f6499": {
+                            "name": "@非常常见：新陈代谢危险等@"
+                        },
+                        "a3e75223-b9b6-4693-b18e-8b0e5ed07028": {
+                            "name": "@常见：毒药，病征等@"
+                        },
+                        "41ad03a1-1fb3-4204-bae3-5bc2dace24f1": {
+                            "name": "传染病"
+                        },
+                        "881eb2f0-68ea-488a-b534-0f89ea687a73": {
+                            "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                        },
+                        "c3fbae0b-3ed4-4a17-a8a6-f85d485cbecd": {
+                            "name": "免疫力"
+                        },
+                        "075218d8-4def-42d8-aa86-80cb0d14c616": {
+                            "name": "抵抗的 HT 检定 +8"
+                        },
+                        "7d810f2a-5261-48b1-8c7e-27e9fdfce525": {
+                            "name": "抵抗的 HT 检定 +3"
+                        }
+                    }
+                },
+                "d2c2053b-015f-4985-9891-a8f2220e6c0c": {
+                    "name": "扫描式感官",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "225bf000-d4fb-4a46-a91e-f3019bf57655": {
+                            "name": "成像雷达"
+                        },
+                        "b891c5e7-f85a-47e1-9476-7bc724c9a109": {
+                            "name": "雷达"
+                        },
+                        "8517f171-788d-49b9-aba0-4f7d00f50ac9": {
+                            "name": "激光雷达"
+                        },
+                        "63c1cfde-3d50-45b4-91d2-f863cc7fe930": {
+                            "name": "超雷达"
+                        },
+                        "2a45f5ab-bc45-43a8-af6c-9e71ce65d45a": {
+                            "name": "声纳"
+                        },
+                        "a4aad414-1237-487d-9388-30575282e5be": {
+                            "name": "扩大扇形",
+                            "notes": "240°"
+                        },
+                        "a537c1b2-4fa2-41f5-87b4-7e29efafb6e5": {
+                            "name": "扩大扇形",
+                            "notes": "360°"
+                        },
+                        "b3067d1c-b4d0-40c7-b065-857a09ea048f": {
+                            "name": "低截获率"
+                        },
+                        "53baf5e4-2476-4a9f-9f78-828f4157babd": {
+                            "name": "多模式"
+                        },
+                        "518fa628-ce72-4c26-8f2e-5eb997eb0ac0": {
+                            "name": "穿透"
+                        },
+                        "4dad3d98-af8e-476a-bf51-a6f5111c6855": {
+                            "name": "定位"
+                        },
+                        "7b96cf26-93db-4cf4-919e-f24e1cde54d6": {
+                            "name": "只能定位"
+                        },
+                        "d6ae14a5-3f6c-4d2f-9502-1ac9dd076378": {
+                            "name": "需激活红外线"
+                        },
+                        "8cda76fb-7e7a-416a-99fb-ab1392f98e6e": {
+                            "name": "T 射线视觉"
+                        },
+                        "407458d0-5d18-4322-a0e7-0a403bcdf3d5": {
+                            "name": "生理扫描"
+                        },
+                        "b2c4c24c-ef4b-4061-b56f-ab2667492a7e": {
+                            "name": "无法拦截"
+                        },
+                        "02948cb1-c2ac-4826-8c76-1311e2aae294": {
+                            "name": "扫描器"
+                        },
+                        "7619d04e-e396-4cd8-993d-a41783757199": {
+                            "name": "场感官"
+                        }
+                    }
+                },
+                "737a1c22-0c99-4fd4-b7f3-fd0f0bafdbc9": {
+                    "name": "Teeth, Sharp",
+                    "tags": [
+                        "异种",
+                        "Perk",
+                        "生理"
+                    ],
+                    "weapons": {
+                        "cb8ab430-b091-474f-81a4-62cba6bcd92a": {
+                            "usage": "啃咬",
+                            "defaults": [
+                                {
+                                    "name": "斗殴"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "3a0bf1ed-a9a1-4d12-aebe-bfcc2f89d1e7": {
+                    "name": "超声波听觉",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "78b407d7-16be-497c-87b4-d88b53d7ae65": {
+                            "name": "无正常听力"
+                        }
+                    }
+                },
+                "f4f9ab60-0b2d-41ee-8f83-3399163adc87": {
+                    "name": "皮毛",
+                    "tags": [
+                        "异种",
+                        "Perk",
+                        "生理"
+                    ]
+                },
+                "57c154a3-e93b-473b-b6d0-c382870ee8fb": {
+                    "name": "No degeneration in zero G",
+                    "tags": [
+                        "Perk",
+                        "生理",
+                        "太空",
+                        "Upgrade"
+                    ]
+                },
+                "a164dca3-db22-4447-be65-67db4f943945": {
+                    "name": "瘦",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ],
+                    "notes": "-2 ST vs. knockback",
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "易容"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "尾随"
+                            }
+                        }
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "qualifier": {
+                                    "qualifier": "14"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "6fcb3d33-93c4-45c0-bb2a-6769cb6d527e": {
+                    "name": "Unnatural Features (Bat-like face)",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "易容"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "尾随"
+                            }
+                        }
+                    ]
+                },
+                "76125d5a-76dc-48ef-82a5-879374a79842": {
+                    "name": "非正常生化机制",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ]
+                },
+                "f88777de-b7c0-495a-8563-864682c452dc": {
+                    "name": "易伤",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "5860f918-cc31-4385-957d-601f42fff159": {
+                            "name": "@罕见攻击@"
+                        },
+                        "f2e99e44-1fd7-40bb-a112-794621a454b5": {
+                            "name": "@偶见攻击@"
+                        },
+                        "f8da973d-8c68-4e0d-ba10-05c5196f1dd7": {
+                            "name": "Crushing damage"
+                        },
+                        "6de9b9f6-7233-453e-93d8-08f31275d573": {
+                            "name": "@非常常见攻击@"
+                        },
+                        "86d61f4c-48d2-4544-9f06-0f981925c651": {
+                            "name": "伤害 x2"
+                        },
+                        "7efc80a8-1c40-4595-a28a-489e4e00c523": {
+                            "name": "伤害 x3"
+                        },
+                        "f60563bf-16d0-4c4f-8a34-2ce6089aa12b": {
+                            "name": "伤害 x4"
+                        },
+                        "5a8b4718-adce-470e-b3c6-3b7119153f4f": {
+                            "name": "仅限体力"
+                        }
+                    }
+                },
+                "48c1abad-8089-4d99-83e6-b3000e91ab06": {
+                    "name": "Early maturation",
+                    "tags": [
+                        "Bioroid",
+                        "生理",
+                        "Trait",
+                        "Upgrade"
+                    ],
+                    "modifiers": {
+                        "678ed374-f364-43a3-9d2d-e60012e0b744": {
+                            "name": "1: 9 years"
+                        },
+                        "aafc89d6-6086-4773-8731-2e3a31e94a71": {
+                            "name": "2: 4 years"
+                        },
+                        "eff3c532-765e-49ff-985c-01cbeb0842d8": {
+                            "name": "3: 2 years"
+                        },
+                        "0e5c4248-b6ac-4b54-90ae-d4cfef460e70": {
+                            "name": "4: 1 year"
+                        },
+                        "2ac726fb-da3c-418e-a3f7-edfd1ebea1df": {
+                            "name": "5: 6 months"
+                        }
+                    }
+                },
+                "93144212-ad64-4a1a-b7c4-5f9b93e63c8f": {
+                    "name": "Taboo trait: Genetic defects",
+                    "tags": [
+                        "生理",
+                        "Trait",
+                        "Upgrade"
+                    ]
+                },
+                "bee87baf-eb87-427f-9706-21ed3ef156d1": {
+                    "name": "Weight is 50% of norm for their height",
+                    "tags": [
+                        "生理"
+                    ]
+                }
+            }
+        }
+    }
+}

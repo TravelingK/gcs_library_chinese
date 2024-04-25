@@ -1,0 +1,281 @@
+{
+    "traits": {
+        "212b4fcc-74d1-42f5-a309-edac9740a150": {
+            "name": "Forest or Jungle Training",
+            "children": {
+                "05d5cf5d-f09b-42d7-8a0f-8931753e3334": {
+                    "name": "天赋（生存专家）",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "天赋"
+                    ],
+                    "modifiers": {
+                        "b710433f-974c-4c0b-b983-78628dffeb4e": {
+                            "name": "Reaction Bonus",
+                            "notes": "Explorers and nature lovers"
+                        },
+                        "92cea266-7e0b-4579-870c-53faba291e79": {
+                            "name": "可选增益",
+                            "notes": "在天赋对应的技能检定失败后的避免遭受伤害的 HT 检定上获得加值"
+                        },
+                        "0bc67a4e-9220-4609-a8fe-fadb567b917d": {
+                            "name": "可选花费"
+                        }
+                    },
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "伪装"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "捕鱼"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "拟音"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "博物学"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "生存"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "追踪"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "skills": {
+        "04562adb-8803-4331-acb2-d6d24cff3e0c": {
+            "name": "Forest or Jungle Training",
+            "children": {
+                "4066a95f-c3b1-47f4-bcf8-3e0ed9254e39": {
+                    "name": "伪装",
+                    "tags": [
+                        "探索",
+                        "军事",
+                        "户外"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "生存"
+                        }
+                    ]
+                },
+                "03360d02-a421-4939-bfe9-065ddb639aa3": {
+                    "name": "远足",
+                    "tags": [
+                        "运动",
+                        "探索",
+                        "户外"
+                    ]
+                },
+                "0aa36b71-b66d-4b48-8a50-277c0c7381da": {
+                    "name": "导航",
+                    "tags": [
+                        "探索",
+                        "户外",
+                        "技术",
+                        "载具"
+                    ],
+                    "specialization": "地面",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "制图"
+                        },
+                        {
+                            "name": "数学",
+                            "specialization": "测量学"
+                        },
+                        {
+                            "name": "导航",
+                            "specialization": "空中"
+                        },
+                        {
+                            "name": "导航",
+                            "specialization": "海上"
+                        }
+                    ]
+                },
+                "a83b693a-3630-47d2-a813-cef84672cfdc": {
+                    "name": "潜行",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ]
+                },
+                "d315f392-e4eb-431c-a567-7ed8a20ede34": {
+                    "name": "追踪",
+                    "tags": [
+                        "探索",
+                        "户外"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "6e0b8a8f-2306-4a16-9dd0-835accb0a50a": {
+                    "name": "One of these options",
+                    "children": {
+                        "8a72e694-9b00-407e-9c28-93dee004768c": {
+                            "name": "Forest",
+                            "children": {
+                                "c5773c38-fe4f-4531-bb64-c04177161896": {
+                                    "name": "Axe/Mace",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Two-Handed Axe/Mace"
+                                        },
+                                        {
+                                            "name": "Flail"
+                                        }
+                                    ]
+                                },
+                                "62cfcba3-4a62-4c2e-8341-50330462bda5": {
+                                    "name": "生存",
+                                    "tags": [
+                                        "探索",
+                                        "户外"
+                                    ],
+                                    "specialization": "林地",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "博物学"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "极地"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "沙漠"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "岛屿/海滩"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "丛林"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "山地"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "平原"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "沼泽"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "a2db1edc-9057-45b5-904b-7d8d34af886b": {
+                            "name": "丛林",
+                            "children": {
+                                "b99f01bb-d3b1-4e72-9187-bde46a548a29": {
+                                    "name": "Knife",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "能量剑"
+                                        },
+                                        {
+                                            "name": "Main-Gauche"
+                                        },
+                                        {
+                                            "name": "Shortsword"
+                                        }
+                                    ]
+                                },
+                                "cbbb7cc9-b6bb-4e72-afad-804ba19246d1": {
+                                    "name": "生存",
+                                    "tags": [
+                                        "探索",
+                                        "户外"
+                                    ],
+                                    "specialization": "丛林",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "博物学"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "极地"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "沙漠"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "山地"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "平原"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "沼泽"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "岛屿/海滩"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "林地"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

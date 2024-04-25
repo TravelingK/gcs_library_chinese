@@ -1,0 +1,365 @@
+{
+    "traits": {
+        "21a0ac30-921e-4b9a-a388-9d3ff628ec55": {
+            "name": "Hatchling Western Dragon",
+            "children": {
+                "76992dd2-d4c9-43e5-91d5-4433a464e931": {
+                    "name": "Claws, Sharp (Feet)",
+                    "tags": [
+                        "生理"
+                    ],
+                    "weapons": {
+                        "fdcda36b-14f9-4abc-9fa0-f55f3ce9b01d": {
+                            "usage": "Kick",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "斗殴"
+                                },
+                                {
+                                    "name": "空手技击"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "bb4cfbcb-726f-409d-be5a-69255b5701ec": {
+                    "name": "Claws, Sharp (Hands)",
+                    "tags": [
+                        "生理"
+                    ],
+                    "weapons": {
+                        "5a5286f0-1168-4f90-8475-3e3819f5f06d": {
+                            "usage": "挥砍",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "斗殴"
+                                },
+                                {
+                                    "name": "拳击"
+                                },
+                                {
+                                    "name": "空手技击"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "a33e7b9b-1241-4cbf-99f3-78add2c12370": {
+                    "name": "伤害减免",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "3052be39-87cb-48b4-9959-7fdffb81fe9c": {
+                            "name": "剥离"
+                        },
+                        "ba73792d-f0d1-46de-8585-3305c306eb5b": {
+                            "name": "吸收",
+                            "notes": "增强@特质@"
+                        },
+                        "0899f4fc-fd7c-41b1-bada-a3acc5bc7c82": {
+                            "name": "吸收",
+                            "notes": "增强任意特质"
+                        },
+                        "75a1ca03-5344-431c-9984-59775732ee89": {
+                            "name": "吸收",
+                            "notes": "仅治疗"
+                        },
+                        "f9f4fa64-2b99-4b21-a812-9b97246ff027": {
+                            "name": "无法穿着护甲"
+                        },
+                        "82a5ab7b-0c22-4b62-8a03-ffba260ac16c": {
+                            "name": "定向",
+                            "notes": "@方向：后方、左、右、上、下@"
+                        },
+                        "87e01043-d979-4f3f-ae82-0aabdea81958": {
+                            "name": "定向",
+                            "notes": "前方"
+                        },
+                        "6476d93e-9af0-44f4-ac42-2d78f898c59e": {
+                            "name": "柔性"
+                        },
+                        "031b59b1-2846-4571-b3f2-f008f64fc1bd": {
+                            "name": "硬化"
+                        },
+                        "aeaf5717-ef13-4422-a41c-ea1d26ffb755": {
+                            "name": "限制",
+                            "notes": "@常见攻击类型@"
+                        },
+                        "0c883c07-4d73-446f-8b2b-aee7e85215c9": {
+                            "name": "限制",
+                            "notes": "@偶见攻击类型@"
+                        },
+                        "bd83164a-e9e0-489e-a6ad-81027dd5a040": {
+                            "name": "限制",
+                            "notes": "@罕见攻击类型@"
+                        },
+                        "0017067a-9b49-4b05-a86e-1b9498e9d7e8": {
+                            "name": "限制",
+                            "notes": "@很常见攻击类型@"
+                        },
+                        "827a027d-5504-44b6-aac7-3bbba8c286d0": {
+                            "name": "反射"
+                        },
+                        "220d014c-9073-4249-b856-c4c4427a2e4e": {
+                            "name": "半剥离"
+                        },
+                        "dfc1e986-dd98-4413-a944-957e15fa4790": {
+                            "name": "硬皮"
+                        }
+                    }
+                },
+                "f93a004c-c462-4759-b31b-9ff33adf1f40": {
+                    "name": "减少敏捷",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "f5fbedac-bf20-4bc9-926f-ba791ce036fe": {
+                    "name": "增加体力",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "6a527002-c85e-466c-a033-8a33db45f6e4": {
+                    "name": "增加力量",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "58a525fc-ad2a-433b-ab93-4de95d173925": {
+                    "name": "Innate Attack (Burn) 1d",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "f253f43b-2629-441a-9f50-353e9fd2f2eb": {
+                            "name": "Cone, 1yd"
+                        },
+                        "643d0301-ebe8-435c-b218-0365fa7c5769": {
+                            "name": "消耗 FP"
+                        },
+                        "0c30ee6d-4ecf-4bb0-82a1-9609bc469f34": {
+                            "name": "Reduced Range ×1/10"
+                        }
+                    },
+                    "weapons": {
+                        "63ab2366-9686-44b7-bd75-02e5c9e9abd5": {
+                            "usage": "吐息",
+                            "defaults": [
+                                {
+                                    "name": "固有攻击",
+                                    "specialization": "吐息"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "eb647aaf-0c3c-4dbc-b605-5d748003faad": {
+                    "name": "Reduced Air Move",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "50c73b9d-8861-41c7-bf84-4cc4dc600240": {
+                    "name": "Reduced Basic Move",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "43e01eb1-bebe-442e-a0bb-28fd7e4f56cc": {
+                    "name": "Short Arms",
+                    "tags": [
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "b6ef60f4-b7f3-4385-81c0-8c4852f26b3f": {
+                            "name": "独臂"
+                        }
+                    }
+                },
+                "2a2ce885-b021-4567-9938-e09c13fd2416": {
+                    "name": "Teeth, Sharp",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ],
+                    "weapons": {
+                        "41f60bc5-5097-49dc-a142-f60f352e044a": {
+                            "usage": "啃咬",
+                            "defaults": [
+                                {
+                                    "name": "斗殴"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "02947120-9104-4bc5-b5b0-29df1d359f37": {
+                    "name": "Western Dragon",
+                    "children": {
+                        "ca748335-c818-422e-bf02-297bb698679c": {
+                            "name": "握力不良",
+                            "tags": [
+                                "生理"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "无操作肢"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "899f719b-e87e-4d76-929a-6f022dfe5834": {
+                            "name": "飞行",
+                            "tags": [
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "b70a39d2-9cf4-4652-b613-f00398c82bc1": {
+                                    "name": "牛顿力学式太空飞行"
+                                },
+                                "a48bf06e-54d1-4d73-b41a-2de1d546d4b3": {
+                                    "name": "太空飞行"
+                                },
+                                "a5fc9983-a6fa-425a-b4f6-52063494747b": {
+                                    "name": "不能悬停"
+                                },
+                                "741cb579-4678-4dcc-ad35-25e7acdacfae": {
+                                    "name": "可控滑翔"
+                                },
+                                "5ccc4314-bf69-4e4b-8168-3367a6dc2e74": {
+                                    "name": "滑翔"
+                                },
+                                "f5f61a26-7af8-451e-b5e5-a9381cc834a9": {
+                                    "name": "轻于空气"
+                                },
+                                "b731551b-4dce-4ada-a935-fe875055e75c": {
+                                    "name": "低上限",
+                                    "notes": "30 英尺"
+                                },
+                                "e35a383c-e8a9-4899-a2b3-a3e0671dced0": {
+                                    "name": "低上限",
+                                    "notes": "10 英尺"
+                                },
+                                "4800ce3e-baf6-4935-8a55-a084e2af9b7f": {
+                                    "name": "低上限",
+                                    "notes": "5 英尺"
+                                },
+                                "750fb759-efb7-482e-b172-38a431be37dd": {
+                                    "name": "小翅膀"
+                                },
+                                "f16bfe15-faeb-4a0f-8a78-039c0f956bbf": {
+                                    "name": "仅限太空飞行"
+                                },
+                                "a875e362-0f77-4c90-aa77-2d0e4c178fee": {
+                                    "name": "大翼"
+                                }
+                            }
+                        },
+                        "8a88bf2d-0d2b-4c76-86fe-fc2056426d00": {
+                            "name": "高痛阈",
+                            "tags": [
+                                "生理"
+                            ],
+                            "notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture"
+                        },
+                        "08cd1804-5f27-4479-ad8f-8527107099a2": {
+                            "name": "非直立",
+                            "tags": [
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "9bb6eb23-baf0-4b09-8c14-6bd783a01264": {
+                            "name": "增加感知",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "ad2888d1-e734-4ad5-b5b7-134fb7d846f0": {
+                            "name": "瞬膜",
+                            "tags": [
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "f11fa124-733b-443a-bc33-33c11dc66840": {
+                            "name": "夜视",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "3d7fd4e7-5456-40b7-b784-15b036716fa2": {
+                            "name": "抵抗力",
+                            "tags": [
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "5ed37adc-73ad-49b2-8518-46bfb751cdce": {
+                                    "name": "@非常常见：新陈代谢危险等@"
+                                },
+                                "0b50e02c-1dd1-4b25-8d52-ad0563ef33e4": {
+                                    "name": "@常见：毒药，病征等@"
+                                },
+                                "1ca0aaca-5724-4cef-b021-e12f45e56d62": {
+                                    "name": "传染病"
+                                },
+                                "78a97127-ce6f-47d4-9f89-05210cb4f21d": {
+                                    "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                                },
+                                "5bb94d15-af0f-4b70-9ff2-44f2ac0a02f0": {
+                                    "name": "免疫力"
+                                },
+                                "569cf277-bf3f-499b-b54b-ab9900ddea3d": {
+                                    "name": "抵抗的 HT 检定 +8"
+                                },
+                                "078ecaac-98f3-4fdf-9d20-d7a0417f6f4b": {
+                                    "name": "抵抗的 HT 检定 +3"
+                                }
+                            }
+                        },
+                        "da19d190-0e91-4817-99c1-ca3cd10bb1d9": {
+                            "name": "超温耐受",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "0bf69096-790a-41d5-959a-5b5a6d83d4c3": {
+                            "name": "不老",
+                            "tags": [
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "7964689a-db55-4f56-805d-af7516cbb8e0": {
+                                    "name": "年龄控制"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "91a55a25-6bca-4af0-8907-82fc0441f8ed": {
+            "name": "固有攻击",
+            "specialization": "吐息",
+            "defaults": [
+                {},
+                {
+                    "name": "固有攻击"
+                }
+            ]
+        }
+    }
+}

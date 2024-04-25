@@ -1,0 +1,327 @@
+{
+    "traits": {
+        "7fbe277c-e278-46d4-95bb-93105b66ebe9": {
+            "name": "Drakarans",
+            "children": {
+                "f807b80c-def1-428e-8c50-a5756eb09a88": {
+                    "name": "Racial Primary Modifiers",
+                    "children": {
+                        "7c4cf637-d6ed-41a7-b259-5cc932aa9e96": {
+                            "name": "增加力量",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "fc2b398f-467b-4c36-857b-98087975f0c4": {
+                                    "name": "无操作肢"
+                                },
+                                "89e24b12-233b-4ad9-a77a-934e7bc640f7": {
+                                    "name": "体型"
+                                },
+                                "4f3a7bdb-ed81-4735-87e8-d9eaeb4856c7": {
+                                    "name": "超级出力"
+                                }
+                            }
+                        },
+                        "361d7638-e48c-4044-b106-f950a1a9a36d": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "7995821b-26ae-4d91-8641-a081d619303d": {
+                    "name": "Racial Advantages",
+                    "children": {
+                        "98b014c5-0637-4783-a6f6-e1be22da6e28": {
+                            "name": "敏锐味觉和嗅觉",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "4779c48a-1341-4f97-a3e5-f2b1aab492ce": {
+                            "name": "利爪",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "weapons": {
+                                "b2b32ddf-5290-4d89-97f5-601f860c7c75": {
+                                    "usage": "挥砍",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "斗殴"
+                                        },
+                                        {
+                                            "name": "拳击"
+                                        },
+                                        {
+                                            "name": "空手技击"
+                                        }
+                                    ]
+                                },
+                                "3efce05f-458c-45ac-8b19-03063c261463": {
+                                    "usage": "Kick",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "空手技击"
+                                        },
+                                        {
+                                            "name": "斗殴"
+                                        }
+                                    ]
+                                },
+                                "a7382e5d-95af-45b8-bf4a-9933f85069e7": {
+                                    "usage": "Punch"
+                                }
+                            }
+                        },
+                        "1d4832d5-10a0-4c63-9841-b339975574b6": {
+                            "name": "无需睡眠",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "ca2a8abe-44da-44b6-b0ce-9b07635755ba": {
+                                    "name": "Modifier",
+                                    "notes": "Must enter \"the Stalking\" once every 20 days."
+                                }
+                            }
+                        },
+                        "01f6cb8d-674c-47b9-b6e1-c15d632dbaf8": {
+                            "name": "伤害减免",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "99f347af-5a7d-4e03-8fa6-354c1b3be628": {
+                                    "name": "Force Field"
+                                },
+                                "6d5e581e-2ac6-47f9-9746-57b1578a54d6": {
+                                    "name": "硬化"
+                                },
+                                "63e18da9-5ec6-4e2c-a84b-1f4b0112296d": {
+                                    "name": "吸收",
+                                    "notes": "增强@特质@"
+                                },
+                                "0f5abc84-8c72-4a27-be2a-72557c20b215": {
+                                    "name": "吸收",
+                                    "notes": "仅治疗"
+                                },
+                                "8d306493-ed04-4c3d-8de7-a5cc3229e4cf": {
+                                    "name": "吸收",
+                                    "notes": "增强任意特质"
+                                },
+                                "44c6c252-d9e3-4d0a-86d6-a1961e19e824": {
+                                    "name": "反射"
+                                },
+                                "dbfec1c4-11da-459c-a738-e7221bb1cc41": {
+                                    "name": "祸根",
+                                    "notes": "@罕见@"
+                                },
+                                "991759b5-cf27-46c5-950a-b1b825c03a91": {
+                                    "name": "祸根",
+                                    "notes": "@偶见@"
+                                },
+                                "af76bad4-38bd-4cc9-82c0-6c3389f90649": {
+                                    "name": "祸根",
+                                    "notes": "@常见@"
+                                },
+                                "c98ec7b1-005b-42a9-8896-4edb428b3c92": {
+                                    "name": "祸根",
+                                    "notes": "@非常常见@"
+                                },
+                                "3db2984d-c958-43f2-8c92-9f858970c70d": {
+                                    "name": "定向",
+                                    "notes": "前方"
+                                },
+                                "acb5beec-1a89-4d9e-aa95-06332a8162a1": {
+                                    "name": "柔性"
+                                },
+                                "3596febb-4f12-4684-a699-a14232f1b2a3": {
+                                    "name": "限制",
+                                    "notes": "@很常见攻击类型@"
+                                },
+                                "39992d3c-6052-4b8f-a34d-446662b487cb": {
+                                    "name": "半剥离"
+                                },
+                                "1a2f79d1-4779-4e79-a7cc-0db3197ec106": {
+                                    "name": "无法穿着护甲"
+                                },
+                                "6af90638-9b98-4db7-90e0-38a1d5df7c3c": {
+                                    "name": "定向",
+                                    "notes": "@方向：后方、左、右、上、下@"
+                                },
+                                "61cfd4a3-2d2a-4a45-8b95-8b82fb8dfb63": {
+                                    "name": "限制",
+                                    "notes": "@常见攻击类型@"
+                                },
+                                "26727c88-9333-4cb5-ae0a-0b8ad6dc600a": {
+                                    "name": "硬皮",
+                                    "notes": "任何只需要接触皮肤的影响忽略此 DR"
+                                },
+                                "01c2d002-f521-47fa-b8f0-f8508ea5aed1": {
+                                    "name": "限制",
+                                    "notes": "@偶见攻击类型@"
+                                },
+                                "c52c2e67-920b-4856-b3fa-b24d0dc7b842": {
+                                    "name": "剥离"
+                                },
+                                "cad3e5d0-77b2-4b24-9f59-02393ad72e57": {
+                                    "name": "限制",
+                                    "notes": "@罕见攻击类型@"
+                                },
+                                "7404245a-e6b4-40d6-88ed-688e469b1543": {
+                                    "name": "叠层"
+                                },
+                                "fea5d2ff-8a8e-4b29-bd09-a4fec0adcdaa": {
+                                    "name": "咒术防御"
+                                },
+                                "43aca10c-2cfd-49a2-9bc4-63fd440ab0e2": {
+                                    "name": "仅限咒术"
+                                },
+                                "5ce58efb-4d16-44b3-a627-611161b5f587": {
+                                    "name": "部分（@部位，每攻击部位调整值 1 等级，躯干在一个等级上 -10% @）"
+                                }
+                            }
+                        },
+                        "c11e56a5-9bc5-434b-af38-f166c3703799": {
+                            "name": "Extra Hit Points (heavier build)",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "243b6ca1-0f8e-43b1-9ea1-a0c18a8bbb1a": {
+                                    "name": "体型"
+                                },
+                                "1791fc3d-70b5-4b14-80de-47e2b1435cca": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        },
+                        "6bf08ac9-f327-46db-9c85-00175d0b2583": {
+                            "name": "超温耐受",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "\"Comfort zone\" is 35-124\"F heat. The Drakarans evolved in desert lands: the function of their colorful scales is not so\nmuch armor as to reflect heat and retain moisture. They prefer warm dry conditions that approximate the anceslral steppes of their homeworld."
+                        },
+                        "ed8e76a9-8d46-4559-92cc-cae12e733d96": {
+                            "name": "Quirk - Unfazeable",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "Drakarans rarely display emotion, and are not prone to panic (+1 to avoid Fright Checks)",
+                            "modifiers": {
+                                "10ef7cee-2a54-4e12-b93e-290694b1ef0c": {
+                                    "name": "习惯恐惧"
+                                }
+                            }
+                        }
+                    }
+                },
+                "5e522a0f-dcfd-4191-a273-616a1c3a14a0": {
+                    "name": "Racial Disadvantages",
+                    "children": {
+                        "bbad7b2a-8656-49b4-92ee-6f9bc3c449a6": {
+                            "name": "听力障碍",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "notes": "-2 on any skill roll where it is important that you understand someone who is talking",
+                            "modifiers": {
+                                "8894729f-8aa1-4d49-9106-afa9070838d9": {
+                                    "name": "Modifier"
+                                }
+                            }
+                        },
+                        "b1b8b123-42b8-4619-96df-9993d0237c26": {
+                            "name": "无深度视觉",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "notes": "Instead of suffering the more severe penalties of One Eye. Their large eye gives a -2 when firing Snap Shots (or on Vision rolls to judge distances if the Drak docs not take a second to concentrate). There is no penalty when making Aimed attacks or in melee.",
+                            "modifiers": {
+                                "a750d0bd-7ae0-4a5d-af02-f57974463cc2": {
+                                    "name": "reduced effect"
+                                }
+                            },
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "独眼"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "487a2eac-0393-4672-a3d7-e97e8e546c85": {
+                            "name": "责任感",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "9b91c867-61c8-4417-933b-966f94c3aadf": {
+                                    "name": "朋友和伙伴"
+                                },
+                                "82432f56-564f-4d57-aa2b-abdfe4fa34d2": {
+                                    "name": "@小组织@"
+                                },
+                                "85836cc9-62a0-4f41-b4d6-c0aba2554c8d": {
+                                    "name": "@个人@"
+                                },
+                                "721ea36a-8ad8-41a2-ad65-a08a7fea72ac": {
+                                    "name": "@大组织@"
+                                },
+                                "839db4f6-feb2-47cc-ae2e-4cd8d782cf50": {
+                                    "name": "@整个种族@"
+                                },
+                                "ff76cf92-5f71-41e5-b5bc-c4df0396abd0": {
+                                    "name": "所有活物"
+                                }
+                            }
+                        },
+                        "d49189cb-0488-4318-b629-6547d7b03c99": {
+                            "name": "老实",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你需要为一个令人不安的事实保持沉默（隐瞒事实近乎说谎）时，做一个自控检定。如果你真的必须去说谎的话，自控检定遭到 -5 惩罚！如果你失败了，你会一时冲动说出了真相，或是磕磕巴巴一看就是在说谎。",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "fast talk"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "6b876851-006e-477a-881f-2cf2ab38c2fb": {
+                    "name": "Racial Quirks"
+                }
+            }
+        }
+    }
+}

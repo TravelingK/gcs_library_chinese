@@ -1,0 +1,418 @@
+{
+    "traits": {
+        "c5027ea8-4b08-4236-a34d-7c48ba944472": {
+            "name": "Sentient Snacks",
+            "tags": [
+                "Bioshell"
+            ],
+            "notes": "2098; $50 + enhanced computer if desired; Trojan Mafia",
+            "children": {
+                "4531dbb4-1b51-4ef0-830c-057792920f0a": {
+                    "name": "Decreased ST",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "生理"
+                    ]
+                },
+                "8c034e02-5358-48e1-97b5-69833752a166": {
+                    "name": "Decreased DX",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "生理"
+                    ]
+                },
+                "8b90a0b6-2748-456f-b31d-210569338782": {
+                    "name": "减少基本移动力",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "生理"
+                    ]
+                },
+                "65c79336-99bf-44aa-a123-1683ac5f5d66": {
+                    "name": "Decreased Size modifier",
+                    "tags": [
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "d28d9b5d-fc67-4f5b-aed0-c4c9e1a50dc4": {
+                    "name": "无需呼吸",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "b301f25a-ad2c-4cc9-aac4-8f60fcc7e340": {
+                            "name": "鳃"
+                        },
+                        "2f9bd4ac-ff8b-4525-a0ef-b5d023e7e7d4": {
+                            "name": "鳃",
+                            "notes": "在空气中窒息"
+                        },
+                        "af706d30-961c-4ba5-a04b-ed937b8aa061": {
+                            "name": "吸收氧气"
+                        },
+                        "9bbdf9fd-b544-4d2f-b346-9fdb04bdcd34": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 25 倍"
+                        },
+                        "0efb95c5-5eb3-40b6-837c-7a808db316f8": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 50 倍"
+                        },
+                        "b1960fe7-565e-4dcb-ba78-f68bcfa63466": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 100 倍"
+                        },
+                        "dd9f14b7-c970-4fed-940e-3179b0726297": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 200 倍"
+                        },
+                        "ad25712a-9308-4a14-afa6-48faf17c4923": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 300 倍"
+                        },
+                        "ba9218a3-32f4-4df5-ab32-3424777e3792": {
+                            "name": "燃烧氧气"
+                        }
+                    }
+                },
+                "5663af4c-c2c8-46bb-8693-bd15246ff745": {
+                    "name": "无需饮食",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "b7d6a1a4-dee3-47c7-817c-a8a71a5fb37c": {
+                    "name": "灵活",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "攀爬"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "逃脱"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "房中术"
+                            }
+                        }
+                    ]
+                },
+                "35198367-a6b8-4299-b7a9-98673e29cf72": {
+                    "name": "高痛阈",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture"
+                },
+                "daeb58c3-4358-4a82-b024-2b1343fd2284": {
+                    "name": "Injury Tolerance (No Blood)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "6c2e4ffb-ae0c-4519-bb2b-ee2b2944055e": {
+                            "name": "Not Immune to Blood-borne Toxins"
+                        }
+                    }
+                },
+                "54f1f4da-ccb4-4a15-a26b-76efc28992e5": {
+                    "name": "Injury Tolerance (No Brain)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "2e956320-1ffc-4929-894f-9ddd9d1c1909": {
+                    "name": "Injury Tolerance (No Neck)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "e2ca0468-8f33-4474-b3e1-9a18cc982951": {
+                    "name": "Injury Tolerance (No Vitals)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "56f7539a-20e9-45cc-88dc-e134770c2207": {
+                    "name": "新陈代谢控制",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "bdfcbbdd-bdb6-4cb9-aca5-dfc6a394d48d": {
+                            "name": "冬眠"
+                        },
+                        "51d56a65-ff49-4985-92eb-02452b1b8f65": {
+                            "name": "掌控"
+                        }
+                    }
+                },
+                "8833f37b-fc3b-48e7-90a0-59faf29d0c08": {
+                    "name": "降低摄入",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "d1850c6d-088e-4218-aafc-872fef5d576d": {
+                            "name": "铸铁肠胃"
+                        },
+                        "562afefb-5268-4444-84ac-acadd4377b7f": {
+                            "name": "仅限食物"
+                        },
+                        "1c10dcc2-2ecd-41d4-a676-b849afee1430": {
+                            "name": "仅限饮水"
+                        },
+                        "cc0a6a8a-771e-46d6-a673-414be1371f8d": {
+                            "name": "Air Only"
+                        }
+                    }
+                },
+                "de7beb81-6f43-4b23-a77d-069c2be2c72a": {
+                    "name": "抵抗力",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "916f041a-c374-4925-b9ae-a87651e0f307": {
+                            "name": "@非常常见：新陈代谢危险等@"
+                        },
+                        "983b1864-134a-42f1-8af5-d7e694d51321": {
+                            "name": "@常见：毒药，病征等@"
+                        },
+                        "b82fa84d-7d12-429f-ade5-a62acf389d49": {
+                            "name": "传染病"
+                        },
+                        "b4ef3ec3-569f-436c-b4e4-8e25cf0b6c05": {
+                            "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                        },
+                        "5d9fa7b4-e958-4eac-be91-77231b3f51ad": {
+                            "name": "免疫力"
+                        },
+                        "5e59cffc-7180-40ab-9fcd-0ee89b3ef454": {
+                            "name": "抵抗的 HT 检定 +8"
+                        },
+                        "9d971237-31de-487e-8253-cb47ba4f130d": {
+                            "name": "抵抗的 HT 检定 +3"
+                        }
+                    }
+                },
+                "36110fed-4918-4aa3-8431-50abf54d2869": {
+                    "name": "抵抗力",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "611a793a-2123-40fc-b404-2b14cc652089": {
+                            "name": "新陈代谢危险"
+                        },
+                        "2ea68f07-3c64-4eb6-b0a7-b2a66a96263d": {
+                            "name": "@常见：毒药，病征等@"
+                        },
+                        "81a2c369-a655-45eb-8bcf-8a25c5547945": {
+                            "name": "@偶尔：疾病，摄入的毒药等@"
+                        },
+                        "cb032617-01e1-44ff-bca6-55b8ced7c527": {
+                            "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                        },
+                        "4e80613b-8823-47c5-a051-006a8fc85ef8": {
+                            "name": "免疫力"
+                        },
+                        "bb61d2d0-05a2-4599-ad34-9fa38650c254": {
+                            "name": "抵抗的 HT 检定 +8"
+                        },
+                        "63ec6401-4218-4b1d-bd41-4e376f7a121c": {
+                            "name": "抵抗的 HT 检定 +3"
+                        },
+                        "31f74e0d-97c2-432b-83a0-2efba6aadf68": {
+                            "name": "Brain-related Effects Only"
+                        }
+                    }
+                },
+                "8b7a787a-3df5-43f7-b156-5297fb2650fd": {
+                    "name": "超温耐受",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "a861e2ca-902f-4180-a430-287884c2efe2": {
+                    "name": "Onboard computer (Tiny; Biodegradable)",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "17842403-7c8e-49ab-828b-5a5f220c567a": {
+                    "name": "清洁代谢",
+                    "tags": [
+                        "Perk",
+                        "生理"
+                    ]
+                },
+                "e612cc09-3669-4b95-9a99-f557a3685f27": {
+                    "name": "Bioroid Body",
+                    "tags": [
+                        "Bioroid",
+                        "Meta-Trait"
+                    ],
+                    "children": {
+                        "ffd0250c-145b-407d-bbc8-c5c4b4e81ac0": {
+                            "name": "No degeneration in zero G",
+                            "tags": [
+                                "Perk",
+                                "生理",
+                                "太空",
+                                "Upgrade"
+                            ]
+                        },
+                        "2e24eccc-73cc-47a4-90b8-873265ae4a2e": {
+                            "name": "非正常生化机制",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "9fb03f07-beee-4e2b-826a-d9bdf783664b": {
+                            "name": "Intron messages",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "e16b0e24-23ab-4693-a21d-268edaf0b49e": {
+                            "name": "Clostely resembles others of the same model",
+                            "tags": [
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "ebf50ac0-7f80-4df7-b0e4-42a7fa470a88": {
+                    "name": "电气",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "6f4e7423-09f9-4927-ae27-67bf382bbad5": {
+                            "name": "Partial: Vitals Hit Locations Only"
+                        }
+                    }
+                },
+                "4e63bc99-3d6e-467c-bc68-7f2324a4e74f": {
+                    "name": "无脊椎",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "bd14e651-5001-442e-b7b7-1652f9eb5fc2": {
+                    "name": "Short Arms",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ]
+                },
+                "ccecf47b-3930-435b-b29d-ba7c5e4fbffb": {
+                    "name": "短命",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "f7e8dfb8-9ba7-4c80-94f8-a3c400880d0b": {
+                    "name": "不治之症",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "60d4603a-5a00-4b9b-8baf-ed74361ba83e": {
+                            "name": "至多两年"
+                        },
+                        "99bde3ce-cd8c-4b53-83f4-249df5dc39a7": {
+                            "name": "至多一年"
+                        },
+                        "5a55e4f6-740b-48ec-afea-b01aa9de98cc": {
+                            "name": "50 hours to live"
+                        },
+                        "09c92b2a-fe8f-4a09-93ee-7ff055af0c04": {
+                            "name": "Mitigator: Hibernating"
+                        }
+                    }
+                },
+                "70602343-d0c3-4850-9b43-cd680ae35458": {
+                    "name": "无法治愈（完全）",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "f5668163-9664-4f6a-aaee-0375451a6cfa": {
+                    "name": "Early maturation",
+                    "tags": [
+                        "Bioroid",
+                        "生理",
+                        "Trait",
+                        "Upgrade"
+                    ],
+                    "modifiers": {
+                        "d34284e1-13fe-4d17-8d6b-8a751733aad5": {
+                            "name": "1: 9 years"
+                        },
+                        "6ef7062d-b98e-4391-a5ba-f837e4cecc93": {
+                            "name": "2: 4 years"
+                        },
+                        "a4ab4599-dd82-46d1-a6d3-23768f2b1e0b": {
+                            "name": "3: 2 years"
+                        },
+                        "244cfa45-d7f7-4b0d-9d2e-d929fda1078b": {
+                            "name": "4: 1 year"
+                        },
+                        "5fc37083-c400-43b3-89f4-69ef194a6e96": {
+                            "name": "5: 6 months"
+                        }
+                    }
+                },
+                "5a61913e-7fb0-42e9-a464-a0b59396c8c2": {
+                    "name": "Edible",
+                    "tags": [
+                        "生理"
+                    ],
+                    "notes": "Availiable in various designs and flavours"
+                }
+            }
+        }
+    }
+}

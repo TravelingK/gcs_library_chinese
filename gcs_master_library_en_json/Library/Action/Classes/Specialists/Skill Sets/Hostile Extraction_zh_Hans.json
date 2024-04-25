@@ -1,0 +1,244 @@
+{
+    "traits": {
+        "95a3017e-c8c0-47d3-b04a-184af6b56058": {
+            "name": "Hostile Extraction",
+            "children": {
+                "e56f6977-3a14-4212-91d9-f8da0ddc76e4": {
+                    "name": "Talent (Craftiness)",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "天赋"
+                    ],
+                    "modifiers": {
+                        "92b83170-2804-41fd-b2ec-3a3a67dd54d9": {
+                            "name": "Reaction Bonus: None"
+                        },
+                        "c8356ff4-43a0-4b53-8fca-c8a3948a2adb": {
+                            "name": "可选花费"
+                        }
+                    },
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "伪装"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "易容"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "物品藏身"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "尾随"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "潜行"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "做戏"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "skills": {
+        "e237d2dd-2855-49d0-b255-7c589ee4a952": {
+            "name": "Hostile Extraction",
+            "children": {
+                "3a5afb4d-41a4-4ec0-a94d-b086b709828a": {
+                    "name": "斗殴",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "斗殴"
+                            }
+                        }
+                    ]
+                },
+                "d3f8a317-5c0a-4a8a-b4f6-00a340176cfe": {
+                    "name": "即时备战",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "Pistol"
+                },
+                "9dad3dea-4e34-4b74-bc46-4e12b3afaa66": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "Pistol",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "轻机枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "光束武器",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "霰弹枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "冲锋枪"
+                        }
+                    ]
+                },
+                "b23d5e6b-c12d-4572-88bf-52f84c9e89c3": {
+                    "name": "物品藏身",
+                    "tags": [
+                        "犯罪",
+                        "间谍",
+                        "街头"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "巧手"
+                        }
+                    ]
+                },
+                "9b20addf-5a91-43a9-941c-19901d372a11": {
+                    "name": "威吓",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "社会",
+                        "街头"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "做戏"
+                        }
+                    ]
+                },
+                "91a1f6ca-ee97-4aa5-b4b0-bfdcc2e4315f": {
+                    "name": "结绳",
+                    "tags": [
+                        "常识"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "攀爬"
+                        },
+                        {
+                            "name": "航海术"
+                        }
+                    ]
+                },
+                "aef2d7f7-ec2f-4d9a-bfef-f4ac5c3942a9": {
+                    "name": "Liquid Projector",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "Sprayer",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Liquid Projector"
+                        }
+                    ]
+                },
+                "74dc7e4b-1ca8-4e9e-8b8c-8adf8825f636": {
+                    "name": "尾随",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "观察"
+                        },
+                        {
+                            "name": "潜行"
+                        }
+                    ]
+                },
+                "7a9725af-da74-4a6a-b147-2e5cba221717": {
+                    "name": "潜行",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ]
+                },
+                "d86b4de0-4fbd-49f3-8953-ce080e513285": {
+                    "name": "Choose one",
+                    "children": {
+                        "f6902559-cf51-49c9-ba93-231f66036fef": {
+                            "name": "Judo",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "notes": "使得你获得每轮用两只手各招架一次的能力。"
+                        },
+                        "9df91cfc-7910-4931-a967-47badeb051e4": {
+                            "name": "Wrestling",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

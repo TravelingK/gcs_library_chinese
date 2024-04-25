@@ -1,0 +1,490 @@
+{
+    "traits": {
+        "7fbe277c-e278-46d4-95bb-93105b66ebe9": {
+            "name": "Inheritors - Soldier",
+            "children": {
+                "f807b80c-def1-428e-8c50-a5756eb09a88": {
+                    "name": "Racial Primary Modifiers",
+                    "children": {
+                        "0dd76b9c-7f3a-46ba-84d6-c90296d17a1f": {
+                            "name": "减少智力",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "c15c908a-067b-4690-b6c2-d047b2bf0dbc": {
+                            "name": "减少力量",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "7995821b-26ae-4d91-8641-a081d619303d": {
+                    "name": "Racial Advantages",
+                    "children": {
+                        "6e40c370-c17d-4953-97e8-9fa841ad3189": {
+                            "name": "走壁",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "f34929e1-e263-4d97-a613-1d3853c5d79a": {
+                                    "name": "特化",
+                                    "notes": "@常见材质@"
+                                },
+                                "a999459f-812f-4df3-aebe-d64fba5a3424": {
+                                    "name": "特化",
+                                    "notes": "@特殊材质@"
+                                },
+                                "31e85e18-d09f-46cf-aa29-01cae178b98a": {
+                                    "name": "特化",
+                                    "notes": "@荒诞材质@"
+                                },
+                                "5ebc6bfb-50b2-4dd0-873a-53b5baea4ba2": {
+                                    "name": "引力"
+                                },
+                                "5af2d7c2-5646-4c1a-b25a-2bd8b5b6b438": {
+                                    "name": "需求低重力"
+                                }
+                            }
+                        },
+                        "94ce08c7-3ae9-4cab-ad74-d3b8fa913ae8": {
+                            "name": "Striker (Tail)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "eb3ee1b3-bfa5-451d-a38b-5111031e8de4": {
+                                    "name": "笨拙",
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "Striker"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "weapons": {
+                                "a3628344-a390-4799-bc1f-a41f7b473315": {
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "斗殴"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "186a1ba7-f33d-42d2-90a0-70e8e4e09547": {
+                            "name": "伤害减免",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "528e7762-03d4-4c8f-a014-05ab1d059184": {
+                                    "name": "Force Field"
+                                },
+                                "2ad257fc-9bb5-423f-9b33-96f14922e78f": {
+                                    "name": "硬化"
+                                },
+                                "8d89c18d-1098-4392-be84-14bc29b1fcdf": {
+                                    "name": "吸收",
+                                    "notes": "增强@特质@"
+                                },
+                                "08c7a548-4ad9-4dfb-96d8-d47345961006": {
+                                    "name": "吸收",
+                                    "notes": "仅治疗"
+                                },
+                                "cb0d3c14-dc5b-41a1-8668-b4262cbe151f": {
+                                    "name": "吸收",
+                                    "notes": "增强任意特质"
+                                },
+                                "817d5a77-4acc-4a27-801b-9734b6b6ee7e": {
+                                    "name": "反射"
+                                },
+                                "5ebbfda0-5487-4e9a-b465-b63f8f6ba501": {
+                                    "name": "祸根",
+                                    "notes": "@罕见@"
+                                },
+                                "f4b74ba6-c8cb-41b6-8a9e-dde79e0bee96": {
+                                    "name": "祸根",
+                                    "notes": "@偶见@"
+                                },
+                                "bac7aa30-d3fb-4ba7-876d-a7f141b06de5": {
+                                    "name": "祸根",
+                                    "notes": "@常见@"
+                                },
+                                "2aedf039-b74b-4aeb-872a-2153bb9050cb": {
+                                    "name": "祸根",
+                                    "notes": "@非常常见@"
+                                },
+                                "1e1b62c8-921f-4bc4-bb86-69dcff316e7a": {
+                                    "name": "定向",
+                                    "notes": "前方"
+                                },
+                                "745db0a0-50ee-4808-b185-d40abfbabac3": {
+                                    "name": "柔性"
+                                },
+                                "05e64868-854e-49c9-aa27-51c8019890f2": {
+                                    "name": "限制",
+                                    "notes": "@很常见攻击类型@"
+                                },
+                                "8a70156e-bf8b-4d80-ab5d-ee8097a7b222": {
+                                    "name": "半剥离"
+                                },
+                                "d41464a2-423a-410f-a997-26e8f6a89891": {
+                                    "name": "无法穿着护甲"
+                                },
+                                "82abcffd-761a-4ade-98a8-e81b5c303fed": {
+                                    "name": "定向",
+                                    "notes": "@方向：后方、左、右、上、下@"
+                                },
+                                "2ba3fe3b-b562-4e35-8a4e-c56f0f0c1039": {
+                                    "name": "限制",
+                                    "notes": "@常见攻击类型@"
+                                },
+                                "8012f9aa-039b-4a48-bbf5-c039dbe38c91": {
+                                    "name": "硬皮",
+                                    "notes": "任何只需要接触皮肤的影响忽略此 DR"
+                                },
+                                "b4f8ea20-7e75-402d-b914-ed205e9a0140": {
+                                    "name": "限制",
+                                    "notes": "@偶见攻击类型@"
+                                },
+                                "cbfef37f-0952-4e10-a21e-d51b071c6d18": {
+                                    "name": "剥离"
+                                },
+                                "faaa4626-1870-4d93-a0cd-f5dbeca91cb6": {
+                                    "name": "限制",
+                                    "notes": "@罕见攻击类型@"
+                                },
+                                "4320aea8-7db0-4fd0-a737-16e1a8851b6a": {
+                                    "name": "叠层"
+                                },
+                                "d74502c8-2ab2-4037-b85a-5089c2199c2e": {
+                                    "name": "咒术防御"
+                                },
+                                "0bca76cd-3849-414e-8c39-5ae75481da84": {
+                                    "name": "仅限咒术"
+                                },
+                                "10eedbc6-e1cd-43c4-bf50-5328e617d39d": {
+                                    "name": "部分（@部位，每攻击部位调整值 1 等级，躯干在一个等级上 -10% @）"
+                                }
+                            }
+                        },
+                        "715f681f-4d27-4660-bb8e-58165b1130ed": {
+                            "name": "Extra Arm (also used as feet))",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "a96b30d0-8939-4133-b1ca-c2ab0fa3a60b": {
+                                    "name": "非常灵活"
+                                },
+                                "d1ce7244-6fd2-4b3c-b76b-cd94e766ead4": {
+                                    "name": "最大"
+                                },
+                                "142e5450-f519-4bb4-9a45-f9ce68f31fe4": {
+                                    "name": "以脚为手"
+                                },
+                                "03133c26-afff-4c33-9314-bb39e42f13b5": {
+                                    "name": "不能进行物理攻击"
+                                },
+                                "e9ff100a-0ade-4d0a-b454-b1bb952e681f": {
+                                    "name": "短"
+                                },
+                                "560de249-ee3c-4a32-9858-9a7e2227c753": {
+                                    "name": "弱",
+                                    "notes": "只有一半力量"
+                                },
+                                "1043d8c9-cea7-48db-9c90-e76dd5a1b940": {
+                                    "name": "弱",
+                                    "notes": "只有 1/4 力量"
+                                },
+                                "8f05413d-bd7f-46fd-8258-cb1b425dd903": {
+                                    "name": "武器座"
+                                },
+                                "65c345fe-9873-4f9f-87e4-7663df71081a": {
+                                    "name": "无可抓握手部"
+                                }
+                            }
+                        },
+                        "1794b55f-8018-47e6-b385-38f7864c2816": {
+                            "name": "灵活（双关节）",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "May ignore up to -5 in penalties for close quarters",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "攀爬"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "逃脱"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "房中术"
+                                    }
+                                }
+                            ]
+                        },
+                        "c1f323ab-255d-41a7-9e01-4e68b8bf1f2f": {
+                            "name": "增加基本速度",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "9e6083ae-6ff0-49f3-8188-644a017935fc": {
+                            "name": "增加感知",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理",
+                                "生理"
+                            ]
+                        },
+                        "84887ddd-e700-431b-8ebb-fa3d1d58c9b3": {
+                            "name": "广角视觉",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "4639c645-0ffa-4117-8a45-0ad87bcc34f4": {
+                                    "name": "易于命中",
+                                    "notes": "其他人可以将你的双眼作为攻击目标仅受到 -6 命中减值"
+                                }
+                            }
+                        },
+                        "59123247-9edd-4014-b574-c04b7e4267c2": {
+                            "name": "利齿",
+                            "tags": [
+                                "异种",
+                                "Perk",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "09906611-6c90-4a6c-a065-b5b4d621687e": {
+                                    "name": "被吸血鬼之咬提供"
+                                }
+                            },
+                            "weapons": {
+                                "bef53857-d75b-4d9c-a9a6-37f9d52bf78d": {
+                                    "usage": "啃咬",
+                                    "defaults": [
+                                        {
+                                            "name": "斗殴"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "36228268-cd31-4c37-8548-21e1fd4755c8": {
+                            "name": "Status",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "notes": "Soldier"
+                        },
+                        "1463e3a4-0cac-4f2b-9dc5-42b399b632bc": {
+                            "name": "Talent (Free Fall)",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "天赋"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "自由落体"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "5e522a0f-dcfd-4191-a273-616a1c3a14a0": {
+                    "name": "Racial Disadvantages",
+                    "children": {
+                        "8179efc6-7c2f-4a7d-bbe4-291dc412cee8": {
+                            "name": "冷酷无情",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "+1 to Interrogation and Intimidation rolls when you use threats or torture",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "心理学"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "教学"
+                                    }
+                                },
+                                {
+                                    "situation": "来自过去的受害者以及任何具有共情的角色"
+                                }
+                            ]
+                        },
+                        "420f52d8-f6fe-4c4a-9343-a334afe6a278": {
+                            "name": "Fanaticism (defense of the colony)",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "dc2531d4-e2d0-4c4b-a325-04480d4d32ea": {
+                                    "name": "极度"
+                                }
+                            }
+                        },
+                        "3e26dee8-2ca8-4f04-9b8a-2db7b0302ab7": {
+                            "name": "减少生命值",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "4063e7c8-5acb-46b3-a334-1c81c5bbe6b9": {
+                            "name": "乐于助人",
+                            "tags": [
+                                "心理",
+                                "Quirk"
+                            ]
+                        },
+                        "cdf2806a-dd78-4862-95b9-5841e5c17a55": {
+                            "name": "增加消耗",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "6ac7c97d-ea1d-49bc-a067-6eaa74ec3d15": {
+                                    "name": "消耗 x2"
+                                },
+                                "88ecb732-ed31-4dc6-9a7b-04a38e42f6cf": {
+                                    "name": "消耗 x4"
+                                },
+                                "8253e64d-e42a-48d0-916a-756ab4a31924": {
+                                    "name": "消耗 x8"
+                                }
+                            }
+                        },
+                        "f9fdf88a-bee0-4adc-ac4d-f68c81906143": {
+                            "name": "短命",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "de23c43b-81a7-412a-9ad9-493df4dc2d0c": {
+                            "name": "Sterile",
+                            "tags": [
+                                "生理",
+                                "Quirk"
+                            ]
+                        },
+                        "4c0fff0c-4d02-4f4d-9739-38b0788a0926": {
+                            "name": "Weakness (oxygen)",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "659bcde2-a09a-4ce2-850d-b00e71782dc0": {
+                                    "name": "每分钟 1d 伤害"
+                                },
+                                "2dc8b9bc-38a5-41a1-997c-aeba62b11a85": {
+                                    "name": "每 5 分钟 1d 伤害"
+                                },
+                                "df0ab866-ad3c-403c-9b63-a1f7044d0f2f": {
+                                    "name": "每 30 分钟 1d 伤害"
+                                },
+                                "68559609-1f35-4887-82b0-0407d21ac153": {
+                                    "name": "@稀有物质@"
+                                },
+                                "e729326c-bbed-4d1a-9c28-dcd7ca71b95d": {
+                                    "name": "@偶见物质@"
+                                },
+                                "d9d93647-1480-4cd3-955d-8ebc022809b8": {
+                                    "name": "@常见物质@"
+                                },
+                                "d197dc80-6141-4971-af86-da25a6d55a43": {
+                                    "name": "@非常常见物质@"
+                                },
+                                "b5b9a345-da76-49bd-9e5e-3cc5da056ddb": {
+                                    "name": "仅限体力"
+                                },
+                                "0a0da8e9-7dd7-4c06-a59f-3d8575a37ab3": {
+                                    "name": "强度可变"
+                                }
+                            }
+                        },
+                        "48c6629c-87b0-4d46-8dae-179cd47e270f": {
+                            "name": "工作狂",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "6b876851-006e-477a-881f-2cf2ab38c2fb": {
+                    "name": "Racial Quirks",
+                    "children": {
+                        "fe666efa-7adc-41ab-9831-c1e05033e416": {
+                            "name": "小心翼翼",
+                            "tags": [
+                                "心理",
+                                "Quirk"
+                            ]
+                        },
+                        "34cbb04a-ee02-44a9-9cca-dacd39af0f48": {
+                            "name": "喜欢有人陪伴的感觉",
+                            "tags": [
+                                "心理",
+                                "Quirk"
+                            ]
+                        },
+                        "baca483f-b6f0-4c67-9952-3cd8c0d7eb5e": {
+                            "name": "按部就班",
+                            "tags": [
+                                "心理",
+                                "Quirk"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,779 @@
+{
+    "traits": {
+        "7d5989e7-11cf-4381-ab5f-d49c723d0dcf": {
+            "name": "Class Advantages",
+            "children": {
+                "68079335-d159-4ed8-b581-20245f784ac5": {
+                    "name": "绝对方向感",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "30a31d78-7da7-4b9e-8650-a1a846f588bf": {
+                            "name": "需求信号"
+                        },
+                        "a32e7ba8-333d-4ea7-954f-510ddeddcd81": {
+                            "name": "三维空间感",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "飞行驾驶"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "空中杂技"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "自由落体"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "超空间"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "太空"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "稳定身形"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "空中"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "陆地"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "海上"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "a7981a6c-bd28-4d81-a033-f5d63743b3b1": {
+            "name": "Class Disadvantages",
+            "children": {
+                "a7b4b0ad-ff9f-44e2-b9e5-5eff3f274a79": {
+                    "name": "-10 Points in:",
+                    "children": {
+                        "51830422-e98d-4866-b285-757746df0ddd": {
+                            "name": "荣誉准则（海盗）",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "8beb6741-2519-49c3-8a96-32ca6978b880": {
+                            "name": "责任感",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "dcf6b6fb-8d9f-48dd-9a55-df368530956f": {
+                                    "name": "朋友和伙伴"
+                                },
+                                "68ea5224-0308-4e91-9a6a-949dc8f8d87e": {
+                                    "name": "@小组织@"
+                                },
+                                "be64e9ef-bf7b-4f1a-b4b1-1fd7a07ad8b4": {
+                                    "name": "@个人@"
+                                },
+                                "ce508501-3a00-41a0-baef-943b7d9c87fd": {
+                                    "name": "Nomad pack"
+                                },
+                                "15f78cf0-3df0-47ff-9403-7dde895a23a4": {
+                                    "name": "@整个种族@"
+                                },
+                                "1289b7bb-70e6-43c2-807c-48683e75b74f": {
+                                    "name": "所有活物"
+                                }
+                            }
+                        },
+                        "d136d65c-5e86-433a-bffb-97b6e9ed8d60": {
+                            "name": "顽固",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        }
+                    }
+                },
+                "5a5e8e8f-e400-41dc-b2e4-2fcbb4da4a5c": {
+                    "name": "Social Stigma (Outlaw)",
+                    "tags": [
+                        "社会"
+                    ],
+                    "notes": "Reaction -3 from robots, +3 from humans from the same subculture"
+                }
+            }
+        },
+        "329fffc4-b314-4a1e-beae-bd301c3bb520": {
+            "name": "Secondary Characteristics",
+            "children": {
+                "964b01b7-850e-4da1-ad74-579f6038ddb5": {
+                    "name": "增加感知",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理",
+                        "生理"
+                    ]
+                }
+            }
+        }
+    },
+    "skills": {
+        "5f6396da-1d6f-401a-9603-1890fe40fcce": {
+            "name": "导航",
+            "tags": [
+                "探索",
+                "户外",
+                "技术",
+                "载具"
+            ],
+            "specialization": "地面",
+            "defaults": [
+                {},
+                {
+                    "name": "制图"
+                },
+                {
+                    "name": "数学",
+                    "specialization": "测量学"
+                },
+                {
+                    "name": "导航",
+                    "specialization": "空中"
+                },
+                {
+                    "name": "导航",
+                    "specialization": "海上"
+                }
+            ]
+        },
+        "3e2f4092-7f66-4af6-bb10-549b1101c63d": {
+            "name": "Choose Two from:",
+            "children": {
+                "3b264922-e74f-438b-85b5-dc351c277307": {
+                    "name": "驯兽",
+                    "tags": [
+                        "动物"
+                    ],
+                    "specialization": "any"
+                },
+                "708ed3e1-9cc7-4afe-946d-14bc64a175b7": {
+                    "name": "Choose One from:",
+                    "children": {
+                        "f41a3a8d-eb4f-479a-afb9-82b6d483f7f9": {
+                            "name": "驾驶",
+                            "tags": [
+                                "载具"
+                            ],
+                            "specialization": "机动车",
+                            "defaults": [
+                                {},
+                                {},
+                                {
+                                    "name": "驾驶",
+                                    "specialization": "重型汽车"
+                                },
+                                {
+                                    "name": "驾驶"
+                                }
+                            ]
+                        },
+                        "3c6db03e-5bba-4810-843f-3f2ea5e3335b": {
+                            "name": "驾驶",
+                            "tags": [
+                                "载具"
+                            ],
+                            "specialization": "重型汽车",
+                            "defaults": [
+                                {},
+                                {},
+                                {
+                                    "name": "驾驶",
+                                    "specialization": "机动车"
+                                },
+                                {
+                                    "name": "驾驶"
+                                }
+                            ]
+                        },
+                        "9cd332c0-472d-4bd1-87a2-8a2fcbc4dc6c": {
+                            "name": "驾驶",
+                            "tags": [
+                                "载具"
+                            ],
+                            "specialization": "摩托车",
+                            "defaults": [
+                                {},
+                                {},
+                                {
+                                    "name": "自行车"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "92ce21f2-2bbc-4cfc-bcdb-67326b034508": {
+                    "name": "骑术",
+                    "tags": [
+                        "动物"
+                    ],
+                    "specialization": "any",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "驯兽",
+                            "specialization": "any"
+                        }
+                    ]
+                }
+            }
+        },
+        "2ec53baa-cf6d-4481-9ec1-ffc22eb3c1a5": {
+            "name": "12 Points in:",
+            "children": {
+                "144e545b-c01c-4b66-a606-47f224f05be0": {
+                    "name": "弓术",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ]
+                },
+                "b1fc2c25-a3f1-470a-8e6c-b999d1c4345c": {
+                    "name": "攀爬",
+                    "tags": [
+                        "运动",
+                        "犯罪",
+                        "探索",
+                        "户外",
+                        "街头"
+                    ]
+                },
+                "4dfa5530-e0d5-4979-bb2f-78f204989028": {
+                    "name": "弩",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ]
+                },
+                "496e717e-9789-447c-8b7c-5910bb1d9c8a": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "轻机枪",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "霰弹枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "冲锋枪"
+                        }
+                    ]
+                },
+                "f730711d-25f6-4dc4-aa3d-a21baeb70615": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "Pistol",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "轻机枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "光束武器",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "霰弹枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "冲锋枪"
+                        }
+                    ]
+                },
+                "faf7d991-07d5-48bb-a9c5-fe586448d29f": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "来复枪",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "轻机枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "光束武器",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "霰弹枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "冲锋枪"
+                        }
+                    ]
+                },
+                "b51d886b-1dba-4e42-b258-9031bf4ee94b": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "霰弹枪",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "轻机枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "冲锋枪"
+                        }
+                    ]
+                },
+                "b7d90cb7-ab2b-4d64-bbd0-35b23f432636": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "冲锋枪",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "轻机枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "霰弹枪"
+                        }
+                    ]
+                },
+                "30a4787e-ee74-44b0-b165-f5a56bd6a933": {
+                    "name": "家政",
+                    "tags": [
+                        "常识"
+                    ]
+                },
+                "e9125399-eb1e-453e-bdba-9cd82c741a99": {
+                    "name": "Knife",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "defaults": [
+                        {
+                            "name": "能量剑"
+                        },
+                        {
+                            "name": "Main-Gauche"
+                        },
+                        {
+                            "name": "Shortsword"
+                        }
+                    ]
+                },
+                "624da5b4-6949-4873-a2f7-045a243ef22c": {
+                    "name": "Lasso",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ]
+                },
+                "317287b0-8774-4fb1-ad38-fc0557784eed": {
+                    "name": "皮革加工",
+                    "tags": [
+                        "工艺"
+                    ]
+                },
+                "ad6085c3-0c70-42a9-813d-974ed2aec257": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "机动车",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "机动车"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "24238d3a-5269-46c9-914a-181d143844b1": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "柴油引擎",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "柴油引擎"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "4eb7a5fe-5b2b-4ade-8223-e8795f649939": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "汽油引擎",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "汽油引擎"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "d4d32d6a-f264-46d5-9110-9353503ad93c": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "摩托车",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "摩托车"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "8ba5587c-6384-4622-8b10-73a0dd179676": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "履带载具",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "履带载具"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "0410c0c2-7151-44d5-b54f-f38daca6e0b1": {
+                    "name": "赶马",
+                    "tags": [
+                        "动物"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "驯兽",
+                            "specialization": "马科动物"
+                        }
+                    ]
+                },
+                "eebafd64-d5d3-474b-8e79-5b15ccb0283b": {
+                    "name": "潜行",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ]
+                },
+                "875bc437-b3a0-41b3-82f1-d6071e333acf": {
+                    "name": "生存",
+                    "tags": [
+                        "探索",
+                        "户外"
+                    ],
+                    "specialization": "local terrain",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "海岸"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "海沟"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "淡水湖"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "大洋"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "珊瑚丛"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "河流/溪流"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "热带环礁"
+                        }
+                    ]
+                },
+                "55d667ba-e1b0-4d4c-95cf-091960dab14d": {
+                    "name": "赶车",
+                    "tags": [
+                        "动物",
+                        "载具"
+                    ],
+                    "specialization": "any",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "驯兽",
+                            "specialization": "any"
+                        },
+                        {
+                            "name": "骑术",
+                            "specialization": "any"
+                        },
+                        {
+                            "name": "赶车"
+                        }
+                    ]
+                },
+                "3c3149ae-d00a-4a5f-97c5-4737ff65914e": {
+                    "name": "兽医学",
+                    "tags": [
+                        "动物",
+                        "医学"
+                    ],
+                    "defaults": [
+                        {
+                            "name": "驯兽"
+                        },
+                        {
+                            "name": "医师"
+                        },
+                        {
+                            "name": "手术"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

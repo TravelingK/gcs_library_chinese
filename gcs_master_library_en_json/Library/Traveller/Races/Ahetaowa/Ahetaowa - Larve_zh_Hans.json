@@ -1,0 +1,507 @@
+{
+    "traits": {
+        "7fbe277c-e278-46d4-95bb-93105b66ebe9": {
+            "name": "Ahetaowa",
+            "children": {
+                "f807b80c-def1-428e-8c50-a5756eb09a88": {
+                    "name": "Racial Primary Modifiers",
+                    "children": {
+                        "863c1762-ac0f-4069-911a-33595d00a478": {
+                            "name": "减少智力",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "468ca9af-4dcd-4520-a61f-c5be6693e178": {
+                            "name": "减少力量",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "7995821b-26ae-4d91-8641-a081d619303d": {
+                    "name": "Racial Advantages",
+                    "children": {
+                        "00f3542a-4108-4db2-9695-dea62f94f49c": {
+                            "name": "360 度视野",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "277db9c3-b733-4503-9ce9-b95bfb06e40b": {
+                                    "notes": "对手在其视线范围内对你的眼部进行攻击时只受到 -6 命中惩罚",
+                                    "name": "脆弱眼部 "
+                                },
+                                "be4c12b8-1786-4839-a37a-88c9319e95a5": {
+                                    "name": "全景 1"
+                                },
+                                "28f165f1-8edc-42c3-b622-b87fa392a5ed": {
+                                    "name": "全景 2"
+                                }
+                            }
+                        },
+                        "b73d4511-701e-458e-8f00-1ac066c363d8": {
+                            "name": "减少基本移动力",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "022c64e2-f55c-435b-8f3c-1a238cb7da17": {
+                            "name": "寿命延长",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "a2dcbb40-125c-4bf0-a2f1-d9686de50b80": {
+                            "name": "Extra Flexiblebility",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "6564f00c-3a93-4cce-bc20-aaa96e67e7b1": {
+                            "name": "伤害耐受",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "4e2d0f4c-6edb-4200-8df9-838cff09125b": {
+                                    "name": "弥散",
+                                    "notes": "免疫致残损伤。无法瞄准大脑、要害、胯下。大部分敌人（依 GM 决定）不能撞到或抓住你。不会流血。不会被血源性毒物影响。免疫任何通过切断你身体部分血液供应造成伤害的攻击。穿刺和贯通攻击（任何程度的）无法对它们造成比 1 HP 更严重的损伤，无论是否穿透。其他种类的攻击无法造成比 2 HP 更严重的损伤。例外：有范围效果、锥形、爆炸的攻击能正常对它们造成正常伤害"
+                                },
+                                "3e629f5e-44de-4394-8db7-47761c237324": {
+                                    "name": "均质",
+                                    "notes": "更改伤害修正因子：穿刺和巨型贯通的创伤修正为 ×1/2，大型贯通 ×1/3，中型贯通 ×1/5，小型贯通则 ×1/10"
+                                },
+                                "73cddc51-740c-4cfd-8f38-27213c11e31e": {
+                                    "name": "无血",
+                                    "notes": "不会流血，不会被血源性毒物影响，并且对任何通过切断你身体部分血液供应造 成伤害的攻击免疫"
+                                },
+                                "476036e6-640a-4c25-af55-27b8ff5deb52": {
+                                    "name": "无脑",
+                                    "notes": "无法瞄准大脑，但对颅脑或眼睛造成的打击等同于打在脸上（除非此打击可以直接瘫痪你的眼部）"
+                                },
+                                "eca42797-990a-4c92-aeaf-99da50e2478f": {
+                                    "notes": "不能被攻击眼睛。免疫致盲攻击",
+                                    "name": "无眼"
+                                },
+                                "3fde14ce-227a-4453-90a9-64f7e406eff4": {
+                                    "name": "无头",
+                                    "notes": "“颅脑”与“脸部”不能作为攻击目标"
+                                },
+                                "aefea581-017b-4525-98c4-ffd3eac2fc8b": {
+                                    "name": "无颈",
+                                    "notes": "脖子不能够作为打击的目标，不能被斩首，呛到或绞杀"
+                                },
+                                "356a3126-f4dd-485a-a6f7-c731d0f97abe": {
+                                    "name": "无要害",
+                                    "notes": "对“要害”或“胯下”的攻击视为对躯干的攻击"
+                                },
+                                "3f93bc65-57f1-4ca8-9f65-6f1d597f38f2": {
+                                    "name": "无生命",
+                                    "notes": "更改伤害修正因子：穿刺与巨型贯通的创伤修正为 ×1，大型贯通 ×1/2，中型贯通 ×1/3，小型贯通则 ×1/5"
+                                }
+                            }
+                        },
+                        "9526aace-5188-4c30-a95a-b4066f3ea50d": {
+                            "name": "固有攻击（毒性）",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "38c7efdb-5b12-4fb5-82c4-04597f6c1a7f": {
+                                    "name": "循环",
+                                    "notes": "1 秒"
+                                },
+                                "ecefa1c1-d114-43d8-8d38-619843d1a2e2": {
+                                    "notes": "10 秒",
+                                    "name": "循环"
+                                },
+                                "4fcea051-b6a2-442a-955d-805b7b9580d5": {
+                                    "name": "循环",
+                                    "notes": "1 分钟"
+                                },
+                                "fc2ae156-7527-4cb2-bf14-60030cec9f04": {
+                                    "name": "循环",
+                                    "notes": "1 小时"
+                                },
+                                "437a0d68-a5f5-4420-ae41-052c372784d7": {
+                                    "name": "循环",
+                                    "notes": "1 天"
+                                },
+                                "668a598c-ce70-42df-b966-89144c5c3afe": {
+                                    "name": "循环",
+                                    "notes": "1 秒；可以抵抗"
+                                },
+                                "37456ac4-5bc0-4a79-86a2-1fd10e5bfef1": {
+                                    "name": "循环",
+                                    "notes": "10 秒；可以抵抗"
+                                },
+                                "a73f090b-4fab-470f-8a27-abf5aeb47c71": {
+                                    "name": "循环",
+                                    "notes": "1 分钟；可以抵抗"
+                                },
+                                "08eee13d-89e2-48d4-b7e2-39eb4898085e": {
+                                    "name": "循环",
+                                    "notes": "1 小时；可以抵抗"
+                                },
+                                "b38b16f7-fcbe-4784-907b-e0dfa12f02ad": {
+                                    "name": "循环",
+                                    "notes": "1 天；可以抵抗"
+                                },
+                                "c8b2959a-7f60-4338-821e-1ec800730d16": {
+                                    "name": "传染性",
+                                    "notes": "轻度"
+                                },
+                                "66d5ca3d-bee3-4aba-88f4-9ca274aa6e70": {
+                                    "name": "传染性",
+                                    "notes": "重度"
+                                },
+                                "ab956656-4073-4f47-a92f-7551e6435d51": {
+                                    "name": "双倍瘀伤",
+                                    "notes": "每 10 伤害 1HP"
+                                },
+                                "2c0d7b01-211c-4c3e-b7a3-a3886f8e2770": {
+                                    "name": "破片"
+                                },
+                                "79f683b4-a305-4fe2-a6d1-41b2c571d216": {
+                                    "name": "破片",
+                                    "notes": "高热"
+                                },
+                                "bc118bea-c9c1-4c29-8fdd-91c17ce16765": {
+                                    "name": "电涌"
+                                },
+                                "70bc820d-7fcd-4eb0-981f-cd83587aef68": {
+                                    "name": "护甲除数",
+                                    "notes": "2"
+                                },
+                                "cb7bbc1f-47ac-4120-8ef6-a63afc1d89b2": {
+                                    "name": "护甲除数",
+                                    "notes": "3"
+                                },
+                                "5b6ac8ec-1bb1-4154-8396-89fb21d6a38f": {
+                                    "name": "护甲除数",
+                                    "notes": "5"
+                                },
+                                "767bedf3-6da8-4f94-b392-ab1c6e23b826": {
+                                    "name": "护甲除数",
+                                    "notes": "10"
+                                },
+                                "1a8be97b-ee91-46ac-b68e-c8eb90be2eae": {
+                                    "name": "派生效果",
+                                    "notes": "@效果@"
+                                },
+                                "ce0b358e-32ef-4e6a-9d90-2ed248384b43": {
+                                    "name": "附加症状",
+                                    "notes": "@效果@"
+                                },
+                                "8e2d6365-74de-4ebc-9bb4-f157c0f692ab": {
+                                    "name": "护甲除数",
+                                    "notes": "0.5"
+                                },
+                                "69b696c5-9056-4cb4-9444-5cd123d36e16": {
+                                    "notes": "0.2",
+                                    "name": "护甲除数"
+                                },
+                                "fadb6a44-e42e-437b-ad6f-e5e2594c1dc7": {
+                                    "notes": "0.1",
+                                    "name": "护甲除数"
+                                },
+                                "27bb25de-40d9-455e-b012-c133ae7b8b0f": {
+                                    "name": "无杀伤"
+                                },
+                                "5ff8dbd0-8ba3-4d86-b2cc-b6ed433c7cc8": {
+                                    "name": "燃烧"
+                                },
+                                "e87ff3c2-bf4b-4869-b01b-a14deedbcf91": {
+                                    "name": "辐射"
+                                },
+                                "053a4ac3-65b8-4cf8-b1a6-084b5fc47e48": {
+                                    "name": "爆炸"
+                                }
+                            },
+                            "weapons": {
+                                "95065ce8-2ae9-4da3-8418-3f9dc01d1ddb": {
+                                    "defaults": [
+                                        {
+                                            "name": "固有攻击",
+                                            "specialization": "毒药"
+                                        },
+                                        {
+                                            "name": "固有攻击"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "62495634-48b0-422d-badd-f674cf7d1dac": {
+                            "name": "新陈代谢控制",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "b453c604-ef56-4f35-b106-d14e9ce1bdc5": {
+                                    "name": "冬眠"
+                                },
+                                "f71b2e40-0016-4b3b-b684-9dfd4693104f": {
+                                    "name": "掌控"
+                                }
+                            }
+                        },
+                        "9e79da5f-2b27-4a32-b711-658308ce0baf": {
+                            "name": "降低摄入",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "b5846623-1d39-4596-8a3c-c909309688e0": {
+                                    "name": "铸铁肠胃"
+                                },
+                                "1916aa02-80ca-4e80-8194-0ad4aabca948": {
+                                    "name": "仅限食物"
+                                },
+                                "12ceb4b9-b2d6-4237-a572-489785bf2a79": {
+                                    "name": "仅限饮水"
+                                }
+                            }
+                        },
+                        "8f0f7d6d-34e9-4412-8f0b-2fa0a7952d1b": {
+                            "name": "次声波听觉",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "b07a6342-e5b9-4ffd-b663-ee3cfb4fff38": {
+                                    "name": "无正常听力"
+                                }
+                            }
+                        }
+                    }
+                },
+                "5e522a0f-dcfd-4191-a273-616a1c3a14a0": {
+                    "name": "Racial Disadvantages",
+                    "children": {
+                        "9bcb1198-4083-4587-8709-63845db53085": {
+                            "name": "减少基本移动力",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "4b5ca617-7fbb-4106-8b0b-5273554fe16a": {
+                            "name": "Dependency (Sunlight)",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ],
+                            "notes": "Sunlight: need at least 4 hours.per day of bright light or -I HTlhour; fatigue can only be\nrecovered when resting in the light",
+                            "modifiers": {
+                                "6199bf83-2ebe-4c63-a240-cb71466d24bc": {
+                                    "name": "稀有度：稀有"
+                                },
+                                "3fb9c1ad-c9e7-4428-a43c-886371401d1c": {
+                                    "name": "稀有度：普遍"
+                                },
+                                "d4751cef-1f2b-4a04-bef8-05f655dbfb18": {
+                                    "name": "稀有度：很普遍"
+                                },
+                                "2c48aabc-35ff-4c25-b4a8-d4b072f04e00": {
+                                    "name": "非法"
+                                },
+                                "c48cc819-53f6-40a4-8a97-de96ca6d5927": {
+                                    "name": "频率：不断地",
+                                    "notes": "在没有这种物质的每一分钟里失去 1 点 HP"
+                                },
+                                "f0021097-b383-4159-bb10-3135ad912b10": {
+                                    "name": "频率：每小时",
+                                    "notes": "在没有保证每小时剂量的每 10 分钟里失去 1 点 HP"
+                                },
+                                "a482e534-36bb-4ea8-b00e-4084e306caad": {
+                                    "name": "频率：每日",
+                                    "notes": "在没有保证每日剂量的每小时里失去 1 点 HP"
+                                },
+                                "6f9153aa-28a1-4f43-ae76-a935076681f0": {
+                                    "name": "频率：每周",
+                                    "notes": "在没有保证每周剂量的每六小时里失去 1 点 HP"
+                                },
+                                "f3a55337-6096-4b47-9ad5-dbefbf69e947": {
+                                    "name": "频率：每月",
+                                    "notes": "在没有保证每月剂量的每天里失去 1 点 HP"
+                                },
+                                "0f773340-ce33-42e2-965c-e40ac5cd4ddc": {
+                                    "name": "频率：每季度",
+                                    "notes": "在没有保证每季剂量的每三天里失去 1 点 HP"
+                                },
+                                "bd8b1247-2caf-4bd2-af77-eaa1e7593d63": {
+                                    "name": "频率：每年",
+                                    "notes": "在没有保证每年剂量的每两周里失去 1 点 HP"
+                                },
+                                "2bad9137-7732-4e3d-afb9-c7a9813bba37": {
+                                    "name": "衰老",
+                                    "notes": "每因为此依赖损失 1 HP，你老化两岁"
+                                },
+                                "8c55730b-2f51-4f5e-98f4-ba114a2a20d9": {
+                                    "name": "稀有度：不常见"
+                                }
+                            }
+                        },
+                        "c45ec0e9-6c3a-4604-9958-97ce4b79f2eb": {
+                            "name": "无肢",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "c4d09658-56a5-4d1c-b2be-67d63f382fe5": {
+                            "name": "Racial Size Modifier",
+                            "tags": [
+                                "生理"
+                            ],
+                            "notes": "(Longest dimension)",
+                            "modifiers": {
+                                "36974368-0834-4b15-a4de-17954cdf416a": {
+                                    "name": "SM -10",
+                                    "notes": "Horizontal - 0.05 Yard; Veritical - 1.8\""
+                                },
+                                "5316f0fa-9b0f-4c65-b68f-a1b7d1dbf55c": {
+                                    "name": "SM -09",
+                                    "notes": "Horizontal - 0.07 Yard; Veritical - 2.5\""
+                                },
+                                "f9f01ca3-2109-45ae-908d-295c2226e8ed": {
+                                    "name": "SM -08",
+                                    "notes": "Horizontal - 0.1 Yard; Veritical - 3.5\""
+                                },
+                                "be03fb5a-6063-4e4e-abda-d4c058641f93": {
+                                    "name": "SM -07",
+                                    "notes": "Horizontal - 0.15 Yard; Veritical - 5\""
+                                },
+                                "060ad674-11a5-41b2-b8d0-8f976831ac4b": {
+                                    "name": "SM -06",
+                                    "notes": "Horizontal - 0.2 Yard; Veritical - 7\""
+                                },
+                                "101da0b2-b92a-412a-aaf7-9db7e87fc627": {
+                                    "name": "SM -05",
+                                    "notes": "Horizontal - 0.3 Yard; Veritical - 10\""
+                                },
+                                "f68e57c0-7fef-4f4a-aa47-a4aa236391f9": {
+                                    "name": "SM -04",
+                                    "notes": "Horizontal - 0.5 Yard; Veritical - 18\""
+                                },
+                                "73f1f19d-0ba6-4964-918c-7a89a85c1d2e": {
+                                    "name": "SM -03",
+                                    "notes": "Horizontal - 0.7 Yard; Veritical - 2'"
+                                },
+                                "c67b3efa-77a6-4078-a758-c8e707c5a5c9": {
+                                    "name": "SM -02",
+                                    "notes": "Horizontal - 1 Yard; Veritical - 3'"
+                                },
+                                "eafce8fe-f3cc-4e25-b24f-f3b7684d9cba": {
+                                    "name": "SM -01",
+                                    "notes": "Horizontal - 1.5 Yards; Veritical - 4.5'"
+                                },
+                                "30addbce-92a1-4b9a-b337-7947b0b67815": {
+                                    "name": "SM +0",
+                                    "notes": "Horizontal - 2 Yards; Veritical - 6'"
+                                },
+                                "2f185dbe-11a8-490a-86ef-e11128fd625a": {
+                                    "name": "SM +01",
+                                    "notes": "Horizontal - 3 Yards; Veritical - 9'"
+                                },
+                                "1dd20569-324b-4654-ab84-fc53a635c1de": {
+                                    "name": "SM +02",
+                                    "notes": "Horizontal - 5 Yards; Veritical - 15'"
+                                },
+                                "20718a4e-0479-40b8-b030-5e092e97f336": {
+                                    "name": "SM +03",
+                                    "notes": "Horizontal - 7 Yards; Veritical - 21'"
+                                },
+                                "349afad7-bf5a-4915-879a-41bdb2a44137": {
+                                    "name": "SM +04",
+                                    "notes": "Horizontal - 10 Yards; Veritical - 30'"
+                                },
+                                "30c79c90-c9a0-40ea-a0c1-ec8490c19694": {
+                                    "name": "SM +05",
+                                    "notes": "Horizontal - 15 Yards; Veritical - 45'"
+                                },
+                                "4e81b32e-25da-4157-bacb-83f873f6e8bd": {
+                                    "name": "SM +06",
+                                    "notes": "Horizontal - 20 Yards; Veritical - 60'"
+                                },
+                                "49e8314d-2e40-4bcb-aa6b-b7f9d81ad591": {
+                                    "name": "SM +08",
+                                    "notes": "Horizontal - 50 Yards; Veritical - 150'"
+                                },
+                                "fcfa8607-c651-40f3-bc8c-39d407a70a74": {
+                                    "notes": "Horizontal - 70 Yards; Veritical - 210'",
+                                    "name": "SM +09"
+                                },
+                                "9c039e03-16e3-48cb-8030-48c3c19ef730": {
+                                    "name": "SM +10",
+                                    "notes": "Horizontal - 100 Yards; Veritical - 300'"
+                                },
+                                "56f6ad02-8ea4-490d-af6b-6ee28bb2b265": {
+                                    "name": "SM +11",
+                                    "notes": "Horizontal - 150 Yards; Veritical - 450'"
+                                },
+                                "b7b05ae9-a918-4d20-9a71-d06ea7e4be29": {
+                                    "notes": "Horizontal - 30 Yards; Veritical - 90'",
+                                    "name": "SM +07"
+                                }
+                            }
+                        }
+                    }
+                },
+                "50c2a95b-1b82-45da-a7e2-455a58e72be8": {
+                    "name": "Racial Psionic Advantages",
+                    "children": {
+                        "3cbfada6-ae03-4522-8837-41d3d82057cb": {
+                            "name": "自我传送",
+                            "tags": [
+                                "心理",
+                                "灵能",
+                                "心灵传动"
+                            ],
+                            "notes": "Teleportation ability. Instantly travel over great distances. ",
+                            "modifiers": {
+                                "1fb6db65-5629-4910-8f97-fd0f9aaabd1c": {
+                                    "name": "失去意识"
+                                },
+                                "06f1ce9e-2147-4844-b648-78f189984260": {
+                                    "name": "难以控制"
+                                },
+                                "6967f531-92e9-401e-9747-d33ae0f6a52a": {
+                                    "name": "Retain orientation and speed"
+                                },
+                                "44e61884-fc58-4801-b035-b81573a893f9": {
+                                    "name": "Goes into hibernation when used"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

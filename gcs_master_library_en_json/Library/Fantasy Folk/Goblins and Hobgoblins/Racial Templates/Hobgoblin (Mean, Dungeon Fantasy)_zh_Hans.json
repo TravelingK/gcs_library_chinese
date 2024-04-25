@@ -1,0 +1,302 @@
+{
+    "traits": {
+        "268d1aa2-6dfc-4da7-945b-4f9191e02ebb": {
+            "name": "Hobgoblin (Dungeon Fantasy)",
+            "children": {
+                "2a167a18-6c23-45ba-829d-e297378adee7": {
+                    "name": "增加力量",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "bcdc6ef1-710a-48b7-81c2-61dbbac30d0b": {
+                    "name": "减少智力",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "80d484bb-11b1-402d-8ae2-3883bbb73d8d": {
+                    "name": "增加体力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "fdd0172a-a9e9-4791-91d0-2dff9aa8f96b": {
+                    "name": "额外生命值",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "ba16bbf3-41f4-4d01-9a4c-cf6e887e7eb5": {
+                    "name": "增加意志",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理"
+                    ]
+                },
+                "482c99ea-4848-46e6-8912-c360188cda7e": {
+                    "name": "增加感知",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理",
+                        "生理"
+                    ]
+                },
+                "3360f50f-70ad-4008-a36f-48d8f0764e9e": {
+                    "name": "红外视觉",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "f13d6938-aa76-4326-a621-d146783cbd75": {
+                    "name": "快速愈合",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "对于当你投骰去恢复失去的 HP 时或恢复严重的伤口时你的有效 HT"
+                        }
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "qualifier": {
+                                    "qualifier": "10"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "7a6b4e8f-5b97-499c-860f-b5314f731545": {
+                    "name": "Resistant (Metabolic Hazards, +3 to HT rolls to resist",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "to HT to resist metabolic hazards"
+                        }
+                    ]
+                },
+                "550d4303-98aa-4510-865d-04afcd9a4ae6": {
+                    "name": "剑齿",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "weapons": {
+                        "5b7be883-a73f-415d-ba4a-38ca4f67f125": {
+                            "usage": "啃咬",
+                            "defaults": [
+                                {
+                                    "name": "斗殴"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "4970b149-2696-44b3-aecc-92ddddfec080": {
+                    "name": "Appearance (-2: Ugly to non-Goblinoids)",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "from non-Goblinoids who see your looks"
+                        }
+                    ]
+                },
+                "4dc80bd8-9558-4457-b9e5-d06f22023556": {
+                    "name": "Social Stigma (Savage)",
+                    "tags": [
+                        "劣势",
+                        "社会"
+                    ],
+                    "notes": "-2 reaction; -4 to skills; Denied entry to town on 6 or less"
+                },
+                "ab0385db-2d1b-4c28-bc42-1836a8819a2d": {
+                    "name": "Choose -10 points of disadvantages",
+                    "children": {
+                        "38cad63f-4447-42d2-81f6-3d9e94ce3c20": {
+                            "name": "坏脾气",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "1a9c1d94-3351-4050-b6ee-1215babc2532": {
+                            "name": "坏脾气",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "fae61c5a-2d30-4111-8580-1d7e107f070f": {
+                            "name": "嗜血",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你需要接受投降、避开哨兵、抓俘虏的时候，你需要进行自控检定。"
+                        },
+                        "85635a2a-fcf9-4f8e-b652-bab88c887701": {
+                            "name": "嗜血",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你需要接受投降、避开哨兵、抓俘虏的时候，你需要进行自控检定。"
+                        },
+                        "77d384aa-e558-4885-bce5-221c031b4383": {
+                            "name": "横行霸道",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "来自其他人"
+                                }
+                            ]
+                        },
+                        "1c769b48-6282-461c-b84d-20241752a2f2": {
+                            "name": "横行霸道",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "来自其他人"
+                                }
+                            ]
+                        },
+                        "78f700aa-80cf-4c93-9baf-1aa18da2654b": {
+                            "name": "冲动",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当正确的选择是等待并思考的时候，进行一次自控检定。如果失败，你必须行动起来"
+                        }
+                    }
+                },
+                "7deef571-2fc4-4aa9-bfd2-d1bcae7b5abf": {
+                    "name": "Choose some if Hobgoblins are leaders in Goblin armies",
+                    "children": {
+                        "c4f87c40-781e-4866-8508-addce9a2e775": {
+                            "name": "增加意志",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        },
+                        "31b25d0a-aca7-48be-8fd2-60c45354ed9a": {
+                            "name": "战斗反射",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "永远不会“惊呆”",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "即时备战"
+                                    }
+                                },
+                                {},
+                                {},
+                                {},
+                                {},
+                                {
+                                    "situation": "对于从心理震慑中恢复的 IQ 检定"
+                                },
+                                {
+                                    "situation": "对于你的队伍避免突袭的对抗（如果你是领导者则 +2）"
+                                }
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "增强时间感"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "65254d8a-95c0-4a99-a88d-ecaefd72c878": {
+                            "name": "荣誉准则（士兵）",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "军官应当强硬但是公平，带头冲锋陷阵，照顾手下的弟兄；士兵应该照顾好他的战友和装备。每一个军人都应该敢于战斗，敢于为他的所在部队、军队和国家的荣誉而战死；服从命令；遵循“战争规则”，给予有荣誉感的敌人尊敬（没有荣誉感的敌人只配子弹），穿着军装的时候心中充满自豪。"
+                        },
+                        "5f63bbd5-c0cb-4e6b-b5c8-f626bfb5a105": {
+                            "name": "增加智力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        },
+                        "348add6e-a315-4e11-9657-cf4352378413": {
+                            "name": "超凡魅力",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "预言"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "领导力"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "乞讨"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "演讲"
+                                    }
+                                },
+                                {
+                                    "situation": "来自主动交流（对话，演说等等）的智慧生物"
+                                },
+                                {
+                                    "situation": "对于影响检定"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

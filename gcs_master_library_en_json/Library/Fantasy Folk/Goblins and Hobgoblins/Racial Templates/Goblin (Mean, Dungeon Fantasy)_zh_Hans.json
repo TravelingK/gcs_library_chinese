@@ -1,0 +1,229 @@
+{
+    "traits": {
+        "fd7c4a12-63fa-490f-9b6b-7c0b76018a3b": {
+            "name": "Goblin (Dungeon Fantasy)",
+            "children": {
+                "4f5fd1b7-5603-40d7-af7c-5975d2e52a17": {
+                    "name": "减少智力",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "6994913c-da5d-4a6e-bc8c-3d06f8d94b49": {
+                    "name": "增加体力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "eb48040e-020f-43ab-9d48-2900d4b29d43": {
+                    "name": "额外生命值",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "e6bc0691-600b-4b74-a98e-a914c8928e5e": {
+                    "name": "增加意志",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理"
+                    ]
+                },
+                "019f2a12-c9a5-42e4-97e3-f649d1878d87": {
+                    "name": "增加感知",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理",
+                        "生理"
+                    ]
+                },
+                "159ce08d-3af0-474e-a7ca-4072ff1a5f0f": {
+                    "name": "红外视觉",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "6f38f50d-69d3-44e2-9167-6f247e522989": {
+                    "name": "快速愈合",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "对于当你投骰去恢复失去的 HP 时或恢复严重的伤口时你的有效 HT"
+                        }
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "qualifier": {
+                                    "qualifier": "10"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "113e93a9-d7b5-43ea-b95b-95942af4e56e": {
+                    "name": "Resistant (Metabolic Hazards, +3 to HT rolls to resist)",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "to HT to resist metabolic hazards"
+                        }
+                    ]
+                },
+                "d29fee60-03ac-4f34-861f-25e5b540f195": {
+                    "name": "利齿",
+                    "tags": [
+                        "异种",
+                        "Perk",
+                        "生理"
+                    ],
+                    "weapons": {
+                        "dbf194fc-0933-473c-8708-1704bb1dbb50": {
+                            "usage": "啃咬",
+                            "defaults": [
+                                {
+                                    "name": "斗殴"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "fb858ab9-e6e3-4bc0-ace3-e677eff4fd0f": {
+                    "name": "Appearance (-2: Ugly to non-Goblinoids)",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "from non-Goblinoids who see your looks"
+                        }
+                    ]
+                },
+                "6e7530e5-b8f1-40c1-9c85-10810197f348": {
+                    "name": "Social Stigma (Savage)",
+                    "tags": [
+                        "劣势",
+                        "社会"
+                    ],
+                    "notes": "-2 reaction; -4 to skills; Denied entry to town on 6 or less"
+                },
+                "fb826ed2-d9dd-4176-ae39-a7a45f50d386": {
+                    "name": "Choose -10 points of disadvantages",
+                    "children": {
+                        "26426657-990e-4bf5-b449-c78bace9ecc2": {
+                            "name": "坏脾气",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "345663a5-b4eb-4f32-b926-09606eb7b96c": {
+                            "name": "坏脾气",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "ce1975df-1b09-47a2-862e-beaba12343ac": {
+                            "name": "嗜血",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你需要接受投降、避开哨兵、抓俘虏的时候，你需要进行自控检定。"
+                        },
+                        "5ecfcac5-b8b7-409a-8ca5-b1b1d832db3c": {
+                            "name": "嗜血",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你需要接受投降、避开哨兵、抓俘虏的时候，你需要进行自控检定。"
+                        },
+                        "9484a222-f80f-4faf-8c94-11bebdd41431": {
+                            "name": "横行霸道",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "来自其他人"
+                                }
+                            ]
+                        },
+                        "a862aef3-db45-4fec-8bb5-86b2e855273f": {
+                            "name": "横行霸道",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "来自其他人"
+                                }
+                            ]
+                        },
+                        "762c22e6-a624-4170-95a9-6c488b3a25fc": {
+                            "name": "怯懦",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你需要面对身体方面的危险的时候，你需要进行自控。如果危险可能危及性命，自控有 -5 减值。"
+                        },
+                        "4db4729e-6bfb-4b48-8cd7-29e209d9bb69": {
+                            "name": "怯懦",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你需要面对身体方面的危险的时候，你需要进行自控。如果危险可能危及性命，自控有 -5 减值。"
+                        },
+                        "6a4d3701-335a-452f-8b10-9e817a3af342": {
+                            "name": "冲动",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当正确的选择是等待并思考的时候，进行一次自控检定。如果失败，你必须行动起来"
+                        }
+                    }
+                },
+                "1a71394a-f6cc-454a-87d6-17f1953af53f": {
+                    "name": "Select if they are a race of cannon fodder",
+                    "children": {
+                        "894ede82-9c8c-47f1-91d1-f4e7b744d588": {
+                            "name": "易于杀死",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "对于在你的 HP 低于负一倍或更低时你的生存 HT 检定，以及任何会导致你死亡的 HT 检定。你不能把你的 HT 检定缩减至 3 以下。"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

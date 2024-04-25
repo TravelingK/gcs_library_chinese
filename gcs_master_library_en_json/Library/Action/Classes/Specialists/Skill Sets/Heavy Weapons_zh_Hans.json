@@ -1,0 +1,207 @@
+{
+    "traits": {
+        "1633a4e9-3131-4a0b-ba71-3fa6e6712801": {
+            "name": "重武器",
+            "children": {
+                "60b27449-a4f1-444b-b05d-9f7c44f2179c": {
+                    "name": "增加力量",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "4dd6f0c2-65f5-4ff0-8879-5ad0c81c3004": {
+                            "name": "无操作肢"
+                        },
+                        "302e7526-df3e-498a-bdb4-7db65b164a4e": {
+                            "name": "体型"
+                        },
+                        "ad2a1e73-7af1-4712-a9b7-8afdf371d4ca": {
+                            "name": "超级出力"
+                        }
+                    }
+                },
+                "919b567d-5ada-454e-8ff4-1d8e9533b28f": {
+                    "name": "Huge Weapons (ST)",
+                    "tags": [
+                        "异种",
+                        "Perk",
+                        "生理"
+                    ]
+                }
+            }
+        }
+    },
+    "skills": {
+        "649060a6-c870-4225-912d-9e81adf4aa1f": {
+            "name": "重武器",
+            "children": {
+                "2f31dca0-ad2c-47f0-a495-e8d2aba2443e": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "榴弹发射器",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns"
+                        }
+                    ]
+                },
+                "5fccba6d-061d-4ad9-ab28-cb1e79978ff2": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "Light Anti-Armor Weapon",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns"
+                        }
+                    ]
+                },
+                "76e9d0ef-e777-46f6-8601-f6b1ccf7ca55": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "轻机枪",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "霰弹枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "冲锋枪"
+                        }
+                    ]
+                },
+                "b05b63f6-793e-4b65-b52f-0fd41358fb38": {
+                    "name": "Liquid Projector",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "Flamethrower",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Liquid Projector"
+                        }
+                    ]
+                },
+                "b533ff6e-6bcc-4b65-b385-b8c90fc18c41": {
+                    "name": "Choose one",
+                    "children": {
+                        "8d61d694-cbde-40c2-a68d-b2b9d0c44b6e": {
+                            "name": "Artillery",
+                            "tags": [
+                                "战斗",
+                                "远程战斗",
+                                "武器"
+                            ],
+                            "specialization": "Cannon"
+                        },
+                        "8a336f02-6e1c-453a-bca7-c47802ecc896": {
+                            "name": "Artillery",
+                            "tags": [
+                                "战斗",
+                                "远程战斗",
+                                "武器"
+                            ],
+                            "specialization": "Guided Missile"
+                        }
+                    }
+                },
+                "af552cf2-42ee-4b85-be02-a9309420dc1b": {
+                    "name": "Choose one",
+                    "children": {
+                        "8d4163b2-3d73-44ef-a583-b693c0880136": {
+                            "name": "Gunner",
+                            "tags": [
+                                "战斗",
+                                "远程战斗",
+                                "武器"
+                            ],
+                            "specialization": "Cannon",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Gunner"
+                                }
+                            ]
+                        },
+                        "ca0585b1-f3c4-495b-8ab6-3cf222762ae0": {
+                            "name": "Gunner",
+                            "tags": [
+                                "战斗",
+                                "远程战斗",
+                                "武器"
+                            ],
+                            "specialization": "机枪",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Gunner"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "2935b3b7-63c6-4fe8-9a27-37e020b7d8a7": {
+                    "name": "Another 2 points in any one of those skills or",
+                    "children": {
+                        "cd5858f7-cdaf-4d9d-9375-eb96be4763f3": {
+                            "name": "前方观察员",
+                            "tags": [
+                                "军事"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Artillery"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

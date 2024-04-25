@@ -1,0 +1,523 @@
+{
+    "traits": {
+        "43a80d51-5ad5-4cb5-a752-90398cadde5b": {
+            "name": "Elemental Meta-Trait",
+            "children": {
+                "931de28e-0a60-4b98-bce4-61b3fb76e9c9": {
+                    "name": "无需呼吸",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "e8672669-5184-459c-a39b-104b5905461d": {
+                            "name": "鳃"
+                        },
+                        "d117b9ee-e831-423c-b365-d730b14188b1": {
+                            "name": "鳃",
+                            "notes": "在空气中窒息"
+                        },
+                        "e1b829e3-65a2-49a2-a827-5ab58e30db8b": {
+                            "name": "吸收氧气"
+                        },
+                        "ba31b921-e089-41f7-a8e6-238439c43de5": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 25 倍"
+                        },
+                        "3f163709-230e-40d9-9b3b-c40a5366c881": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 50 倍"
+                        },
+                        "259c8bf7-92b3-4f51-843d-46265815938c": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 100 倍"
+                        },
+                        "64e05cb8-7661-43e8-a6d6-725b18903a96": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 200 倍"
+                        },
+                        "d9067343-e1ec-4fcf-b5d0-8f8fa703d39a": {
+                            "name": "氧气储存",
+                            "notes": "“屏息”时间是通常情况的 300 倍"
+                        },
+                        "35f628cf-06ec-4371-96e4-84bc1aa9e6c7": {
+                            "name": "燃烧氧气"
+                        }
+                    }
+                },
+                "dc275aea-7829-4488-b0f7-01d083c7a951": {
+                    "name": "无需饮食",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "9af6a836-16a2-4d9b-83a2-1b6775c05316": {
+                    "name": "高痛阈",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture"
+                },
+                "89b45047-41c4-4657-99ae-65bc3f4741f8": {
+                    "name": "抵抗力",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "008276b7-6199-4255-a24b-a2fc5c32f6b9": {
+                            "name": "@非常常见：新陈代谢危险等@"
+                        },
+                        "cf4dcfc9-4e75-474f-ad7f-46726f5a99bd": {
+                            "name": "Sickness"
+                        },
+                        "f8c466e4-298b-4d02-bda0-143942143382": {
+                            "name": "@偶尔：疾病，摄入的毒药等@"
+                        },
+                        "4d6074d7-841f-4f19-b641-772038727ede": {
+                            "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                        },
+                        "b7155d1b-4ffa-4aa7-89ee-e353e42fb78d": {
+                            "name": "免疫力"
+                        },
+                        "b3490490-bdd9-45c7-84e6-356088afb49d": {
+                            "name": "抵抗的 HT 检定 +8"
+                        },
+                        "8e7bfbf5-ceaf-4560-9d35-fee260ce29cd": {
+                            "name": "抵抗的 HT 检定 +3"
+                        }
+                    }
+                },
+                "5667b625-42fe-4c83-b3a3-1bf5e879b78e": {
+                    "name": "不老",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "c8c48792-ba80-4bb1-b42a-ab73e656522f": {
+                            "name": "年龄控制"
+                        }
+                    }
+                },
+                "6c609499-1e30-45b2-b823-d64dadb7dede": {
+                    "name": "冷酷无情",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "心理学"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "教学"
+                            }
+                        }
+                    ]
+                },
+                "ca85a35f-4b9a-4790-9326-4027988a4824": {
+                    "name": "Dependency (Mana)",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "f321d52b-1365-4e7e-8427-1e0189480130": {
+                            "name": "稀有度：稀有"
+                        },
+                        "bbe2cf3d-f8ba-4857-985b-eab54b112dcd": {
+                            "name": "稀有度：不常见"
+                        },
+                        "c305d1c6-0df9-4a9a-b987-a0cf81b3ecc9": {
+                            "name": "稀有度：普遍"
+                        },
+                        "ff425a3a-e5c4-4935-aca1-2a5a32416d1e": {
+                            "name": "稀有度：很普遍"
+                        },
+                        "f38c566e-6d27-4267-b77e-47f95b25bc94": {
+                            "name": "非法"
+                        },
+                        "006ced0e-6d86-45d0-a1e6-323e38779f53": {
+                            "name": "频率：不断地",
+                            "notes": "在没有这种物质的每一分钟里失去 1 点 HP"
+                        },
+                        "c5632083-759e-4da7-a90d-c92b66cd42a6": {
+                            "name": "频率：每小时",
+                            "notes": "在没有保证每小时剂量的每 10 分钟里失去 1 点 HP"
+                        },
+                        "0b27f5c7-96d2-4b8f-8fe3-ca2839596a2e": {
+                            "name": "频率：每日",
+                            "notes": "在没有保证每日剂量的每小时里失去 1 点 HP"
+                        },
+                        "4f20f178-7b2a-40e1-bc07-ebc6d1f132f1": {
+                            "name": "频率：每周",
+                            "notes": "在没有保证每周剂量的每六小时里失去 1 点 HP"
+                        },
+                        "fdc32a60-f507-40e8-b60c-b98fd2837840": {
+                            "name": "频率：每月",
+                            "notes": "在没有保证每月剂量的每天里失去 1 点 HP"
+                        },
+                        "a9aca9e7-cf0c-4cfe-b0e9-5993d20078a2": {
+                            "name": "频率：每季度",
+                            "notes": "在没有保证每季剂量的每三天里失去 1 点 HP"
+                        },
+                        "c9d5414f-2a35-4b15-8526-d515e53a2ad6": {
+                            "name": "频率：每年",
+                            "notes": "在没有保证每年剂量的每两周里失去 1 点 HP"
+                        },
+                        "af7a562e-e416-4894-acfc-e95a93ae470c": {
+                            "name": "衰老",
+                            "notes": "每因为此依赖损失 1 HP，你老化两岁"
+                        }
+                    }
+                },
+                "b22aedea-30d6-41ca-9eef-ff100a3aad14": {
+                    "name": "脆弱（非自然）",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "a90c70a0-bdb3-45b0-b452-e29fa4406e7c": {
+                    "name": "无脊椎",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "0637314c-3f38-4906-b1c2-82c7d6b6521b": {
+                    "name": "社会污名（缺少教育）",
+                    "tags": [
+                        "劣势",
+                        "社会"
+                    ],
+                    "notes": "-1 反应"
+                },
+                "b497d6bd-16ef-4253-85dd-211eb84360e1": {
+                    "name": "Status -",
+                    "tags": [
+                        "劣势",
+                        "社会"
+                    ]
+                }
+            }
+        },
+        "16d4692d-bbdd-420c-85eb-9e5b7502546a": {
+            "name": "Meta-Trait: Body of Water",
+            "children": {
+                "9e2de71e-2df6-42f2-bf35-24712a06b7a2": {
+                    "name": "水陆两栖",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "3f9e596c-121d-487b-aad2-1555b57c237c": {
+                    "name": "勒扼杀法",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "bb0bc250-8293-4f96-b262-73b85074206a": {
+                    "name": "无需呼吸",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "7120e1ac-465e-4298-abec-2c85a3ee3940": {
+                    "name": "Injury Tolerance (Diffuse)",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "2ed66f87-1a85-4509-800b-ae9da318bdf5": {
+                    "name": "无脊椎",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "0c318515-289c-4aa4-80dd-5a630bbca295": {
+                    "name": "Pressure Support 3 (Immune to high pressure)",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "f333a9a9-caf6-4d65-8a12-a036797e17a4": {
+                    "name": "Resistant (Immunity to Metabolic Hazards)",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "d3f485e5-d0b1-4df9-bb2b-cda152b06f2b": {
+                    "name": "光滑",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "逃脱"
+                            }
+                        }
+                    ]
+                },
+                "8f3ef50d-d74f-433b-8cc4-19de090f9824": {
+                    "name": "Vulnerability (Dehydration attack, Damage x2)",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                }
+            }
+        },
+        "3c324196-4c52-4170-abfa-079728840ef7": {
+            "name": "额外生命值",
+            "tags": [
+                "优势",
+                "属性",
+                "生理"
+            ],
+            "modifiers": {
+                "1a80ecd2-9869-4579-9f32-2b5ca8c81f00": {
+                    "name": "体型"
+                },
+                "03603d40-bc92-4102-a108-f2a904b5f797": {
+                    "name": "无操作肢"
+                }
+            }
+        },
+        "764b4523-3e4f-484e-b402-a90d46bd04a1": {
+            "name": "Attribute Modifier: Decreased ST",
+            "tags": [
+                "生理"
+            ]
+        },
+        "8e524406-0856-4b9d-9df0-2d75defebc7e": {
+            "name": "Dependency (Immersion in Water)",
+            "tags": [
+                "劣势",
+                "异种",
+                "生理"
+            ],
+            "modifiers": {
+                "56403628-3fa7-48fc-8e80-0fac4046a6f8": {
+                    "name": "稀有度：稀有"
+                },
+                "040a5791-660a-4861-bab4-cf6df74224dc": {
+                    "name": "稀有度：不常见"
+                },
+                "aa828531-f25b-4434-8e18-96dee09dd36b": {
+                    "name": "稀有度：普遍"
+                },
+                "f12051c1-401d-4f21-a39d-bcdb11fc75d4": {
+                    "name": "稀有度：很普遍"
+                },
+                "67d1293e-cb5b-4c3b-bfa5-447be5fbacb7": {
+                    "name": "非法"
+                },
+                "68a8868c-2eb9-46e2-b2fa-39cf8d429b1c": {
+                    "name": "频率：不断地",
+                    "notes": "在没有这种物质的每一分钟里失去 1 点 HP"
+                },
+                "4cf5e653-c9ca-4baa-82bb-b42544c836f6": {
+                    "name": "频率：每小时",
+                    "notes": "在没有保证每小时剂量的每 10 分钟里失去 1 点 HP"
+                },
+                "52e4732e-7f0e-472f-ac3c-a04af07f311f": {
+                    "name": "频率：每日",
+                    "notes": "在没有保证每日剂量的每小时里失去 1 点 HP"
+                },
+                "9506985c-1e4e-4aaa-ba2c-916838c2a999": {
+                    "name": "频率：每周",
+                    "notes": "在没有保证每周剂量的每六小时里失去 1 点 HP"
+                },
+                "3cd9b565-717e-424b-86a8-3419668c13fe": {
+                    "name": "频率：每月",
+                    "notes": "在没有保证每月剂量的每天里失去 1 点 HP"
+                },
+                "f70f6192-ed68-4e0a-9853-8d20dfdf4b7b": {
+                    "name": "频率：每季度",
+                    "notes": "在没有保证每季剂量的每三天里失去 1 点 HP"
+                },
+                "4ea31513-449a-4d33-ba09-d01bdcedfff8": {
+                    "name": "频率：每年",
+                    "notes": "在没有保证每年剂量的每两周里失去 1 点 HP"
+                },
+                "694fd934-aad0-4207-beed-76cf6283cd6c": {
+                    "name": "衰老",
+                    "notes": "每因为此依赖损失 1 HP，你老化两岁"
+                }
+            }
+        },
+        "f69b4a10-3103-4b2d-aea7-dc6cad385727": {
+            "name": "Enhanced Move (Water: Swimming)",
+            "tags": [
+                "优势",
+                "异种",
+                "生理"
+            ],
+            "modifiers": {
+                "3b94d929-d614-4805-a70c-ff2fb99b2eb8": {
+                    "name": "操纵性加值"
+                },
+                "96a6087c-aaf8-4395-b79d-d2329f344c7a": {
+                    "name": "操纵性减值"
+                },
+                "8009fe98-0536-4179-b5f0-0a59a1844321": {
+                    "name": "牛顿力学"
+                },
+                "1b4e2022-e255-4e50-b479-df65d16ca561": {
+                    "name": "依赖道路"
+                },
+                "68b03ab0-9a35-4789-9997-da4d12a6d563": {
+                    "name": "全力"
+                },
+                "f60c6964-2e6c-4327-8be5-0412f18e3262": {
+                    "name": "超元",
+                    "notes": "瞬间加速"
+                },
+                "d41a0184-421d-41a8-b0ef-0c5626a4a10b": {
+                    "name": "超元",
+                    "notes": "完全机动性"
+                }
+            }
+        },
+        "11529c15-e7f1-4b89-a01a-e7928f43e89a": {
+            "name": "自愈",
+            "tags": [
+                "优势",
+                "异种",
+                "生理"
+            ],
+            "modifiers": {
+                "5d74b290-50b7-4d10-94da-0542c4dfcba8": {
+                    "name": "慢速",
+                    "notes": "你每 12 小时额外恢复 1 HP"
+                },
+                "b3b8d40b-5d4e-4fea-878d-bb062e728fb0": {
+                    "name": "常规",
+                    "notes": "你每 1 小时额外恢复 1 HP"
+                },
+                "d48601bc-4478-45a7-b581-a4068e7f2368": {
+                    "name": "快速",
+                    "notes": "你每 1 分钟额外恢复 1 HP"
+                },
+                "506a8966-4709-43cf-a4db-d2723b9e26e1": {
+                    "name": "高速",
+                    "notes": "你每 1 秒额外恢复 1 HP"
+                },
+                "65fdb7e4-c507-435c-8c01-6855c29c2cfc": {
+                    "name": "极度",
+                    "notes": "你每 1 秒额外恢复 10 HP"
+                },
+                "a9e8acbe-6ed2-4e25-9b42-4d6a2d68f8f4": {
+                    "name": "治疗辐射"
+                },
+                "44397a21-b072-4337-a77b-db905e2a87c2": {
+                    "name": "仅治疗辐射"
+                },
+                "26b4e6d0-f8cc-4dca-bfd2-af347e7f30d8": {
+                    "name": "体力恢复"
+                },
+                "3fcdcaf3-1694-4c48-a8bd-62ac4307e9e7": {
+                    "name": "仅限体力"
+                },
+                "106df655-e8aa-4b3b-8b89-81416580dd1e": {
+                    "name": "Limited: While immersed in water"
+                }
+            }
+        },
+        "eaa1fac0-e413-4c62-821c-f0912058133c": {
+            "name": "自负",
+            "tags": [
+                "劣势",
+                "心理"
+            ]
+        },
+        "52f57a5a-e488-43e3-bf45-d93620a2b2f6": {
+            "name": "Social Stigma (Outsider)",
+            "tags": [
+                "劣势",
+                "社会"
+            ],
+            "notes": "-3 反应",
+            "features": [
+                {
+                    "name": {
+                        "qualifier": "威吓"
+                    }
+                }
+            ]
+        },
+        "9074e3e0-bb4c-4f1a-8a12-c6faa24ed62e": {
+            "name": "无操作肢",
+            "tags": [
+                "劣势",
+                "生理"
+            ]
+        },
+        "0332fe48-41d4-47d4-a956-af4588729a16": {
+            "name": "冲动",
+            "tags": [
+                "劣势",
+                "心理"
+            ]
+        }
+    },
+    "spells": {
+        "83459ca1-b0a7-4e69-985b-53d971b4496b": {
+            "name": "Water Jet",
+            "tags": [
+                "水面"
+            ],
+            "power_source": "Arcane",
+            "spell_class": "常规",
+            "casting_time": "1 秒",
+            "duration": "1 秒",
+            "casting_cost": "1-3",
+            "maintenance_cost": "1-3",
+            "college": [
+                "水面"
+            ],
+            "weapons": {
+                "2776c155-f3fa-4d17-a4d5-19f56cb6d329": {
+                    "usage": "射流",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "固有攻击",
+                            "specialization": "光束"
+                        }
+                    ]
+                }
+            },
+            "prereqs": {
+                "prereqs": [
+                    {
+                        "qualifier": {
+                            "qualifier": "shape water"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

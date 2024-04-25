@@ -1,0 +1,44 @@
+{
+    "skills": {
+        "0074a6ad-f3bd-4480-93fd-67e679058b33": {
+            "name": "Baragwin",
+            "children": {
+                "bfbb2a58-e62d-4898-98b2-2bdddf5d753c": {
+                    "name": "工程学",
+                    "specialization": "轻兵器",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "军械修造",
+                            "specialization": "轻兵器"
+                        }
+                    ]
+                },
+                "10eb35c7-0101-495a-865a-e91cfc8aecb0": {
+                    "name": "数学",
+                    "specialization": "应用",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "物理学"
+                        },
+                        {
+                            "name": "工程学"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

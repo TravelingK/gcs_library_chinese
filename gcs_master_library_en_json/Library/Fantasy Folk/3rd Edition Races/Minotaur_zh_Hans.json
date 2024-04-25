@@ -1,0 +1,249 @@
+{
+    "traits": {
+        "14cd522d-35a3-4bbe-ae60-1e43e5b05004": {
+            "name": "Race: Minotaur",
+            "children": {
+                "17053c8f-d158-4bcf-8075-c8736396553f": {
+                    "name": "增加力量",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "eac5f7e4-0980-45da-b0a3-f73408dfbf19": {
+                    "name": "增加敏捷",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "0d635d61-2af7-4bc2-9335-94ae90781e8f": {
+                    "name": "减少智力",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "685798cd-42c1-4149-9666-4209e24a9992": {
+                    "name": "增加体力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "b071e428-a705-4236-a67f-bc168f889396": {
+                    "name": "绝对方向感",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "稳定身形"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "空中"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "陆地"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "海上"
+                            }
+                        }
+                    ]
+                },
+                "542af2cf-26f9-47f2-8dd6-9cac50a0f90b": {
+                    "name": "敏锐听觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "a5d89661-41a4-41cc-bb51-978430a43eae": {
+                    "name": "Damage Resistance (Tough Skin)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "notes": "Tough Skin (-40%, doesn't protect against touch or scratches)"
+                },
+                "5fb60a10-10eb-48f8-9457-cd60043a9357": {
+                    "name": "Impaling Striker (Horns)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "weapons": {
+                        "fe61b31b-7b74-4da8-b66a-9b2678b2be95": {
+                            "usage": "Horns",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "斗殴"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "891eda97-f8ab-488d-b25a-13ae50064db9": {
+                    "name": "魔法抗性 Magic Resistance",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "对于抵抗法术"
+                        },
+                        {
+                            "situation": "对于其他人对你施法的技能"
+                        }
+                    ]
+                },
+                "2b10ebb1-b503-4302-9aee-f5922f7690b9": {
+                    "name": "广角视觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "efcc8443-9d6a-4338-ac3f-4af1b03db822": {
+                    "name": "伤害减免",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "notes": "Skull only (-70%)"
+                },
+                "729da659-d04d-47c3-9ae2-9eee722761ba": {
+                    "name": "狂暴",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "notes": "当你在一秒内受到的伤害超过你的 1/4 HP，或是你所爱的人受到这种程度的伤害"
+                },
+                "be525d6c-0d96-4f85-b24c-60eef18bfcb3": {
+                    "name": "嗜血",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "notes": "当你需要接受投降、避开哨兵、抓俘虏的时候，你需要进行自控检定。"
+                },
+                "7f7b0516-b33b-4ba8-a6a1-cacbc5029f0a": {
+                    "name": "Appearance (Hideous)",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "from others who see you"
+                        }
+                    ]
+                },
+                "ebc16c57-2305-41c5-96f6-cf2bbf9b824d": {
+                    "name": "Intolerance (Anyone unlike you)",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "来自感受到你的歧视的对象（最高到 -5，GM 决定）"
+                        }
+                    ]
+                },
+                "28ccfdd2-3acd-4b16-9e94-7874243f1472": {
+                    "name": "Odious Racial Habit",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ],
+                    "notes": "Eat other sentients",
+                    "features": [
+                        {
+                            "situation": "来自其他人"
+                        }
+                    ]
+                },
+                "938a6801-f4e2-43ee-8fa3-b80b5f753bba": {
+                    "name": "社会污名（缺少教育）",
+                    "tags": [
+                        "劣势",
+                        "社会"
+                    ],
+                    "features": [
+                        {
+                            "situation": "来自其他人"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "skills": {
+        "c5dcfc6e-6569-47e6-a342-4d6128948517": {
+            "name": "Race: Minotaur",
+            "children": {
+                "c2931ebb-b076-40c7-a497-a2822fef6a17": {
+                    "name": "斗殴",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "斗殴"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "notes": {
+        "d3aa2372-1d6d-4e5d-af8c-68e96091f3ea": {
+            "text": "Race: Minotaur",
+            "children": {
+                "a2b16cc1-6529-442d-9f1b-9ed380dee4c3": {
+                    "text": "Minotaurs are monstrous creatures with the heads of bulls and the bodies of\r massive humans (figure Minotaur height normally for ST, then add 3’’; weight\r is normal for their height). The fur on their heads is usually red or black, and\r matted. The rest of their bodies are exceptionally hairy. Their eyes are red and\r their skin is that of a swarthy Caucasian. Females also have the heads of bulls,\r though their lower bodies are those of stocky human women.\n "
+                },
+                "873a8dd7-0a4e-4158-883f-3649aac59e38": {
+                    "text": "Minotaurs seldom wear armor, but prefer to wear some sort of clothing,\r even if it’s only a loin-cloth or untanned animal skin."
+                },
+                "fe122aed-fec3-42b3-8131-cd03aa187aec": {
+                    "text": "A pregnant or nursing female Minotaur will not have the Berserk or\r Odious Racial Habit disadvantages, but will have at least two dependents, of\r varying point cost depending on the age of the young."
+                }
+            }
+        }
+    }
+}

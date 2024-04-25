@@ -1,0 +1,619 @@
+{
+    "traits": {
+        "48b1895f-e5ad-41e9-8c99-6098ea4d89bd": {
+            "name": "Vampire",
+            "notes": "Features: Can be turned by those with True Faith; Sterile.",
+            "children": {
+                "a2f8df15-7ad0-4961-a585-165636ec70d4": {
+                    "name": "Attributes",
+                    "children": {
+                        "4f47ad31-4d5f-4cad-a83c-f7b031185ba8": {
+                            "name": "额外生命值",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "6b2bca19-991d-4da3-a950-9ef5acbfab05": {
+                                    "name": "体型"
+                                },
+                                "ee9d3bdb-5fc2-40c5-8390-859f5c44e237": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        },
+                        "6e9ac6f7-2b7f-43f5-b9a1-99f0768c99fa": {
+                            "name": "增加感知",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理",
+                                "生理"
+                            ]
+                        },
+                        "50a99504-21a0-43a8-b5b9-f97a0cc2ad31": {
+                            "name": "增加力量",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "e6d7e74b-0955-4cff-a28e-8f1a30e13742": {
+                                    "name": "无操作肢"
+                                },
+                                "4d53d8f5-16ee-4ba2-87ae-446bfb394895": {
+                                    "name": "体型"
+                                },
+                                "4ba2407c-77f5-4d79-bba0-d719c8d424c6": {
+                                    "name": "超级出力"
+                                }
+                            }
+                        }
+                    }
+                },
+                "b97650f9-2102-4c48-8ab1-9676909a34c6": {
+                    "name": "Racial Advantage",
+                    "children": {
+                        "0c3ee462-5cdc-48f0-9d3a-55a6eb62e261": {
+                            "name": "敏锐味觉和嗅觉",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "b7f0f716-d672-4baa-a494-029a433a880c": {
+                            "name": "无需呼吸",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "81e247f8-aa3a-4e09-9b33-2016ecac4f76": {
+                                    "name": "鳃"
+                                },
+                                "a967394b-15bc-42d5-846f-baa5228e5cfb": {
+                                    "name": "鳃",
+                                    "notes": "在空气中窒息"
+                                },
+                                "56f2842b-3194-4c4e-b47c-5aa09028430b": {
+                                    "name": "吸收氧气"
+                                },
+                                "a213e985-3d03-4522-837c-b5501cfc44b3": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 25 倍"
+                                },
+                                "37ebf52f-c2bf-4a17-a3d2-d050e0e93cb7": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 50 倍"
+                                },
+                                "c5bdda6a-d247-4d6d-8234-6a14b2dd31c1": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 100 倍"
+                                },
+                                "c3fe0a5a-7dd5-4167-b97b-fb4c92f17840": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 200 倍"
+                                },
+                                "4b8d30d6-f070-4b71-9293-b0752c0be648": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 300 倍"
+                                },
+                                "2e5ad816-3b9d-4b5b-8cbf-8e0cc8a580bd": {
+                                    "name": "燃烧氧气"
+                                }
+                            }
+                        },
+                        "749aa237-38c7-4af1-bbe0-3c14d3590b87": {
+                            "name": "高痛阈",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture"
+                        },
+                        "f359546b-acad-4a18-83f8-c1fa57ef0f46": {
+                            "name": "抵抗力",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "68a55050-fe08-4dc9-93d3-f2b420365768": {
+                                    "name": "新陈代谢危险"
+                                },
+                                "d565300d-70c2-49b3-be39-a415c513875d": {
+                                    "name": "@常见：毒药，病征等@"
+                                },
+                                "0b946b43-d977-4067-b59c-d00ab3595283": {
+                                    "name": "@偶尔：疾病，摄入的毒药等@"
+                                },
+                                "205d2386-9905-43aa-9c32-2a39049de760": {
+                                    "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                                },
+                                "7419807f-b932-47b0-9546-246357a9de77": {
+                                    "name": "免疫力"
+                                },
+                                "d3d7ccb9-a2ef-4794-b8c3-c790a590dcc9": {
+                                    "name": "抵抗的 HT 检定 +8"
+                                },
+                                "4315c399-d525-499f-9f6b-75f166519148": {
+                                    "name": "抵抗的 HT 检定 +3"
+                                }
+                            }
+                        },
+                        "f7269a6b-d299-43c6-a939-ed929e0b2d19": {
+                            "name": "Injury Tolerance (No Blood)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "8259528c-e816-4b5b-be53-4b0d47944280": {
+                            "name": "Injury Tolerance (Unliving)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "178ec7bd-e6ef-4b01-96e8-6267ea1bc55b": {
+                            "name": "夜视",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "5e9904ec-d6db-4b47-9d2c-a49a8dee2778": {
+                            "name": "超温耐受",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "33902869-82f1-4806-a0ee-c7898a099a72": {
+                            "name": "不老",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "50e7fcd9-3de9-49ad-a50e-959f2a57d0e7": {
+                                    "name": "年龄控制"
+                                },
+                                "b88ad01c-1acf-4583-be16-0e4145d99cd2": {
+                                    "name": "仅限 IQ"
+                                }
+                            }
+                        },
+                        "55289279-6d9d-4727-a066-2504f8ef9e5e": {
+                            "name": "不死",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "e6620cb9-be7e-4d0b-a31b-991781899469": {
+                                    "name": "Achilles' Heal",
+                                    "notes": "@Rare Achilles' Heal@"
+                                },
+                                "b2b38501-5f6c-4241-8d84-dc2ad2c2d998": {
+                                    "name": "Achilles' Heal",
+                                    "notes": "@Occasional Achilles' Heal@"
+                                },
+                                "17fac29b-08b4-416d-bc21-b0d2f88cefce": {
+                                    "name": "Achilles' Heal",
+                                    "notes": "Wood"
+                                },
+                                "c39c0229-940b-416c-882d-e650eef7ea92": {
+                                    "name": "妨碍",
+                                    "notes": "@罕见妨碍@"
+                                },
+                                "c70f96eb-ec4a-450a-a3ae-0dcc76337403": {
+                                    "name": "妨碍",
+                                    "notes": "@偶见妨碍@"
+                                },
+                                "8be2b990-cbd4-4739-93da-c1e7e3ecfda9": {
+                                    "name": "妨碍",
+                                    "notes": "@常见妨碍@"
+                                },
+                                "71e1cabc-a9e3-43ae-8f5d-56b9d5862d34": {
+                                    "name": "转生"
+                                },
+                                "e3cabfd9-15a2-4e79-a55e-d35169757592": {
+                                    "name": "触发器",
+                                    "notes": "@罕见触发@"
+                                },
+                                "60e48add-236d-4de6-872c-07991c83168e": {
+                                    "name": "触发器",
+                                    "notes": "@偶见触发@"
+                                },
+                                "b3c5bbd5-bd52-462c-b956-e9e3f416a1ea": {
+                                    "name": "触发器",
+                                    "notes": "@常见触发@"
+                                }
+                            }
+                        },
+                        "4b8261eb-6c9b-44fd-acb5-55674e1b4a70": {
+                            "name": "吸血鬼之咬",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "72df9c59-8f8c-4c7f-800c-6dacb6320fc7": {
+                    "name": "Racial Disadvantage",
+                    "children": {
+                        "1724d1c1-e1db-4c74-ad4f-82436d1e0b6c": {
+                            "name": "Dependency (Coffin with soil of homeland)",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "41dd6bad-da3a-4115-afb9-56ffec455662": {
+                                    "name": "稀有度：稀有"
+                                },
+                                "ec44a96c-f089-4f52-bf7b-6e9a06039881": {
+                                    "name": "稀有度：不常见"
+                                },
+                                "99d8b7a2-9773-4b09-b09a-c9e6ee01e55e": {
+                                    "name": "稀有度：普遍"
+                                },
+                                "23d1b862-aee2-41a6-bdea-a76b01062454": {
+                                    "name": "稀有度：很普遍"
+                                },
+                                "8847ee2e-ecff-4c62-8d3a-3371a83afa22": {
+                                    "name": "非法"
+                                },
+                                "1807d8b2-ecf1-4548-96ee-4481400b6900": {
+                                    "name": "频率：不断地",
+                                    "notes": "在没有这种物质的每一分钟里失去 1 点 HP"
+                                },
+                                "1b87c23d-d702-41de-bc9c-af12957cc29d": {
+                                    "name": "频率：每小时",
+                                    "notes": "在没有保证每小时剂量的每 10 分钟里失去 1 点 HP"
+                                },
+                                "97179017-82f4-4c9e-bb26-da4a925140d2": {
+                                    "name": "频率：每日",
+                                    "notes": "在没有保证每日剂量的每小时里失去 1 点 HP"
+                                },
+                                "fc03781b-0ec5-426a-8a83-bd486e71800a": {
+                                    "name": "频率：每周",
+                                    "notes": "在没有保证每周剂量的每六小时里失去 1 点 HP"
+                                },
+                                "adccbd01-3151-4e39-9555-33a9813b9fd1": {
+                                    "name": "频率：每月",
+                                    "notes": "在没有保证每月剂量的每天里失去 1 点 HP"
+                                },
+                                "48fb1b04-d659-4267-9c9b-049318fb77ca": {
+                                    "name": "频率：每季度",
+                                    "notes": "在没有保证每季剂量的每三天里失去 1 点 HP"
+                                },
+                                "9bb5bdfc-0b49-44a9-b6d7-2d779403328c": {
+                                    "name": "频率：每年",
+                                    "notes": "在没有保证每年剂量的每两周里失去 1 点 HP"
+                                },
+                                "771e3b7a-a1cd-4cd5-92c2-1cf1791d6dda": {
+                                    "name": "衰老",
+                                    "notes": "每因为此依赖损失 1 HP，你老化两岁"
+                                }
+                            }
+                        },
+                        "1ba1425e-17b2-4884-b971-3f388efb0176": {
+                            "name": "Divine Curse (Cannot enter dwelling for first time unless invited)",
+                            "tags": [
+                                "劣势",
+                                "心理",
+                                "超自然"
+                            ],
+                            "modifiers": {
+                                "e1a0ccbb-e6ef-492c-a379-e11e363dc4d7": {
+                                    "name": "轻微"
+                                },
+                                "889237e2-89bc-4980-a509-08445ed01b1c": {
+                                    "name": "较大"
+                                },
+                                "0af7a6e8-b52b-457b-b9ae-8e4599f7037e": {
+                                    "name": "重度"
+                                }
+                            }
+                        },
+                        "490cbd9c-59ed-46ca-8205-9fb3f111a063": {
+                            "name": "Dread (Garlic)",
+                            "tags": [
+                                "劣势",
+                                "心理",
+                                "超自然"
+                            ],
+                            "modifiers": {
+                                "f464e501-508e-4791-bac9-3027e5fb3460": {
+                                    "name": "非常常见"
+                                },
+                                "69c09fb9-6ffb-4f89-ad3a-d3f3a977c8e5": {
+                                    "name": "常见"
+                                },
+                                "bdbd6c81-a409-4102-90d0-ce9ac4b779c7": {
+                                    "name": "不常见"
+                                },
+                                "f770e822-0564-4061-85c0-6a49af9d2025": {
+                                    "name": "稀有"
+                                },
+                                "89a7f226-2571-47a6-9cd9-fdf839996488": {
+                                    "name": "无法被困"
+                                },
+                                "1288cfb8-4e48-45dd-b218-a53e97498f21": {
+                                    "name": "迟钝"
+                                }
+                            }
+                        },
+                        "6a25c4c9-5108-4ec5-b2c3-9c878dc123a7": {
+                            "name": "Dread (Holy Objects)",
+                            "tags": [
+                                "劣势",
+                                "心理",
+                                "超自然"
+                            ],
+                            "modifiers": {
+                                "7d8a8903-8a15-4d14-ba44-6ac3857d8a60": {
+                                    "name": "非常常见"
+                                },
+                                "7a991efb-ee68-4e74-92e5-819b0066240a": {
+                                    "name": "常见"
+                                },
+                                "e8c84a31-7026-48bf-ba13-797717b98a1f": {
+                                    "name": "不常见"
+                                },
+                                "89381bcb-1f62-4f98-a4c3-3679bda065b2": {
+                                    "name": "稀有"
+                                },
+                                "7a2f2d4e-2739-48ba-ab15-d04641be2f77": {
+                                    "name": "无法被困"
+                                },
+                                "45f7c825-532c-4315-b145-34da6a31342f": {
+                                    "name": "迟钝"
+                                }
+                            }
+                        },
+                        "0bb8417d-695e-46b9-994b-ef1f4ff8a96c": {
+                            "name": "Dread (Running Water)",
+                            "tags": [
+                                "劣势",
+                                "心理",
+                                "超自然"
+                            ],
+                            "modifiers": {
+                                "a2e695fd-3e34-4a9a-9bd2-84e9d7075bf3": {
+                                    "name": "非常常见"
+                                },
+                                "5c0b74df-a890-46fa-9781-d2f11f8f8ce9": {
+                                    "name": "常见"
+                                },
+                                "1e220248-5ee2-41f1-8583-5cfaffb6cce9": {
+                                    "name": "不常见"
+                                },
+                                "66a2ad59-705c-48a6-89d7-6748ce23c1a2": {
+                                    "name": "稀有"
+                                },
+                                "8f6e57ba-ebe8-4e12-b0c7-bfc9569a966e": {
+                                    "name": "无法被困"
+                                },
+                                "49629b10-ac9b-47e2-8fa6-a53516a5a25b": {
+                                    "name": "迟钝"
+                                }
+                            }
+                        },
+                        "22d2069e-3b0d-4120-9550-6f8a2263b6f1": {
+                            "name": "感染攻击",
+                            "tags": [
+                                "劣势",
+                                "生理",
+                                "超自然"
+                            ]
+                        },
+                        "06821ce5-5c80-49e7-908c-53414221c3a8": {
+                            "name": "Supernatural Features (No Body Heat; Temporary)",
+                            "tags": [
+                                "生理",
+                                "Quirk",
+                                "超自然"
+                            ]
+                        },
+                        "931ef4fd-e537-4a02-82b8-1f5525af617f": {
+                            "name": "Supernatural Features (No Reflection)",
+                            "tags": [
+                                "劣势",
+                                "生理",
+                                "超自然"
+                            ]
+                        },
+                        "320f0d4d-100e-4944-bfc8-f2e801268086": {
+                            "name": "Supernatural Features (Pallor; Temporary)",
+                            "tags": [
+                                "劣势",
+                                "生理",
+                                "超自然"
+                            ]
+                        },
+                        "ac91f63b-f5b5-4f12-9ce5-a6e8a9259085": {
+                            "name": "Uncontrollable Appetite (Human Blood)",
+                            "tags": [
+                                "劣势",
+                                "心理",
+                                "超自然"
+                            ]
+                        },
+                        "545f4ab4-d731-40e1-badc-6090165a7cd8": {
+                            "name": "弱点",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "c4c194fc-d118-428f-a3ad-47e2c28161a6": {
+                                    "name": "每分钟 1d 伤害"
+                                },
+                                "f17c161c-9bd8-4454-a7a0-4cfb5afe4b2b": {
+                                    "name": "每 5 分钟 1d 伤害"
+                                },
+                                "eb5a2bd1-1630-4b04-a79a-d4f468eaa384": {
+                                    "name": "每 30 分钟 1d 伤害"
+                                },
+                                "387db638-8d96-4696-9af3-21383d7bdad9": {
+                                    "name": "@稀有物质@"
+                                },
+                                "4b2e7cc0-0233-43b2-b889-a07d36df7e85": {
+                                    "name": "@偶见物质@"
+                                },
+                                "5103513a-06b0-4292-a8bb-b090520a6323": {
+                                    "name": "@常见物质@"
+                                },
+                                "3fadf422-c421-428d-a87e-ab5c498324a0": {
+                                    "name": "Sunlight"
+                                },
+                                "bc6bf4f2-b536-4bfa-9b58-88c8dd9b75fc": {
+                                    "name": "仅限体力"
+                                },
+                                "6d0712fb-6bd6-4395-8c0a-3a5d3d91591a": {
+                                    "name": "强度可变"
+                                }
+                            }
+                        },
+                        "a320a3e4-7e76-4f73-8b8f-a9da3d541533": {
+                            "name": "无法治愈（部分）",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "5d211089-9225-49cf-b9bc-3add0a837d44": {
+                            "name": "Ages temporarily when unfed",
+                            "tags": [
+                                "生理"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "de8ee507-8c30-41bc-8665-16b227b121b1": {
+            "name": "Vampire Lens",
+            "children": {
+                "c4a6ff16-b201-4801-bf20-7cbf996baf6f": {
+                    "name": "Vampire Mage",
+                    "notes": "Features: Magic powered by blood pool rather than FP. See F167.",
+                    "children": {
+                        "9f7cac6e-c13f-43ca-ba95-a9dc64991fa1": {
+                            "name": "Attributes",
+                            "children": {
+                                "42731f94-ce60-481d-bb45-4f35c6e183c1": {
+                                    "name": "增加智力",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "心理"
+                                    ]
+                                }
+                            }
+                        },
+                        "05d3c2c0-e64a-40be-8882-f83211acce9f": {
+                            "name": "Racial Advantage",
+                            "children": {
+                                "cb0b8e44-58f8-4284-985b-bf51d8aa530a": {
+                                    "name": "魔法天赋",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "超自然"
+                                    ],
+                                    "modifiers": {
+                                        "fc49e719-fdf4-4556-bd25-7b9a9ac2a727": {
+                                            "name": "舞蹈"
+                                        },
+                                        "91747a22-5e82-4cac-86cb-fe7ed3019fcc": {
+                                            "name": "黑暗倾向"
+                                        },
+                                        "33dc79d3-d666-4b4f-9e86-61ef2a468c16": {
+                                            "name": "白昼倾向"
+                                        },
+                                        "486b716b-421d-4441-b2f2-4edae7b8afc2": {
+                                            "name": "音乐魔法"
+                                        },
+                                        "8d972c70-44f5-436a-a66a-6bc699bed5a3": {
+                                            "name": "黑夜倾向"
+                                        },
+                                        "a39eb67c-fcab-4ccd-8dfc-eaa81c6b9a24": {
+                                            "name": "单一学派",
+                                            "notes": "@学派@"
+                                        },
+                                        "8eea6977-d7cf-4ed5-8880-d22c277cdf9a": {
+                                            "name": "孤独施法"
+                                        },
+                                        "56432289-1974-4e3b-aa10-81b8da4e7406": {
+                                            "name": "唱歌施法"
+                                        }
+                                    },
+                                    "features": [
+                                        {},
+                                        {
+                                            "name": {
+                                                "qualifier": "魔导学"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "c8c8dfd6-a20b-4dd7-823d-66a6f119c4a7": {
+                                    "name": "动物交谈",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "b8dd7210-91a3-41eb-abbe-6c9a1bd82382": {
+                                            "name": "特化",
+                                            "notes": "所有水生动物"
+                                        },
+                                        "83e295ba-8b82-4984-a252-0e2025539979": {
+                                            "name": "特化",
+                                            "notes": "所有陆地生物"
+                                        },
+                                        "aa1e2c2c-62b7-47e3-9e0c-5a22ad2c50d9": {
+                                            "name": "特化",
+                                            "notes": "@一 纲生物（如“哺乳类”或“鸟类”）@"
+                                        },
+                                        "5625a046-655c-4549-855d-694ab4a27b4b": {
+                                            "name": "特化",
+                                            "notes": "@Wolves and Bats Only@"
+                                        },
+                                        "b5f6608b-91a4-4cbc-953c-253359cac0de": {
+                                            "name": "特化",
+                                            "notes": "@一种生物（如“家猫”或“金刚鹦鹉”）@"
+                                        },
+                                        "165097af-b370-46c2-a693-5b8c7d3cf72f": {
+                                            "name": "共智"
+                                        },
+                                        "7e5fad65-3eb7-42b3-b4a7-dc542498c7a3": {
+                                            "name": "通用"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

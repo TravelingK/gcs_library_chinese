@@ -1,0 +1,158 @@
+{
+    "traits": {
+        "f22cdb31-5e62-40e8-8edb-8405bfc4870e": {
+            "name": "Underwater Operations",
+            "children": {
+                "2bd03dd4-b005-4bfe-8c81-b42e508d3acf": {
+                    "name": "Increased Water Move",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "955505c1-3d7f-440b-8c28-173627ddc74a": {
+                    "name": "屏息",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                }
+            }
+        }
+    },
+    "skills": {
+        "ebaf35e7-4911-4583-a883-60daa7578123": {
+            "name": "Underwater Operations",
+            "children": {
+                "fb0cf94c-3b5a-4d38-81c3-219a6fa9330d": {
+                    "name": "水上杂技",
+                    "tags": [
+                        "运动"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "杂技"
+                        },
+                        {
+                            "name": "空中杂技"
+                        }
+                    ]
+                },
+                "8f1f362b-19a4-43cf-b28b-c8ae600c8c00": {
+                    "name": "弩",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "Speargun"
+                },
+                "5d0233aa-4797-4de0-800c-1a8d132147cc": {
+                    "name": "Explosives",
+                    "tags": [
+                        "军事",
+                        "技术"
+                    ],
+                    "specialization": "水下爆破",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Explosives",
+                            "specialization": "爆破"
+                        },
+                        {
+                            "name": "Explosives"
+                        }
+                    ]
+                },
+                "b20fcd52-6c19-4b89-87d9-3ed9cb384ff3": {
+                    "name": "Knife",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "defaults": [
+                        {
+                            "name": "能量剑"
+                        },
+                        {
+                            "name": "Main-Gauche"
+                        },
+                        {
+                            "name": "Shortsword"
+                        }
+                    ]
+                },
+                "a4e54a10-6b5b-402b-90f2-68b98d32dc12": {
+                    "name": "水肺",
+                    "tags": [
+                        "运动",
+                        "探索",
+                        "军事",
+                        "户外",
+                        "技术"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "游泳"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {},
+                        {
+                            "name": "潜水服"
+                        }
+                    ]
+                },
+                "61a62887-90c2-459d-9669-2e22c08ba81e": {
+                    "name": "潜水艇",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "浸没潜艇",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "潜水服"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "水肺"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {},
+                        {
+                            "name": "潜水艇",
+                            "specialization": "大型潜艇"
+                        },
+                        {
+                            "name": "潜水艇",
+                            "specialization": "迷你潜艇"
+                        }
+                    ]
+                },
+                "ffe0e9bb-c8ec-42a9-a420-b9e6334d5e54": {
+                    "name": "游泳",
+                    "tags": [
+                        "运动",
+                        "探索",
+                        "户外"
+                    ]
+                }
+            }
+        }
+    }
+}

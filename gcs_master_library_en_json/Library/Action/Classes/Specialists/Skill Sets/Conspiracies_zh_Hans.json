@@ -1,0 +1,167 @@
+{
+    "traits": {
+        "f9892346-7599-4cb8-b885-e0576f4c41d8": {
+            "name": "阴谋",
+            "children": {
+                "97cc62cb-609a-4980-b47c-05282c258fe3": {
+                    "name": "Choose one",
+                    "children": {
+                        "c283e018-7a69-46aa-b10d-076d3a2d185f": {
+                            "name": "增加感知",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理",
+                                "生理"
+                            ]
+                        },
+                        "4558e26a-53bc-415b-835e-34db67973f54": {
+                            "name": "增加意志",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "fc782096-61d0-4247-834d-d78651d1f0b4": {
+            "name": "阴谋",
+            "children": {
+                "a0d9368a-7df4-4f1f-bb51-33652003e87a": {
+                    "name": "时事",
+                    "tags": [
+                        "常识",
+                        "知识",
+                        "社会"
+                    ],
+                    "specialization": "头条新闻",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "研究"
+                        },
+                        {
+                            "name": "时事"
+                        }
+                    ]
+                },
+                "948c90b9-787f-40e7-ba9c-acbb73ddf4d6": {
+                    "name": "时事",
+                    "tags": [
+                        "常识",
+                        "知识",
+                        "社会"
+                    ],
+                    "specialization": "政治",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "研究"
+                        },
+                        {
+                            "name": "时事"
+                        }
+                    ]
+                },
+                "562ebb82-0eb4-448b-bc05-2767bf7ad1f4": {
+                    "name": "侦测谎言",
+                    "tags": [
+                        "警察",
+                        "社会",
+                        "间谍"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "肢体语言"
+                        },
+                        {
+                            "name": "心理学"
+                        }
+                    ]
+                },
+                "cff904d3-f4de-413a-9138-326b5d9fef99": {
+                    "name": "专家技能",
+                    "tags": [
+                        "知识",
+                        "学校"
+                    ],
+                    "specialization": "阴谋论"
+                },
+                "ef687461-16ec-411a-8558-8e05fd04769e": {
+                    "name": "情报分析",
+                    "tags": [
+                        "军事",
+                        "警察",
+                        "间谍"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "战略"
+                        }
+                    ]
+                },
+                "f954d745-469d-4258-ba67-3e3491d20531": {
+                    "name": "研究",
+                    "tags": [
+                        "学校",
+                        "间谍"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "电脑操作"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "语言"
+                                        },
+                                        "notes": {
+                                            "qualifier": "书面语（纯正的）"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "语言"
+                                        },
+                                        "notes": {
+                                            "qualifier": "书面语（有口音的）"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "语言"
+                                        },
+                                        "notes": {
+                                            "qualifier": "书面语（结巴的）"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {},
+                        {
+                            "name": "写作"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

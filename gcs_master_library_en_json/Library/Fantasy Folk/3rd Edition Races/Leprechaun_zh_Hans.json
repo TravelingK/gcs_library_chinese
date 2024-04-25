@@ -1,0 +1,166 @@
+{
+    "traits": {
+        "038f8b14-5dd9-4b7c-8cb6-8659a3a503de": {
+            "name": "Race: Leprechaun",
+            "children": {
+                "54938ac1-4cb2-49d1-9d72-58b8fe5689bc": {
+                    "name": "Size Modifier (Small)"
+                },
+                "54a8d6f6-e570-49f4-b15f-9e7f78684a54": {
+                    "name": "减少力量",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "生理"
+                    ]
+                },
+                "de0b0575-e1c7-41a2-918a-914918ee58f6": {
+                    "name": "增加敏捷",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "5af7d78c-eb8f-4916-94b2-32e5c2802884": {
+                    "name": "敏锐听觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "8ed13120-f8ea-4c23-b378-2a8cc884f0c9": {
+                    "name": "长寿",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "notes": "你的自然寿命很长。你的老化检定只在投出 17 或 18 时失败——或只有 18，如果你有着 17 以上的HT"
+                },
+                "dc264f9b-e1f4-4d7e-a6f4-6b517e5a85a4": {
+                    "name": "幸运",
+                    "tags": [
+                        "优势",
+                        "心理"
+                    ],
+                    "notes": "游戏的每个小时可用一次"
+                },
+                "90a97597-06d2-49cc-9e6c-1e13920883e4": {
+                    "name": "魔法天赋",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "超自然"
+                    ],
+                    "features": [
+                        {},
+                        {
+                            "name": {
+                                "qualifier": "魔导学"
+                            }
+                        }
+                    ]
+                },
+                "111d4ee7-b572-45bd-9140-c9a9e432199e": {
+                    "name": "天赋（音乐天才）",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "天赋"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "团队表演"
+                            },
+                            "specialization": {
+                                "qualifier": "指挥"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "谱曲"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "音乐影响"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "乐器"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "唱歌"
+                            }
+                        },
+                        {
+                            "situation": "来自听众与评论家"
+                        }
+                    ]
+                },
+                "a9db3092-04c7-4315-b235-e34810726ad5": {
+                    "name": "夜视",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "89e136cf-9a6d-4363-99a7-1c8c81dfb4db": {
+                    "name": "吝啬",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "notes": "当你需要花钱的时候，进行一次自控检定。如果数额巨大，你检定受到至多 -5 的减值（GM裁定）。失败意味着你拒绝出钱。"
+                }
+            }
+        }
+    },
+    "skills": {
+        "64873890-46d4-4f8a-884b-0862e11e9ee6": {
+            "name": "Race: Leprechaun",
+            "children": {
+                "80c16fe7-0f41-4c2c-8b2b-2bea8af24403": {
+                    "name": "皮革加工",
+                    "tags": [
+                        "工艺"
+                    ]
+                }
+            }
+        }
+    },
+    "spells": {
+        "abc138be-6016-470f-8552-c19f06db97f2": {
+            "name": "Racial Innate Spells",
+            "notes": "Each with maximum Magery 1 and maximum energy cost 3, ignore pre-requisites",
+            "children": {
+                "d0694bbf-ad2f-4685-b05c-f66b4f4e24bf": {
+                    "name": "@Spell 1@"
+                },
+                "bcc9623e-def5-4915-9c64-45ebdf15b950": {
+                    "name": "@Spell 2@"
+                },
+                "025188a2-8f48-470a-9380-c4ca71201134": {
+                    "name": "@Spell 3@"
+                }
+            }
+        }
+    },
+    "notes": {
+        "1c0fd167-3531-4a27-84f9-49c7efd4144d": {
+            "text": "Race: Leprechaun",
+            "children": {
+                "3cc38b00-2676-434a-b028-91c4c8749511": {
+                    "text": "Leprechauns are tiny, only about a foot high. Determine height normally\r for their ST before racial modifiers are applied, then double it and read inches\r for feet. Weight is negligible – 10 to 15 pounds. They have rosy cheeks and\r bright eyes. Their hair is curly, tending toward black or red, turning to white in\r older individuals. Their complexions are ruddy. Most males wear bushy side\r whiskers, and a few wear close-cropped beards. Their builds are portly.\n "
+                },
+                "b2959d22-6a93-461a-a516-0a18f317e111": {
+                    "text": "Leprechauns are seldom seen without their full ensemble of white shirt\r and hose, green breeches, vest, coat and hat, and shiny black shoes with a\r gleaming buckle. Females wear green dresses and bonnets with white petticoats and the same sort of shoes as the males. Most males carry an unhewn,\r knobby walking-stick."
+                }
+            }
+        }
+    }
+}

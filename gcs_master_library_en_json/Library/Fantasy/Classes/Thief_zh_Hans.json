@@ -1,0 +1,929 @@
+{
+    "traits": {
+        "c4ec85d4-b87b-4d43-9267-b01d934c0296": {
+            "name": "盗贼",
+            "children": {
+                "7def3946-7d85-426e-8937-5d582882f0d9": {
+                    "name": "Attribute Changes",
+                    "children": {
+                        "8df7264b-7302-47c5-9b32-b22e3990040b": {
+                            "name": "增加敏捷",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "bbc52b9c-728d-46b6-8b49-e15eef65bd2d": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        },
+                        "1ab5996d-8fed-41af-b7ae-19dcdecaa89f": {
+                            "name": "增加智力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        },
+                        "62896a60-e9ae-4321-ae05-70f18341ce09": {
+                            "name": "增加感知",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "e51f53b3-bae3-4c97-b1fc-9d64022e6034": {
+                    "name": "Class Advantage (20 Points Chosen)",
+                    "children": {
+                        "3fcba188-4334-4e25-b38c-b8e5bfe8b1a4": {
+                            "name": "绝对方向感",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "2f1beda8-ce81-40de-93ef-276d48d9a46c": {
+                                    "name": "需求信号"
+                                },
+                                "2b134beb-83d4-455e-bddb-13c626fa8f1e": {
+                                    "name": "三维空间感",
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "飞行驾驶"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "空中杂技"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "自由落体"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "导航"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "超空间"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "导航"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "太空"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "稳定身形"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "空中"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "陆地"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "海上"
+                                    }
+                                }
+                            ]
+                        },
+                        "9124a839-9d7d-4e0b-b70b-27275bc54017": {
+                            "name": "敏锐听觉",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "7c97db2c-cb44-4ba9-ac06-6eaa294e6881": {
+                            "name": "Contact (Fence)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "e3a200b0-6ccb-468e-8c05-7b5229d9308d": {
+                                    "name": "有效技能",
+                                    "notes": "12"
+                                },
+                                "d1ca2f5a-539a-4cdd-9de7-095c6e91db65": {
+                                    "name": "有效技能",
+                                    "notes": "15"
+                                },
+                                "550df312-63f5-46a0-980a-988794dcec62": {
+                                    "name": "有效技能",
+                                    "notes": "18"
+                                },
+                                "7dcfbe5c-96cb-4a7a-a549-518ada1d42ab": {
+                                    "name": "有效技能",
+                                    "notes": "21"
+                                },
+                                "2671d790-9922-4751-9197-2dfd7959dfc7": {
+                                    "name": "能使用超自然能力获得情报"
+                                },
+                                "07e05146-bb0a-4031-9dad-4badda89ce30": {
+                                    "name": "团队"
+                                },
+                                "e8fe287b-c840-4728-9177-023de120d838": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "05dc05bf-a145-4394-8976-7d560ec8fff9": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "4b26eb33-d6c2-4296-96a3-517f0a2e1d93": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "2b0afd15-ad7a-44af-b37d-a0d0b4e477d7": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "7d9d900e-8070-47e4-9168-40a4a80bf9af": {
+                                    "name": "完全可靠"
+                                },
+                                "2a33e9b0-58aa-4495-a94b-1846553f12db": {
+                                    "name": "时常可靠"
+                                },
+                                "10f89dc9-16c6-47f5-96b2-ac74256a7995": {
+                                    "name": "一般可靠"
+                                },
+                                "312eee3c-9401-4cb9-b194-6943a988ff02": {
+                                    "name": "不可靠"
+                                },
+                                "a9f1778c-0fea-45fc-90fb-5f64be002d5f": {
+                                    "name": "人情"
+                                }
+                            }
+                        },
+                        "6d1650be-7129-4ea3-ba18-79e7b9fcc3f7": {
+                            "name": "Contact (Fences)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "07c031fc-6fdc-41f0-bb3a-3144d62e9023": {
+                                    "name": "有效技能",
+                                    "notes": "12"
+                                },
+                                "9a807ecb-f6c8-4d32-8a02-fd9e9ddf96d0": {
+                                    "name": "有效技能",
+                                    "notes": "15"
+                                },
+                                "7a78325a-90d6-4797-9515-adf32e1ec3be": {
+                                    "name": "有效技能",
+                                    "notes": "18"
+                                },
+                                "1d00aaf5-89f1-4033-ade6-aaec1ebfe76a": {
+                                    "name": "有效技能",
+                                    "notes": "21"
+                                },
+                                "6497e9b2-e34f-4f8c-83a1-6d31e3721bb8": {
+                                    "name": "能使用超自然能力获得情报"
+                                },
+                                "3ce4d20d-4c60-4941-8379-4274f153d0ff": {
+                                    "name": "团队"
+                                },
+                                "a6f0cdb2-df7d-4ae8-964a-c395c9328b8b": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "010ed3c9-0c02-4804-993e-6ff91d53bf7f": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "d2b0db2c-cda3-4521-b228-5b0d1d3fb3b1": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "7e32fcdf-5caa-47e1-8c11-7ead1223c8cc": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "ff534b63-9663-4a8e-9751-6f80296b41d2": {
+                                    "name": "完全可靠"
+                                },
+                                "39cf2819-e00b-4322-9020-2e4d0532e680": {
+                                    "name": "时常可靠"
+                                },
+                                "3ddd53fd-0149-456b-b851-e6d083aa17ec": {
+                                    "name": "一般可靠"
+                                },
+                                "ff83ff88-fbb1-431b-a93a-b266c3609a1a": {
+                                    "name": "不可靠"
+                                },
+                                "a59ac3cc-ef8f-4b5a-9024-bf697552740f": {
+                                    "name": "人情"
+                                }
+                            }
+                        },
+                        "45abf613-00b5-4192-8025-cb3a159cda9e": {
+                            "name": "危险感知",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ]
+                        },
+                        "62081b8e-ee1b-43a5-a663-744d91e8cfc8": {
+                            "name": "巧手",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "艺术家"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "珠宝加工"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "结绳"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "皮革加工"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "开锁"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "扒窃"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "缝纫"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "巧手"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "手术"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "机工"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "机修"
+                                    }
+                                }
+                            ]
+                        },
+                        "dfd8d33d-fbdd-49ac-a130-53c51b4dbb90": {
+                            "name": "夜视",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "722a1047-3316-4140-9fd6-8aab99666295": {
+                            "name": "完美平衡",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "飞行驾驶"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "杂技"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "攀爬"
+                                    }
+                                }
+                            ]
+                        },
+                        "8162b698-789e-453e-ae45-58b081f1d5f0": {
+                            "name": "财富",
+                            "tags": [
+                                "优势",
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "7b282db9-e782-4676-b856-d3133d8c2db6": {
+                                    "name": "一贫如洗",
+                                    "notes": "Starting wealth is $0"
+                                },
+                                "16b3cf01-7268-48ff-a5b5-42f2b369864d": {
+                                    "name": "贫穷",
+                                    "notes": "Starting wealth is 1/5 average"
+                                },
+                                "38f58860-3fc2-4328-af97-7f443cbac631": {
+                                    "name": "比较贫穷",
+                                    "notes": "Starting wealth is 1/2 average"
+                                },
+                                "8ab8573b-07d0-4e2c-8461-542621459988": {
+                                    "name": "普通的"
+                                },
+                                "b99d3a00-4aba-4370-a744-21f298f767d9": {
+                                    "name": "Comfortable",
+                                    "notes": "Starting wealth is 2x average"
+                                },
+                                "65b290ef-3c23-47c5-b24b-09217d299467": {
+                                    "name": "富有",
+                                    "notes": "Starting wealth is 5x average"
+                                },
+                                "9eafd538-a530-4da4-bcec-7e1fde17c6d2": {
+                                    "name": "非常富有",
+                                    "notes": "Starting wealth is 20x average"
+                                },
+                                "0faa1bec-8de7-42c8-8505-999500bc2ac0": {
+                                    "name": "异常富有",
+                                    "notes": "Starting wealth is 100x average"
+                                }
+                            }
+                        }
+                    }
+                },
+                "be151c20-8c08-4fd4-94e3-d17db7d15d2a": {
+                    "name": "Class Disadvantage",
+                    "children": {
+                        "9cd0db99-33f3-4fcf-b7ad-9b78ff5d8814": {
+                            "name": "Secret ()",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "d0470c3c-9761-4434-8c79-e12c3d0ac9f9": {
+                                    "name": "剧烈羞辱"
+                                },
+                                "03fabb51-4f9b-4575-8bcc-8644124177a8": {
+                                    "name": "直接排斥"
+                                },
+                                "6345d7c9-87b6-489f-b342-1162c7eaaf11": {
+                                    "name": "监禁"
+                                },
+                                "294157c2-41fb-459b-bc15-12582f3e72f8": {
+                                    "name": "可能死亡"
+                                }
+                            }
+                        },
+                        "303a3b43-b174-481a-9c93-742b055a1576": {
+                            "name": "Secret ()",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "8107034a-cd4a-456f-840e-2a7a36281f32": {
+                                    "name": "剧烈羞辱"
+                                },
+                                "069576e8-1bad-49ad-bb36-529de39961bc": {
+                                    "name": "直接排斥"
+                                },
+                                "823d391b-2cf5-4b68-9f9e-40e6a3a8a2ab": {
+                                    "name": "监禁"
+                                },
+                                "08da7675-42ea-4669-9d50-37f4e664dc1a": {
+                                    "name": "Exile"
+                                },
+                                "a07ac2e1-1526-4ce3-bfc6-4a8f59a7a580": {
+                                    "name": "可能死亡"
+                                }
+                            }
+                        },
+                        "a204587b-1209-4887-8ab8-0b7b8db49959": {
+                            "name": "-20 Chosen from:",
+                            "children": {
+                                "b68e296d-2e19-46b7-828d-32b2dd0d9495": {
+                                    "name": "贪婪",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "6d8776f6-bcda-401a-b01e-f9b2d11774a3": {
+                                    "name": "自负",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "99e1c3f1-dfe8-494b-baab-418bcbb37040": {
+                                    "name": "和平主义：无法杀戮",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "1b3ee4a1-eed5-42ad-a58d-317272dc6b64": {
+                                    "name": "个人标记（@复杂@）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "1adcdeb3-a1e0-48c4-8712-0aa227d45b27": {
+                                    "name": "个人标记（@华丽@）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "d557d5ed-aaf6-4ecb-9701-4053e47d2f83": {
+                                    "name": "个人标记（@简单@）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "e7d48c09-f473-4b4d-9f17-226b02097287": {
+                                    "name": "财富",
+                                    "tags": [
+                                        "优势",
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "2cc316aa-034a-4bb7-9ff6-5eea961b8c54": {
+                                            "name": "一贫如洗",
+                                            "notes": "Starting wealth is $0"
+                                        },
+                                        "65507b81-0f6e-4ed7-bf46-2f0f91d20243": {
+                                            "name": "贫穷",
+                                            "notes": "Starting wealth is 1/5 average"
+                                        },
+                                        "c0e2a35c-aaa2-448e-b007-a042765eda84": {
+                                            "name": "比较贫穷",
+                                            "notes": "Starting wealth is 1/2 average"
+                                        },
+                                        "c17eec0b-ad75-4058-a8da-09e4f1fca900": {
+                                            "name": "普通的"
+                                        },
+                                        "3aad205e-66f8-4d7e-b0b1-7e4270dbb331": {
+                                            "name": "Comfortable",
+                                            "notes": "Starting wealth is 2x average"
+                                        },
+                                        "95be912e-55ea-4857-bcbb-f29aa538f9a7": {
+                                            "name": "富有",
+                                            "notes": "Starting wealth is 5x average"
+                                        },
+                                        "058a9ad0-a879-47bf-a4e2-eb4d0e8ba5d1": {
+                                            "name": "非常富有",
+                                            "notes": "Starting wealth is 20x average"
+                                        },
+                                        "b42fe505-402c-4d4e-80ca-e2fa0566f713": {
+                                            "name": "异常富有",
+                                            "notes": "Starting wealth is 100x average"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "b0e87846-be5a-43be-92f1-5b6ffc93496c": {
+            "name": "盗贼",
+            "children": {
+                "4193a6f5-9a4e-4b2a-a3e2-e8c458684c4a": {
+                    "name": "3. Background Skill",
+                    "children": {
+                        "6a18a39c-0b32-4149-9676-5af1e412c127": {
+                            "name": "One of",
+                            "children": {
+                                "f4b72574-d4c5-4358-96b0-69a756406729": {
+                                    "name": "斗殴",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "斗殴"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "314ae308-ebf1-4660-8720-ffda992d3d78": {
+                                    "name": "Knife",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "能量剑"
+                                        },
+                                        {
+                                            "name": "Main-Gauche"
+                                        },
+                                        {
+                                            "name": "Shortsword"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "0a9575b3-ec08-4fd9-8afc-8ed565a177fb": {
+                            "name": "One of",
+                            "children": {
+                                "22e227b7-aab7-4758-bd32-2d4a8d429d12": {
+                                    "name": "建筑学",
+                                    "tags": [
+                                        "设计",
+                                        "发明"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "民间工程"
+                                        }
+                                    ]
+                                },
+                                "2f3a17cc-ebdd-4849-8445-9278fc74d64f": {
+                                    "name": "鉴赏家",
+                                    "tags": [
+                                        "艺术",
+                                        "娱乐",
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "@分支@"
+                                },
+                                "587bfec0-dd1f-4b65-bc30-245a59f4078c": {
+                                    "name": "珠宝加工",
+                                    "tags": [
+                                        "工艺"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "金属加工",
+                                            "specialization": "CP"
+                                        },
+                                        {
+                                            "name": "金属加工",
+                                            "specialization": "铅与锡"
+                                        }
+                                    ]
+                                },
+                                "b4386c14-1685-438c-a6f5-f091adde9b5d": {
+                                    "name": "商人",
+                                    "tags": [
+                                        "商业",
+                                        "社会"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "金融"
+                                        },
+                                        {
+                                            "name": "市场分析"
+                                        }
+                                    ]
+                                },
+                                "b4625e74-9fb1-4b7a-95ea-581a039be609": {
+                                    "name": "Traps",
+                                    "tags": [
+                                        "犯罪",
+                                        "军事",
+                                        "街头"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "开锁"
+                                        }
+                                    ]
+                                },
+                                "91ae9f2d-f43a-43f6-bb7d-eeb698aa5dcd": {
+                                    "name": "城市生存",
+                                    "tags": [
+                                        "犯罪",
+                                        "警察",
+                                        "街头"
+                                    ]
+                                },
+                                "24f3a540-0124-4269-bae1-6588415137cc": {
+                                    "name": "礼仪",
+                                    "tags": [
+                                        "商业",
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "上流社会",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "礼仪",
+                                            "specialization": "仆从"
+                                        }
+                                    ]
+                                },
+                                "6b4c915d-f57b-402e-8fa6-254fbf8ba5a9": {
+                                    "name": "礼仪",
+                                    "tags": [
+                                        "常识",
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "仆从",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "礼仪",
+                                            "specialization": "上流社会"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "7913cbb4-8126-4413-a335-414c60148183": {
+                    "name": "2. Secondary Skill",
+                    "children": {
+                        "04eefae0-ae44-4d85-a092-739c75b86174": {
+                            "name": "唬骗",
+                            "tags": [
+                                "犯罪",
+                                "社会",
+                                "间谍",
+                                "街头"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "做戏"
+                                }
+                            ]
+                        },
+                        "553f226e-19b8-48ac-91c1-bb38e8c7b169": {
+                            "name": "黑街",
+                            "tags": [
+                                "犯罪",
+                                "警察",
+                                "社会",
+                                "街头"
+                            ]
+                        },
+                        "ae5a9b76-48f6-43c9-ad07-14cbded55e47": {
+                            "name": "And one of",
+                            "children": {
+                                "f888f950-bb4a-4b62-a8a8-64cb92be789b": {
+                                    "name": "跑步",
+                                    "tags": [
+                                        "运动"
+                                    ]
+                                },
+                                "61b7af76-4bc8-4e98-8848-eab667f75cf2": {
+                                    "name": "潜行",
+                                    "tags": [
+                                        "犯罪",
+                                        "警察",
+                                        "间谍",
+                                        "街头"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "50b3bef1-0dfd-4627-8d52-19cd64edbe55": {
+                    "name": "1. Primary Skill",
+                    "children": {
+                        "3d8fdcef-40c8-42fa-b139-72f7dfa9b7ca": {
+                            "name": "观察",
+                            "tags": [
+                                "犯罪",
+                                "军事",
+                                "警察",
+                                "间谍",
+                                "街头"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "尾随"
+                                }
+                            ]
+                        },
+                        "68429b67-0963-460b-86a7-7502deb72928": {
+                            "name": "搜查",
+                            "tags": [
+                                "警察",
+                                "间谍"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "犯罪学"
+                                }
+                            ]
+                        },
+                        "dace0f7d-8b96-4fa2-8c6f-480cfd4eb9a3": {
+                            "name": "Shoplifter",
+                            "children": {
+                                "998e88e0-c66b-46d0-8bb5-a40bdcb36f48": {
+                                    "name": "偷窃",
+                                    "tags": [
+                                        "犯罪",
+                                        "间谍",
+                                        "街头"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "扒窃"
+                                        },
+                                        {
+                                            "name": "巧手"
+                                        }
+                                    ]
+                                },
+                                "3e7d4de2-f87e-420a-97b7-97ccce2573cf": {
+                                    "name": "物品藏身",
+                                    "tags": [
+                                        "犯罪",
+                                        "间谍",
+                                        "街头"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "巧手"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "fff13f7a-8cda-4b53-9c0a-8ff0cc171dca": {
+                            "name": "Cutpurse/Pickpocket",
+                            "children": {
+                                "32c3594d-2eb0-432c-8c45-90b43e1b0d7f": {
+                                    "name": "尾随",
+                                    "tags": [
+                                        "犯罪",
+                                        "警察",
+                                        "间谍",
+                                        "街头"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "观察"
+                                        },
+                                        {
+                                            "name": "潜行"
+                                        }
+                                    ]
+                                },
+                                "e63dbbdd-00b7-48aa-b521-176cd8a1e0e1": {
+                                    "name": "And one of:",
+                                    "children": {
+                                        "d6121084-84e1-47a2-9195-c655b2b08433": {
+                                            "name": "扒窃",
+                                            "tags": [
+                                                "犯罪",
+                                                "街头"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "偷窃"
+                                                },
+                                                {
+                                                    "name": "巧手"
+                                                }
+                                            ]
+                                        },
+                                        "98ac5730-20fc-46f9-8ea2-cb98ef103a85": {
+                                            "name": "Knife",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {
+                                                    "name": "能量剑"
+                                                },
+                                                {
+                                                    "name": "Main-Gauche"
+                                                },
+                                                {
+                                                    "name": "Shortsword"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "66fc5dd8-1557-4d3f-90d1-9c1c47288735": {
+                            "name": "Burglar",
+                            "children": {
+                                "8cd98b18-9840-4ebc-b61e-fdc556f46d81": {
+                                    "name": "攀爬",
+                                    "tags": [
+                                        "运动",
+                                        "犯罪",
+                                        "探索",
+                                        "户外",
+                                        "街头"
+                                    ]
+                                },
+                                "8116c21b-8442-45cd-be47-bbff086bac15": {
+                                    "name": "And one of:",
+                                    "children": {
+                                        "0684cb7d-4f03-4f81-a0b6-132a84c3f37f": {
+                                            "name": "破门",
+                                            "tags": [
+                                                "犯罪",
+                                                "警察",
+                                                "间谍",
+                                                "街头"
+                                            ]
+                                        },
+                                        "9435ba1d-752c-458c-90da-27410019c3d8": {
+                                            "name": "开锁",
+                                            "tags": [
+                                                "犯罪",
+                                                "警察",
+                                                "间谍",
+                                                "街头",
+                                                "技术"
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

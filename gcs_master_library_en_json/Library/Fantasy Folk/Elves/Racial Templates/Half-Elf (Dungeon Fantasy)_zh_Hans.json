@@ -1,0 +1,83 @@
+{
+    "traits": {
+        "6a968079-e009-4d25-a42b-b43e226b07bd": {
+            "name": "Race: Half-Elf (Dungeon Fantasy)",
+            "children": {
+                "a673a141-33e5-4f37-8d4b-c775a8078af8": {
+                    "name": "增加敏捷",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "efba8bd9-da71-4c80-9849-895f3c36dea7": {
+                    "name": "魔法天赋",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "超自然"
+                    ],
+                    "features": [
+                        {},
+                        {
+                            "name": {
+                                "qualifier": "魔导学"
+                            }
+                        }
+                    ]
+                },
+                "1ec9938e-8701-4e4e-8b55-2e689ba09aff": {
+                    "name": "Social Stigma (Half Breed)",
+                    "tags": [
+                        "劣势",
+                        "社会"
+                    ],
+                    "features": [
+                        {
+                            "situation": "来自其他人"
+                        }
+                    ]
+                },
+                "ad5240fc-9fed-440b-a914-0dd79877d0f6": {
+                    "name": "Select both at same level if elves are unaging",
+                    "children": {
+                        "a35f658a-2227-40c1-8cf3-84cb4cc244cf": {
+                            "name": "寿命延长",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "e96b75f3-1b8a-4e2a-8f13-ebcc6208c1ee": {
+                            "name": "Early Maturation",
+                            "tags": [
+                                "Feature",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "e23c2b97-ab9c-42c9-95ca-c1f951fa4b15": {
+                    "name": "Select if unaging",
+                    "children": {
+                        "9d2f5141-dc13-4a57-a233-a2547add05f1": {
+                            "name": "不老",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "notes": {
+        "5cbe8890-cc01-4ec7-8478-d0b4ddafd043": {
+            "text": "Elf racial template from GURPS Dungeon Fantasy 3: The Next Level"
+        }
+    }
+}

@@ -1,0 +1,1758 @@
+{
+    "traits": {
+        "02baabab-5f80-428a-b0e8-6d7cbbe4b7ef": {
+            "name": "Class Advantages",
+            "children": {
+                "92da5147-8633-4332-a7f3-b7d1e77a03bd": {
+                    "name": "重力场适应",
+                    "tags": [
+                        "优势",
+                        "心理"
+                    ]
+                },
+                "2c269ad0-7bcb-4692-a2b5-cd8663db8888": {
+                    "name": "Rank",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "notes": "Military: ",
+                    "modifiers": {
+                        "f6a1df84-03b4-4c01-a3c6-4cd2bab35f2a": {
+                            "name": "包含社会地位"
+                        },
+                        "b1f52813-84c0-4510-baed-74f979920c8c": {
+                            "name": "荣誉"
+                        }
+                    }
+                }
+            }
+        },
+        "d3e4e77d-6d3a-452a-b3de-f41e05b8a089": {
+            "name": "Class Disadvantages",
+            "children": {
+                "7cdb31d3-3b8e-4036-a680-9ba5b1cbe22a": {
+                    "name": "责任感",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "modifiers": {
+                        "3f8dd9d0-b7b5-4a82-89ca-b5170e30c59c": {
+                            "name": "朋友和伙伴"
+                        },
+                        "6a12ed17-5080-460e-8d85-7b5287ed0b97": {
+                            "name": "@小组织@"
+                        },
+                        "425f014f-dada-49cf-941e-88e231d8fdae": {
+                            "name": "@个人@"
+                        },
+                        "1c85d6e2-63b7-4064-8a9a-b2f2164605b4": {
+                            "name": "@大组织@"
+                        },
+                        "ae8615eb-75ed-4d8d-b040-d577fac83815": {
+                            "name": "@整个种族@"
+                        },
+                        "efec3691-57ec-4bd3-9d84-dd1a92003a13": {
+                            "name": "所有活物"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "d01e144f-5741-4b06-a341-3dd920201216": {
+            "name": "自由落体",
+            "tags": [
+                "运动"
+            ]
+        },
+        "92f3529c-f905-42ff-bbb9-a43b0326b39c": {
+            "name": "空间",
+            "tags": [
+                "载具"
+            ]
+        },
+        "f5b75c51-6d59-4d95-b076-4c9d39b95823": {
+            "name": "真空服",
+            "tags": [
+                "技术"
+            ],
+            "defaults": [
+                {},
+                {
+                    "name": "潜水服"
+                },
+                {
+                    "name": "三防服"
+                },
+                {
+                    "name": "战斗服"
+                }
+            ]
+        },
+        "7edac092-ff08-41e3-a6a6-204597a5c21b": {
+            "name": "6 Points in:",
+            "children": {
+                "9ae53ec9-c8df-4e0e-9f51-729c0356cda2": {
+                    "name": "天文学",
+                    "tags": [
+                        "自然科学"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "c8489099-014c-4237-a8db-4db228d058a5": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学",
+                        "植物"
+                    ],
+                    "specialization": "生物化学",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "8cce11fd-ce97-4ee5-87e5-1e2e8c088a59": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学",
+                        "植物"
+                    ],
+                    "specialization": "植物学",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "33055e14-d0d5-413b-a9b1-75a9341d3a4f": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学",
+                        "植物"
+                    ],
+                    "specialization": "类地行星",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "1bd46990-d829-47c7-a19c-67ce6343708c": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学",
+                        "植物"
+                    ],
+                    "specialization": "生态学",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "a99f30f2-1ddc-4df7-8258-6d1328c371e3": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学",
+                        "植物"
+                    ],
+                    "specialization": "气态巨星",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "7d3f8670-3b5a-4c9c-bbdd-515d3bbaa964": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学",
+                        "植物"
+                    ],
+                    "specialization": "遗传学",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "7b5d8519-f3df-4162-93ec-4143e04be800": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学",
+                        "植物"
+                    ],
+                    "specialization": "危险行星",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "75f29f4d-2565-4a79-a0c0-424896ba6d44": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学",
+                        "植物"
+                    ],
+                    "specialization": "冰雪矮行星",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "680d5377-63ed-4cde-a746-ee3ee96fc625": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学",
+                        "植物"
+                    ],
+                    "specialization": "冰雪世界",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "daea37ef-6794-401b-a8e8-9f31d4f5e5b9": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学",
+                        "植物"
+                    ],
+                    "specialization": "海洋生物学",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "d1dd96cb-eb55-4103-ae5b-fb0a4ea867d0": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学",
+                        "植物"
+                    ],
+                    "specialization": "微生物学",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "9594cdcc-5b17-48ce-b5ca-1f7f672d1581": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学",
+                        "植物"
+                    ],
+                    "specialization": "岩石世界",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "11372051-8f1e-4b9b-9e67-1137bae387d6": {
+                    "name": "生物学",
+                    "tags": [
+                        "自然科学"
+                    ],
+                    "specialization": "动物学",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        }
+                    ]
+                },
+                "e059faac-941f-4284-a8f9-4b4374514538": {
+                    "name": "化学",
+                    "tags": [
+                        "自然科学"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "炼金术"
+                        }
+                    ]
+                },
+                "2404a202-9bb2-49d7-937e-ed7dbe0a334e": {
+                    "name": "电脑操作",
+                    "tags": [
+                        "常识",
+                        "学校",
+                        "技术"
+                    ]
+                },
+                "b1c21226-7a6d-4d33-b36d-ff73ed6b1f96": {
+                    "name": "电脑编程",
+                    "tags": [
+                        "设计",
+                        "发明"
+                    ]
+                },
+                "ce4f4c6b-e3b8-4f66-8f16-9336965e80ca": {
+                    "name": "诊断",
+                    "tags": [
+                        "医学"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "急救"
+                        },
+                        {
+                            "name": "医师"
+                        },
+                        {
+                            "name": "兽医学"
+                        }
+                    ]
+                },
+                "67a59099-4cb5-4170-ac62-95bb8271e9c7": {
+                    "name": "工程学",
+                    "tags": [
+                        "设计",
+                        "工程学",
+                        "发明"
+                    ],
+                    "specialization": "机动车",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "机修",
+                            "specialization": "机动车"
+                        }
+                    ]
+                },
+                "d20e0682-2e70-4521-b7eb-69ed7eaddcb6": {
+                    "name": "工程学",
+                    "tags": [
+                        "设计",
+                        "工程学",
+                        "发明"
+                    ],
+                    "specialization": "民间工程",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "建筑学"
+                        }
+                    ]
+                },
+                "8fa5e19f-2bc3-467a-9150-1b2a0dea2b75": {
+                    "name": "工程学",
+                    "tags": [
+                        "设计",
+                        "工程学",
+                        "发明"
+                    ],
+                    "specialization": "战斗",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "Explosives",
+                            "specialization": "爆破"
+                        }
+                    ]
+                },
+                "fe78fbca-fa88-4d1a-9545-f6390736d0a6": {
+                    "name": "工程学",
+                    "tags": [
+                        "设计",
+                        "工程学",
+                        "发明"
+                    ],
+                    "specialization": "电气",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "电气技师"
+                        }
+                    ]
+                },
+                "f47b2d1e-46e9-430b-91ff-06c68f2cb791": {
+                    "name": "工程学",
+                    "tags": [
+                        "设计",
+                        "工程学",
+                        "发明"
+                    ],
+                    "specialization": "电子",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "电子维修"
+                        }
+                    ]
+                },
+                "c875ec98-53ab-4bb5-89d0-1f9309532ee4": {
+                    "name": "工程学",
+                    "tags": [
+                        "设计",
+                        "工程学",
+                        "发明"
+                    ],
+                    "specialization": "材料",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "数学"
+                                        },
+                                        "specialization": {
+                                            "qualifier": "应用"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "冶金学"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "化学"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "化学"
+                        },
+                        {
+                            "name": "冶金学"
+                        }
+                    ]
+                },
+                "dd33e45e-167f-412c-83b1-66691901ecaf": {
+                    "name": "工程学",
+                    "tags": [
+                        "设计",
+                        "工程学",
+                        "发明"
+                    ],
+                    "specialization": "微型技术",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "机修",
+                            "specialization": "微型机械"
+                        }
+                    ]
+                },
+                "349545f1-c505-4393-adad-d84b39e75398": {
+                    "name": "工程学",
+                    "tags": [
+                        "设计",
+                        "工程学",
+                        "发明"
+                    ],
+                    "specialization": "采掘",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "Explosives",
+                            "specialization": "爆破"
+                        },
+                        {
+                            "name": "地质学"
+                        }
+                    ]
+                },
+                "e2177ec5-b73e-4906-8627-f33d1e515981": {
+                    "name": "工程学",
+                    "tags": [
+                        "设计",
+                        "工程学",
+                        "发明"
+                    ],
+                    "specialization": "机器人",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "机修",
+                            "specialization": "机器人"
+                        }
+                    ]
+                },
+                "26ba3faa-2374-43b1-8edc-c5e57476b0f6": {
+                    "name": "工程学",
+                    "tags": [
+                        "设计",
+                        "工程学",
+                        "发明"
+                    ],
+                    "specialization": "船只",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "机修",
+                            "specialization": "船只"
+                        }
+                    ]
+                },
+                "bfd0eb02-d431-4a53-b224-39feeac0050c": {
+                    "name": "工程学",
+                    "tags": [
+                        "设计",
+                        "工程学",
+                        "发明"
+                    ],
+                    "specialization": "轻兵器",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "军械修造",
+                            "specialization": "轻兵器"
+                        }
+                    ]
+                },
+                "14b7225b-1163-4b9e-b22d-3931067702f3": {
+                    "name": "工程学",
+                    "tags": [
+                        "设计",
+                        "工程学",
+                        "发明"
+                    ],
+                    "specialization": "星际飞船",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "机修",
+                            "specialization": "星际飞船"
+                        }
+                    ]
+                },
+                "576206ee-466a-4275-820d-4376c83c6f7c": {
+                    "name": "农耕",
+                    "tags": [
+                        "植物"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "生物学"
+                        },
+                        {
+                            "name": "园艺"
+                        }
+                    ]
+                },
+                "3f5f4230-15c1-42f6-9293-f9ce454f0a07": {
+                    "name": "急救",
+                    "tags": [
+                        "常识",
+                        "医学"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "秘传医术"
+                        },
+                        {
+                            "name": "医师"
+                        },
+                        {
+                            "name": "兽医学"
+                        }
+                    ]
+                },
+                "35b10a2c-608e-499e-96c6-025b29e62b3b": {
+                    "name": "地质学",
+                    "tags": [
+                        "自然科学"
+                    ],
+                    "specialization": "类地行星",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "地理学",
+                            "specialization": "政治，类地行星"
+                        },
+                        {
+                            "name": "探矿"
+                        }
+                    ]
+                },
+                "8add3dc6-8389-4113-896c-fd3f5a897f8a": {
+                    "name": "地质学",
+                    "tags": [
+                        "自然科学"
+                    ],
+                    "specialization": "岩石世界",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "地理学",
+                            "specialization": "物理，岩石世界"
+                        },
+                        {
+                            "name": "探矿"
+                        }
+                    ]
+                },
+                "f62739f2-ff69-4fe9-b176-b77167b4c69b": {
+                    "name": "数学",
+                    "tags": [
+                        "自然科学"
+                    ],
+                    "specialization": "应用",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "物理学"
+                        },
+                        {
+                            "name": "工程学"
+                        }
+                    ]
+                },
+                "39c0d373-1aca-4ac9-b3b4-4b17377e12de": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "空天飞机",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "空天飞机"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "a7112a73-243a-4a46-b626-5c90602c8d34": {
+                    "name": "电子操作",
+                    "tags": [
+                        "技术"
+                    ],
+                    "specialization": "通信",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子操作"
+                        },
+                        {
+                            "name": "电子维修",
+                            "specialization": "通信"
+                        },
+                        {
+                            "name": "工程学",
+                            "specialization": "电子"
+                        }
+                    ]
+                },
+                "b5183f94-c582-41b5-be80-80737ec52779": {
+                    "name": "电子操作",
+                    "tags": [
+                        "艺术",
+                        "娱乐",
+                        "技术"
+                    ],
+                    "specialization": "媒体",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子维修",
+                            "specialization": "媒体"
+                        },
+                        {
+                            "name": "工程学",
+                            "specialization": "电子"
+                        },
+                        {
+                            "name": "电子操作"
+                        }
+                    ]
+                },
+                "e0c43e37-528e-4aad-8241-b7850baf25de": {
+                    "name": "电子操作",
+                    "tags": [
+                        "医学",
+                        "技术"
+                    ],
+                    "specialization": "医学",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子维修",
+                            "specialization": "医学"
+                        },
+                        {
+                            "name": "工程学",
+                            "specialization": "电子"
+                        },
+                        {
+                            "name": "电子操作"
+                        }
+                    ]
+                },
+                "c0544fe1-3885-458f-9fea-80598c678fb8": {
+                    "name": "电子操作",
+                    "tags": [
+                        "技术"
+                    ],
+                    "specialization": "科学",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子维修",
+                            "specialization": "科学"
+                        },
+                        {
+                            "name": "工程学",
+                            "specialization": "电子"
+                        },
+                        {
+                            "name": "电子操作"
+                        }
+                    ]
+                },
+                "0d813b56-dcd9-4cc0-8372-91907b877850": {
+                    "name": "电子操作",
+                    "tags": [
+                        "犯罪",
+                        "间谍",
+                        "街头",
+                        "技术"
+                    ],
+                    "specialization": "治安防卫",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子操作",
+                            "specialization": "治安防卫"
+                        },
+                        {
+                            "name": "工程学",
+                            "specialization": "电子"
+                        },
+                        {
+                            "name": "电子操作"
+                        }
+                    ]
+                },
+                "e95b8d83-d76d-4bbf-bbe5-e13dc8a0dc66": {
+                    "name": "电子操作",
+                    "tags": [
+                        "技术"
+                    ],
+                    "specialization": "传感",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子维修",
+                            "specialization": "传感"
+                        },
+                        {
+                            "name": "工程学",
+                            "specialization": "电子"
+                        },
+                        {
+                            "name": "电子操作"
+                        }
+                    ]
+                },
+                "b1ae5100-ea26-4e36-af28-503c79c66746": {
+                    "name": "电子操作",
+                    "tags": [
+                        "技术"
+                    ],
+                    "specialization": "声纳",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子维修",
+                            "specialization": "声纳"
+                        },
+                        {
+                            "name": "工程学",
+                            "specialization": "电子"
+                        },
+                        {
+                            "name": "电子操作"
+                        }
+                    ]
+                },
+                "bfdaeb66-1781-4906-88e4-79d2922b6e0b": {
+                    "name": "电子操作",
+                    "tags": [
+                        "警察",
+                        "间谍",
+                        "技术"
+                    ],
+                    "specialization": "监视",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子维修",
+                            "specialization": "监视"
+                        },
+                        {
+                            "name": "工程学",
+                            "specialization": "电子"
+                        },
+                        {
+                            "name": "电子操作"
+                        }
+                    ]
+                },
+                "c1ad9ea4-118c-4c2c-bd8d-05e0d4914465": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "机动车",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "机动车"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "54f2e4fd-c9a2-4204-9604-15117e029e95": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "工程设备",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "工程设备"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "bd001523-3292-498d-bc59-f020f41470bd": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "柴油引擎",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "柴油引擎"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "a8e1b30a-6964-47ba-94a5-28263179a35f": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "裂变反应堆",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "裂变反应堆"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "2e6e0c2e-d199-4ed5-a836-f1277e4325b6": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "飞行背包",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "飞行背包"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "f75a690a-dc64-4fbe-ae96-d4e621c5cad7": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "燃料电池",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "燃料电池"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "02e3a10a-03bf-4988-9533-d163ccf7b954": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "聚变反应堆",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "聚变反应堆"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "001b0bb7-282e-4684-a616-7ac4c68f1e9e": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "汽油引擎",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "汽油引擎"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "a41c0b68-ad02-4a8c-8a1c-03bcb1b3e691": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "重型飞机",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "重型飞机"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "6b9aba8c-4f56-4abe-b6ef-7e6832ee73e5": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "重型汽车",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "重型汽车"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "e0669684-20c2-44df-a1e5-95da42632ebe": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "高性能航天器",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "高性能航天器"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "defa6da8-62d7-41f6-b6ec-7357e1c323f4": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "轻型飞机",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "轻型飞机"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "d57d0896-cd65-4f81-8cee-a12b729d6631": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "浮力飞行器",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "浮力飞行器"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "bd618108-00ae-47bc-8681-1caaeab6d163": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "低重力飞翼",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "低重力飞翼"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "03eb0748-bd4a-454d-805c-446121f80c53": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "低性能航天器",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "低性能航天器"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "3642dad9-4c37-4650-9d78-707933d6666c": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "摩托车",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "摩托车"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "07354965-8afb-4956-98bd-7b710f34541f": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "机器人",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "机器人"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "95d237ec-d6fd-499e-8095-5ebb80e0c038": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "Rockets",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "Rockets"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "cbcf1622-6426-4118-90b2-5e2792da2821": {
+                    "name": "导航",
+                    "tags": [
+                        "探索",
+                        "户外",
+                        "技术",
+                        "载具"
+                    ],
+                    "specialization": "太空",
+                    "defaults": [
+                        {
+                            "name": "天文学"
+                        },
+                        {
+                            "name": "数学",
+                            "specialization": "应用"
+                        },
+                        {
+                            "name": "导航",
+                            "specialization": "超空间"
+                        }
+                    ]
+                },
+                "e6a423ad-0b80-4f08-a5fb-2cbf6102906f": {
+                    "name": "医师",
+                    "tags": [
+                        "医学"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "急救"
+                        },
+                        {
+                            "name": "兽医学"
+                        }
+                    ]
+                },
+                "08b838be-c53c-43d4-9da6-cd9becd4d9f6": {
+                    "name": "物理学",
+                    "tags": [
+                        "自然科学"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "数学"
+                                },
+                                "specialization": {
+                                    "qualifier": "应用"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "4af58eda-0488-44d6-b8c1-02771071486e": {
+                    "name": "生理学",
+                    "tags": [
+                        "医学",
+                        "自然科学"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "诊断"
+                        },
+                        {
+                            "name": "医师"
+                        },
+                        {
+                            "name": "手术"
+                        }
+                    ]
+                },
+                "4b2cf7c3-99f2-4f61-9876-07f3fb4fa114": {
+                    "name": "飞行驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "空天飞机",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "高性能飞机"
+                        },
+                        {
+                            "name": "飞行驾驶"
+                        }
+                    ]
+                },
+                "730a33f0-98f9-467f-a22a-e04e4d34cde4": {
+                    "name": "飞行驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "飞行背包",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "悬浮"
+                        },
+                        {
+                            "name": "飞行驾驶"
+                        }
+                    ]
+                },
+                "ac1921be-0422-4547-a5e5-d2ff3e78a970": {
+                    "name": "飞行驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "重型飞机",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "高性能飞机"
+                        },
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "轻型飞机"
+                        },
+                        {
+                            "name": "飞行驾驶"
+                        }
+                    ]
+                },
+                "c38e1900-2d9d-4c0a-b6aa-41b109ca4b35": {
+                    "name": "飞行驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "直升机",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "旋翼"
+                        },
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "悬浮"
+                        },
+                        {
+                            "name": "飞行驾驶"
+                        }
+                    ]
+                },
+                "cf4c1386-2649-4b17-a7d8-bb392bbfc327": {
+                    "name": "飞行驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "高性能飞机",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "空天飞机"
+                        },
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "重型飞机"
+                        },
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "轻型飞机"
+                        },
+                        {
+                            "name": "飞行驾驶"
+                        }
+                    ]
+                },
+                "b1eb80fd-584b-4d57-8502-0fcf8ff5bc69": {
+                    "name": "飞行驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "High-Performance Spaecraft",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "空天飞机"
+                        },
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "低性能航天器"
+                        }
+                    ]
+                },
+                "8988c890-bb80-4e77-9977-f2823ba8d9e8": {
+                    "name": "飞行驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "轻型飞机",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "滑翔机"
+                        },
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "重型飞机"
+                        },
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "高性能飞机"
+                        },
+                        {
+                            "name": "飞行驾驶"
+                        },
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "超轻型飞机"
+                        }
+                    ]
+                },
+                "b7bb3648-efdf-4eb3-8005-c9263a662ebc": {
+                    "name": "飞行驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "浮力飞行器",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "飞行驾驶"
+                        }
+                    ]
+                },
+                "5637e998-753a-41b8-8941-3291f7ef8bbe": {
+                    "name": "飞行驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "低性能航天器",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "空天飞机"
+                        },
+                        {
+                            "name": "飞行驾驶",
+                            "specialization": "高性能航天器"
+                        }
+                    ]
+                },
+                "f7414efe-7ec9-4da5-907e-f21cd578d426": {
+                    "name": "探矿",
+                    "tags": [
+                        "探索",
+                        "户外"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "地质学"
+                        }
+                    ]
+                },
+                "8eceb982-392e-427d-add5-2e2459673449": {
+                    "name": "心理学",
+                    "tags": [
+                        "人文学科",
+                        "社会科学"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "社会学"
+                        }
+                    ]
+                },
+                "d524341f-bafa-44b5-aec0-a511c6db8f30": {
+                    "name": "研究",
+                    "tags": [
+                        "学校",
+                        "间谍"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "电脑操作"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "语言"
+                                        },
+                                        "notes": {
+                                            "qualifier": "书面语（纯正的）"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "语言"
+                                        },
+                                        "notes": {
+                                            "qualifier": "书面语（有口音的）"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "语言"
+                                        },
+                                        "notes": {
+                                            "qualifier": "书面语（结巴的）"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {},
+                        {
+                            "name": "写作"
+                        }
+                    ]
+                },
+                "7fe6340e-74c8-4609-8c71-f2875410d86b": {
+                    "name": "手术",
+                    "tags": [
+                        "医学"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "急救"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "医师"
+                                }
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {
+                            "name": "急救"
+                        },
+                        {
+                            "name": "医师"
+                        },
+                        {
+                            "name": "生理学"
+                        },
+                        {
+                            "name": "兽医学"
+                        }
+                    ]
+                },
+                "16dadc97-0b63-47e4-b84e-2ca6c6eccbfd": {
+                    "name": "生存",
+                    "tags": [
+                        "探索",
+                        "户外"
+                    ],
+                    "specialization": "local terrain",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "海岸"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "海沟"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "淡水湖"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "大洋"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "珊瑚丛"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "河流/溪流"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "热带环礁"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

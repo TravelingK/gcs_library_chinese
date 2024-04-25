@@ -1,0 +1,317 @@
+{
+    "traits": {
+        "2465b96b-5b75-44df-b9b8-9129f9ef6be1": {
+            "name": "Lightsaber Form I Shii-Cho",
+            "children": {
+                "49ae8c09-7819-4d8b-bad8-42f044d796df": {
+                    "name": "Style Familiarity (Form I Shii-Cho)",
+                    "tags": [
+                        "心理",
+                        "Perk"
+                    ]
+                },
+                "f91462a8-ad09-430d-9d2c-a14b59558d78": {
+                    "name": "Choose one",
+                    "children": {
+                        "20157d59-13cb-4a91-b60d-82b1b83db650": {
+                            "name": "大师传承",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "cbf22ae8-b4fd-46dc-a591-0bef89da96f7": {
+                                    "name": "仅限徒手攻击"
+                                }
+                            }
+                        },
+                        "81668726-ba9e-450c-9905-8c8ec17abaf1": {
+                            "name": "Weapon Master (Lightsabers)",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "e51bf5f3-8a05-424e-a446-8435246bb7bb": {
+                                    "name": "一种特定的武器"
+                                },
+                                "4549bd74-851d-40b4-a759-375caa8e5053": {
+                                    "name": "两种通常会在一起使用的武器"
+                                },
+                                "a771865d-c9f8-4417-a442-5aa6de98bd92": {
+                                    "name": "一小类武器"
+                                },
+                                "4dd33387-325e-4ddc-9bdb-a1f7ef2ead17": {
+                                    "name": "不那么大的一类武器"
+                                },
+                                "9f0e8ffe-57d2-4560-ae44-b198515c1ed2": {
+                                    "name": "一大类武器"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "887321b4-72e3-4145-bf45-51eeeb05d9a3": {
+            "name": "Lightsaber Form I Shii-Cho",
+            "children": {
+                "cead3aab-3438-4956-8960-746ba1c6c53d": {
+                    "name": "Optional Traits",
+                    "children": {
+                        "83b0659b-2eb1-4354-b6ab-52f15c8e9dcf": {
+                            "name": "杂技",
+                            "tags": [
+                                "运动"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "空中杂技"
+                                },
+                                {
+                                    "name": "水上杂技"
+                                }
+                            ]
+                        },
+                        "5ac36a82-1247-4ba3-98d1-5d099c2dc04b": {
+                            "name": "盲斗",
+                            "tags": [
+                                "秘技"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "武器大师"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "大师传承"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "f4e7cb20-30ee-4e7b-945b-a0e82c4f1467": {
+                            "name": "Lightsaber",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "specialization": "Fencing",
+                            "defaults": [
+                                {
+                                    "name": "Broadsword"
+                                },
+                                {
+                                    "name": "Saber"
+                                },
+                                {
+                                    "name": "Smallsword"
+                                },
+                                {
+                                    "name": "Lightsaber",
+                                    "specialization": "短"
+                                }
+                            ]
+                        },
+                        "a5a4078e-2327-493d-a216-e39a63e0c7a6": {
+                            "name": "Lightsaber",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "specialization": "短",
+                            "defaults": [
+                                {
+                                    "name": "Broadsword"
+                                },
+                                {
+                                    "name": "Knife"
+                                },
+                                {
+                                    "name": "Rapier"
+                                },
+                                {
+                                    "name": "Saber"
+                                },
+                                {
+                                    "name": "Smallsword"
+                                },
+                                {
+                                    "name": "Lightsaber"
+                                },
+                                {
+                                    "name": "Lightsaber",
+                                    "specialization": "Fencing"
+                                }
+                            ]
+                        },
+                        "ebe6898a-a5ab-4c63-8457-b14f8c7b1299": {
+                            "name": "预知招架",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Force Sensitivity"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "危险感知"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "预知"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "7b5eb201-0baf-456c-b215-b7ba2175ec0e": {
+                            "name": "旋风攻击",
+                            "tags": [
+                                "电影化技巧",
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Lightsaber"
+                            }
+                        }
+                    }
+                },
+                "b9a65aa4-d131-4bd9-a6f8-d581fb40e489": {
+                    "name": "Primary Traits",
+                    "children": {
+                        "abccb911-bd51-4eb7-aee6-eb72953ebd39": {
+                            "name": "Lightsaber",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "defaults": [
+                                {
+                                    "name": "Lightsaber",
+                                    "specialization": "短"
+                                },
+                                {
+                                    "name": "Broadsword"
+                                },
+                                {
+                                    "name": "Rapier"
+                                },
+                                {
+                                    "name": "Saber"
+                                },
+                                {
+                                    "name": "Shortsword"
+                                },
+                                {
+                                    "name": "双手剑"
+                                },
+                                {
+                                    "name": "Lightsaber",
+                                    "specialization": "Two-Handed"
+                                },
+                                {
+                                    "name": "Lightsaber",
+                                    "specialization": "Fencing"
+                                }
+                            ]
+                        },
+                        "874a6da8-cf52-4b07-aa16-19b0682f5229": {
+                            "name": "Lightsaber",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "specialization": "Two-Handed",
+                            "defaults": [
+                                {
+                                    "name": "Two-Handed\nSword"
+                                },
+                                {
+                                    "name": "Broadsword"
+                                },
+                                {
+                                    "name": "Lightsaber"
+                                }
+                            ]
+                        },
+                        "f1fc4c82-2ad9-4d7d-95a7-641eabad65c2": {
+                            "name": "背击",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "notes": "Lightsaber",
+                            "default": {
+                                "name": "Lightsaber"
+                            }
+                        },
+                        "fe0289ce-0fff-41bd-a358-7953cd58b3a1": {
+                            "name": "背击",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "notes": "Lightsaber (Two-Handed)",
+                            "default": {
+                                "name": "Lightsaber"
+                            }
+                        },
+                        "037492d7-ccf3-4018-8d44-ad6f83f4399c": {
+                            "name": "缴械",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "notes": "Lightsaber",
+                            "default": {
+                                "name": "Lightsaber"
+                            }
+                        },
+                        "04948433-8786-4bb3-80c7-d5030a0e10fd": {
+                            "name": "缴械",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "notes": "Lightsaber (Two-Handed)",
+                            "default": {
+                                "name": "Lightsaber"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

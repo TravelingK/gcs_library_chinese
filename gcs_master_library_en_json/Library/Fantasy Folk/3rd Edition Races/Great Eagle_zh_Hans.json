@@ -1,0 +1,210 @@
+{
+    "traits": {
+        "619a75e4-962d-49cf-85bd-b4fa3cee76cd": {
+            "name": "Race: Great Eagle",
+            "children": {
+                "bfd16a69-4af7-4a16-8f02-3d8e0e3b2279": {
+                    "name": "增加力量",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "506dc270-d578-46aa-a592-3b966896300f": {
+                    "name": "增加敏捷",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "d7bd765d-1c70-4bd6-84c9-dc9624291e80": {
+                    "name": "增加体力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "5a0216a1-b07e-42c4-a5de-a13246aebbeb": {
+                    "name": "敏锐视觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "ea60f504-8fca-44c9-9c59-6e380720f375": {
+                    "name": "利爪",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "weapons": {
+                        "6947bdb1-dbf7-4467-818a-7a97925995c1": {
+                            "usage": "挥砍",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "斗殴"
+                                },
+                                {
+                                    "name": "拳击"
+                                },
+                                {
+                                    "name": "Karate"
+                                }
+                            ]
+                        },
+                        "8067b74a-214b-41cf-93dd-6b11f5a31584": {
+                            "usage": "Kick",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Karate"
+                                },
+                                {
+                                    "name": "斗殴"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "f1b5d9c6-fe41-4838-9f2a-e77b46d3e6a7": {
+                    "name": "Flight (Winged)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "notes": "飞行基本速度是 BS×2（舍去所有小数）"
+                },
+                "258ccc9b-d9b3-4226-9bf7-9b8f46f49329": {
+                    "name": "广角视觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "49ffecd2-1f36-494f-9e51-8d0d7ca4caae": {
+                    "name": "Sharp Teeth (Beak)",
+                    "tags": [
+                        "异种",
+                        "Perk",
+                        "生理"
+                    ],
+                    "weapons": {
+                        "dbf194fc-0933-473c-8708-1704bb1dbb50": {
+                            "usage": "啃咬",
+                            "defaults": [
+                                {
+                                    "name": "斗殴"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "9e98b5c1-2735-4e35-a9d0-24ff4c560b8e": {
+                    "name": "望远视觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "7f5519fd-2700-40a3-bdea-7da992efa4a2": {
+                    "name": "嗜血",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "notes": "当你需要接受投降、避开哨兵、抓俘虏的时候，你需要进行自控检定。"
+                },
+                "bbe65492-4180-4092-92fc-099acc7bf240": {
+                    "name": "Compulsive Behaviour (Rabidly seeks solitude)",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "ac43fbf3-3412-4a37-950f-c5ba4f0afb56": {
+                    "name": "Vulnerability (Crush x2 damage)",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "ac4f428a-c8e4-4add-85b1-c8d765291e62": {
+                    "name": "Intolerance (Anyone unlike you)",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "来自感受到你的歧视的对象（最高到 -5，GM 决定）"
+                        }
+                    ]
+                },
+                "56e1172d-4b75-40ce-9306-2ddd9bed7192": {
+                    "name": "无法发声",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ]
+                },
+                "b5a312f1-b6e9-4561-b175-d3cf326118ef": {
+                    "name": "一贫如洗",
+                    "tags": [
+                        "劣势",
+                        "社会",
+                        "财富"
+                    ],
+                    "notes": "起始财富为 0"
+                },
+                "e7ca8da1-68d4-4d59-810e-7400f293cfe0": {
+                    "name": "低技术等级",
+                    "tags": [
+                        "劣势",
+                        "社会"
+                    ]
+                }
+            }
+        }
+    },
+    "skills": {
+        "84cce45f-4ca3-4680-b894-1a8bf35dcde8": {
+            "name": "Race: Great Eagle",
+            "children": {
+                "f0292a31-eaac-4b8c-a345-7c04310ed1df": {
+                    "name": "飞行",
+                    "tags": [
+                        "运动"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "飞行"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "notes": {
+        "aec22542-13b2-4a1c-80a0-03cb707a65b5": {
+            "text": "Race: Great Eagle",
+            "children": {
+                "388b1d75-cae5-43c5-9eaa-d328f9aab73e": {
+                    "text": "Great Eagles are intelligent birds the size of human beings. They have a\r 12-foot wingspan, and adults weigh over 100 lbs. (wingspan equals twice normal height for their ST, weight is 50 pounds less than a human of that ST). They\r are distinguished from “regular” giant eagles by their hoods – giant eagles have\r dark, bristling head feathers, while Great Eagles have a smooth white hood.\n "
+                },
+                "8b5d4988-10a4-4381-a88d-eda5b6d76a89": {
+                    "text": "Great Eagles wear no clothing or ornamentation, and do not carry tools or\r weapons of any kind."
+                }
+            }
+        }
+    }
+}

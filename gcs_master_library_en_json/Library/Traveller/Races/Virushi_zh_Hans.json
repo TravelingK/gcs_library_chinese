@@ -1,0 +1,632 @@
+{
+    "traits": {
+        "7fbe277c-e278-46d4-95bb-93105b66ebe9": {
+            "name": "Virushi",
+            "children": {
+                "f807b80c-def1-428e-8c50-a5756eb09a88": {
+                    "name": "Racial Primary Modifiers",
+                    "children": {
+                        "0418918f-8ccd-4861-9120-0ab01afc966e": {
+                            "name": "增加力量",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "fc2b398f-467b-4c36-857b-98087975f0c4": {
+                                    "name": "无操作肢"
+                                },
+                                "89e24b12-233b-4ad9-a77a-934e7bc640f7": {
+                                    "name": "体型"
+                                },
+                                "4f3a7bdb-ed81-4735-87e8-d9eaeb4856c7": {
+                                    "name": "超级出力"
+                                }
+                            }
+                        },
+                        "6f6bf80c-51cd-4357-9406-d3f5cd4db957": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "7995821b-26ae-4d91-8641-a081d619303d": {
+                    "name": "Racial Advantages",
+                    "children": {
+                        "02adabe1-a212-4842-961b-a9f7e998c9da": {
+                            "name": "额外手臂",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "12d52089-1798-42d1-8a9b-0d0e645c9b46": {
+                                    "name": "非常灵活"
+                                },
+                                "e6d3bcca-ce30-447c-97a9-365428585736": {
+                                    "name": "最大"
+                                },
+                                "a922605a-0499-4066-87a6-401e73d149bf": {
+                                    "name": "以脚为手"
+                                },
+                                "ec962449-a810-4d90-9884-e30e36c36e57": {
+                                    "name": "不能进行物理攻击"
+                                },
+                                "21febd5d-22f8-478f-9b86-e7bbad896db7": {
+                                    "name": "短"
+                                },
+                                "db98dbd9-6825-4f90-82e1-4fab9f9bf424": {
+                                    "name": "弱",
+                                    "notes": "只有一半力量"
+                                },
+                                "0e0f147b-4fb0-4b05-8297-b8b40408d9cd": {
+                                    "name": "弱",
+                                    "notes": "只有 1/4 力量"
+                                },
+                                "5caa9cad-6d63-4362-95b4-8001156adce1": {
+                                    "name": "武器座"
+                                },
+                                "24bfa049-4d6a-4802-84cc-5d0677d49557": {
+                                    "name": "无可抓握手部"
+                                },
+                                "047093a9-462d-4282-93b7-2a2ac5e93680": {
+                                    "name": "Do not get racial ST bonus"
+                                }
+                            }
+                        },
+                        "e48ec5d9-b5ae-4120-a3b5-d357049b53e5": {
+                            "name": "Enhanced Move (Running)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "notes": "Multiply normal Running Move by 1 + level",
+                            "modifiers": {
+                                "65be4e64-b6a2-4695-8605-360642514885": {
+                                    "name": "操纵性加值"
+                                },
+                                "5f1f82a6-1980-40e0-abdb-1b0b45e38aca": {
+                                    "name": "操纵性减值"
+                                },
+                                "fa3bd418-7702-43cf-a7da-98fece8a860a": {
+                                    "name": "牛顿力学"
+                                },
+                                "6bea68be-b99e-458a-a4c6-56399f1db055": {
+                                    "name": "依赖道路"
+                                },
+                                "c8843505-086b-445d-866f-200711a8637f": {
+                                    "name": "全力"
+                                },
+                                "1cf3a3ca-964a-4d12-97ed-03decf870c72": {
+                                    "name": "超元",
+                                    "notes": "瞬间加速"
+                                },
+                                "161a8a8f-2d21-4b65-8e99-2528743fc8bb": {
+                                    "name": "超元",
+                                    "notes": "完全机动性"
+                                }
+                            }
+                        },
+                        "0ad4f5c7-73d3-4a60-85fd-56a1595bc1f0": {
+                            "name": "伤害减免",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "ea044c14-03ff-43c2-bc18-66762e358e44": {
+                                    "name": "Force Field"
+                                },
+                                "2b12bf8a-a47b-4fda-a387-c7c147b9dcaa": {
+                                    "name": "硬化"
+                                },
+                                "1bb07d44-7baf-4c97-b1e9-1a047175488d": {
+                                    "name": "吸收",
+                                    "notes": "增强@特质@"
+                                },
+                                "620bd529-814b-45e9-881f-c295524e5b1c": {
+                                    "name": "吸收",
+                                    "notes": "仅治疗"
+                                },
+                                "d9f48b5d-fb0c-4a7c-8f84-77c9b6899829": {
+                                    "name": "吸收",
+                                    "notes": "增强任意特质"
+                                },
+                                "c21f2bd6-dd80-4591-a0f4-cc449abd7e4e": {
+                                    "name": "反射"
+                                },
+                                "de6193c1-39b0-4e48-a8ef-eb55f76d3d43": {
+                                    "name": "祸根",
+                                    "notes": "@罕见@"
+                                },
+                                "699a4491-2e74-4bab-8646-c617294db504": {
+                                    "name": "祸根",
+                                    "notes": "@偶见@"
+                                },
+                                "71438a11-2bc9-44d6-ac10-e64e58821e83": {
+                                    "name": "祸根",
+                                    "notes": "@常见@"
+                                },
+                                "ef002497-10ff-46ac-933d-cd54a2e16dfd": {
+                                    "name": "祸根",
+                                    "notes": "@非常常见@"
+                                },
+                                "9b0c3968-95cf-4725-ae01-8a3f24bec62d": {
+                                    "name": "定向",
+                                    "notes": "前方"
+                                },
+                                "2e8ba31d-1806-445b-839b-587269d23e7c": {
+                                    "name": "柔性"
+                                },
+                                "3e0b7c0c-ad6d-4344-b136-8cbdc3382a6d": {
+                                    "name": "限制",
+                                    "notes": "@很常见攻击类型@"
+                                },
+                                "96227c40-db27-4765-b203-7a9bcf8b61e3": {
+                                    "name": "半剥离"
+                                },
+                                "2d03f25e-4cdf-4cc1-9cf8-5beab203f92e": {
+                                    "name": "无法穿着护甲"
+                                },
+                                "f5b6ae6e-c196-4377-966e-d655e55e6dff": {
+                                    "name": "定向",
+                                    "notes": "@方向：后方、左、右、上、下@"
+                                },
+                                "94a149da-fb89-4682-a678-903520c4d09c": {
+                                    "name": "限制",
+                                    "notes": "@常见攻击类型@"
+                                },
+                                "1044c3d9-d0d0-4cf4-a9c2-41806872dce9": {
+                                    "name": "硬皮",
+                                    "notes": "任何只需要接触皮肤的影响忽略此 DR"
+                                },
+                                "671dda43-cf31-4bc7-af36-310dd300abbc": {
+                                    "name": "限制",
+                                    "notes": "@偶见攻击类型@"
+                                },
+                                "c4aeee78-d2df-4d79-ace0-60c16468bad3": {
+                                    "name": "剥离"
+                                },
+                                "bcba529b-e796-488a-b6aa-8da1fc107cdb": {
+                                    "name": "限制",
+                                    "notes": "@罕见攻击类型@"
+                                },
+                                "d5fd4474-4f27-4b56-a545-8a7e5c71e683": {
+                                    "name": "叠层"
+                                },
+                                "797919b9-778e-4647-b207-01aa09d95f79": {
+                                    "name": "咒术防御"
+                                },
+                                "34507a9d-aedc-4a3e-a64e-1b2c5c499ed6": {
+                                    "name": "仅限咒术"
+                                },
+                                "7405f80a-f723-42b1-a840-2ae8707d0bfa": {
+                                    "name": "部分（@部位，每攻击部位调整值 1 等级，躯干在一个等级上 -10% @）"
+                                }
+                            }
+                        },
+                        "17381986-66a2-4c50-8694-1fefa147bbf2": {
+                            "name": "额外体力值",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "b0eb2af4-da3d-4501-b60a-b306f10278de": {
+                            "name": "额外生命值",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "146de6d0-3005-4133-99b0-193582b8d403": {
+                                    "name": "体型"
+                                },
+                                "f1453dfa-d448-4be4-8b9c-8272dbbc5303": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        },
+                        "23829bf5-6e54-43ff-8c96-8ebb4f3f49ef": {
+                            "name": "额外腿部",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "d0553703-d35c-48a3-98cf-324c57d05a40": {
+                                    "name": "@3 或 4@"
+                                },
+                                "fa84829a-63c2-49fc-884b-c25c21b1498c": {
+                                    "name": "@5 或 6@"
+                                },
+                                "f54c96b8-616f-45ee-90e5-43af46a04b5d": {
+                                    "name": "@7+@"
+                                },
+                                "839d50b1-c08d-4851-84c0-a09c73e84b22": {
+                                    "name": "最大"
+                                },
+                                "6c3392e6-45fe-4c5e-90c4-7c96d52ef0ef": {
+                                    "name": "不能踢击"
+                                },
+                                "d8cd6c97-789f-433d-8ffb-e25e16debd9d": {
+                                    "name": "非常灵活"
+                                },
+                                "1ef8501d-23d1-4f5e-8d79-19f5761ef76c": {
+                                    "name": "可抓握足部"
+                                }
+                            }
+                        },
+                        "39c9e426-9931-491d-81db-d4e2a0d19088": {
+                            "name": "高痛阈",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture"
+                        },
+                        "527d17df-f51a-4584-b79c-1d39a560b70b": {
+                            "name": "无所畏惧",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "充满恐惧"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "d6e60d7c-1b04-4952-ac83-25e90143ce75": {
+                            "name": "Reputation",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "notes": "As gentle giants and obliging, benevolent people.",
+                            "modifiers": {
+                                "02b06b4a-cf26-4c44-bb92-4d63dc77d7c2": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人"
+                                },
+                                "030cf5fe-07d4-47f7-b615-a83eb3376521": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人，刨去@一大群人@"
+                                },
+                                "bbfd0a56-df31-4ba4-a100-27a62ddb021f": {
+                                    "name": "影响人群",
+                                    "notes": "@一大群人@"
+                                },
+                                "62e48c0e-2c32-4a60-aac2-eb16ade714b6": {
+                                    "name": "影响人群",
+                                    "notes": "@一小群人@"
+                                },
+                                "8b180d95-2f25-4470-96ac-1bbab22ad6c5": {
+                                    "name": "总是有人认识"
+                                },
+                                "8a14eedd-433f-4cee-a463-6b7c6fc0af91": {
+                                    "name": "有时候有人认识",
+                                    "notes": "10-"
+                                },
+                                "7a233ae7-398d-475d-96d9-5ee8f8cb8675": {
+                                    "name": "偶尔有人认识",
+                                    "notes": "7-"
+                                }
+                            }
+                        },
+                        "6c0d5fac-0c48-4afe-b170-92fba83625e1": {
+                            "name": "Striker (tail)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "9c23c836-99e1-40e6-a4be-c53076793d06": {
+                                    "name": "笨拙",
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "Striker"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "weapons": {
+                                "836c592b-f48b-468a-8d59-3bb264622601": {
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "斗殴"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "5e522a0f-dcfd-4191-a273-616a1c3a14a0": {
+                    "name": "Racial Disadvantages",
+                    "children": {
+                        "cdcb7eb1-46ba-4d51-8b95-7c7d95aa3ee9": {
+                            "name": "Phobia (fear of committing violence)",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "Fear of committing violence"
+                        },
+                        "8a09cde5-7096-4104-b210-2e81bd944f00": {
+                            "name": "和平主义：只能自卫",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "你只能为保护你自己和你所珍惜的人儿战斗，只使用绝对必要的武力（禁止先发制人！）。你必须尽力劝阻别人发起战斗。",
+                            "modifiers": {
+                                "b6f2398f-ccde-42ab-853e-244c65ee227a": {
+                                    "name": "物种特异性的"
+                                }
+                            }
+                        },
+                        "35b9ff32-93a1-4fed-b695-db6498efcfcb": {
+                            "name": "个人恶习",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "notes": "Refusing 10 take orders without clear reasons and advocating peaceful solutions at intemlinable length.",
+                            "modifiers": {
+                                "31e521be-fb97-45dd-8169-ca72505ccbf6": {
+                                    "name": "-1 反应"
+                                },
+                                "c0dc0984-693a-434d-988a-ce902e9abc34": {
+                                    "name": "-2 反应"
+                                },
+                                "8620f920-3a50-4921-9f28-8a3781f45c8e": {
+                                    "name": "-3 反应"
+                                }
+                            }
+                        },
+                        "a6172e7f-0509-4661-b147-349a4f7d8382": {
+                            "name": "夜盲症",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "notes": "如果由于照明不良引起的视觉和战斗减值对于一般人来说在 -1 到 -4，你的减值翻倍，翻倍后如果不足 -3 则改为 -3。如果对于一般人而言减值是 -5，则你视为完全目盲。如果你拥有敏锐视觉，那么只有在没有黑暗减值的时候才有效。",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "黑暗视觉"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "夜视"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "46b73b6d-4ca8-4175-8ef1-c43fe7a3f96f": {
+                            "name": "增加消耗",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "128d6a18-1428-4382-b282-ab9664622401": {
+                                    "name": "消耗 x2"
+                                },
+                                "193a9c9e-7633-4f3c-a694-879c50845cc6": {
+                                    "name": "消耗 x4"
+                                },
+                                "a43a43c7-cd65-46e5-a940-e1cc318fe72e": {
+                                    "name": "消耗 x8"
+                                }
+                            }
+                        },
+                        "7259998b-e52b-4690-b532-19bb37465b3f": {
+                            "name": "听力障碍",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "notes": "-4 on any skill roll where it is important that you understand someone who is talking",
+                            "modifiers": {
+                                "33d13a95-ddb4-47f4-b520-803b0291079f": {
+                                    "name": " Not in desne atmospheres"
+                                }
+                            }
+                        }
+                    }
+                },
+                "6b876851-006e-477a-881f-2cf2ab38c2fb": {
+                    "name": "Racial Quirks",
+                    "children": {
+                        "1297d4ee-1757-4747-9ebf-15e9e2c59722": {
+                            "name": "Unhurried",
+                            "tags": [
+                                "心理",
+                                "Quirk"
+                            ]
+                        },
+                        "9bff9744-668f-477c-9757-44c8ec5621ca": {
+                            "name": "Mild Sense of Duty",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "5a3b11e4-7b8f-4157-bc4b-c6b728bc8920": {
+                                    "name": "朋友和伙伴"
+                                },
+                                "e0d43853-6e02-4537-9dbf-27fd33c771aa": {
+                                    "name": "@小组织@"
+                                },
+                                "4364072e-a9f9-4d0e-b79e-0ff270d5045f": {
+                                    "name": "@个人@"
+                                },
+                                "ac43d340-5bb6-49b5-ab18-ecd8b0497ccf": {
+                                    "name": "@大组织@"
+                                },
+                                "1faab0bd-05b3-4587-8d52-f30614b61e52": {
+                                    "name": "@整个种族@"
+                                },
+                                "c374f122-7c13-4f3f-96e2-0c0007562e5c": {
+                                    "name": "所有活物"
+                                },
+                                "2eed8365-8d7b-49e4-885e-70cd592104e3": {
+                                    "name": "Most intelligent life"
+                                }
+                            }
+                        },
+                        "72f433e6-f2bf-4e7e-964a-70857b8d491a": {
+                            "name": "乐于助人",
+                            "tags": [
+                                "心理",
+                                "Quirk"
+                            ]
+                        },
+                        "7e6d6b8f-4d98-4f49-bbf7-ccb25c307399": {
+                            "name": "Taboo Trait - Skills: Weapon/Combat, Leadership, Politics",
+                            "tags": [
+                                "心理",
+                                "Quirk"
+                            ]
+                        },
+                        "3e2995a9-d28e-4354-8761-3b3334c81e16": {
+                            "name": "Racial Size Modifier",
+                            "tags": [
+                                "生理"
+                            ],
+                            "notes": "(Longest dimension)",
+                            "modifiers": {
+                                "71a49eed-476d-4dff-a895-3d74f3c85cb8": {
+                                    "name": "SM -10",
+                                    "notes": "Horizontal - 0.05 Yard; Veritical - 1.8\""
+                                },
+                                "008f5e3c-d115-484a-b8fc-d138b9de10be": {
+                                    "name": "SM -09",
+                                    "notes": "Horizontal - 0.07 Yard; Veritical - 2.5\""
+                                },
+                                "8c69084f-b274-4d6d-85cb-f4cd18809700": {
+                                    "name": "SM -08",
+                                    "notes": "Horizontal - 0.1 Yard; Veritical - 3.5\""
+                                },
+                                "5ae77f8f-8f51-425a-82c2-7a40091dc75c": {
+                                    "name": "SM -07",
+                                    "notes": "Horizontal - 0.15 Yard; Veritical - 5\""
+                                },
+                                "18631228-c7b9-477d-a97a-82f62401899f": {
+                                    "name": "SM -06",
+                                    "notes": "Horizontal - 0.2 Yard; Veritical - 7\""
+                                },
+                                "c4c184d7-e530-49cb-9099-cd3004d6f63d": {
+                                    "name": "SM -05",
+                                    "notes": "Horizontal - 0.3 Yard; Veritical - 10\""
+                                },
+                                "b1f7be47-4e78-4732-80b4-3256c18a9050": {
+                                    "name": "SM -04",
+                                    "notes": "Horizontal - 0.5 Yard; Veritical - 18\""
+                                },
+                                "cc1401d9-2251-4e3f-94d1-96530fa6b54a": {
+                                    "name": "SM -03",
+                                    "notes": "Horizontal - 0.7 Yard; Veritical - 2'"
+                                },
+                                "7504b85c-36f2-4488-9670-c87aeaff1168": {
+                                    "name": "SM -02",
+                                    "notes": "Horizontal - 1 Yard; Veritical - 3'"
+                                },
+                                "95b31790-28f6-4441-9d92-7c7501f9185c": {
+                                    "name": "SM -01",
+                                    "notes": "Horizontal - 1.5 Yards; Veritical - 4.5'"
+                                },
+                                "edc46b96-80e0-4c06-b451-dcd873526ad7": {
+                                    "name": "SM +0",
+                                    "notes": "Horizontal - 2 Yards; Veritical - 6'"
+                                },
+                                "673dccef-80a6-4302-b0b7-e69012d1f16e": {
+                                    "name": "SM +01",
+                                    "notes": "Horizontal - 3 Yards; Veritical - 9'"
+                                },
+                                "82a5dac2-0e07-4fa7-ba0c-306bf5c8ec1a": {
+                                    "name": "SM +02",
+                                    "notes": "Horizontal - 5 Yards; Veritical - 15'"
+                                },
+                                "ac5c644d-01d1-4fdd-842d-373852247c4a": {
+                                    "name": "SM +03",
+                                    "notes": "Horizontal - 7 Yards; Veritical - 21'"
+                                },
+                                "7f1765d8-6f74-425a-8a8c-55d89f6f409d": {
+                                    "name": "SM +04",
+                                    "notes": "Horizontal - 10 Yards; Veritical - 30'"
+                                },
+                                "adc9b9a3-8e72-4574-8793-7b9b6acde69e": {
+                                    "name": "SM +05",
+                                    "notes": "Horizontal - 15 Yards; Veritical - 45'"
+                                },
+                                "6625b9f0-f682-424f-8c9f-df7417461149": {
+                                    "name": "SM +06",
+                                    "notes": "Horizontal - 20 Yards; Veritical - 60'"
+                                },
+                                "9195dc22-1e43-4b81-a85c-bef3de877758": {
+                                    "name": "SM +07",
+                                    "notes": "Horizontal - 30 Yards; Veritical - 90'"
+                                },
+                                "de5e4cd7-80c5-4001-ab33-d7cf850d929a": {
+                                    "name": "SM +08",
+                                    "notes": "Horizontal - 50 Yards; Veritical - 150'"
+                                },
+                                "1f28a58a-f8cd-4f0d-bdaa-0fcdadf6d61d": {
+                                    "name": "SM +09",
+                                    "notes": "Horizontal - 70 Yards; Veritical - 210'"
+                                },
+                                "61a9119e-f831-4535-8f1c-8159df31516c": {
+                                    "name": "SM +10",
+                                    "notes": "Horizontal - 100 Yards; Veritical - 300'"
+                                },
+                                "be0b0b9f-b52e-4aca-96bd-8bbc4d00dfd1": {
+                                    "name": "SM +11",
+                                    "notes": "Horizontal - 150 Yards; Veritical - 450'"
+                                }
+                            }
+                        },
+                        "257446cb-f091-4291-93d8-faecda077368": {
+                            "name": "Centuroid",
+                            "tags": [
+                                "生理",
+                                "Quirk"
+                            ]
+                        },
+                        "77e2e4a1-81ab-4dac-a700-47867dff2848": {
+                            "name": "Reproductive Controll (female only)",
+                            "tags": [
+                                "生理",
+                                "Quirk"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

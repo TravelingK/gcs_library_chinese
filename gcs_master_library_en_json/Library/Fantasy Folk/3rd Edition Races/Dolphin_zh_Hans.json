@@ -1,0 +1,210 @@
+{
+    "traits": {
+        "887b00f0-770d-4022-8353-9fd3326c08a0": {
+            "name": "Race: Dolphin",
+            "children": {
+                "ffd1ea5c-75f0-49ee-b8e7-3e46ab2ff52e": {
+                    "name": "增加力量",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ],
+                    "notes": "No Fine Manipulators (-40%)"
+                },
+                "09c74f0f-9335-4663-9879-7177b3435dd0": {
+                    "name": "增加敏捷",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ],
+                    "notes": "No Fine Manipulators (-40%)"
+                },
+                "342da7e8-f299-4bff-9c82-1cd11f29ed2f": {
+                    "name": "增加体力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "f072269a-6389-49e3-a8ed-9bd12668e99f": {
+                    "name": "增加感知",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理",
+                        "生理"
+                    ]
+                },
+                "372d593a-413a-4850-86d8-b82940bfe5c2": {
+                    "name": "绝对方向感",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "稳定身形"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "空中"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "陆地"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "海上"
+                            }
+                        }
+                    ]
+                },
+                "37f0bfe7-7067-4543-a2f0-507b1df9ed80": {
+                    "name": "Blunt Teeth"
+                },
+                "a8d87990-ad2d-41f0-ac63-e8a139586a8d": {
+                    "name": "Enhanced Move (Swimming)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "notes": "Multiply normal Swimming Move by 1 + level"
+                },
+                "54b4174d-d615-4c06-aaa4-4ae49cca2dea": {
+                    "name": "瞬膜",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "2f8ba5f1-5d2d-45a2-8d16-309771885b0c": {
+                    "name": "广角视觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "38fb9ac4-5073-44d9-af4f-8fd3c86ce0af": {
+                    "name": "高压生存",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "be5e82ee-8177-4099-bcf1-bd359776c244": {
+                    "name": "Scanning Sense (Sonar)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "1b223070-d4a6-4b0b-b3a1-e9cc378cae11": {
+                    "name": "Dependency (Air, hourly)",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ],
+                    "notes": "Lose 1 HP per 10 minutes after missing an hourly dose"
+                },
+                "1ad16137-33ec-41e5-881b-fdc613ee6b16": {
+                    "name": "冲动",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "notes": "当正确的选择是等待并思考的时候，进行一次自控检定。如果失败，你必须行动起来"
+                },
+                "925b6c1c-3a13-4efa-abec-c4edd82f1209": {
+                    "name": "无法发声",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ]
+                },
+                "31e4d153-0ab8-4b6a-a3bd-d80e2617445b": {
+                    "name": "无肢",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ]
+                },
+                "2f415f23-7555-44e4-9bfb-26c37e7571b1": {
+                    "name": "低技术等级",
+                    "tags": [
+                        "劣势",
+                        "社会"
+                    ]
+                },
+                "0886528e-3b9d-4e3e-ae88-39b3cf974dc6": {
+                    "name": "短命",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ]
+                }
+            }
+        }
+    },
+    "skills": {
+        "59f03816-96e9-42f0-80b4-10db6a19f58f": {
+            "name": "Race: Dolphin",
+            "children": {
+                "821f1db7-ffdc-42bb-839c-421150f67e35": {
+                    "name": "杂技",
+                    "tags": [
+                        "运动"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "空中杂技"
+                        },
+                        {
+                            "name": "水上杂技"
+                        }
+                    ]
+                },
+                "cac9dcdd-2ceb-42c0-84bf-586aac78338a": {
+                    "name": "手势",
+                    "tags": [
+                        "社会"
+                    ]
+                }
+            }
+        }
+    },
+    "notes": {
+        "36927ace-6ad9-4cb9-ba7f-59b502a10dd6": {
+            "text": "Race: Dolphin",
+            "children": {
+                "672cb936-9c2f-4f92-b59a-74af23973196": {
+                    "text": "The Dolphins are the traditional friends and allies of the Merfolk. They are\r large (determine length and weight normally for ST) intelligent mammals."
+                }
+            }
+        }
+    }
+}

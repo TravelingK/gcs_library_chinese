@@ -1,0 +1,604 @@
+{
+    "traits": {
+        "b9cc2e82-8bfc-4bf5-bf1e-53aa9a9453ed": {
+            "name": "Attributes",
+            "children": {
+                "fce31c24-3e17-49de-a746-c5ea3ab8dd2a": {
+                    "name": "增加力量",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "f59d2cfe-83fc-4e1d-85b9-42696f18a4c0": {
+                            "name": "无操作肢"
+                        },
+                        "6fac3929-134f-4dec-a17c-c28b07f4c3d2": {
+                            "name": "体型"
+                        },
+                        "7a2f461e-b423-44fc-83c0-7f091b8b711b": {
+                            "name": "超级出力"
+                        }
+                    }
+                },
+                "de2de856-5ea7-4202-bea3-beda69333e18": {
+                    "name": "增加敏捷",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "4e4dcb69-ffea-41f8-96af-f9f7c030be57": {
+                            "name": "无操作肢"
+                        }
+                    }
+                },
+                "cfac76e1-caf4-4cf5-a041-d6d5a9011784": {
+                    "name": "增加智力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理"
+                    ]
+                },
+                "f5a41e76-1648-4e27-8def-5dea0b7a91fc": {
+                    "name": "增加体力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                }
+            }
+        },
+        "7faba3c4-6cb4-4669-9338-2f88f1f41e4b": {
+            "name": "Class Advantages",
+            "children": {
+                "e19adaa4-ec10-43f0-8098-0992e05fb055": {
+                    "name": "无所畏惧",
+                    "tags": [
+                        "优势",
+                        "心理"
+                    ]
+                }
+            }
+        },
+        "2f092e2d-c126-4420-8765-21e777ee6b8b": {
+            "name": "Class Disadvantages",
+            "children": {
+                "7498fd65-2eca-41ce-8af9-266765f26c9a": {
+                    "name": "Code of Honor (Private Investigator)",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "8dc70947-2ffb-412f-8049-41d15c5a9c51": {
+                    "name": "自负",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "e8deaeb3-3f2e-4282-b9ff-6a9914e582ea": {
+                    "name": "Sense of Duty (Client)",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "modifiers": {
+                        "0bb6fb14-d8a7-45b1-966e-f40fde9e714b": {
+                            "name": "Clients"
+                        },
+                        "77334dc3-5a84-4876-b4f4-d25a711a0adf": {
+                            "name": "Will commit illegal acts"
+                        }
+                    }
+                },
+                "6a3805ef-fefe-4d67-8b07-fb98de2a46e4": {
+                    "name": "顽固",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "b1916ad6-92b8-41da-9bd8-558903f1e49c": {
+                    "name": "-15 points chosen from:",
+                    "children": {
+                        "3a0334f0-e899-45ac-b188-db4cf93fc0f0": {
+                            "name": "Addiction (Chain-smoker)",
+                            "tags": [
+                                "劣势",
+                                "心理",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "e894979d-1183-4d1a-883c-378b46519e2c": {
+                                    "name": "Cost: Cheap"
+                                },
+                                "ff2554b5-bfc1-49e2-a229-3ec15a3dd366": {
+                                    "name": "Cost: Expensive"
+                                },
+                                "25f41f9e-914c-4993-99c5-62e02351f64f": {
+                                    "name": "Cost: Very Expensive"
+                                },
+                                "7914bf43-061c-408b-b1a7-614bf56e9b26": {
+                                    "name": "Effects: Hallucinogenic"
+                                },
+                                "890aaf5b-0a10-4a4b-98df-a9f2ffdde036": {
+                                    "name": "Effects: Highly Addictive (-5 on withdrawal roll)"
+                                },
+                                "3de8347a-f5d7-4666-ac99-b60e97d4b6bf": {
+                                    "name": "Effects: Incapacitating"
+                                },
+                                "f8a6840c-a011-49fb-82fd-094e6c648f54": {
+                                    "name": "Effects: Totally Addictive (-10 on withdrawal roll)"
+                                },
+                                "410fda95-18ba-4a13-8eb9-eb959ad1610a": {
+                                    "name": "非法"
+                                },
+                                "76b88226-a9ae-488d-9b29-6eb9abb22323": {
+                                    "name": "合法"
+                                }
+                            }
+                        },
+                        "3cebf978-2095-4450-9924-656aad30c464": {
+                            "name": "Compulsive Behavior (Heavy drinker)",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "4cb81680-b7a0-47e9-be25-eda3424fc98f": {
+                            "name": "债务",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ]
+                        },
+                        "a0b95d34-e789-48a8-9c34-0ae6d2578307": {
+                            "name": "无幽默感",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "notes": "-2 反应"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "16b1bba6-206e-4a9f-a87a-b6ea9d4d77fb": {
+            "name": "Primary Skills",
+            "children": {
+                "38d6aeb6-c896-4d5e-8efc-f97e0e18b061": {
+                    "name": "斗殴",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "斗殴"
+                            }
+                        }
+                    ]
+                },
+                "e63f63f5-f28a-4cfb-88ab-99557dd1a112": {
+                    "name": "侦测谎言",
+                    "tags": [
+                        "警察",
+                        "社会",
+                        "间谍"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "肢体语言"
+                        },
+                        {
+                            "name": "心理学"
+                        }
+                    ]
+                },
+                "bd872dbd-d448-4827-94b5-3f007292f54c": {
+                    "name": "唬骗",
+                    "tags": [
+                        "犯罪",
+                        "社会",
+                        "间谍",
+                        "街头"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "做戏"
+                        }
+                    ]
+                },
+                "5bbf6b5c-f6b8-4f2a-8509-1a08d84bd6a8": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "Pistol",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "轻机枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "光束武器",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "霰弹枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "冲锋枪"
+                        }
+                    ]
+                },
+                "e86427a7-a525-451f-832e-d06c35f54c35": {
+                    "name": "威吓",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "社会",
+                        "街头"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "做戏"
+                        }
+                    ]
+                },
+                "27f06e53-2eb1-4418-8100-d597314549d5": {
+                    "name": "尾随",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "观察"
+                        },
+                        {
+                            "name": "潜行"
+                        }
+                    ]
+                },
+                "deccc7f4-ea5c-4931-bedf-4132fd8b7d07": {
+                    "name": "潜行",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ]
+                },
+                "b4cc92f5-1c92-4198-8a4c-6facb5bc9a30": {
+                    "name": "黑街",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "社会",
+                        "街头"
+                    ]
+                }
+            }
+        },
+        "667aa9a7-4c59-4685-9e03-b189e1d2182b": {
+            "name": "Secondary Skills",
+            "children": {
+                "ecd4ad9e-7bc2-4c71-abb2-6796f690791e": {
+                    "name": "做戏",
+                    "tags": [
+                        "社会",
+                        "间谍"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "团体表演"
+                        },
+                        {
+                            "name": "演讲"
+                        }
+                    ]
+                },
+                "17846a9f-5253-4cb2-9297-e4b6f4a65b71": {
+                    "name": "犯罪学",
+                    "tags": [
+                        "人文学科",
+                        "警察",
+                        "社会科学"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "心理学"
+                        }
+                    ]
+                },
+                "e2f0fd8d-c8e6-4fcd-95d0-0304c7dadc76": {
+                    "name": "外交",
+                    "tags": [
+                        "商业",
+                        "警察",
+                        "社会"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "政治"
+                        }
+                    ]
+                },
+                "d0aec7d1-3bee-4977-96d6-f6ac85c28cbe": {
+                    "name": "易容",
+                    "tags": [
+                        "犯罪",
+                        "间谍",
+                        "街头"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "化妆"
+                        }
+                    ]
+                },
+                "f03a4d6d-5eac-47a8-b7ca-02d8177aa00f": {
+                    "name": "驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "机动车",
+                    "defaults": [
+                        {},
+                        {},
+                        {
+                            "name": "驾驶",
+                            "specialization": "重型汽车"
+                        },
+                        {
+                            "name": "驾驶"
+                        }
+                    ]
+                },
+                "d5ab9b2f-5d8c-42aa-9a78-814d806c2bdb": {
+                    "name": "急救",
+                    "tags": [
+                        "常识",
+                        "医学"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "秘传医术"
+                        },
+                        {
+                            "name": "医师"
+                        },
+                        {
+                            "name": "兽医学"
+                        }
+                    ]
+                },
+                "588d6de3-06ff-42ae-ba3d-70f98e1ada58": {
+                    "name": "物品藏身",
+                    "tags": [
+                        "犯罪",
+                        "间谍",
+                        "街头"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "巧手"
+                        }
+                    ]
+                },
+                "773d1b22-a967-4859-ba96-8854f1b80c89": {
+                    "name": "开锁",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头",
+                        "技术"
+                    ]
+                },
+                "5b59db10-2cb9-4ae2-b6e8-65a360284225": {
+                    "name": "摄影",
+                    "tags": [
+                        "艺术",
+                        "娱乐",
+                        "间谍",
+                        "技术"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子操作",
+                            "specialization": "媒体"
+                        }
+                    ]
+                },
+                "3e8b35a5-c635-4c98-b88a-b68ed29473bf": {
+                    "name": "写作",
+                    "tags": [
+                        "艺术",
+                        "娱乐",
+                        "学校"
+                    ]
+                }
+            }
+        },
+        "4d01ad8e-f719-47b9-830a-594e7e265133": {
+            "name": "Background Skills",
+            "children": {
+                "e5f726a3-542b-40f7-806e-e106d3e3c737": {
+                    "name": "3 points in:",
+                    "children": {
+                        "dd169fbe-7b55-4fef-a826-8e1eb3688a60": {
+                            "name": "地域知识",
+                            "tags": [
+                                "常识",
+                                "知识"
+                            ],
+                            "notes": "所有重要商行、街道、市民、领导等。",
+                            "specialization": "@城市@",
+                            "defaults": [
+                                {
+                                    "name": "地理学",
+                                    "specialization": "@分支@"
+                                }
+                            ]
+                        },
+                        "19695a72-e169-4350-a001-cfd3c4062bac": {
+                            "name": "电脑操作",
+                            "tags": [
+                                "常识",
+                                "学校",
+                                "技术"
+                            ]
+                        },
+                        "d2f52c9e-945e-4c85-9275-ee8f3d5a93c6": {
+                            "name": "管理",
+                            "tags": [
+                                "商业",
+                                "社会"
+                            ],
+                            "defaults": [
+                                {
+                                    "name": "商人"
+                                }
+                            ]
+                        },
+                        "d3ca1bcb-5033-4e5a-a507-26ee00cd4f10": {
+                            "name": "演讲",
+                            "tags": [
+                                "商业",
+                                "学校",
+                                "社会"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "做戏"
+                                },
+                                {
+                                    "name": "团体表演"
+                                },
+                                {
+                                    "name": "政治"
+                                }
+                            ]
+                        },
+                        "685de1ba-bf11-442e-893c-97fdbd975f29": {
+                            "name": "研究",
+                            "tags": [
+                                "学校",
+                                "间谍"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "电脑操作"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "语言"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "书面语（纯正的）"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "语言"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "书面语（有口音的）"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "语言"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "书面语（结巴的）"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "写作"
+                                }
+                            ]
+                        },
+                        "fb40ec28-f581-433e-9922-b4ee6e753981": {
+                            "name": "法学",
+                            "tags": [
+                                "商业",
+                                "人文学科",
+                                "警察",
+                                "社会科学"
+                            ],
+                            "specialization": "@分支@"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

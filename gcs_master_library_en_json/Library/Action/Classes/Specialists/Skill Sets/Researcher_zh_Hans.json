@@ -1,0 +1,150 @@
+{
+    "skills": {
+        "b3edc95a-2994-4893-9e74-063880dc5d82": {
+            "name": "Researcher",
+            "children": {
+                "a8f77e13-3a8f-4bf2-891f-cc3f44e79057": {
+                    "name": "会计学",
+                    "tags": [
+                        "商业"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "金融"
+                        },
+                        {
+                            "name": "数学",
+                            "specialization": "统计学"
+                        },
+                        {
+                            "name": "商人"
+                        }
+                    ]
+                },
+                "8af1cfe5-9860-4c93-be93-d731c61d08c7": {
+                    "name": "管理",
+                    "tags": [
+                        "商业",
+                        "社会"
+                    ],
+                    "defaults": [
+                        {
+                            "name": "商人"
+                        }
+                    ]
+                },
+                "bf2f8510-a7b5-4354-a625-50e278ed58d9": {
+                    "name": "电脑操作",
+                    "tags": [
+                        "常识",
+                        "学校",
+                        "技术"
+                    ]
+                },
+                "97eaefae-60c5-4a7c-90e7-ab428560d04b": {
+                    "name": "时事",
+                    "tags": [
+                        "商业",
+                        "常识",
+                        "知识",
+                        "社会"
+                    ],
+                    "specialization": "@分支@",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "研究"
+                        },
+                        {
+                            "name": "时事"
+                        }
+                    ]
+                },
+                "b02b2bb8-4e1a-44d3-9e55-611da74c2a7b": {
+                    "name": "电子操作",
+                    "tags": [
+                        "艺术",
+                        "娱乐",
+                        "技术"
+                    ],
+                    "specialization": "媒体",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子维修",
+                            "specialization": "媒体"
+                        },
+                        {
+                            "name": "工程学",
+                            "specialization": "电子"
+                        },
+                        {
+                            "name": "电子操作"
+                        }
+                    ]
+                },
+                "4997aacb-2430-4aa8-8ccb-a122ef0881a1": {
+                    "name": "研究",
+                    "tags": [
+                        "学校",
+                        "间谍"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "电脑操作"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "语言"
+                                        },
+                                        "notes": {
+                                            "qualifier": "书面语（纯正的）"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "语言"
+                                        },
+                                        "notes": {
+                                            "qualifier": "书面语（有口音的）"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "语言"
+                                        },
+                                        "notes": {
+                                            "qualifier": "书面语（结巴的）"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "defaults": [
+                        {},
+                        {
+                            "name": "写作"
+                        }
+                    ]
+                },
+                "6801374c-152d-4cf2-9418-9fa5540518a9": {
+                    "name": "速读",
+                    "tags": [
+                        "学校"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,918 @@
+{
+    "traits": {
+        "bd2b00e1-4b2c-4ee0-a466-680da4ae375b": {
+            "name": "Patrol Cadet",
+            "children": {
+                "38d7c008-309f-41fd-9972-667b26666d28": {
+                    "name": "Attributes",
+                    "children": {
+                        "d4729482-b290-458c-bec9-186acd141504": {
+                            "name": "减少力量",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "d70730db-edc2-4238-9964-5313b877145f": {
+                            "name": "Increased Dexterity",
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Physical"
+                            ],
+                            "modifiers": {
+                                "ff99ccf9-9e39-427a-9d43-5fa646f87236": {
+                                    "name": "No Fine Manipulators"
+                                }
+                            }
+                        },
+                        "e07fc644-dd00-4729-9941-a0c01783c76e": {
+                            "name": "Increased Strength",
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Physical"
+                            ],
+                            "modifiers": {
+                                "214e6461-ce12-4cc4-aca0-1473059bf551": {
+                                    "name": "No Fine Manipulators"
+                                },
+                                "83d9d61f-4e66-4158-9901-808b84717ea9": {
+                                    "name": "Size"
+                                },
+                                "e85e59ef-c5f3-47bb-9306-98cc535cd5e1": {
+                                    "name": "Super-Effort"
+                                }
+                            }
+                        },
+                        "9eb5cb6f-5233-4978-b4e2-c36c6c41fdd3": {
+                            "name": "Increased Health",
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Physical"
+                            ]
+                        },
+                        "aa4e9bc4-f791-4141-8c75-3047c21c3884": {
+                            "name": "增加感知",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "81dfc108-0c74-4c58-b6c7-bf500b97a03f": {
+                    "name": "Secondary characteristics",
+                    "children": {
+                        "a27ff3db-6ceb-44a5-b290-c2b79d59ae56": {
+                            "name": "Increased Perception",
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Mental",
+                                "Physical"
+                            ]
+                        },
+                        "0b615101-6e7e-43d7-86c9-10fbe91a94f7": {
+                            "name": "Increased Will",
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Mental"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "4748b439-e2cb-46a8-b4f7-43b1c2e6f00f": {
+            "name": "Advantages",
+            "children": {
+                "4b35f8d4-2b3f-4648-b3a5-3f80a1c07e62": {
+                    "name": "崇高目标",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "心理"
+                    ]
+                },
+                "7da9b58b-56fc-4f47-9f52-32d12ce55af3": {
+                    "name": "Chose 15 points from",
+                    "children": {
+                        "cfa128e1-0112-4f86-923f-6d3fd9f7b0a6": {
+                            "name": "Acute Sense ()",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "Choose senses from level 1-4, 2points/level"
+                        },
+                        "3ea089bf-23cb-4bf4-a40c-a384c80ee67a": {
+                            "name": "战斗反射",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "永远不会“惊呆”",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "即时备战"
+                                    }
+                                },
+                                {},
+                                {},
+                                {},
+                                {},
+                                {
+                                    "situation": "对于从心理震慑中恢复的 IQ 检定"
+                                },
+                                {
+                                    "situation": "对于你的队伍避免突袭的对抗（如果你是领导者则 +2）"
+                                }
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "增强时间感"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "b39d5b1b-8fd5-4119-8c62-3f26e2e2fe94": {
+                            "name": "蛮勇福星",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "Any time you take an unnecessary risk (in the GM’s opinion), you get +1 to all skill rolls"
+                        },
+                        "b4d3a1c8-5d2d-4d77-9c46-287aa54a2d6c": {
+                            "name": "健康",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "FP 回复速度加倍（魔法、 异能带来的损失则不被减免）",
+                            "features": [
+                                {
+                                    "situation": "对于所有保持意识、避免死亡、抵抗疾病或抵抗毒药的 HT 检定"
+                                }
+                            ]
+                        },
+                        "82313046-c18f-4064-9c88-3bd9bccaed95": {
+                            "name": "无所畏惧",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "Choose a level from 1-4, 2 points/level",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "充满恐惧"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "08fe2352-21e4-4fee-80a6-011d30792dfa": {
+                            "name": "高痛阈",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "在受伤后不会陷入休克",
+                            "features": [
+                                {
+                                    "situation": "对于避免击倒或震慑的 HT 判定"
+                                },
+                                {
+                                    "situation": "对于抵抗折磨"
+                                }
+                            ]
+                        },
+                        "887c1774-6584-4726-aa8a-c4e230932eb6": {
+                            "name": "幸运",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "游戏的每个小时可用一次",
+                            "modifiers": {
+                                "c2192ee5-7e2d-4e7a-88fb-e8ee61d6b857": {
+                                    "name": "主动"
+                                },
+                                "d8982d48-05c0-4569-9f0c-02bcf4a71e38": {
+                                    "name": "方向性",
+                                    "notes": "@方向@"
+                                },
+                                "fce88da0-d11c-4f65-894e-25340fba0d90": {
+                                    "name": "防御性"
+                                },
+                                "721b243e-7093-4e35-ad85-53bf4aa8d3e2": {
+                                    "name": "祈愿"
+                                }
+                            }
+                        },
+                        "837a5ae3-a773-4098-b62e-8bafed646086": {
+                            "name": "快速愈合",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "Whenever you roll to recover lost HP or to see if you can get over a crippling injury, you get +5 to your effective HT",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "10"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "ead0c101-44f0-42a6-8e5c-4ca9d135cfbf": {
+                            "name": "专心致志",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "+3 to rolls for any lengthy mental task you concentrate on to the exclusion of other activities, if the GM feels such focus would be beneficial. You tend to ignore everything else while obsessed and have -5 to all rolls to notice interruptions."
+                        },
+                        "31aa769c-8160-4b69-a401-1e3244510c2c": {
+                            "name": "社会认同",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "notes": ": Solar Patrol",
+                            "features": [
+                                {
+                                    "situation": "from those who hold you in high regard for being a Solar Patrol, in a  way."
+                                }
+                            ]
+                        },
+                        "5d5c4390-f10b-4184-9b6b-24da439c1ad9": {
+                            "name": "Status (Patrol Cadet)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "6a822f81-a04a-481c-938f-62fe7e708bbf": {
+            "name": "Disadvantages",
+            "children": {
+                "302f0a66-81a9-4914-8d8a-ff2f8e0af882": {
+                    "name": "社会污名（未成年人）",
+                    "tags": [
+                        "劣势",
+                        "社会"
+                    ],
+                    "notes": "按你所属文化的标准。你还没有成年。当你达到法定成年年龄（通常 18）时你必须赎回这个劣势。",
+                    "features": [
+                        {
+                            "situation": "来自你在和别人打交道的时候把自己当成年人时的其他人；他们可能对你的态度很和蔼，但是并不完全尊重你"
+                        }
+                    ]
+                },
+                "36b1abc5-ee9a-4da8-bde9-f656f4252d6d": {
+                    "name": "Choose -15 points from",
+                    "children": {
+                        "7a3849e3-01ab-4031-bccf-852f3e5a17de": {
+                            "name": "古道热肠",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你可以伸以援手或是提出帮助而又不适合这么做时，进行一次自控检定"
+                        },
+                        "7ae98bf9-cc77-4604-98a0-7f6dd827d30f": {
+                            "name": "好奇",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "在遇到有趣的物品或情况时进行一个自控检定"
+                        },
+                        "6c29f32d-46cf-40b8-b927-01948a595ac3": {
+                            "name": "Fanaticism ()",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "0dd2875f-2621-4bcc-872f-437b7ab067cb": {
+                                    "name": "极度"
+                                }
+                            }
+                        },
+                        "1bc5f7ef-a54c-4fd1-8e11-36541884c21c": {
+                            "name": "遵纪守法",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你“必须”违反无意义的法规的时候，你必须进行一次自控检定；如果你失败了，你必须遵守这条法律，不论后果如何。如果你成功地抵挡了你的守法冲动违法了，在事后进行第二次自控检定，如果失败，你就必须向权力机构自首！"
+                        },
+                        "a0e282bb-90b9-4c63-ac58-823ff77b0025": {
+                            "name": "冲动",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当正确的选择是等待并思考的时候，进行一次自控检定。如果失败，你必须行动起来"
+                        },
+                        "96025fc6-0f6c-4690-8854-c0abb14f84d8": {
+                            "name": "自负",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "如果 GM 认为人物过于谨慎，可能要求人物进行自我控制检定，如果检定失败，人物不再畏缩不前，就像你能解决问题一样！",
+                            "features": [
+                                {
+                                    "situation": "来自年青幼稚的人，他们相信你的吹牛"
+                                },
+                                {
+                                    "situation": "来自老练的 NPC"
+                                }
+                            ]
+                        },
+                        "06f1bbe6-534f-42e4-9bfc-fd4bc7cf4830": {
+                            "name": "无我",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "为了把你的需要——哪怕是生死——置于他人的需要之前，也需要进行一次自控检定。"
+                        },
+                        "4cfa2c09-b2a7-4df6-a555-06a5f74f84d4": {
+                            "name": "老实",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你需要为一个令人不安的事实保持沉默（隐瞒事实近乎说谎）时，做一个自控检定。如果你真的必须去说谎的话，自控检定遭到 -5 惩罚！如果你失败了，你会一时冲动说出了真相，或是磕磕巴巴一看就是在说谎。",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "fast talk"
+                                    }
+                                }
+                            ]
+                        },
+                        "8e300a27-cfb6-494e-8201-799c8f340982": {
+                            "name": "顽固",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "来自其他人"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "76c6f09b-d086-4ff9-9f6c-078abfab7ca1": {
+            "name": "Primary skills",
+            "children": {
+                "e45ac868-3b6e-42a6-8e74-17ed8fe56ff4": {
+                    "name": "Beam Weapons",
+                    "tags": [
+                        "Combat",
+                        "Ranged Combat",
+                        "Weapon"
+                    ],
+                    "specialization": "Pistol",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Beam Weapons"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Pistol"
+                        }
+                    ]
+                },
+                "c5e2defa-4a73-40db-b339-a17017ac397c": {
+                    "name": "Piloting",
+                    "tags": [
+                        "Vehicle"
+                    ],
+                    "specialization": "High-Performance Spacecraft",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Piloting",
+                            "specialization": "Aerospace"
+                        },
+                        {
+                            "name": "Piloting",
+                            "specialization": "Low-Performance Spacecraft"
+                        }
+                    ]
+                },
+                "1c3584a9-388e-4f09-896b-450336b038bd": {
+                    "name": "Choose 4 points from",
+                    "children": {
+                        "b29cc056-b19c-44ce-bf51-b52b819059fe": {
+                            "name": "Armoury",
+                            "tags": [
+                                "Maintenance",
+                                "Military",
+                                "Repair"
+                            ],
+                            "notes": "Atomic guns are considered small arms or heavy weapons;\nnega-barriers are considered force shields.",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Engineer",
+                                    "specialization": "Battlesuits"
+                                }
+                            ]
+                        },
+                        "a2694514-fdce-46ee-b305-7f2eb95394e3": {
+                            "name": "Electronics Operation",
+                            "tags": [
+                                "Technical"
+                            ],
+                            "specialization": "Solar Patrol",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Electronics Operation"
+                                },
+                                {
+                                    "name": "Electronics Repair",
+                                    "specialization": "Communications"
+                                },
+                                {
+                                    "name": "Engineer",
+                                    "specialization": "Electronics"
+                                }
+                            ]
+                        },
+                        "735c752b-f174-49e7-9ebc-8b5611877d83": {
+                            "name": "Leadership",
+                            "tags": [
+                                "Military",
+                                "Social"
+                            ]
+                        },
+                        "42c61ac9-ae20-4e61-96ef-3d45fbc33b3b": {
+                            "name": "Mechanic",
+                            "tags": [
+                                "Maintenance",
+                                "Repair"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Engineer",
+                                    "specialization": "Aerospace"
+                                },
+                                {
+                                    "name": "Machinist"
+                                },
+                                {
+                                    "name": "Mechanic"
+                                }
+                            ]
+                        },
+                        "dd1cff20-08b6-487d-a3b6-a331d80b139a": {
+                            "name": "Navigation",
+                            "tags": [
+                                "Exploration",
+                                "Outdoor",
+                                "Technical",
+                                "Vehicle"
+                            ],
+                            "specialization": "Space",
+                            "defaults": [
+                                {
+                                    "name": "Astronomy"
+                                },
+                                {
+                                    "name": "Mathematics",
+                                    "specialization": "Applied"
+                                },
+                                {
+                                    "name": "Navigation",
+                                    "specialization": "Hyperspace"
+                                }
+                            ]
+                        },
+                        "28f467a7-0a24-464b-b3df-4dbeeb563110": {
+                            "name": "Spacer",
+                            "tags": [
+                                "Vehicle"
+                            ]
+                        },
+                        "40cae7c5-7c41-46ae-84f6-ee11b6b5a609": {
+                            "name": "Engineer",
+                            "tags": [
+                                "Design",
+                                "Engineer",
+                                "Invention"
+                            ],
+                            "specialization": "Solar Patrol Technology",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "mathematics"
+                                        },
+                                        "specialization": {
+                                            "qualifier": "applied"
+                                        }
+                                    }
+                                ]
+                            },
+                            "defaults": [
+                                {
+                                    "name": "Armoury",
+                                    "specialization": "Heavy Weapons"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "6ab8440c-dc80-4839-a483-d2787a991086": {
+            "name": "Secondary skills",
+            "notes": "Choose 4 points from",
+            "children": {
+                "5974926e-421f-4ebe-8e41-5a27307eb156": {
+                    "name": "Boxing",
+                    "tags": [
+                        "Combat",
+                        "Melee Combat",
+                        "Weapon"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "Boxing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "Boxing"
+                            }
+                        }
+                    ]
+                },
+                "72d7d787-539c-4554-9e8a-d2dedff3bf21": {
+                    "name": "Climbing",
+                    "tags": [
+                        "Athletic",
+                        "Criminal",
+                        "Exploration",
+                        "Outdoor",
+                        "Street"
+                    ]
+                },
+                "e3617126-15d2-4aea-ba1e-ef830cc52aba": {
+                    "name": "Driving",
+                    "tags": [
+                        "Vehicle"
+                    ],
+                    "defaults": [
+                        {},
+                        {},
+                        {
+                            "name": "Driving",
+                            "specialization": "Heavy Wheeled"
+                        },
+                        {
+                            "name": "Driving"
+                        }
+                    ]
+                },
+                "63b40711-7abc-49bf-ad57-eee1a1773b62": {
+                    "name": "Free Fall",
+                    "tags": [
+                        "Athletic"
+                    ]
+                },
+                "b44c052c-7737-42ed-b6c6-c5cb6b125bf1": {
+                    "name": "Vacc Suit",
+                    "tags": [
+                        "Technical"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Diving Suit"
+                        },
+                        {
+                            "name": "NBC Suit"
+                        },
+                        {
+                            "name": "Battlesuit"
+                        }
+                    ]
+                },
+                "7049163a-8afc-4f29-b43b-81bcfe72339a": {
+                    "name": "Electronics Operation",
+                    "tags": [
+                        "Technical"
+                    ],
+                    "specialization": "Solar Patrol",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Electronics Operation"
+                        },
+                        {
+                            "name": "Electronics Repair",
+                            "specialization": "Communications"
+                        },
+                        {
+                            "name": "Engineer",
+                            "specialization": "Electronics"
+                        }
+                    ]
+                },
+                "704a2c64-8310-4cec-af4c-75e438a6458d": {
+                    "name": "Machinist",
+                    "tags": [
+                        "Maintenance",
+                        "Repair"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Mechanic"
+                        }
+                    ]
+                },
+                "a7b05ed8-e370-47d8-af62-eaecacf63e35": {
+                    "name": "Astronomy",
+                    "tags": [
+                        "Natural Science"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "mathematics"
+                                },
+                                "specialization": {
+                                    "qualifier": "applied"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "358cf801-9199-4680-8ce6-db6cb0e43405": {
+                    "name": "Chemistry",
+                    "tags": [
+                        "Natural Science"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Alchemy"
+                        }
+                    ]
+                },
+                "36f499c0-9fb9-426d-b32e-4bf2ba9fcc15": {
+                    "name": "Diplomacy",
+                    "tags": [
+                        "Business",
+                        "Police",
+                        "Social"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Politics"
+                        }
+                    ]
+                },
+                "8335b182-abc2-48bf-91ff-c1ea3258e005": {
+                    "name": "Geology",
+                    "tags": [
+                        "Natural Science"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Geography",
+                            "specialization": "Physical, Earthlike"
+                        },
+                        {
+                            "name": "Prospecting"
+                        }
+                    ]
+                },
+                "6aff3d5d-dd1b-4258-87f4-1541b6fc7fab": {
+                    "name": "Law",
+                    "tags": [
+                        "Business",
+                        "Humanities",
+                        "Police",
+                        "Social Sciences"
+                    ],
+                    "specialization": "Solar Patrol"
+                },
+                "2c9dd403-9a58-4d46-9f28-c454d453c476": {
+                    "name": "Mathematics",
+                    "tags": [
+                        "Natural Science"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Physics"
+                        },
+                        {
+                            "name": "Engineer"
+                        }
+                    ]
+                },
+                "60c7ff5e-525b-4c3c-9b5c-85062eb4a3b3": {
+                    "name": "Tactics",
+                    "tags": [
+                        "Military",
+                        "Police"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Strategy"
+                        }
+                    ]
+                },
+                "a1bc087e-c877-4e36-96b8-5e9253599bd6": {
+                    "name": "Survival",
+                    "tags": [
+                        "Exploration",
+                        "Outdoor"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Naturalist"
+                        },
+                        {
+                            "name": "Survival",
+                            "specialization": "Bank"
+                        },
+                        {
+                            "name": "Survival",
+                            "specialization": "Deep Ocean Vent"
+                        },
+                        {
+                            "name": "Survival",
+                            "specialization": "Fresh-Water Lake"
+                        },
+                        {
+                            "name": "Survival",
+                            "specialization": "Open Ocean"
+                        },
+                        {
+                            "name": "Survival",
+                            "specialization": "Reef"
+                        },
+                        {
+                            "name": "Survival",
+                            "specialization": "River/Stream"
+                        },
+                        {
+                            "name": "Survival",
+                            "specialization": "Tropical Lagoon"
+                        }
+                    ]
+                }
+            }
+        },
+        "c4a786ad-8b78-4b4d-8472-bbe523d6364b": {
+            "name": "Background skills",
+            "children": {
+                "136a5ea5-9ed1-4c19-b854-e50455d07a94": {
+                    "name": "Boating",
+                    "tags": [
+                        "Vehicle"
+                    ],
+                    "defaults": [
+                        {},
+                        {},
+                        {
+                            "name": "Boating",
+                            "specialization": "Motorboat"
+                        },
+                        {
+                            "name": "Boating",
+                            "specialization": "Sailboat"
+                        },
+                        {
+                            "name": "Boating",
+                            "specialization": "Unpowered"
+                        },
+                        {
+                            "name": "Seamanship"
+                        }
+                    ]
+                },
+                "74421bfb-5110-4d76-96ba-b23fbb0b22c0": {
+                    "name": "Stealth",
+                    "tags": [
+                        "Criminal",
+                        "Police",
+                        "Spy",
+                        "Street"
+                    ]
+                },
+                "7a886d49-de99-45c6-9dab-674b94191ad6": {
+                    "name": "Area Knowledge",
+                    "tags": [
+                        "Everyman",
+                        "Knowledge"
+                    ],
+                    "notes": "Location of major planets; familiarity with all known races (but not necessarily expertise); knowledge of people of Status 7+; general understanding of the economic and political situation",
+                    "specialization": "Solar System; Lived there",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Geography"
+                        }
+                    ]
+                },
+                "1e383711-d472-4327-81e5-57414aef9d53": {
+                    "name": "Infomat Operation",
+                    "tags": [
+                        "Everyman",
+                        "Scholarly",
+                        "Technical"
+                    ]
+                },
+                "ed64afd9-aeca-47c0-bbc9-a6ea3494895f": {
+                    "name": "Performance",
+                    "tags": [
+                        "Arts",
+                        "Entertainment"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Acting"
+                        },
+                        {
+                            "name": "Public Speaking"
+                        }
+                    ]
+                },
+                "e2714bd6-9db5-45cd-88d4-f45964457984": {
+                    "name": "Cryptography",
+                    "tags": [
+                        "Military",
+                        "Spy"
+                    ],
+                    "defaults": [
+                        {
+                            "name": "Mathematics",
+                            "specialization": "Cryptology"
+                        }
+                    ]
+                },
+                "529f9813-7ea0-4b25-b6f4-0013643950a3": {
+                    "name": "Physician",
+                    "tags": [
+                        "Medical"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "First Aid"
+                        },
+                        {
+                            "name": "Veterinary"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

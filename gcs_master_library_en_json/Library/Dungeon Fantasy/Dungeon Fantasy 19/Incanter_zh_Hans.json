@@ -1,0 +1,1726 @@
+{
+    "traits": {
+        "2bc788d6-6a5a-4618-b2b5-1bdbdc868a72": {
+            "name": "Incanter",
+            "children": {
+                "62dcf17b-26b7-41d5-9678-f18d57bb494c": {
+                    "name": "Attributes",
+                    "children": {
+                        "de203cdb-55b1-4773-b700-2e64cee0ee6f": {
+                            "name": "增加敏捷",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "2988cd16-4de4-406a-b830-72ceeaf1e4ca": {
+                            "name": "增加智力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        },
+                        "34cfa02c-ac9a-4a13-b892-52cf5d445786": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "37d04c72-e546-4f3e-a4d2-0589abc5f953": {
+                    "name": "Secondary Characteristics",
+                    "children": {
+                        "dc847f4a-9449-4008-911f-1b428f0a2a78": {
+                            "name": "减少感知",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "心理",
+                                "生理"
+                            ]
+                        },
+                        "ead1d76e-da94-4cc0-801e-ceb81ad7c4dd": {
+                            "name": "增加基本速度",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "bbbd4859-e1d9-4017-b8ac-c8836a4e1071": {
+                    "name": "Class Advantages",
+                    "children": {
+                        "841ed37e-bcb4-4008-970e-a2db751b0aea": {
+                            "name": "Incantation Gift",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "超自然"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "仪式魔法"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Path of"
+                                    }
+                                },
+                                {
+                                    "situation": "to sense rolls for detecting magical items"
+                                }
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "Unusual Background (Incantation Mage)"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "bb802e76-d1cf-4426-ad06-26686c60d756": {
+                            "name": "Unusual Background (Incantation Mage)",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ]
+                        },
+                        "3a161cb3-23d5-4c97-b03a-9a634e8f025d": {
+                            "name": "40 Points chosen from:",
+                            "children": {
+                                "0fe95721-dd85-4125-8b84-4b847f027a0b": {
+                                    "name": "增加智力",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "心理"
+                                    ],
+                                    "notes": "@+1 or +2@"
+                                },
+                                "d20ace6a-a7ed-460b-a326-4c3eb9ad2cc1": {
+                                    "name": "增加体力",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "生理"
+                                    ],
+                                    "notes": "@+1 to +4@"
+                                },
+                                "9b868c25-343e-4171-8984-0c651ee0ac3c": {
+                                    "name": "增加意志",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "心理"
+                                    ],
+                                    "notes": "@+1 to +5@"
+                                },
+                                "faf88769-1002-42c2-9509-815266f83b40": {
+                                    "name": "逼真记忆",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "fad52d23-57bb-4284-a982-ec9857757add": {
+                                            "name": "摄影式"
+                                        }
+                                    }
+                                },
+                                "c1bfdefc-c3be-49d4-bf96-c42eb6934356": {
+                                    "name": "共情",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "a66a0d13-8e25-49e1-bcf7-ee9dce959e2f": {
+                                            "name": "Remote"
+                                        }
+                                    },
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "侦测谎言"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "预言"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "心理学"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "90226bef-de86-46af-a4be-01f6b70387c1": {
+                                    "name": "信手拈来",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "notes": "@1 or 2@"
+                                },
+                                "e7b8d5a2-3d0d-43a5-af09-e886221bc662": {
+                                    "name": "直觉",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "86c180c2-0ea8-4b86-8d11-479fe51da441": {
+                                            "name": "启示"
+                                        }
+                                    }
+                                },
+                                "dfa70021-3ed5-450d-92b4-f37af0bb4cc4": {
+                                    "name": "语言天赋",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "b1f0a7d3-bfb4-4f2e-969a-ea6b76da3b81": {
+                                    "name": "语言：@语言@",
+                                    "tags": [
+                                        "优势",
+                                        "语言",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "32b22ac0-2b90-419e-a64c-a86077c2f2bc": {
+                                            "name": "纯正的"
+                                        },
+                                        "136a0def-8e45-4002-bc63-a648bdfa850b": {
+                                            "name": "口语",
+                                            "notes": "一无所知"
+                                        },
+                                        "97cc07b3-0f78-4d4e-8391-0b85922a45fd": {
+                                            "name": "口语",
+                                            "notes": "结巴的"
+                                        },
+                                        "f9902057-6ec2-4c9a-94f4-c6aaf66f1ee4": {
+                                            "name": "口语",
+                                            "notes": "有口音的"
+                                        },
+                                        "cc19e87c-54eb-421f-bf32-2dd53c61bb90": {
+                                            "name": "口语",
+                                            "notes": "纯正的"
+                                        },
+                                        "f5bfa4a9-066f-42ca-a534-251558a655a1": {
+                                            "name": "书写",
+                                            "notes": "一无所知"
+                                        },
+                                        "f9808e33-5c42-4b1d-ae4b-7b1193b65e1b": {
+                                            "name": "书写",
+                                            "notes": "结巴的"
+                                        },
+                                        "ce45a35e-7750-423e-8b49-9b07d434d76c": {
+                                            "name": "书写",
+                                            "notes": "有口音的"
+                                        },
+                                        "5cf06331-059f-480b-b229-46811886ae3b": {
+                                            "name": "书写",
+                                            "notes": "纯正的"
+                                        }
+                                    }
+                                },
+                                "26e5aace-23c2-44cd-b945-9b5b989a0f78": {
+                                    "name": "语言：@语言@",
+                                    "tags": [
+                                        "优势",
+                                        "语言",
+                                        "心理"
+                                    ],
+                                    "notes": "有语言天赋",
+                                    "modifiers": {
+                                        "986b37cc-9a35-4e3f-a30a-f863d35de9e9": {
+                                            "name": "纯正的"
+                                        },
+                                        "f0915456-9a6f-44d7-baeb-7154c92add7a": {
+                                            "name": "口语",
+                                            "notes": "有口音的"
+                                        },
+                                        "13b8d8ce-df1f-4f8d-81fb-eb4bedb07d94": {
+                                            "name": "口语",
+                                            "notes": "纯正的"
+                                        },
+                                        "8aa9ddc8-f0b9-43e4-81c7-077f8c797cf2": {
+                                            "name": "书写",
+                                            "notes": "有口音的"
+                                        },
+                                        "61fc2185-477c-4b6d-b5cd-414e9e4c9370": {
+                                            "name": "书写",
+                                            "notes": "纯正的"
+                                        }
+                                    },
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "语言天赋"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "3283412c-bb4e-4df6-95a7-2dcbf486207d": {
+                                    "name": "非凡的幸运",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "notes": "每三十分钟游戏可以用一次",
+                                    "modifiers": {
+                                        "60c985fd-cd84-4a78-bb62-2f1714188006": {
+                                            "name": "主动性"
+                                        },
+                                        "3f327ccd-64b5-4001-8d43-58652a0b7d81": {
+                                            "name": "方向性",
+                                            "notes": "@方向@"
+                                        },
+                                        "dd218c84-e1cf-48ec-b7ad-3283a0478213": {
+                                            "name": "防御性"
+                                        },
+                                        "7e136043-9acb-442b-aae3-56d143edad6d": {
+                                            "name": "祈愿"
+                                        }
+                                    }
+                                },
+                                "5fd0a4d7-ec45-4725-aeba-d09117bbf028": {
+                                    "name": "幸运",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "notes": "游戏的每个小时可用一次",
+                                    "modifiers": {
+                                        "4910426d-e3d9-449b-9c90-8656ffd3a135": {
+                                            "name": "主动性"
+                                        },
+                                        "59d4aaa6-cee6-4b59-8a4e-f15a2aab7521": {
+                                            "name": "方向性",
+                                            "notes": "@方向@"
+                                        },
+                                        "fc225d01-fef3-43b1-93fa-0917ac525d69": {
+                                            "name": "防御性"
+                                        },
+                                        "2b20f5e8-fc98-4f10-bd71-2e1de9b2e166": {
+                                            "name": "祈愿"
+                                        }
+                                    }
+                                },
+                                "892df33a-c5dc-452b-9f24-e6ec08455145": {
+                                    "name": "Incantation Gift",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "超自然"
+                                    ],
+                                    "notes": "@Increase to 6 max@",
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "仪式魔法"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "Path of"
+                                            }
+                                        },
+                                        {
+                                            "situation": "to sense rolls for detecting magical items"
+                                        }
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Unusual Background (Incantation Mage)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "dc242f0a-c2bd-4b10-a775-8d56f8902239": {
+                                    "name": "心灵护盾",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "dc8cf7b1-c412-4368-8712-120571544f08": {
+                                            "name": "赛博网络"
+                                        },
+                                        "46b9faa8-517d-4c20-807d-0f64b91ea8b4": {
+                                            "name": "限制",
+                                            "notes": "@来源@"
+                                        },
+                                        "7571f107-4a0c-47a3-a391-fc2bf23c2553": {
+                                            "name": "限制",
+                                            "notes": "@异能/学派/焦点@"
+                                        },
+                                        "1c414d68-a76d-470e-8e39-9b1b8473b5f3": {
+                                            "name": "闭锁"
+                                        },
+                                        "eeb7bb8c-1ed4-460a-a05c-5b8c8fe2ae37": {
+                                            "name": "侧写"
+                                        },
+                                        "e357e566-fd96-41e6-9775-dfcf68595324": {
+                                            "name": "反射"
+                                        },
+                                        "6d0dd4e2-9ea5-4556-bbe6-f3249d9a1f18": {
+                                            "name": "主动性"
+                                        },
+                                        "102b00cf-1646-4162-bbda-7c06d31b611a": {
+                                            "name": "总是开启"
+                                        },
+                                        "3f37cf19-5bc0-4c7f-8ff2-a9db142a2a83": {
+                                            "name": "反馈"
+                                        },
+                                        "66390879-e035-49ea-8764-7c4a4abca1d7": {
+                                            "name": "反馈",
+                                            "notes": "与总是开启结合"
+                                        }
+                                    }
+                                },
+                                "27fc1aed-2ead-4d43-ac6f-04679075dcc4": {
+                                    "name": "标志性装备",
+                                    "tags": [
+                                        "优势",
+                                        "社会"
+                                    ],
+                                    "notes": "对于一般用钱买来的装备，例如武器与铠甲而言，每 1 点此优势给予这些装备最多等于模组中平均开始财富值 50% 的额外价值（但绝不会是现金）。"
+                                },
+                                "aff1c48e-979a-49af-b127-1054ccf29dde": {
+                                    "name": "精魄共情",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "超自然"
+                                    ],
+                                    "modifiers": {
+                                        "01d523e7-9456-4d41-8507-1b3f2b19c11f": {
+                                            "name": "特化",
+                                            "notes": "@类型：天使，恶魔，精灵， 鬼魂等@"
+                                        },
+                                        "aaa500c6-4037-469e-85a5-efe9d4084c44": {
+                                            "name": "Remote"
+                                        }
+                                    }
+                                },
+                                "255056c6-6e2c-4608-8ab4-dc2a60631700": {
+                                    "name": "迷人声线",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "外交"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "唬骗"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "模仿声音"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "表演"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "政治"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "演讲"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "性感"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "唱歌"
+                                            }
+                                        },
+                                        {
+                                            "situation": "来自任何能听到你声音的人"
+                                        }
+                                    ]
+                                },
+                                "bce6662a-9504-41ca-80d7-db66859a1d66": {
+                                    "name": "宽裕财富",
+                                    "tags": [
+                                        "优势",
+                                        "社会",
+                                        "财富"
+                                    ],
+                                    "notes": "起始财富为社会平均水平的两倍"
+                                },
+                                "2026ee5e-de00-4c0d-9439-baa43ef498c2": {
+                                    "name": "富有",
+                                    "tags": [
+                                        "优势",
+                                        "社会",
+                                        "财富"
+                                    ],
+                                    "notes": "起 始财富是其社会平均水平的 5 倍"
+                                }
+                            }
+                        }
+                    }
+                },
+                "1b3bde09-fe6f-4e6a-ad6d-31c518bf5fa0": {
+                    "name": "Class Disadvantages",
+                    "children": {
+                        "c7c1be68-e220-4682-883f-df317f86305c": {
+                            "name": "Another -20 points chosen from the above or:",
+                            "children": {
+                                "a4c279f1-8789-4108-abfc-680c5cf3f4a1": {
+                                    "name": "坏脾气",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "a9dd3a4d-eef9-4374-9df7-bb1dd8cd3e5f": {
+                                    "name": "不解风情",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "礼仪"
+                                            }
+                                        },
+                                        {
+                                            "situation": "来自其他人"
+                                        },
+                                        {
+                                            "situation": "对于抵抗性感技能"
+                                        }
+                                    ]
+                                },
+                                "14fac2c0-c895-4d8b-ac41-9c60279a12cd": {
+                                    "name": "战斗麻木",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "notes": "在你的人身安全受到紧急威胁时，做 HT 检定。你可以不检定，直到你需要打、跑、扣动扳机或别的什么行动。检定结果超过 13 就必定失败，即使你有 14 的 HT。如果成功，你可以正常行动，如果失败， 你陷入心理震慑。 ",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "战斗反射"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "c05387ec-9ab4-4614-9054-97f202404cd3": {
+                                    "name": "怯懦",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "当你需要面对身体方面的危险的时候，你需要进行自控。如果危险可能危及性命，自控有 -5 减值。"
+                                },
+                                "d83880ab-023b-474a-9a75-367e95581f9f": {
+                                    "name": "需要独处",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "当有人在旁边晃来晃去、站在你身后俯视你等事情发生时，你需要进行自控检定。如果你失败，你会对那个人发脾气，如同你具有坏脾气劣势。"
+                                },
+                                "a8b86619-5156-4e8f-8f51-9958fd2b3e70": {
+                                    "name": "低痛阈",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "notes": "损伤的休克减值翻倍。如果你受到超过 1 点损伤，你必须检定意志，只有成功才能控制住自己不发出惨叫。",
+                                    "features": [
+                                        {
+                                            "situation": "来自“男子气概”的角色"
+                                        },
+                                        {
+                                            "situation": "对于抵抗击倒、震慑、身体折磨"
+                                        }
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "高痛阈"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "4e570fb6-263d-46f4-b908-b6397870b0d7": {
+                                    "name": "胃虚",
+                                    "tags": [
+                                        "生理",
+                                        "Quirk"
+                                    ],
+                                    "features": [
+                                        {
+                                            "situation": "对于避免油腻辛辣的食物、酒等所带来的恶心的 HT 检定。"
+                                        }
+                                    ]
+                                },
+                                "a5027519-8677-4f35-9e41-f335059d06b0": {
+                                    "name": "不谙世事",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "外交"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "唬骗"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "威吓"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "礼仪"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "性感"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "黑街"
+                                            }
+                                        },
+                                        {
+                                            "situation": "对于抵抗影响技能：外交、唬骗、威吓、礼仪、性感和黑街"
+                                        }
+                                    ]
+                                },
+                                "68802230-03c3-4e0b-9a5e-122e0eac4d14": {
+                                    "name": "自负",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "如果 GM 认为人物过于谨慎，可能要求人物进行自我控制检定，如果检定失败，人物不再畏缩不前，就像你能解决问题一样！",
+                                    "features": [
+                                        {
+                                            "situation": "来自年青幼稚的人，他们相信你的吹牛"
+                                        },
+                                        {
+                                            "situation": "来自老练的 NPC"
+                                        }
+                                    ]
+                                },
+                                "88f1947e-4106-49d7-a9ac-8d07aa9b85d8": {
+                                    "name": "阵后战栗",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "每次战斗结束时投自控骰。自控检定失败后，记录失败度，投 3d+ 自控检定失败度，查恐惧检定表得出结果。"
+                                },
+                                "ffa07b4c-cf79-4b3f-bd02-296d2c2170de": {
+                                    "name": "责任感",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "c67a0fcf-a8d0-4f63-aceb-933446c35d4a": {
+                                            "name": "Adventuring companions"
+                                        }
+                                    }
+                                },
+                                "93850a1f-cd34-4101-b6dc-284759bac9a8": {
+                                    "name": "顽固",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "situation": "来自其他人"
+                                        }
+                                    ]
+                                },
+                                "52b99d45-1fbc-4c04-ac22-b2e6d40fd64c": {
+                                    "name": "作死能手",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "每天进行一次自控检定。如果你失败了，你必须尝试戏弄一个危险的目标：熟练的战士、危险的怪物、一群能力足够的对手，等等。如果你抵抗住了冲动，你的这个自控获得累加的 -1 减值，直到你某次自控失败为止！"
+                                }
+                            }
+                        },
+                        "45723662-a54e-4562-b9c6-1fe4138f59cd": {
+                            "name": "-20 Points chosen from:",
+                            "children": {
+                                "5a7350e6-c6ab-420e-bb04-8cfeda2236a2": {
+                                    "name": "心不在焉",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "一旦沉浸在自己的思绪里，那么， 本人身体受到损伤以外的任何事情， 你都需要检定 Per-5 才能发现",
+                                    "features": [
+                                        {
+                                            "situation": "所有的的 IQ 检定和基于 IQ 的技能掷骰，除了你正在集中注意力和精力做的事情"
+                                        }
+                                    ]
+                                },
+                                "083dede4-52fd-417d-9cc9-eed83b957375": {
+                                    "name": "好奇",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "在遇到有趣的物品或情况时进行一个自控检定"
+                                },
+                                "57e81e16-22ad-4ecb-8477-a25f496ec027": {
+                                    "name": "恼人声线",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "外交"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "唬骗"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "表演"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "演讲"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "性感"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "唱歌"
+                                            }
+                                        }
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "迷人声线"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "3aed736c-0cf8-4b5f-b169-31a189b934ba": {
+                                    "name": "惊吓动物",
+                                    "tags": [
+                                        "劣势",
+                                        "心理",
+                                        "超自然"
+                                    ]
+                                },
+                                "f36df908-6d25-462f-ad01-70988db793f0": {
+                                    "name": "执念",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "Prove that incantation magic is the highest form of magic; Make a self-control roll whenever it would be wise to deviate from your goal. If you fail, you continue to pursue your Obsession, regardless of the consequences.",
+                                    "modifiers": {
+                                        "628817b4-71f5-4823-b37b-3bdd20eb0002": {
+                                            "name": "短期"
+                                        },
+                                        "7b65a4e8-d87b-443c-af8e-e6efeeae0ba9": {
+                                            "name": "长期"
+                                        }
+                                    }
+                                },
+                                "c72fadb8-c980-413f-b908-0b55b3f76122": {
+                                    "name": "超重",
+                                    "tags": [
+                                        "生理",
+                                        "Quirk"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "易容"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "尾随"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "游泳"
+                                            }
+                                        },
+                                        {
+                                            "situation": "对于对抗击倒时的 ST"
+                                        }
+                                    ]
+                                },
+                                "486e23a1-1057-4584-9f67-b1505b265ecc": {
+                                    "name": "胖",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "易容"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "尾随"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "游泳"
+                                            }
+                                        },
+                                        {
+                                            "situation": "对于对抗击倒时的 ST"
+                                        }
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "15"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "77595ef9-a267-4765-a22a-d27d5797805b": {
+                                    "name": "瘦",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "易容"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "尾随"
+                                            }
+                                        },
+                                        {
+                                            "situation": "对于对抗击倒时的 ST"
+                                        }
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "14"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "626cd18b-1001-4d6e-a07e-9d4eee2e3a27": {
+                                    "name": "纵火狂",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "每当你有机会放火的时候，进行自控检定"
+                                },
+                                "4727c68a-3a03-442f-a719-6ccfc36e6fbf": {
+                                    "name": "社会污名（开除教籍）",
+                                    "tags": [
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "notes": "有害灵光",
+                                    "features": [
+                                        {
+                                            "situation": "来自其他人"
+                                        }
+                                    ]
+                                },
+                                "1faf12d0-8501-4595-bfc0-87513f69cf33": {
+                                    "name": "不健康",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "notes": "你会以正常速率的两倍损失 FP",
+                                    "features": [
+                                        {
+                                            "situation": "对于所有保持清醒、避免死亡、抵抗疾病或中毒的 HT 检定"
+                                        }
+                                    ]
+                                },
+                                "22e41cd9-b44e-403a-8f5c-17e333000476": {
+                                    "name": "非常不健康",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "notes": "以正常速率的两倍损失 FP；以正常速率的一半回复 FP",
+                                    "features": [
+                                        {
+                                            "situation": "-2 对于所有保持清醒、避免死亡、抵抗疾病或中毒的 HT 检定。"
+                                        }
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "抵抗力"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "40766546-1e03-4b63-b228-5e38e5345250": {
+                                    "name": "不自然特征（@描述@）",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "notes": "@1 to 5@",
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "易容"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "尾随"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "76f225c8-8a15-4ff1-9f26-0b4a3e889b59": {
+                                    "name": "灵异磁铁",
+                                    "tags": [
+                                        "劣势",
+                                        "心理",
+                                        "超自然"
+                                    ],
+                                    "modifiers": {
+                                        "daf7547c-8939-41dd-ae90-38f4941aaebb": {
+                                            "name": "起源磁铁"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "2fe4d7ba-f7b8-45ee-8855-2c9273b2b265": {
+            "name": "Incanter",
+            "children": {
+                "b1b0e8cc-121b-4bd2-9274-d5fb46b6755f": {
+                    "name": "Background Skills",
+                    "children": {
+                        "e57c558d-5b98-4f95-8d4f-18c123b37e16": {
+                            "name": "Choose 7:",
+                            "children": {
+                                "dd8dbf12-678d-449b-b625-fd74c2fb1b9e": {
+                                    "name": "即时备战",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "specialization": "Potion"
+                                },
+                                "083e2b73-2811-452e-9a5e-191e963c5587": {
+                                    "name": "即时备战",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "specialization": "Scroll"
+                                },
+                                "feaf149e-aaa0-4f9c-8205-6b3c9da4c4a7": {
+                                    "name": "攀爬",
+                                    "tags": [
+                                        "运动",
+                                        "犯罪",
+                                        "探索",
+                                        "户外",
+                                        "街头"
+                                    ]
+                                },
+                                "7a87c7e0-3611-4264-a04a-987d8a95a11c": {
+                                    "name": "潜行",
+                                    "tags": [
+                                        "犯罪",
+                                        "警察",
+                                        "间谍",
+                                        "街头"
+                                    ]
+                                },
+                                "7d033924-d050-48ab-8206-67b1fad10780": {
+                                    "name": "急救",
+                                    "tags": [
+                                        "常识",
+                                        "医学"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "秘传医术"
+                                        },
+                                        {
+                                            "name": "医师"
+                                        },
+                                        {
+                                            "name": "兽医学"
+                                        }
+                                    ]
+                                },
+                                "447bc509-9b4b-424f-b77f-4448c029bb95": {
+                                    "name": "手势",
+                                    "tags": [
+                                        "社会"
+                                    ]
+                                },
+                                "05c711b4-1e0b-4105-be80-0279b425dc5d": {
+                                    "name": "礼仪",
+                                    "tags": [
+                                        "商业",
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "上流社会",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "礼仪",
+                                            "specialization": "仆从"
+                                        }
+                                    ]
+                                },
+                                "9824705a-05d1-44cd-87e2-eb474b5a4865": {
+                                    "name": "制图",
+                                    "tags": [
+                                        "探索",
+                                        "人文学科",
+                                        "户外",
+                                        "社会科学"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "地理学"
+                                        },
+                                        {
+                                            "name": "数学",
+                                            "specialization": "测量学"
+                                        },
+                                        {
+                                            "name": "导航"
+                                        }
+                                    ]
+                                },
+                                "dccfa54c-9717-4d9b-8002-0899d563a110": {
+                                    "name": "预言",
+                                    "tags": [
+                                        "社会"
+                                    ],
+                                    "specialization": "占星",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "唬骗"
+                                        },
+                                        {
+                                            "name": "神秘学"
+                                        }
+                                    ]
+                                },
+                                "511dbc7f-f6f6-49c4-b145-5797e46d315a": {
+                                    "name": "预言",
+                                    "tags": [
+                                        "社会"
+                                    ],
+                                    "specialization": "占卜",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "唬骗"
+                                        },
+                                        {
+                                            "name": "神秘学"
+                                        }
+                                    ]
+                                },
+                                "3ed34821-107d-48fb-bae8-08cf567cf30e": {
+                                    "name": "预言",
+                                    "tags": [
+                                        "社会"
+                                    ],
+                                    "specialization": "水晶球占卜",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "唬骗"
+                                        },
+                                        {
+                                            "name": "神秘学"
+                                        }
+                                    ]
+                                },
+                                "63df068e-c375-4d56-a92c-385d2ad8d9dc": {
+                                    "name": "预言",
+                                    "tags": [
+                                        "社会"
+                                    ],
+                                    "specialization": "解梦",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "唬骗"
+                                        },
+                                        {
+                                            "name": "神秘学"
+                                        }
+                                    ]
+                                },
+                                "6a944685-0750-4510-8e67-d79805e3ba61": {
+                                    "name": "预言",
+                                    "tags": [
+                                        "社会"
+                                    ],
+                                    "specialization": "风水",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "唬骗"
+                                        },
+                                        {
+                                            "name": "神秘学"
+                                        }
+                                    ]
+                                },
+                                "d05a2b81-11b6-4864-9a29-0206749e4373": {
+                                    "name": "预言",
+                                    "tags": [
+                                        "社会"
+                                    ],
+                                    "specialization": "手相",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "唬骗"
+                                        },
+                                        {
+                                            "name": "神秘学"
+                                        }
+                                    ]
+                                },
+                                "b4f18a27-128f-457e-a483-0301ba5cf44a": {
+                                    "name": "预言",
+                                    "tags": [
+                                        "社会"
+                                    ],
+                                    "specialization": "塔罗",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "唬骗"
+                                        },
+                                        {
+                                            "name": "神秘学"
+                                        }
+                                    ]
+                                },
+                                "1e3737a4-e36f-4ce3-bcc7-f86268714d98": {
+                                    "name": "隐秘学识",
+                                    "tags": [
+                                        "知识"
+                                    ],
+                                    "specialization": "@Subject: any not yet chosen@"
+                                },
+                                "3fa9986d-ef5a-47f2-a0ef-63fd4db99be6": {
+                                    "name": "感知天气",
+                                    "tags": [
+                                        "常识",
+                                        "探索",
+                                        "户外"
+                                    ]
+                                },
+                                "a04e628d-2914-4368-95ea-4d458b5e4fd9": {
+                                    "name": "外交",
+                                    "tags": [
+                                        "商业",
+                                        "警察",
+                                        "社会"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "政治"
+                                        }
+                                    ]
+                                },
+                                "5aeb6b29-0270-4f4c-925b-42ce5d4eccab": {
+                                    "name": "战略",
+                                    "tags": [
+                                        "军事"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "情报分析"
+                                        },
+                                        {
+                                            "name": "战术"
+                                        },
+                                        {
+                                            "name": "战略"
+                                        }
+                                    ]
+                                },
+                                "f8cd30dd-15cb-47d3-9669-5f891edac2f9": {
+                                    "name": "战术",
+                                    "tags": [
+                                        "军事",
+                                        "警察"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "战略"
+                                        }
+                                    ]
+                                },
+                                "dbe3cabd-119f-4dd9-9ad1-8785f7d9c429": {
+                                    "name": "远足",
+                                    "tags": [
+                                        "运动",
+                                        "探索",
+                                        "户外"
+                                    ]
+                                },
+                                "eb165962-245a-4ad7-adce-002f82c6d7f2": {
+                                    "name": "冥想",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "自我催眠"
+                                        }
+                                    ]
+                                },
+                                "d3960fc0-20d9-4740-99e0-b9f4a5aeb608": {
+                                    "name": "搜集",
+                                    "tags": [
+                                        "犯罪",
+                                        "街头"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "05fa24e2-c0fc-4a65-87d8-62fb34ea5563": {
+                    "name": "Path Skills",
+                    "children": {
+                        "8dbe4bd6-aea2-47d8-8409-065b7fcde67e": {
+                            "name": "Path of Arcanum",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "Unusual Background (Incantation Mage)"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "854f7268-79f1-4f1a-84cc-f4759dfd0a6b": {
+                            "name": "Other Paths",
+                            "notes": "Choose 2 at 4 points, 1 at 2 points, and the remaining 4 at 1 point:",
+                            "children": {
+                                "40c7d08b-2676-44fa-ade8-d5e480f8bc64": {
+                                    "name": "Path of Augury",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Unusual Background (Incantation Mage)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "5615c149-86ef-4204-8334-efa34d903763": {
+                                    "name": "Path of Demonology",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Unusual Background (Incantation Mage)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "917dbba7-4171-40c2-9307-e81c058ccb17": {
+                                    "name": "Path of Elementalism",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Unusual Background (Incantation Mage)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "d4e307b0-f49a-4a5e-8f58-ff986723c963": {
+                                    "name": "Path of Mesmerism",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Unusual Background (Incantation Mage)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "8b45346a-1bc0-4270-9bb6-cfd94cfda8d7": {
+                                    "name": "Path of Necromancy",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Unusual Background (Incantation Mage)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "5a88dfa5-b122-4196-88d2-2d6d5207f7db": {
+                                    "name": "Path of Protection",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Unusual Background (Incantation Mage)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "9d30f1b2-cdff-4f33-ad54-7d0b294d4170": {
+                                    "name": "Path of Transfiguration",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Unusual Background (Incantation Mage)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "3aee56e6-af23-4f5e-8851-5917b5a4e641": {
+                    "name": "Secondary Skills",
+                    "children": {
+                        "84fbd313-9f6f-41fc-b20a-5a7cc97212ed": {
+                            "name": "职业技能",
+                            "tags": [
+                                "知识"
+                            ],
+                            "specialization": "Dungeon Butcher"
+                        },
+                        "f2318133-6c6e-460a-870d-886750a5f353": {
+                            "name": "研究",
+                            "tags": [
+                                "学校",
+                                "间谍"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "电脑操作"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "语言"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "书面语（纯正的）"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "语言"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "书面语（有口音的）"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "语言"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "书面语（结巴的）"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "写作"
+                                }
+                            ]
+                        },
+                        "8d7871a2-cc7b-4ed7-92e1-bc52d14fd844": {
+                            "name": "教学",
+                            "tags": [
+                                "学校",
+                                "社会"
+                            ]
+                        },
+                        "198f1c51-d064-4d03-82d5-5b7131d5059b": {
+                            "name": "写作",
+                            "tags": [
+                                "艺术",
+                                "娱乐",
+                                "学校"
+                            ]
+                        },
+                        "00ce3757-8ee0-47e9-a42a-231c3d22150b": {
+                            "name": "Choose 3:",
+                            "children": {
+                                "8b411722-a9da-4245-8095-6b30627a0519": {
+                                    "name": "隐秘学识",
+                                    "tags": [
+                                        "知识"
+                                    ],
+                                    "specialization": "Demons"
+                                },
+                                "f19917d3-15cd-46e6-bcb9-f02446cdf999": {
+                                    "name": "隐秘学识",
+                                    "tags": [
+                                        "知识"
+                                    ],
+                                    "specialization": "Elementals"
+                                },
+                                "469b6a3a-7baa-4947-bab2-e6db0f4062b5": {
+                                    "name": "隐秘学识",
+                                    "tags": [
+                                        "知识"
+                                    ],
+                                    "specialization": "Undead"
+                                },
+                                "bf6bdb85-8eac-4f0a-bd63-c264eab63f7e": {
+                                    "name": "神秘学",
+                                    "tags": [
+                                        "魔法",
+                                        "神秘学"
+                                    ]
+                                },
+                                "579ce707-d2a6-4187-89e6-bad249b67f35": {
+                                    "name": "魔导学",
+                                    "tags": [
+                                        "魔法",
+                                        "神秘学"
+                                    ]
+                                }
+                            }
+                        },
+                        "a44907f3-5245-4fd9-80f9-b2562f6d2ff1": {
+                            "name": "Choose 1 set:",
+                            "children": {
+                                "f2722231-bfb8-4bea-918a-77f7bd138248": {
+                                    "name": "Buckler and Sword",
+                                    "children": {
+                                        "4141e533-9dd9-45eb-90b0-5e8cf59ee81d": {
+                                            "name": "Shield",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "specialization": "手盾",
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Shield",
+                                                    "specialization": "力场"
+                                                }
+                                            ]
+                                        },
+                                        "774277a5-4ba0-4e2b-ad8d-21030c83484e": {
+                                            "name": "Smallsword",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Shortsword"
+                                                },
+                                                {
+                                                    "name": "Main-Gauche"
+                                                },
+                                                {
+                                                    "name": "Rapier"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "094d3f03-6d0c-4c59-9a4b-c8497673bf04": {
+                                    "name": "Staff",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Polearm"
+                                        },
+                                        {
+                                            "name": "Spear"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "a4567411-ff8c-42c5-bc52-714ece475561": {
+                            "name": "Choose 1:",
+                            "children": {
+                                "08e1068c-9efe-42c2-9dfa-3d549fccff3d": {
+                                    "name": "固有攻击",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "specialization": "光束",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "固有攻击"
+                                        }
+                                    ]
+                                },
+                                "6f18ea77-a4ed-48ea-9f78-c216bab18dfc": {
+                                    "name": "固有攻击",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "specialization": "吐息",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "固有攻击"
+                                        }
+                                    ]
+                                },
+                                "64ac33d2-1043-424a-aa9a-5478312a2bd2": {
+                                    "name": "固有攻击",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "specialization": "凝视",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "固有攻击"
+                                        }
+                                    ]
+                                },
+                                "55550aeb-28c4-444f-a78a-f887f3bd7aae": {
+                                    "name": "固有攻击",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "specialization": "射弹",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "固有攻击"
+                                        }
+                                    ]
+                                },
+                                "02b57942-e283-431c-9174-6e659901ca1d": {
+                                    "name": "弩",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ]
+                                },
+                                "45ed56f7-ace8-48d5-9221-13d9f40c5c08": {
+                                    "name": "投掷",
+                                    "tags": [
+                                        "运动",
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "空投"
+                                        }
+                                    ]
+                                },
+                                "ce440d67-2c41-49c6-8def-3a3bb1fef395": {
+                                    "name": "投石索",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "d7f44c67-6d1d-4412-ad26-57d466b4ab91": {
+                    "name": "Primary Skills",
+                    "children": {
+                        "12f0a339-8874-4f0b-bc52-60f5de9ddee3": {
+                            "name": "Alchemy (Infusions)",
+                            "tags": [
+                                "魔法",
+                                "自然科学",
+                                "神秘学"
+                            ]
+                        },
+                        "45633cd7-a5c4-4868-82c5-b2166ae7bec6": {
+                            "name": "仪式魔法",
+                            "tags": [
+                                "魔法",
+                                "神秘学"
+                            ],
+                            "specialization": "Incantation"
+                        },
+                        "b3bfd04a-5231-49d2-a051-b6643882b8a3": {
+                            "name": "绘制符文",
+                            "tags": [
+                                "魔法",
+                                "神秘学"
+                            ],
+                            "specialization": "Scripts"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

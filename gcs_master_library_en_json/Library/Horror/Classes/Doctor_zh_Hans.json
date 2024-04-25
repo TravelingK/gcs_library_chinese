@@ -1,0 +1,1099 @@
+{
+    "traits": {
+        "9f3f64e5-a859-4b21-9749-35d93e370513": {
+            "name": "Doctor",
+            "children": {
+                "af6cd6f0-6962-4dfa-a120-8aa66026e088": {
+                    "name": "Attributes",
+                    "children": {
+                        "df2b2163-a634-49e9-9629-aaf60413f863": {
+                            "name": "增加智力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        },
+                        "97ac285a-a125-44fb-9506-233ee6f79fd7": {
+                            "name": "额外体力值",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "22ff7d6d-aabc-43ab-b6e1-ec1483ee083b": {
+                    "name": "Class Advantage",
+                    "children": {
+                        "c3e21504-ce9e-4a08-9fd7-e63d0ea1b989": {
+                            "name": "20 points chosen from",
+                            "children": {
+                                "76e1ab1d-2b05-4f9d-9927-9c6d1730aadb": {
+                                    "name": "共情",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "7d382eb3-d052-46b0-a50a-04f5496ef951": {
+                                            "name": "Remote"
+                                        }
+                                    },
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "侦测谎言"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "预言"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "心理学"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "61252087-ba4c-4d9f-9486-bc999cbf2d94": {
+                                    "name": "天赋（妙手仁医）",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "天赋"
+                                    ],
+                                    "notes": "现代",
+                                    "modifiers": {
+                                        "259cf518-b11a-4eea-ae15-86411ab79546": {
+                                            "name": "Reaction Bonus",
+                                            "notes": "Patients"
+                                        },
+                                        "7dc0eea2-46c5-47a8-9fd2-95f067f9b67c": {
+                                            "name": "可选增益",
+                                            "notes": "进行全职针对治疗的患者和病症可以获得 HT 检定加值。"
+                                        },
+                                        "ff5d20bf-efdc-432a-b505-8bb73d59f744": {
+                                            "name": "可选花费"
+                                        }
+                                    },
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "诊断"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "秘传医术"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "急救"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "药剂学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "医师"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "生理学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "心理学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "手术"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "兽医学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "电子操作"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "医学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "专家技能"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "流行病学"
+                                            }
+                                        }
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "天赋（妙手仁医）"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "现代"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "9bdb7621-136c-49ae-a1ae-fb8ce3867e94": {
+                                    "name": "巧手",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "notes": "Up to 4",
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "艺术家"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "珠宝加工"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "结绳"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "皮革加工"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "开锁"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "扒窃"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "缝纫"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "巧手"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "手术"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "机工"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "机修"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "ae1a6078-7871-4bab-93a7-6be712ba5052": {
+                                    "name": "Higher Purpose (Saving Lives)",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "心理"
+                                    ]
+                                },
+                                "de1c6abf-9610-44b1-947d-b78e86513d87": {
+                                    "name": "直觉",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "ac6a9701-ed79-4e7a-a5d8-c87575f155d1": {
+                                            "name": "启示"
+                                        }
+                                    }
+                                },
+                                "d3d6d7e0-0468-479e-9636-0e495d64ab7f": {
+                                    "name": "Language: Latin",
+                                    "tags": [
+                                        "优势",
+                                        "语言",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "5a28f8c0-500d-47a7-8523-aacfc85ae66a": {
+                                            "name": "纯正的"
+                                        },
+                                        "f67e934c-63b0-4989-9ddc-7f8e9487bb1b": {
+                                            "name": "口语",
+                                            "notes": "一无所知"
+                                        },
+                                        "a39f059a-a613-4eba-a163-bb48658d1c45": {
+                                            "name": "口语",
+                                            "notes": "结巴的"
+                                        },
+                                        "e2d8b264-ce33-4ee5-8b48-be43bd00dde6": {
+                                            "name": "口语",
+                                            "notes": "有口音的"
+                                        },
+                                        "565bfcff-c4d2-4a3a-bbe8-5e49f2a034a9": {
+                                            "name": "口语",
+                                            "notes": "纯正的"
+                                        },
+                                        "38cd3b5e-283c-464a-b610-7f72bbdd4a34": {
+                                            "name": "书写",
+                                            "notes": "一无所知"
+                                        },
+                                        "23411f0f-e09f-424b-887f-e43addce5148": {
+                                            "name": "书写",
+                                            "notes": "结巴的"
+                                        },
+                                        "4cd8f905-e08d-49f0-a644-bd382cca38cc": {
+                                            "name": "书写",
+                                            "notes": "有口音的"
+                                        },
+                                        "93e15cca-95b8-47aa-bb06-479fd28a5bb9": {
+                                            "name": "书写",
+                                            "notes": "纯正的"
+                                        }
+                                    }
+                                },
+                                "3b5c5f4a-d50e-4de3-a6d4-cee4c2fae001": {
+                                    "name": "抵抗力",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "49c5a763-4fac-4780-b403-4869580ea8f1": {
+                                            "name": "@非常常见：新陈代谢危险等@"
+                                        },
+                                        "632200ab-2e86-4940-980b-d9a74d43853e": {
+                                            "name": "@常见：毒药，病征等@"
+                                        },
+                                        "9952b3de-b826-4f03-920d-e989f7e43d83": {
+                                            "name": "传染病"
+                                        },
+                                        "1a1a8d21-6a52-461f-9850-80b2a4dcb07f": {
+                                            "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                                        },
+                                        "3e1df5b9-041c-4281-b9ce-585a1a7047c2": {
+                                            "name": "免疫力"
+                                        },
+                                        "4ee7ae5a-d605-4614-8564-493659ca392c": {
+                                            "name": "抵抗的 HT 检定 +8"
+                                        },
+                                        "4190f0a1-d539-41dd-9d5a-f1c37a54256b": {
+                                            "name": "抵抗的 HT 检定 +3"
+                                        }
+                                    }
+                                },
+                                "8108de76-7201-4325-9cbf-90462dc4a339": {
+                                    "name": "抵抗力",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "22badc8e-1e25-448b-8a03-8778bb14b2ee": {
+                                            "name": "@非常常见：新陈代谢危险等@"
+                                        },
+                                        "55557708-5777-44aa-988a-d76e19d0b59e": {
+                                            "name": "@常见：毒药，病征等@"
+                                        },
+                                        "3fc9bd03-4231-448d-8192-66c9766702f1": {
+                                            "name": "传染病"
+                                        },
+                                        "f33e3c34-94ad-42dc-bb98-0f7e2aad2f0d": {
+                                            "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                                        },
+                                        "826a1710-45d5-4999-a696-f31628bd8214": {
+                                            "name": "免疫力"
+                                        },
+                                        "c4e92f88-7c62-474d-ade8-67d46c68f4fc": {
+                                            "name": "抵抗的 HT 检定 +8"
+                                        },
+                                        "9074cb84-1850-4980-9a2e-e08a34294f56": {
+                                            "name": "抵抗的 HT 检定 +3"
+                                        }
+                                    }
+                                },
+                                "0b5404c3-1b4e-4684-976e-fbde86865c11": {
+                                    "name": "Status",
+                                    "tags": [
+                                        "优势",
+                                        "社会"
+                                    ],
+                                    "notes": "Up to 2"
+                                },
+                                "2e4f7512-b7b2-4d06-a166-a188ec9cb6dc": {
+                                    "name": "无所惊扰",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "ac1e8878-a3a5-4109-abef-82d1e1dee635": {
+                                            "name": "习惯恐惧"
+                                        }
+                                    }
+                                },
+                                "3764b777-a704-402f-8960-0363efea4fa8": {
+                                    "name": "财富",
+                                    "tags": [
+                                        "优势",
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "a29b64ba-d659-46a5-898a-ae18befc1d4f": {
+                                            "name": "一贫如洗",
+                                            "notes": "Starting wealth is $0"
+                                        },
+                                        "d017ac8b-a012-473e-91ce-5892883b672b": {
+                                            "name": "贫穷",
+                                            "notes": "Starting wealth is 1/5 average"
+                                        },
+                                        "706de2c4-f51e-44bd-88a2-9be5382e4926": {
+                                            "name": "比较贫穷",
+                                            "notes": "Starting wealth is 1/2 average"
+                                        },
+                                        "7697bae0-9724-4a06-a062-e582d46fa150": {
+                                            "name": "普通的"
+                                        },
+                                        "d4ff009e-5a5b-4e05-b3f3-622bd9623898": {
+                                            "name": "Comfortable",
+                                            "notes": "Starting wealth is 2x average"
+                                        },
+                                        "9fca9787-75e0-408c-866d-d4ad2dc8f0b3": {
+                                            "name": "富有",
+                                            "notes": "Starting wealth is 5x average"
+                                        },
+                                        "7c5dfe84-9d98-410a-a77a-685fab5f1928": {
+                                            "name": "非常富有",
+                                            "notes": "Starting wealth is 20x average"
+                                        },
+                                        "00f051ef-e5bb-46c1-bb26-fdd7b21a6aef": {
+                                            "name": "异常富有",
+                                            "notes": "Starting wealth is 100x average"
+                                        }
+                                    }
+                                },
+                                "95f5969d-6a4a-4512-a0f8-b6c85e0f1003": {
+                                    "name": "财富",
+                                    "tags": [
+                                        "优势",
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "a50b63ed-7a9d-4e0a-ae03-548b8397778d": {
+                                            "name": "一贫如洗",
+                                            "notes": "Starting wealth is $0"
+                                        },
+                                        "ebd41d2e-bdcc-4785-8d52-e5a18bb506c8": {
+                                            "name": "贫穷",
+                                            "notes": "Starting wealth is 1/5 average"
+                                        },
+                                        "599f2c83-f4de-4530-bdd1-423565dfaf9f": {
+                                            "name": "比较贫穷",
+                                            "notes": "Starting wealth is 1/2 average"
+                                        },
+                                        "7db8bf81-1458-453a-ae4c-457a5111a3c4": {
+                                            "name": "普通的"
+                                        },
+                                        "1d725d45-21cc-47ec-b5be-93585697dc16": {
+                                            "name": "Comfortable",
+                                            "notes": "Starting wealth is 2x average"
+                                        },
+                                        "84d60369-5782-4056-ad9e-74ada86443de": {
+                                            "name": "富有",
+                                            "notes": "Starting wealth is 5x average"
+                                        },
+                                        "342fd9c8-30e9-47f8-82aa-137ce009991d": {
+                                            "name": "非常富有",
+                                            "notes": "Starting wealth is 20x average"
+                                        },
+                                        "2bcba8ed-b7d5-413b-86a3-3c4dbc4230fd": {
+                                            "name": "异常富有",
+                                            "notes": "Starting wealth is 100x average"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "63266135-fdbb-4cc9-b904-9bb28b3341c1": {
+                    "name": "Class Disadvantage",
+                    "children": {
+                        "1f8eacba-2efd-4570-87a0-d1b2bb3c08f5": {
+                            "name": "Code of Honor (Hippocratic Oath)",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "d22f52d8-c764-4442-b81d-d3e4bb4f2042": {
+                            "name": "职责（@职责@）",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "413c76fc-6d89-463a-b97a-5481d7042897": {
+                                    "name": "FR: 6"
+                                },
+                                "776041cb-a7ed-4eb8-be32-77cbff89900f": {
+                                    "name": "FR: 9"
+                                },
+                                "345b7599-a5d4-4a07-848b-96d38062afc7": {
+                                    "name": "FR: 12"
+                                },
+                                "e06b735b-4ceb-4f9c-ab06-f46e7b5875be": {
+                                    "name": "FR: 15"
+                                },
+                                "c7cfe39d-539e-4037-a32d-6e4a899c7a39": {
+                                    "name": "极度危险"
+                                },
+                                "2eaf39b9-5cb7-4d1e-bd18-345ca5acdd83": {
+                                    "name": "被强迫的"
+                                },
+                                "4ddbc7c3-6363-4595-8e81-6acc3d74270d": {
+                                    "name": "不危险的"
+                                }
+                            }
+                        },
+                        "7c8aba4b-3a52-4712-8790-4c1aa777bb3e": {
+                            "name": "-20 points chosen from",
+                            "children": {
+                                "564ed2cf-9e70-41a4-8bf2-d40ed8a19a8e": {
+                                    "name": "Addiction (@Stimulants or Tobacco@)",
+                                    "tags": [
+                                        "劣势",
+                                        "心理",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "97434b7c-0655-4a29-ba7e-3f1f00db02a2": {
+                                            "name": "Cost: Cheap"
+                                        },
+                                        "e3dcb0e5-da69-448f-b664-bb3ce4d4354e": {
+                                            "name": "Cost: Expensive"
+                                        },
+                                        "9a00ba62-d4a2-43cd-bd2c-edbb0dc2a257": {
+                                            "name": "Cost: Very Expensive"
+                                        },
+                                        "1e6c2523-b280-49f3-b5b1-22c609d7bfb3": {
+                                            "name": "Effects: Hallucinogenic"
+                                        },
+                                        "099e5815-b657-414b-993b-899c2b8269bd": {
+                                            "name": "Effects: Highly Addictive (-5 on withdrawal roll)"
+                                        },
+                                        "ccc5f463-a793-4d15-9620-db3d1cf43e8f": {
+                                            "name": "Effects: Incapacitating"
+                                        },
+                                        "dfe65326-491e-4a43-abb4-c0e7c14f7531": {
+                                            "name": "Effects: Totally Addictive (-10 on withdrawal roll)"
+                                        },
+                                        "46814281-50fc-4dd0-b3ac-d430d5c790d0": {
+                                            "name": "非法"
+                                        },
+                                        "2dcec17d-4a80-41f2-ba9a-beb55509a7f7": {
+                                            "name": "合法"
+                                        }
+                                    }
+                                },
+                                "5596a0cf-39dd-4f3c-b795-224e90e475cf": {
+                                    "name": "冷酷无情",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "心理学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "教学"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "8cad3d7c-ea74-4ef6-9c6e-8df69983d9e9": {
+                                    "name": "古道热肠",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "8c32c644-57ff-4bed-978b-63fe8b89b7b3": {
+                                    "name": "贪婪",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "6955c53e-7280-4998-949a-10ce28eef3b0": {
+                                    "name": "负罪感",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "72da05ca-2ba9-4a49-a7be-84ecd5e58f26": {
+                                    "name": "遵纪守法",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "1a028379-7d0b-47fb-8e2f-3cf62bd3cd4f": {
+                                    "name": "自负",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "如果 GM 认为人物过于谨慎，可能要求人物进行自我控制检定，如果检定失败，人物不再畏缩不前，就像你能解决问题一样！",
+                                    "features": [
+                                        {
+                                            "situation": "来自年青幼稚的人，他们相信你的吹牛"
+                                        },
+                                        {
+                                            "situation": "来自老练的 NPC"
+                                        }
+                                    ]
+                                },
+                                "4354b11d-5562-4933-8801-f15eba11b125": {
+                                    "name": "和平主义：无法杀戮",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "7316b60d-ab6a-4b46-a84a-4d8b5ecd83ba": {
+                                            "name": "物种特异性的"
+                                        }
+                                    }
+                                },
+                                "d39bdc39-2dc9-4120-b278-b091dba6438f": {
+                                    "name": "和平主义：只能自卫",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "4b26e66e-5e6a-42bd-8e79-51192af7be4b": {
+                                            "name": "物种特异性的"
+                                        }
+                                    }
+                                },
+                                "bf11e7f0-1548-4857-82bc-569513cb1b11": {
+                                    "name": "自我中心",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "8eb6ad21-e615-4442-a9ab-81453e7d5ddd": {
+                                    "name": "无我",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "70967941-eac0-4abd-8883-0f7ea4b4f0fc": {
+                                    "name": "工作狂",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "bb2ae792-3710-4ccc-88e6-eb607ef04b05": {
+            "name": "Doctor",
+            "children": {
+                "245e23eb-519c-4f7b-b77c-370fd2e3bc40": {
+                    "name": "Primary Skill",
+                    "children": {
+                        "60eed079-9955-4e6e-a72e-0c7203fffd47": {
+                            "name": "诊断",
+                            "tags": [
+                                "医学"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "急救"
+                                },
+                                {
+                                    "name": "医师"
+                                },
+                                {
+                                    "name": "兽医学"
+                                }
+                            ]
+                        },
+                        "1020ad90-7754-4d28-a150-235aa3df807d": {
+                            "name": "医师",
+                            "tags": [
+                                "医学"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "急救"
+                                },
+                                {
+                                    "name": "兽医学"
+                                }
+                            ]
+                        },
+                        "3c8f9547-d835-4676-a6d8-e3fcaa6c5711": {
+                            "name": "Choose one",
+                            "children": {
+                                "9f7a7c5d-e525-45aa-abea-eb67a5b0eda1": {
+                                    "name": "药剂学",
+                                    "tags": [
+                                        "设计",
+                                        "发明",
+                                        "医学"
+                                    ],
+                                    "specialization": "合成",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "化学"
+                                        },
+                                        {
+                                            "name": "医师"
+                                        }
+                                    ]
+                                },
+                                "c6fca4ac-f9a1-4582-a617-56840c554152": {
+                                    "name": "生理学",
+                                    "tags": [
+                                        "医学",
+                                        "自然科学"
+                                    ],
+                                    "specialization": "@分支@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "诊断"
+                                        },
+                                        {
+                                            "name": "医师"
+                                        },
+                                        {
+                                            "name": "手术"
+                                        }
+                                    ]
+                                },
+                                "0cc3edf4-a1a0-43d2-a60e-1b61c6b9aaee": {
+                                    "name": "心理学",
+                                    "tags": [
+                                        "人文学科",
+                                        "社会科学"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "社会学"
+                                        }
+                                    ]
+                                },
+                                "82d0ce1b-feda-445d-9e72-35d0eea4a2d0": {
+                                    "name": "兽医学",
+                                    "tags": [
+                                        "动物",
+                                        "医学"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "驯兽"
+                                        },
+                                        {
+                                            "name": "医师"
+                                        },
+                                        {
+                                            "name": "手术"
+                                        }
+                                    ]
+                                },
+                                "98fddb5b-8461-4a5a-b62d-1aceb3b2a311": {
+                                    "name": "手术",
+                                    "tags": [
+                                        "医学"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "急救"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "医师"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "defaults": [
+                                        {
+                                            "name": "急救"
+                                        },
+                                        {
+                                            "name": "医师"
+                                        },
+                                        {
+                                            "name": "生理学"
+                                        },
+                                        {
+                                            "name": "兽医学"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "fed9562f-88d9-4970-b3c6-6c5539092298": {
+                    "name": "Secondary Skill",
+                    "children": {
+                        "debf3623-673f-4694-b2a3-c3dada4725ad": {
+                            "name": "Choose four",
+                            "children": {
+                                "641f57ec-dab7-4a93-80f9-2426280cf117": {
+                                    "name": "管理",
+                                    "tags": [
+                                        "商业",
+                                        "社会"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "商人"
+                                        }
+                                    ]
+                                },
+                                "49105292-021a-4956-aba3-54fd7e0b3071": {
+                                    "name": "电子操作",
+                                    "tags": [
+                                        "医学",
+                                        "技术"
+                                    ],
+                                    "specialization": "医学",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "电子维修",
+                                            "specialization": "医学"
+                                        },
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "电子"
+                                        },
+                                        {
+                                            "name": "电子操作"
+                                        }
+                                    ]
+                                },
+                                "72c51771-d16e-4f6a-9aea-c75c2a2ee506": {
+                                    "name": "危险材料",
+                                    "tags": [
+                                        "技术"
+                                    ],
+                                    "specialization": "@any@"
+                                },
+                                "4df2969d-18bf-4710-a2aa-9d2cbc97a93e": {
+                                    "name": "研究",
+                                    "tags": [
+                                        "学校",
+                                        "间谍"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "prereqs": [
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "电脑操作"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "prereqs": [
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "语言"
+                                                        },
+                                                        "notes": {
+                                                            "qualifier": "书面语（纯正的）"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "语言"
+                                                        },
+                                                        "notes": {
+                                                            "qualifier": "书面语（有口音的）"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "语言"
+                                                        },
+                                                        "notes": {
+                                                            "qualifier": "书面语（结巴的）"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "写作"
+                                        }
+                                    ]
+                                },
+                                "65a917ac-8f15-4244-bd96-5eb6c0901b66": {
+                                    "name": "写作",
+                                    "tags": [
+                                        "艺术",
+                                        "娱乐",
+                                        "学校"
+                                    ]
+                                },
+                                "b9ab4e79-3af8-4f06-8914-55cc96807500": {
+                                    "name": "生物学",
+                                    "tags": [
+                                        "自然科学",
+                                        "植物"
+                                    ],
+                                    "specialization": "遗传学",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "博物学"
+                                        }
+                                    ]
+                                },
+                                "5b0cfc16-d184-46f8-9ffa-b9c62c9e4a2f": {
+                                    "name": "专家技能",
+                                    "tags": [
+                                        "人文学科",
+                                        "知识",
+                                        "学校",
+                                        "社会科学"
+                                    ],
+                                    "specialization": "死亡学"
+                                },
+                                "43f534d6-1c67-4d91-a1d4-f8a163b2a02e": {
+                                    "name": "伪造文书",
+                                    "tags": [
+                                        "警察"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "犯罪学"
+                                        }
+                                    ]
+                                },
+                                "d58f7220-28bf-4e5e-9383-ce2602a25c21": {
+                                    "name": "催眠术",
+                                    "tags": [
+                                        "医学"
+                                    ]
+                                },
+                                "537451d2-73fe-4491-8f1c-b808a73592e2": {
+                                    "name": "法学",
+                                    "tags": [
+                                        "商业",
+                                        "人文学科",
+                                        "警察",
+                                        "社会科学"
+                                    ],
+                                    "specialization": "医学"
+                                }
+                            }
+                        }
+                    }
+                },
+                "922f87e2-6f63-4dae-b42e-20cc477a5ea2": {
+                    "name": "Background Skill",
+                    "children": {
+                        "6600b082-1169-482a-b9a1-95b397164066": {
+                            "name": "Total of 6 points spent on",
+                            "notes": "Or on primary or secondary skills",
+                            "children": {
+                                "94bc6a7a-7db9-497b-9cc2-2e9c20beb6bf": {
+                                    "name": "化学",
+                                    "tags": [
+                                        "自然科学"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "炼金术"
+                                        }
+                                    ]
+                                },
+                                "1da4968d-1ef3-41bc-9f56-3c6ab94a65a6": {
+                                    "name": "电脑操作",
+                                    "tags": [
+                                        "常识",
+                                        "学校",
+                                        "技术"
+                                    ]
+                                },
+                                "2e3dba36-cf12-44d9-9c30-a81a210acef0": {
+                                    "name": "驾驶",
+                                    "tags": [
+                                        "载具"
+                                    ],
+                                    "specialization": "@载具类型@",
+                                    "defaults": [
+                                        {},
+                                        {},
+                                        {
+                                            "name": "驾驶",
+                                            "specialization": "重型汽车"
+                                        },
+                                        {
+                                            "name": "驾驶"
+                                        }
+                                    ]
+                                },
+                                "9e02a2d2-78d5-4191-ae8f-20c243d6e9d8": {
+                                    "name": "飞行驾驶",
+                                    "tags": [
+                                        "载具"
+                                    ],
+                                    "specialization": "轻型飞机",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "飞行驾驶",
+                                            "specialization": "滑翔机"
+                                        },
+                                        {
+                                            "name": "飞行驾驶",
+                                            "specialization": "重型飞机"
+                                        },
+                                        {
+                                            "name": "飞行驾驶",
+                                            "specialization": "高性能飞机"
+                                        },
+                                        {
+                                            "name": "飞行驾驶"
+                                        },
+                                        {
+                                            "name": "飞行驾驶",
+                                            "specialization": "超轻型飞机"
+                                        }
+                                    ]
+                                },
+                                "8c069693-ab0c-4481-86dd-dc7f202d48a3": {
+                                    "name": "礼仪",
+                                    "tags": [
+                                        "商业",
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "上流社会",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "礼仪",
+                                            "specialization": "仆从"
+                                        }
+                                    ]
+                                },
+                                "b367277b-3da6-4762-9084-6e3ec85d4578": {
+                                    "name": "滑雪",
+                                    "tags": [
+                                        "运动",
+                                        "探索",
+                                        "户外"
+                                    ]
+                                },
+                                "ce463893-7725-4202-b958-ab2dbf852008": {
+                                    "name": "运动",
+                                    "tags": [
+                                        "运动"
+                                    ],
+                                    "specialization": "Golf"
+                                },
+                                "7621c58d-8214-4cd4-bad3-0b50835b5540": {
+                                    "name": "运动",
+                                    "tags": [
+                                        "运动"
+                                    ],
+                                    "specialization": "Tennis"
+                                },
+                                "1dee0a7c-3a56-4f12-afb4-02aa565e8864": {
+                                    "name": "神学",
+                                    "tags": [
+                                        "人文学科",
+                                        "社会科学"
+                                    ],
+                                    "specialization": "@分支@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "宗教仪式",
+                                            "specialization": "@分支@"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

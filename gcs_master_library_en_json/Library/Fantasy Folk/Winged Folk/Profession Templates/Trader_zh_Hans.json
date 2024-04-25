@@ -1,0 +1,2619 @@
+{
+    "traits": {
+        "becf297f-d2d5-4983-8d34-352c33ec44cb": {
+            "name": "Trader",
+            "children": {
+                "e05cfad3-579b-46e4-a9a2-748a2fb4807e": {
+                    "name": "Winged Folk only",
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "Winged Folk"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "98aac76c-bd91-4c4c-b793-b1b4a738d4b8": {
+                    "name": "增加力量",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "d3ca6c62-ed76-4134-b433-dc5cfa6a8cb6": {
+                    "name": "增加智力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理"
+                    ]
+                },
+                "c60f368d-16eb-4598-9068-ab109bdace09": {
+                    "name": "天赋（商业嗅觉）",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "天赋"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "会计学"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "管理"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "经济学"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "金融"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "赌博"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "市场分析"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "商人"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "宣传"
+                            }
+                        },
+                        {
+                            "situation": "来自商业伙伴"
+                        }
+                    ]
+                },
+                "660bd328-502e-4819-80c7-240ba18daa7e": {
+                    "name": "超凡魅力",
+                    "tags": [
+                        "优势",
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "预言"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "领导力"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "乞讨"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "演讲"
+                            }
+                        },
+                        {
+                            "situation": "来自主动交流（对话，演说等等）的智慧生物"
+                        },
+                        {
+                            "situation": "对于影响检定"
+                        }
+                    ]
+                },
+                "aad4f080-fa36-48ad-bcbc-531c7b677ed3": {
+                    "name": "高社会地位",
+                    "tags": [
+                        "优势",
+                        "社会"
+                    ]
+                },
+                "ec6a2b2b-6860-467f-801c-1a0cf30004ba": {
+                    "name": "宽裕财富",
+                    "tags": [
+                        "优势",
+                        "社会",
+                        "财富"
+                    ],
+                    "notes": "起始财富为社会平均水平的两倍"
+                },
+                "93aaed8f-1c15-4f15-b672-cb7568ec9b89": {
+                    "name": "Choose 25 points from the below",
+                    "children": {
+                        "de080d79-efac-4a93-8781-dce82c1ccd0c": {
+                            "name": "三维空间感",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "稳定身形"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "空中"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "陆地"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "海上"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "飞行驾驶"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "空中杂技"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "自由落体"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "超空间"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "太空"
+                                    }
+                                }
+                            ]
+                        },
+                        "558c54ae-cb71-4343-8483-42e69a8cc91e": {
+                            "name": "动物共情",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "13ea22a2-2f11-4abb-87ad-4d3895a102ad": {
+                                    "name": "Remote"
+                                },
+                                "b4758d45-4f13-4e8e-b88e-7bc884a82425": {
+                                    "name": "特化",
+                                    "notes": "所有水生动物"
+                                },
+                                "4e91bc03-4e47-4b36-a1a1-ce7a045f06ce": {
+                                    "name": "特化",
+                                    "notes": "所有陆地生物"
+                                },
+                                "7e994dfc-f800-4dda-8f17-6491254d0fd6": {
+                                    "name": "特化",
+                                    "notes": "@一 纲生物（如“哺乳类”或“鸟类”）@"
+                                },
+                                "c4779572-f091-4862-898c-726b35c34f36": {
+                                    "name": "特化",
+                                    "notes": "@一科生物（如“猫科动物”或“鹦鹉科动物”）@"
+                                },
+                                "cc7ea23b-89a8-4a5f-be4a-dbfa9bcdd8ec": {
+                                    "name": "特化",
+                                    "notes": "@一种生物（如“家猫”或“金刚鹦鹉”）@"
+                                }
+                            }
+                        },
+                        "0174c080-fa52-4458-81ec-849540fa4ecf": {
+                            "name": "天赋（动物之友）",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "天赋"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "驯兽"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "训鹰"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "赶马"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "骑术"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "赶车"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "兽医学"
+                                    }
+                                },
+                                {
+                                    "situation": "来自通常动物"
+                                }
+                            ]
+                        },
+                        "14957644-4f6d-4422-8ebc-b1b37a267f32": {
+                            "name": "Appearance (+1: Attractive)",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "7ddae5ca-ec6b-423d-a4de-94969906f8e2": {
+                                    "name": "通用",
+                                    "notes": "Reaction modifier applies regardless of race"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "situation": "from others who see your looks"
+                                }
+                            ]
+                        },
+                        "09cb3b82-9d3f-4c11-a44b-26716f3f311f": {
+                            "name": "互助信条",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "a1868c09-c5aa-4e29-aa78-9a913758e874": {
+                                    "name": "@提供应急住处的朋友@"
+                                },
+                                "588a85b9-dee5-434f-8ae8-c4299199774b": {
+                                    "name": "@团体@ - @服务@"
+                                },
+                                "e82cc14d-4886-438a-bf2a-5ed037e42feb": {
+                                    "name": "@团体@ - 拥有@资源@"
+                                },
+                                "0ab328aa-fa3f-4d99-a712-c58c20fea34d": {
+                                    "name": "@大型组织@ - 拥有@多种服务@"
+                                },
+                                "3eba09ad-d753-47f8-b429-2e0481b56d0d": {
+                                    "name": "@巨型组织@ - @所有服务@"
+                                }
+                            }
+                        },
+                        "b324ce74-e1a5-402b-b270-e5fc696c927c": {
+                            "name": "无所畏惧",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "充满恐惧"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "6d78babf-c3ca-4020-84d8-9acdaa2839cd": {
+                            "name": "健康",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "FP 回复速度加倍（魔法、 异能带来的损失则不被减免）",
+                            "features": [
+                                {
+                                    "situation": "对于所有保持意识、避免死亡、抵抗疾病或抵抗毒药的 HT 检定"
+                                }
+                            ]
+                        },
+                        "a00620f4-ef3d-45a0-98f6-57642059bc7d": {
+                            "name": "非常健康",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "FP 回复速度加倍；失去 FP 的速度减半（魔法、异能带来的损失则不被减免）",
+                            "features": [
+                                {
+                                    "situation": "对于所有保持意识、避免死亡、抵抗疾病、抵抗毒药的 HT 检定"
+                                }
+                            ]
+                        },
+                        "48057250-ad68-4241-87c2-5f3adef4c3c4": {
+                            "name": "不可动摇",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "一般的言语与行为不可能对你有影响"
+                        },
+                        "453f62f8-3c98-48b9-a872-50a783f15db3": {
+                            "name": "天赋（生存专家）",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "天赋"
+                            ],
+                            "modifiers": {
+                                "254be33f-2141-4378-b967-c5d751c27942": {
+                                    "name": "可选增益",
+                                    "notes": "在天赋对应的技能检定失败后的避免遭受伤害的 HT 检定上获得加值"
+                                },
+                                "2d095bbd-0918-4dfc-975e-de2ff3901fb2": {
+                                    "name": "可选花费"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "伪装"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "捕鱼"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "拟音"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "博物学"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "生存"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "追踪"
+                                    }
+                                },
+                                {
+                                    "situation": "来自探险家和自然爱好者"
+                                }
+                            ]
+                        },
+                        "1a09a1d5-7689-4ddd-92e7-0cfee302ae34": {
+                            "name": "穿透性的嗓音",
+                            "tags": [
+                                "Perk",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "对于当你想要盖过噪音让别人听到你的声音时其他人的听觉检定"
+                                }
+                            ]
+                        },
+                        "9f04e53b-9cb2-4cce-8bdc-72e1e952c5cb": {
+                            "name": "快速愈合",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "对于当你投骰去恢复失去的 HP 时或恢复严重的伤口时你的有效 HT"
+                                }
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "10"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "8fec5b00-f32a-4936-8ab4-9a10b8856651": {
+                            "name": "Temperature Tolerance (Cold)",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "a163c90b-f91e-4c46-83eb-2552cccf1590": {
+                            "name": "增加力量",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "1a21dcbc-3ed9-4cc1-a77d-0507be7f382b": {
+                            "name": "增加敏捷",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "5d3ca38b-e34b-48a6-83b3-33c048e636ad": {
+                            "name": "增加智力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        },
+                        "76b441ec-7472-415b-82f8-0b5011f3e70e": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "b309c505-dbbd-497c-9507-7d320a407e96": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "77c8af4b-eccb-42b9-a922-1eadff2b5f90": {
+                            "name": "增加意志",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        },
+                        "e5b3b6e1-8dc7-4efb-8152-aaa217019af7": {
+                            "name": "增加意志",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        },
+                        "2b1f69bf-7d6b-4b5e-82f4-4881d4a48e0e": {
+                            "name": "增加感知",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理",
+                                "生理"
+                            ]
+                        },
+                        "c4eeafa2-eb3c-40cf-90bc-33c2a371b8c6": {
+                            "name": "增加感知",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理",
+                                "生理"
+                            ]
+                        },
+                        "2e5e3bc8-2850-4f10-9478-29f7800e16fb": {
+                            "name": "天赋（动物之友）",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "天赋"
+                            ],
+                            "modifiers": {
+                                "4b4afac9-cefe-44ba-9b5d-4985cfaa26f1": {
+                                    "name": "可选花费"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "驯兽"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "训鹰"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "赶马"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "骑术"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "赶车"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "兽医学"
+                                    }
+                                },
+                                {
+                                    "situation": "来自通常动物"
+                                }
+                            ]
+                        },
+                        "2f35d2b4-8351-4b54-ba6d-387511fd7c8f": {
+                            "name": "天赋（动物之友）",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "天赋"
+                            ],
+                            "modifiers": {
+                                "4b4afac9-cefe-44ba-9b5d-4985cfaa26f1": {
+                                    "name": "可选花费"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "驯兽"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "训鹰"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "赶马"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "骑术"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "赶车"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "兽医学"
+                                    }
+                                },
+                                {
+                                    "situation": "来自通常动物"
+                                }
+                            ]
+                        },
+                        "f17a063f-cde2-4654-a93d-0541cb967759": {
+                            "name": "天赋（动物之友）",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "天赋"
+                            ],
+                            "modifiers": {
+                                "4b4afac9-cefe-44ba-9b5d-4985cfaa26f1": {
+                                    "name": "可选花费"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "驯兽"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "训鹰"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "赶马"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "骑术"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "赶车"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "兽医学"
+                                    }
+                                },
+                                {
+                                    "situation": "来自通常动物"
+                                }
+                            ]
+                        },
+                        "8c49a1b5-cb6d-486e-937b-f4a670748d0f": {
+                            "name": "天赋（动物之友）",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "天赋"
+                            ],
+                            "modifiers": {
+                                "4b4afac9-cefe-44ba-9b5d-4985cfaa26f1": {
+                                    "name": "可选花费"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "驯兽"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "训鹰"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "赶马"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "骑术"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "赶车"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "兽医学"
+                                    }
+                                },
+                                {
+                                    "situation": "来自通常动物"
+                                }
+                            ]
+                        },
+                        "e7a5e39f-b1b1-40e9-9b92-7f63129e7db5": {
+                            "name": "Appearance (+1: Attractive)",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "7ddae5ca-ec6b-423d-a4de-94969906f8e2": {
+                                    "name": "通用",
+                                    "notes": "Reaction modifier applies regardless of race"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "situation": "from others who see your looks"
+                                }
+                            ]
+                        },
+                        "f11ecc13-d6eb-48f2-a89e-95c294b96c76": {
+                            "name": "Appearance (+3: Handsome / Beautiful)",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "7ddae5ca-ec6b-423d-a4de-94969906f8e2": {
+                                    "name": "通用",
+                                    "notes": "Reaction modifier applies regardless of race"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "situation": "from others not attracted to your sex"
+                                },
+                                {
+                                    "situation": "from others attracted to your sex"
+                                }
+                            ]
+                        },
+                        "2805e912-d186-4330-bd01-c98f7cba2c9f": {
+                            "name": "Appearance (+4: Very Handsome / Very Beautiful)",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "7ddae5ca-ec6b-423d-a4de-94969906f8e2": {
+                                    "name": "通用",
+                                    "notes": "Reaction modifier applies regardless of race"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "situation": "from others attracted to your sex who dislike you (-4 in reaction penalties)"
+                                },
+                                {
+                                    "situation": "from others not attracted to your sex"
+                                },
+                                {
+                                    "situation": "from others attracted to your sex with no reason to dislike you"
+                                }
+                            ]
+                        },
+                        "59956023-0a6a-4ede-9d00-974d9247017c": {
+                            "name": "Appearance (+5: Transcendent)",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "7ddae5ca-ec6b-423d-a4de-94969906f8e2": {
+                                    "name": "通用",
+                                    "notes": "Reaction modifier applies regardless of race"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "situation": "from others not attracted to your sex"
+                                },
+                                {
+                                    "situation": "from others attracted to your sex"
+                                }
+                            ]
+                        },
+                        "e543c12f-0c18-45b5-bee7-163e1d275110": {
+                            "name": "Increase Business Acumen to 3",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "Increase Business Acumen to 3"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "27c09997-41c4-4e1f-a6b3-99ede33922b6": {
+                            "name": "Increase Business Acumen to 4",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "Increase Business Acumen to 4"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "40150659-1fc8-44ed-be6a-c8da46504a64": {
+                            "name": "互助信条",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "a1868c09-c5aa-4e29-aa78-9a913758e874": {
+                                    "name": "@提供应急住处的朋友@"
+                                },
+                                "588a85b9-dee5-434f-8ae8-c4299199774b": {
+                                    "name": "@团体@ - @服务@"
+                                },
+                                "e82cc14d-4886-438a-bf2a-5ed037e42feb": {
+                                    "name": "@团体@ - 拥有@资源@"
+                                },
+                                "0ab328aa-fa3f-4d99-a712-c58c20fea34d": {
+                                    "name": "@大型组织@ - 拥有@多种服务@"
+                                },
+                                "3eba09ad-d753-47f8-b429-2e0481b56d0d": {
+                                    "name": "@巨型组织@ - @所有服务@"
+                                }
+                            }
+                        },
+                        "35979072-a243-4e5e-84e5-a8e1cbbaac32": {
+                            "name": "常识",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "9061b3d4-8442-4a84-ae19-0ba89e6857d7": {
+                                    "name": "有意识"
+                                }
+                            }
+                        },
+                        "846bfff6-1965-4768-8e8e-5ca56f341698": {
+                            "name": "Contact Group (Business Partners)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "8b0fefc6-5071-44c5-89ca-f8453e588828": {
+                                    "name": "有效技能",
+                                    "notes": "12"
+                                },
+                                "833fb095-f6c4-459c-8660-474161fdd329": {
+                                    "name": "有效技能",
+                                    "notes": "15"
+                                },
+                                "9e2567e7-25d8-4843-aab9-bd953050e948": {
+                                    "name": "有效技能",
+                                    "notes": "18"
+                                },
+                                "63b4314d-f722-442c-a1d8-c53b4c5733a5": {
+                                    "name": "有效技能",
+                                    "notes": "21"
+                                },
+                                "083ee360-33df-4ab1-8bf5-520f9e31f2e7": {
+                                    "name": "能使用超自然能力获得情报"
+                                },
+                                "815c9373-73e7-4edc-8a82-a72820d3851f": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "05183ed1-b4d0-4f10-a14f-a1b164a8992e": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "2687a0a0-cf05-4650-a350-7790c38999e3": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "44ffa02d-134b-4d0a-a47e-8d9edef75dc8": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "ed43bb5c-a588-42cb-a135-c515dafb5d60": {
+                                    "name": "完全可靠"
+                                },
+                                "db8d124a-a83b-4d66-85ed-f70ce7eadcf8": {
+                                    "name": "时常可靠"
+                                },
+                                "51804516-d8da-4c44-9585-2c6cd33482c3": {
+                                    "name": "一般可靠"
+                                },
+                                "9665355f-8bc0-495c-a77f-f0aed8e2f600": {
+                                    "name": "不可靠"
+                                },
+                                "b5112ac7-096a-42ce-9dd1-3fea5b78eb76": {
+                                    "name": "人情"
+                                }
+                            }
+                        },
+                        "08b67666-ff74-48cf-a2d1-c5c25eef6d34": {
+                            "name": "文化熟悉（@文化@）",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "不会因为不熟悉而遭受 -3 的减值"
+                        },
+                        "40912d6f-6996-44ca-8215-f8c47ec94eeb": {
+                            "name": "Ally - One favor only (@Who@)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "a3aae46a-4033-47e9-8212-84f46bf2a404": {
+                                    "name": "出场频率",
+                                    "children": {
+                                        "90ea2d51-49e6-484c-9cb3-461df7b7bd54": {
+                                            "name": "不常出现（6-）"
+                                        },
+                                        "be41be9a-9e87-47cf-bff3-755e3635a670": {
+                                            "name": "频繁出现（9-）"
+                                        },
+                                        "558c0415-bdd8-4a47-bf06-09fd5e1d7e80": {
+                                            "name": "相当频繁出现（12-）"
+                                        },
+                                        "1f0b6315-dff4-473e-bdef-19346d578523": {
+                                            "name": "几乎总是出场（15-）"
+                                        },
+                                        "d2c39c4d-c98d-4266-8b8c-dcd6383e3a0a": {
+                                            "name": "总是出场"
+                                        }
+                                    }
+                                },
+                                "aa16b468-bd6e-42aa-b471-8656922c6757": {
+                                    "name": "盟友团队",
+                                    "children": {
+                                        "9b920170-2506-4d12-b871-be1100043704": {
+                                            "name": "6-10 团队成员"
+                                        },
+                                        "d0e44bc7-5889-46ec-879f-3d9ba9a4e54f": {
+                                            "name": "11-20 团队成员"
+                                        },
+                                        "8fc8e24d-4b27-4e45-9b3a-5a6f64ada309": {
+                                            "name": "21-50 团队成员"
+                                        },
+                                        "1dedde55-e356-448c-961a-53dc73e8e58b": {
+                                            "name": "51-100 团队成员"
+                                        },
+                                        "a6fa2681-e601-4915-9e43-e357c1119e73": {
+                                            "name": "101-1000 团队成员"
+                                        },
+                                        "d176a29c-87f6-41b9-8d4e-10beb54d1822": {
+                                            "name": "1001-10000 团队成员"
+                                        },
+                                        "8584249f-64fa-4939-87eb-63382071fbf3": {
+                                            "name": "10001-100000 团队成员"
+                                        },
+                                        "7429f8b9-70f3-4fe7-8c48-a9d1b9c06e0a": {
+                                            "name": "100001-1000000 团队成员"
+                                        }
+                                    }
+                                },
+                                "1423dd75-af66-4dfb-bf98-39ebd775beb3": {
+                                    "name": "仆从"
+                                },
+                                "6dc2adbd-08c7-4ef0-8614-22ec36071dbb": {
+                                    "name": "仆从",
+                                    "notes": "IQ 为 0 或者有奴性"
+                                },
+                                "af970aba-632e-444c-abbe-ea978ae30f1f": {
+                                    "name": "点数总和",
+                                    "children": {
+                                        "c1eb750d-bdd1-4483-a293-892526735fad": {
+                                            "name": "你初始点数的 25%"
+                                        },
+                                        "0b93dc24-8f30-4c58-8595-a5f2bd05173d": {
+                                            "name": "你初始点数的 50%"
+                                        },
+                                        "469b4a79-c6cf-4f87-be4d-c39428a08d9b": {
+                                            "name": "你初始点数的 75%"
+                                        },
+                                        "1c5fa2a8-39df-4651-a06b-21635ead97ca": {
+                                            "name": "你初始点数的 100%"
+                                        },
+                                        "b9452cfa-cda2-4ce0-8531-7a6b9c33ddb9": {
+                                            "name": "你初始点数的 150%"
+                                        }
+                                    }
+                                },
+                                "d8886838-7444-495b-aa11-02ac3ae23dd2": {
+                                    "name": "特殊能力",
+                                    "notes": "@能力@"
+                                },
+                                "c432c70e-76f8-4215-9b0e-1e1297817f73": {
+                                    "name": "召唤物",
+                                    "children": {
+                                        "d00c3a09-82c4-4569-81df-955e8e62ef34": {
+                                            "name": "召唤物"
+                                        },
+                                        "564697bc-4d59-487f-be52-9cd695d74145": {
+                                            "name": "咒术"
+                                        },
+                                        "2b7c2195-de87-4b42-b5b1-7adc5c64dc24": {
+                                            "name": "更难召唤 1"
+                                        },
+                                        "356fa9ea-c5e9-40c5-b3f2-a7f7ab5d3f3a": {
+                                            "name": "更难召唤 2"
+                                        },
+                                        "c405a9b9-2959-4866-8974-43ef5373bbe9": {
+                                            "name": "更难召唤 3"
+                                        }
+                                    }
+                                },
+                                "dd121846-2ba4-46bb-83fc-d881218cffca": {
+                                    "name": "感同身受",
+                                    "children": {
+                                        "f3001c31-1cbb-4f95-af86-c92a7755a044": {
+                                            "name": "感同身受",
+                                            "notes": "一方死亡时另一方也会自动死亡"
+                                        },
+                                        "30df2a61-903a-4f3f-b7ce-6319dcc61e6a": {
+                                            "name": "感同身受",
+                                            "notes": "一方死亡时另一方也会自动死亡，但是损伤仅影响盟友不影响你"
+                                        },
+                                        "d3be4428-f357-41d5-8bce-142240934518": {
+                                            "name": "感同身受",
+                                            "notes": "一方的死亡将直接把另一方的 HP 降为 0"
+                                        },
+                                        "036a0c85-d7af-4de9-af22-eea6cec5ed47": {
+                                            "name": "感同身受",
+                                            "notes": "一方的死亡将直接把另一方的 HP 降为 0，但是损伤仅影响盟友不影响你"
+                                        }
+                                    }
+                                },
+                                "2777d1e3-2b29-4c22-b543-d2553828e7e9": {
+                                    "name": "被迫的"
+                                }
+                            }
+                        },
+                        "8d55fa6a-7d07-492a-8d31-967882abaa8b": {
+                            "name": "Contact - one favor only (@Who@)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "8b0fefc6-5071-44c5-89ca-f8453e588828": {
+                                    "name": "有效技能",
+                                    "notes": "12"
+                                },
+                                "833fb095-f6c4-459c-8660-474161fdd329": {
+                                    "name": "有效技能",
+                                    "notes": "15"
+                                },
+                                "9e2567e7-25d8-4843-aab9-bd953050e948": {
+                                    "name": "有效技能",
+                                    "notes": "18"
+                                },
+                                "63b4314d-f722-442c-a1d8-c53b4c5733a5": {
+                                    "name": "有效技能",
+                                    "notes": "21"
+                                },
+                                "083ee360-33df-4ab1-8bf5-520f9e31f2e7": {
+                                    "name": "能使用超自然能力获得情报"
+                                },
+                                "20f09f2b-9eeb-4fc3-9b60-7c5d0e2e69b3": {
+                                    "name": "团队"
+                                },
+                                "815c9373-73e7-4edc-8a82-a72820d3851f": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "05183ed1-b4d0-4f10-a14f-a1b164a8992e": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "2687a0a0-cf05-4650-a350-7790c38999e3": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "44ffa02d-134b-4d0a-a47e-8d9edef75dc8": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "ed43bb5c-a588-42cb-a135-c515dafb5d60": {
+                                    "name": "完全可靠"
+                                },
+                                "db8d124a-a83b-4d66-85ed-f70ce7eadcf8": {
+                                    "name": "时常可靠"
+                                },
+                                "51804516-d8da-4c44-9585-2c6cd33482c3": {
+                                    "name": "一般可靠"
+                                },
+                                "9665355f-8bc0-495c-a77f-f0aed8e2f600": {
+                                    "name": "不可靠"
+                                }
+                            }
+                        },
+                        "9a833441-6848-4bbe-b97b-18d64d30c01b": {
+                            "name": "Patron - one favor only",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "a99a5858-0f56-4ed0-a102-552eaa6e7222": {
+                                    "name": "@谁：点数为 PC 起始点数的 150% 的个人@"
+                                },
+                                "3977cc18-2515-4793-b8ed-43a82995ad06": {
+                                    "name": "@谁：拥有价值 1000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "fa59fc21-5707-4d97-8097-03b209d46258": {
+                                    "name": "@谁：点数为 PC 起始点数的 200% 的个人@"
+                                },
+                                "631b147d-c585-4679-a67b-dbe8a8838cbb": {
+                                    "name": "@谁：拥有价值 10000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "75a7a34b-aed4-4108-aa6e-cf969a596f58": {
+                                    "name": "@谁：一个超级强大的个人@"
+                                },
+                                "4b13c656-a481-4cad-95ef-8c63c8865d50": {
+                                    "name": "@谁：拥有价值 100000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "2e82bc75-004f-411b-a855-b704cfb309a8": {
+                                    "name": "@谁：拥有价值 1000000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "3c15a25d-0b50-410d-8705-11564f7a24aa": {
+                                    "name": "@谁：国家政府或是巨型跨国组织@"
+                                },
+                                "10d9944d-56b8-46ea-8694-cbe04aa7dc0c": {
+                                    "name": "@谁：一位真神@"
+                                },
+                                "30392472-005f-44e7-9c99-5a271fcb5c10": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "814513c5-05a2-4d17-9ad3-5a12b3c4bdbf": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "c97dea86-2b16-41a0-915b-732c4ecc5d83": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "cef0a8ca-d869-4d16-9a50-9f4c747186c3": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "346c02a6-cab5-454e-8165-d9f5af7bec08": {
+                                    "name": "Equipment",
+                                    "notes": "@装备的价值不会超过起始财富@"
+                                },
+                                "21776a80-4536-42a8-9fc3-7836b35cf7ba": {
+                                    "name": "Equipment",
+                                    "notes": "@装备的价值能够超过起始财富@"
+                                },
+                                "47dfac97-0be2-4289-8ce0-b45086ab2fa0": {
+                                    "name": "随时随地联系"
+                                },
+                                "0418d3c9-a14a-48f2-b2c4-96e006e28a8a": {
+                                    "name": "特殊能力",
+                                    "notes": "@强大的社会或政治力量@"
+                                },
+                                "b5bee4e8-6e53-4ec7-abfa-39d0528dcb6e": {
+                                    "name": "特殊能力",
+                                    "notes": "@在非魔法世界有魔法力量、拥有来自未来 TL 的装备、给予你特殊能力@"
+                                },
+                                "86cbe17d-48c8-4a7c-9c5a-e757c577624c": {
+                                    "name": "最小化干预"
+                                },
+                                "c19e83c9-f38b-4fcd-8553-b491d225fb01": {
+                                    "name": "秘密"
+                                },
+                                "7ff57b40-e9c5-4a86-9c30-a4852b855c0c": {
+                                    "name": "被迫的"
+                                }
+                            }
+                        },
+                        "55799080-1788-4142-a31f-a2cb016a8eb7": {
+                            "name": "不可动摇",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "一般的言语与行为不可能对你有影响"
+                        },
+                        "72c368f2-e183-419c-a388-995fc0fa0ebf": {
+                            "name": "直觉",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "e06e6e3c-d4d0-43d5-8c38-b91e8b10d310": {
+                                    "name": "启示"
+                                }
+                            }
+                        },
+                        "4377a207-b560-4cb2-b34b-1e93cff3aa52": {
+                            "name": "语言天赋",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ]
+                        },
+                        "c5a93ee4-225c-4a09-8475-4e5917f1b297": {
+                            "name": "语言：@语言@",
+                            "tags": [
+                                "优势",
+                                "语言",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "ff972d9a-b925-4895-a489-f3d14999074d": {
+                                    "name": "纯正的"
+                                },
+                                "e9f38c71-c4bd-45ee-a5e2-b47a33029f96": {
+                                    "name": "口语",
+                                    "notes": "一无所知"
+                                },
+                                "6cd10ab4-c4f9-4764-a47d-0e77d105d862": {
+                                    "name": "口语",
+                                    "notes": "结巴的"
+                                },
+                                "3c7caa3c-055e-4422-ac8e-6a2d632b391c": {
+                                    "name": "口语",
+                                    "notes": "有口音的"
+                                },
+                                "231ba28d-11ce-44e1-8d23-074d40ca57c6": {
+                                    "name": "口语",
+                                    "notes": "纯正的"
+                                },
+                                "152ad20b-dc58-4abb-b256-71da14dbb89c": {
+                                    "name": "书写",
+                                    "notes": "一无所知"
+                                },
+                                "6304a0d6-80f3-4a5f-b3cc-3ba2ae0c8063": {
+                                    "name": "书写",
+                                    "notes": "结巴的"
+                                },
+                                "5818ab4a-2c4b-4c3e-a711-c4b6332daaca": {
+                                    "name": "书写",
+                                    "notes": "有口音的"
+                                },
+                                "1b77515e-5789-49a0-8238-7242900c8c2c": {
+                                    "name": "书写",
+                                    "notes": "纯正的"
+                                }
+                            },
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "语言天赋"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "70d35ed2-a839-4f1b-a22c-9df0d9bccb4e": {
+                            "name": "Language with talent: @Language@",
+                            "tags": [
+                                "优势",
+                                "语言",
+                                "心理"
+                            ],
+                            "notes": "有语言天赋",
+                            "modifiers": {
+                                "6e350dac-03e7-454b-aae0-910e3480d549": {
+                                    "name": "纯正的"
+                                },
+                                "8b45dbdd-df61-46c2-ac1d-a4512c1b6f87": {
+                                    "name": "口语",
+                                    "notes": "有口音的"
+                                },
+                                "f1b65fd7-b774-4c35-89c8-4bcae8e38203": {
+                                    "name": "口语",
+                                    "notes": "纯正的"
+                                },
+                                "4e5950f0-3680-4091-9cbb-ad9a6bdf6e58": {
+                                    "name": "书写",
+                                    "notes": "有口音的"
+                                },
+                                "5a815059-e937-4dce-b933-c8b9b83c9a3e": {
+                                    "name": "书写",
+                                    "notes": "纯正的"
+                                }
+                            },
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "语言天赋"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "cd72b359-8cbb-49d3-9b1a-3f3c332d3944": {
+                            "name": "Patron (Elder)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "a99a5858-0f56-4ed0-a102-552eaa6e7222": {
+                                    "name": "@谁：点数为 PC 起始点数的 150% 的个人@"
+                                },
+                                "3977cc18-2515-4793-b8ed-43a82995ad06": {
+                                    "name": "@谁：拥有价值 1000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "fa59fc21-5707-4d97-8097-03b209d46258": {
+                                    "name": "@谁：点数为 PC 起始点数的 200% 的个人@"
+                                },
+                                "631b147d-c585-4679-a67b-dbe8a8838cbb": {
+                                    "name": "@谁：拥有价值 10000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "75a7a34b-aed4-4108-aa6e-cf969a596f58": {
+                                    "name": "@谁：一个超级强大的个人@"
+                                },
+                                "4b13c656-a481-4cad-95ef-8c63c8865d50": {
+                                    "name": "@谁：拥有价值 100000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "2e82bc75-004f-411b-a855-b704cfb309a8": {
+                                    "name": "@谁：拥有价值 1000000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "3c15a25d-0b50-410d-8705-11564f7a24aa": {
+                                    "name": "@谁：国家政府或是巨型跨国组织@"
+                                },
+                                "10d9944d-56b8-46ea-8694-cbe04aa7dc0c": {
+                                    "name": "@谁：一位真神@"
+                                },
+                                "30392472-005f-44e7-9c99-5a271fcb5c10": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "814513c5-05a2-4d17-9ad3-5a12b3c4bdbf": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "c97dea86-2b16-41a0-915b-732c4ecc5d83": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "cef0a8ca-d869-4d16-9a50-9f4c747186c3": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "346c02a6-cab5-454e-8165-d9f5af7bec08": {
+                                    "name": "Equipment",
+                                    "notes": "@装备的价值不会超过起始财富@"
+                                },
+                                "21776a80-4536-42a8-9fc3-7836b35cf7ba": {
+                                    "name": "Equipment",
+                                    "notes": "@装备的价值能够超过起始财富@"
+                                },
+                                "47dfac97-0be2-4289-8ce0-b45086ab2fa0": {
+                                    "name": "随时随地联系"
+                                },
+                                "0418d3c9-a14a-48f2-b2c4-96e006e28a8a": {
+                                    "name": "特殊能力",
+                                    "notes": "@强大的社会或政治力量@"
+                                },
+                                "b5bee4e8-6e53-4ec7-abfa-39d0528dcb6e": {
+                                    "name": "特殊能力",
+                                    "notes": "@在非魔法世界有魔法力量、拥有来自未来 TL 的装备、给予你特殊能力@"
+                                },
+                                "86cbe17d-48c8-4a7c-9c5a-e757c577624c": {
+                                    "name": "最小化干预"
+                                },
+                                "c19e83c9-f38b-4fcd-8553-b491d225fb01": {
+                                    "name": "秘密"
+                                },
+                                "7ff57b40-e9c5-4a86-9c30-a4852b855c0c": {
+                                    "name": "被迫的"
+                                },
+                                "689c3ef0-a5b1-46fd-9659-69b5569f6016": {
+                                    "name": "人情"
+                                }
+                            }
+                        },
+                        "4a4c7b2f-d4c9-41e2-b7b4-e7b164cfe55e": {
+                            "name": "Good Reputation (@Established Elder or Rising Star@)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "38aa3113-4709-485c-be35-ba35d96192fd": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人"
+                                },
+                                "39082380-367d-4319-9daf-854976f45562": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人，刨去@一大群人@"
+                                },
+                                "b43f0211-b5bf-4271-b6cc-acd6483af8d2": {
+                                    "name": "影响人群",
+                                    "notes": "@一大群人@"
+                                },
+                                "ca59a34a-2467-417f-9764-46e7617201a2": {
+                                    "name": "影响人群",
+                                    "notes": "@一小群人@"
+                                },
+                                "bf87af2b-67fd-43ca-b53d-22911e628cfe": {
+                                    "name": "总是有人认识"
+                                },
+                                "a0d8d318-d895-4cd6-9412-3b4839438dbe": {
+                                    "name": "有时候有人认识",
+                                    "notes": "10-"
+                                },
+                                "c32da9c0-87ba-4504-b87d-7ae275bec1ce": {
+                                    "name": "偶尔有人认识",
+                                    "notes": "7-"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "situation": "来自意识到你的名声的其他人"
+                                }
+                            ]
+                        },
+                        "dccf63c9-1f16-40b3-9252-b5a266e2bb7c": {
+                            "name": "Good Reputation (@Established Elder or Rising Star@)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "38aa3113-4709-485c-be35-ba35d96192fd": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人"
+                                },
+                                "39082380-367d-4319-9daf-854976f45562": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人，刨去@一大群人@"
+                                },
+                                "b43f0211-b5bf-4271-b6cc-acd6483af8d2": {
+                                    "name": "影响人群",
+                                    "notes": "@一大群人@"
+                                },
+                                "ca59a34a-2467-417f-9764-46e7617201a2": {
+                                    "name": "影响人群",
+                                    "notes": "@一小群人@"
+                                },
+                                "bf87af2b-67fd-43ca-b53d-22911e628cfe": {
+                                    "name": "总是有人认识"
+                                },
+                                "a0d8d318-d895-4cd6-9412-3b4839438dbe": {
+                                    "name": "有时候有人认识",
+                                    "notes": "10-"
+                                },
+                                "c32da9c0-87ba-4504-b87d-7ae275bec1ce": {
+                                    "name": "偶尔有人认识",
+                                    "notes": "7-"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "situation": "来自意识到你的名声的其他人"
+                                }
+                            ]
+                        },
+                        "fbb9c52c-66e5-4966-9d15-51ab9ff10de2": {
+                            "name": "天赋（处事圆滑）",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "天赋"
+                            ],
+                            "modifiers": {
+                                "673ac6d5-88a0-46ff-9c61-a92a5908fd6d": {
+                                    "name": "可选增益",
+                                    "notes": "在抵抗天赋对应的技能上获得加值"
+                                },
+                                "d7bc77f2-e124-4076-a8c1-e9845d9583c0": {
+                                    "name": "可选花费"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "做戏"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "宴饮"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "侦测谎言"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "外交"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "唬骗"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "威吓"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "领导力"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "乞讨"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "政治"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "演讲"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "礼仪"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "性感"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "黑街"
+                                    }
+                                },
+                                {},
+                                {},
+                                {},
+                                {},
+                                {
+                                    "situation": "来自大骗子、政治家、商人，等等。——但仅限于你没有尝试去操纵他们的人。"
+                                }
+                            ]
+                        },
+                        "afb58846-1d86-4909-9759-420bf3041a1d": {
+                            "name": "共情",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "15130107-a6e2-4b7f-9092-477a1428f637": {
+                                    "name": "Remote"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "侦测谎言"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "预言"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "心理学"
+                                    }
+                                }
+                            ]
+                        },
+                        "70a4110c-1c1f-47f1-b653-77231635b983": {
+                            "name": "共情（敏感）",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "8c04f995-be36-4786-9763-d0ce15d1ee75": {
+                                    "name": "Remote"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "侦测谎言"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "预言"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "心理学"
+                                    }
+                                }
+                            ]
+                        },
+                        "33423b91-70d0-44be-83da-c6fc97b07226": {
+                            "name": "社交变色龙",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "不受社会地位和级别差距引起的反应减值影响",
+                            "features": [
+                                {
+                                    "situation": "来自本来就没有这种减值的话时的需要奉承的人"
+                                }
+                            ]
+                        },
+                        "50498291-ff55-4cc6-88be-35964679158d": {
+                            "name": "Increase Charisma by",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "Increase Charisma"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "cba170f3-f59b-4af7-9c34-47b25e324180": {
+                            "name": "Increase Charisma by",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "Increase Charisma"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "64ad5b64-5968-452b-ada4-708439ac7e34": {
+                            "name": "Change Wealth to Wealthy",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "Change Wealth to Wealthy"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "d0f0380a-9f53-447b-97ab-4bcbf13280eb": {
+                            "name": "Change Wealth to Very Wealthy",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "Change Wealth to Very Wealthy"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "5145a7e9-a62a-493c-ad71-988a8e37a7c7": {
+                    "name": "Choose -25 points from the below",
+                    "children": {
+                        "d878235e-7a2e-42a2-ad75-2bffd1eae256": {
+                            "name": "过度专注",
+                            "tags": [
+                                "心理",
+                                "Quirk"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "对于完成漫长的任务时的技能检定，但对于察觉到任何要的突发事件有 -3 减值"
+                                }
+                            ]
+                        },
+                        "9dd96258-c02c-4ee6-a5cc-24dfffe9edc5": {
+                            "name": "幽闭恐惧症（封闭空间）",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你看不到天空——或者至少有非常高的天花板——的时候，你感到不舒服。当你在小房间或是载具里面的时候，你感觉墙壁在压过来......你需要透气！对于那些要到地下去的人，这是个危险的恐惧症。"
+                        },
+                        "69a4d0da-00c9-4a57-90a9-a3f1cd720911": {
+                            "name": "乐善好施",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "来自穷苦人"
+                                }
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "吝啬"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "ec616b54-fc86-43a2-b625-ea28162e0d6e": {
+                            "name": "不善掩饰",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "对于其他人在推测你的意图或是你的话语的真实含义的时候的优势、肢体语言技能和心理学技能"
+                                },
+                                {
+                                    "situation": "对于当你试图撒谎或是欺瞒的时候或在别人对抗你的做戏、唬骗或是赌博技能的时候，别人的 IQ、侦测谎言、赌博技能"
+                                }
+                            ]
+                        },
+                        "ddc5c3d8-70b3-4ce5-8e16-7a05e64cf93b": {
+                            "name": "Intolerance (Land-Walkers)",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "来自感受到你的歧视的对象（最高到 -5，GM 决定）"
+                                }
+                            ]
+                        },
+                        "4625b9ce-46d2-4744-868f-9c74030b0200": {
+                            "name": "善妒",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "对于你嫉妒的对象（最高 -4，GM 决定）"
+                                }
+                            ]
+                        },
+                        "d67c2fa1-6e13-44d4-9079-bbf45a7e96ae": {
+                            "name": "自负",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "如果 GM 认为人物过于谨慎，可能要求人物进行自我控制检定，如果检定失败，人物不再畏缩不前，就像你能解决问题一样！",
+                            "features": [
+                                {
+                                    "situation": "来自年青幼稚的人，他们相信你的吹牛"
+                                },
+                                {
+                                    "situation": "来自老练的 NPC"
+                                }
+                            ]
+                        },
+                        "a5153966-b625-4bc0-8405-ef5b5a9ac760": {
+                            "name": "自我中心",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你被明显看轻或是被故意冷落的时候，进行一次自控检定。如果失败，你对着侮辱你的一方大发脾气，如同你具有坏脾气劣势。",
+                            "features": [
+                                {
+                                    "situation": "来自当你表现出自我中心时的其他人"
+                                }
+                            ]
+                        },
+                        "2c1390cd-cf83-4a9b-9d90-908b7a48a91a": {
+                            "name": "社会污名（少数群体）",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "notes": "你所属的少数民族被主流文化认为是“野蛮人”或是“低等民族”。",
+                            "features": [
+                                {
+                                    "situation": "来自除了你的自己人以外的所有人"
+                                },
+                                {
+                                    "situation": "来自当某个地区、某项职业、某种情境下你的族裔特别罕见时的你的自家人"
+                                }
+                            ]
+                        },
+                        "00403cdf-9ef6-447b-b6eb-8a42de6acb03": {
+                            "name": "古道热肠",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你可以伸以援手或是提出帮助而又不适合这么做时，进行一次自控检定"
+                        },
+                        "5aa16451-054b-4423-8671-6b053a6af7a2": {
+                            "name": "期待陪伴",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "对于其他人"
+                                },
+                                {
+                                    "situation": "对于所有基于 IQ 的技能"
+                                }
+                            ]
+                        },
+                        "3dca50ad-48aa-43ea-aa74-9526d0e255ae": {
+                            "name": "群居动物",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "对于其他人"
+                                },
+                                {
+                                    "situation": "对于孤身一人时所有基于 IQ 的 技能，或有 4 个或更少的人时减轻为 -1"
+                                }
+                            ]
+                        },
+                        "93a64524-136d-46d6-b5c6-4097db0dc6b8": {
+                            "name": "荣誉准则（专业人员）",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "你坚持你的职业道德；总是尽你所能的做好你的工作；支持你的公会，联盟，或专业协会。"
+                        },
+                        "52490816-ea91-4130-b317-5c54ef3abc8a": {
+                            "name": "乐善好施",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "来自穷苦人"
+                                }
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "吝啬"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "987165ec-4bf1-40bd-8a76-634f3e15fd04": {
+                            "name": "好奇",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "在遇到有趣的物品或情况时进行一个自控检定"
+                        },
+                        "5cfb57ca-373f-4cd8-b04a-a2390bb7551b": {
+                            "name": "Enemy (Rival Merchant)",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "de332956-d4a1-4af6-9339-34f1fa617363": {
+                                    "name": "弱单体",
+                                    "notes": "你初始点数的 50%"
+                                },
+                                "73913cf5-78dc-4fa9-93e8-9182656fb07e": {
+                                    "name": "旗鼓相当单体",
+                                    "notes": "你初始点数的 100%"
+                                },
+                                "81b5a233-41ef-48a3-8d98-450dab7c74a2": {
+                                    "name": "强单体",
+                                    "notes": "大于你初始点数的 150%"
+                                },
+                                "4ad57666-9f27-4986-9191-16d65214969b": {
+                                    "name": "弱团体"
+                                },
+                                "8427a345-55ea-4e91-a797-cef5991899d4": {
+                                    "name": "中等团体"
+                                },
+                                "4de4b388-72a9-4143-b57b-c3ea069c1600": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "98bee615-b142-4c48-be3d-ce6e87cec21b": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "8e56e038-28dd-41ed-b516-969294228bca": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "04e80fd4-8cc7-423e-8af5-3906657f8cb2": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "08aa132f-60f2-4bed-b3a3-ef4321d2f09f": {
+                                    "name": "大型/强力团体"
+                                },
+                                "19ea1f4b-fc64-4c1d-8217-1c7f5cd09190": {
+                                    "name": "无法想象的强大群体"
+                                },
+                                "1f9b2afd-1cb9-460a-ba7d-8315a7698ba8": {
+                                    "name": "不为人知"
+                                },
+                                "f6364f57-15e6-4d03-bc3f-ebf2c4718dac": {
+                                    "name": "邪恶双生子"
+                                },
+                                "4560fba2-c960-4c2d-9201-f69dc83ed26f": {
+                                    "name": "邪恶双生子",
+                                    "notes": "在你拥有的能力上更加强大或拥有你没有的能力"
+                                },
+                                "f948ad5e-0ca0-4e8f-84c1-d65105981603": {
+                                    "name": "邪恶双生子",
+                                    "notes": "在你拥有的能力上更加强大且拥有你没有的能力"
+                                },
+                                "43075921-7dd0-468f-9609-296e9f7ebf0b": {
+                                    "name": "监视"
+                                },
+                                "85d6d113-01ac-4074-a7ce-21572db84555": {
+                                    "name": "对抗"
+                                },
+                                "1b7c0201-7ba5-46e9-9c3d-2398527a3712": {
+                                    "name": "捕杀"
+                                }
+                            }
+                        },
+                        "589bb192-655b-46d4-872a-d8c55640a10c": {
+                            "name": "贪婪",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "面对任何时候提供的财富——如，工作后的报酬、冒险所得、犯罪的脏物或者作为诱饵的金钱，你需要进行自控检定。如果检定失败，你将尽一切手段得到那笔财富。"
+                        },
+                        "d4f2dab8-7a96-45ef-a982-1e04f32f5b79": {
+                            "name": "负罪感",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "9a885e56-813d-4126-b227-68b50b5c24d8": {
+                            "name": "Intolerance (Rash or foolish people)",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "0e1c693c-166b-417f-b6aa-1c6e04afbd68": {
+                                    "name": "范围：常见"
+                                },
+                                "e21c80e8-cdd8-4040-b7a1-33af63210703": {
+                                    "name": "范围：偶见"
+                                },
+                                "2655dfad-4f5e-4367-a524-fad35a774654": {
+                                    "name": "范围：稀有"
+                                }
+                            },
+                            "features": [
+                                {
+                                    "situation": "来自感受到你的歧视的对象（最高到 -5，GM 决定）"
+                                }
+                            ]
+                        },
+                        "9860fef6-4a8c-4994-8bfb-1d40a5202e58": {
+                            "name": "善妒",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "对于你嫉妒的对象（最高 -4，GM 决定）"
+                                }
+                            ]
+                        },
+                        "ed0dfac2-e470-4df9-baac-b62f6f8c33cf": {
+                            "name": "吝啬",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你需要花钱的时候，进行一次自控检定。如果数额巨大，你检定受到至多 -5 的减值（GM裁定）。失败意味着你拒绝出钱。"
+                        },
+                        "111366e4-9b11-4dd8-b324-2f55e09a16e4": {
+                            "name": "自我中心",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你被明显看轻或是被故意冷落的时候，进行一次自控检定。如果失败，你对着侮辱你的一方大发脾气，如同你具有坏脾气劣势。",
+                            "features": [
+                                {
+                                    "situation": "来自当你表现出自我中心时的其他人"
+                                }
+                            ]
+                        },
+                        "2e94334b-d7f0-47d1-9237-3da4f8ea5e78": {
+                            "name": "Sense of Duty (Clan)",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "dc0dce4c-f0b3-4f43-a91d-f14fa1be2435": {
+            "name": "Trader",
+            "children": {
+                "fa154af4-d19e-4023-824d-4eee89921aac": {
+                    "name": "Primary Skills",
+                    "children": {
+                        "2b5d05c9-d65d-4c8f-9128-33cd55761195": {
+                            "name": "外交",
+                            "tags": [
+                                "商业",
+                                "警察",
+                                "社会"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "政治"
+                                }
+                            ]
+                        },
+                        "4ac009f5-8cdc-46bf-a5a3-8b00f83ca5ee": {
+                            "name": "市场分析",
+                            "tags": [
+                                "商业"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "经济学"
+                                },
+                                {
+                                    "name": "商人"
+                                }
+                            ]
+                        },
+                        "a0f16143-f125-42d6-b3c1-3406a7b39451": {
+                            "name": "商人",
+                            "tags": [
+                                "商业",
+                                "社会"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "金融"
+                                },
+                                {
+                                    "name": "市场分析"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "d100d834-ce47-41e7-ab80-2f9fc02e0a5a": {
+                    "name": "Secondary Skills",
+                    "children": {
+                        "0dc0aa5a-0031-4b98-a8b2-c88c4df71b75": {
+                            "name": "流星锤",
+                            "tags": [
+                                "战斗",
+                                "远程战斗",
+                                "武器"
+                            ]
+                        },
+                        "496734ba-6407-4717-9c34-a9e1a1004e61": {
+                            "name": "Axe/Mace",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Two-Handed Axe/Mace"
+                                },
+                                {
+                                    "name": "Flail"
+                                }
+                            ]
+                        },
+                        "10d72e25-6fa9-44cf-b2ee-04fde21ad278": {
+                            "name": "Choose 6 from the below",
+                            "children": {
+                                "03657e4d-a1cc-434d-abbf-5fab7e769320": {
+                                    "name": "潜行",
+                                    "tags": [
+                                        "犯罪",
+                                        "警察",
+                                        "间谍",
+                                        "街头"
+                                    ]
+                                },
+                                "e541a03a-d707-46b7-b3cc-d2f42e9b50b9": {
+                                    "name": "时事",
+                                    "tags": [
+                                        "商业",
+                                        "常识",
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "商业",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "研究"
+                                        },
+                                        {
+                                            "name": "时事"
+                                        }
+                                    ]
+                                },
+                                "a7d1e3a2-a7b1-4352-aab6-21bf33ebcf17": {
+                                    "name": "时事",
+                                    "tags": [
+                                        "常识",
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "区域",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "研究"
+                                        },
+                                        {
+                                            "name": "时事"
+                                        }
+                                    ]
+                                },
+                                "713f2099-a5da-40b8-851f-e918d791b4d2": {
+                                    "name": "驯兽",
+                                    "tags": [
+                                        "动物"
+                                    ],
+                                    "specialization": "@分支@"
+                                },
+                                "47bcb711-281d-4bf8-a56a-085c2365508a": {
+                                    "name": "制图",
+                                    "tags": [
+                                        "探索",
+                                        "人文学科",
+                                        "户外",
+                                        "社会科学"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "地理学"
+                                        },
+                                        {
+                                            "name": "数学",
+                                            "specialization": "测量学"
+                                        },
+                                        {
+                                            "name": "导航"
+                                        }
+                                    ]
+                                },
+                                "bd395657-2b20-456b-bc56-05d29282d9ee": {
+                                    "name": "鉴赏家",
+                                    "tags": [
+                                        "艺术",
+                                        "娱乐",
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "@分支@"
+                                },
+                                "1c4086c7-d82c-4baa-ae0f-95f945a2864b": {
+                                    "name": "唬骗",
+                                    "tags": [
+                                        "犯罪",
+                                        "社会",
+                                        "间谍",
+                                        "街头"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "做戏"
+                                        }
+                                    ]
+                                },
+                                "0dd0777e-b861-4e0c-8620-2b065495831c": {
+                                    "name": "政治",
+                                    "tags": [
+                                        "商业",
+                                        "社会"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "外交"
+                                        }
+                                    ]
+                                },
+                                "defb42e4-20b0-4813-9fac-846066970d1c": {
+                                    "name": "宣传",
+                                    "tags": [
+                                        "商业",
+                                        "军事",
+                                        "社会",
+                                        "间谍"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "商人"
+                                        },
+                                        {
+                                            "name": "心理学"
+                                        }
+                                    ]
+                                },
+                                "e00a2813-054b-49fe-aa69-f04e9060796f": {
+                                    "name": "领导力",
+                                    "tags": [
+                                        "军事",
+                                        "社会"
+                                    ]
+                                },
+                                "f1e5fd17-8774-4e1c-94b3-a6aab66e67a3": {
+                                    "name": "演讲",
+                                    "tags": [
+                                        "商业",
+                                        "学校",
+                                        "社会"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "做戏"
+                                        },
+                                        {
+                                            "name": "团体表演"
+                                        },
+                                        {
+                                            "name": "政治"
+                                        }
+                                    ]
+                                },
+                                "55346b33-c6f8-4282-b1b5-7ec7aa31b22b": {
+                                    "name": "战术",
+                                    "tags": [
+                                        "军事",
+                                        "警察"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "战略"
+                                        }
+                                    ]
+                                },
+                                "74037818-264f-4b2e-81fe-6e1dc114832e": {
+                                    "name": "会计学",
+                                    "tags": [
+                                        "商业"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "金融"
+                                        },
+                                        {
+                                            "name": "数学",
+                                            "specialization": "统计学"
+                                        },
+                                        {
+                                            "name": "商人"
+                                        }
+                                    ]
+                                },
+                                "4688291a-5b63-4878-8256-2636e89383c0": {
+                                    "name": "金融",
+                                    "tags": [
+                                        "商业"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "会计学"
+                                        },
+                                        {
+                                            "name": "经济学"
+                                        },
+                                        {
+                                            "name": "商人"
+                                        }
+                                    ]
+                                },
+                                "4c808712-1a85-446b-8759-0acc3d666ea3": {
+                                    "name": "宴饮",
+                                    "tags": [
+                                        "犯罪",
+                                        "社会",
+                                        "街头"
+                                    ]
+                                },
+                                "237aa652-7c9c-4b32-aaa7-52102d1153e7": {
+                                    "name": "飞行",
+                                    "tags": [
+                                        "运动"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "飞行"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "ae15b6d8-43e8-402a-b4ea-ba9b7ce8a547": {
+                                    "name": "肢体语言",
+                                    "tags": [
+                                        "警察",
+                                        "社会",
+                                        "间谍"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "侦测谎言"
+                                        },
+                                        {
+                                            "name": "心理学"
+                                        }
+                                    ]
+                                },
+                                "c71bb915-b619-44b1-b5ad-b858f4db36bc": {
+                                    "name": "生存",
+                                    "tags": [
+                                        "探索",
+                                        "户外"
+                                    ],
+                                    "specialization": "@任意陆地@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "博物学"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "山地"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "极地"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "沙漠"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "岛屿/海滩"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "丛林"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "平原"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "沼泽"
+                                        },
+                                        {
+                                            "name": "生存",
+                                            "specialization": "林地"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "1ecc5827-720c-402a-8f07-c43c5c9025fa": {
+                    "name": "Background Skills",
+                    "children": {
+                        "b4eff39c-8411-4b91-b800-0327ba64364a": {
+                            "name": "Select 6 of the below",
+                            "children": {
+                                "4488a61e-1054-46a7-86cb-3fc27e13bc6a": {
+                                    "name": "即时备战",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "specialization": "Knife"
+                                },
+                                "47076e14-3e67-4288-823d-f7d6ee296ff2": {
+                                    "name": "Knife",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "能量剑"
+                                        },
+                                        {
+                                            "name": "Main-Gauche"
+                                        },
+                                        {
+                                            "name": "Shortsword"
+                                        }
+                                    ]
+                                },
+                                "2f0160ab-1952-44a0-a9d2-013369e73a05": {
+                                    "name": "地域知识",
+                                    "tags": [
+                                        "常识",
+                                        "知识"
+                                    ],
+                                    "notes": "所有重要商行、街道、市民、领导等。",
+                                    "specialization": "@城市@",
+                                    "defaults": [
+                                        {
+                                            "name": "地理学",
+                                            "specialization": "@分支@"
+                                        }
+                                    ]
+                                },
+                                "ecf0aa86-4223-4c57-882f-c0536a53ab74": {
+                                    "name": "礼仪",
+                                    "tags": [
+                                        "商业",
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "上流社会",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "礼仪",
+                                            "specialization": "仆从"
+                                        }
+                                    ]
+                                },
+                                "35c9dc4a-a3af-4188-82b2-6ea92d3b1838": {
+                                    "name": "做戏",
+                                    "tags": [
+                                        "社会",
+                                        "间谍"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "团体表演"
+                                        },
+                                        {
+                                            "name": "演讲"
+                                        }
+                                    ]
+                                },
+                                "65f6edc4-10c0-4db3-9cea-ad3e2b8dcd88": {
+                                    "name": "诗歌",
+                                    "tags": [
+                                        "艺术",
+                                        "娱乐"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "写作"
+                                        }
+                                    ]
+                                },
+                                "932a2380-dbd0-423b-9b04-95a5c15ca1aa": {
+                                    "name": "教学",
+                                    "tags": [
+                                        "学校",
+                                        "社会"
+                                    ]
+                                },
+                                "9f4b7e70-29cf-4661-8a87-887615d2aea2": {
+                                    "name": "管理",
+                                    "tags": [
+                                        "商业",
+                                        "社会"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "商人"
+                                        }
+                                    ]
+                                },
+                                "44c37db6-b334-4923-8452-4861f482aac6": {
+                                    "name": "赌博",
+                                    "tags": [
+                                        "犯罪",
+                                        "社会",
+                                        "街头"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "数学",
+                                            "specialization": "统计学"
+                                        }
+                                    ]
+                                },
+                                "ed72ff3b-de8b-49b1-a832-10920b87c3f0": {
+                                    "name": "战略",
+                                    "tags": [
+                                        "军事"
+                                    ],
+                                    "specialization": "空中",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "情报分析"
+                                        },
+                                        {
+                                            "name": "战术"
+                                        },
+                                        {
+                                            "name": "战略"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "notes": {
+        "61b7758f-8e8e-41f3-b576-2fdfdcb0f91f": {
+            "text": "The template has \"Fast-Draw (Arrow)\" as a background skill, but no Bow skill anywhere.  Changed this to \"Fast-Draw (Knife)\" as there is a knife skill in background skills."
+        }
+    }
+}

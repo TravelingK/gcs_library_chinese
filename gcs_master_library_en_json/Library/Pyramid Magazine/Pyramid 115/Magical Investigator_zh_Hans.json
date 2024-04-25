@@ -1,0 +1,821 @@
+{
+    "spells": {
+        "e1b98933-c761-4486-be53-8c70e9240486": {
+            "name": "Magical Investigator",
+            "notes": "Choose 1 of 3",
+            "children": {
+                "1e8b1beb-9a76-40c1-878f-3b35a755ff00": {
+                    "name": "Option 1",
+                    "children": {
+                        "44edd8e0-cd5a-424b-a6d3-f75c6996cf74": {
+                            "name": "Alertness",
+                            "tags": [
+                                "心灵控制"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "1 秒",
+                            "duration": "10 min",
+                            "casting_cost": "2/pt increase",
+                            "maintenance_cost": "Half",
+                            "college": [
+                                "心灵控制"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "keen"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "447b92de-f5ea-494f-92b0-2924f3db16e7": {
+                            "name": "黑暗视觉",
+                            "tags": [
+                                "Light"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "1 秒",
+                            "duration": "1 分钟",
+                            "casting_cost": "5",
+                            "maintenance_cost": "2",
+                            "college": [
+                                "Light & Darkness"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "夜视"
+                                        }
+                                    },
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "红外视觉"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "194bbce6-8205-4d84-8855-abad6bc48ce8": {
+                            "name": "Hawk Vision",
+                            "tags": [
+                                "Light"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "2 秒",
+                            "duration": "1 分钟",
+                            "casting_cost": "2/level",
+                            "maintenance_cost": "Half",
+                            "college": [
+                                "Light & Darkness"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "blindness"
+                                        }
+                                    },
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "keen vision"
+                                                }
+                                            },
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "Light"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "9a19a108-3712-46fa-bd4e-e5916cc3c1c7": {
+                            "name": "红外视觉",
+                            "tags": [
+                                "Light"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "1 秒",
+                            "duration": "1 分钟",
+                            "casting_cost": "3",
+                            "maintenance_cost": "1",
+                            "college": [
+                                "Light & Darkness"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "keen vision"
+                                        }
+                                    },
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "Light"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "88fb7f43-2aa5-4e27-80b6-411d2a430662": {
+                            "name": "Keen Hearing",
+                            "tags": [
+                                "心灵控制",
+                                "Sound"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "1 秒",
+                            "duration": "30 min",
+                            "casting_cost": "1",
+                            "maintenance_cost": "Half",
+                            "college": [
+                                "心灵控制",
+                                "Sound"
+                            ]
+                        },
+                        "52d7614e-0819-42a0-a155-4027b2e69abd": {
+                            "name": "Keen Vision",
+                            "tags": [
+                                "心灵控制"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "1 秒",
+                            "duration": "30 min",
+                            "casting_cost": "1/pt increase",
+                            "maintenance_cost": "Half",
+                            "college": [
+                                "心灵控制"
+                            ]
+                        },
+                        "09768f53-a84c-4004-a047-7ff12176e6fb": {
+                            "name": "Rear Vision",
+                            "tags": [
+                                "心灵控制"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "1 秒",
+                            "duration": "1 分钟",
+                            "casting_cost": "3",
+                            "maintenance_cost": "1",
+                            "college": [
+                                "心灵控制"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "alertness"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "5adefbb0-42ba-4761-9b21-55e54a3afab8": {
+                            "name": "侦测隐形",
+                            "tags": [
+                                "Light"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "1 秒",
+                            "duration": "1 分钟",
+                            "casting_cost": "4",
+                            "maintenance_cost": "2",
+                            "college": [
+                                "Light & Darkness"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "invisibility"
+                                        }
+                                    },
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "黑暗视觉"
+                                                }
+                                            },
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "红外视觉"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "64954386-cde4-4e42-9c01-540870bea745": {
+                            "name": "Sense Foes",
+                            "tags": [
+                                "交流"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "Info/Area",
+                            "casting_time": "1 秒",
+                            "duration": "Instant",
+                            "casting_cost": "1/area, min 2",
+                            "maintenance_cost": "-",
+                            "college": [
+                                "Communication & Empathy"
+                            ]
+                        },
+                        "7e186b74-fb24-4834-9eee-9eefbfc0770e": {
+                            "name": "Small Vision",
+                            "tags": [
+                                "Light"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "2 秒",
+                            "duration": "1 分钟",
+                            "casting_cost": "4#",
+                            "maintenance_cost": "Half",
+                            "college": [
+                                "Light & Darkness"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "blindness"
+                                        }
+                                    },
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "keen vision"
+                                                }
+                                            },
+                                            {
+                                                "qualifier": {
+                                                    "qualifier": "Light"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "8c815985-a9a1-49a7-8710-96a67a96f769": {
+                    "name": "Option 2",
+                    "children": {
+                        "02ee67bc-60cb-4dfc-b1b8-cdfa24ce168b": {
+                            "name": "灵光",
+                            "tags": [
+                                "知识"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "Info",
+                            "casting_time": "1 秒",
+                            "duration": "Instant",
+                            "casting_cost": "3",
+                            "maintenance_cost": "-",
+                            "college": [
+                                "知识"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "detect magic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "b7bd6dc1-4bbc-4955-bb8b-0db23a981f3e": {
+                            "name": "Conceal Magic",
+                            "tags": [
+                                "Meta"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "3 sec",
+                            "duration": "10 hrs",
+                            "casting_cost": "1-5",
+                            "maintenance_cost": "Same",
+                            "college": [
+                                "Meta"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "detect magic"
+                                        }
+                                    },
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "magery"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "one college (meta)"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "magery"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "one college"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "5b58c4ef-d081-48c4-b150-85e450663e9d": {
+                            "name": "Detect Magic",
+                            "tags": [
+                                "知识"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "5 sec",
+                            "duration": "Instant",
+                            "casting_cost": "2",
+                            "maintenance_cost": "-",
+                            "college": [
+                                "知识"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "magery"
+                                        },
+                                        "notes": {
+                                            "qualifier": "one college (knowledge)"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "magery"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "0520c176-7474-4655-a124-293b660a5ff0": {
+                            "name": "False Aura",
+                            "tags": [
+                                "Meta"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "Regular/Area",
+                            "casting_time": "10 秒",
+                            "duration": "10 hrs",
+                            "casting_cost": "4",
+                            "maintenance_cost": "Half",
+                            "college": [
+                                "Meta"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "conceal magic"
+                                        }
+                                    },
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "aura"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "e87ad526-e715-4f1a-b72d-5f565dd2121b": {
+                            "name": "历史",
+                            "tags": [
+                                "知识"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "Info",
+                            "casting_time": "1 sec/pt",
+                            "duration": "Instant",
+                            "casting_cost": "Varies",
+                            "college": [
+                                "知识"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "trace"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "07a6e640-0768-472b-b03f-b91415601cba": {
+                            "name": "Identify Spell",
+                            "tags": [
+                                "知识"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "Info",
+                            "casting_time": "1 秒",
+                            "duration": "Instant",
+                            "casting_cost": "2",
+                            "maintenance_cost": "-",
+                            "college": [
+                                "知识"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "detect magic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "7d6300a4-4e13-4c74-b29d-033bf2899599": {
+                            "name": "Seek Earth",
+                            "tags": [
+                                "地球"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "Info",
+                            "casting_time": "10 秒",
+                            "duration": "Instant",
+                            "casting_cost": "3",
+                            "maintenance_cost": "-",
+                            "college": [
+                                "地球"
+                            ]
+                        },
+                        "bc8fa3aa-c5f7-4cf6-94ee-3e4f9e69ad3f": {
+                            "name": "Seek Magic",
+                            "tags": [
+                                "知识"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "Info",
+                            "casting_time": "10 秒",
+                            "duration": "Instant",
+                            "casting_cost": "6",
+                            "maintenance_cost": "-",
+                            "college": [
+                                "知识"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "detect magic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "0f212dd8-8667-4daf-8ea5-95443af2b8d4": {
+                            "name": "Seeker",
+                            "tags": [
+                                "知识"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "Info",
+                            "casting_time": "1 秒",
+                            "duration": "Instant",
+                            "casting_cost": "3",
+                            "maintenance_cost": "-",
+                            "college": [
+                                "知识"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "12"
+                                        }
+                                    },
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "magery"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "one college (knowledge)"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "magery"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "one college"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "seek"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "6090b9c8-a46e-4640-8c3d-b71fe137b33b": {
+                            "name": "Trace",
+                            "tags": [
+                                "知识"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "1 分钟",
+                            "duration": "1 小时",
+                            "casting_cost": "3",
+                            "maintenance_cost": "1",
+                            "college": [
+                                "知识"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "seeker"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "ed8b6bfe-b206-43a9-a8c0-419d44a1d589": {
+                    "name": "Option 3",
+                    "children": {
+                        "b38e9c80-6fa1-4dc1-8211-05075c4b6021": {
+                            "name": "眩晕",
+                            "tags": [
+                                "心灵控制"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "2 秒",
+                            "duration": "1 分钟",
+                            "casting_cost": "3",
+                            "maintenance_cost": "2",
+                            "college": [
+                                "心灵控制"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "foolishness"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "e872f6db-ffd1-4378-b9bc-c4592fbb02bf": {
+                            "name": "Dream Viewing",
+                            "tags": [
+                                "交流"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "10 秒",
+                            "duration": "1 小时",
+                            "casting_cost": "2",
+                            "maintenance_cost": "1",
+                            "college": [
+                                "Communication & Empathy"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "truthsayer"
+                                        }
+                                    },
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "sleep"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "73adbc2c-3182-40f6-bcfc-e0acb2014b15": {
+                            "name": "Foolishness",
+                            "tags": [
+                                "心灵控制"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "1 秒",
+                            "duration": "1 分钟",
+                            "casting_cost": "1-5",
+                            "maintenance_cost": "Half",
+                            "college": [
+                                "心灵控制"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "12"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "be02e473-dbe7-4236-acc5-ef1d1aba7056": {
+                            "name": "Hide Emotion",
+                            "tags": [
+                                "交流"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "1 秒",
+                            "duration": "1 小时",
+                            "casting_cost": "2",
+                            "maintenance_cost": "2",
+                            "college": [
+                                "Communication & Empathy"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "sense emotion"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "f1559edb-e732-43a2-bf90-9afeed0c0e0a": {
+                            "name": "Mind-Reading",
+                            "tags": [
+                                "交流"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "10 秒",
+                            "duration": "1 分钟",
+                            "casting_cost": "4",
+                            "maintenance_cost": "2",
+                            "college": [
+                                "Communication & Empathy"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "truthsayer"
+                                        }
+                                    },
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "borrow language"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "5575a5b6-18cf-4bfa-a1c2-62572b9225a0": {
+                            "name": "Mind-Search",
+                            "tags": [
+                                "交流"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "1 分钟",
+                            "duration": "1 分钟",
+                            "casting_cost": "6",
+                            "maintenance_cost": "3",
+                            "college": [
+                                "Communication & Empathy"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "mind-reading"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "a387c596-dad4-4c54-963b-7871cd7c687e": {
+                            "name": "Sense Emotion",
+                            "tags": [
+                                "交流"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "1 秒",
+                            "duration": "Instant",
+                            "casting_cost": "2",
+                            "maintenance_cost": "-",
+                            "college": [
+                                "Communication & Empathy"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "sense foes"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "0f602947-619e-401d-9cab-d5bd6080d17f": {
+                            "name": "Sense Foes",
+                            "tags": [
+                                "交流"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "Info/Area",
+                            "casting_time": "1 秒",
+                            "duration": "Instant",
+                            "casting_cost": "1/area, min 2",
+                            "maintenance_cost": "-",
+                            "college": [
+                                "Communication & Empathy"
+                            ]
+                        },
+                        "5beb53c3-b6a6-4609-866d-e714014fa615": {
+                            "name": "沉睡",
+                            "tags": [
+                                "心灵控制"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "常规",
+                            "casting_time": "3 sec",
+                            "duration": "Until awakened",
+                            "casting_cost": "4",
+                            "maintenance_cost": "-",
+                            "college": [
+                                "心灵控制"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "daze"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "8fababe2-b664-40de-8f03-747eaa1a90c5": {
+                            "name": "Truthsayer",
+                            "tags": [
+                                "交流"
+                            ],
+                            "power_source": "Arcane",
+                            "spell_class": "Info",
+                            "casting_time": "1 秒",
+                            "duration": "Instant",
+                            "casting_cost": "2",
+                            "maintenance_cost": "-",
+                            "college": [
+                                "Communication & Empathy"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "qualifier": {
+                                            "qualifier": "sense emotion"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

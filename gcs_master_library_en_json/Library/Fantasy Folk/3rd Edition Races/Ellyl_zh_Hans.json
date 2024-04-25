@@ -1,0 +1,204 @@
+{
+    "traits": {
+        "b80457e6-ad53-433a-a6b8-98444d8e479f": {
+            "name": "Race: Ellyl",
+            "children": {
+                "ee53b474-bcb7-453d-825a-17ae1d46c36b": {
+                    "name": "Size Modifier (Small)",
+                    "features": [
+                        {
+                            "situation": "to other's intimidation skill due to your size"
+                        },
+                        {
+                            "situation": "to intimidation due to size"
+                        }
+                    ]
+                },
+                "10bed1f9-c777-4cdf-a397-000bcb0cba28": {
+                    "name": "减少力量",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "生理"
+                    ]
+                },
+                "ded8eb1f-bbb4-4f5f-95ae-67f773e12831": {
+                    "name": "增加敏捷",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "bd2ea102-95e6-4ed6-96d9-bcc34c4ced27": {
+                    "name": "敏锐听觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "b33380f3-3f75-4078-90d0-8e6f5d8b2168": {
+                    "name": "敏锐视觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "332e8814-3261-45f7-9b82-7ab7fc5b1a31": {
+                    "name": "Appearance (Handsome / Beautiful)",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "from others attracted to members of your sex"
+                        },
+                        {
+                            "situation": "from others not attracted to members of your sex"
+                        }
+                    ]
+                },
+                "4ebb3543-57ef-4749-8a0f-e823bd95b51b": {
+                    "name": "Flight (Winged)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "notes": "飞行基本速度是 BS×2（舍去所有小数）"
+                },
+                "e1d397ee-8ee2-4bdf-b232-06ca1d322bbd": {
+                    "name": "夜视",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "3da2a50e-0b2d-48c0-adb3-1ab6a1c1e7cc": {
+                    "name": "增强闪避",
+                    "tags": [
+                        "优势",
+                        "心理"
+                    ]
+                },
+                "d38aed56-39e2-41af-ab0e-0b2d91e43fb1": {
+                    "name": "超声波听觉",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "6afcabfe-9492-4b76-8f2b-790796e15371": {
+                    "name": "Code of Honor (Courtliness)",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "b2b051a8-0945-4640-b3db-d3a9fb4fa0d5": {
+                    "name": "冲动",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "notes": "当正确的选择是等待并思考的时候，进行一次自控检定。如果失败，你必须行动起来"
+                },
+                "58f588c1-ef5b-4e99-ab04-afcdc8ce98f4": {
+                    "name": "Vulnerability (Crush x2 damage)",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "696b4a1b-cd8e-42bc-ac7b-2f6f8d1eabae": {
+                    "name": "Ellyllon Social Class",
+                    "children": {
+                        "0c6bbb48-6abb-4158-80e3-3f312c4d20aa": {
+                            "name": "Ellylon Commoner"
+                        },
+                        "5f6037a9-fdb8-4628-a26a-c7a22d1579e2": {
+                            "name": "Ellyllon Royalty",
+                            "children": {
+                                "40163ff3-1a38-49c0-b1b1-42097b5150ad": {
+                                    "name": "寿命延长",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "生理"
+                                    ]
+                                },
+                                "7ed97fee-5716-46a7-886d-ab156b68e07f": {
+                                    "name": "Early maturation",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "a0b63f9d-4543-4eda-85fe-4e1aa7b24c94": {
+            "name": "Race: Ellyl",
+            "children": {
+                "a651f858-efb2-45ad-9e55-aca85354d527": {
+                    "name": "飞行",
+                    "tags": [
+                        "运动"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "飞行"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "f3194bce-70ee-45f4-8aa3-ff3b1c67e33b": {
+                    "name": "Savoir-Faire (Ellyl courtly society)",
+                    "tags": [
+                        "知识",
+                        "社会"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "游戏"
+                        }
+                    ]
+                },
+                "fd5269e8-d05b-4793-bbf7-4179eaf12f48": {
+                    "name": "潜行",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ]
+                }
+            }
+        }
+    },
+    "notes": {
+        "1fcc7d27-6e66-4e6e-a5ef-b02f2f1fa777": {
+            "text": "Race: Ellyl",
+            "children": {
+                "074c080d-6511-4776-a327-854d7950fee9": {
+                    "text": "The Ellyllon (singuler: Ellyl) are tiny, winged humanoids standing between 5 and 7 inches tall (figure height normally for Strength *before* the racial ST modifier is applied, then read inches for feet).  Weight is negligible - 1 or 2 pounds.  Their wings are translucent and colourful, configured like those of a butterfly.  Otherwise they appear exactly like slender, beautiful humans.  Their complexions are usually fair, as is their hair colour.  They wear beautiful, minutely detailed costumes"
+                },
+                "aa286d2b-bacb-45b8-b19e-ac4f2d854c10": {
+                    "text": "Because of their small size, Ellyllon combat is unique in several ways.  Ellyllon lances do damage as large knives, spears as small knives (held or thrown), swords as daggers, and arrows as blowpipe darts.  Their armour is remarkably strong and well-made, but is still -1 DR due to its light construction (the race is considered to know certain secrets of Armoury which don't apply at larger scales; these prevent the penalty from being any greater).  In order to compensate for these disadvantages all Ellyllon get a +2 to any attempt to hide, and +3 to any Stealth roll.  These special conditions are considered to be \"special effects\" of the race's size.  Though significant, they are considered to roughly balance each other, and therefore carry no specific point costs."
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1423 @@
+{
+    "traits": {
+        "dfa092a9-fb4f-4931-abd7-1027ea658d86": {
+            "name": "Priest",
+            "children": {
+                "682ab5c3-9dad-4650-ad8d-ce1987967e06": {
+                    "name": "Attributes",
+                    "children": {
+                        "6a808e00-d72b-4862-8447-529aea571811": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "1ed631f6-2e60-41ab-a0e5-96004351cc43": {
+                            "name": "增加智力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        }
+                    }
+                },
+                "543ec7ac-c21c-4070-881e-cb6af4e73c0f": {
+                    "name": "Class Advantage",
+                    "children": {
+                        "99d622b3-a437-4497-a701-6c82296d82e0": {
+                            "name": "教权",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ]
+                        },
+                        "df9b5679-f9db-445e-91da-4c202d5e518f": {
+                            "name": "Language: @Scriptural or Liturgical@",
+                            "tags": [
+                                "优势",
+                                "语言",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "156688b8-4c3e-4035-9efe-b355f2f66d33": {
+                                    "name": "纯正的"
+                                },
+                                "cfa8b2f5-9c98-4492-ab00-f598988f925e": {
+                                    "name": "口语",
+                                    "notes": "一无所知"
+                                },
+                                "19014ce3-614c-496e-a1ab-86190078d030": {
+                                    "name": "口语",
+                                    "notes": "结巴的"
+                                },
+                                "54dcb5ab-f1ea-4c31-ab9f-303c92aa6a3c": {
+                                    "name": "口语",
+                                    "notes": "有口音的"
+                                },
+                                "1e2a0331-a6ee-437f-a1a7-6fe7241ee129": {
+                                    "name": "口语",
+                                    "notes": "纯正的"
+                                },
+                                "24e67fb0-7063-4b06-ae4b-0a65904b4c2c": {
+                                    "name": "书写",
+                                    "notes": "一无所知"
+                                },
+                                "f469ca63-51d9-4f74-b01c-c91a08f466f4": {
+                                    "name": "书写",
+                                    "notes": "结巴的"
+                                },
+                                "dce45451-d405-4749-9c9d-775748732ef9": {
+                                    "name": "书写",
+                                    "notes": "有口音的"
+                                },
+                                "c7a78852-ee1f-456d-9992-72fc2090fed6": {
+                                    "name": "书写",
+                                    "notes": "纯正的"
+                                }
+                            }
+                        },
+                        "002b5d53-4cc8-4109-a55f-50d98159cbef": {
+                            "name": "Religious Rank",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "0f51a96f-ab9a-4f72-b4ea-1483c4f153c6": {
+                                    "name": "包含社会地位"
+                                },
+                                "790f45bb-9ee7-470d-849f-f8af5a1ff039": {
+                                    "name": "荣誉"
+                                }
+                            }
+                        },
+                        "f4dbe0e2-0edb-4e50-be75-95ccb5126e7f": {
+                            "name": "Status",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "notes": "+1 from Religious Rank 2"
+                        },
+                        "d03187a4-eb9e-4bdf-9f80-63d32a682f2e": {
+                            "name": "15 points chosen from",
+                            "children": {
+                                "1356cf7a-7d95-4df7-9430-cdb5c9033c30": {
+                                    "name": "增加意志",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "心理"
+                                    ],
+                                    "notes": "Up to 3"
+                                },
+                                "306bc2db-13e6-4866-9bef-bc6e78edb6da": {
+                                    "name": "Ally (@Congregation or elders@)",
+                                    "tags": [
+                                        "优势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "6195d5b5-acb6-4be7-a1a0-0cc68e1cc7cb": {
+                                            "name": "点数总和",
+                                            "notes": "你初始点数的 25%"
+                                        },
+                                        "2b705010-fea5-4de3-9072-affbe726fd10": {
+                                            "name": "点数总和",
+                                            "notes": "你初始点数的 50%"
+                                        },
+                                        "f7813179-c38c-4efa-bd90-027624328d4e": {
+                                            "name": "点数总和",
+                                            "notes": "你初始点数的 75%"
+                                        },
+                                        "06647ad6-2a7b-4e93-ae93-5c3d218d9b3f": {
+                                            "name": "点数总和",
+                                            "notes": "你初始点数的 100%"
+                                        },
+                                        "7421b489-b082-4b7a-8334-9866f8d516fd": {
+                                            "name": "点数总和",
+                                            "notes": "你初始点数的 150%"
+                                        },
+                                        "51992c93-21ce-491c-b5bb-cedd5942768e": {
+                                            "name": "总是出场",
+                                            "notes": "No roll required"
+                                        },
+                                        "d28062b8-3f0e-482d-b4bb-9d8ff3635fb1": {
+                                            "name": "几乎总是出场",
+                                            "notes": "15-"
+                                        },
+                                        "530e220c-8b02-43d3-be8e-12c825f913d9": {
+                                            "name": "出现相当频繁",
+                                            "notes": "12-"
+                                        },
+                                        "f0ba8a50-a6e4-4ad7-9da8-ff068c3670b5": {
+                                            "name": "出场频繁",
+                                            "notes": "9-"
+                                        },
+                                        "a7238d0f-8387-450b-b6de-b20a5f43592f": {
+                                            "name": "不常出现",
+                                            "notes": "6-"
+                                        },
+                                        "9d0081cf-8c2e-4b30-8093-b6b112063672": {
+                                            "name": "6-10 团队成员"
+                                        },
+                                        "9d7a5f3c-aa72-422e-86a7-35364647ebb7": {
+                                            "name": "11-20 团队成员"
+                                        },
+                                        "3c290b41-6552-4fe9-9cf2-ef634ac5b84d": {
+                                            "name": "21-50 团队成员"
+                                        },
+                                        "e7cf69ae-bdaa-48dd-955c-bc7ce48aad7f": {
+                                            "name": "51-100 团队成员"
+                                        },
+                                        "86e90f0e-fa3e-4f94-a488-ce641b3a0f61": {
+                                            "name": "101-1000 团队成员"
+                                        },
+                                        "76eb15a0-54d4-4b85-9a80-29d170773c1a": {
+                                            "name": "1001-10000 团队成员"
+                                        },
+                                        "168f190b-9bba-4474-9918-be130262cab7": {
+                                            "name": "10001-100000 团队成员"
+                                        },
+                                        "67f6d269-41b4-4543-bda1-386e8b761760": {
+                                            "name": "100001-1000000 团队成员"
+                                        },
+                                        "bcccd5cc-e192-4e43-8f50-9b3340d9bbf9": {
+                                            "name": "仆从"
+                                        },
+                                        "2c5d41aa-aaeb-4368-ae61-48ed989639e9": {
+                                            "name": "仆从",
+                                            "notes": "IQ 为 0 或者有奴性"
+                                        },
+                                        "81d8c435-09b0-4f28-9cce-867aae2d8810": {
+                                            "name": "特殊能力",
+                                            "notes": "@能力@"
+                                        },
+                                        "8ba902ad-dffc-40e2-8459-7f0a460a31ad": {
+                                            "name": "召唤物"
+                                        },
+                                        "16d58bbf-9fef-4cf2-80d5-2c67a554d3f8": {
+                                            "name": "感同身受",
+                                            "notes": "一方的死亡将直接把另一方的 HP 降为 0"
+                                        },
+                                        "97d00732-ca45-46ce-b294-e77c995b6ade": {
+                                            "name": "感同身受",
+                                            "notes": "一方的死亡将直接把另一方的 HP 降为 0，但是损伤仅影响盟友不影响你"
+                                        },
+                                        "5fe7bf62-5c6b-4ca1-a7b7-39adc5502809": {
+                                            "name": "感同身受",
+                                            "notes": "一方死亡时另一方也会自动死亡"
+                                        },
+                                        "0f977fc0-489c-4091-ad88-96e4abd01c3c": {
+                                            "name": "感同身受",
+                                            "notes": "一方死亡时另一方也会自动死亡，但是损伤仅影响盟友不影响你"
+                                        },
+                                        "92217e65-d005-44e1-a066-d8b46a1b719f": {
+                                            "name": "被迫的"
+                                        },
+                                        "00297372-9f29-4ffa-8871-a8569df41d90": {
+                                            "name": "人情"
+                                        }
+                                    }
+                                },
+                                "0c9a59aa-13a2-4d70-a3d5-a323d05cfa80": {
+                                    "name": "被祝福者",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "超自然"
+                                    ],
+                                    "modifiers": {
+                                        "b46d16af-9bdc-4f31-ae42-4db1db4ac74e": {
+                                            "name": "Very"
+                                        }
+                                    }
+                                },
+                                "d86b4851-fd0b-4dcb-8682-0c1e4d1ab8c8": {
+                                    "name": "超凡魅力",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "notes": "+1/level to Influence rolls",
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "预言"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "领导力"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "乞讨"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "演讲"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "700fef33-acd3-4407-afca-5ff8708ce41d": {
+                                    "name": "Talent (Devotion)",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "天赋"
+                                    ],
+                                    "modifiers": {
+                                        "2c7c2cf3-5d0e-4170-9d89-af218b0dd8e5": {
+                                            "name": "Reaction Bonus",
+                                            "notes": "Coreligionists and sympathizers"
+                                        },
+                                        "76e8c736-751e-4097-af9f-1f8155ebdbd8": {
+                                            "name": "可选增益",
+                                            "notes": "Bonus to will to resist \"evil influences\""
+                                        }
+                                    },
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "自我催眠"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "驱魔"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "冥想"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "宗教仪式"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "0b1a4738-53c7-4a35-a712-63b1e0f99fda": {
+                                    "name": "崇高目标",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "心理"
+                                    ]
+                                },
+                                "763b22eb-5b4d-4012-8978-c3e1fb74c944": {
+                                    "name": "语言天赋",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "b727212d-bd46-4427-b112-4e65c6d49dfe": {
+                                    "name": "语言：@语言@",
+                                    "tags": [
+                                        "优势",
+                                        "语言",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "bbe0583b-7567-4d39-a4e7-3c7bace39b0a": {
+                                            "name": "纯正的"
+                                        },
+                                        "48affa8c-ff24-48c6-9eb2-6730c0cd01b9": {
+                                            "name": "口语",
+                                            "notes": "一无所知"
+                                        },
+                                        "3979dfe5-106a-495a-988a-5bf3031222dc": {
+                                            "name": "口语",
+                                            "notes": "结巴的"
+                                        },
+                                        "92036305-936d-48fb-ad08-50063f3ed308": {
+                                            "name": "口语",
+                                            "notes": "有口音的"
+                                        },
+                                        "3fb1ebd6-f1b9-4300-b2e1-9b1c9bc268fa": {
+                                            "name": "口语",
+                                            "notes": "纯正的"
+                                        },
+                                        "9d68d25a-704b-477a-87f1-6b9a429f749f": {
+                                            "name": "书写",
+                                            "notes": "一无所知"
+                                        },
+                                        "9c56d72b-1c4d-437d-89db-c68bf71cea99": {
+                                            "name": "书写",
+                                            "notes": "结巴的"
+                                        },
+                                        "46f9e0a9-aa0d-47fc-bd1f-cc2183c54d07": {
+                                            "name": "书写",
+                                            "notes": "有口音的"
+                                        },
+                                        "2223b5d9-2ba6-4c14-962a-29352321c9b3": {
+                                            "name": "书写",
+                                            "notes": "纯正的"
+                                        }
+                                    }
+                                },
+                                "476285c7-58c7-47f8-ab0f-ab50354d6fc6": {
+                                    "name": "语言：@语言@",
+                                    "tags": [
+                                        "优势",
+                                        "语言",
+                                        "心理"
+                                    ],
+                                    "notes": "有语言天赋",
+                                    "modifiers": {
+                                        "6f79ad1b-5f5d-4f51-b9da-ae0cd5e0b712": {
+                                            "name": "纯正的"
+                                        },
+                                        "35cf04bc-c794-4f8b-b690-a0b65c119cc6": {
+                                            "name": "口语",
+                                            "notes": "有口音的"
+                                        },
+                                        "d3719f34-1582-4517-a01d-e909433acc64": {
+                                            "name": "口语",
+                                            "notes": "纯正的"
+                                        },
+                                        "f379034c-686f-45b1-b693-8e883113458f": {
+                                            "name": "书写",
+                                            "notes": "有口音的"
+                                        },
+                                        "adae79cc-0572-4795-aa60-f61c2fb5871a": {
+                                            "name": "书写",
+                                            "notes": "纯正的"
+                                        }
+                                    },
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "语言天赋"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "3a7077cf-de84-415c-b951-40641d9d0561": {
+                                    "name": "天赋（音乐天才）",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "天赋"
+                                    ],
+                                    "modifiers": {
+                                        "a791c03b-6e2e-4e23-8033-ef8097fe63bc": {
+                                            "name": "Reaction Bonus",
+                                            "notes": "Audiences and Critics"
+                                        },
+                                        "e2864f2d-0224-43d7-b1a5-a73c80939594": {
+                                            "name": "可选增益",
+                                            "notes": "Bonus to first influence roll made against one or more audience members after a successful performance."
+                                        }
+                                    },
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "团队表演"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "指挥"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "谱曲"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "音乐影响"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "乐器"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "唱歌"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "b7ee7492-8e4c-4c9e-ac55-8c25178a12bf": {
+                                    "name": "Religious Rank",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "0dd09c43-d876-4fc9-8b49-304612e1b5c7": {
+                                            "name": "包含社会地位"
+                                        },
+                                        "0ced4a62-413a-4a81-8806-d6602d5f12c5": {
+                                            "name": "荣誉"
+                                        }
+                                    }
+                                },
+                                "cc3b24f9-f1cc-48d5-bcfa-6401ae0766eb": {
+                                    "name": "共情",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "a383a678-529d-4dea-931d-7409bd71ceb2": {
+                                            "name": "Remote"
+                                        }
+                                    },
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "侦测谎言"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "预言"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "心理学"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "97b230a3-40d8-4788-8101-68cd23abc3f0": {
+                                    "name": "共情（敏感）",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "5ee9942a-d55b-4d2e-bbbd-55c754a4492f": {
+                                            "name": "Remote"
+                                        }
+                                    },
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "侦测谎言"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "预言"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "心理学"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "d52b4963-3f6c-4c6f-8863-dc9b877623d6": {
+                                    "name": "精魄共情",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "超自然"
+                                    ],
+                                    "modifiers": {
+                                        "dd98fd74-0174-49e5-99de-bc6d97a0b545": {
+                                            "name": "特化",
+                                            "notes": "@类型：天使，恶魔，精灵， 鬼魂等@"
+                                        },
+                                        "4d0dcea7-a491-4545-b005-c290266b75fb": {
+                                            "name": "Remote"
+                                        }
+                                    }
+                                },
+                                "b25c2375-2e7c-4d29-994b-3cc8e32561d6": {
+                                    "name": "真诚信仰",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "超自然"
+                                    ],
+                                    "modifiers": {
+                                        "a72e7e06-4599-429f-9867-e92c52dc6fa4": {
+                                            "name": "神选",
+                                            "notes": "@神灵@"
+                                        },
+                                        "7ad6b0fc-a8b6-401a-865c-e18fdf453a3b": {
+                                            "name": "驱离"
+                                        }
+                                    }
+                                },
+                                "3c1686df-3230-485d-a7cb-cd4b6924849f": {
+                                    "name": "迷人声线",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "外交"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "唬骗"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "模仿声音"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "表演"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "政治"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "演讲"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "性感"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "唱歌"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "6f389283-3b0a-4c1d-a600-a8220e826772": {
+                    "name": "Class Disadvantage",
+                    "children": {
+                        "4d2fab31-1afa-49bc-b12d-3668cd66811d": {
+                            "name": "-30 points chosen from",
+                            "children": {
+                                "9d93dff9-32c2-4896-b239-bf415aaed61f": {
+                                    "name": "古道热肠",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "d3f8f185-749e-4441-acb1-db45ab086a39": {
+                                    "name": "Compulsive Behavior",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "Religious Observance",
+                                    "modifiers": {
+                                        "738d6cdf-91f3-45a9-8fa4-72a5c72f7205": {
+                                            "name": "轻微"
+                                        },
+                                        "36b36bf3-cb40-4ec7-9318-85ec3b7fc494": {
+                                            "name": "较大"
+                                        },
+                                        "bdf2cdfc-8e23-4080-b0c1-dec583c95ba7": {
+                                            "name": "重度"
+                                        }
+                                    }
+                                },
+                                "1e4386cb-6b42-4dc0-8445-04215228606a": {
+                                    "name": "乐善好施",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "吝啬"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "15579929-cf56-446a-a572-9d19e8186769": {
+                                    "name": "戒律（禁欲主义）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "7f685dd9-7f4b-4ea5-bb1d-99a028225204": {
+                                    "name": "戒律（修道主义）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "1f8ffb42-ee1c-4490-adac-6494b2fa8c0f": {
+                                    "name": "戒律（神秘主义）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "d3e0fdea-d49b-4d4e-9e6d-0cefe84195a9": {
+                                    "name": "戒律（仪式主义）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "900a6906-33ee-4155-ab50-8344ff60ef21": {
+                                    "name": "狂热（@团体或理想@）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "645b4569-dbfb-49a2-a997-37203ec955a3": {
+                                            "name": "极度"
+                                        }
+                                    }
+                                },
+                                "141da98d-ecc3-45a8-813b-9106be11ba7a": {
+                                    "name": "遵纪守法",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "20cf5257-fda9-44ba-ae60-6f8c7fa96837": {
+                                    "name": "Intolerance (Religious)",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "c0599284-8b17-4836-a0f6-23e20ef10cfc": {
+                                            "name": "范围：常见"
+                                        },
+                                        "ecc43eda-a94c-47c3-9808-8e7c0afbc97a": {
+                                            "name": "范围：偶见"
+                                        },
+                                        "623a9426-6111-4c25-8e3a-a453b6caa0d8": {
+                                            "name": "范围：稀有"
+                                        },
+                                        "31988a89-af4b-4513-808e-3d8279a503d5": {
+                                            "name": "范围：任何与你不同的人"
+                                        }
+                                    }
+                                },
+                                "ec801f3e-7c2c-4f2b-8cbb-f9b9d29732fc": {
+                                    "name": "Intolerance (Religious)",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "a0b3396e-a529-458b-af8e-9f5a76028029": {
+                                            "name": "范围：常见"
+                                        },
+                                        "d80e80a8-2fd1-4c2e-90e5-77309e7e41eb": {
+                                            "name": "范围：偶见"
+                                        },
+                                        "27c0696e-a0c9-4e9d-b7cf-79a035da5d3d": {
+                                            "name": "范围：稀有"
+                                        },
+                                        "b68cc438-cf41-4c2f-ba70-6157259ff6ee": {
+                                            "name": "范围：任何与你不同的人"
+                                        }
+                                    }
+                                },
+                                "512b0e1c-c361-4500-9ef8-6671d18dbd2b": {
+                                    "name": "和平主义：只能自卫",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "6b5ea7e5-4557-472b-91d3-06d2b59c23bc": {
+                                            "name": "物种特异性的"
+                                        }
+                                    }
+                                },
+                                "9bb89537-8dd1-4bf5-a730-9cd4bc1df026": {
+                                    "name": "和平主义：不愿杀人",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "ab962ca6-8fb7-4fcd-9b28-024529f9efef": {
+                                            "name": "物种特异性的"
+                                        }
+                                    }
+                                },
+                                "af3dd7f6-6e83-4e0f-912c-7136b65d80f4": {
+                                    "name": "和平主义：无法杀戮",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "65de8482-2f2d-4ca2-83cc-853b5d77b480": {
+                                            "name": "物种特异性的"
+                                        }
+                                    }
+                                },
+                                "7207b5c9-f3f6-4341-a1c0-0f9366342ce8": {
+                                    "name": "和平主义：不能伤害无辜",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "9a63ae60-0e17-4f5e-890d-dc44d949e046": {
+                                            "name": "物种特异性的"
+                                        }
+                                    }
+                                },
+                                "2e60cabe-a0fc-4c77-bb8a-c0089adda6bf": {
+                                    "name": "和平主义：完全非暴力",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "e1a62517-06ad-4dc8-8bb1-e5ac46a61959": {
+                                            "name": "物种特异性的"
+                                        }
+                                    }
+                                },
+                                "00b56b84-1595-4c4d-b00b-32cce09328a7": {
+                                    "name": "财富",
+                                    "tags": [
+                                        "优势",
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "3e2d6598-6337-4fb8-acb0-3712ea20f224": {
+                                            "name": "一贫如洗",
+                                            "notes": "Starting wealth is $0"
+                                        },
+                                        "784dca2b-b791-4474-899e-545d91f483c0": {
+                                            "name": "贫穷",
+                                            "notes": "Starting wealth is 1/5 average"
+                                        },
+                                        "ac7114ae-4799-4be7-b056-9fcb80dd1181": {
+                                            "name": "比较贫穷",
+                                            "notes": "Starting wealth is 1/2 average"
+                                        },
+                                        "f4adf91a-cc04-484a-8303-503057e9ed76": {
+                                            "name": "普通的"
+                                        },
+                                        "8eb2eff5-f656-4201-9fc4-042b3e7f7cbd": {
+                                            "name": "Comfortable",
+                                            "notes": "Starting wealth is 2x average"
+                                        },
+                                        "cf42642e-929f-458c-be4b-9fe03b6c1ea5": {
+                                            "name": "富有",
+                                            "notes": "Starting wealth is 5x average"
+                                        },
+                                        "282b2a52-717b-4349-b34c-d557b6cbf316": {
+                                            "name": "非常富有",
+                                            "notes": "Starting wealth is 20x average"
+                                        },
+                                        "28f288e4-4582-4eb1-8345-826c2198956f": {
+                                            "name": "异常富有",
+                                            "notes": "Starting wealth is 100x average"
+                                        }
+                                    }
+                                },
+                                "579481d9-c0e8-4f94-9918-2cbaaf37a3b9": {
+                                    "name": "财富",
+                                    "tags": [
+                                        "优势",
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "4c40bb9d-046d-4bef-b77b-d6d13556d161": {
+                                            "name": "一贫如洗",
+                                            "notes": "Starting wealth is $0"
+                                        },
+                                        "fc1ae042-c01a-4904-9ee0-0de8e5d161ae": {
+                                            "name": "贫穷",
+                                            "notes": "Starting wealth is 1/5 average"
+                                        },
+                                        "bef876ec-b578-4e5c-a95b-2ef9e4904238": {
+                                            "name": "比较贫穷",
+                                            "notes": "Starting wealth is 1/2 average"
+                                        },
+                                        "80b3e1da-5ebb-4363-9b82-4e0d3bd06ebf": {
+                                            "name": "普通的"
+                                        },
+                                        "ab9600ec-c2bf-4d1b-8e7f-2c566893f02b": {
+                                            "name": "Comfortable",
+                                            "notes": "Starting wealth is 2x average"
+                                        },
+                                        "95100a0f-8240-41b4-a5bc-c9c832090894": {
+                                            "name": "富有",
+                                            "notes": "Starting wealth is 5x average"
+                                        },
+                                        "dd46d8a1-2e73-464e-abf0-e92ee58f8187": {
+                                            "name": "非常富有",
+                                            "notes": "Starting wealth is 20x average"
+                                        },
+                                        "986859be-b50b-4dc8-8708-5feb1a1d50e9": {
+                                            "name": "异常富有",
+                                            "notes": "Starting wealth is 100x average"
+                                        }
+                                    }
+                                },
+                                "b9932dc2-9670-4c7b-aea0-770789505ea0": {
+                                    "name": "Vow (@Subject@)",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "d96bd1c8-6090-429e-95fa-ace4cef12686": {
+                                            "name": "轻微"
+                                        },
+                                        "a703f168-c35d-4ddb-a08f-77da2e11aee6": {
+                                            "name": "较大"
+                                        },
+                                        "bc683ff0-9f63-48b9-8cb1-41fb90ae9347": {
+                                            "name": "巨大"
+                                        }
+                                    }
+                                },
+                                "d0096c8d-a625-4b74-82ca-3802edb83562": {
+                                    "name": "责任感",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "ac1e5823-a527-4467-9d84-19387bd13dab": {
+                                            "name": "朋友和伙伴"
+                                        },
+                                        "33b6c8ca-3ad3-473e-9727-fd7b8a23ce77": {
+                                            "name": "@小组织@"
+                                        },
+                                        "cd61ccca-b80b-4365-9c72-59ebef599be3": {
+                                            "name": "@个人@"
+                                        },
+                                        "6d31adb0-db9d-4f82-b198-07c1c5061fb9": {
+                                            "name": "@大组织@"
+                                        },
+                                        "418ca945-719f-4a91-bacf-6b6f6773d239": {
+                                            "name": "@整个种族@"
+                                        },
+                                        "f470e6df-2688-4a2a-b3d5-7312744a66f8": {
+                                            "name": "所有活物"
+                                        }
+                                    }
+                                },
+                                "8470c09b-332f-4621-8e78-1e95054f88e7": {
+                                    "name": "责任感",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "67ee6f25-4782-4f2d-a22d-a7e10dfb3e7d": {
+                                            "name": "朋友和伙伴"
+                                        },
+                                        "b66d6f91-230a-4570-9acb-6ae471126bed": {
+                                            "name": "@小组织@"
+                                        },
+                                        "f3880d0c-c4c0-490a-b2b6-a4c8a4a54e3e": {
+                                            "name": "@个人@"
+                                        },
+                                        "847bced7-f6f9-4faf-a32f-f1013771cb04": {
+                                            "name": "@大组织@"
+                                        },
+                                        "baa77d3d-799d-47a0-a1fa-8c6a8a50029c": {
+                                            "name": "All humanity"
+                                        },
+                                        "788276e4-027e-45c9-a1e4-682e3d194df1": {
+                                            "name": "所有活物"
+                                        }
+                                    }
+                                },
+                                "3374ab5b-07fb-495c-9c24-83239b546ff9": {
+                                    "name": "责任感",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "41bb7678-b188-4f58-bf14-01c8053d2794": {
+                                            "name": "朋友和伙伴"
+                                        },
+                                        "d40ff10a-f25d-4972-a214-1d6fb419ebdc": {
+                                            "name": "@小组织@"
+                                        },
+                                        "010ecea3-2ce2-45b6-885d-5b620ccb8ed3": {
+                                            "name": "@个人@"
+                                        },
+                                        "d59f92a9-f5f2-4f28-9979-dd835d53d20c": {
+                                            "name": "Coreligionists"
+                                        },
+                                        "fff977cd-6048-45ff-95d2-d8c2bea00b4d": {
+                                            "name": "@整个种族@"
+                                        },
+                                        "80b258a4-2ab7-4afd-aa6f-aec68211ca39": {
+                                            "name": "所有活物"
+                                        }
+                                    }
+                                },
+                                "089ebe52-fc9d-49ba-9029-16b183be6421": {
+                                    "name": "老实",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "fast talk"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "53a885f1-d41a-4543-a784-6f7dc080fdb2": {
+            "name": "Priest",
+            "children": {
+                "2e4610ec-04fe-4a0f-8816-899dbdf3b292": {
+                    "name": "Primary Skill",
+                    "children": {
+                        "61035e29-9181-4485-97bc-800ca24ed8fb": {
+                            "name": "演讲",
+                            "tags": [
+                                "商业",
+                                "学校",
+                                "社会"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "做戏"
+                                },
+                                {
+                                    "name": "团体表演"
+                                },
+                                {
+                                    "name": "政治"
+                                }
+                            ]
+                        },
+                        "36cb1a42-cc2b-4d9d-8ad0-7ec28692b46d": {
+                            "name": "宗教仪式",
+                            "tags": [
+                                "魔法",
+                                "神秘学"
+                            ],
+                            "specialization": "@Own Religion@",
+                            "defaults": [
+                                {
+                                    "name": "仪式魔法",
+                                    "specialization": "@分支@"
+                                },
+                                {
+                                    "name": "神学",
+                                    "specialization": "@分支@"
+                                }
+                            ]
+                        },
+                        "49b2c7e1-3006-4096-83e2-158204415b4f": {
+                            "name": "神学",
+                            "tags": [
+                                "人文学科",
+                                "社会科学"
+                            ],
+                            "specialization": "@Own Religion@",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "宗教仪式",
+                                    "specialization": "@分支@"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "40e48187-bfcb-4871-8c9a-dbc9b200987f": {
+                    "name": "Secondary Skill",
+                    "children": {
+                        "bc8b1fff-82f4-43b5-8b44-4409daa8ce40": {
+                            "name": "Choose two",
+                            "children": {
+                                "151a4368-8b8a-4166-bea0-da07b51393bb": {
+                                    "name": "隐秘学识",
+                                    "tags": [
+                                        "知识"
+                                    ],
+                                    "specialization": "@分支@"
+                                },
+                                "28308534-d235-41a9-a1cc-970b9370966c": {
+                                    "name": "诗歌",
+                                    "tags": [
+                                        "艺术",
+                                        "娱乐"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "写作"
+                                        }
+                                    ]
+                                },
+                                "aaa645c9-5021-436c-a7d3-16981e165a02": {
+                                    "name": "研究",
+                                    "tags": [
+                                        "学校",
+                                        "间谍"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "prereqs": [
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "电脑操作"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "prereqs": [
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "语言"
+                                                        },
+                                                        "notes": {
+                                                            "qualifier": "书面语（纯正的）"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "语言"
+                                                        },
+                                                        "notes": {
+                                                            "qualifier": "书面语（有口音的）"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "语言"
+                                                        },
+                                                        "notes": {
+                                                            "qualifier": "书面语（结巴的）"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "写作"
+                                        }
+                                    ]
+                                },
+                                "22b4851b-fbce-4951-b0b4-545352dae71c": {
+                                    "name": "教学",
+                                    "tags": [
+                                        "学校",
+                                        "社会"
+                                    ]
+                                },
+                                "aa483840-4aea-4a98-b2dc-8b2a558e8e0e": {
+                                    "name": "专家技能",
+                                    "tags": [
+                                        "知识",
+                                        "学校"
+                                    ],
+                                    "specialization": "Demonology"
+                                },
+                                "07ecb6b5-ac37-4d64-bf25-fd0bd41ba096": {
+                                    "name": "专家技能",
+                                    "tags": [
+                                        "人文学科",
+                                        "知识",
+                                        "学校",
+                                        "社会科学"
+                                    ],
+                                    "specialization": "死亡学"
+                                },
+                                "ca52db22-8ee1-4267-93af-2b57809f3530": {
+                                    "name": "谱曲",
+                                    "tags": [
+                                        "艺术",
+                                        "娱乐"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "乐器"
+                                        },
+                                        {
+                                            "name": "诗歌"
+                                        }
+                                    ]
+                                },
+                                "b4539d97-6128-4af7-bc8e-f657dda6b022": {
+                                    "name": "乐器",
+                                    "tags": [
+                                        "艺术",
+                                        "娱乐"
+                                    ],
+                                    "specialization": "@分支@"
+                                },
+                                "cfde2f11-f65d-4363-8bd7-98e01c420548": {
+                                    "name": "唱歌",
+                                    "tags": [
+                                        "艺术",
+                                        "娱乐"
+                                    ]
+                                },
+                                "becae278-32f2-40a5-af40-2ab145719bd4": {
+                                    "name": "精神力量",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "武器大师"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "大师传承"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "5242a35f-8382-43dd-8794-f189d4837e4d": {
+                                    "name": "驱魔",
+                                    "tags": [
+                                        "魔法",
+                                        "神秘学"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "宗教仪式"
+                                        },
+                                        {
+                                            "name": "仪式魔法"
+                                        },
+                                        {
+                                            "name": "神学"
+                                        }
+                                    ]
+                                },
+                                "60991729-945f-4660-8d48-8027672ce93f": {
+                                    "name": "冥想",
+                                    "tags": [
+                                        "秘技"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "自我催眠"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "2dbd88cf-248e-4e2b-b49c-a6dbf1c472b0": {
+                    "name": "Background Skill",
+                    "children": {
+                        "845e0356-dfff-4b18-beb7-22f4cb2eca38": {
+                            "name": "地域知识",
+                            "tags": [
+                                "常识",
+                                "知识"
+                            ],
+                            "specialization": "Parish",
+                            "defaults": [
+                                {
+                                    "name": "地理学"
+                                }
+                            ]
+                        },
+                        "86dfb7a7-214e-4e0f-8b58-f9197fc2acde": {
+                            "name": "Total of 6 points spent in",
+                            "children": {
+                                "1edaae16-8676-4e69-8c6e-7c3a36279370": {
+                                    "name": "管理",
+                                    "tags": [
+                                        "商业",
+                                        "社会"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "商人"
+                                        }
+                                    ]
+                                },
+                                "1308940b-57f7-4b73-a28b-e204132e42bf": {
+                                    "name": "侦测谎言",
+                                    "tags": [
+                                        "警察",
+                                        "社会",
+                                        "间谍"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "肢体语言"
+                                        },
+                                        {
+                                            "name": "心理学"
+                                        }
+                                    ]
+                                },
+                                "cd2316b9-914d-4a29-b34b-66b7a436ed75": {
+                                    "name": "外交",
+                                    "tags": [
+                                        "商业",
+                                        "警察",
+                                        "社会"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "政治"
+                                        }
+                                    ]
+                                },
+                                "dc0cdecf-30b3-48fd-a63c-09a4ef1970bb": {
+                                    "name": "急救",
+                                    "tags": [
+                                        "常识",
+                                        "医学"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "秘传医术"
+                                        },
+                                        {
+                                            "name": "医师"
+                                        },
+                                        {
+                                            "name": "兽医学"
+                                        }
+                                    ]
+                                },
+                                "ba33d993-a923-4db9-8c08-e5f093c99972": {
+                                    "name": "历史",
+                                    "tags": [
+                                        "人文学科",
+                                        "社会科学"
+                                    ],
+                                    "specialization": "@分支@"
+                                },
+                                "305f22e6-3705-403b-825a-015e17129e1d": {
+                                    "name": "领导力",
+                                    "tags": [
+                                        "军事",
+                                        "社会"
+                                    ]
+                                },
+                                "4859bf2c-bfdc-448b-bc7e-0c9da1c5f2e1": {
+                                    "name": "文学",
+                                    "tags": [
+                                        "人文学科",
+                                        "学校",
+                                        "社会科学"
+                                    ]
+                                },
+                                "7692f504-9930-4651-8376-0b7697e66a66": {
+                                    "name": "博物学",
+                                    "tags": [
+                                        "动物",
+                                        "探索",
+                                        "自然科学",
+                                        "户外",
+                                        "植物"
+                                    ],
+                                    "specialization": "类地行星",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "生物学"
+                                        }
+                                    ]
+                                },
+                                "38c2a153-3782-4253-aafb-dab5b6168932": {
+                                    "name": "神秘学",
+                                    "tags": [
+                                        "魔法",
+                                        "神秘学"
+                                    ]
+                                },
+                                "03c696c7-384d-4f87-b49c-5b71845c2b0e": {
+                                    "name": "心理学",
+                                    "tags": [
+                                        "人文学科",
+                                        "社会科学"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "社会学"
+                                        }
+                                    ]
+                                },
+                                "9fc3f659-0b1c-47d4-93bf-0f1962a487ca": {
+                                    "name": "写作",
+                                    "tags": [
+                                        "艺术",
+                                        "娱乐",
+                                        "学校"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

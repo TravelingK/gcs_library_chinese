@@ -1,0 +1,104 @@
+{
+    "traits": {
+        "7fbe277c-e278-46d4-95bb-93105b66ebe9": {
+            "name": "Gurvin - Male",
+            "children": {
+                "f807b80c-def1-428e-8c50-a5756eb09a88": {
+                    "name": "Racial Primary Modifiers",
+                    "children": {
+                        "8ca3f93a-2732-4ef5-95d1-91c7fdb08a1b": {
+                            "name": "减少力量",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "53e4e01b-1e0a-477f-97ef-bea7b0068ccf": {
+                            "name": "减少智力",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "心理"
+                            ]
+                        }
+                    }
+                },
+                "68616b77-10cf-44eb-97dc-74da3f471517": {
+                    "name": "Racial Secondary Modifiers"
+                },
+                "7995821b-26ae-4d91-8641-a081d619303d": {
+                    "name": "Racial Advantages",
+                    "children": {
+                        "714eb42c-71f8-4470-af67-7b4d18af8c6b": {
+                            "name": "Sharp Claws (antlers on arms)",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "Trimmed down outside of Gurvin society.",
+                            "weapons": {
+                                "5e3343ca-7eed-4004-bdb7-988e75a149f4": {
+                                    "usage": "挥砍",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "斗殴"
+                                        },
+                                        {
+                                            "name": "拳击"
+                                        },
+                                        {
+                                            "name": "空手技击"
+                                        }
+                                    ]
+                                },
+                                "23b43a2e-32e9-4936-b4bd-9f7092efc13b": {
+                                    "usage": "Kick",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "空手技击"
+                                        },
+                                        {
+                                            "name": "斗殴"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "5e522a0f-dcfd-4191-a273-616a1c3a14a0": {
+                    "name": "Racial Disadvantages",
+                    "children": {
+                        "e744e706-42fc-4063-b44c-e6d70505153d": {
+                            "name": "缺乏好奇心",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你遇到不寻常的东西时进行一次自控检定，如果失败，你没有注意到它！",
+                            "features": [
+                                {
+                                    "situation": "对于新事物"
+                                }
+                            ]
+                        },
+                        "b66b92f1-ff10-4724-b3fa-361540a4c7b9": {
+                            "name": "思想僵化",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "你难以提出原创性的想法。你在需要创造力或发明精神的事务的检定上有 -2 减值，包括大多数艺术创作技能检定，所有用来发明的工程学技能检定，以及使用发明奇才优势的所有技能检定。"
+                        }
+                    }
+                },
+                "6b876851-006e-477a-881f-2cf2ab38c2fb": {
+                    "name": "Racial Quirks"
+                }
+            }
+        }
+    }
+}

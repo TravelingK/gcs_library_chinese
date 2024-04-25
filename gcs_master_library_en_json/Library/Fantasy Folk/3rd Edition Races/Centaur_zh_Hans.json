@@ -1,0 +1,224 @@
+{
+    "traits": {
+        "5b2329d1-5918-489c-b45b-fc87becd2354": {
+            "name": "Race: Centaur",
+            "children": {
+                "be037335-959c-4ec3-9587-a4d8e3303ac5": {
+                    "name": "Size Modifier (Large)",
+                    "features": [
+                        {
+                            "situation": "to other's intimidation skill due to your size"
+                        },
+                        {
+                            "situation": "to intimidation due to size"
+                        }
+                    ]
+                },
+                "37048756-e831-4901-93dc-ede52b24d397": {
+                    "name": "Increased Strength",
+                    "tags": [
+                        "Advantage",
+                        "Attribute",
+                        "Physical"
+                    ],
+                    "notes": "SM 1 (-10%)"
+                },
+                "0d6a36ff-f4a5-4ab8-8e96-daa05a5fd055": {
+                    "name": "Increased ST for lower body",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "notes": "Lifting only, no fine manipulators (-40%), SM 1 (-10%)"
+                },
+                "3c2e9f93-e99e-4812-9493-a74b4e1bacf4": {
+                    "name": "减少智力",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "b4f42fa4-b749-4df0-a0d9-80d322b7fc10": {
+                    "name": "Increased Health",
+                    "tags": [
+                        "Advantage",
+                        "Attribute",
+                        "Physical"
+                    ]
+                },
+                "9dcdc902-54cd-47a9-ab58-8fbf738f2bb4": {
+                    "name": "Increased Perception",
+                    "tags": [
+                        "Advantage",
+                        "Attribute",
+                        "Mental",
+                        "Physical"
+                    ]
+                },
+                "734a1992-e274-4b22-b8c0-70116a2ec4b3": {
+                    "name": "Damage Resistance (Flexible; Tough Skin)",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "notes": "Flexible (-20%, doesn't protect against crushing damage); Tough Skin (-40%, doesn't protect against touch or scratches)"
+                },
+                "6bb9c6d9-9631-4568-9589-19d05ebc7904": {
+                    "name": "Enhanced Move (Running)",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "notes": "Multiply normal Running Move by 1 + level"
+                },
+                "d2d498b5-c287-46cd-8784-c13740d26b68": {
+                    "name": "Four Legs",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ]
+                },
+                "d65b4dd6-8b0f-41f2-b585-4ffec6e9bc09": {
+                    "name": "Hooves",
+                    "tags": [
+                        "Advantage",
+                        "Physical"
+                    ],
+                    "weapons": {
+                        "1dd5ef16-e1a2-4722-8dd4-5a45c3c6c75b": {
+                            "usage": "Trample",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Brawling"
+                                },
+                                {
+                                    "name": "Karate"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "5cf19fa8-319b-4083-946a-e74a7f45a51c": {
+                    "name": "自负",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "notes": "如果 GM 认为人物过于谨慎，可能要求人物进行自我控制检定，如果检定失败，人物不再畏缩不前，就像你能解决问题一样！",
+                    "features": [
+                        {
+                            "situation": "来自年青幼稚的人，他们相信你的吹牛"
+                        },
+                        {
+                            "situation": "来自老练的 NPC"
+                        }
+                    ]
+                },
+                "c1c3224d-968d-4950-bbc3-88fafd8434a9": {
+                    "name": "幽闭恐惧症（封闭空间）",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "notes": "当你看不到天空——或者至少有非常高的天花板——的时候，你感到不舒服。当你在小房间或是载具里面的时候，你感觉墙壁在压过来......你需要透气！对于那些要到地下去的人，这是个危险的恐惧症。"
+                },
+                "b48eba75-1f36-4d6a-983e-34351fd33257": {
+                    "name": "Stubbornness",
+                    "tags": [
+                        "Disadvantage",
+                        "Mental"
+                    ],
+                    "features": [
+                        {
+                            "situation": "from others"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "skills": {
+        "5291d62a-540f-4a56-bf90-39e27f80932c": {
+            "name": "Race: Centaur",
+            "children": {
+                "a476080e-5e5d-42d9-ad06-303a68a85e46": {
+                    "name": "驯兽",
+                    "tags": [
+                        "动物"
+                    ],
+                    "specialization": "马科动物"
+                },
+                "14172c4e-9c49-495b-8cfa-62f03101b7d9": {
+                    "name": "跳跃",
+                    "tags": [
+                        "运动"
+                    ]
+                },
+                "d49f9294-4053-4a55-a42a-17f9bc217b0a": {
+                    "name": "跑步",
+                    "tags": [
+                        "运动"
+                    ]
+                },
+                "bbb0af30-d36d-4f55-b7de-6e60210b5bfb": {
+                    "name": "生存",
+                    "tags": [
+                        "探索",
+                        "户外"
+                    ],
+                    "specialization": "平原",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "博物学"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "极地"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "沙漠"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "岛屿/海滩"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "丛林"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "山地"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "沼泽"
+                        },
+                        {
+                            "name": "生存",
+                            "specialization": "林地"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "notes": {
+        "892ad0cd-ae7d-4f73-8d7b-3b4b79bb8582": {
+            "text": "Race: Centaur",
+            "children": {
+                "f5fe9e1e-629f-407f-99df-0713dec97699": {
+                    "text": "Centaurs have the head, torso and arms of a human and the body, legs and tail of a horse.  Their upper bodies are somewhat larger than a normal human's (height is 8\" more than usual, weight is 8 times normal).  They have very little hair on their upper bodies, though their females often have long silky tresses.  Centaur sages customarily shave their heads. Their lower bodies can be black, brown, grey, dappled, strawberry or even palomino.  Centaurs have no nudity taboo, but often wear clothing on their vulnerable human half for protection, warmth or decoration.  For some reason they seldom wear hats.  They never wear anything on their lower bodies (except, perhaps, a blanket when it's *very* cold).  The thought of wearing a saddle, harness or yoke is particularly odious to a Centaur."
+                }
+            }
+        }
+    }
+}

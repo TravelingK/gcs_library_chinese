@@ -1,0 +1,227 @@
+{
+    "traits": {
+        "ecad0834-f3b7-4ff2-a99d-6997e92b77e6": {
+            "name": "Construction",
+            "children": {
+                "ded62c99-4c09-4f1f-83eb-545568ad136e": {
+                    "name": "天赋（能工巧匠）",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "天赋"
+                    ],
+                    "modifiers": {
+                        "f2eafc73-9b5f-42f3-9202-4d162ec64aae": {
+                            "name": "Reaction Bonus",
+                            "notes": "Any employer"
+                        }
+                    },
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "军械修造"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "木艺"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "电气技师"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "电子维修"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "工程学"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "机工"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "石工"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "机修"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "金属加工"
+                            }
+                        }
+                    ]
+                },
+                "910ba593-d683-46e5-bde1-706fdf028324": {
+                    "name": "Equipment Bond (@any one tool kit or construction vehicle@)",
+                    "tags": [
+                        "Perk",
+                        "生理"
+                    ]
+                }
+            }
+        }
+    },
+    "skills": {
+        "992d3d3b-5925-49d5-a9ab-d1c35e4110a6": {
+            "name": "Construction",
+            "children": {
+                "c795c4e4-13f3-445f-b851-11f1429f6feb": {
+                    "name": "建筑学",
+                    "tags": [
+                        "设计",
+                        "发明"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "民间工程"
+                        }
+                    ]
+                },
+                "d6ef9fdb-1b3b-4f01-a4d7-4e2c6dd60796": {
+                    "name": "破门",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ]
+                },
+                "511c3d79-4259-4aca-ab0b-8bbd0e7fe0e3": {
+                    "name": "Two of",
+                    "children": {
+                        "ac3a2a8d-d52d-44ce-997f-8efbffaa4219": {
+                            "name": "木艺",
+                            "tags": [
+                                "工艺"
+                            ]
+                        },
+                        "ff68aa84-9702-41a9-9f5d-eddb03f96316": {
+                            "name": "石工",
+                            "tags": [
+                                "工艺"
+                            ]
+                        },
+                        "488e0043-b363-4593-af95-2ea80e4920e7": {
+                            "name": "电气技师",
+                            "tags": [
+                                "维护",
+                                "修理"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "工程学",
+                                    "specialization": "电气"
+                                }
+                            ]
+                        },
+                        "75e05a72-8044-40c0-aad8-6e91edc1ad14": {
+                            "name": "机工",
+                            "tags": [
+                                "维护",
+                                "修理"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "机修"
+                                }
+                            ]
+                        },
+                        "1a47f4b2-d2a1-4ba1-b2ab-8d9dc9dfc4d5": {
+                            "name": "机修",
+                            "tags": [
+                                "维护",
+                                "修理"
+                            ],
+                            "specialization": "@机械种类@",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "工程学",
+                                    "specialization": "空天飞机"
+                                },
+                                {
+                                    "name": "机工"
+                                },
+                                {
+                                    "name": "机修"
+                                }
+                            ]
+                        },
+                        "b8e0dd05-5aa8-4dea-8dfa-2c8e8d35cfaa": {
+                            "name": "工程学",
+                            "tags": [
+                                "设计",
+                                "工程学",
+                                "发明"
+                            ],
+                            "specialization": "战斗",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "数学"
+                                        },
+                                        "specialization": {
+                                            "qualifier": "应用"
+                                        }
+                                    }
+                                ]
+                            },
+                            "defaults": [
+                                {
+                                    "name": "Explosives",
+                                    "specialization": "爆破"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "988ac71b-9f5b-4425-9e9b-0f78efb4c9de": {
+                    "name": "One of",
+                    "children": {
+                        "eb8562f4-c25c-403e-8e5e-25a03522936e": {
+                            "name": "地域知识",
+                            "tags": [
+                                "常识",
+                                "知识"
+                            ],
+                            "notes": "所有重要商行、街道、市民、领导等。",
+                            "specialization": "@City or tunnels under a city@",
+                            "defaults": [
+                                {
+                                    "name": "地理学",
+                                    "specialization": "@分支@"
+                                }
+                            ]
+                        },
+                        "563c2f0b-de18-46c7-bd6f-9f6a1c0b2c15": {
+                            "name": "城市生存",
+                            "tags": [
+                                "犯罪",
+                                "警察",
+                                "街头"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

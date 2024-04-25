@@ -1,0 +1,140 @@
+{
+    "traits": {
+        "f7adb5e0-e36c-4f25-b704-2d353946cb36": {
+            "name": "Race: Dark Elf (Yrth)",
+            "children": {
+                "8e3f30b5-950d-4233-bdcb-f9e57f2a8852": {
+                    "name": "减少力量",
+                    "tags": [
+                        "属性",
+                        "劣势",
+                        "生理"
+                    ]
+                },
+                "b50d2834-9ad0-4483-b22c-01d78e5710fa": {
+                    "name": "增加敏捷",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "f8f8229c-f141-4b92-9a3e-7cac6606eb21": {
+                    "name": "增加智力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理"
+                    ]
+                },
+                "772ebc94-cd8f-4ac4-a18b-f4590f03e716": {
+                    "name": "外貌（有吸引力的）",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "7ddae5ca-ec6b-423d-a4de-94969906f8e2": {
+                            "name": "通用",
+                            "notes": "Reaction modifier applies regardless of race"
+                        }
+                    },
+                    "features": [
+                        {
+                            "situation": "from others who see your looks"
+                        }
+                    ]
+                },
+                "8c7b3c9f-0086-42bf-9de4-3adb8301c552": {
+                    "name": "魔法天赋",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "超自然"
+                    ],
+                    "features": [
+                        {},
+                        {
+                            "name": {
+                                "qualifier": "魔导学"
+                            }
+                        }
+                    ]
+                },
+                "834be44f-7e04-46cc-b965-1fe211016b4e": {
+                    "name": "冷酷无情",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "心理学"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "教学"
+                            }
+                        },
+                        {
+                            "situation": "来自过去的受害者以及任何具有共情的角色"
+                        },
+                        {
+                            "situation": "对于恐吓和折磨的手段来进行的审讯和威吓技能检定"
+                        }
+                    ]
+                },
+                "988d5935-e93f-4852-af33-132a11a9feb5": {
+                    "name": "Intolerance (Total)",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "来自感受到你的歧视的对象（最高到 -5，GM 决定）"
+                        }
+                    ]
+                },
+                "f2edcc76-0485-41f4-95c8-7783bc72acc2": {
+                    "name": "Obsession (Destroy or totally control all non-elves)",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ],
+                    "notes": "Make a self-control roll whenever it would be wise to deviate from your goal. If you fail, you continue to pursue your Obsession, regardless of the consequences."
+                },
+                "a1cb7368-3d62-4e9d-a26a-694dab74d1eb": {
+                    "name": "Skill bonus (Bow)",
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "弓术"
+                            }
+                        }
+                    ]
+                },
+                "0bc6eff8-b4a9-470b-929a-196ee9cb6bdb": {
+                    "name": "Select if unaging",
+                    "children": {
+                        "7eb8cd80-5340-41f2-8191-97c74e9213de": {
+                            "name": "不老",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "notes": {
+        "55c41ed7-ea3a-48d1-83a8-6e1004c4f212": {
+            "text": "Elf racial template from GURPS Banestorm"
+        }
+    }
+}

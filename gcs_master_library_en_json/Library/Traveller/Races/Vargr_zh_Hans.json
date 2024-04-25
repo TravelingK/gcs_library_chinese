@@ -1,0 +1,408 @@
+{
+    "traits": {
+        "7fbe277c-e278-46d4-95bb-93105b66ebe9": {
+            "name": "Vargr",
+            "children": {
+                "f807b80c-def1-428e-8c50-a5756eb09a88": {
+                    "name": "Racial Primary Modifiers",
+                    "children": {
+                        "4daea93f-aaaa-4d31-b98f-625321c159d2": {
+                            "name": "减少力量",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "f21dd890-b484-4bfe-9f8e-05ea77fe5701": {
+                            "name": "增加敏捷",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "26b39aca-fc45-404a-9dbd-be0e55323b67": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        }
+                    }
+                },
+                "7995821b-26ae-4d91-8641-a081d619303d": {
+                    "name": "Racial Advantages",
+                    "children": {
+                        "4e1f0f4e-0f30-40ab-aee1-4c6537bc07eb": {
+                            "name": "伤害减免",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "aa534627-ddc2-49dd-8c72-ab07fe2a4998": {
+                                    "name": "Force Field"
+                                },
+                                "717179c2-b24b-4b4c-bdce-d54e33ba26c7": {
+                                    "name": "硬化"
+                                },
+                                "bdd132ba-39b2-4f9b-838e-e6ac050e0ec3": {
+                                    "name": "吸收",
+                                    "notes": "增强@特质@"
+                                },
+                                "bde7aef0-4c5b-44a0-9a79-300132226eee": {
+                                    "name": "吸收",
+                                    "notes": "仅治疗"
+                                },
+                                "b3bd92aa-632e-430c-8c1a-1d61498001f6": {
+                                    "name": "吸收",
+                                    "notes": "增强任意特质"
+                                },
+                                "ac75eab1-0de2-45a9-8f15-c43e30f562c4": {
+                                    "name": "反射"
+                                },
+                                "93886e7d-113f-4616-bf59-9335ae5ade81": {
+                                    "name": "祸根",
+                                    "notes": "@罕见@"
+                                },
+                                "199168c3-58be-4534-a344-fde651fe2e05": {
+                                    "name": "祸根",
+                                    "notes": "@偶见@"
+                                },
+                                "01f44da8-3c5f-4b11-bf55-90b97b67c10a": {
+                                    "name": "祸根",
+                                    "notes": "@常见@"
+                                },
+                                "06ef562f-85bc-4a13-9931-79bd40c2df6c": {
+                                    "name": "祸根",
+                                    "notes": "@非常常见@"
+                                },
+                                "ae92a1ca-eed7-4671-a79b-d0d72effba7a": {
+                                    "name": "定向",
+                                    "notes": "前方"
+                                },
+                                "d287217e-f56a-4298-a80c-7372813d830b": {
+                                    "name": "柔性"
+                                },
+                                "a77e1c0f-33b6-427c-b727-ad36f6e6f6ad": {
+                                    "name": "限制",
+                                    "notes": "@很常见攻击类型@"
+                                },
+                                "edb9315e-f50d-4341-987f-65ecdf999f15": {
+                                    "name": "半剥离"
+                                },
+                                "62c3a5c5-4846-4441-b16d-320045746537": {
+                                    "name": "无法穿着护甲"
+                                },
+                                "0362471d-fc49-4da1-8308-93dcf7ebbe1a": {
+                                    "name": "定向",
+                                    "notes": "@方向：后方、左、右、上、下@"
+                                },
+                                "e773e78c-beea-4e30-9864-15f89bf3436c": {
+                                    "name": "限制",
+                                    "notes": "@常见攻击类型@"
+                                },
+                                "0ca9c323-b1fc-414f-ac3a-f81599dec990": {
+                                    "name": "硬皮",
+                                    "notes": "任何只需要接触皮肤的影响忽略此 DR"
+                                },
+                                "649b697d-c931-4dae-a401-bb0d739ffa93": {
+                                    "name": "限制",
+                                    "notes": "@偶见攻击类型@"
+                                },
+                                "0410c265-c5c2-40d3-9d83-8369562bac5a": {
+                                    "name": "剥离"
+                                },
+                                "987eb463-a960-4598-b487-e9bed88b46e0": {
+                                    "name": "限制",
+                                    "notes": "@罕见攻击类型@"
+                                },
+                                "632ebfa8-cffd-4cce-9cbb-fd4a96791b46": {
+                                    "name": "叠层"
+                                },
+                                "c53bc1ed-7bd7-4ac0-93fa-f04d2978b19d": {
+                                    "name": "咒术防御"
+                                },
+                                "01874e2e-f091-4fdd-a878-511db9526bb3": {
+                                    "name": "仅限咒术"
+                                },
+                                "48c997a7-41ca-40a3-8954-a3a2568f36fc": {
+                                    "name": "部分（@部位，每攻击部位调整值 1 等级，躯干在一个等级上 -10% @）"
+                                }
+                            }
+                        },
+                        "eb3f27e0-018f-484a-85c8-ddd78c500df2": {
+                            "name": "皮毛",
+                            "tags": [
+                                "异种",
+                                "Perk",
+                                "生理"
+                            ]
+                        },
+                        "3ce45e47-7af7-4d75-b082-f2b18bc3d4b7": {
+                            "name": "利齿",
+                            "tags": [
+                                "异种",
+                                "Perk",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "c9f31d6c-c489-40c4-9f10-048fa3b9c937": {
+                                    "name": "被吸血鬼之咬提供"
+                                }
+                            },
+                            "weapons": {
+                                "b42527e9-a05b-437b-bd7c-4b2b5a50108a": {
+                                    "usage": "啃咬",
+                                    "defaults": [
+                                        {
+                                            "name": "斗殴"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "cd5ba52b-1403-4e5b-a1c1-d908f19b0001": {
+                            "name": "钝爪",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "weapons": {
+                                "c824b8d5-a7fe-4efb-bc85-fdf59800dc74": {
+                                    "usage": "Punch",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "斗殴"
+                                        },
+                                        {
+                                            "name": "拳击"
+                                        },
+                                        {
+                                            "name": "空手技击"
+                                        }
+                                    ]
+                                },
+                                "fbfcb800-9a88-4fc1-ae24-42e29d6ba54d": {
+                                    "usage": "Kick",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "斗殴"
+                                        },
+                                        {
+                                            "name": "空手技击"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "8c77a281-8321-4f47-9a88-9d5ae7bf3801": {
+                            "name": "Enhanced Move (Ground)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "notes": "Multiply normal running Move by 1 + level",
+                            "modifiers": {
+                                "7d052a1f-ce7d-4d7f-a179-c9e9bf17324f": {
+                                    "name": "操纵性加值"
+                                },
+                                "74542e07-721d-4624-a06a-787a85313124": {
+                                    "name": "操纵性减值"
+                                },
+                                "3d0901b7-7338-4613-9fde-7aefa6f4fb7a": {
+                                    "name": "牛顿力学"
+                                },
+                                "0bea77c4-47b1-4b08-b575-76fcb3e463c7": {
+                                    "name": "依赖道路"
+                                },
+                                "4984f4d7-d82a-4be6-a045-8b03ef74637d": {
+                                    "name": "全力"
+                                },
+                                "ad5e3571-4cad-4b1a-b2ed-b583ab3419db": {
+                                    "name": "超元",
+                                    "notes": "瞬间加速"
+                                },
+                                "90c4bfdc-9707-4bdd-8ec0-832bb2f7a641": {
+                                    "name": "超元",
+                                    "notes": "完全机动性"
+                                },
+                                "da6375bb-7382-4bfe-badf-7b1fb836adc5": {
+                                    "name": "Ground; Fatigues after 5 seconds instead of 15"
+                                }
+                            }
+                        },
+                        "5b59a6b9-c5a6-44b8-b6e9-532536db3b72": {
+                            "name": "敏锐味觉和嗅觉",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "ee4d2c9b-08ca-433a-9be4-53a746789594": {
+                            "name": "增加感知",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理",
+                                "生理"
+                            ]
+                        },
+                        "e562963f-623d-403b-9f62-a76c47ccaaa8": {
+                            "name": "敏锐视觉",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "5e522a0f-dcfd-4191-a273-616a1c3a14a0": {
+                    "name": "Racial Disadvantages",
+                    "children": {
+                        "f7d66af0-6c65-46d2-b850-e7047d1acda9": {
+                            "name": "Reputation",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "notes": "Vargr have a universal repulation as chaotic, easily swayed and potentially disloyal.",
+                            "modifiers": {
+                                "fece18d3-5a11-496e-9466-aebb046ebcb1": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人"
+                                },
+                                "d97292f2-73b6-49e9-bc09-f7dbc14c748f": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人，刨去@一大群人@"
+                                },
+                                "df79825f-4630-4bab-849a-febccdc765c3": {
+                                    "name": "影响人群",
+                                    "notes": "@一大群人@"
+                                },
+                                "24cc8d81-e1d8-48b4-8780-93dd32b63994": {
+                                    "name": "影响人群",
+                                    "notes": "@一小群人@"
+                                },
+                                "ecff3d44-a04a-40da-8c02-4f2fc6c17b2d": {
+                                    "name": "总是有人认识"
+                                },
+                                "b9ae7040-4649-4db5-a20e-84a4aa3c8d04": {
+                                    "name": "有时候有人认识",
+                                    "notes": "10-"
+                                },
+                                "af17ef74-d82b-4898-af5e-bf6ca1d488a0": {
+                                    "name": "偶尔有人认识",
+                                    "notes": "7-"
+                                }
+                            }
+                        },
+                        "34473aed-8478-458c-9744-0138583856f2": {
+                            "name": "减少生命值",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "8632e262-4968-4512-a813-f27bfa465b2d": {
+                            "name": "减少体力值",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "d195d8f9-6b75-49b4-a9c6-6d2d4df18b25": {
+                            "name": "不善掩饰",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "Gives others +4 on all Empathy, Body Language, and Psychology rolls to discern your intentions or the truth of your words. They also get +4 to their IQ, Detect Lies, and Gambling rolls in any Quick Contest with your Acting, Fast-Talk, or Gambling skill when you try to lie or bluff."
+                        },
+                        "8987e9b0-4b3a-48f1-b866-9465d4455853": {
+                            "name": "好奇",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "在遇到有趣的物品或情况时进行一个自控检定"
+                        },
+                        "031ddd75-ba3d-4eda-9a4e-11566c2fe084": {
+                            "name": "期待陪伴",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "-1 to IQ-based skills when alone",
+                            "features": [
+                                {
+                                    "situation": "对于其他人"
+                                }
+                            ]
+                        },
+                        "637090cc-4ee1-4b63-b2e4-9920a4bddbfc": {
+                            "name": "Legs (unless a foe is prone and the Vargr standing, in which case they can\nstamp downward)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "3806d529-ade0-4926-aad9-bf4ab9656bad": {
+                                    "name": "@3 或 4@"
+                                },
+                                "67b7119e-2119-4822-b1cc-d21638e92964": {
+                                    "name": "@5 或 6@"
+                                },
+                                "28d92732-2bf7-4c5c-b239-9f22f35d7f1f": {
+                                    "name": "@7+@"
+                                },
+                                "4186bae7-37dc-4c9f-9dac-49a3ca514a5a": {
+                                    "name": "最大"
+                                },
+                                "ddacd0f3-ac80-41fa-b6d9-f35c9fcee056": {
+                                    "name": "不能踢击"
+                                },
+                                "02cf33c9-39ab-40eb-83bf-2c77ed0da786": {
+                                    "name": "非常灵活"
+                                },
+                                "e388ffdb-e0ef-4bad-b401-030bd1cd493b": {
+                                    "name": "可抓握足部"
+                                }
+                            }
+                        }
+                    }
+                },
+                "6b876851-006e-477a-881f-2cf2ab38c2fb": {
+                    "name": "Racial Quirks",
+                    "children": {
+                        "a0e4d325-917d-4d10-a13d-7464a9d8e111": {
+                            "name": "Heavily influenced by Pack Reputation",
+                            "tags": [
+                                "心理",
+                                "Quirk"
+                            ]
+                        },
+                        "97e6cbaf-a3d8-4e7a-9f2c-dce50db5d03c": {
+                            "name": "傲慢",
+                            "tags": [
+                                "心理",
+                                "Quirk"
+                            ],
+                            "features": [
+                                {
+                                    "situation": "对于遭遇命令，侮辱，或社会蔑视"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

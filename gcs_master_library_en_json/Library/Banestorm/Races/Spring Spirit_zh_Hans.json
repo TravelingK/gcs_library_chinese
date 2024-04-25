@@ -1,0 +1,417 @@
+{
+    "traits": {
+        "599a05c2-16bd-4a4f-a01d-d47b2848b1bd": {
+            "name": "Spring Spirit",
+            "children": {
+                "b4427ddd-ffa9-45ce-bd79-3efb9769d949": {
+                    "name": "Attributes",
+                    "children": {
+                        "759a5493-c559-49a3-93db-74aa4584c3f3": {
+                            "name": "减少智力",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "e7cd81ca-1996-4a5e-8ead-de0935e39dcf": {
+                            "name": "减少力量",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "c88b8fbb-583d-47d5-8f8d-2f4584745bcc": {
+                            "name": "增加敏捷",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "8923142d-44d0-42b2-b2c1-05e5ca24f9e1": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        },
+                        "48dbf06c-b989-4e2d-81e4-43d70122f7e8": {
+                            "name": "额外体力值",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "36aa589b-72fe-4805-a48e-e5fe7f182ad3": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "39607a40-9e3d-40ee-8bcf-0a5744a89620": {
+                            "name": "增加感知",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理",
+                                "生理"
+                            ]
+                        },
+                        "8a9391ce-5b44-4548-9e5f-ac2dd6697a1c": {
+                            "name": "增加意志",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        }
+                    }
+                },
+                "3dff7c5d-0b14-4f6f-8170-31ec2b207153": {
+                    "name": "Racial Advantage",
+                    "children": {
+                        "78f46c43-9ece-4f5a-b6b9-a060d5ba7964": {
+                            "name": "探测",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "心理",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "0692a2d2-1df8-486f-9791-cfa8825e3b70": {
+                                    "name": "@稀有物质或状况@"
+                                },
+                                "f6c3545e-009a-48fc-bfe3-ba2256b4a178": {
+                                    "name": "@时常出现物质或状况@"
+                                },
+                                "1abd8bf7-1bc1-4118-a7e6-6cf3170a8a48": {
+                                    "name": "Impurities in water, including poison"
+                                },
+                                "e6c2f0b5-eabb-43dc-9b4b-91e4e3f5ae2d": {
+                                    "name": "@非常常见物质或状况@"
+                                },
+                                "4aec4cc8-cd64-4ce6-b6bb-9d455c35ed02": {
+                                    "name": "精准"
+                                },
+                                "67f10f07-d3a6-484c-bc17-99e19fc4b8ae": {
+                                    "name": "信号检测"
+                                },
+                                "2b6ea9b8-a08a-4b7e-83d9-4c1445fa954b": {
+                                    "name": "模糊"
+                                },
+                                "c53ad8ec-14c7-4e28-b847-4ca1de062450": {
+                                    "name": "分析"
+                                }
+                            }
+                        },
+                        "c928f684-bc8e-4dcd-8488-99824a43e083": {
+                            "name": "治疗",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "ae56af32-44d5-42e8-9281-f199fd14faea": {
+                                    "name": "信仰治疗"
+                                },
+                                "e35dda93-3e92-4eff-9952-e0aa12803c17": {
+                                    "name": "异种治疗",
+                                    "notes": "所有哺乳动物"
+                                },
+                                "a60b62f4-6322-41ba-af4a-3e7b1502dba6": {
+                                    "name": "异种治疗",
+                                    "notes": "All life on Yrth"
+                                },
+                                "7b898749-54bf-4153-92b9-b8467b3745a6": {
+                                    "name": "异种治疗",
+                                    "notes": "所有碳基生物"
+                                },
+                                "e612939d-13cc-404b-be80-e197488cc856": {
+                                    "name": "异种治疗",
+                                    "notes": "任何活物"
+                                },
+                                "ed5e202a-6caa-4a74-8897-959755c0051d": {
+                                    "name": "异种治疗",
+                                    "notes": "随便什么"
+                                },
+                                "b4c39359-6d21-464c-a427-97635f8f9143": {
+                                    "name": "仅限疾病"
+                                },
+                                "238ed16a-0d81-423d-a37f-1c216e955b09": {
+                                    "name": "仅限损伤"
+                                },
+                                "119f82e8-b838-4e1c-a500-71c68897700b": {
+                                    "name": "仅限自己的种族"
+                                },
+                                "f56d3b43-45bd-46a0-b19b-d4ca8e5493e0": {
+                                    "name": "心灵治疗"
+                                },
+                                "5c1065a5-375a-4421-b706-9513d7ac83dc": {
+                                    "name": "影响自身"
+                                },
+                                "cf8b48e7-d9ed-491a-81b5-2b53e47cdca9": {
+                                    "name": "治愈特效"
+                                },
+                                "80eb28f7-32bf-41ff-a2e4-87b622c9fd2f": {
+                                    "name": "仅限特效"
+                                },
+                                "336f1b77-30dc-4fa6-95c2-50205f263728": {
+                                    "name": "上限",
+                                    "notes": "2 FP"
+                                },
+                                "e2938cf7-961d-418c-abb5-15cda32769be": {
+                                    "name": "上限",
+                                    "notes": "4 FP"
+                                },
+                                "e17b1d32-7ce0-4d5b-a255-fba39de4c3de": {
+                                    "name": "上限",
+                                    "notes": "6 FP"
+                                },
+                                "f0099e08-87d4-494f-b17e-a80d5056b42e": {
+                                    "name": "上限",
+                                    "notes": "8 FP"
+                                },
+                                "bf80c8a8-09af-49c3-973c-9e63aba8f6e5": {
+                                    "name": "上限",
+                                    "notes": "10 FP"
+                                },
+                                "c82873f7-a9d4-4a95-acdb-b550214c7a7f": {
+                                    "name": "共感"
+                                },
+                                "7c22906a-3d69-47ee-bd8c-26be6a10c85a": {
+                                    "name": "Disorders of the blood or bladder only"
+                                }
+                            }
+                        },
+                        "8eba7b9f-9f62-483e-b963-fe5543cd3d6a": {
+                            "name": "昭示",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "超自然"
+                            ],
+                            "modifiers": {
+                                "85979ba9-0a1d-4bef-b6e8-5ae752799f69": {
+                                    "name": "启示"
+                                },
+                                "5fa248cb-f2d7-4be7-ad0f-5cbe6e77f22d": {
+                                    "name": "Only regarding events near bodies of water"
+                                }
+                            }
+                        },
+                        "736372bb-dc91-459f-9e22-1a6a67518e52": {
+                            "name": "Meta-Trait: Spirit",
+                            "children": {
+                                "a824acfd-ed05-4e13-8cd3-2aeb6a96d97d": {
+                                    "name": "无需呼吸",
+                                    "tags": [
+                                        "异种",
+                                        "生理"
+                                    ]
+                                },
+                                "677482a8-96b8-4d85-9bb7-629e2f07d6a9": {
+                                    "name": "无需饮食",
+                                    "tags": [
+                                        "异种",
+                                        "生理"
+                                    ]
+                                },
+                                "8f64b78e-5672-4e1d-83e2-f95b11f15f1f": {
+                                    "name": "无需睡眠",
+                                    "tags": [
+                                        "异种",
+                                        "生理"
+                                    ]
+                                },
+                                "654d82f6-31ae-479b-8ea3-6831805448a4": {
+                                    "name": "Insubstantiality (Affect Substantial, Usually On)",
+                                    "tags": [
+                                        "异种",
+                                        "心理",
+                                        "生理"
+                                    ]
+                                },
+                                "dce2bd8d-acd2-4de8-b2ca-8bed22ceec9a": {
+                                    "name": "Invisibility (Substantial Only, Usually On)",
+                                    "tags": [
+                                        "异种",
+                                        "心理",
+                                        "生理"
+                                    ]
+                                },
+                                "c37e60a9-3088-433d-a839-b75b7cdaba08": {
+                                    "name": "Resistant (Immunity to Metabolic Hazards)",
+                                    "tags": [
+                                        "生理"
+                                    ]
+                                },
+                                "fd35f6ce-d735-4624-afce-426b54abb7a4": {
+                                    "name": "不老",
+                                    "tags": [
+                                        "异种",
+                                        "生理"
+                                    ]
+                                }
+                            }
+                        },
+                        "08e73276-423e-400f-ab29-18aa03875ea3": {
+                            "name": "念动力",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "心理",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "66953519-e099-47eb-882f-33d609e2a91f": {
+                                    "name": "磁性"
+                                },
+                                "bb83c944-d675-4e06-96aa-83b802396fb6": {
+                                    "name": "视点可见"
+                                },
+                                "47a228fd-264e-421c-ac9b-f50abc9b885b": {
+                                    "name": "超级出力"
+                                },
+                                "a1e542b3-093a-4907-9ac5-2b88e74abaf7": {
+                                    "name": "活化"
+                                },
+                                "1bba966b-c855-4c14-a847-9a724bd2993f": {
+                                    "name": "活化",
+                                    "notes": "无法飞行"
+                                },
+                                "170a95c2-47ee-4f3c-993f-9f05c6418934": {
+                                    "name": "引力"
+                                },
+                                "65e5c85e-491c-4e37-9983-fb5ad8a54017": {
+                                    "name": "斥力"
+                                },
+                                "3956b5d0-b75d-4fa5-87db-e4dc216eae3d": {
+                                    "name": "引力/斥力"
+                                },
+                                "f0d2c7ab-7b2c-4caa-9ef4-fc212892bf64": {
+                                    "name": "仅限举力"
+                                },
+                                "590740f0-94b7-4ac4-ae17-5638c5a61bb6": {
+                                    "name": "仅限移动力"
+                                },
+                                "4d6c6aae-0ba5-4a4f-8af6-e8a867f5626a": {
+                                    "name": "活化活体"
+                                },
+                                "7b476800-4449-45b3-8ea5-6f4d394f93ba": {
+                                    "name": "活化活体",
+                                    "notes": "部分"
+                                },
+                                "da7a2cc3-bae8-42ca-8bfb-7ad8afd296fe": {
+                                    "name": "超级伤害"
+                                },
+                                "bdc277dc-6d85-4ac6-96a6-5371de4d86f4": {
+                                    "name": "Water only"
+                                }
+                            }
+                        },
+                        "2f2919cb-b3b5-4a5f-81e3-1460cdc8aeef": {
+                            "name": "温度控制",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "心理",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "8e002674-e7cc-4509-81a9-3e77f291f8b9": {
+                                    "name": "冷冻"
+                                },
+                                "a2908fde-3bdd-4fd8-99b0-9ae0687e1030": {
+                                    "name": "高温"
+                                },
+                                "17a1cac1-93c6-48fd-a90e-3cd400513624": {
+                                    "name": "Affects water, never air"
+                                }
+                            }
+                        }
+                    }
+                },
+                "1d6a0bfc-8273-46e9-99e7-67ccd75cea15": {
+                    "name": "Racial Disadvantage",
+                    "children": {
+                        "1814bc90-ad52-41b9-85f7-f6739c88de8f": {
+                            "name": "Dependency (Water from its specific spring)",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "3a643582-c447-412a-982e-cda4f9ac7403": {
+                                    "name": "稀有度：稀有"
+                                },
+                                "e28e207e-55f6-4610-be31-45b31b4d21d3": {
+                                    "name": "稀有度：不常见"
+                                },
+                                "877e9ca1-b1b0-4458-aef0-cce8effc19df": {
+                                    "name": "稀有度：普遍"
+                                },
+                                "5e9be294-4985-429b-ac11-bc0a35e360da": {
+                                    "name": "稀有度：很普遍"
+                                },
+                                "9677b127-a65f-4766-b427-1aeddbaa42bf": {
+                                    "name": "非法"
+                                },
+                                "0b9e60f8-b0a0-49c5-b92a-812fc8ed30b3": {
+                                    "name": "频率：不断地",
+                                    "notes": "在没有这种物质的每一分钟里失去 1 点 HP"
+                                },
+                                "9fe51b10-8a13-4223-92e5-8b190e14d953": {
+                                    "name": "频率：每小时",
+                                    "notes": "在没有保证每小时剂量的每 10 分钟里失去 1 点 HP"
+                                },
+                                "bd195b10-1446-4c58-bd32-64ed2388e8e6": {
+                                    "name": "频率：每日",
+                                    "notes": "在没有保证每日剂量的每小时里失去 1 点 HP"
+                                },
+                                "913c566b-71a2-43af-a328-03c0c9791d8d": {
+                                    "name": "频率：每周",
+                                    "notes": "在没有保证每周剂量的每六小时里失去 1 点 HP"
+                                },
+                                "437921c1-a9f9-43f4-b3db-d82781d89a61": {
+                                    "name": "频率：每月",
+                                    "notes": "在没有保证每月剂量的每天里失去 1 点 HP"
+                                },
+                                "0a7ead8e-9752-46ad-8849-6a1263e86262": {
+                                    "name": "频率：每季度",
+                                    "notes": "在没有保证每季剂量的每三天里失去 1 点 HP"
+                                },
+                                "e09cccf0-a671-4e00-9c8c-3bec2956dede": {
+                                    "name": "频率：每年",
+                                    "notes": "在没有保证每年剂量的每两周里失去 1 点 HP"
+                                },
+                                "2240fce6-22ec-40c2-bce4-20538183d5a7": {
+                                    "name": "衰老",
+                                    "notes": "每因为此依赖损失 1 HP，你老化两岁"
+                                }
+                            }
+                        },
+                        "8f550969-0208-4f6d-9880-0837760ff7e1": {
+                            "name": "自我中心",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "45e573c8-60b8-4057-8325-db77238ff200": {
+                            "name": "Loves colorful crystals",
+                            "tags": [
+                                "生理"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

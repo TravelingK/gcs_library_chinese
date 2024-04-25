@@ -1,0 +1,901 @@
+{
+    "traits": {
+        "0c6ec099-4eb8-4629-88e3-7dc3e876d53c": {
+            "name": "Steam-Powered Mechanical Man",
+            "children": {
+                "c4045455-508f-47f9-981f-7617c011422e": {
+                    "name": "Attributes",
+                    "children": {
+                        "29355be8-7211-477f-b04b-f87367708714": {
+                            "name": "增加力量",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "293409af-2a15-485e-b3e6-b2d01bb9fed2": {
+                                    "name": "无操作肢"
+                                },
+                                "c7f3bf94-e9da-4250-9071-be696a671b9b": {
+                                    "name": "体型"
+                                },
+                                "351227af-f595-4d4c-952f-b5b25319e968": {
+                                    "name": "超级出力"
+                                }
+                            }
+                        },
+                        "0d7f52e6-32f0-4244-a468-b07a52afdbc8": {
+                            "name": "减少智力",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "edb095df-17a0-40e5-8a51-d0fce9e4fdd7": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "cc4789b4-e110-4afc-9e69-39cd1b2d129b": {
+                    "name": "Secondary Characteristics",
+                    "children": {
+                        "6188871a-bc9d-4e74-875b-1f513ccaf766": {
+                            "name": "增加尺寸",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "90cecf0e-c823-4cf3-bf25-adebab4a4d71": {
+                            "name": "额外生命值",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "da7aa7c7-c655-40ae-a49f-54c0ec997ad8": {
+                                    "name": "体型"
+                                },
+                                "905dbed0-d05b-4c77-b7ed-b93f48bf3fde": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        },
+                        "63cd0749-f071-4aa2-acf3-6fffe988bab9": {
+                            "name": "减少基本移动力",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "dffa81d5-c80e-4a5a-8be5-578c3f757ee3": {
+                    "name": "Advantages",
+                    "children": {
+                        "fc86dcfc-6840-40dd-99d2-136408cec226": {
+                            "name": "伤害减免",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "f885bcec-5659-429f-913a-b0a37ef7b7ff": {
+                                    "name": "Force Field"
+                                },
+                                "ea05d3f9-3d4a-42cb-8ac5-2b35565b262e": {
+                                    "name": "硬化"
+                                },
+                                "395396a7-7819-4b74-a317-712df7d955eb": {
+                                    "name": "吸收",
+                                    "notes": "增强@特质@"
+                                },
+                                "adcfd8aa-2e17-4ed6-9bdb-d019fa54adfb": {
+                                    "name": "吸收",
+                                    "notes": "仅治疗"
+                                },
+                                "3c2bda15-08c1-400f-951e-f7570e240a42": {
+                                    "name": "吸收",
+                                    "notes": "增强任意特质"
+                                },
+                                "1e9b3a61-7686-4883-9797-a187cb7a10e8": {
+                                    "name": "反射"
+                                },
+                                "293b289e-bfd7-418e-a548-f6529cdb5999": {
+                                    "name": "祸根",
+                                    "notes": "@罕见@"
+                                },
+                                "8aab22ad-d3cc-4601-a8df-0aaf136334a4": {
+                                    "name": "祸根",
+                                    "notes": "@偶见@"
+                                },
+                                "33e07f7c-d5b6-48f4-9432-719d04b09d72": {
+                                    "name": "祸根",
+                                    "notes": "@常见@"
+                                },
+                                "ed9e8cef-c5fc-4c11-a6b8-a25708a7dd45": {
+                                    "name": "祸根",
+                                    "notes": "@非常常见@"
+                                },
+                                "a4d7835c-de9a-4c44-b2a6-2bf7d268da4c": {
+                                    "name": "定向",
+                                    "notes": "前方"
+                                },
+                                "c2c80b66-12d9-4eec-a9cb-414a4254162a": {
+                                    "name": "柔性"
+                                },
+                                "01f9c631-6f45-43b2-b067-0cba6a95a097": {
+                                    "name": "限制",
+                                    "notes": "@很常见攻击类型@"
+                                },
+                                "05eb1a17-4572-4271-895d-a9082577db3d": {
+                                    "name": "半剥离"
+                                },
+                                "b924f47e-7ce4-4b9e-812f-ee8ceaac51e1": {
+                                    "name": "无法穿着护甲"
+                                },
+                                "87924f81-cefb-447c-90a1-55f5c325fb0b": {
+                                    "name": "定向",
+                                    "notes": "@方向：后方、左、右、上、下@"
+                                },
+                                "89c8f5f6-070c-4a34-b770-eaef5ed6be61": {
+                                    "name": "限制",
+                                    "notes": "@常见攻击类型@"
+                                },
+                                "8a9fe976-6055-4803-b9d9-43a845e6f477": {
+                                    "name": "硬皮",
+                                    "notes": "任何只需要接触皮肤的影响忽略此 DR"
+                                },
+                                "1fe0f0aa-aebd-4b77-bdcc-3b978678b58b": {
+                                    "name": "限制",
+                                    "notes": "@偶见攻击类型@"
+                                },
+                                "d9220699-9cba-416e-a179-be40f870858a": {
+                                    "name": "剥离"
+                                },
+                                "2b2068d7-8dcf-43ca-839b-34a3eb348deb": {
+                                    "name": "限制",
+                                    "notes": "@罕见攻击类型@"
+                                },
+                                "5318ece2-a327-4819-a70d-216b41576161": {
+                                    "name": "叠层"
+                                },
+                                "bf4166a5-dc40-4389-8ead-e5146dfae282": {
+                                    "name": "咒术防御"
+                                },
+                                "008937a8-30d4-4008-9b28-3525d22b8f64": {
+                                    "name": "仅限咒术"
+                                },
+                                "c9c026d7-5224-495a-bce5-81fb62a1f3c2": {
+                                    "name": "部分（@部位，每攻击部位调整值 1 等级，躯干在一个等级上 -10% @）"
+                                }
+                            }
+                        },
+                        "0b8d9a4c-132f-4b88-9553-c720b757d330": {
+                            "name": "无需呼吸",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "60c514eb-72b6-4063-a37a-93e0fa85b149": {
+                                    "name": "鳃"
+                                },
+                                "89f80a38-6ed1-462e-975d-9bc5c6b90f4d": {
+                                    "name": "鳃",
+                                    "notes": "在空气中窒息"
+                                },
+                                "adc44cb9-c6f8-4147-bafb-103a773d8184": {
+                                    "name": "吸收氧气"
+                                },
+                                "62d2cdd5-bcd5-4222-8b08-29c207db3d89": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 25 倍"
+                                },
+                                "04298824-bcd1-478e-ac12-64a04447762e": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 50 倍"
+                                },
+                                "1c446012-b0e6-4679-ae85-0cc156e79de7": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 100 倍"
+                                },
+                                "ccfa5f21-f506-47ce-a322-a6790a549343": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 200 倍"
+                                },
+                                "4ca25cbb-544e-4c4c-8f5d-52f2ef65d4ef": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 300 倍"
+                                },
+                                "d659c128-31ad-4f8e-9340-a016efe16232": {
+                                    "name": "燃烧氧气"
+                                }
+                            }
+                        },
+                        "e6630eda-77d8-4a0d-af66-9b0f06770edf": {
+                            "name": "无需睡眠",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "bbff7d1b-9fea-4855-901e-f82cc2dcbfec": {
+                            "name": "逼真记忆",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "2b8b0133-f1f1-4ba0-a37c-37542cf943e3": {
+                                    "name": "摄影式"
+                                }
+                            }
+                        },
+                        "a2d5df93-95cd-4116-b3c1-85a18a7c34ea": {
+                            "name": "高痛阈",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "在受伤后不会陷入休克",
+                            "features": [
+                                {
+                                    "situation": "对于避免击倒或震慑的 HT 判定"
+                                },
+                                {
+                                    "situation": "对于抵抗折磨"
+                                }
+                            ]
+                        },
+                        "5b523a34-b970-4485-b5b0-714279912d9c": {
+                            "name": "抵抗力",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "880fa40a-6187-4478-96f7-a2c7cad8ef8b": {
+                                    "name": "Mind-Affecting Effects"
+                                },
+                                "787230ee-0154-4426-977a-fb0876f057da": {
+                                    "name": "@常见：毒药，病征等@"
+                                },
+                                "f2d50599-2544-4776-9ed9-15bcac83669d": {
+                                    "name": "@偶尔：疾病，摄入的毒药等@"
+                                },
+                                "5b81854c-d42c-4556-b99d-2ee63edc871b": {
+                                    "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                                },
+                                "42018db2-6e28-4103-ac7a-eac0c61d7a5a": {
+                                    "name": "免疫力"
+                                },
+                                "99a15e43-bba1-4c2e-b640-c355c59f77ee": {
+                                    "name": "抵抗的 HT 检定 +8"
+                                },
+                                "1568fc17-bfdc-44de-9493-cc9da8ccae2f": {
+                                    "name": "抵抗的 HT 检定 +3"
+                                }
+                            }
+                        },
+                        "0c941aec-3dc8-4a97-ac9a-d2a44ee80777": {
+                            "name": "不可动摇",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "一般的言语与行为不可能对你有影响"
+                        },
+                        "3c2479b6-7063-4767-b012-1b944a9cb314": {
+                            "name": "额外举力",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "628f56fc-5039-45f5-91fb-5ae25683b660": {
+                                    "name": "无操作肢"
+                                },
+                                "8ccf63b9-adf3-43a1-aa52-c8f068328ecd": {
+                                    "name": "体型"
+                                },
+                                "3724d063-e67c-4c22-80f8-ec3897b5c40c": {
+                                    "name": "超级出力"
+                                },
+                                "266d04c8-ffee-4064-8f1d-bba5ea1bdf03": {
+                                    "name": "《了解你自己的力量》变体价格"
+                                },
+                                "dd971a73-b031-48e5-81e2-1d4644057e0f": {
+                                    "name": "@肢体@握力 ST"
+                                },
+                                "64b920be-7dc8-4987-8093-07aec2c9767f": {
+                                    "name": "啃咬 ST"
+                                }
+                            }
+                        },
+                        "23ceb4e9-3aa7-4990-8b0f-dc17b0a4e0f7": {
+                            "name": "闪电计算者",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "cf14afa6-72db-4c17-bd2c-8f9129c8a12f": {
+                                    "name": "直觉数学家"
+                                }
+                            }
+                        },
+                        "983898bc-00fc-4ac5-a1b6-31e1a912251c": {
+                            "name": "Meta-Trait: Machine",
+                            "children": {
+                                "7aa8baa5-3dec-4de2-9823-74269ed69fbe": {
+                                    "name": "Eight-hour energy reserve, Refuel 3 times per day",
+                                    "tags": [
+                                        "生理"
+                                    ]
+                                },
+                                "afce32f6-56bf-445b-949b-65ada53905b2": {
+                                    "name": "伤害耐受",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "bf025572-6f33-4705-ba06-5cfa1bd1e94b": {
+                                            "name": "弥散",
+                                            "notes": "免疫致残损伤。无法瞄准大脑、要害、胯下。大部分敌人（依 GM 决定）不能撞到或抓住你。不会流血。不会被血源性毒物影响。免疫任何通过切断你身体部分血液供应造成伤害的攻击。穿刺和贯通攻击（任何程度的）无法对它们造成比 1 HP 更严重的损伤，无论是否穿透。其他种类的攻击无法造成比 2 HP 更严重的损伤。例外：有范围效果、锥形、爆炸的攻击能正常对它们造成正常伤害"
+                                        },
+                                        "cce9e76a-8094-46cb-81ae-1c5da55e77b4": {
+                                            "name": "均质",
+                                            "notes": "更改伤害修正因子：穿刺和巨型贯通的创伤修正为 ×1/2，大型贯通 ×1/3，中型贯通 ×1/5，小型贯通则 ×1/10"
+                                        },
+                                        "ff661624-0184-4433-a450-83de92b8dfa9": {
+                                            "name": "无血",
+                                            "notes": "不会流血，不会被血源性毒物影响，并且对任何通过切断你身体部分血液供应造 成伤害的攻击免疫"
+                                        },
+                                        "b9a96c3b-f812-41c7-bbad-4db78c697f85": {
+                                            "name": "无脑",
+                                            "notes": "无法瞄准大脑，但对颅脑或眼睛造成的打击等同于打在脸上（除非此打击可以直接瘫痪你的眼部）"
+                                        },
+                                        "3a6122f8-7815-4b95-add0-3bcf48edd165": {
+                                            "name": "无眼",
+                                            "notes": "不能被攻击眼睛。免疫致盲攻击"
+                                        },
+                                        "71514f01-3d5b-4f08-b89f-e69156c986f2": {
+                                            "name": "无头",
+                                            "notes": "“颅脑”与“脸部”不能作为攻击目标"
+                                        },
+                                        "a910611c-1916-4a2c-9708-cac26a4c3a05": {
+                                            "name": "无颈",
+                                            "notes": "脖子不能够作为打击的目标，不能被斩首，呛到或绞杀"
+                                        },
+                                        "1413c073-9ead-43c6-be88-6394da115dee": {
+                                            "name": "无要害",
+                                            "notes": "对“要害”或“胯下”的攻击视为对躯干的攻击"
+                                        },
+                                        "7fff1e97-0ccc-4a88-ac94-37290cc53bc8": {
+                                            "name": "无生命",
+                                            "notes": "更改伤害修正因子：穿刺与巨型贯通的创伤修正为 ×1，大型贯通 ×1/2，中型贯通 ×1/3，小型贯通则 ×1/5"
+                                        }
+                                    }
+                                },
+                                "04fe8fb7-3287-4417-bfb6-a24679d9e447": {
+                                    "name": "No fatigue points, Don't spend fatigue points",
+                                    "tags": [
+                                        "生理"
+                                    ]
+                                },
+                                "6a92d1ce-c635-4867-9314-00ac128eee76": {
+                                    "name": "抵抗力",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "783a94da-9fcb-48f7-a7be-7718b23638da": {
+                                            "name": "新陈代谢危险"
+                                        },
+                                        "f7b3a470-1416-4608-873f-379ab2ea6aa1": {
+                                            "name": "@常见：毒药，病征等@"
+                                        },
+                                        "e82a2e12-218d-4792-9a98-e8769e06875d": {
+                                            "name": "@偶尔：疾病，摄入的毒药等@"
+                                        },
+                                        "bda5a3fa-bc30-4155-a877-fca90c8f2087": {
+                                            "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                                        },
+                                        "0bcf6d3e-52e1-4742-9872-16bda427dab5": {
+                                            "name": "免疫力"
+                                        },
+                                        "ccb94f9b-d3be-4a5f-a363-7f7a756d4a3c": {
+                                            "name": "抵抗的 HT 检定 +8"
+                                        },
+                                        "480627f5-78ad-4fcc-afe6-9dccfe69782e": {
+                                            "name": "抵抗的 HT 检定 +3"
+                                        }
+                                    }
+                                },
+                                "f86894b9-440d-4bf3-b353-9e08e3b02d4d": {
+                                    "name": "无法治愈（完全）",
+                                    "tags": [
+                                        "劣势",
+                                        "异种",
+                                        "生理"
+                                    ]
+                                },
+                                "28eb78a9-947b-41fe-84dc-3211840303c3": {
+                                    "name": "Wears out instead of aging",
+                                    "tags": [
+                                        "生理"
+                                    ]
+                                }
+                            }
+                        },
+                        "46408483-5bc2-48a4-b3b1-529c4f5b3359": {
+                            "name": "逼真记忆",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "8c252b3c-a362-41d2-aba6-21b830b230f7": {
+                                    "name": "摄影式"
+                                }
+                            }
+                        },
+                        "27aba44b-e081-4eb6-8772-0aa4b3ed7753": {
+                            "name": "专心致志",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "+3 to rolls for any lengthy mental task you concentrate on to the exclusion of other activities, if the GM feels such focus would be beneficial. You tend to ignore everything else while obsessed and have -5 to all rolls to notice interruptions."
+                        },
+                        "09252870-1f6d-4c56-b0bb-ffc8163aa619": {
+                            "name": "无所惊扰",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "你不用投恐惧检定，反应修正值对于你来说也几乎无效。",
+                            "modifiers": {
+                                "b652c7fb-0341-4a7e-a804-34e37ae1611c": {
+                                    "name": "习惯恐惧"
+                                }
+                            }
+                        }
+                    }
+                },
+                "0cd3390a-a8ad-40a1-a58c-5945a3b5592b": {
+                    "name": "Disadvantages",
+                    "children": {
+                        "47da39a4-9a65-4431-9596-b9a76e0f6232": {
+                            "name": "超特质：自动机器",
+                            "children": {
+                                "8e09de15-0ba8-4e4b-9ae9-c22a49edfc45": {
+                                    "name": "思想僵化",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "你难以提出原创性的想法。你在需要创造力或发明精神的事务的检定上有 -2 减值，包括大多数艺术创作技能检定，所有用来发明的工程学技能检定，以及使用发明奇才优势的所有技能检定。"
+                                },
+                                "ac7e2d6b-bea4-4f47-91c8-eb925cdfe1a1": {
+                                    "name": "缺乏好奇心",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "当你遇到不寻常的东西时进行一次自控检定，如果失败，你没有注意到它！",
+                                    "features": [
+                                        {
+                                            "situation": "对于新事物"
+                                        }
+                                    ]
+                                },
+                                "a5d06af6-46f6-41a0-be68-94e7bc30aef5": {
+                                    "name": "低共情",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "做戏"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "宴饮"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "犯罪学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "侦测谎言"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "外交"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "惑控"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "唬骗"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "审讯"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "领导力"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "商人"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "政治"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "心理学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "礼仪"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "性感"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "社会学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "黑街"
+                                            }
+                                        }
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "不谙世事"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "冷酷无情"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "共情"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "f2e0ae3a-d6f1-49bb-abb4-b838b8384a77": {
+                                    "name": "无幽默感",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "situation": "来自当无幽默感劣势显而易见的情况下的其他人"
+                                        }
+                                    ]
+                                },
+                                "ddb504d4-53ee-4770-a4b4-16254e392628": {
+                                    "name": "奴性",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ]
+                                }
+                            }
+                        },
+                        "888ca111-9849-4649-913a-689eeccbd1d5": {
+                            "name": "色盲",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "艺术家"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "化学"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "驾驶"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "商人"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "飞行驾驶"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "追踪"
+                                    }
+                                }
+                            ]
+                        },
+                        "a518fd33-b9e9-4ae4-b125-1f3e4f3f6a96": {
+                            "name": "恼人声线",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "外交"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "唬骗"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "表演"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "演讲"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "性感"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "唱歌"
+                                    }
+                                }
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "迷人声线"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "f547cc6f-9067-438a-86fb-d7a71ab08da5": {
+                            "name": "脆弱（易碎）",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "d3819ef8-420b-4ddf-9671-929d365585eb": {
+                            "name": "手指笨拙",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "艺术家"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "珠宝加工"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "结绳"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "皮革加工"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "开锁"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "扒窃"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "缝纫"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "巧手"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "手术"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "机工"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "机修"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "即时备战"
+                                    }
+                                },
+                                {
+                                    "situation": "来自需要整洁与衣着得体的时候的其他人"
+                                },
+                                {
+                                    "situation": "对于需要整洁与衣着得体的时候的任意影响检定"
+                                }
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "巧手"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "00fb1877-7ed5-4d69-a45e-8590a03c3538": {
+                            "name": "无嗅/味觉",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "47220960-9e55-45e0-8694-0c6e6165daf0": {
+                            "name": "吵闹",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "潜行"
+                                    }
+                                }
+                            ]
+                        },
+                        "40a5e551-2cca-4cb5-8cff-b9a5c1af2db2": {
+                            "name": "触觉丧失",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "418520ab-f38b-4427-b461-1edfd5f8248c": {
+                            "name": "服从指令",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "心理"
+                            ]
+                        },
+                        "b92d715c-9f6e-45ac-bb7c-84aba42b4a8b": {
+                            "name": "Restricted Diet (Coal)",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "57230ef3-09a0-4794-8e21-8a2f96b89930": {
+                                    "name": "替代品"
+                                },
+                                "21a916bf-b489-4f67-a206-eabc49d4e3fa": {
+                                    "name": "非常常见"
+                                },
+                                "18e3b240-5aa3-43e6-a2ad-cb7e9f0d1a01": {
+                                    "name": "常见"
+                                },
+                                "c1f5c0bc-83d1-4b40-b0a2-570151f36c0a": {
+                                    "name": "不常见"
+                                },
+                                "974dedb6-5bcd-42d5-bc18-1f355bd416ac": {
+                                    "name": "稀有"
+                                }
+                            }
+                        },
+                        "747ac5d3-26d8-4a35-90f0-de8ed5aabee1": {
+                            "name": "社会污名（有价财产）",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ]
+                        }
+                    }
+                },
+                "827e5573-3a8e-4e7b-a015-13ca8f7bea00": {
+                    "name": "Quirks",
+                    "children": {
+                        "22ceb66b-30b6-4882-aa63-d53af9146e97": {
+                            "name": "入水即沉",
+                            "tags": [
+                                "生理",
+                                "Quirk"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

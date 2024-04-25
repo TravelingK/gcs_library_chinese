@@ -1,0 +1,1744 @@
+{
+    "traits": {
+        "24651f57-19ae-49d9-a67b-f8b33d2b5c92": {
+            "name": "Knight-Errant",
+            "children": {
+                "166bc953-0552-42b7-bb5f-0e90695a59da": {
+                    "name": "Attributes",
+                    "children": {
+                        "a8c13919-abe8-42f5-9ade-4db458c4fec1": {
+                            "name": "增加敏捷",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "2146727b-8525-4c29-944a-7b1d060ae8da": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        },
+                        "e407ee45-ddb5-4293-b9e1-0ca99c6ce9f2": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "7be4a248-54f2-403f-bfdb-09eb8eabd768": {
+                            "name": "增加力量",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "1eac521f-cfb8-4264-96ee-3f441cf2aa9c": {
+                                    "name": "无操作肢"
+                                },
+                                "41a2c83f-20bc-44b2-b1ec-5a7d689b2bc2": {
+                                    "name": "体型"
+                                },
+                                "8f66fc3b-9929-4018-8cbc-ce1ef7a94cf6": {
+                                    "name": "超级出力"
+                                }
+                            }
+                        }
+                    }
+                },
+                "012d471c-5932-4d78-842e-05b21019b11a": {
+                    "name": "Class Advantage",
+                    "children": {
+                        "fc2e6439-19c8-4eb8-b118-7ca1bca6e76f": {
+                            "name": "15 points chosen from",
+                            "children": {
+                                "a89cab51-02b5-4218-b9e5-6aa0a9d8b968": {
+                                    "name": "战斗反射",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "即时备战"
+                                            }
+                                        }
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "增强时间感"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "9f9250d3-3c56-4807-8e9b-d4e5ec8c2fe5": {
+                                    "name": "无所畏惧",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "2a2906f1-112a-4b27-9c17-95203ae2b0b4": {
+                                    "name": "健康",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)"
+                                },
+                                "ed35f1f3-cfa8-4b43-841c-0e21ad78ab93": {
+                                    "name": "Fit, Very",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "notes": "+2 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate; lose FP at half the normal rate (in both cases, not FP spent for spells or psi powers)"
+                                },
+                                "6ce4c465-15a4-4b56-a60d-ea8e71b27d55": {
+                                    "name": "高痛阈",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture"
+                                },
+                                "b1a93709-3894-4883-b779-d2e662d97152": {
+                                    "name": "后台",
+                                    "tags": [
+                                        "优势",
+                                        "社会"
+                                    ],
+                                    "notes": "Liege lord or knightly order",
+                                    "modifiers": {
+                                        "228d6eba-61d8-4418-b437-80839a95f194": {
+                                            "name": "@谁：点数为 PC 起始点数的 150% 的个人@"
+                                        },
+                                        "7b681702-d4df-40c8-b107-ccec1c2bf3ef": {
+                                            "name": "@谁：拥有价值 1000 倍这个世界的起始财产的资产的组织@"
+                                        },
+                                        "942eed6a-bee8-44bc-8d5e-5fa821ed5066": {
+                                            "name": "@谁：点数为 PC 起始点数的 200% 的个人@"
+                                        },
+                                        "46d8dbe2-d67e-47f0-95a0-438559ea17ec": {
+                                            "name": "@谁：拥有价值 10000 倍这个世界的起始财产的资产的组织@"
+                                        },
+                                        "ad7fdfd3-9a3d-4d87-b579-287b4d3a2454": {
+                                            "name": "@谁：一个超级强大的个人@"
+                                        },
+                                        "b2429b20-48fa-46b3-8f5a-3c6cf5bdf0e3": {
+                                            "name": "@谁：拥有价值 100000 倍这个世界的起始财产的资产的组织@"
+                                        },
+                                        "02564061-be21-4383-b237-449cf0165798": {
+                                            "name": "@谁：拥有价值 1000000 倍这个世界的起始财产的资产的组织@"
+                                        },
+                                        "088c5b64-7b45-413e-ac1d-8210c90c0fb2": {
+                                            "name": "@谁：国家政府或是巨型跨国组织@"
+                                        },
+                                        "f6b8cae7-6c7c-4a38-b667-7f279e3f9a5f": {
+                                            "name": "@谁：一位真神@"
+                                        },
+                                        "8b63652f-4a1b-4ab0-bfd5-dfb7e7161644": {
+                                            "name": "几乎总是出场",
+                                            "notes": "15-"
+                                        },
+                                        "90c9ef91-6e65-47d0-9ac4-163bd70d49aa": {
+                                            "name": "出现相当频繁",
+                                            "notes": "12-"
+                                        },
+                                        "fd95d1b7-b7ae-4500-8446-83e3fe38b37b": {
+                                            "name": "出场频繁",
+                                            "notes": "9-"
+                                        },
+                                        "50164a05-dfb7-497a-b57c-a38b8ee25a59": {
+                                            "name": "不常出现",
+                                            "notes": "6-"
+                                        },
+                                        "3971ef5b-5b64-4084-93cd-6fccb7e5129c": {
+                                            "name": "Equipment",
+                                            "notes": "@装备的价值不会超过起始财富@"
+                                        },
+                                        "801d19b4-4b7b-41de-ba01-dcf30708916f": {
+                                            "name": "Equipment",
+                                            "notes": "@装备的价值能够超过起始财富@"
+                                        },
+                                        "6835606f-ee44-4e7d-86e2-3afec6720c41": {
+                                            "name": "随时随地联系"
+                                        },
+                                        "22a6f36e-38ec-49c1-bd3a-5902cd973b88": {
+                                            "name": "特殊能力",
+                                            "notes": "@强大的社会或政治力量@"
+                                        },
+                                        "a2513c9b-9ddc-4afb-a809-3c19c751eba0": {
+                                            "name": "特殊能力",
+                                            "notes": "@在非魔法世界有魔法力量、拥有来自未来 TL 的装备、给予你特殊能力@"
+                                        },
+                                        "f43f2396-2a08-4e49-84b6-dae438ffb898": {
+                                            "name": "最小化干预"
+                                        },
+                                        "0317b5ec-9ff5-4e2c-85c2-a0759720c067": {
+                                            "name": "秘密"
+                                        },
+                                        "322cd349-329d-4657-a0b1-7851463bca56": {
+                                            "name": "被迫的"
+                                        },
+                                        "5de9e68e-94ce-4206-9695-e41e6b244301": {
+                                            "name": "人情"
+                                        }
+                                    }
+                                },
+                                "63fb598e-132e-4917-864f-3aa17b57a1eb": {
+                                    "name": "Reputation",
+                                    "tags": [
+                                        "优势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "cc6a1291-6447-412e-b00d-6c8bfe50d0fa": {
+                                            "name": "影响人群",
+                                            "notes": "几乎所有人"
+                                        },
+                                        "658cf187-83b0-4d1e-b053-74ffd22cfe9f": {
+                                            "name": "影响人群",
+                                            "notes": "几乎所有人，刨去@一大群人@"
+                                        },
+                                        "c1e03546-ab9c-4bb4-9b19-2e98027341ba": {
+                                            "name": "影响人群",
+                                            "notes": "From commoners"
+                                        },
+                                        "0a09d88e-033e-4841-a7a8-d8aae7d3a2d8": {
+                                            "name": "影响人群",
+                                            "notes": "@一小群人@"
+                                        },
+                                        "ee06eb4e-2bff-4248-9183-c048c2be16a6": {
+                                            "name": "总是有人认识"
+                                        },
+                                        "3a42504c-c90b-4626-9cb4-90a8769b4269": {
+                                            "name": "有时候有人认识",
+                                            "notes": "10-"
+                                        },
+                                        "d8b96ded-a2a4-449b-a9d3-df1500d41d05": {
+                                            "name": "偶尔有人认识",
+                                            "notes": "7-"
+                                        }
+                                    }
+                                },
+                                "6ac8ba50-e175-4390-9749-0017aadd0776": {
+                                    "name": "标志性装备",
+                                    "tags": [
+                                        "优势",
+                                        "社会"
+                                    ],
+                                    "notes": "对于一般用钱买来的装备，例如武器与铠甲而言，每 1 点此优势给予这些装备最多等于模组中平均开始财富值 50% 的额外价值（但绝不会是现金）。"
+                                },
+                                "d3e08faa-f3ba-4e74-8795-795d6082568a": {
+                                    "name": "Status",
+                                    "tags": [
+                                        "优势",
+                                        "社会"
+                                    ]
+                                },
+                                "9b1a99d5-3e7f-425e-8e00-290867da689e": {
+                                    "name": "Talent (Born War Leader)",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "领导力"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "strategy"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "tactics"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "intelligence analysis"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "礼仪"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "military"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "32503034-9d74-4810-a1b0-9aa1f01a15cc": {
+                                    "name": "财富",
+                                    "tags": [
+                                        "优势",
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "ad02effe-d49a-4500-b543-a16290e1aa5b": {
+                                            "name": "一贫如洗",
+                                            "notes": "Starting wealth is $0"
+                                        },
+                                        "37c9d7a8-8a26-4e8e-b7da-7ced58c4757d": {
+                                            "name": "贫穷",
+                                            "notes": "Starting wealth is 1/5 average"
+                                        },
+                                        "aa4062f4-1a26-4f27-917a-683884391745": {
+                                            "name": "比较贫穷",
+                                            "notes": "Starting wealth is 1/2 average"
+                                        },
+                                        "403ba772-77ca-444d-b39d-6d8707241e21": {
+                                            "name": "普通的"
+                                        },
+                                        "d4040b79-1e30-47f8-8063-877728d02e7a": {
+                                            "name": "Comfortable",
+                                            "notes": "Starting wealth is 2x average"
+                                        },
+                                        "7101145a-02b6-4fb4-950f-2050ebafb181": {
+                                            "name": "富有",
+                                            "notes": "Starting wealth is 5x average"
+                                        },
+                                        "48c6d9c4-ac02-4b8f-b656-200e51c7258e": {
+                                            "name": "非常富有",
+                                            "notes": "Starting wealth is 20x average"
+                                        },
+                                        "b51d2425-b2ba-473e-8788-000634638918": {
+                                            "name": "异常富有",
+                                            "notes": "Starting wealth is 100x average"
+                                        }
+                                    }
+                                },
+                                "250d2c5f-7909-4e56-8a72-a8473c855634": {
+                                    "name": "Wealth and Status may be bought as Potential Advantages (Heir) for half cost. See B33"
+                                }
+                            }
+                        },
+                        "8342e065-46db-435a-8537-65e7addc05d6": {
+                            "name": "Status",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ]
+                        }
+                    }
+                },
+                "79516e84-6d07-48cb-833e-2caec6890252": {
+                    "name": "Class Disadvantage",
+                    "children": {
+                        "d9cb63fe-3359-4f7b-ae28-7164177c1750": {
+                            "name": "-20 points chosen from",
+                            "children": {
+                                "aa93af57-e42b-47f8-85a3-8ea8680b3ffa": {
+                                    "name": "嗜血",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "d740db61-a6b6-40e6-b7f2-47fc76ac71ac": {
+                                    "name": "冷酷无情",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "心理学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "教学"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "c87f37f3-8217-4588-9280-b0452daf4956": {
+                                    "name": "Code of Honor (@Type@)",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "73a1c527-0e4e-469d-bdfc-65669f8b6f15": {
+                                            "name": "轻微"
+                                        },
+                                        "e0b51507-ddb4-48ab-afee-c3afd802261f": {
+                                            "name": "较大"
+                                        },
+                                        "232b1032-c573-4859-8d06-f45f98c03a52": {
+                                            "name": "巨大"
+                                        }
+                                    }
+                                },
+                                "9fcfcead-698a-45bd-9f10-6f34f7429add": {
+                                    "name": "Code of Honor (Arab)",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "011c163e-0b42-4017-b9f3-db7e4fc83dad": {
+                                    "name": "荣誉准则（骑士）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "52628a90-ca6b-4516-a632-df65374603ce": {
+                                    "name": "Code of Honor (Sahudese)",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "401fbc9d-8789-4f5c-b541-7ea70bc36a91": {
+                                    "name": "Duty (@To liege lord or order@)",
+                                    "tags": [
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "fab1e9c3-3331-463a-9f2b-4a3cac08cf54": {
+                                            "name": "FR: 6"
+                                        },
+                                        "ccfb28f4-4807-4ac1-8927-8920137c4b6a": {
+                                            "name": "FR: 9"
+                                        },
+                                        "75126c7b-f6e8-40d4-92f1-809f8691a615": {
+                                            "name": "FR: 12"
+                                        },
+                                        "8ea15c13-f3b4-4aac-80bf-b0381a24c37c": {
+                                            "name": "FR: 15"
+                                        },
+                                        "283c982b-4eda-45b4-96e4-f5044e4ac9a9": {
+                                            "name": "极度危险"
+                                        },
+                                        "3ab3879a-1e28-4d45-b81d-bbb5637dbf71": {
+                                            "name": "被强迫的"
+                                        },
+                                        "9fefa711-23ec-43ce-b3fd-457f5a08eabe": {
+                                            "name": "不危险的"
+                                        }
+                                    }
+                                },
+                                "a8b75e07-7f1e-42f2-9625-0948216006d5": {
+                                    "name": "狂热（@团体或理想@）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "4d4a9eee-f6d7-4871-a29c-2acb90ae6084": {
+                                            "name": "极度"
+                                        }
+                                    }
+                                },
+                                "8a1762e8-073c-4b02-ac40-32290064783b": {
+                                    "name": "偏见（@阶级、民族、国家、宗教、 性别或是物种@）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "1f587224-f32a-4f1a-a4da-1cb745e554ae": {
+                                            "name": "范围：常见"
+                                        },
+                                        "226120ac-0be4-49dc-89e6-cc8bd263b748": {
+                                            "name": "范围：偶见"
+                                        },
+                                        "70ba2aa9-ffd9-474d-8a29-b051b24c0ebe": {
+                                            "name": "范围：稀有"
+                                        },
+                                        "84c2df0f-4c13-4fd1-911c-81abc3c5f7c9": {
+                                            "name": "范围：任何与你不同的人"
+                                        }
+                                    }
+                                },
+                                "29a102a5-0363-4e57-ad42-142f008ceeed": {
+                                    "name": "善妒",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "07f32260-d2b8-4070-a290-5645da1a8924": {
+                                    "name": "自负",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "58475e69-329a-4c3d-acd2-b6a022e85b6e": {
+                                    "name": "自我中心",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "e969e5cb-81e1-49f2-a768-a8ffc6232dde": {
+                                    "name": "责任感",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "e8d80f41-4150-48f8-95ab-064c834a5e53": {
+                                            "name": "朋友和伙伴"
+                                        },
+                                        "65163907-1ad7-45ad-8a1e-ec8c522fb90a": {
+                                            "name": "@小组织@"
+                                        },
+                                        "5fccceb7-a203-4d2a-9e60-d80250ff4a3f": {
+                                            "name": "@个人@"
+                                        },
+                                        "47ac5472-d131-492c-abaa-24256ee781e6": {
+                                            "name": "@大组织@"
+                                        },
+                                        "01a21c85-63e8-418a-bd99-920d68a73b37": {
+                                            "name": "@整个种族@"
+                                        },
+                                        "b9542ffc-6300-473b-83cd-5223a73abc66": {
+                                            "name": "所有活物"
+                                        }
+                                    }
+                                },
+                                "c1e3633c-28ba-410f-b11c-2b3c1c68c70a": {
+                                    "name": "社会污名（逐出家族，非继承人）",
+                                    "tags": [
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "notes": "-1 反应"
+                                },
+                                "b7a20ebf-71a9-47c3-9c8e-3dbd7b3619cb": {
+                                    "name": "社会污名（逐出家族，彻底逐出）",
+                                    "tags": [
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "notes": "-2 反应"
+                                },
+                                "16a9f72f-d003-41be-93ac-b8eb15eae525": {
+                                    "name": "Vow (@Subject@)",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "73056b1c-0bf7-4148-ad85-fcaaa3d47822": {
+                                            "name": "轻微"
+                                        },
+                                        "1435adec-2030-4e61-9290-ed0815e845ea": {
+                                            "name": "较大"
+                                        },
+                                        "70f057e6-b07b-41eb-b384-caf9f7762c92": {
+                                            "name": "巨大"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "17193c0d-2b00-4c5a-baae-ea4a2e842416": {
+            "name": "Knightly Lenses",
+            "children": {
+                "3e7c061a-4ae1-499e-8691-b22b90393814": {
+                    "name": "Hospitaller",
+                    "children": {
+                        "fee73de4-fa9f-4a49-ac84-884345622219": {
+                            "name": "后台",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "e48dcfb7-d398-4e89-9b02-0068d4cd7b46": {
+                                    "name": "@谁：点数为 PC 起始点数的 150% 的个人@"
+                                },
+                                "5fa7196f-bce7-4e8b-8724-4efaa6bf9163": {
+                                    "name": "@谁：拥有价值 1000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "9d333606-5c0e-40a0-ae32-e93454cecb80": {
+                                    "name": "@谁：点数为 PC 起始点数的 200% 的个人@"
+                                },
+                                "8061e350-cadb-4651-b2b6-8793967e8245": {
+                                    "name": "Hospitallers"
+                                },
+                                "bd60e8b4-9017-4953-9158-2c4cf6e21f9f": {
+                                    "name": "@谁：一个超级强大的个人@"
+                                },
+                                "b181ddd9-e97b-43f1-a347-df7f1a605add": {
+                                    "name": "@谁：拥有价值 100000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "50640116-9fd1-46d9-bc70-eb597a3416ad": {
+                                    "name": "@谁：拥有价值 1000000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "5b14ed5f-e0c3-4bc9-840e-d4601b6b72d6": {
+                                    "name": "@谁：国家政府或是巨型跨国组织@"
+                                },
+                                "e8e148e5-e9dc-4f83-8753-f90aea848283": {
+                                    "name": "@谁：一位真神@"
+                                },
+                                "1569524c-25d5-4f0c-a4bf-14cb731ed51d": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "d5574fb7-6950-49d9-a23e-6afb3957ec5c": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "31787e97-a1d7-4526-b094-18c6473b6efe": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "f286957c-c623-4c19-a295-6d316de0a1b0": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "55184850-1cf5-4b18-8061-df8ec6baa71f": {
+                                    "name": "Equipment",
+                                    "notes": "@装备的价值不会超过起始财富@"
+                                },
+                                "f328308c-8505-44ad-91b6-7498d1eb7238": {
+                                    "name": "Equipment",
+                                    "notes": "@装备的价值能够超过起始财富@"
+                                },
+                                "e1852f06-865a-463d-bb76-87127ac304ac": {
+                                    "name": "随时随地联系"
+                                },
+                                "e7b5fd18-4f05-477a-a74c-9a15c7f68343": {
+                                    "name": "特殊能力",
+                                    "notes": "@强大的社会或政治力量@"
+                                },
+                                "f50e9781-82e0-4ac6-88fb-8245d950ad95": {
+                                    "name": "特殊能力",
+                                    "notes": "@在非魔法世界有魔法力量、拥有来自未来 TL 的装备、给予你特殊能力@"
+                                },
+                                "c974ecd8-d1bb-4cd5-999b-6264c6e25de7": {
+                                    "name": "最小化干预"
+                                },
+                                "05922c05-6197-44fc-b907-e91de8fc4828": {
+                                    "name": "秘密"
+                                },
+                                "79e6c07f-fefd-4a0a-a25b-b4a029500565": {
+                                    "name": "被迫的"
+                                },
+                                "608ad61e-c71e-4b59-8cdd-9aea32b068f2": {
+                                    "name": "人情"
+                                }
+                            }
+                        },
+                        "cf679a6a-c266-4049-b980-b4bdac8a4218": {
+                            "name": "Duty (To Hospitallers)",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "d4fcb32c-23b7-41d8-84de-358dd7a17e41": {
+                                    "name": "FR: 6"
+                                },
+                                "be209d6c-e3a3-4d25-afd2-bc2358ef73f7": {
+                                    "name": "FR: 9"
+                                },
+                                "12ca5245-4255-4995-b377-55affee9f38f": {
+                                    "name": "FR: 12"
+                                },
+                                "4ea456ac-ca1b-4ba6-89ee-5b2023ba5225": {
+                                    "name": "FR: 15"
+                                },
+                                "6aab97ee-e4d0-4eac-b818-1c2ccdba6f81": {
+                                    "name": "极度危险"
+                                },
+                                "cb63eabe-57cf-4ca6-8699-617b7accd121": {
+                                    "name": "被强迫的"
+                                },
+                                "520fb4d3-20be-46b8-876f-c8cd948fe546": {
+                                    "name": "不危险的"
+                                }
+                            }
+                        },
+                        "0dc2e10c-9f31-432f-8802-051e49523f27": {
+                            "name": "Reputation (Dour fighter and enemy of the infidel)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "580c8da1-ddcd-4b48-ac9c-4ee7906653de": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人"
+                                },
+                                "6c485475-00fd-44a0-9e8d-b9f7d527e977": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人，刨去@一大群人@"
+                                },
+                                "f655e2a2-b5f8-409c-9d04-94dc0f885115": {
+                                    "name": "影响人群",
+                                    "notes": "Christians"
+                                },
+                                "17fec3fd-5e3f-4a54-a3b4-63e97390077d": {
+                                    "name": "影响人群",
+                                    "notes": "@一小群人@"
+                                },
+                                "3a2ad50f-6cf4-4be2-9c92-78d55b5a49f8": {
+                                    "name": "总是有人认识"
+                                },
+                                "9113f694-f1ae-4909-9d15-db4a5c014c9d": {
+                                    "name": "有时候有人认识",
+                                    "notes": "10-"
+                                },
+                                "5d2b7d59-2d27-4a8d-bc21-c7a043f66fe2": {
+                                    "name": "偶尔有人认识",
+                                    "notes": "7-"
+                                }
+                            }
+                        },
+                        "0d13aae4-907d-4e0e-9841-e93013276c74": {
+                            "name": "Reputation (Dour fighter and enemy of the infidel)",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "c72ff3b6-1b57-4bc1-9ced-5352df2c74a1": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人"
+                                },
+                                "bff10ce7-0407-4f04-889a-051a42089e6e": {
+                                    "name": "影响人群",
+                                    "notes": "Almost everyone except Christians"
+                                },
+                                "900ca125-04a3-435e-ad23-b0013efd8a67": {
+                                    "name": "影响人群",
+                                    "notes": "@一大群人@"
+                                },
+                                "4fe167bd-9620-4ad3-9265-f8b5757baf72": {
+                                    "name": "影响人群",
+                                    "notes": "@一小群人@"
+                                },
+                                "7ce4350d-9dfc-4f0b-a43b-fb4df66a55ac": {
+                                    "name": "总是有人认识"
+                                },
+                                "ae6e8892-8b01-4efe-b9f8-3c964411726f": {
+                                    "name": "有时候有人认识",
+                                    "notes": "10-"
+                                },
+                                "6568c522-aa8d-4553-b8e4-010d7b6d623a": {
+                                    "name": "偶尔有人认识",
+                                    "notes": "7-"
+                                }
+                            }
+                        },
+                        "60ae26b5-0b36-4b17-8950-2bd37405fb0c": {
+                            "name": "Vow (Chastity)",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "c4883b58-7a0b-49ef-aa79-c982c091927c": {
+                                    "name": "轻微"
+                                },
+                                "3b32f07a-e1c7-46fe-a54e-e6783df4bb50": {
+                                    "name": "较大"
+                                },
+                                "a1b8510c-79d1-40ac-b31f-bc6c131950e2": {
+                                    "name": "巨大"
+                                }
+                            }
+                        },
+                        "4fe3f856-e08a-44ca-addc-0f23ed9d4a9f": {
+                            "name": "Vow (Poverty)",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "6fb09acf-afba-434b-800b-027506954b35": {
+                                    "name": "轻微"
+                                },
+                                "48cc7d08-b730-4481-923f-f9f158ad0ecc": {
+                                    "name": "较大"
+                                },
+                                "e23eb63e-891e-4f58-a260-606da8239435": {
+                                    "name": "巨大"
+                                }
+                            }
+                        },
+                        "e0d2a196-0ed3-40bf-8712-46c3d4a89b3b": {
+                            "name": "If Hospitaller has Magery, must take this additional Vow to make lens [-20]",
+                            "children": {
+                                "eb0eee7e-f942-413d-8fb9-705839703df0": {
+                                    "name": "Vow (Refrain from using magic)",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "e67ddb07-d335-480f-8ffa-6f07b08f17f4": {
+                                            "name": "轻微"
+                                        },
+                                        "52e3af92-5881-4588-ac80-e655ea5b4a52": {
+                                            "name": "较大"
+                                        },
+                                        "869c2d2c-2cdb-4082-8190-3a8a7b9b1fe0": {
+                                            "name": "巨大"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "77981dbe-ca63-419c-b3d2-55f0ff430a50": {
+                    "name": "Knight of St. George of the Dragon",
+                    "children": {
+                        "24937b41-296e-4865-8c0d-69a176b5e320": {
+                            "name": "后台",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "2edd05a4-b276-495b-85c5-97741de65227": {
+                                    "name": "@谁：点数为 PC 起始点数的 150% 的个人@"
+                                },
+                                "46f929d6-eb51-4818-a255-62b1a36e07b5": {
+                                    "name": "@谁：拥有价值 1000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "c3a60f9a-1d7b-4336-912e-ce6c8af8ee18": {
+                                    "name": "@谁：点数为 PC 起始点数的 200% 的个人@"
+                                },
+                                "a36d4222-0be4-4157-81e6-ae78474cf136": {
+                                    "name": "Order of St. George"
+                                },
+                                "e03d2b56-7f62-4389-a187-83937fe23353": {
+                                    "name": "@谁：一个超级强大的个人@"
+                                },
+                                "f2efb1a6-a3a8-416f-8a8b-19bbd86a80de": {
+                                    "name": "@谁：拥有价值 100000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "b077b615-2213-4800-81ca-6e487053acd0": {
+                                    "name": "@谁：拥有价值 1000000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "77727bc0-0eca-482e-97ac-fcfa49e77a31": {
+                                    "name": "@谁：国家政府或是巨型跨国组织@"
+                                },
+                                "35fc74f0-7a45-4b76-8484-a2da1828b40b": {
+                                    "name": "@谁：一位真神@"
+                                },
+                                "ecec3858-83a8-4a78-befe-9b78989bb161": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "f928bee9-6aff-4460-b721-cffc27f595f6": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "29941d8e-90b9-4b71-a2c5-0921810a1eb0": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "4b552eb5-d67f-4f65-ae29-c85bf0ef2cd3": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "995d1ab9-5db1-4e3a-bcb9-c6c4b3936e4f": {
+                                    "name": "Equipment",
+                                    "notes": "@装备的价值不会超过起始财富@"
+                                },
+                                "39a878d5-7707-45ba-9e27-b7e1bbc5af1d": {
+                                    "name": "Equipment",
+                                    "notes": "@装备的价值能够超过起始财富@"
+                                },
+                                "46e710a2-3767-44e7-9e03-6e559fef5a2b": {
+                                    "name": "随时随地联系"
+                                },
+                                "758c0434-28c4-41bb-a753-401576a8663c": {
+                                    "name": "特殊能力",
+                                    "notes": "@强大的社会或政治力量@"
+                                },
+                                "71c2b18e-f278-46ee-bf0e-cb4dfd3529e6": {
+                                    "name": "特殊能力",
+                                    "notes": "@在非魔法世界有魔法力量、拥有来自未来 TL 的装备、给予你特殊能力@"
+                                },
+                                "56075c57-32aa-4def-9f8c-8123541d6cdd": {
+                                    "name": "最小化干预"
+                                },
+                                "050f761c-2643-4426-939a-348803148fc8": {
+                                    "name": "秘密"
+                                },
+                                "94499fc6-153a-4a38-b889-f367c02465c1": {
+                                    "name": "被迫的"
+                                },
+                                "e9d7c511-99ab-4f26-8114-89896f9fbc2b": {
+                                    "name": "人情"
+                                }
+                            }
+                        },
+                        "2fa47cd8-fc46-4fc3-b486-e41e703e0c13": {
+                            "name": "Reputation (Defender of the Church of Caithness)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "4e24113c-903a-4b48-ba06-38d7be9958ba": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人"
+                                },
+                                "541ba778-aee4-4946-ba61-4729efd73af8": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人，刨去@一大群人@"
+                                },
+                                "c0c5eaff-04f2-4050-8d3b-26e3be695316": {
+                                    "name": "影响人群",
+                                    "notes": "Caithnesser Christians"
+                                },
+                                "8a6f69fb-7c07-4034-aee8-3a1ef99202ba": {
+                                    "name": "影响人群",
+                                    "notes": "@一小群人@"
+                                },
+                                "98653da4-3b95-461d-a2f8-d0846e4ad33d": {
+                                    "name": "总是有人认识"
+                                },
+                                "f90734ad-8075-4cfd-b227-5aae79e69978": {
+                                    "name": "有时候有人认识",
+                                    "notes": "10-"
+                                },
+                                "41b15974-840f-4a53-86ed-d848b77306b1": {
+                                    "name": "偶尔有人认识",
+                                    "notes": "7-"
+                                }
+                            }
+                        },
+                        "3486bdff-b665-4cb7-b398-0a200c330e47": {
+                            "name": "Duty (To the Knights of St. George)",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "dea677fe-87bb-49e3-b644-fefbca7aca89": {
+                                    "name": "FR: 6"
+                                },
+                                "604b790e-6b03-4c5d-9188-42210c25ad2b": {
+                                    "name": "FR: 9"
+                                },
+                                "a78979f1-50b0-4600-ba32-8cdd12889bcf": {
+                                    "name": "FR: 12"
+                                },
+                                "83b0075d-134b-4236-98c2-797c45796591": {
+                                    "name": "FR: 15"
+                                },
+                                "89900476-aec3-4b19-aac1-f749432f5be7": {
+                                    "name": "极度危险"
+                                },
+                                "b91adc3e-45ed-4e0f-9d2c-f46509be5ad5": {
+                                    "name": "被强迫的"
+                                },
+                                "888dec0e-0efe-49b1-929e-1c700c7fcde1": {
+                                    "name": "不危险的"
+                                }
+                            }
+                        },
+                        "922827c8-666d-4f3a-849a-0fabbf0dc08c": {
+                            "name": "Vow (Chastity)",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "7714eb37-11cf-43df-aab2-4ea34233c6b0": {
+                                    "name": "轻微"
+                                },
+                                "3fece6ff-1f9b-4468-8c96-f6a895a42cb4": {
+                                    "name": "较大"
+                                },
+                                "301b1482-a053-4687-aa88-bdd3d490f3b7": {
+                                    "name": "巨大"
+                                }
+                            }
+                        },
+                        "58468c5b-a73b-4c56-a9eb-9e3aff415d13": {
+                            "name": "Vow (Poverty)",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "ee8812ac-70d2-4eb3-a1b2-38f4c8fd3f27": {
+                                    "name": "轻微"
+                                },
+                                "8f121887-ec90-4da3-a2e5-7724c7911b76": {
+                                    "name": "较大"
+                                },
+                                "3c9d4688-e65a-4345-8299-a64078f38cd7": {
+                                    "name": "巨大"
+                                }
+                            }
+                        }
+                    }
+                },
+                "705ca705-0aca-4b0f-8b33-06e3b9f116b9": {
+                    "name": "Knight of the Stone",
+                    "children": {
+                        "52de9ab2-3470-4c13-b5ef-b813adcd4295": {
+                            "name": "后台",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "bba730f2-0eee-4e6d-b1f0-fd24b47518c4": {
+                                    "name": "@谁：点数为 PC 起始点数的 150% 的个人@"
+                                },
+                                "131e9bea-3d86-4418-9b08-4ee71b237470": {
+                                    "name": "@谁：拥有价值 1000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "57a4a3ff-eb8a-4933-aee7-ee8db4158ada": {
+                                    "name": "@谁：点数为 PC 起始点数的 200% 的个人@"
+                                },
+                                "a62a13ad-411b-4a3e-85c8-daf52448123d": {
+                                    "name": "Order of the Stone"
+                                },
+                                "2c22e3cb-a892-49fd-b77b-e4c8346ac70b": {
+                                    "name": "@谁：一个超级强大的个人@"
+                                },
+                                "dd23335d-fd8a-417e-9815-4a849df49ce3": {
+                                    "name": "@谁：拥有价值 100000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "cf0c8895-fd7c-4e75-b7a6-bb27bca67d66": {
+                                    "name": "@谁：拥有价值 1000000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "9014e7bf-145e-4309-a7d2-6611c6ec4673": {
+                                    "name": "@谁：国家政府或是巨型跨国组织@"
+                                },
+                                "c5cb1c59-9bb8-4845-882a-495b6ae7c3f4": {
+                                    "name": "@谁：一位真神@"
+                                },
+                                "cbb53486-7e2f-476b-8c18-7854de18b14d": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "951a50a2-d771-4c53-b817-740ce201c5c5": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "5d482876-b9e8-442b-9b1a-e8e5a9883ae0": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "4c017c00-fa27-4004-80d3-dc954b19940d": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "7ec4eeb3-6093-4372-9c89-0a5b1d18a293": {
+                                    "name": "Equipment",
+                                    "notes": "@装备的价值不会超过起始财富@"
+                                },
+                                "c86435ff-dfcb-4a49-baab-c986b14934f1": {
+                                    "name": "Equipment",
+                                    "notes": "@装备的价值能够超过起始财富@"
+                                },
+                                "9695d4bd-b3ee-4eb9-ae91-75dd8c3c5cf2": {
+                                    "name": "随时随地联系"
+                                },
+                                "cd164771-1ecf-4e4b-95f6-8b5e75f2e488": {
+                                    "name": "特殊能力",
+                                    "notes": "@强大的社会或政治力量@"
+                                },
+                                "6cd8c6d4-a21c-4cd8-8ef7-6b6bad73909f": {
+                                    "name": "特殊能力",
+                                    "notes": "@在非魔法世界有魔法力量、拥有来自未来 TL 的装备、给予你特殊能力@"
+                                },
+                                "558eac4a-93bb-452c-ae3e-92dcb9b76327": {
+                                    "name": "最小化干预"
+                                },
+                                "9e7a7a95-00bb-43c2-a892-bfbe281c4232": {
+                                    "name": "秘密"
+                                },
+                                "9186252d-aa6c-48ed-94c1-c8da24c70e5c": {
+                                    "name": "被迫的"
+                                },
+                                "3969efa4-9c34-47d1-8d70-23571dc12933": {
+                                    "name": "人情"
+                                }
+                            }
+                        },
+                        "ce0111d3-4800-41db-a711-792c2ed5e0ef": {
+                            "name": "Reputation (Champion of Justice)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "59a14bd1-0b92-4813-9169-623c65d2cc4e": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人"
+                                },
+                                "4caed149-671b-4724-94cd-cbf8fa742906": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人，刨去@一大群人@"
+                                },
+                                "422bb066-88b8-41bc-8158-7d5151d84c40": {
+                                    "name": "影响人群",
+                                    "notes": "From Caithnessers loyal to the crown"
+                                },
+                                "94448a53-ddab-415c-9abf-756bdb9bb4aa": {
+                                    "name": "影响人群",
+                                    "notes": "@一小群人@"
+                                },
+                                "745fa651-33c8-4eff-ae9f-6ab2780df10f": {
+                                    "name": "总是有人认识"
+                                },
+                                "1e086dfa-e912-485d-a0c7-cc16546e6f18": {
+                                    "name": "有时候有人认识",
+                                    "notes": "10-"
+                                },
+                                "21545ce1-c69b-42e2-886d-1e45299623bc": {
+                                    "name": "偶尔有人认识",
+                                    "notes": "7-"
+                                }
+                            }
+                        },
+                        "b7970cdf-564e-40bf-8e6a-4d0914641c32": {
+                            "name": "Duty (To the Knights of the Stone)",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "8e8982b3-5e11-4a0d-9692-4cef34aced2b": {
+                                    "name": "FR: 6"
+                                },
+                                "35788f55-7303-4c83-8072-c01696c3a911": {
+                                    "name": "FR: 9"
+                                },
+                                "8c0099e2-e8a5-469c-a64c-b5d3fb29b401": {
+                                    "name": "FR: 12"
+                                },
+                                "5ae58b81-65d4-4b4c-a401-061555941d22": {
+                                    "name": "FR: 15"
+                                },
+                                "ac5b2572-9c0a-429a-9275-b0191ca9e1d8": {
+                                    "name": "极度危险"
+                                },
+                                "74261766-22fb-43f8-803f-5365cd760cc9": {
+                                    "name": "被强迫的"
+                                },
+                                "2a3d9388-cd48-4a9e-8498-69893549e17e": {
+                                    "name": "不危险的"
+                                }
+                            }
+                        }
+                    }
+                },
+                "91cfb3df-1b7b-4eba-9ff4-dee8168ac953": {
+                    "name": "Templar",
+                    "children": {
+                        "db456b52-86ea-413d-b5c2-9bfa3ffe43ac": {
+                            "name": "后台",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "5885e209-a025-46de-b528-e7952c42238d": {
+                                    "name": "@谁：点数为 PC 起始点数的 150% 的个人@"
+                                },
+                                "17900483-1b93-486e-a576-d4517c17bdb3": {
+                                    "name": "@谁：拥有价值 1000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "ad76b01e-06a9-4215-a48a-70bd4ca6bd24": {
+                                    "name": "@谁：点数为 PC 起始点数的 200% 的个人@"
+                                },
+                                "c93f243c-1dea-4a7f-baa3-ede3460af935": {
+                                    "name": "Templars"
+                                },
+                                "cf845aa5-5fcc-42c9-a3a2-5e11562b4f67": {
+                                    "name": "@谁：一个超级强大的个人@"
+                                },
+                                "03dd1a2a-e4ba-4502-a0fe-0d22bd678667": {
+                                    "name": "@谁：拥有价值 100000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "f85b78bd-0330-4963-ba28-7bbe8b5ed510": {
+                                    "name": "@谁：拥有价值 1000000 倍这个世界的起始财产的资产的组织@"
+                                },
+                                "d774ceaa-b75a-4a8e-9db1-a1977776ebb0": {
+                                    "name": "@谁：国家政府或是巨型跨国组织@"
+                                },
+                                "e4997d4b-49a5-43ae-afa3-34632744b775": {
+                                    "name": "@谁：一位真神@"
+                                },
+                                "86127294-164c-4d65-a3e3-b98a85ad90fa": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "d4990313-0026-4bff-863a-4133e7a47510": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "4ebdad9f-08a0-4821-b21b-5a179b5a88a9": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "ef1b5c92-58b1-4fc5-8089-c2dc21f1a1b1": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "7b2b116e-cd16-48c7-8521-e965b8cbb2c0": {
+                                    "name": "Equipment",
+                                    "notes": "@装备的价值不会超过起始财富@"
+                                },
+                                "7cee7ce0-8f31-4a40-955a-41c7df748cd5": {
+                                    "name": "Equipment",
+                                    "notes": "@装备的价值能够超过起始财富@"
+                                },
+                                "fa353ed3-747d-48fb-a41b-4c6d2b3a58fa": {
+                                    "name": "随时随地联系"
+                                },
+                                "fb68c8ac-920a-4814-abd8-dbab963bb410": {
+                                    "name": "特殊能力",
+                                    "notes": "@强大的社会或政治力量@"
+                                },
+                                "7913751a-35f3-44e8-b272-7f1e189f5293": {
+                                    "name": "特殊能力",
+                                    "notes": "@在非魔法世界有魔法力量、拥有来自未来 TL 的装备、给予你特殊能力@"
+                                },
+                                "4463f1b5-6744-4173-90b4-139fe854aacc": {
+                                    "name": "最小化干预"
+                                },
+                                "bceb637e-02ea-4db4-b167-7c6a151289e6": {
+                                    "name": "秘密"
+                                },
+                                "48f0cd35-f87f-497b-91a4-d040aad7cf1c": {
+                                    "name": "被迫的"
+                                },
+                                "99192fe3-a7d0-4998-affa-a41c7dfbb30e": {
+                                    "name": "人情"
+                                }
+                            }
+                        },
+                        "205c5c1e-6c7f-44fe-b823-7360e4be7371": {
+                            "name": "Duty (To Templars)",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "756aa570-0624-410f-9cde-e3237c69b312": {
+                                    "name": "FR: 6"
+                                },
+                                "a570f1e3-f149-451e-8409-ecba6db3beca": {
+                                    "name": "FR: 9"
+                                },
+                                "c0bb83b9-03ca-4865-afd9-c0e0c3ac0c2b": {
+                                    "name": "FR: 12"
+                                },
+                                "c65f1113-af86-448f-8535-603bf8609690": {
+                                    "name": "FR: 15"
+                                },
+                                "7bcbf846-366d-4d21-8a83-4c1c5f3f1e5c": {
+                                    "name": "极度危险"
+                                },
+                                "0bc3fa3c-1f48-426c-b8d5-7706a7ee31b2": {
+                                    "name": "被强迫的"
+                                },
+                                "78f2eb3e-797e-418a-94bf-6a37e5b69179": {
+                                    "name": "不危险的"
+                                }
+                            }
+                        },
+                        "e328a092-9e7d-4b3b-8d2a-77e9596448b7": {
+                            "name": "Reputation (Enemy of the infidel)",
+                            "tags": [
+                                "优势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "ef04f46a-bff6-44e9-a4af-23b5a4361d17": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人"
+                                },
+                                "e8c7b97c-c745-4388-bc7c-495ee02a9ee5": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人，刨去@一大群人@"
+                                },
+                                "43a03af0-b53a-4034-a4ed-ef3b5ac0b407": {
+                                    "name": "影响人群",
+                                    "notes": "Christians"
+                                },
+                                "4d990c41-347b-4e9f-9c2f-de4e9a90a1ad": {
+                                    "name": "影响人群",
+                                    "notes": "@一小群人@"
+                                },
+                                "541d4cc0-17ae-45f6-b2cf-45dda15eda96": {
+                                    "name": "总是有人认识"
+                                },
+                                "df7084e2-9bc6-40b6-ba14-f766b3f9dc19": {
+                                    "name": "有时候有人认识",
+                                    "notes": "10-"
+                                },
+                                "80479419-28fa-471c-b123-0923189e2252": {
+                                    "name": "偶尔有人认识",
+                                    "notes": "7-"
+                                }
+                            }
+                        },
+                        "e3a4edb7-b75f-4867-a94e-03a587e24cf3": {
+                            "name": "Reputation (Enemy of the infidel)",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "8a140bc4-6e34-4792-a0c4-d1dcbe088e48": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人"
+                                },
+                                "3e780f83-5718-49b4-9f4e-1b236f1d76bb": {
+                                    "name": "影响人群",
+                                    "notes": "Almost everyone except Christians"
+                                },
+                                "2699ebc4-e9d7-4584-8e7d-298e223bb1e0": {
+                                    "name": "影响人群",
+                                    "notes": "@一大群人@"
+                                },
+                                "1629d7ee-69f7-49a8-a763-d7b0911fb500": {
+                                    "name": "影响人群",
+                                    "notes": "@一小群人@"
+                                },
+                                "dbc31a79-b84e-4bec-9843-8034f4396073": {
+                                    "name": "总是有人认识"
+                                },
+                                "56840d09-68ac-4961-b63b-d7c99796458b": {
+                                    "name": "有时候有人认识",
+                                    "notes": "10-"
+                                },
+                                "bd757d2a-f7cd-4264-9b0f-9001f83908c6": {
+                                    "name": "偶尔有人认识",
+                                    "notes": "7-"
+                                }
+                            }
+                        },
+                        "6e54e06d-3805-418c-bcd1-5d51ddce34ae": {
+                            "name": "Vow (Chastity)",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "b94713cb-fa7d-45f5-8e4c-751a44469506": {
+                                    "name": "轻微"
+                                },
+                                "efae984d-ea88-4c2d-ade6-f321e08a6785": {
+                                    "name": "较大"
+                                },
+                                "65696147-f158-45b5-8fab-8e3d9db00064": {
+                                    "name": "巨大"
+                                }
+                            }
+                        },
+                        "93f1fe9a-7a12-4273-8efc-27e2da36e2bb": {
+                            "name": "Vow (Poverty)",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "69acf27d-5847-4406-bdbf-3cd5f5691bfb": {
+                                    "name": "轻微"
+                                },
+                                "d3889500-df63-4e5a-97be-469c752ee90a": {
+                                    "name": "较大"
+                                },
+                                "546fc690-4568-45ea-a142-f8ccf5356212": {
+                                    "name": "巨大"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "d502f856-3917-421c-9fe8-0206491533e5": {
+            "name": "Knight-Errant",
+            "children": {
+                "cb4ed118-64f5-4163-9474-fbc84e843838": {
+                    "name": "Primary Skill",
+                    "children": {
+                        "edb3bae7-d2a1-4898-8340-70de7d169a39": {
+                            "name": "16 points chosen from",
+                            "children": {
+                                "4dc3b77c-3d98-4c01-9151-1d897c39e593": {
+                                    "name": "Axe/Mace",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Two-Handed Axe/Mace"
+                                        },
+                                        {
+                                            "name": "Flail"
+                                        }
+                                    ]
+                                },
+                                "555a9692-0d2d-4c55-9b98-20559631a87f": {
+                                    "name": "弓术",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ]
+                                },
+                                "2e9df2a3-6ebb-4bd0-b5b9-6fd30a3f7a91": {
+                                    "name": "Broadsword",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "能量剑"
+                                        },
+                                        {
+                                            "name": "Rapier"
+                                        },
+                                        {
+                                            "name": "Saber"
+                                        },
+                                        {
+                                            "name": "Shortsword"
+                                        },
+                                        {
+                                            "name": "双手剑"
+                                        }
+                                    ]
+                                },
+                                "8f4072c2-ff98-4eb1-947c-9ce1f6995c52": {
+                                    "name": "骑枪",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "骑术"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Spear"
+                                        }
+                                    ]
+                                },
+                                "69af2c71-8e4e-41aa-a085-882b4caf36ca": {
+                                    "name": "Shortsword",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "Broadsword"
+                                        },
+                                        {
+                                            "name": "能量剑"
+                                        },
+                                        {
+                                            "name": "十手/钗"
+                                        },
+                                        {
+                                            "name": "Knife"
+                                        },
+                                        {
+                                            "name": "Saber"
+                                        },
+                                        {
+                                            "name": "Smallsword"
+                                        },
+                                        {
+                                            "name": "武术拐"
+                                        }
+                                    ]
+                                },
+                                "c12b0681-ad16-4824-914e-f750912c2c62": {
+                                    "name": "Two-Handed Axe/Mace",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Axe/Mace"
+                                        },
+                                        {
+                                            "name": "Polearm"
+                                        },
+                                        {
+                                            "name": "Two-Handed Flail"
+                                        }
+                                    ]
+                                },
+                                "10b44161-f8f7-4f35-a125-7d73cf5ef1b0": {
+                                    "name": "双手剑",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "Broadsword"
+                                        },
+                                        {
+                                            "name": "能量剑"
+                                        }
+                                    ]
+                                },
+                                "a95ce029-6375-4b78-877a-672b26724700": {
+                                    "name": "Wrestling",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ]
+                                }
+                            }
+                        },
+                        "c4d351b8-25d8-4279-90e4-f616eb8b0912": {
+                            "name": "骑术",
+                            "tags": [
+                                "动物"
+                            ],
+                            "specialization": "马科动物",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "驯兽",
+                                    "specialization": "马科动物"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "e89a18f1-cdcd-48d3-b40a-744788d8a7aa": {
+                    "name": "Secondary Skill",
+                    "children": {
+                        "6add63fb-1659-43b2-8e62-c2b0c6f2ffa4": {
+                            "name": "10 points chosen from",
+                            "children": {
+                                "7d83b3f2-2a92-42cc-b700-a7ea73a635bf": {
+                                    "name": "地域知识",
+                                    "tags": [
+                                        "常识",
+                                        "知识"
+                                    ],
+                                    "notes": "所有重要和大部分不重要的居民和商行；所有公共建筑和大多数房屋",
+                                    "specialization": "Local",
+                                    "defaults": [
+                                        {
+                                            "name": "地理学"
+                                        }
+                                    ]
+                                },
+                                "ab9c408e-cc5c-4347-8b4d-077476385fc1": {
+                                    "name": "Judo",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "notes": "使得你获得每轮用两只手各招架一次的能力。"
+                                },
+                                "8f8e23be-0c8b-4c50-bb70-4a38e0b46218": {
+                                    "name": "法学",
+                                    "tags": [
+                                        "商业",
+                                        "人文学科",
+                                        "警察",
+                                        "社会科学"
+                                    ],
+                                    "specialization": "Local"
+                                },
+                                "c7457aaa-65f3-4119-afad-d8210c3a7339": {
+                                    "name": "领导力",
+                                    "tags": [
+                                        "军事",
+                                        "社会"
+                                    ]
+                                },
+                                "4db6e006-ca33-48ef-b7e3-9fe3275c9e1d": {
+                                    "name": "Or additional Melee Weapon skills"
+                                },
+                                "82b27ddc-8164-41a3-a047-7630329c8390": {
+                                    "name": "礼仪",
+                                    "tags": [
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "@社会团体@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "游戏"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "ff4a73c8-663d-4bde-8c2f-0a3108bd2bf7": {
+                    "name": "Background Skill",
+                    "children": {
+                        "b2226839-a6f1-45df-b380-8cf62d812422": {
+                            "name": "5 points chosen from",
+                            "children": {
+                                "20e59b00-5fd6-4747-be08-9f07a1e20e34": {
+                                    "name": "军械修造",
+                                    "tags": [
+                                        "维护",
+                                        "军事",
+                                        "修理"
+                                    ],
+                                    "specialization": "身体装甲",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "身体装甲"
+                                        }
+                                    ]
+                                },
+                                "63bbc582-d995-4a8f-bc57-02584205c689": {
+                                    "name": "军械修造",
+                                    "tags": [
+                                        "维护",
+                                        "军事",
+                                        "修理"
+                                    ],
+                                    "specialization": "近战武器",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "工程学",
+                                            "specialization": "近战武器"
+                                        }
+                                    ]
+                                },
+                                "e00558aa-a322-4831-b4dd-77f0d548e44f": {
+                                    "name": "宴饮",
+                                    "tags": [
+                                        "犯罪",
+                                        "社会",
+                                        "街头"
+                                    ]
+                                },
+                                "636f2ebf-50a5-4202-89c6-895a8e510e81": {
+                                    "name": "舞蹈",
+                                    "tags": [
+                                        "艺术",
+                                        "娱乐"
+                                    ]
+                                },
+                                "4441ab95-8f77-42f6-a294-b59abf0047a6": {
+                                    "name": "纹章学",
+                                    "tags": [
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "礼仪",
+                                            "specialization": "上流社会"
+                                        }
+                                    ]
+                                },
+                                "73a2775d-2861-4fb2-aa8b-f776eb41fa65": {
+                                    "name": "诗歌",
+                                    "tags": [
+                                        "艺术",
+                                        "娱乐"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "写作"
+                                        }
+                                    ]
+                                },
+                                "b5a9ec23-b08a-4389-9349-760cc86e6f50": {
+                                    "name": "政治",
+                                    "tags": [
+                                        "商业",
+                                        "社会"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "外交"
+                                        }
+                                    ]
+                                },
+                                "13d9ce5c-fc87-48d0-8468-a1bd3f497ee3": {
+                                    "name": "神学",
+                                    "tags": [
+                                        "人文学科",
+                                        "社会科学"
+                                    ],
+                                    "specialization": "@分支@",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "宗教仪式",
+                                            "specialization": "@分支@"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

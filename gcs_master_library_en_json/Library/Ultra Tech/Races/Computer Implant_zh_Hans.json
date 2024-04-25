@@ -1,0 +1,807 @@
+{
+    "traits": {
+        "02062a3e-594e-4122-8cbf-b6b54c6af3ef": {
+            "name": "Computer Implant",
+            "tags": [
+                "Implant",
+                "Race"
+            ],
+            "children": {
+                "f8a45032-7c7a-43f7-935f-621d08847085": {
+                    "name": "Advantages",
+                    "children": {
+                        "b34b8755-a9d2-4b38-92cc-78d2276be495": {
+                            "name": "绝对方向感",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "fc7eed6e-fe94-404f-bbdc-88d2b26317d8": {
+                                    "name": "需求信号"
+                                },
+                                "af502893-67cc-481a-8dac-7a4f0a4cd16c": {
+                                    "name": "三维空间感",
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "飞行驾驶"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "空中杂技"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "自由落体"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "导航"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "超空间"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "导航"
+                                            },
+                                            "specialization": {
+                                                "qualifier": "太空"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "稳定身形"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "空中"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "陆地"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "海上"
+                                    }
+                                }
+                            ]
+                        },
+                        "9142b7d3-754d-4561-b01c-bd2fbbbfcb73": {
+                            "name": "Accessory (Tiny compact computer)",
+                            "tags": [
+                                "异种",
+                                "Perk",
+                                "生理"
+                            ]
+                        },
+                        "dd730093-b496-4b25-8965-1ed43da2242a": {
+                            "name": "伤害减免",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "2c5e8962-7e64-4150-9b86-c7aacf1bc952": {
+                                    "name": "剥离"
+                                },
+                                "5d75bb89-8d0c-420f-887b-a659fdaf7e77": {
+                                    "name": "吸收",
+                                    "notes": "增强@特质@"
+                                },
+                                "7f450465-66c7-44a4-bec8-0ca91987f807": {
+                                    "name": "吸收",
+                                    "notes": "增强任意特质"
+                                },
+                                "23218ca9-fd9e-4ef0-861c-7dfb94ebd505": {
+                                    "name": "吸收",
+                                    "notes": "仅治疗"
+                                },
+                                "6a4dd7ee-1dad-4210-bb73-5073a00ad58c": {
+                                    "name": "无法穿着护甲"
+                                },
+                                "ace3ff55-77e6-4066-b765-9881cf62204c": {
+                                    "name": "定向",
+                                    "notes": "@方向：后方、左、右、上、下@"
+                                },
+                                "e8b6b17a-d0bf-4f9c-bd39-883cb1893da4": {
+                                    "name": "定向",
+                                    "notes": "前方"
+                                },
+                                "8c569188-c555-497d-9ce1-8a57b137c955": {
+                                    "name": "柔性"
+                                },
+                                "3664b10d-bf54-408e-b61d-8c8732bdc999": {
+                                    "name": "硬化"
+                                },
+                                "a1a2a382-e9ce-4513-9b9c-9c4f348e1eaa": {
+                                    "name": "限制",
+                                    "notes": "@常见攻击类型@"
+                                },
+                                "73cc3181-51e4-433c-aa63-81bbf2152946": {
+                                    "name": "限制",
+                                    "notes": "@偶见攻击类型@"
+                                },
+                                "615e0182-a759-41bc-be5f-3f810deb1f02": {
+                                    "name": "限制",
+                                    "notes": "@罕见攻击类型@"
+                                },
+                                "d4f04f7d-c31c-440b-98e7-9cf1bff21b73": {
+                                    "name": "限制",
+                                    "notes": "@很常见攻击类型@"
+                                },
+                                "659e0da6-f19a-43f5-aaa3-f97a848d7404": {
+                                    "name": "反射"
+                                },
+                                "061de6bc-2765-4771-b78f-fa3e4bc7bde1": {
+                                    "name": "半剥离"
+                                },
+                                "7dcc08ce-3053-47c3-b313-fcac07dacac9": {
+                                    "name": "Force Field"
+                                }
+                            }
+                        },
+                        "b6a11fbe-20a6-4f83-9bcc-a8ff183f3a0a": {
+                            "name": "无需呼吸",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "421541a8-278a-478d-8a00-3cfedae86381": {
+                                    "name": "鳃"
+                                },
+                                "c2b976db-235c-4cde-af35-2bf6bbbe3144": {
+                                    "name": "鳃",
+                                    "notes": "在空气中窒息"
+                                },
+                                "958d82cc-2385-484f-b918-69bea4eeebf6": {
+                                    "name": "吸收氧气"
+                                },
+                                "bf25deb6-0645-4180-b5b4-4ca833254e51": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 25 倍"
+                                },
+                                "cf60184b-a1e3-444b-bb04-0c1eede1984d": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 50 倍"
+                                },
+                                "dd42bf4b-46dc-4b8e-939a-54cf2f42359e": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 100 倍"
+                                },
+                                "d4ce782d-8809-4e64-bef0-e12de8450f33": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 200 倍"
+                                },
+                                "628fed13-e21e-48b0-9e46-51587126d3b9": {
+                                    "name": "氧气储存",
+                                    "notes": "“屏息”时间是通常情况的 300 倍"
+                                },
+                                "2ecd3a8e-c9d8-4992-9d95-e49cdd499da6": {
+                                    "name": "燃烧氧气"
+                                }
+                            }
+                        },
+                        "632349b7-4d8a-401c-a8e0-12b74ab233ca": {
+                            "name": "无需饮食",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "86977625-0573-4f18-b848-1303ea5b1ef1": {
+                            "name": "逼真记忆",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "54ca7bac-76b6-4c40-a938-4e9ff60c8260": {
+                                    "name": "摄影式"
+                                },
+                                "cf6b9f88-463d-4426-96cf-ca2898d08ce1": {
+                                    "name": "Temporary Disadvantages, Electrical"
+                                },
+                                "136c5314-5c06-4ad7-9d52-9fe8e11a3f70": {
+                                    "name": "Recorded Data Only"
+                                }
+                            }
+                        },
+                        "f41cf2eb-107f-46a7-bc79-4d1961c07a13": {
+                            "name": "Injury Tolerance (No Eyes)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "5dca2fa9-260a-4d95-a9c5-57d46c605aef": {
+                            "name": "Injury Tolerance (No Head)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "c941d143-b83f-429f-8be3-acb6c587d275": {
+                            "name": "Injury Tolerance (No Neck)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "d8839046-ac3a-4e1b-8c7e-4a24a616a48b": {
+                            "name": "Meta-Trait: Machine",
+                            "children": {
+                                "9af4e4d4-09be-457b-833e-c8236fdba94c": {
+                                    "name": "Eight-hour energy reserve, Refuel 3 times per day",
+                                    "tags": [
+                                        "生理"
+                                    ]
+                                },
+                                "a4b42baa-f023-4c0c-b73e-c510832363d5": {
+                                    "name": "Injury Tolerance (No Blood)",
+                                    "tags": [
+                                        "异种",
+                                        "生理"
+                                    ]
+                                },
+                                "9a0a3a02-9635-43d5-812a-c76ccc5f5f69": {
+                                    "name": "Injury Tolerance (Unliving)",
+                                    "tags": [
+                                        "异种",
+                                        "生理"
+                                    ]
+                                },
+                                "e041aff3-2027-44a6-aa0a-ee59751ffce2": {
+                                    "name": "No fatigue points, Don't spend fatigue points",
+                                    "tags": [
+                                        "生理"
+                                    ]
+                                },
+                                "c56b1ce0-e05b-4339-96d1-b5f34e8bc20c": {
+                                    "name": "Resistant (Immunity to Metabolic Hazards)",
+                                    "tags": [
+                                        "生理"
+                                    ]
+                                },
+                                "3179f6bd-9516-4e6c-9b06-771a5c115425": {
+                                    "name": "无法治愈（完全）",
+                                    "tags": [
+                                        "异种",
+                                        "生理"
+                                    ]
+                                },
+                                "78c09127-ab67-4060-ba60-3f0e2f81f294": {
+                                    "name": "Wears out instead of aging",
+                                    "tags": [
+                                        "生理"
+                                    ]
+                                }
+                            }
+                        },
+                        "ae3db157-4a2b-4d88-bf74-a92b2a03d5f1": {
+                            "name": "心灵读取",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "98db8aee-5785-487b-80c7-5ff36d01aa3a": {
+                                    "name": "赛博网络"
+                                },
+                                "8edb2d00-51db-49db-a42a-41c92ced8907": {
+                                    "name": "传感"
+                                },
+                                "d08a175d-065d-4721-853d-baa5877590fa": {
+                                    "name": "通用"
+                                },
+                                "b5c0eb0f-8914-41e3-8703-6d9155236aa3": {
+                                    "name": "仅限赛博网络"
+                                },
+                                "3d64ed84-4a77-4fc4-b847-c79ee5d5b669": {
+                                    "name": "种族隔绝",
+                                    "notes": "@种族@"
+                                },
+                                "f1d2161b-0fe7-42b7-8855-77a5e21b213b": {
+                                    "name": "仅限传感"
+                                },
+                                "fa507536-9afe-4666-9c64-d532e5f4fd3c": {
+                                    "name": "通讯"
+                                },
+                                "dcf68e2b-557d-449e-a549-3ca6646790dc": {
+                                    "name": "多重连接"
+                                },
+                                "20207597-9739-4f2f-ac29-ca459aa32577": {
+                                    "name": "需要心灵链接"
+                                },
+                                "495097d9-74ad-4ec4-8d27-1bac549ae4f3": {
+                                    "name": "Touch-Based"
+                                }
+                            }
+                        },
+                        "7cbc0016-00c7-41e0-b8a2-a02ecbae5616": {
+                            "name": "心灵链接",
+                            "tags": [
+                                "优势",
+                                "心理",
+                                "超自然"
+                            ],
+                            "modifiers": {
+                                "fb12daeb-10b9-4e8d-a0a1-8fdf47ce1645": {
+                                    "name": "1 人",
+                                    "notes": "@Host@"
+                                },
+                                "ed788cce-a1aa-4cce-9bf9-6872099377b2": {
+                                    "name": "2-9 人",
+                                    "notes": "@谁@"
+                                },
+                                "e46e2a97-3689-4e02-b779-be22d26a4e5c": {
+                                    "name": "10-99 人",
+                                    "notes": "@谁@"
+                                },
+                                "3f61b545-03f8-4f50-a983-eae560965de2": {
+                                    "name": "100-999 人",
+                                    "notes": "@谁@"
+                                },
+                                "d1ed2620-ed5f-4dc9-bd19-e54aeeb73cb4": {
+                                    "name": "1000-9999 人",
+                                    "notes": "@谁@"
+                                },
+                                "4649c34c-3f13-48f3-8cfb-c8cda65774fc": {
+                                    "name": "10000-99999 人",
+                                    "notes": "@谁@"
+                                },
+                                "4853edb3-5566-4bf5-9808-e598b15099c5": {
+                                    "name": "广播"
+                                },
+                                "2eefe725-d30f-4443-9ae9-509b4cabff12": {
+                                    "name": "赛博网络"
+                                },
+                                "95e715cb-0da3-47ec-8f4d-0af90b16754e": {
+                                    "name": "传感"
+                                },
+                                "2a3887ee-f7ef-4cdf-948b-00c4f4635d12": {
+                                    "name": "通用"
+                                },
+                                "cd09ea05-d71e-44e1-a265-097ca45e3d9a": {
+                                    "name": "影像"
+                                },
+                                "0983d784-28d4-487e-9526-eb2dbc63a3d4": {
+                                    "name": "仅限赛博网络"
+                                },
+                                "c923bd1d-7dca-4fca-841b-fd63b5231a3d": {
+                                    "name": "种族隔绝",
+                                    "notes": "@种族@"
+                                },
+                                "5f609fe6-5f0f-4d70-b317-87a383f3fd16": {
+                                    "name": "仅限传感"
+                                },
+                                "2e5228d1-c694-4716-955a-fdc72ad897dd": {
+                                    "name": "通讯"
+                                },
+                                "08d68861-3603-4692-9d5b-af3c606db737": {
+                                    "name": "模糊"
+                                }
+                            }
+                        },
+                        "89cd2004-e64e-4be9-b4ba-23971a4ba7e1": {
+                            "name": "密封",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "b33792c3-55a0-47d4-b5cc-6b35db370818": {
+                            "name": "通讯",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "心理",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "f5208c7b-28bf-4737-b125-8c9ee8d0c4e6": {
+                                    "name": "广播"
+                                },
+                                "98ef2c2d-2941-4067-b90b-bd709d7077f5": {
+                                    "name": "快传"
+                                },
+                                "4442e991-85f8-40e6-8c76-113330217afc": {
+                                    "name": "定向声音"
+                                },
+                                "297bba72-b9aa-4cd1-9609-4b24f54008a5": {
+                                    "name": "超光速"
+                                },
+                                "2959aceb-39cf-4e7b-91ff-08ade989d503": {
+                                    "name": "重力波"
+                                },
+                                "0c502e00-e5fb-4c38-a7fd-144d0cae2a2b": {
+                                    "name": "红外线通讯"
+                                },
+                                "e2c9d87b-3a28-479f-9319-e29a0a3dadeb": {
+                                    "name": "激光通讯"
+                                },
+                                "d4454abf-bb14-44dd-9210-b48bcea02060": {
+                                    "name": "中微子"
+                                },
+                                "ecfffe24-ba4c-4f86-ab35-7591fb4a116c": {
+                                    "name": "种族隔绝"
+                                },
+                                "d8f6d4bb-91d1-4a7d-9af0-adceb1ef2059": {
+                                    "name": "无线电"
+                                },
+                                "264ca97a-29d5-4048-a581-fd7b83371d85": {
+                                    "name": "只能接收"
+                                },
+                                "396a8e10-bf7e-4501-9c21-786430976fb7": {
+                                    "name": "加密"
+                                },
+                                "64b54b9c-a3c5-4c2b-9a88-5e1577e25cb2": {
+                                    "name": "只能发送"
+                                },
+                                "f7664099-f8fd-44f9-bf92-cdfab576a48c": {
+                                    "name": "感官"
+                                },
+                                "4eb2be09-1e87-48c1-905b-f49532f38cbf": {
+                                    "name": "短波"
+                                },
+                                "973381f1-f440-457e-915e-20443545f490": {
+                                    "name": "声纳"
+                                },
+                                "581c6735-3bf8-422f-882e-d9a499a8411e": {
+                                    "name": "心灵传话"
+                                },
+                                "fdf02ae8-ff08-4591-ab1e-aa858a338533": {
+                                    "name": "通用"
+                                },
+                                "a3d4308c-b691-46ce-aef0-704325783ef9": {
+                                    "name": "模糊"
+                                },
+                                "42d4150c-1731-4a3e-9608-1501e34a719d": {
+                                    "name": "影像"
+                                }
+                            }
+                        },
+                        "4001a8eb-3ad6-4214-b226-59abb346832b": {
+                            "name": "Volitional AI",
+                            "tags": [
+                                "Machine Intelligence",
+                                "Meta-Trait"
+                            ],
+                            "children": {
+                                "7946fb95-3447-422b-a2fd-8bfdd9195299": {
+                                    "name": "Complexity-Limited IQ",
+                                    "tags": [
+                                        "心理",
+                                        "Taboo Trait"
+                                    ]
+                                },
+                                "40a9c3d8-ffc6-417b-aca8-f7e7b8e40d11": {
+                                    "name": "超特质：人工智能",
+                                    "children": {
+                                        "c410c165-fa5b-4745-a82a-ca2dc2702581": {
+                                            "name": "绝对时感",
+                                            "tags": [
+                                                "心理"
+                                            ]
+                                        },
+                                        "c92ef1e3-d75c-4c91-a2c9-0c3aa90ef7fd": {
+                                            "name": "数字化心智",
+                                            "tags": [
+                                                "异种",
+                                                "生理"
+                                            ]
+                                        },
+                                        "ff9e5760-d5df-4484-9e38-799c20f2db3d": {
+                                            "name": "无需睡眠",
+                                            "tags": [
+                                                "异种",
+                                                "生理"
+                                            ]
+                                        },
+                                        "4f8b6d1b-5d51-41d7-907c-1d50efdae10a": {
+                                            "name": "Eidetic Memory (Photographic)",
+                                            "tags": [
+                                                "心理"
+                                            ]
+                                        },
+                                        "3a7cfdc8-cc01-42bf-a654-eda6aa13eae4": {
+                                            "name": "Lightning Calculator (Intuitive Mathematician)",
+                                            "tags": [
+                                                "心理"
+                                            ]
+                                        },
+                                        "8e332295-9320-43ff-a317-4ffa827e17dc": {
+                                            "name": "服从指令",
+                                            "tags": [
+                                                "异种",
+                                                "心理"
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "bec09739-db51-4c17-9be8-847c8a0a091f": {
+                    "name": "属性修正",
+                    "children": {
+                        "12793ec0-49f4-4637-9356-8921a47a7391": {
+                            "name": "减少力量",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "7fcee958-c27e-454d-a68c-a0b7a5bb58da": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "4277188f-fd29-4594-be5b-23d66400a66c": {
+                    "name": "Disadvantages",
+                    "children": {
+                        "211289ec-2596-40ff-8f42-b0a52dfa887f": {
+                            "name": "电气",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "91e9f1c5-3a6e-4e0d-b121-c42814ad52f8": {
+                            "name": "四肢瘫痪",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "021554c3-426c-481a-8a93-94d239a2cc03": {
+                    "name": "Lenses",
+                    "children": {
+                        "68db826e-766d-48c0-a155-bc3970c7356e": {
+                            "name": "Mind Interface",
+                            "tags": [
+                                "心理"
+                            ],
+                            "notes": "TL10. Remove the Sensory Only limitation on Mind Reading.",
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "心灵读取"
+                                        },
+                                        "notes": {
+                                            "qualifier": "仅限传感"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "f2a759cd-5ca3-4606-b3d4-9a255eba6f08": {
+                            "name": "Puppeteer",
+                            "children": {
+                                "fe1299bd-3302-4467-b7f6-97ac7e03e8f1": {
+                                    "name": "Automatic possession",
+                                    "children": {
+                                        "281c49f3-6048-4fe6-bdbd-27dbf49b2afb": {
+                                            "name": "Puppet (@Host@)",
+                                            "tags": [
+                                                "优势",
+                                                "异种",
+                                                "心理"
+                                            ],
+                                            "prereqs": {
+                                                "prereqs": [
+                                                    {
+                                                        "prereqs": [
+                                                            {
+                                                                "name": {
+                                                                    "qualifier": "从属"
+                                                                }
+                                                            },
+                                                            {
+                                                                "name": {
+                                                                    "qualifier": "盟友"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "占据"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                "6d098288-3b8c-422f-9366-a8b37cf3ad47": {
+                                    "name": "占据",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "37639bca-d5c0-47e8-849b-d114c2781624": {
+                                            "name": "同化"
+                                        },
+                                        "8f9c02f0-a2f6-4c80-9aa4-56a953a1fb7f": {
+                                            "name": "重复利用"
+                                        },
+                                        "dd8af85f-a657-4d97-bb05-105d74e0bcfd": {
+                                            "name": "数字化"
+                                        },
+                                        "a4bdc95c-e9cb-49c3-aa49-4eef0b6c43a1": {
+                                            "name": "完全获取记忆"
+                                        },
+                                        "95cc9828-3426-4ef7-bb1b-acc0d7c93315": {
+                                            "name": "魔法"
+                                        },
+                                        "93812dd2-253a-4e81-94ee-6c86dd32ef0b": {
+                                            "name": "心灵交换"
+                                        },
+                                        "8c43c3ef-0ecb-4c97-b15d-5768c7b50d3e": {
+                                            "name": "需要心灵链接"
+                                        },
+                                        "3c7ffb07-601a-47b2-bcaf-5c58746de031": {
+                                            "name": "无法获取记忆"
+                                        },
+                                        "1fded821-726d-4b25-8ca1-d936cf2828f1": {
+                                            "name": "寄生"
+                                        },
+                                        "8acf7a4d-2d75-47df-9b93-41e04dfca936": {
+                                            "name": "仅限傀儡"
+                                        },
+                                        "e9d514f5-186c-4393-b8db-1ae25ee1281a": {
+                                            "name": "特化",
+                                            "notes": "@基础：碳基@"
+                                        },
+                                        "f6659a3a-a17c-4e36-a488-392203419094": {
+                                            "name": "特化",
+                                            "notes": "@纲：哺乳动物@"
+                                        },
+                                        "7f1e26d1-23eb-439b-b723-d90f67ee4606": {
+                                            "name": "特化",
+                                            "notes": "@科：犬科@"
+                                        },
+                                        "85992d69-2927-4c88-9470-a7f54f6e5b1a": {
+                                            "name": "特化",
+                                            "notes": "@界：动物界@"
+                                        },
+                                        "64141e23-8923-440d-ad3a-f15230895aed": {
+                                            "name": "特化",
+                                            "notes": "@起源星球：地球@"
+                                        },
+                                        "9e15a04e-6c35-49c3-8247-21385820233d": {
+                                            "name": "特化",
+                                            "notes": "@种：狼@"
+                                        },
+                                        "6c2e974a-5a2e-4b17-8ea5-46ed0cb7ba6a": {
+                                            "name": "灵魂附体"
+                                        },
+                                        "5bc05c86-075c-4aca-81f1-64a6f5c07f10": {
+                                            "name": "遥控"
+                                        },
+                                        "cfffe09f-f9d2-4643-b490-0220e0a30979": {
+                                            "name": "遥控 2"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "0d0bf781-1638-4059-acc1-4d0c268f6ad7": {
+                    "name": "Secondary Characteristic Modifiers",
+                    "children": {
+                        "0db5666b-9fc2-40a2-b634-083cc0fef990": {
+                            "name": "减少基本移动力",
+                            "tags": [
+                                "属性",
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "406b9f30-9ae4-4c3b-97cb-3a46dd410d7f": {
+                            "name": "额外生命值",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "5d16c953-05de-4921-b298-5e4d88c1bea6": {
+                                    "name": "体型"
+                                },
+                                "172d430d-d9fd-453b-a64b-ec2f4c30cf10": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "equipment": {
+        "e66f2e04-23e9-497d-9f0e-5de71491dd19": {
+            "notes": "Major procedure.",
+            "description": "Computer Implant",
+            "children": {
+                "81beff05-8f6a-458e-a8a2-c1ee0d4b4893": {
+                    "notes": "Major procedure.",
+                    "description": "Tiny Computer"
+                },
+                "a1990765-ba10-4614-a225-9039daac0ba2": {
+                    "notes": "Simple procedure.",
+                    "description": "Implant Radio"
+                },
+                "f173feff-8401-49cb-99bb-441c53d82db1": {
+                    "notes": "Major procedure.",
+                    "description": "Neural Jack"
+                }
+            }
+        },
+        "3960ff0e-281d-4101-b18f-967dcf957800": {
+            "notes": "Minor procedure.",
+            "description": "Computer Implant",
+            "children": {
+                "523af3bf-7f56-4255-8e61-6a710bc1846f": {
+                    "notes": "Minor procedure.",
+                    "description": "Tiny Computer (Compact)"
+                },
+                "e05c306b-9b8a-4908-8130-92ca520ef97d": {
+                    "notes": "Simple procedure.",
+                    "description": "Implant Radio"
+                },
+                "a5bd13f0-7ac7-408d-99ba-b1bbc5dfdc1f": {
+                    "notes": "Minor procedure.",
+                    "description": "Neural Jack"
+                }
+            }
+        }
+    }
+}

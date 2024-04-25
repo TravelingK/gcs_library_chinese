@@ -1,0 +1,231 @@
+{
+    "traits": {
+        "1f18e8ad-ddd5-4f8d-aa52-4b2010bfd786": {
+            "name": "Command",
+            "children": {
+                "55d8b48c-50a9-411e-956a-b20040f60dbd": {
+                    "name": "超凡魅力",
+                    "tags": [
+                        "优势",
+                        "心理"
+                    ],
+                    "notes": "+1/level to Influence rolls",
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "预言"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "领导力"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "乞讨"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "演讲"
+                            }
+                        }
+                    ]
+                },
+                "d41fb58e-8531-4495-ac85-0e015708bdc6": {
+                    "name": "穿透性的嗓音",
+                    "tags": [
+                        "Perk",
+                        "生理"
+                    ]
+                }
+            }
+        }
+    },
+    "skills": {
+        "489435fd-3897-409b-86dc-d1b8d5e72936": {
+            "name": "Command",
+            "children": {
+                "137e190e-e5a3-455d-9933-87debcef3dc4": {
+                    "name": "管理",
+                    "tags": [
+                        "商业",
+                        "社会"
+                    ],
+                    "defaults": [
+                        {
+                            "name": "商人"
+                        }
+                    ]
+                },
+                "04d51b00-bd63-4694-b3b6-3932bb57cc76": {
+                    "name": "外交",
+                    "tags": [
+                        "商业",
+                        "警察",
+                        "社会"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "政治"
+                        }
+                    ]
+                },
+                "b9ce1298-79ea-454f-91b4-b3ca14d884b0": {
+                    "name": "威吓",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "社会",
+                        "街头"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "做戏"
+                        }
+                    ]
+                },
+                "58498b7a-6d52-4af2-9aa6-b2afc44b9ed7": {
+                    "name": "领导力",
+                    "tags": [
+                        "军事",
+                        "社会"
+                    ]
+                },
+                "6445a8f0-1697-4b9a-86a5-b59cb4204a66": {
+                    "name": "教学",
+                    "tags": [
+                        "学校",
+                        "社会"
+                    ]
+                },
+                "3a4a8dd8-a0e1-465b-8510-37925d8b8c6a": {
+                    "name": "Choose one",
+                    "children": {
+                        "81498ccc-6a6d-4b2c-a06f-80f1d299c49b": {
+                            "name": "礼仪",
+                            "tags": [
+                                "知识",
+                                "军事",
+                                "社会"
+                            ],
+                            "specialization": "军事"
+                        },
+                        "ced28fd1-bcd9-4191-82ea-11d2dce766ac": {
+                            "name": "礼仪",
+                            "tags": [
+                                "知识",
+                                "警察",
+                                "社会"
+                            ],
+                            "specialization": "警察"
+                        }
+                    }
+                },
+                "2ddd66bc-b758-4168-9a8f-84b0b3f36315": {
+                    "name": "Total of 4 points in",
+                    "children": {
+                        "a092742e-6599-4bc1-923c-6aa508588586": {
+                            "name": "专家技能",
+                            "tags": [
+                                "知识",
+                                "军事",
+                                "学校"
+                            ],
+                            "specialization": "军事科学"
+                        },
+                        "b048f36f-cb1a-4f11-b2b7-d8bad80ead07": {
+                            "name": "法学",
+                            "tags": [
+                                "商业",
+                                "人文学科",
+                                "警察",
+                                "社会科学"
+                            ],
+                            "specialization": "警察"
+                        },
+                        "41f73717-2094-403b-8833-03535e765990": {
+                            "name": "战略",
+                            "tags": [
+                                "军事"
+                            ],
+                            "specialization": "@分支@",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "情报分析"
+                                },
+                                {
+                                    "name": "战术"
+                                },
+                                {
+                                    "name": "战略"
+                                }
+                            ]
+                        },
+                        "0e2f8b96-0eab-4287-b004-fb24348f269b": {
+                            "name": "战术",
+                            "tags": [
+                                "军事",
+                                "警察"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "战略"
+                                }
+                            ]
+                        },
+                        "b5f9334c-da00-4d7a-8d60-0ce5f3dde032": {
+                            "name": "Those with Sailor add",
+                            "children": {
+                                "528cbcc1-a049-4b9b-92a3-989cd1baf801": {
+                                    "name": "船舶掌握",
+                                    "tags": [
+                                        "载具"
+                                    ],
+                                    "specialization": "@船只类型@",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "导航"
+                                                },
+                                                "specialization": {
+                                                    "qualifier": "空中"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "领导力"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "飞艇乘务员"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "飞艇乘务员"
+                                        },
+                                        {
+                                            "name": "飞行驾驶",
+                                            "specialization": "浮力飞行器"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

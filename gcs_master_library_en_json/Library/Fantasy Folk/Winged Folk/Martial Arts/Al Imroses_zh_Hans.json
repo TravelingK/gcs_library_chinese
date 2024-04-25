@@ -1,0 +1,573 @@
+{
+    "traits": {
+        "2c3b0f71-448d-4d15-9ddc-df8f3c25f7c9": {
+            "name": "Martial Art: Al Imroses",
+            "notes": "The Way of the Bride",
+            "children": {
+                "320c355c-3b99-49f1-baf1-566ac8379261": {
+                    "name": "Perks",
+                    "children": {
+                        "56a0f58b-f0f4-4311-8e4e-dffd87ea2d2b": {
+                            "name": "Style Familiarity (Al Imroses)",
+                            "tags": [
+                                "心理",
+                                "Perk"
+                            ],
+                            "notes": "The Way of the Bride"
+                        },
+                        "3fa6715a-d861-42e6-a2ba-005438a6472a": {
+                            "name": "Dancing Kicks",
+                            "tags": [
+                                "Perk",
+                                "生理"
+                            ],
+                            "notes": "Can default kicking techniques to Aerobatics"
+                        },
+                        "67b71fd6-4d92-4040-836f-a92f0007caa3": {
+                            "name": "Special Excercises",
+                            "tags": [
+                                "Perk",
+                                "生理"
+                            ],
+                            "notes": "Can buy off limitations on Flight"
+                        },
+                        "d307efe2-4d2b-49ad-97f6-7a12f44adc67": {
+                            "name": "Strongbow",
+                            "tags": [
+                                "心理",
+                                "Perk"
+                            ],
+                            "notes": "Let you ignore some penalties when shooting a bow too strong for you"
+                        }
+                    }
+                },
+                "3db88139-21ec-4083-9bde-51fc30b1aa22": {
+                    "name": "Optional Traits",
+                    "children": {
+                        "41a1ddbc-eb15-4f7d-a9d7-a9757af1fc7b": {
+                            "name": "战斗反射",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "永远不会“惊呆”",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "即时备战"
+                                    }
+                                },
+                                {},
+                                {},
+                                {},
+                                {},
+                                {
+                                    "situation": "对于从心理震慑中恢复的 IQ 检定"
+                                },
+                                {
+                                    "situation": "对于你的队伍避免突袭的对抗（如果你是领导者则 +2）"
+                                }
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "增强时间感"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "3c4df703-ae92-4c10-a4fa-73339319372d": {
+                            "name": "Heroic Archer",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "3fe870a0-b30f-44b8-8ed3-0f70cc44125e": {
+                            "name": "武器大师",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "弓术"
+                        },
+                        "0e786814-09cb-4c0d-a5b7-66b85c96cc51": {
+                            "name": "武器大师",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ],
+                            "notes": "Shortsword"
+                        },
+                        "8359a40c-0521-4488-9718-f1adebeb9f62": {
+                            "name": "Sense of Duty (Winged Folk)",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "ded94043-34e0-4899-bd9b-e0215b215517": {
+            "name": "Martial Art: Al Imroses",
+            "notes": "The Way of the Bride",
+            "children": {
+                "bc1d4e3a-c8c1-40a3-8b0c-0ee01298a11c": {
+                    "name": "Skills",
+                    "children": {
+                        "d4ec3ce3-54b7-4869-8dbe-26ad51e4b0b1": {
+                            "name": "弓术",
+                            "tags": [
+                                "战斗",
+                                "远程战斗",
+                                "武器"
+                            ]
+                        },
+                        "fc0dd756-c430-42ab-a968-c251fe55bf14": {
+                            "name": "即时备战",
+                            "tags": [
+                                "战斗",
+                                "远程战斗",
+                                "武器"
+                            ],
+                            "specialization": "箭矢"
+                        },
+                        "e437a2ec-c940-4f4c-86b0-c6dcbafaa7c9": {
+                            "name": "Shortsword",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "defaults": [
+                                {
+                                    "name": "Broadsword"
+                                },
+                                {
+                                    "name": "能量剑"
+                                },
+                                {
+                                    "name": "Jitte/Sai"
+                                },
+                                {
+                                    "name": "Knife"
+                                },
+                                {
+                                    "name": "Saber"
+                                },
+                                {
+                                    "name": "Smallsword"
+                                },
+                                {
+                                    "name": "Tonfa"
+                                }
+                            ]
+                        },
+                        "f72e370c-465d-4ae4-9d88-60881af2bad0": {
+                            "name": "Wrestling",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ]
+                        }
+                    }
+                },
+                "93ae0e13-b3a5-4bff-bb4e-e27cfc9d2c7e": {
+                    "name": "Techniques",
+                    "children": {
+                        "02533d22-29f6-492f-9ab2-4834e4795095": {
+                            "name": "锁臂",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Wrestling"
+                            }
+                        },
+                        "4a494170-d4ed-42e8-ab2a-595e7074e568": {
+                            "name": "佯攻",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Shortsword"
+                            }
+                        },
+                        "b59d4b69-3724-450a-ad68-cbb5771d5a6f": {
+                            "name": "折颈",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ]
+                        },
+                        "429fcaad-2c6c-4bab-9fef-ac757de199ef": {
+                            "name": "旋转打击",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Shortsword"
+                            }
+                        },
+                        "9eb6ee15-096f-431f-8a83-3104253c99f0": {
+                            "name": "Targeted Attack (Bow/Vitals)",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "弓术"
+                            }
+                        },
+                        "1dcb5354-d6d7-45db-827e-946ff9e64ea0": {
+                            "name": "Targeted Attack (Shortsword Thrust/Vitals)",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Shortsword"
+                            }
+                        },
+                        "40d62b00-df26-4dbb-ba74-e03700c7b3ab": {
+                            "name": "Targeted Attack (Wrestling Grapple/Arm)",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Wrestling"
+                            }
+                        },
+                        "e31a69c5-3107-4977-aef7-434f8a5f913f": {
+                            "name": "Targeted Attack (Wrestling Grapple/Neck)",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Wrestling"
+                            }
+                        },
+                        "dc9cd508-40da-430b-8e1c-274bb88ffbe1": {
+                            "name": "Wrench Arm",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ]
+                        },
+                        "5e1ec22e-895b-4596-8279-40e008daafb2": {
+                            "name": "Wrench Wing",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ]
+                        }
+                    }
+                },
+                "779714df-0b9c-4298-8a08-bff23489ad2e": {
+                    "name": "Cinematic Skills",
+                    "children": {
+                        "07c6303c-d52a-41f9-901f-eaef6587f163": {
+                            "name": "斗气击",
+                            "tags": [
+                                "秘技"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "Style Familiarity"
+                                        },
+                                        "notes": {
+                                            "qualifier": "Al Imroses"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "武器大师"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "大师传承"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "f1e5c70c-be7a-41f2-b13d-08d7628f0377": {
+                            "name": "Pressure Points (Wrestling)",
+                            "tags": [
+                                "秘技"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "Style Familiarity"
+                                        },
+                                        "notes": {
+                                            "qualifier": "Al Imroses"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "武器大师"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "大师传承"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "4b16c227-204a-4659-b09c-19316a87acb0": {
+                            "name": "禅箭术",
+                            "tags": [
+                                "秘技"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Style Familiarity"
+                                                },
+                                                "notes": {
+                                                    "qualifier": "Al Imroses"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "冥想"
+                                                }
+                                            },
+                                            {
+                                                "name": {
+                                                    "qualifier": "弓术"
+                                                }
+                                            },
+                                            {
+                                                "prereqs": [
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "武器大师"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "大师传承"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "a6a5af12-c5bf-4484-8aae-ccc5330e8942": {
+                    "name": "电影化技巧",
+                    "children": {
+                        "b7b98365-796d-4052-986e-088c5f13bda2": {
+                            "name": "飞跃突刺",
+                            "tags": [
+                                "电影化技巧",
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Shortsword"
+                            }
+                        },
+                        "0aca6925-410d-4887-b7cf-155d37dc05d3": {
+                            "name": "手抓",
+                            "tags": [
+                                "电影化技巧",
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Wrestling"
+                            }
+                        }
+                    }
+                },
+                "672ffeb0-7138-4e57-b285-6b5af74686df": {
+                    "name": "Optional Skills",
+                    "children": {
+                        "63753dcd-1b9c-4d32-ac6e-10034de5dc1a": {
+                            "name": "空中杂技",
+                            "tags": [
+                                "运动"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "杂技"
+                                },
+                                {
+                                    "name": "水上杂技"
+                                }
+                            ]
+                        },
+                        "10a1d8ce-8a6a-437b-804b-402cd61e53aa": {
+                            "name": "Judo",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "notes": "使得你获得每轮用两只手各招架一次的能力。"
+                        },
+                        "2d81fb6b-f8e0-4292-b34e-4a2cac7678c4": {
+                            "name": "Karate",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "武器"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "Karate"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Karate"
+                                    }
+                                }
+                            ]
+                        },
+                        "fcd40d4a-c377-4675-ae76-3950858fc607": {
+                            "name": "战术",
+                            "tags": [
+                                "军事",
+                                "警察"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "战略"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "bff0eff0-f57f-475a-863e-8ec4bfad559d": {
+                    "name": "Optional Techniques",
+                    "children": {
+                        "4b1ce9b2-570e-4dbb-9259-ad908ed56b95": {
+                            "name": "从上方攻击",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Karate"
+                            }
+                        },
+                        "c153ec4d-592a-4006-98a5-f948305b219a": {
+                            "name": "缴械",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Shortsword"
+                            }
+                        },
+                        "b42d722b-840c-4ea8-804b-a3e8c1e16e24": {
+                            "name": "规避",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Judo"
+                            }
+                        },
+                        "f8d2487d-aa5e-43d3-8d78-c7f5e04df107": {
+                            "name": "踢击",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Karate"
+                            }
+                        },
+                        "8360f8ee-56af-4340-b1d6-61a61f542ebc": {
+                            "name": "踩踢",
+                            "tags": [
+                                "战斗",
+                                "近战",
+                                "技术",
+                                "武器"
+                            ],
+                            "default": {
+                                "name": "Karate"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "notes": {
+        "16e4c1f7-77a3-4b90-a849-e99de7805b1e": {
+            "text": "The book references a perk \"Aerobatic Kicks\", however this doesn't seem to exist.  Instead using \"Dancing Kicks\" (i.e. Aerobatic Kicks) as used in the Al Ninwirens style."
+        }
+    }
+}

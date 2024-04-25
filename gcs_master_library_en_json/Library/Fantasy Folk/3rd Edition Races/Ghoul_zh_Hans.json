@@ -1,0 +1,192 @@
+{
+    "traits": {
+        "10a530f1-3260-409c-81e1-c98f951a6210": {
+            "name": "Race: Ghoul",
+            "children": {
+                "7611602f-7567-4884-8ddf-c4bd482d1cc3": {
+                    "name": "增加力量",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "2c97c310-14d1-4332-8428-57d4270ebcbe": {
+                    "name": "增加感知",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "心理",
+                        "生理"
+                    ]
+                },
+                "d2016817-8935-402c-88f1-820ccaaa6ca5": {
+                    "name": "灵活（双关节）",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "攀爬"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "逃脱"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "房中术"
+                            }
+                        },
+                        {
+                            "situation": "免去在有限空间作业时的减值"
+                        }
+                    ]
+                },
+                "165e3d3c-984e-455d-9917-6622ba978735": {
+                    "name": "Immunity: Disease",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "670dd8a7-4aef-414f-95ce-76ad31e4b7d8": {
+                    "name": "夜视",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ]
+                },
+                "e7ddefdf-6a5d-4c7b-9055-826a3cd2899a": {
+                    "name": "悄无声息",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "notes": "只有必须靠听找到你时，加值才起效。",
+                    "features": [
+                        {
+                            "situation": "对于完全静止的情况下你的潜行技能"
+                        },
+                        {
+                            "situation": "对于在移动的情况下你的潜行技能（即便身穿装甲等）"
+                        }
+                    ]
+                },
+                "6f4c71a7-94dd-4cfb-9fef-12c214ef0d12": {
+                    "name": "Dependency (Sentient brains)",
+                    "tags": [
+                        "劣势",
+                        "异种",
+                        "生理"
+                    ],
+                    "notes": "Fresh brains from sentient beings no more than 1 week dead, illegal, monthly.  Lose 1 HP per day after missing a monthly dose."
+                },
+                "3dc5c122-666b-497e-a54c-ef5f16764f9a": {
+                    "name": "Odious Racial Habit",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ],
+                    "notes": "Eat sentient carrion",
+                    "features": [
+                        {
+                            "situation": "来自其他人"
+                        }
+                    ]
+                },
+                "3e7abd86-7974-46db-9234-a587ab4d3b0b": {
+                    "name": "Bad reputation",
+                    "tags": [
+                        "劣势",
+                        "社会"
+                    ],
+                    "features": [
+                        {
+                            "situation": "来自其他人"
+                        }
+                    ]
+                },
+                "d1201c23-4a99-41e1-9fb3-d28fdbaee42e": {
+                    "name": "Sense of Duty (Welfare of race)",
+                    "tags": [
+                        "劣势",
+                        "心理"
+                    ]
+                },
+                "ea3ebd91-59cc-46b5-8424-34743eefad71": {
+                    "name": "Appearance (Ugly)",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "features": [
+                        {
+                            "situation": "from others who can see your looks"
+                        }
+                    ]
+                },
+                "68478645-fc9f-4bb2-bc59-67a0eb74aca6": {
+                    "name": "If living among orcs, select Degenerate",
+                    "children": {
+                        "f814fa64-36ec-49af-a20d-e471a4a712fd": {
+                            "name": "Degenerate"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "f598a338-6683-42fa-995e-cebf880c37ee": {
+            "name": "Race: Ghoul",
+            "children": {
+                "aef4533e-0f7a-4fee-805d-5e1969618a2f": {
+                    "name": "伪装",
+                    "tags": [
+                        "探索",
+                        "军事",
+                        "户外"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "生存"
+                        }
+                    ]
+                },
+                "6d9d394c-228b-42c6-a187-bafafe11698d": {
+                    "name": "搜集",
+                    "tags": [
+                        "犯罪",
+                        "街头"
+                    ]
+                },
+                "1429f438-6c57-4202-aacf-fcb62d7bda27": {
+                    "name": "潜行",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ]
+                }
+            }
+        }
+    },
+    "notes": {
+        "261f46e8-c05c-408c-a5ae-bb237aef26a6": {
+            "text": "Race: Ghoul",
+            "children": {
+                "def3b2f0-c38e-4584-9bc7-ba2aa7ec25a5": {
+                    "text": "Ghouls are pallid, hairless humanoids. They have splayed, clawed hands,\r and long, thin limbs. Their faces are narrow, with pointed ears, long noses, and\r sharp chins. They have broad mouths filled with small, sharply-pointed teeth.\r They usually wear clothing – mostly ancient human finery and grave-clothes for\r which the original owner has no further use (height is normal for ST, weight is\r 20 pounds lighter than normal)."
+                }
+            }
+        }
+    }
+}

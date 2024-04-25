@@ -1,0 +1,2299 @@
+{
+    "traits": {
+        "18090565-f6d8-4241-8221-7c689c572cd8": {
+            "name": "Skirmisher",
+            "children": {
+                "b6676599-443a-4854-9af8-cc46937484c8": {
+                    "name": "Attribute Changes",
+                    "children": {
+                        "e85d4172-a37e-4d30-b746-343aa69aae39": {
+                            "name": "增加基本速度",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        },
+                        "f8146d58-c291-442c-ad29-016705683374": {
+                            "name": "增加敏捷",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "364a2f28-ccf3-461b-875a-5c06d612c7e0": {
+                                    "name": "无操作肢"
+                                }
+                            }
+                        },
+                        "ae435133-a695-4c1b-80aa-f1384888170d": {
+                            "name": "增加体力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "e1fabd6d-d96f-4fae-9930-bf3c4a15e5af": {
+                    "name": "优势",
+                    "children": {
+                        "6b4b1880-8dd0-4aa3-b596-85b34e18fe34": {
+                            "name": "Pick 35 Points Chosen Among",
+                            "children": {
+                                "f3e69225-05c0-4750-8172-c75943547fd4": {
+                                    "name": "酒精耐受",
+                                    "tags": [
+                                        "Perk",
+                                        "生理"
+                                    ]
+                                },
+                                "208745ec-67d2-4ea4-8314-396ea2bf727c": {
+                                    "name": "双巧手",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ]
+                                },
+                                "348eebf8-bc67-4006-8c0d-724e095d0f81": {
+                                    "name": "战斗反射",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "即时备战"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "105e12a6-8bed-49a3-a441-b0dc05c015ad": {
+                                    "name": "蛮勇福星",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "b0714098-f38c-47b0-a388-cb376a7972b9": {
+                                    "name": "增强闪避",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "3e5f0126-ebae-4f54-a427-22de5923f93c": {
+                                    "name": "增强招架（@近战武器技能@）",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "38891fd9-70eb-4658-827b-d41e4f2a86f4": {
+                                    "name": "额外攻击",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "d84d9ee6-e752-4be2-8c62-41dea4f0ee32": {
+                                            "name": "多重攻击"
+                                        },
+                                        "19251659-1f81-4f43-89c0-1f12d758b71b": {
+                                            "name": "单一技能",
+                                            "notes": "@技能@"
+                                        }
+                                    }
+                                },
+                                "46a9b0eb-c494-478a-abcc-fa4271009405": {
+                                    "name": "健康",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)"
+                                },
+                                "c12df3cb-23a6-40cb-89a0-44012cdcc4c3": {
+                                    "name": "Fit, Very",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "notes": "+2 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate; lose FP at half the normal rate (in both cases, not FP spent for spells or psi powers)"
+                                },
+                                "40d91885-a148-4614-b449-4dcb4c11f9b6": {
+                                    "name": "灵活",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "攀爬"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "逃脱"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "4f1f6882-54e9-4ae4-8cf5-29f0fcd1dc69": {
+                                    "name": "灵活（双关节）",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "攀爬"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "逃脱"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "b5207570-fbfb-4bb9-9864-c849e632cce2": {
+                                    "name": "高痛阈",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture"
+                                },
+                                "cfe32695-ff2e-4d00-ab20-d36614aa6d5a": {
+                                    "name": "增加基本移动力",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "生理"
+                                    ]
+                                },
+                                "f09688df-39a7-4217-8506-04694cbd651b": {
+                                    "name": "增加基本速度",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "生理"
+                                    ]
+                                },
+                                "f809fbf0-d8a5-4203-b112-775059f53177": {
+                                    "name": "增加敏捷",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "0a5c8001-f764-4b01-8291-d1f278c638dc": {
+                                            "name": "无操作肢"
+                                        }
+                                    }
+                                },
+                                "55112de4-95bf-492d-828d-3d509e4622b7": {
+                                    "name": "增加体力",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "生理"
+                                    ]
+                                },
+                                "20d2b186-73f5-4700-9447-9bd8ef9f2eb3": {
+                                    "name": "Increased HP",
+                                    "tags": [
+                                        "生理"
+                                    ]
+                                },
+                                "88f1295e-c060-41ef-baef-9f8cec393909": {
+                                    "name": "增加感知",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "心理",
+                                        "生理"
+                                    ]
+                                },
+                                "dd2e8a59-0211-4287-8ff8-ad2a6120d872": {
+                                    "name": "增加力量",
+                                    "tags": [
+                                        "优势",
+                                        "属性",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "7bf6d4eb-bb56-45ff-aed5-0e09f10dddcd": {
+                                            "name": "无操作肢"
+                                        },
+                                        "f9b725df-b66a-4f4c-bd00-a37c4c85fe1a": {
+                                            "name": "体型"
+                                        },
+                                        "c0c33b85-9167-47a2-b2e5-0d3dbb959bde": {
+                                            "name": "超级出力"
+                                        }
+                                    }
+                                },
+                                "8f82ab2f-1684-414e-b04a-5a4185ae3595": {
+                                    "name": "额外举力",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "ea3fac19-66f5-4ea9-bd5e-0ca6b76813ce": {
+                                            "name": "无操作肢"
+                                        },
+                                        "d6703cc9-c7c2-4843-bd3c-34d3d9a7a407": {
+                                            "name": "体型"
+                                        },
+                                        "868fc602-f5aa-4f82-8de5-fcc1625541f8": {
+                                            "name": "超级出力"
+                                        }
+                                    }
+                                },
+                                "ec6dc589-1030-46f0-89f9-dc781ad131ae": {
+                                    "name": "幸运",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "notes": "游戏的每个小时可用一次",
+                                    "modifiers": {
+                                        "78249b32-0d60-40dc-a788-7d6dc58234af": {
+                                            "name": "主动性"
+                                        },
+                                        "7f793f9a-5880-4ff5-87e1-cb29e234cefb": {
+                                            "name": "方向性",
+                                            "notes": "@方向@"
+                                        },
+                                        "ee6b1bfc-7b36-474b-8723-f6507761d646": {
+                                            "name": "防御性"
+                                        },
+                                        "5052b262-74de-4fa4-b12a-5b04c8fb8e39": {
+                                            "name": "祈愿"
+                                        }
+                                    },
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "幸运"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "bc01b395-ac71-46f9-a37b-d8b872307dd7": {
+                                    "name": "Luck, Extraordinary",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "notes": "每三十分钟游戏可以用一次",
+                                    "modifiers": {
+                                        "1d45ff0c-240f-4969-be38-2456d8e8ab52": {
+                                            "name": "主动性"
+                                        },
+                                        "2691577a-a79f-4505-b528-f6e572466151": {
+                                            "name": "方向性",
+                                            "notes": "@方向@"
+                                        },
+                                        "3cabd0e7-b3e2-443f-8989-6ca563dc7a12": {
+                                            "name": "防御性"
+                                        },
+                                        "c9dffd83-ab66-48bf-bd42-04efd8df7132": {
+                                            "name": "祈愿"
+                                        }
+                                    },
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "幸运"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "49503cb0-f583-475b-b0c6-6068645b2122": {
+                                    "name": "魔法抗性 Magic Resistance",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "1be54b6f-f797-4f49-8757-bd5a74acde52": {
+                                            "name": "改良"
+                                        }
+                                    }
+                                },
+                                "256cf130-f9d3-410c-a36b-492ccf6e66bb": {
+                                    "name": "完美平衡",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "飞行驾驶"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "杂技"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "攀爬"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "479f9d85-480e-4a1f-98ed-270f01ff52b6": {
+                                    "name": "标志性装备",
+                                    "tags": [
+                                        "优势",
+                                        "社会"
+                                    ],
+                                    "notes": "Gear is worth (starting wealth)/10 per level"
+                                },
+                                "2335382a-2596-461b-b2b9-b4c7cd08ff8c": {
+                                    "name": "击打力量",
+                                    "tags": [
+                                        "优势",
+                                        "异种",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "2864d928-1366-4c88-a161-3260b964852e": {
+                                            "name": "无操作肢"
+                                        },
+                                        "a0713e27-edb8-49d3-8a76-10e1670d182e": {
+                                            "name": "体型"
+                                        },
+                                        "4302deb8-230d-4bbf-be56-957d10eb9fa2": {
+                                            "name": "超级出力"
+                                        },
+                                        "fee641ff-9904-4235-bf2c-677f3c94d1de": {
+                                            "name": "仅限一次攻击",
+                                            "notes": "@攻击@"
+                                        }
+                                    }
+                                },
+                                "b6eac73b-bc6d-4ea3-b41c-02b0b64c3d7d": {
+                                    "name": "大师传承",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "6d662f6f-35a1-4835-adc8-40f0f9ae8ac3": {
+                                    "name": "Weapon Bond",
+                                    "tags": [
+                                        "心理",
+                                        "Perk"
+                                    ],
+                                    "notes": "You own a Weapon that is uniquely suited to you."
+                                },
+                                "27485d72-77db-416a-b6b8-268509dd3072": {
+                                    "name": "武器大师（@种类@）",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "160676cc-9883-493c-b078-993005412389": {
+                                            "name": "一种特定的武器"
+                                        },
+                                        "3372f810-fc68-4606-89a0-53192c83251d": {
+                                            "name": "两种通常会在一起使用的武器"
+                                        },
+                                        "59fd6659-1265-4c37-b12f-bc72a6376df4": {
+                                            "name": "一小类武器"
+                                        },
+                                        "59bcc405-5eff-4cd3-9ee7-8085b0ca8a9b": {
+                                            "name": "不那么大的一类武器"
+                                        },
+                                        "5de1f7cd-7fb4-431c-ad84-42cf7953b7e2": {
+                                            "name": "一大类武器"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "cfdb04eb-9c04-4512-a042-0e0557dc4201": {
+                    "name": "劣势",
+                    "children": {
+                        "98f716c6-8ebd-430d-9eeb-fe2e4058e792": {
+                            "name": "-20 Points from Chosen",
+                            "children": {
+                                "9651cbb2-a855-4eca-950d-5e8161141a75": {
+                                    "name": "Code of Honor (Bushido)",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "89c27e29-0a7b-4215-a696-1332c07e7fe0": {
+                                    "name": "荣誉准则（绅士）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "d7518e3e-74cb-4248-b209-3cc42b7c758b": {
+                                    "name": "荣誉准则（海盗）",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "5fc72945-6d77-4317-831f-037b3f0fc0f2": {
+                                    "name": "Disciplines of Faith (Chi Rituals)",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "48c3554b-be96-4d9d-aab2-1ebf6d5f699b": {
+                                    "name": "执念",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "notes": "Become the best swordsman in the world",
+                                    "modifiers": {
+                                        "02f4ed9c-6e74-44f4-8f5b-2490b23e5fb9": {
+                                            "name": "短期"
+                                        },
+                                        "1d3edc2d-3d7a-4cd1-bb78-f2454951f81a": {
+                                            "name": "长期"
+                                        }
+                                    }
+                                },
+                                "a67e54d8-2c9f-4a7f-a96e-929e06b9a8f2": {
+                                    "name": "执念",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "notes": "Perfect my art at any cost",
+                                    "modifiers": {
+                                        "93ae982f-612b-4196-9dda-d59235dbb41e": {
+                                            "name": "短期"
+                                        },
+                                        "205b3a31-e903-41ff-9264-dd9705e72163": {
+                                            "name": "长期"
+                                        }
+                                    }
+                                },
+                                "28b71a0f-4f42-4c52-aa8a-8ff23135c2f8": {
+                                    "name": "Vow (Always fight unarmed)",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "2946c484-6d1b-4016-a61a-e9ff41472981": {
+                                            "name": "轻微"
+                                        },
+                                        "c95c7a6d-6e5c-45d8-adf0-9ae8e45cd246": {
+                                            "name": "较大"
+                                        },
+                                        "4022d979-0058-471a-b5ad-1482bbbff2aa": {
+                                            "name": "巨大"
+                                        }
+                                    }
+                                },
+                                "d93f87d3-1b32-4e0b-869a-b3448c5916c9": {
+                                    "name": "Vow (Never wear armor)",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "cf959c93-e2e8-492c-892f-582960c9d917": {
+                                            "name": "轻微"
+                                        },
+                                        "66abd398-9de3-4294-bd48-7aba21e7360d": {
+                                            "name": "较大"
+                                        },
+                                        "1e718b4a-be51-4d4c-9a53-cd27d915ec32": {
+                                            "name": "巨大"
+                                        }
+                                    }
+                                },
+                                "6afff102-fbfb-4ad8-bb77-332744068620": {
+                                    "name": "Vow (Use only weapon of choice)",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ],
+                                    "modifiers": {
+                                        "74f42d37-0fcc-4ab8-8050-18d5d067a86c": {
+                                            "name": "轻微"
+                                        },
+                                        "00463074-fab1-48e1-8209-ea606e485142": {
+                                            "name": "较大"
+                                        },
+                                        "02615d82-b98b-4056-b1f5-181a593cc428": {
+                                            "name": "巨大"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "3a4f300a-d2fc-4a28-ac13-a55c0b55f002": {
+                            "name": "-30 Points Chosen From Previous Or",
+                            "children": {
+                                "8926a1f9-972b-44d8-9836-7d387360c6a2": {
+                                    "name": "期待陪伴",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "notes": "React to others at +2; -1 to IQ-based skills when alone"
+                                },
+                                "e8fd7140-11b5-49c0-9912-c7c708a7fe6d": {
+                                    "name": "聚会成性",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "62af2afc-cf2d-4773-9dbf-57efd2b6abfb": {
+                                    "name": "随口发誓",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "1af061ad-c997-475b-bf9a-44a24d327975": {
+                                    "name": "贪婪",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "0af9dfe5-d859-441d-81a2-5008d33f1441": {
+                                    "name": "冲动",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "64301c4f-7a21-41e3-a505-7e0cac5cf3a8": {
+                                    "name": "善妒",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "07b3155c-bd17-485d-94fc-7135da87a367": {
+                                    "name": "需要独处",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "b990a070-12eb-42b6-9247-abc60b2ee7d9": {
+                                    "name": "自负",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ]
+                                },
+                                "fadf7b39-ae05-4560-a2f3-db21a95f9867": {
+                                    "name": "责任感",
+                                    "tags": [
+                                        "劣势",
+                                        "心理"
+                                    ],
+                                    "modifiers": {
+                                        "90b2bcd0-6966-4f50-9d58-a2b82af784b0": {
+                                            "name": "朋友和伙伴"
+                                        },
+                                        "9e438aea-295f-4fc0-aafc-1158643e313d": {
+                                            "name": "Adventuring Companions"
+                                        },
+                                        "3fe05c03-09f4-49eb-8fb6-5a91d91ec246": {
+                                            "name": "@个人@"
+                                        },
+                                        "f7b2c84a-08d6-4ec7-902d-e34a4527a081": {
+                                            "name": "@大组织@"
+                                        },
+                                        "8f1fb5ac-34de-448d-bfc9-b07fcead98f3": {
+                                            "name": "@整个种族@"
+                                        },
+                                        "641f89f5-4806-41dc-8164-e9896bb1efcc": {
+                                            "name": "所有活物"
+                                        }
+                                    }
+                                },
+                                "32d6945e-55c8-4900-ae8f-2670f1842223": {
+                                    "name": "社会污名（少数群体）",
+                                    "tags": [
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "notes": "-2 Reaction from others; +2 Reaction in own group"
+                                },
+                                "ea00741e-e132-42b5-923b-3f87874c5cc3": {
+                                    "name": "财富",
+                                    "tags": [
+                                        "优势",
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "b122e618-c557-4d18-b24e-c9e636863889": {
+                                            "name": "一贫如洗",
+                                            "notes": "Starting wealth is $0"
+                                        },
+                                        "13d00934-db00-4d47-a1ce-ecad5ed61ab8": {
+                                            "name": "贫穷",
+                                            "notes": "Starting wealth is 1/5 average"
+                                        },
+                                        "5b206266-cffb-4fd3-aea0-fe0ea4b60313": {
+                                            "name": "比较贫穷",
+                                            "notes": "Starting wealth is 1/2 average"
+                                        },
+                                        "98bc0a9e-7aff-4173-b588-396f767bfa67": {
+                                            "name": "普通的"
+                                        },
+                                        "31fbb534-baa3-483b-9446-536587355415": {
+                                            "name": "Comfortable",
+                                            "notes": "Starting wealth is 2x average"
+                                        },
+                                        "f417d9b2-601d-4d44-b682-ff7593bf6a1c": {
+                                            "name": "富有",
+                                            "notes": "Starting wealth is 5x average"
+                                        },
+                                        "17248d04-ebb9-4456-a128-b65b0902d0e5": {
+                                            "name": "非常富有",
+                                            "notes": "Starting wealth is 20x average"
+                                        },
+                                        "9770e5fa-7718-4b8b-ad71-d55258a56e96": {
+                                            "name": "异常富有",
+                                            "notes": "Starting wealth is 100x average"
+                                        }
+                                    }
+                                },
+                                "cf60c553-c123-415a-b985-46a8ae21e726": {
+                                    "name": "财富",
+                                    "tags": [
+                                        "优势",
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "9058751c-fd27-447d-8798-e7698f9f4e4c": {
+                                            "name": "一贫如洗",
+                                            "notes": "Starting wealth is $0"
+                                        },
+                                        "582a7d10-6990-40e3-a02d-e4b12a4b07c7": {
+                                            "name": "贫穷",
+                                            "notes": "Starting wealth is 1/5 average"
+                                        },
+                                        "f12e9b36-0d8d-4a46-b10e-3abada9fb3b6": {
+                                            "name": "比较贫穷",
+                                            "notes": "Starting wealth is 1/2 average"
+                                        },
+                                        "c5e8eff7-effa-42d3-be25-9b05e65bbae0": {
+                                            "name": "普通的"
+                                        },
+                                        "6df6e33f-7cf9-403d-ad25-9586ecf91a36": {
+                                            "name": "Comfortable",
+                                            "notes": "Starting wealth is 2x average"
+                                        },
+                                        "1828bc37-4857-481e-80fd-75e5a74d8499": {
+                                            "name": "富有",
+                                            "notes": "Starting wealth is 5x average"
+                                        },
+                                        "b3a3c648-95e8-494f-a60d-4cd3b9a6fa1d": {
+                                            "name": "非常富有",
+                                            "notes": "Starting wealth is 20x average"
+                                        },
+                                        "bf0f2bb3-3b21-47b1-b694-b737dae68e70": {
+                                            "name": "异常富有",
+                                            "notes": "Starting wealth is 100x average"
+                                        }
+                                    }
+                                },
+                                "4e56d3cc-6a28-46d4-b831-0b0d0aeacea0": {
+                                    "name": "财富",
+                                    "tags": [
+                                        "优势",
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "78db44f9-9803-4e61-9330-466f21cdb6cb": {
+                                            "name": "一贫如洗",
+                                            "notes": "Starting wealth is $0"
+                                        },
+                                        "17996be3-9074-4085-8a82-8712050f6d79": {
+                                            "name": "贫穷",
+                                            "notes": "Starting wealth is 1/5 average"
+                                        },
+                                        "a77055e3-0ac2-48af-944e-ec9af59d5017": {
+                                            "name": "比较贫穷",
+                                            "notes": "Starting wealth is 1/2 average"
+                                        },
+                                        "7d057a65-b4b0-4890-a567-34edc0163c08": {
+                                            "name": "普通的"
+                                        },
+                                        "9e3601ec-feab-4527-a76b-1eeffca28c0e": {
+                                            "name": "Comfortable",
+                                            "notes": "Starting wealth is 2x average"
+                                        },
+                                        "e49d5ae7-8f81-472f-9cd5-cd465c63b79a": {
+                                            "name": "富有",
+                                            "notes": "Starting wealth is 5x average"
+                                        },
+                                        "8a674dc8-46bd-4f6c-befc-60d1a77208c6": {
+                                            "name": "非常富有",
+                                            "notes": "Starting wealth is 20x average"
+                                        },
+                                        "2aa82c77-13ee-42fa-8ccf-d883dc8b59a4": {
+                                            "name": "异常富有",
+                                            "notes": "Starting wealth is 100x average"
+                                        }
+                                    }
+                                },
+                                "b6049b91-b134-4b4e-830f-ad3ed6ad8762": {
+                                    "name": "受伤",
+                                    "tags": [
+                                        "劣势",
+                                        "生理"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "5db943dc-dda1-4df8-9d61-0c0e0d0ab940": {
+            "name": "Skirmisher",
+            "children": {
+                "5187758b-aaeb-491c-8816-d08e4c97b19d": {
+                    "name": "Primary Skills",
+                    "children": {
+                        "7a0c3ad4-2adf-49e3-9bfa-5d9af37fbe5c": {
+                            "name": "杂技",
+                            "tags": [
+                                "运动"
+                            ]
+                        },
+                        "9d313045-90b4-41e5-93e4-09ecd0675e7d": {
+                            "name": "跳跃",
+                            "tags": [
+                                "运动"
+                            ]
+                        },
+                        "fab1959f-b431-43ba-a7e4-47c67050afdd": {
+                            "name": "One of:",
+                            "children": {
+                                "a4ce19e5-c9d1-47bb-8a05-efcfa19ce87d": {
+                                    "name": "吹箭",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ]
+                                },
+                                "ab52a765-5cb3-4598-85df-6e400b286e15": {
+                                    "name": "投石索",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ]
+                                },
+                                "fbf10fe2-3359-41fa-87ce-692c440987a8": {
+                                    "name": "投掷",
+                                    "tags": [
+                                        "运动",
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "空投"
+                                        }
+                                    ]
+                                },
+                                "f3c82b1b-5a88-4ee0-8a87-ba580835d40b": {
+                                    "name": "Thrown Weapon",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "specialization": "Dart",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "投掷"
+                                        }
+                                    ]
+                                },
+                                "3ed4e42d-8b8b-4f29-9d14-47d8388f14f4": {
+                                    "name": "Thrown Weapon",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "specialization": "Knife"
+                                },
+                                "5ff7fdf3-9647-4a54-9d5a-c01d8ae8c73f": {
+                                    "name": "Thrown Weapon",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "specialization": "手里剑",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "投掷"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "dc5129f6-b7fb-4b2c-b4e3-f402d0d106e5": {
+                            "name": "One of these Melee Packages",
+                            "children": {
+                                "19758cc9-144e-4640-b18c-8eaaa7de1588": {
+                                    "name": "Package 1",
+                                    "children": {
+                                        "a943d16d-add6-45a2-977f-3fc2908b7758": {
+                                            "name": "Broadsword",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {
+                                                    "name": "能量剑"
+                                                },
+                                                {
+                                                    "name": "Rapier"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                },
+                                                {
+                                                    "name": "Shortsword"
+                                                },
+                                                {
+                                                    "name": "双手剑"
+                                                }
+                                            ]
+                                        },
+                                        "a4957ca0-257e-4008-b402-77a851bd18d9": {
+                                            "name": "斗篷",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "网"
+                                                },
+                                                {
+                                                    "name": "Shield"
+                                                }
+                                            ]
+                                        },
+                                        "c2354cd7-7edd-435a-a5b9-d2ef7baa747c": {
+                                            "name": "即时备战",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "specialization": "Knife"
+                                        },
+                                        "7e7ad93b-20d0-491a-80e5-cdaab0666e17": {
+                                            "name": "即时备战",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "specialization": "剑"
+                                        },
+                                        "21bbcf5d-f529-4aca-b023-494b787e0991": {
+                                            "name": "Main-Gauche",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "十手/钗"
+                                                },
+                                                {
+                                                    "name": "Knife"
+                                                },
+                                                {
+                                                    "name": "Rapier"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                },
+                                                {
+                                                    "name": "Smallsword"
+                                                }
+                                            ]
+                                        },
+                                        "de3f7161-2d36-4556-aa6e-2f19bbbbde98": {
+                                            "name": "One of",
+                                            "children": {
+                                                "db589848-581e-4c28-9db1-005b2469f092": {
+                                                    "name": "拳击",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "features": [
+                                                        {
+                                                            "name": {
+                                                                "qualifier": "拳击"
+                                                            }
+                                                        },
+                                                        {
+                                                            "name": {
+                                                                "qualifier": "拳击"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "7f92ba14-04e9-446e-b7ec-0545d439a605": {
+                                                    "name": "斗殴",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "features": [
+                                                        {
+                                                            "name": {
+                                                                "qualifier": "斗殴"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "a62f365e-c370-4e93-926b-cd0f702f96f6": {
+                                            "name": "Rapier",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Broadsword"
+                                                },
+                                                {
+                                                    "name": "Main-Gauche"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                },
+                                                {
+                                                    "name": "Smallsword"
+                                                }
+                                            ]
+                                        },
+                                        "ca024d75-346d-4ef2-9c7a-7eb134289535": {
+                                            "name": "Saber",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Broadsword"
+                                                },
+                                                {
+                                                    "name": "Shortswort"
+                                                },
+                                                {
+                                                    "name": "Main-Gauche"
+                                                },
+                                                {
+                                                    "name": "Rapier"
+                                                },
+                                                {
+                                                    "name": "Smallsword"
+                                                }
+                                            ]
+                                        },
+                                        "33d949ce-d316-43bf-a29c-0670d77abefa": {
+                                            "name": "Shield",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "specialization": "手盾",
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Shield",
+                                                    "specialization": "力场"
+                                                }
+                                            ]
+                                        },
+                                        "03d00aff-2292-403f-b7ac-50366e56cb00": {
+                                            "name": "Shortsword",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {
+                                                    "name": "Broadsword"
+                                                },
+                                                {
+                                                    "name": "能量剑"
+                                                },
+                                                {
+                                                    "name": "十手/钗"
+                                                },
+                                                {
+                                                    "name": "Knife"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                },
+                                                {
+                                                    "name": "Smallsword"
+                                                },
+                                                {
+                                                    "name": "武术拐"
+                                                }
+                                            ]
+                                        },
+                                        "eaca9cb9-49d3-4f7f-9dcc-4dee58e3d3fb": {
+                                            "name": "Smallsword",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Shortsword"
+                                                },
+                                                {
+                                                    "name": "Main-Gauche"
+                                                },
+                                                {
+                                                    "name": "Rapier"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                }
+                                            ]
+                                        },
+                                        "d7662a46-7dc6-4563-9fbd-8c56b1c5ee9b": {
+                                            "name": "Wrestling",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "848c36cc-9078-4cd9-8005-70d074db33b1": {
+                                    "name": "Package 2",
+                                    "children": {
+                                        "55bd0f48-e267-49c5-b84a-510f6a149272": {
+                                            "name": "Broadsword",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {
+                                                    "name": "能量剑"
+                                                },
+                                                {
+                                                    "name": "Rapier"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                },
+                                                {
+                                                    "name": "Shortsword"
+                                                },
+                                                {
+                                                    "name": "双手剑"
+                                                }
+                                            ]
+                                        },
+                                        "a93e3a35-915d-4fa2-ab37-9100f5c1c073": {
+                                            "name": "斗篷",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "网"
+                                                },
+                                                {
+                                                    "name": "Shield"
+                                                }
+                                            ]
+                                        },
+                                        "3aa3934f-0162-4956-bdc8-41b9522f0897": {
+                                            "name": "即时备战",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "specialization": "Knife"
+                                        },
+                                        "b1d69d96-9f98-40a1-af09-0286a312b655": {
+                                            "name": "即时备战",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "specialization": "剑"
+                                        },
+                                        "7c364398-7e83-4efd-95f9-1cb599839f9e": {
+                                            "name": "Main-Gauche",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "十手/钗"
+                                                },
+                                                {
+                                                    "name": "Knife"
+                                                },
+                                                {
+                                                    "name": "Rapier"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                },
+                                                {
+                                                    "name": "Smallsword"
+                                                }
+                                            ]
+                                        },
+                                        "3c6e7a03-79a1-4f08-b0b2-d4f99031ad85": {
+                                            "name": "One of",
+                                            "children": {
+                                                "0ef63eaf-5a67-4e58-b381-f52ea7281d0d": {
+                                                    "name": "拳击",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "features": [
+                                                        {
+                                                            "name": {
+                                                                "qualifier": "拳击"
+                                                            }
+                                                        },
+                                                        {
+                                                            "name": {
+                                                                "qualifier": "拳击"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "7bc01f88-7f4a-4422-adcb-c569b14a61aa": {
+                                                    "name": "斗殴",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "features": [
+                                                        {
+                                                            "name": {
+                                                                "qualifier": "斗殴"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "9be9714c-45d1-4833-a797-868b4ed0e01e": {
+                                            "name": "Rapier",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Broadsword"
+                                                },
+                                                {
+                                                    "name": "Main-Gauche"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                },
+                                                {
+                                                    "name": "Smallsword"
+                                                }
+                                            ]
+                                        },
+                                        "c05b6803-38e7-4b2f-a9f2-9584f169cf46": {
+                                            "name": "Saber",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Broadsword"
+                                                },
+                                                {
+                                                    "name": "Shortswort"
+                                                },
+                                                {
+                                                    "name": "Main-Gauche"
+                                                },
+                                                {
+                                                    "name": "Rapier"
+                                                },
+                                                {
+                                                    "name": "Smallsword"
+                                                }
+                                            ]
+                                        },
+                                        "103ae43f-6b62-4d5a-bba3-268c7f8d6117": {
+                                            "name": "Shield",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "specialization": "手盾",
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Shield",
+                                                    "specialization": "力场"
+                                                }
+                                            ]
+                                        },
+                                        "6f05fa7c-d2f3-4cbe-93a6-92ccf8206893": {
+                                            "name": "Shortsword",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {
+                                                    "name": "Broadsword"
+                                                },
+                                                {
+                                                    "name": "能量剑"
+                                                },
+                                                {
+                                                    "name": "十手/钗"
+                                                },
+                                                {
+                                                    "name": "Knife"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                },
+                                                {
+                                                    "name": "Smallsword"
+                                                },
+                                                {
+                                                    "name": "武术拐"
+                                                }
+                                            ]
+                                        },
+                                        "085ad36c-9d78-4180-89ab-b88c306d996f": {
+                                            "name": "Smallsword",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Shortsword"
+                                                },
+                                                {
+                                                    "name": "Main-Gauche"
+                                                },
+                                                {
+                                                    "name": "Rapier"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                }
+                                            ]
+                                        },
+                                        "a7f6f53d-b317-415c-b3cc-e8d56d557f9e": {
+                                            "name": "Wrestling",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "3d408a13-f1e4-4ea1-aa80-bf8ec53ebc70": {
+                                    "name": "Package 3",
+                                    "children": {
+                                        "1781dff2-6957-4933-ac47-51ca194bf092": {
+                                            "name": "Broadsword",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {
+                                                    "name": "能量剑"
+                                                },
+                                                {
+                                                    "name": "Rapier"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                },
+                                                {
+                                                    "name": "Shortsword"
+                                                },
+                                                {
+                                                    "name": "双手剑"
+                                                }
+                                            ]
+                                        },
+                                        "1efefe3e-1ee2-448f-a18a-1945b1d0943a": {
+                                            "name": "Rapier",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Broadsword"
+                                                },
+                                                {
+                                                    "name": "Main-Gauche"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                },
+                                                {
+                                                    "name": "Smallsword"
+                                                }
+                                            ]
+                                        },
+                                        "5ba50cd2-ae67-4ad3-940b-4a218f5846c6": {
+                                            "name": "Saber",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Broadsword"
+                                                },
+                                                {
+                                                    "name": "Shortswort"
+                                                },
+                                                {
+                                                    "name": "Main-Gauche"
+                                                },
+                                                {
+                                                    "name": "Rapier"
+                                                },
+                                                {
+                                                    "name": "Smallsword"
+                                                }
+                                            ]
+                                        },
+                                        "7c6b72e5-6fbe-4e38-9d6f-db74bfd2cd75": {
+                                            "name": "Shortsword",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {
+                                                    "name": "Broadsword"
+                                                },
+                                                {
+                                                    "name": "能量剑"
+                                                },
+                                                {
+                                                    "name": "十手/钗"
+                                                },
+                                                {
+                                                    "name": "Knife"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                },
+                                                {
+                                                    "name": "Smallsword"
+                                                },
+                                                {
+                                                    "name": "武术拐"
+                                                }
+                                            ]
+                                        },
+                                        "7fb9ab72-f6a3-4c4a-bfe5-a99960d24e96": {
+                                            "name": "Smallsword",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Shortsword"
+                                                },
+                                                {
+                                                    "name": "Main-Gauche"
+                                                },
+                                                {
+                                                    "name": "Rapier"
+                                                },
+                                                {
+                                                    "name": "Saber"
+                                                }
+                                            ]
+                                        },
+                                        "4e2b721b-4832-4968-871d-848d2efdfbf7": {
+                                            "name": "Two of",
+                                            "children": {
+                                                "4b324fef-8146-4e05-9174-7dfdb985e020": {
+                                                    "name": "拳击",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "features": [
+                                                        {
+                                                            "name": {
+                                                                "qualifier": "拳击"
+                                                            }
+                                                        },
+                                                        {
+                                                            "name": {
+                                                                "qualifier": "拳击"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "2e8ca5ce-33ce-4a47-a87d-2a114868c36a": {
+                                                    "name": "斗殴",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "features": [
+                                                        {
+                                                            "name": {
+                                                                "qualifier": "斗殴"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "1e2f83b2-8c79-4cf2-bb0d-f95f03cc6f97": {
+                                                    "name": "即时备战",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "specialization": "Knife"
+                                                },
+                                                "914eb252-c905-4ed1-9f20-dec5e2cc13cf": {
+                                                    "name": "即时备战",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "specialization": "剑"
+                                                },
+                                                "60bec8b7-c569-48b6-b30f-b02cb3d4489a": {
+                                                    "name": "Wrestling",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "1f68ad4d-9e48-4a7f-ac2f-6334de69b097": {
+                                    "name": "Package 4",
+                                    "children": {
+                                        "02366c51-792b-4e30-85d8-98c598f1b0c2": {
+                                            "name": "Judo",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "notes": "使得你获得每轮用两只手各招架一次的能力。"
+                                        },
+                                        "0ce06b53-3f08-4caf-8e1e-668fa91eda0f": {
+                                            "name": "空手技击",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "features": [
+                                                {
+                                                    "name": {
+                                                        "qualifier": "空手技击"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "空手技击"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "cb96c36c-4c8c-44a5-8c49-38c0ce64e320": {
+                                            "name": "Raise Acrobatics 2pts"
+                                        },
+                                        "000fe394-6dd0-4e1d-b9b4-faf8707edb73": {
+                                            "name": "Two of",
+                                            "children": {
+                                                "52707478-43c6-4e5a-8968-239d2f87b06c": {
+                                                    "name": "Axe/Mace",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "Two-Handed Axe/Mace"
+                                                        },
+                                                        {
+                                                            "name": "Flail"
+                                                        }
+                                                    ]
+                                                },
+                                                "2a07f042-66e8-4760-a146-3da21d02dda8": {
+                                                    "name": "Flail",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "Axe/Mace"
+                                                        },
+                                                        {
+                                                            "name": "Two-Handed Flail"
+                                                        }
+                                                    ]
+                                                },
+                                                "bd34fa8a-306a-4d9e-9637-622573157e7c": {
+                                                    "name": "十手/钗",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {
+                                                            "name": "能量剑"
+                                                        },
+                                                        {
+                                                            "name": "Main-Gauche"
+                                                        },
+                                                        {
+                                                            "name": "Shortsword"
+                                                        }
+                                                    ]
+                                                },
+                                                "084b937a-dec0-4883-9148-0cb770a2d14b": {
+                                                    "name": "锁分铜",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "能量鞭"
+                                                        },
+                                                        {
+                                                            "name": "单分子鞭"
+                                                        },
+                                                        {
+                                                            "name": "Whip"
+                                                        },
+                                                        {
+                                                            "name": "Two-Handed Flail"
+                                                        }
+                                                    ]
+                                                },
+                                                "957f447e-3f77-4335-8c63-2bd3e3339133": {
+                                                    "name": "Shortsword",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {
+                                                            "name": "Broadsword"
+                                                        },
+                                                        {
+                                                            "name": "能量剑"
+                                                        },
+                                                        {
+                                                            "name": "十手/钗"
+                                                        },
+                                                        {
+                                                            "name": "Knife"
+                                                        },
+                                                        {
+                                                            "name": "Saber"
+                                                        },
+                                                        {
+                                                            "name": "Smallsword"
+                                                        },
+                                                        {
+                                                            "name": "武术拐"
+                                                        }
+                                                    ]
+                                                },
+                                                "1f772205-53f6-47dd-9487-7f631b84e82e": {
+                                                    "name": "Smallsword",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "Shortsword"
+                                                        },
+                                                        {
+                                                            "name": "Main-Gauche"
+                                                        },
+                                                        {
+                                                            "name": "Rapier"
+                                                        },
+                                                        {
+                                                            "name": "Saber"
+                                                        }
+                                                    ]
+                                                },
+                                                "41f9f9be-e9e6-4a1e-8ac0-f965c5b6b9a4": {
+                                                    "name": "Staff",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "Polearm"
+                                                        },
+                                                        {
+                                                            "name": "Spear"
+                                                        }
+                                                    ]
+                                                },
+                                                "f71ba579-d5aa-4939-b7e3-e8e2cb0b4eeb": {
+                                                    "name": "武术拐",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "Shortsword"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "97d78129-9e35-4ac3-a2f0-7a4c654664e4": {
+                                    "name": "Package 5",
+                                    "children": {
+                                        "7a3a921b-d4d9-4416-9d8a-11e5749d92c0": {
+                                            "name": "Judo",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "notes": "使得你获得每轮用两只手各招架一次的能力。"
+                                        },
+                                        "a01bbd82-509e-42c4-8ee3-abce65e6bb0f": {
+                                            "name": "空手技击",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "features": [
+                                                {
+                                                    "name": {
+                                                        "qualifier": "空手技击"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "空手技击"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "aaa7fa37-8454-4daf-896f-d4c56aca30fc": {
+                                            "name": "One of",
+                                            "children": {
+                                                "ee6877b0-a114-4803-89c1-af77c1d31aad": {
+                                                    "name": "Axe/Mace",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "Two-Handed Axe/Mace"
+                                                        },
+                                                        {
+                                                            "name": "Flail"
+                                                        }
+                                                    ]
+                                                },
+                                                "f1b52a89-53e9-4909-9f2d-8a0e7e2ca2e7": {
+                                                    "name": "Flail",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "Axe/Mace"
+                                                        },
+                                                        {
+                                                            "name": "Two-Handed Flail"
+                                                        }
+                                                    ]
+                                                },
+                                                "c4fdede4-0a08-4a66-9e73-a64a45332a55": {
+                                                    "name": "十手/钗",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {
+                                                            "name": "能量剑"
+                                                        },
+                                                        {
+                                                            "name": "Main-Gauche"
+                                                        },
+                                                        {
+                                                            "name": "Shortsword"
+                                                        }
+                                                    ]
+                                                },
+                                                "e15f97ae-ae9f-4f62-9409-4c84633fdf47": {
+                                                    "name": "锁分铜",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "能量鞭"
+                                                        },
+                                                        {
+                                                            "name": "单分子鞭"
+                                                        },
+                                                        {
+                                                            "name": "Whip"
+                                                        },
+                                                        {
+                                                            "name": "Two-Handed Flail"
+                                                        }
+                                                    ]
+                                                },
+                                                "c34f6404-7b16-43db-be4d-f25725cb538f": {
+                                                    "name": "Shortsword",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {
+                                                            "name": "Broadsword"
+                                                        },
+                                                        {
+                                                            "name": "能量剑"
+                                                        },
+                                                        {
+                                                            "name": "十手/钗"
+                                                        },
+                                                        {
+                                                            "name": "Knife"
+                                                        },
+                                                        {
+                                                            "name": "Saber"
+                                                        },
+                                                        {
+                                                            "name": "Smallsword"
+                                                        },
+                                                        {
+                                                            "name": "武术拐"
+                                                        }
+                                                    ]
+                                                },
+                                                "f208e36f-3037-4b92-889d-625c8a490b5d": {
+                                                    "name": "Smallsword",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "Shortsword"
+                                                        },
+                                                        {
+                                                            "name": "Main-Gauche"
+                                                        },
+                                                        {
+                                                            "name": "Rapier"
+                                                        },
+                                                        {
+                                                            "name": "Saber"
+                                                        }
+                                                    ]
+                                                },
+                                                "80819a1f-8c3b-4bfe-968e-0e2d0f129a80": {
+                                                    "name": "Staff",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "Polearm"
+                                                        },
+                                                        {
+                                                            "name": "Spear"
+                                                        }
+                                                    ]
+                                                },
+                                                "fcee534a-e786-47c1-ba60-781772b20601": {
+                                                    "name": "武术拐",
+                                                    "tags": [
+                                                        "战斗",
+                                                        "近战",
+                                                        "武器"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "Shortsword"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "47e4912e-e7ed-43ba-af5d-3d2d53a65359": {
+                                            "name": "Raise Acrobatics 2pts"
+                                        }
+                                    }
+                                },
+                                "617e3386-d85a-4247-8c06-b84c749b2f7e": {
+                                    "name": "Package 6",
+                                    "children": {
+                                        "ac014ff3-f492-41e7-9b88-48bf2bc68c89": {
+                                            "name": "Judo",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "notes": "使得你获得每轮用两只手各招架一次的能力。"
+                                        },
+                                        "672213e4-b9a6-4610-a9ea-5b3f11b652e7": {
+                                            "name": "空手技击",
+                                            "tags": [
+                                                "战斗",
+                                                "近战",
+                                                "武器"
+                                            ],
+                                            "features": [
+                                                {
+                                                    "name": {
+                                                        "qualifier": "空手技击"
+                                                    }
+                                                },
+                                                {
+                                                    "name": {
+                                                        "qualifier": "空手技击"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "85f2b120-a5e7-4677-94fc-ff18c8996eb3": {
+                                            "name": "Raise Acrobatics 2pts"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "98d687f1-a94c-4371-9a82-fd67b96de339": {
+                    "name": "Secondary Skill",
+                    "children": {
+                        "10652be8-59e1-4cb1-b0fb-04a4fe7154e4": {
+                            "name": "Three points TOTAL in:"
+                        },
+                        "29bdaf82-0765-4094-b89a-2eb8b00c6cba": {
+                            "name": "攀爬",
+                            "tags": [
+                                "运动",
+                                "犯罪",
+                                "探索",
+                                "户外",
+                                "街头"
+                            ]
+                        },
+                        "c32f2b89-011b-46da-aee1-bbd6f88051c8": {
+                            "name": "潜行",
+                            "tags": [
+                                "犯罪",
+                                "警察",
+                                "间谍",
+                                "街头"
+                            ]
+                        },
+                        "e8c81a02-e8f1-48e1-82e7-8b713ba8d736": {
+                            "name": "OR in unchosen Primary Skill"
+                        }
+                    }
+                },
+                "da0ac3f4-92d8-49fd-be87-e077c16eb1bb": {
+                    "name": "Background Skill",
+                    "children": {
+                        "d8ac66d8-24b6-4080-bd0a-0c6b772609d0": {
+                            "name": "5pts Spent on any previous skill or on",
+                            "children": {
+                                "2a9764a1-d16d-418a-b51a-62ae5c1ca07a": {
+                                    "name": "即时备战",
+                                    "tags": [
+                                        "战斗",
+                                        "远程战斗",
+                                        "武器"
+                                    ],
+                                    "specialization": "Any"
+                                },
+                                "adc42381-883e-4fb7-a672-5ac8e10a99d5": {
+                                    "name": "急救",
+                                    "tags": [
+                                        "常识",
+                                        "医学"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "秘传医术"
+                                        },
+                                        {
+                                            "name": "医师"
+                                        },
+                                        {
+                                            "name": "兽医学"
+                                        }
+                                    ]
+                                },
+                                "cb1d5f77-aff2-4416-92c0-9c852bc684e8": {
+                                    "name": "手势",
+                                    "tags": [
+                                        "社会"
+                                    ]
+                                },
+                                "950095f9-41ad-45e6-bf17-e10c0684ad83": {
+                                    "name": "礼仪",
+                                    "tags": [
+                                        "商业",
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "上流社会",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "礼仪",
+                                            "specialization": "仆从"
+                                        }
+                                    ]
+                                },
+                                "67cdc1b4-a6e3-4cb6-a093-a7b3b5691e46": {
+                                    "name": "航海术",
+                                    "tags": [
+                                        "载具"
+                                    ]
+                                },
+                                "057efc47-3123-4015-bfe4-0f02d0e017b3": {
+                                    "name": "鉴赏家",
+                                    "tags": [
+                                        "艺术",
+                                        "娱乐",
+                                        "知识",
+                                        "社会"
+                                    ],
+                                    "specialization": "@分支@"
+                                },
+                                "286710fe-3c53-4ba6-977b-22f9b39a044a": {
+                                    "name": "唬骗",
+                                    "tags": [
+                                        "犯罪",
+                                        "社会",
+                                        "间谍",
+                                        "街头"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "做戏"
+                                        }
+                                    ]
+                                },
+                                "75cad09a-0e00-4bc4-9465-3f17323f327c": {
+                                    "name": "赌博",
+                                    "tags": [
+                                        "犯罪",
+                                        "社会",
+                                        "街头"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "数学",
+                                            "specialization": "统计学"
+                                        }
+                                    ]
+                                },
+                                "ce27c717-3f8d-47a8-acc2-9b9fcf7c1f2e": {
+                                    "name": "商人",
+                                    "tags": [
+                                        "商业",
+                                        "社会"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "金融"
+                                        },
+                                        {
+                                            "name": "市场分析"
+                                        }
+                                    ]
+                                },
+                                "36b8b562-92a3-42c0-98b3-ecc46fbf8810": {
+                                    "name": "黑街",
+                                    "tags": [
+                                        "犯罪",
+                                        "警察",
+                                        "社会",
+                                        "街头"
+                                    ]
+                                },
+                                "d71303e3-e7ad-483c-856d-ea550f29fe40": {
+                                    "name": "教学",
+                                    "tags": [
+                                        "学校",
+                                        "社会"
+                                    ]
+                                },
+                                "a39290e0-9230-4124-bbf2-96d6bbc232ea": {
+                                    "name": "战术",
+                                    "tags": [
+                                        "军事",
+                                        "警察"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "战略"
+                                        }
+                                    ]
+                                },
+                                "d02a6c9c-bcdd-4b2e-b16d-8063ccf13e89": {
+                                    "name": "远足",
+                                    "tags": [
+                                        "运动",
+                                        "探索",
+                                        "户外"
+                                    ]
+                                },
+                                "49651e7b-0713-4f7a-b453-c2c40f149988": {
+                                    "name": "跑步",
+                                    "tags": [
+                                        "运动"
+                                    ]
+                                },
+                                "3974c8b1-014c-41d1-982f-4295ccbb8a43": {
+                                    "name": "威吓",
+                                    "tags": [
+                                        "犯罪",
+                                        "警察",
+                                        "社会",
+                                        "街头"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "做戏"
+                                        }
+                                    ]
+                                },
+                                "f51f00dc-e037-4346-8150-0b3aef2b8f7a": {
+                                    "name": "搜集",
+                                    "tags": [
+                                        "犯罪",
+                                        "街头"
+                                    ]
+                                },
+                                "1384aa1c-9fd2-4fda-a909-04ba99cd16e9": {
+                                    "name": "搜查",
+                                    "tags": [
+                                        "警察",
+                                        "间谍"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "犯罪学"
+                                        }
+                                    ]
+                                },
+                                "24c9e01f-23ce-46af-95b8-d82342bf223e": {
+                                    "name": "观察",
+                                    "tags": [
+                                        "犯罪",
+                                        "军事",
+                                        "警察",
+                                        "间谍",
+                                        "街头"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "尾随"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

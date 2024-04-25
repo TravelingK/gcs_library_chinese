@@ -1,0 +1,139 @@
+{
+    "traits": {
+        "956e7a51-7f91-489d-a67e-9ba50fe5f034": {
+            "name": "Silent Killing",
+            "children": {
+                "3da84848-173d-416f-82bd-7efe0ab98948": {
+                    "name": "击打力量",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "f47e7523-f444-4ab9-a99c-ea343035b8ec": {
+                            "name": "无操作肢"
+                        },
+                        "78938826-9651-4c9a-9f14-f9351d5fcd93": {
+                            "name": "体型"
+                        },
+                        "4cf67778-3130-46cf-bb36-636da8e151d2": {
+                            "name": "超级出力"
+                        },
+                        "25685331-57cf-452d-bf2e-50e1963b615b": {
+                            "name": "仅限一次攻击",
+                            "notes": "@攻击@"
+                        },
+                        "9b8054e7-84a0-4c35-8b70-d6969ef4a7ff": {
+                            "name": "Assassination"
+                        }
+                    },
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "武器大师"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "大师传承"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "5d718d58-5b45-43f0-9367-407de861dc6e": {
+                    "name": "Dirty Fighting",
+                    "tags": [
+                        "Perk",
+                        "生理"
+                    ],
+                    "notes": "Max level 3."
+                },
+                "d01a6094-997f-405f-8854-5e60bc76b335": {
+                    "name": "Special Exercises (Striking ST)",
+                    "tags": [
+                        "Perk"
+                    ],
+                    "notes": "When doubling up, treat this as leveled: Special Exercises (Striking ST 2) [2]."
+                }
+            }
+        }
+    },
+    "skills": {
+        "7b8b3008-0bd6-463a-b7a5-acd30a22d97e": {
+            "name": "Silent Killing",
+            "children": {
+                "632e9253-26dc-46ec-9e72-8acb9d0f45a8": {
+                    "name": "即时备战",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "specialization": "Knife"
+                },
+                "db163e52-dd6b-44af-a393-299d9c096760": {
+                    "name": "物品藏身",
+                    "tags": [
+                        "犯罪",
+                        "间谍",
+                        "街头"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "巧手"
+                        }
+                    ]
+                },
+                "fb5e6b22-cd38-4a4a-9c2a-18824c95574e": {
+                    "name": "绞杀",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ]
+                },
+                "38db15e0-2217-4884-ac1d-36ae82231b36": {
+                    "name": "Knife",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "defaults": [
+                        {
+                            "name": "能量剑"
+                        },
+                        {
+                            "name": "Main-Gauche"
+                        },
+                        {
+                            "name": "Shortsword"
+                        }
+                    ]
+                },
+                "a9cebc71-5b06-42d0-9441-5699a6ab4af4": {
+                    "name": "潜行",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ]
+                },
+                "799d6007-7df7-4d22-82c9-ba11f2543ee1": {
+                    "name": "折颈",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "技术",
+                        "武器"
+                    ]
+                }
+            }
+        }
+    }
+}

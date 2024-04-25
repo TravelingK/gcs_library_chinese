@@ -1,0 +1,180 @@
+{
+    "traits": {
+        "1decc016-2b73-492d-ad07-b2dd846d7284": {
+            "name": "Car Thief",
+            "children": {
+                "1691219d-7bc7-4a53-a5c7-c640b1a31982": {
+                    "name": "Choose one",
+                    "children": {
+                        "536843e7-391d-4b75-b6a7-d01240201bb6": {
+                            "name": "Cheaper (Ground Vehicles; 10%)",
+                            "tags": [
+                                "Perk",
+                                "社会"
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "High-Heeled Heroine"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "95c016db-1bcc-4ccc-a745-c89e6839f513": {
+                            "name": "Equipment Bond (@any one tool kit@)",
+                            "tags": [
+                                "Perk",
+                                "生理"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "7628933d-847d-4a36-a0f5-3106bd2d5a55": {
+            "name": "Car Thief",
+            "children": {
+                "5d5917ba-3150-4725-b1d0-bc6cd55921b4": {
+                    "name": "鉴赏家",
+                    "tags": [
+                        "艺术",
+                        "娱乐",
+                        "知识",
+                        "社会"
+                    ],
+                    "specialization": "Cars"
+                },
+                "add72546-8cc6-4236-848c-2efb2d23fc2b": {
+                    "name": "驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "机动车",
+                    "defaults": [
+                        {},
+                        {},
+                        {
+                            "name": "驾驶",
+                            "specialization": "重型汽车"
+                        },
+                        {
+                            "name": "驾驶"
+                        }
+                    ]
+                },
+                "7b3a8b90-f885-4389-ae5d-038caeade08c": {
+                    "name": "电子维修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "治安防卫",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子操作",
+                            "specialization": "治安防卫"
+                        },
+                        {
+                            "name": "工程学",
+                            "specialization": "电子"
+                        },
+                        {
+                            "name": "电子维修"
+                        }
+                    ]
+                },
+                "d6272912-8bd1-47d5-b2e7-242e045af180": {
+                    "name": "破门",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ]
+                },
+                "2c49375d-8496-4bdb-b613-f4da8d3910a1": {
+                    "name": "开锁",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头",
+                        "技术"
+                    ]
+                },
+                "37f1aff2-aa1d-4848-b860-6f78efbc8c84": {
+                    "name": "机修",
+                    "tags": [
+                        "维护",
+                        "修理"
+                    ],
+                    "specialization": "机动车",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "工程学",
+                            "specialization": "机动车"
+                        },
+                        {
+                            "name": "机工"
+                        },
+                        {
+                            "name": "机修"
+                        }
+                    ]
+                },
+                "09cc0177-416b-486b-adfe-c73478556aeb": {
+                    "name": "潜行",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ]
+                },
+                "1b2ba4ce-09e8-4872-a5bf-10a5747b87d6": {
+                    "name": "One of",
+                    "children": {
+                        "ca53d0f7-8a1e-4d0f-9532-6cd86f4bd549": {
+                            "name": "地域知识",
+                            "tags": [
+                                "常识",
+                                "知识"
+                            ],
+                            "notes": "所有重要商行、街道、市民、领导等。",
+                            "specialization": "@城市@",
+                            "defaults": [
+                                {
+                                    "name": "地理学",
+                                    "specialization": "@分支@"
+                                }
+                            ]
+                        },
+                        "7a4fec53-108a-47f1-b167-e84ae1254305": {
+                            "name": "黑街",
+                            "tags": [
+                                "犯罪",
+                                "警察",
+                                "社会",
+                                "街头"
+                            ]
+                        },
+                        "70e42405-34ec-416b-b954-66d2dff170d4": {
+                            "name": "城市生存",
+                            "tags": [
+                                "犯罪",
+                                "警察",
+                                "街头"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

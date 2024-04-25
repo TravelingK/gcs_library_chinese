@@ -1,0 +1,898 @@
+{
+    "traits": {
+        "f988a0ad-5f0c-4404-aa53-fb5375d1a9df": {
+            "name": "Artificer",
+            "children": {
+                "415e897c-77d2-42c9-8122-aca4029c8bd9": {
+                    "name": "Class Disadvantage",
+                    "children": {
+                        "899d6d06-351d-4206-b4f1-b6ef70a0f4cf": {
+                            "name": "坏脾气",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "de69d4b0-ec0d-452d-9d7c-05020f6e9c90": {
+                            "name": "战斗麻木",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "6ee38400-e76b-46fd-917f-75fd6c4d5e79": {
+                            "name": "好奇",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "04359d02-733c-44cf-891c-1f281320dbc9": {
+                            "name": "听力障碍",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "a731ca26-1093-4ea8-bf1a-e06810b95b4b": {
+                            "name": "跛足（部分腿不便）",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "f06cd365-7cf2-4eca-bde7-35595c9ddfff": {
+                            "name": "需要独处",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "02abb915-515c-43cd-a6fd-9b8f301dc5f0": {
+                            "name": "Missing Digit (Finger)",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "c627b9c6-5385-4eda-9be0-3c6de952a066": {
+                            "name": "Missing Digit (Thumb)",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "20bbe622-d2e1-4444-a129-84044be87b2a": {
+                            "name": "工作狂",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "92654016-20e5-4307-91d0-6f8629345811": {
+                    "name": "Class Advantage",
+                    "children": {
+                        "5d0aed63-dcf6-4c6c-9bb5-07054cf43c06": {
+                            "name": "15 Points Chosen From:",
+                            "children": {
+                                "803e9a38-89ae-4320-9da3-19760f379361": {
+                                    "name": "天赋（能工巧匠）",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "天赋"
+                                    ],
+                                    "modifiers": {
+                                        "6b7d5888-95d3-47b6-a8a7-5d94f79e3789": {
+                                            "name": "Reaction Bonus",
+                                            "notes": "Employers"
+                                        },
+                                        "2603b10e-ef40-4eda-9140-3ccbd071fca0": {
+                                            "name": "可选增益",
+                                            "notes": "Eliminate -1/level to a skill with success on another to improvise tools; Apply to Enigmatic Device Table rolls and other unskilled tech rolls."
+                                        },
+                                        "60caa20a-10eb-4e3d-b50b-85084e6e682d": {
+                                            "name": "可选花费"
+                                        }
+                                    },
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "军械修造"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "carpentry"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "electrician"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "electronics repair"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "工程学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "机工"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "masonry"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "机修"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "smith"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "1530d2f7-4e24-4b16-8343-941cb6be157a": {
+                                    "name": "灵活",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "攀爬"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "逃脱"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "房中术"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "b99f7f0b-4a8a-4832-8033-2601af2f2856": {
+                                    "name": "灵活（双关节）",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "攀爬"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "逃脱"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "房中术"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "f71aaa6b-efb4-4121-ac77-cf32a50f800f": {
+                                    "name": "巧手",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "艺术家"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "珠宝加工"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "结绳"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "皮革加工"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "开锁"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "扒窃"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "缝纫"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "巧手"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "手术"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "机工"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "机修"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "04b69255-6510-454d-b9fc-b0f03e8954a4": {
+                                    "name": "Talent (Master Builder)",
+                                    "tags": [
+                                        "优势",
+                                        "心理",
+                                        "天赋"
+                                    ],
+                                    "modifiers": {
+                                        "1cf56eaa-3109-4327-9801-9c28dbbe8273": {
+                                            "name": "Reaction Bonus",
+                                            "notes": "Workers on projects, prospective employers"
+                                        },
+                                        "5b00ae78-2c7b-45cb-a650-3838c6228e3a": {
+                                            "name": "可选增益",
+                                            "notes": "Bonus to avoid common workplace hazards, even if used as traps"
+                                        }
+                                    },
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "建筑学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "木艺"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "工程学"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "破门"
+                                            }
+                                        },
+                                        {
+                                            "name": {
+                                                "qualifier": "石工"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "333b6fcd-23ee-48a0-b7ab-7f5e40b559b9": {
+                                    "name": "Rank",
+                                    "tags": [
+                                        "优势",
+                                        "生理"
+                                    ],
+                                    "notes": "Military: ",
+                                    "modifiers": {
+                                        "9324c9db-a001-4b2b-b57c-dc9761425f32": {
+                                            "name": "包含社会地位"
+                                        },
+                                        "f86b9742-59cb-4f6d-903f-7282064c2153": {
+                                            "name": "荣誉"
+                                        }
+                                    }
+                                },
+                                "dd457b20-481d-49ee-a6bf-47b2508660cc": {
+                                    "name": "天马行空",
+                                    "tags": [
+                                        "优势",
+                                        "心理"
+                                    ]
+                                },
+                                "fb5aad5d-827b-4d8f-8656-afba87a61bdb": {
+                                    "name": "财富",
+                                    "tags": [
+                                        "优势",
+                                        "劣势",
+                                        "社会"
+                                    ],
+                                    "modifiers": {
+                                        "33fb10a5-bc0d-47e8-a2e0-e46399d3c72f": {
+                                            "name": "一贫如洗",
+                                            "notes": "Starting wealth is $0"
+                                        },
+                                        "4b14c26e-d2f7-4edf-9f62-e0faff791916": {
+                                            "name": "贫穷",
+                                            "notes": "Starting wealth is 1/5 average"
+                                        },
+                                        "de5a4e00-53b7-44bd-b57e-62a3b06f3fe4": {
+                                            "name": "比较贫穷",
+                                            "notes": "Starting wealth is 1/2 average"
+                                        },
+                                        "73d530ea-d829-4fe1-a1be-20e9d8fb2137": {
+                                            "name": "普通的"
+                                        },
+                                        "9a401727-d04e-4fe5-8d63-32bc33f887e8": {
+                                            "name": "Comfortable",
+                                            "notes": "Starting wealth is 2x average"
+                                        },
+                                        "02b64226-4247-49e7-a6a0-27c7fa3e9f04": {
+                                            "name": "富有",
+                                            "notes": "Starting wealth is 5x average"
+                                        },
+                                        "6351fc27-7611-418c-b24e-b163a25dd0be": {
+                                            "name": "非常富有",
+                                            "notes": "Starting wealth is 20x average"
+                                        },
+                                        "d4f6726d-b4ad-4d18-ba9c-731559cb04d3": {
+                                            "name": "异常富有",
+                                            "notes": "Starting wealth is 100x average"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "db4e397f-a3fb-4640-85da-839ded7d19e8": {
+                    "name": "Attributes",
+                    "children": {
+                        "2d212c8a-fa99-4226-81d7-bfb8204dfbb0": {
+                            "name": "增加智力",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "心理"
+                            ]
+                        },
+                        "3472a5c3-0449-43f6-8201-c0eed5b77cf9": {
+                            "name": "增加力量",
+                            "tags": [
+                                "优势",
+                                "属性",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "3b698384-24f4-4eb9-b96e-3b2e18c3ece5": {
+                                    "name": "无操作肢"
+                                },
+                                "fa3e383f-22f1-41f4-93e0-a1c4a123d456": {
+                                    "name": "体型"
+                                },
+                                "9610d346-7041-417d-843a-68ca71864ad1": {
+                                    "name": "超级出力"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "33c40348-dd86-40e9-ba9e-9918ed2a8249": {
+            "name": "Artificer",
+            "children": {
+                "a445027d-8dd1-444e-9b18-5c29548467a2": {
+                    "name": "1. Primary Skill",
+                    "children": {
+                        "116a65bc-a322-434b-9cca-d08c1f44b2e1": {
+                            "name": "Pick from one of the following packages:",
+                            "children": {
+                                "72598586-3b36-44ce-b14e-fcc87e4e53eb": {
+                                    "name": "Artillery",
+                                    "children": {
+                                        "706fd2c8-feed-4159-baab-1f73bc6697d1": {
+                                            "name": "军械修造",
+                                            "tags": [
+                                                "维护",
+                                                "军事",
+                                                "修理"
+                                            ],
+                                            "specialization": "重武器",
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "工程学",
+                                                    "specialization": "重武器"
+                                                }
+                                            ]
+                                        },
+                                        "69b8f6fc-98b8-48eb-ac28-5729f6da2928": {
+                                            "name": "Artillery",
+                                            "tags": [
+                                                "战斗",
+                                                "远程战斗",
+                                                "武器"
+                                            ],
+                                            "specialization": "弹射器"
+                                        },
+                                        "d19934ec-b3ab-44a5-9065-f6ee27122fca": {
+                                            "name": "工程学",
+                                            "tags": [
+                                                "设计",
+                                                "工程学",
+                                                "发明"
+                                            ],
+                                            "specialization": "Artillery",
+                                            "prereqs": {
+                                                "prereqs": [
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "数学"
+                                                        },
+                                                        "specialization": {
+                                                            "qualifier": "应用"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "defaults": [
+                                                {
+                                                    "name": "军械修造",
+                                                    "specialization": "重武器"
+                                                }
+                                            ]
+                                        },
+                                        "fe6c2238-b8dd-459f-9a7d-8c176ba7d39d": {
+                                            "name": "Gunner",
+                                            "tags": [
+                                                "战斗",
+                                                "远程战斗",
+                                                "武器"
+                                            ],
+                                            "specialization": "弹射器",
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "Gunner"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "07c581ea-e903-4e0b-8eb4-db5d6f168c06": {
+                                    "name": "化学",
+                                    "children": {
+                                        "96072ff5-df11-404e-bc9a-e9e5281834a2": {
+                                            "name": "化学",
+                                            "tags": [
+                                                "自然科学"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "炼金术"
+                                                }
+                                            ]
+                                        },
+                                        "a879f749-4873-4194-83c2-5cce1542c229": {
+                                            "name": "Explosives",
+                                            "tags": [
+                                                "军事",
+                                                "技术"
+                                            ],
+                                            "specialization": "烟火",
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "化学"
+                                                },
+                                                {
+                                                    "name": "Explosives"
+                                                }
+                                            ]
+                                        },
+                                        "49906b82-85b3-4cb9-8da4-be3a3461ee3b": {
+                                            "name": "毒药",
+                                            "tags": [
+                                                "犯罪",
+                                                "医学",
+                                                "间谍",
+                                                "街头"
+                                            ],
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "化学"
+                                                },
+                                                {
+                                                    "name": "药剂学"
+                                                },
+                                                {
+                                                    "name": "医师"
+                                                }
+                                            ]
+                                        },
+                                        "bbf74a6b-0f63-4355-b324-28ccda1ee55a": {
+                                            "name": "职业技能",
+                                            "tags": [
+                                                "知识"
+                                            ],
+                                            "specialization": "Glassblowing"
+                                        }
+                                    }
+                                },
+                                "c36df17b-c358-4af7-afef-53bc8ecf184f": {
+                                    "name": "Heavy Equipment",
+                                    "children": {
+                                        "7a112940-0efc-4603-a377-1eaea38f422a": {
+                                            "name": "木艺",
+                                            "tags": [
+                                                "工艺"
+                                            ]
+                                        },
+                                        "a199956f-8588-4d3c-b840-4c4ac2941ab2": {
+                                            "name": "工程学",
+                                            "tags": [
+                                                "设计",
+                                                "工程学",
+                                                "发明"
+                                            ],
+                                            "specialization": "民间工程",
+                                            "prereqs": {
+                                                "prereqs": [
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "数学"
+                                                        },
+                                                        "specialization": {
+                                                            "qualifier": "应用"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "defaults": [
+                                                {
+                                                    "name": "建筑学"
+                                                }
+                                            ]
+                                        },
+                                        "4a140c87-ceaf-45b7-ad16-579647cf8bd6": {
+                                            "name": "机修",
+                                            "tags": [
+                                                "维护",
+                                                "修理"
+                                            ],
+                                            "specialization": "Muscle Engines",
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "工程学",
+                                                    "specialization": "空天飞机"
+                                                },
+                                                {
+                                                    "name": "机工"
+                                                },
+                                                {
+                                                    "name": "机修"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "f8b3379a-14cd-4afa-a458-b12d2e24d4d1": {
+                                    "name": "Mechanisms",
+                                    "children": {
+                                        "94444d67-1708-4731-be2d-6662f1de88cf": {
+                                            "name": "工程学",
+                                            "tags": [
+                                                "设计",
+                                                "工程学",
+                                                "发明"
+                                            ],
+                                            "specialization": "发条装置",
+                                            "prereqs": {
+                                                "prereqs": [
+                                                    {
+                                                        "name": {
+                                                            "qualifier": "数学"
+                                                        },
+                                                        "specialization": {
+                                                            "qualifier": "应用"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "defaults": [
+                                                {
+                                                    "name": "机修",
+                                                    "specialization": "发条装置"
+                                                }
+                                            ]
+                                        },
+                                        "b4d70a22-569d-4883-9f75-dd053d0d51ad": {
+                                            "name": "机修",
+                                            "tags": [
+                                                "维护",
+                                                "修理"
+                                            ],
+                                            "specialization": "发条装置",
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "name": "工程学",
+                                                    "specialization": "发条装置"
+                                                },
+                                                {
+                                                    "name": "机工"
+                                                },
+                                                {
+                                                    "name": "机修"
+                                                }
+                                            ]
+                                        },
+                                        "fe9e594f-7fef-4895-a31e-b09d7e389d74": {
+                                            "name": "One of:",
+                                            "children": {
+                                                "ea097bc5-0daf-412d-a189-cdda101d9fff": {
+                                                    "name": "开锁",
+                                                    "tags": [
+                                                        "犯罪",
+                                                        "警察",
+                                                        "间谍",
+                                                        "街头",
+                                                        "技术"
+                                                    ]
+                                                },
+                                                "f579dda2-8742-4d9a-b3af-7cb803f98f3e": {
+                                                    "name": "Traps",
+                                                    "tags": [
+                                                        "犯罪",
+                                                        "军事",
+                                                        "街头"
+                                                    ],
+                                                    "defaults": [
+                                                        {},
+                                                        {
+                                                            "name": "开锁"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "6f49dec6-3f6c-4884-b912-d8f39d3da42e": {
+                    "name": "2. Secondary Skill",
+                    "children": {
+                        "e4d47d5f-db89-4c78-bd45-76a4cf060ea2": {
+                            "name": "艺术家",
+                            "tags": [
+                                "艺术",
+                                "娱乐"
+                            ],
+                            "specialization": "素描",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "艺术家",
+                                    "specialization": "书法"
+                                },
+                                {
+                                    "name": "艺术家",
+                                    "specialization": "纹饰"
+                                },
+                                {
+                                    "name": "艺术家",
+                                    "specialization": "彩绘"
+                                },
+                                {
+                                    "name": "艺术家",
+                                    "specialization": "人体艺术"
+                                },
+                                {
+                                    "name": "艺术家"
+                                }
+                            ]
+                        },
+                        "c2476bc6-5e56-488f-b434-1508507c2cf3": {
+                            "name": "艺术家",
+                            "tags": [
+                                "艺术",
+                                "工艺",
+                                "娱乐"
+                            ],
+                            "specialization": "雕塑",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "艺术家"
+                                }
+                            ]
+                        },
+                        "51481440-4536-47ac-8e9f-791ed8472c10": {
+                            "name": "时事",
+                            "tags": [
+                                "常识",
+                                "知识",
+                                "社会"
+                            ],
+                            "specialization": "科技",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "研究"
+                                },
+                                {
+                                    "name": "时事"
+                                }
+                            ]
+                        },
+                        "068a5c55-e88c-4571-a54a-188a5f83c939": {
+                            "name": "Either",
+                            "children": {
+                                "97ab4eb4-fd1e-4236-b1c1-e27d08b3c0ff": {
+                                    "name": "管理",
+                                    "tags": [
+                                        "商业",
+                                        "社会"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "商人"
+                                        }
+                                    ]
+                                },
+                                "d7bc12a3-3374-42b2-ad34-4441f2209139": {
+                                    "name": "领导力",
+                                    "tags": [
+                                        "军事",
+                                        "社会"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "2965bd03-7d7a-4906-891d-f4d2f1bf4498": {
+                    "name": "3. Background Skill",
+                    "children": {
+                        "e0604c88-ad27-4e3e-8b01-66a2d6f1cb04": {
+                            "name": "One of:",
+                            "children": {
+                                "e2d12322-44e3-40e8-8b7d-a0fbd16b57ad": {
+                                    "name": "天文学",
+                                    "tags": [
+                                        "自然科学"
+                                    ],
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "数学"
+                                                },
+                                                "specialization": {
+                                                    "qualifier": "应用"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "57548d9d-a01d-47fc-bb45-318e6cb535ea": {
+                                    "name": "专家技能",
+                                    "tags": [
+                                        "知识",
+                                        "自然科学",
+                                        "学校"
+                                    ],
+                                    "specialization": "自然哲学"
+                                },
+                                "eddb2351-9eab-4911-81d7-7c31978f737b": {
+                                    "name": "数学",
+                                    "tags": [
+                                        "自然科学"
+                                    ],
+                                    "specialization": "纯数学"
+                                }
+                            }
+                        },
+                        "a733f8f8-1165-4cb2-9993-cbfc43824cc7": {
+                            "name": "Two of:",
+                            "children": {
+                                "58b46498-7cff-4c4a-83ef-ae8bf00a754d": {
+                                    "name": "斗殴",
+                                    "tags": [
+                                        "战斗",
+                                        "近战",
+                                        "武器"
+                                    ],
+                                    "features": [
+                                        {
+                                            "name": {
+                                                "qualifier": "斗殴"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "4cf209bd-ee3e-4459-8ab2-d68b750eb5f0": {
+                                    "name": "结绳",
+                                    "tags": [
+                                        "常识"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "攀爬"
+                                        },
+                                        {
+                                            "name": "航海术"
+                                        }
+                                    ]
+                                },
+                                "655ebf3a-49ed-437c-a065-631c41f9e41b": {
+                                    "name": "手势",
+                                    "tags": [
+                                        "社会"
+                                    ]
+                                },
+                                "04babbe3-d9d5-4abd-9921-e83aa5b4e2dc": {
+                                    "name": "搜集",
+                                    "tags": [
+                                        "犯罪",
+                                        "街头"
+                                    ]
+                                },
+                                "e8cd4555-f52b-4484-88e7-d1b65126cc9b": {
+                                    "name": "宴饮",
+                                    "tags": [
+                                        "犯罪",
+                                        "社会",
+                                        "街头"
+                                    ]
+                                },
+                                "e9fb5de4-6cfe-4f54-ba80-f38a5f453c7a": {
+                                    "name": "装卸",
+                                    "tags": [
+                                        "技术",
+                                        "载具"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

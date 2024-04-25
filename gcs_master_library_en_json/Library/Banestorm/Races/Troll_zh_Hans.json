@@ -1,0 +1,456 @@
+{
+    "traits": {
+        "1bb0d51e-6b36-494f-95fe-0531bf1da11f": {
+            "name": "Troll",
+            "children": {
+                "7fb5f739-d7e7-4703-83ed-1a963d5f201a": {
+                    "name": "敏锐味觉和嗅觉",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "26a3d3b1-21ba-49c2-8b4b-c077388e095e": {
+                    "name": "Appearance (Monstrous)",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "b0d516c5-79c5-43e1-8ef5-a9889fadfb3f": {
+                    "name": "基本移动力",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "c3178581-de84-42ef-8621-99c9c3f6c69c": {
+                    "name": "Bloodlust (CR: 12)",
+                    "tags": [
+                        "心理"
+                    ]
+                },
+                "347a913a-407e-4bf3-9156-d55a57776d71": {
+                    "name": "屏息",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "f37986f3-0993-4ffe-a139-36b12c79124d": {
+                    "name": "冷酷无情",
+                    "tags": [
+                        "心理"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "心理学"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "教学"
+                            }
+                        }
+                    ]
+                },
+                "54d59bad-77a2-4401-a60c-728eb5f55615": {
+                    "name": "Claws, Blunt (Feet)",
+                    "tags": [
+                        "生理"
+                    ],
+                    "notes": "Only pay for hands or feet, not both",
+                    "weapons": {
+                        "3c49d23d-63ad-42d0-8c35-1d581ae48be5": {
+                            "usage": "Kick",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "斗殴"
+                                },
+                                {
+                                    "name": "空手技击"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "8e656752-22b7-4ae6-b023-7c75d4074177": {
+                    "name": "Curious (CR: 15)",
+                    "tags": [
+                        "心理"
+                    ]
+                },
+                "59b7d1f7-b57d-44c0-89e6-e8e9eec8efe6": {
+                    "name": "伤害减免",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "998f9acb-0d23-4f97-a1bd-a0f7c6360d5f": {
+                            "name": "剥离"
+                        },
+                        "3f9e6232-20c6-4f0e-a601-a71f93a4c91d": {
+                            "name": "吸收",
+                            "notes": "增强@特质@"
+                        },
+                        "34e3992d-b367-44cf-b08c-421c7509cca8": {
+                            "name": "吸收",
+                            "notes": "增强任意特质"
+                        },
+                        "37a3bb2c-2223-41f3-a31f-fec9194f5f17": {
+                            "name": "吸收",
+                            "notes": "仅治疗"
+                        },
+                        "66d13836-e1c5-432a-9fdf-b6bb73cebef4": {
+                            "name": "无法穿着护甲"
+                        },
+                        "0539d5ef-c069-453b-bed5-af6bebb4ebbc": {
+                            "name": "定向",
+                            "notes": "@方向：后方、左、右、上、下@"
+                        },
+                        "cec5cfa4-2a02-4dee-ae32-b1f2a28827f9": {
+                            "name": "定向",
+                            "notes": "前方"
+                        },
+                        "ae7cae25-3eaa-4fa2-b5e5-bef0fdc56d64": {
+                            "name": "柔性"
+                        },
+                        "b9e11c91-b447-4683-a85f-b89adc541a84": {
+                            "name": "硬化"
+                        },
+                        "94110c03-13f6-4ee6-bd3f-106a2382d8b6": {
+                            "name": "限制",
+                            "notes": "@常见攻击类型@"
+                        },
+                        "f91e3540-ce28-4ae2-abd3-5fb719b7d51e": {
+                            "name": "限制",
+                            "notes": "@偶见攻击类型@"
+                        },
+                        "a9c5b1d6-9290-42f1-96db-678e5c1d38d8": {
+                            "name": "限制",
+                            "notes": "@罕见攻击类型@"
+                        },
+                        "a6768dcd-2131-4184-8dea-9ff4fa048c2e": {
+                            "name": "限制",
+                            "notes": "@很常见攻击类型@"
+                        },
+                        "66f769b6-7d16-4fe1-86f2-95dedcc48fba": {
+                            "name": "反射"
+                        },
+                        "4aff8593-d060-49dc-8772-023060687b17": {
+                            "name": "半剥离"
+                        },
+                        "e75d3b88-88f8-4217-ac4e-27bea0bdf666": {
+                            "name": "硬皮"
+                        }
+                    }
+                },
+                "b3984763-8dde-4215-9566-f6a528c901d0": {
+                    "name": "黑暗视觉",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "8a2e7ef1-9f7b-44ab-ba6a-5ab05c6f95f1": {
+                            "name": "能够在黑暗中看到颜色"
+                        }
+                    }
+                },
+                "2f2c411b-e742-4e86-82a7-b2621c5b31de": {
+                    "name": "识别性嗅觉",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "1a42c985-c809-4a80-ae89-ee59c9d84a65": {
+                            "name": "情绪感应"
+                        }
+                    }
+                },
+                "91bacd3b-2fc5-444a-a288-0ea39b6ee71c": {
+                    "name": "DX",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "3b794395-9e3b-4997-aa09-4e651397f2c3": {
+                    "name": "额外手臂",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "a8523549-8922-4599-9320-8be2f1a29d5a": {
+                            "name": "非常灵活"
+                        },
+                        "f4a87cbb-70e7-4f6c-8d25-73a3872154a5": {
+                            "name": "最大"
+                        },
+                        "f9408a61-eab8-4ed0-a01a-9eadeaafe7a3": {
+                            "name": "以脚为手"
+                        },
+                        "7deba9fd-5680-494b-8079-22686accc610": {
+                            "name": "不能进行物理攻击"
+                        },
+                        "fa608929-3c66-4385-b9d8-61ce2f498fec": {
+                            "name": "短"
+                        },
+                        "653e3869-c1ab-46cf-a026-f71cfe59cc52": {
+                            "name": "弱",
+                            "notes": "只有一半力量"
+                        },
+                        "953e0004-7810-47fa-a8ab-eff66824d171": {
+                            "name": "弱",
+                            "notes": "只有 1/4 力量"
+                        },
+                        "f39375db-197d-4f4b-904e-7f8657e57d5b": {
+                            "name": "武器座"
+                        }
+                    }
+                },
+                "12c6f407-60f7-44ea-beb1-6abf27923036": {
+                    "name": "Gluttony (CR: 9)",
+                    "tags": [
+                        "心理"
+                    ]
+                },
+                "05c4f4ba-a589-43de-8f5f-52d6380d33c2": {
+                    "name": "高痛阈",
+                    "tags": [
+                        "生理"
+                    ],
+                    "notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture"
+                },
+                "7d824f0f-d751-4c20-9ff1-e081c5657635": {
+                    "name": "HP",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "d666f3e1-95c5-4ad2-bd47-41de8d151258": {
+                    "name": "HT",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "1bf09f8b-1f92-4108-90e7-3006da0c0815": {
+                    "name": "Injury Tolerance (No Vitals)",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "e2be4042-8c6a-450a-873d-15ea119f40b7": {
+                    "name": "Loner (CR: 12, Reac -2)",
+                    "tags": [
+                        "心理"
+                    ]
+                },
+                "cc400a6a-3bf1-4b4f-a6b2-d5f541a16655": {
+                    "name": "Negative IQ",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "6945ac2a-028e-40ef-8c71-954514752fd3": {
+                    "name": "Odious Racial Habit",
+                    "tags": [
+                        "生理"
+                    ],
+                    "notes": "Eats other Sapients; -3 Reaction"
+                },
+                "c4bb9b3a-0369-4fc3-a407-77f5ae2f60a9": {
+                    "name": "Per",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "f28fd4a4-cd1d-4ef7-90e7-7f2a93da79c9": {
+                    "name": "高压生存",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "e913e57c-157a-43de-8616-2e6ae52b2d93": {
+                    "name": "Quirk: Intensely dislikes full daylight and dry conditions",
+                    "tags": [
+                        "生理"
+                    ],
+                    "notes": "Intensely dislikes full daylight and dry conditions"
+                },
+                "f8321cb9-7976-4fdc-80e4-6289fad24249": {
+                    "name": "恢复",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "6a2a2712-32ee-4987-ac93-742c700f16bc": {
+                    "name": "自愈",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "ce115817-2b71-4efc-9067-461cb7f89a79": {
+                            "name": "慢速",
+                            "notes": "你每 12 小时额外恢复 1 HP"
+                        },
+                        "3501266d-e5a0-49c8-bd0b-64f6db1b36a1": {
+                            "name": "常规",
+                            "notes": "你每 1 小时额外恢复 1 HP"
+                        },
+                        "ba0db405-8c5e-4b5b-81b7-13f73d47ebf2": {
+                            "name": "快速",
+                            "notes": "你每 1 分钟额外恢复 1 HP"
+                        },
+                        "d5ce03c6-3900-40d1-bc4e-804beda2a653": {
+                            "name": "高速",
+                            "notes": "你每 1 秒额外恢复 1 HP"
+                        },
+                        "e70df8dd-5214-4c5b-9ea7-6ccdd18b14d6": {
+                            "name": "极度",
+                            "notes": "你每 1 秒额外恢复 10 HP"
+                        },
+                        "96f910ad-5a32-4632-bdf2-5710883a4212": {
+                            "name": "治疗辐射"
+                        },
+                        "c52530a8-701a-4de6-a7d7-a67a769890f8": {
+                            "name": "仅治疗辐射"
+                        },
+                        "26cfc1b7-3f60-4b0f-aad6-9163237959e3": {
+                            "name": "Not Fire or Acid"
+                        }
+                    }
+                },
+                "a4deb9f6-0fe3-4a2c-b71d-5dec388f38e3": {
+                    "name": "抵抗力",
+                    "tags": [
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "0a99d15e-de87-45d7-9287-15d7d89c5eab": {
+                            "name": "@非常常见：新陈代谢危险等@"
+                        },
+                        "6959c4ad-596b-4c21-aae6-f59b1e099d9b": {
+                            "name": "@常见：毒药，病征等@"
+                        },
+                        "26a1e022-f0b0-43ee-af6b-3f5f53ac85c9": {
+                            "name": "传染病"
+                        },
+                        "8a6893cb-5bda-4f57-b923-e008fbd84da0": {
+                            "name": "@罕见：加速度，高原反应，潜水病，晕船，或是太空病等@"
+                        },
+                        "cf8af3c0-60ce-4e05-9a08-6e9c6e0e3001": {
+                            "name": "免疫力"
+                        },
+                        "908a764a-92c0-4a73-8f4b-5e1b4220f379": {
+                            "name": "抵抗的 HT 检定 +8"
+                        },
+                        "cd18b1f8-9801-4fb2-ba16-185a42550cf8": {
+                            "name": "抵抗的 HT 检定 +3"
+                        }
+                    }
+                },
+                "8eb75d69-b8c3-4d66-a1e8-6e44f0d6587e": {
+                    "name": "SM+1",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "77f4e861-093d-4304-93b6-faffab2f7d50": {
+                    "name": "ST",
+                    "tags": [
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "e8f183e8-42e3-4516-8165-61d2c623e6a9": {
+                            "name": "Size Modifier"
+                        }
+                    }
+                },
+                "a5498470-ac26-4e81-ba73-2f0323f1b522": {
+                    "name": "Teeth, Sharp",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ],
+                    "weapons": {
+                        "96e476a1-a410-4be8-9971-f295a74ba7c6": {
+                            "usage": "啃咬",
+                            "defaults": [
+                                {
+                                    "name": "斗殴"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "32ee0cc8-a907-4a47-9650-4c8a13d0c02d": {
+                    "name": "超温耐受",
+                    "tags": [
+                        "生理"
+                    ],
+                    "notes": "Centered at 50 degrees"
+                },
+                "d3cc5177-9de7-4708-a5ea-ae92c776ccd9": {
+                    "name": "无所惊扰",
+                    "tags": [
+                        "心理"
+                    ]
+                },
+                "b5007c44-836e-4bd6-a73c-7a3f0a063927": {
+                    "name": "普适消化能力",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "73bd3fe7-4ce2-492b-a70a-d66f3f437852": {
+                    "name": "Vulnerability (Fire or Dehydration, Damage x2)",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "f2f61d15-4480-495e-bd93-00ae6da02062": {
+                    "name": "Vulnerability (Heat or Thirst, Damage x2)",
+                    "tags": [
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "bb3aeaed-b7ef-4695-ae7c-035fef9e9a73": {
+                            "name": "仅限体力"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "aa3189e8-c63d-4dda-a97d-a4cc30a5a6be": {
+            "name": "斗殴",
+            "features": [
+                {
+                    "name": {
+                        "qualifier": "斗殴"
+                    }
+                }
+            ]
+        },
+        "e71bc58a-a184-4453-9758-a055b3da1465": {
+            "name": "潜行"
+        },
+        "355546b7-8aae-4958-9430-4eb51329bbd6": {
+            "name": "游泳"
+        }
+    },
+    "notes": {
+        "507be8ed-8341-432e-b7cb-e0bb9d6c6fdb": {
+            "text": "Trolls are large humanoid monsters. They have horny, warty, greenish skins, features which look like a grotesque parody of humanity, and slender but powerful frames. They are native to Gabrook, although curiously, dwarven legends from long before the Banestorm speak of similar creatures. Trolls are dangerous predators (with appropriate senses and a surprising talent for stealth), but unlike the simple-minded, bullying ogres, trolls are solitary and misanthropic, even brooding. Some seem to terrorize other races because they resent anyone else enjoying themselves!\n\nThey do occasionally come together in small groups, to hunt, find mates, or exchange knowledge. (They tolerate other trolls badly, but better than they usually tolerate anyone else.) The common exception to this attitude is family loyalty; trolls are often protective of their relatives, and vengeful if they’re hurt.\n\nTrolls are nocturnal by preference, like damp conditions, and are superlative swimmers and divers. Their ideal lair is an air-filled cave with its entrance underwater, but they can adapt to most environments; some have taken to living under bridges or even in urban sewers, from which they may have to be evicted by heroes.\n\nOthers dwell deep in gloomy forests. Most speak the language of the dominant culture in the area, although they generally talk very little.\n\nA few female trolls have Magery and marginally better intelligence, and know a few spells, which are passed down from mother to daughter. Amoral humans occasionally ally with such beings, and have taught them additional spells.\n\nTrolls are more annoyed than inconvenienced by pain, and recover from damage that doesn’t actually kill them quite quickly, unless it was inflicted by acid, fire, or lightning. (Some flaunt scars caused by torches or fire spells, which are not sure death for a troll.) Contrary to some stories, though, they don’t reassemble themselves if hacked to pieces (although they can occasionally reattach limbs which were severed by a clean cut – treat this as a special effect). Another popular but incorrect story is that they turn to stone in daylight."
+        }
+    }
+}

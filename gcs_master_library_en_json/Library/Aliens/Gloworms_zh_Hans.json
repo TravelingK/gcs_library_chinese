@@ -1,0 +1,634 @@
+{
+    "traits": {
+        "7fbe277c-e278-46d4-95bb-93105b66ebe9": {
+            "name": "Gloworms",
+            "children": {
+                "0e8fb7e5-c0cb-4b7b-85dd-458d622fdf37": {
+                    "name": "Racial Modifiers",
+                    "children": {
+                        "3a6607b6-4584-4e1a-bfb6-bfdd24356538": {
+                            "name": "ST -",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "2481b50a-e56c-4155-a4c3-1a66637283fe": {
+                            "name": "IQ -",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "53da6c62-fdac-4d90-ac1b-a117edcae7c8": {
+                            "name": "HT +",
+                            "tags": [
+                                "生理"
+                            ]
+                        },
+                        "c8355cc4-0952-4222-b2c4-f58d6a56da1e": {
+                            "name": "DX +",
+                            "tags": [
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "b97e65b6-d665-485f-a074-0072a199ece0": {
+                    "name": "Racial Disadvantages",
+                    "children": {
+                        "3bc6d402-360f-4216-b7b1-f6fb68cc520a": {
+                            "name": "短命",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "4170a90d-2f2d-4b0f-841c-736312f749d6": {
+                            "name": "Reputation",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "334485ee-6e5f-4ce9-9717-0014b15727d3": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人"
+                                },
+                                "ae257444-ba2b-49e9-8e7a-0175f0af1228": {
+                                    "name": "影响人群",
+                                    "notes": "几乎所有人，刨去@一大群人@"
+                                },
+                                "c522400b-424a-486b-a6e2-9fcbaa8c9ee2": {
+                                    "name": "影响人群",
+                                    "notes": "@一大群人@"
+                                },
+                                "bc1c37c6-e662-4fe0-871d-529a9ebec95d": {
+                                    "name": "影响人群",
+                                    "notes": "@一小群人@"
+                                },
+                                "7248d85e-afd4-47f8-8f6f-3263e24b2925": {
+                                    "name": "总是有人认识"
+                                },
+                                "53da242d-0b7c-44cf-8b81-d2adbce08290": {
+                                    "name": "有时候有人认识",
+                                    "notes": "10-"
+                                },
+                                "02ef2baa-6ae2-44e5-80ac-872ee9123407": {
+                                    "name": "偶尔有人认识",
+                                    "notes": "7-"
+                                }
+                            }
+                        },
+                        "8b35fdf9-d2f3-4906-8cd9-32f0822a2e9d": {
+                            "name": "Language: Gloworm",
+                            "tags": [
+                                "优势",
+                                "语言",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "b00640aa-2279-4aaa-a8ee-e7bea9f2841c": {
+                                    "name": "纯正的"
+                                },
+                                "c2e62765-fd94-4261-b503-876923b3e9c9": {
+                                    "name": "口语",
+                                    "notes": "一无所知"
+                                },
+                                "ce90d866-e160-4b4f-999c-df19001ee4e6": {
+                                    "name": "口语",
+                                    "notes": "结巴的"
+                                },
+                                "37fabace-ff65-491a-a82f-04d42ef4e108": {
+                                    "name": "口语",
+                                    "notes": "有口音的"
+                                },
+                                "00752cec-d3a9-429f-9835-d0aa9c023e2a": {
+                                    "name": "口语",
+                                    "notes": "纯正的"
+                                },
+                                "984a98b9-178a-41d9-a74f-823e5c768034": {
+                                    "name": "书写",
+                                    "notes": "一无所知"
+                                },
+                                "d9898dbb-b650-4c0b-bb6c-74412f54b9bf": {
+                                    "name": "书写",
+                                    "notes": "结巴的"
+                                },
+                                "442acd10-1278-4fc1-a159-1520fa3791a0": {
+                                    "name": "书写",
+                                    "notes": "有口音的"
+                                },
+                                "1d2b4f3c-fb8c-40e9-8784-fa3ce9fb9a2f": {
+                                    "name": "书写",
+                                    "notes": "纯正的"
+                                }
+                            }
+                        },
+                        "110fd45e-e1ff-447d-aaf2-83f6bd4bd950": {
+                            "name": "暴食",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "面对丰盛的酒宴时，你需要进行自我控制检定来决定能否抵制住食物的诱惑。如果检定失败，你将不顾后果地大吃大喝。"
+                        },
+                        "b365072d-d603-446f-adc8-646dd697e258": {
+                            "name": "无法发声",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "0f82944c-2926-47d8-adfa-dc3fda541b0e": {
+                    "name": "Racial Advantages",
+                    "children": {
+                        "363565e7-8563-4d03-b0dd-6b188732c892": {
+                            "name": "超温耐受",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ]
+                        },
+                        "0589d124-dd92-4a05-8fd7-3db5ed8aaa9f": {
+                            "name": "拉伸肢体",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "9b0ce991-68bc-4138-b34a-b41580709b74": {
+                                    "name": "力场伸展"
+                                },
+                                "885ecc37-6a02-472e-be62-aa7e1a35be10": {
+                                    "name": "限制",
+                                    "notes": "仅限手臂"
+                                },
+                                "8d1f3842-08b2-4dbc-9d36-feb1acadb158": {
+                                    "name": "限制",
+                                    "notes": "仅限腿"
+                                },
+                                "50fc9bdd-d5d8-46c8-a7a5-bb067fdfbedb": {
+                                    "name": "限制",
+                                    "notes": "@单一肢体@"
+                                },
+                                "b0156d98-bd01-438e-afc8-2634e16fe829": {
+                                    "name": "限制",
+                                    "notes": "仅限脖子"
+                                }
+                            }
+                        },
+                        "77a36059-2771-403e-a250-69aeea5fbae7": {
+                            "name": "偷取生命",
+                            "tags": [
+                                "心理",
+                                "灵能",
+                                "心灵汲取"
+                            ],
+                            "notes": "Psychic vampirism ability. Rob someone of their HP to replenish your own."
+                        },
+                        "3ff81341-0360-4eff-9f0f-a97d6cc03d49": {
+                            "name": "悄无声息",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "notes": "+2/level to Stealth when you are perfectly motionless, or +1/level if moving (even in armor, etc.). These bonuses help only when hearing is the only sense that can be used to detect you.",
+                            "modifiers": {
+                                "53e8d867-0b13-4e34-b4b4-2dbcfb8bd816": {
+                                    "name": "动态"
+                                }
+                            }
+                        },
+                        "8c6af0a5-8fe9-44b8-9a04-ef7d299d3204": {
+                            "name": "新陈代谢控制",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "6a4dbaef-4b76-40b0-b100-2423a4cd4bda": {
+                                    "name": "冬眠"
+                                },
+                                "f6e2955e-384a-4f17-a2bb-4551fafe43d5": {
+                                    "name": "掌控"
+                                }
+                            }
+                        },
+                        "8f281a55-247c-4e77-8ca0-bff120c55a5a": {
+                            "name": "强化重力适性",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "f2abe2b2-a980-41df-bf2d-4921575c4790": {
+                                    "name": "0.3G"
+                                },
+                                "1dbbb540-67a4-44e5-99c5-99e81ac5b371": {
+                                    "name": "0.5G"
+                                },
+                                "4af10ba0-1ef3-4356-b43d-e975021e6ec1": {
+                                    "name": "1G"
+                                },
+                                "44e60cb4-4b24-4026-96b8-8dc981c7912b": {
+                                    "name": "5G"
+                                },
+                                "00bd5495-bfe1-4ea3-8c1a-bffc2890e68d": {
+                                    "name": "10G"
+                                }
+                            }
+                        },
+                        "6ee0e7e3-7816-4f54-b862-ba5717bc15b1": {
+                            "name": "飞行",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "notes": "飞行基本速度是 BS×2（舍去所有小数）",
+                            "modifiers": {
+                                "88e6c538-a619-4173-9bba-3408f8213051": {
+                                    "name": "牛顿力学式太空飞行"
+                                },
+                                "c4c8b87a-75dc-4039-98cd-3c537e5fd23d": {
+                                    "name": "太空飞行"
+                                },
+                                "6f22671e-06e5-4726-90dc-47dad93ebb76": {
+                                    "name": "不能悬停"
+                                },
+                                "bc4ae0e9-03ff-40b2-9ce1-d39d0fa61fde": {
+                                    "name": "可控滑翔"
+                                },
+                                "1f31a281-f2ba-4d02-bbfb-2ad3f8dbb585": {
+                                    "name": "滑翔"
+                                },
+                                "f26c49a2-8124-4ef5-bd05-925ab6f8816d": {
+                                    "name": "轻于空气"
+                                },
+                                "e2ab3201-8c7f-4d39-a1cd-d32cd7fab431": {
+                                    "name": "低上限",
+                                    "notes": "30 英尺"
+                                },
+                                "0c021a8d-cc83-4639-9701-2568c32c9f33": {
+                                    "name": "低上限",
+                                    "notes": "10 英尺"
+                                },
+                                "5c76cefd-ccdf-4cc5-803a-c0478aa855f5": {
+                                    "name": "低上限",
+                                    "notes": "5 英尺"
+                                },
+                                "00f30cb3-58a3-493f-9116-0eec48c86d87": {
+                                    "name": "小翅膀"
+                                },
+                                "bdad2ca3-d56b-4759-bc71-250934bde5a3": {
+                                    "name": "仅限太空飞行"
+                                },
+                                "0c22b549-e8b0-4c15-b64c-99d00af38b61": {
+                                    "name": "大翼"
+                                },
+                                "32fa07a7-e6c2-4aae-bdf3-6430cef30935": {
+                                    "name": "行星"
+                                },
+                                "e7847ecd-7b79-4710-a329-2afae8da02a6": {
+                                    "name": "需要表面"
+                                },
+                                "cdce7f71-7ab5-4c48-97c0-07785be83a8d": {
+                                    "name": "慢速",
+                                    "notes": "基本速度"
+                                },
+                                "323ea93f-2978-46e0-a946-c241b6d50c44": {
+                                    "name": "缓慢，移动力 1"
+                                },
+                                "1ad8e42d-7ded-4f2f-bb61-9c8736352857": {
+                                    "name": "Psychokinetic"
+                                }
+                            }
+                        },
+                        "b98c314e-8675-4c3d-beb4-2773e43217c2": {
+                            "name": "Feature (Early Maturation)",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "33d57282-54e4-4271-8104-0dadd4f60259": {
+                                    "name": "没有体温",
+                                    "notes": "所有试图推演你秘密的检定获得 +1",
+                                    "features": [
+                                        {
+                                            "situation": "来自触碰你、与你握手或亲吻你之类的人。"
+                                        }
+                                    ]
+                                },
+                                "58c9d50a-a970-440b-98ec-112ffd8e8714": {
+                                    "name": "没有体温",
+                                    "notes": "可以暂时得到温暖；例如喝足鲜血后的吸血鬼。那些试图推演你秘密的检定获得 +1",
+                                    "features": [
+                                        {
+                                            "situation": "来自触碰你、与你握手或亲吻你之类的人。"
+                                        }
+                                    ]
+                                },
+                                "988c80f3-9a78-43bd-9ae3-e73f8e904f52": {
+                                    "name": "没有镜像",
+                                    "notes": "试图推演出你秘密的检定获得 +2",
+                                    "features": [
+                                        {
+                                            "situation": "来自察觉到这一点的人"
+                                        }
+                                    ]
+                                },
+                                "3f065c26-3f90-454d-a163-4dc120981d65": {
+                                    "name": "没有影子",
+                                    "notes": "试图推演出你秘密的检定获得 +2",
+                                    "features": [
+                                        {
+                                            "situation": "来自察觉到你没有影子的人"
+                                        }
+                                    ]
+                                },
+                                "acc4aacc-632c-44cb-a577-667ad1d3a22a": {
+                                    "name": "苍白",
+                                    "notes": "试图推演出你秘密的检定获得 +2",
+                                    "features": [
+                                        {
+                                            "situation": "来自在良好灯光下看到没有化妆的你的人"
+                                        }
+                                    ]
+                                },
+                                "3db32e39-e4c6-4ae4-b960-1e5c2fe8989d": {
+                                    "name": "苍白",
+                                    "notes": "可以暂时充满生命的红晕；例如喝足鲜血后的吸血鬼。试图推演出你秘密的检定获得 +2",
+                                    "features": [
+                                        {
+                                            "situation": "来自在良好灯光下看到没有化妆的你的人"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "167207c5-efc8-4949-8756-dead0bb1ac53": {
+                            "name": "天然迷彩",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "df0384d1-7b96-484f-9390-6940061b7038": {
+                                    "name": "拓展效果",
+                                    "notes": "@感官@"
+                                },
+                                "ed15188a-c266-4c39-bf7b-a007b0ad4ce9": {
+                                    "name": "总是开启"
+                                },
+                                "b50caa42-6d18-4207-8e0d-eb2d832d3baf": {
+                                    "name": "可控"
+                                },
+                                "4724c38e-bcd9-40d2-b5eb-e8d54ed529c9": {
+                                    "name": "动态"
+                                }
+                            }
+                        },
+                        "07025874-f0b8-4c25-a888-7e121cb3bc1a": {
+                            "name": "Affliction (Dazzle)",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "a26261cc-a7ae-4db1-977c-d45fedbc46cf": {
+                                    "name": "Advantage; one point per level"
+                                },
+                                "c5f74924-8b97-4ad4-9c01-26f5b12e6aaf": {
+                                    "name": "Atribute Penalty; -1 to ST or HT per level"
+                                },
+                                "d16a8d65-f22e-4dfc-aad0-34da370866a9": {
+                                    "name": "Atribute Penalty; -1 to DX or IQ per level"
+                                },
+                                "561e40da-5050-450b-9ae1-fd8ea5f4c25e": {
+                                    "name": "Mortal Condition; Coma"
+                                },
+                                "4fe76be6-f66e-409e-9813-4e41449da72d": {
+                                    "name": "Mortal Condition; Heart Attack"
+                                },
+                                "3e297ea3-4b01-4b3f-8263-c711aaf62503": {
+                                    "name": "Disadvantage; one point per level"
+                                },
+                                "da53c495-c56d-4965-b860-a85c9d574c64": {
+                                    "name": "Incapacitating Condition; Daze"
+                                },
+                                "151f5d46-6494-40a0-ba22-b298c24dd874": {
+                                    "name": "Incapacitating Condition; Hallucination"
+                                },
+                                "6d99dedc-925d-4a10-a09e-6ed8e4bc56a1": {
+                                    "name": "Incapacitating Condition; Retching"
+                                },
+                                "e2aa15ff-9c29-4f4c-a6a5-f55e1f475a38": {
+                                    "name": "Incapacitating Condition; Agony"
+                                },
+                                "837451d4-ebed-4cf4-abae-b0711e7b7fbb": {
+                                    "name": "Incapacitating Condition; Choking"
+                                },
+                                "75e09d6c-b811-46f4-a927-02cbf1f37553": {
+                                    "name": "Incapacitating Condition; Ecstasy"
+                                },
+                                "b83425e1-e70f-4c65-bcc9-81626c28e10e": {
+                                    "name": "Incapacitating Condition; Seizure"
+                                },
+                                "f998ef28-9292-4993-a00e-3f7bb72c307d": {
+                                    "name": "Incapacitating Condition; Paralysis"
+                                },
+                                "f75a8d48-c799-4e3c-ac5c-44e7999e8bcb": {
+                                    "name": "Incapacitating Condition; Sleep"
+                                },
+                                "d3e9c5ea-07ab-4da9-94b1-9ce323b7a839": {
+                                    "name": "Incapacitating Condition; Unconsciousness"
+                                },
+                                "f415ab17-55e2-4bc3-b95e-5dfb28bc6663": {
+                                    "name": "Irritating Condition; Tipsy"
+                                },
+                                "d4ca1832-437e-4846-b65f-b3b784e92939": {
+                                    "name": "Irritating Condition; Coughing"
+                                },
+                                "c87858ed-220a-412c-a23f-b5d84ab19e14": {
+                                    "name": "Irritating Condition; Drunk"
+                                },
+                                "1245e89e-bb18-468e-b979-70325a64c9fb": {
+                                    "name": "Irritating Condition; Moderate Pain"
+                                },
+                                "ee3e4501-0a1d-441c-8b79-5b5d4216546a": {
+                                    "name": "Irritating Condition; Euphoria"
+                                },
+                                "91a90b42-36de-490d-8588-0ad3e8598388": {
+                                    "name": "Irritating Condition; Nauseated"
+                                },
+                                "367a3a85-5250-4fa8-bec7-54b0a36cc2ce": {
+                                    "name": "Irritating Condition; Severe Pain"
+                                },
+                                "6ce30807-5307-4c12-8569-faa4c56af81c": {
+                                    "name": "Irritating Condition; Terrible Pain"
+                                },
+                                "47676675-72ce-438b-96df-6d1625a06af5": {
+                                    "name": "Negated Advantage; one point per level"
+                                },
+                                "ee72b571-dd9b-4966-b948-13453a1c2459": {
+                                    "name": "震慑"
+                                },
+                                "6fb8ed24-a4e3-4bb6-84da-5e8394706039": {
+                                    "name": "效果叠加"
+                                },
+                                "0934fe0d-b204-4f0a-a31f-df03bd14a104": {
+                                    "name": "取消"
+                                },
+                                "c84d234d-76bf-4aa7-9e33-297cc866d9f0": {
+                                    "name": "Malediction 1"
+                                },
+                                "44cda728-e63c-40dd-8b43-12aa118ff0e2": {
+                                    "name": "Sense-based - Vision"
+                                }
+                            }
+                        }
+                    }
+                },
+                "f1289278-7092-4b5c-af04-1657064b66f2": {
+                    "name": "Meta-Trait: Vermiform",
+                    "notes": "Your body is similar to that of a snake or a worm. (a snake-man with  a  humanoid upper torso would drop No Manipulators).",
+                    "children": {
+                        "d9c71163-50aa-48e7-aafb-af6760183418": {
+                            "name": "无肢",
+                            "tags": [
+                                "劣势",
+                                "生理"
+                            ]
+                        },
+                        "b6722735-cf8f-4aa4-854b-9d73df7ced56": {
+                            "name": "无腿（蛇形）",
+                            "tags": [
+                                "劣势",
+                                "异种",
+                                "生理"
+                            ]
+                        },
+                        "ffbe0988-24fb-4789-8588-6b466b3010a3": {
+                            "name": "灵活（双关节）",
+                            "tags": [
+                                "优势",
+                                "生理"
+                            ],
+                            "notes": "May ignore up to -5 in penalties for close quarters",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "攀爬"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "逃脱"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "房中术"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "2d5b9989-91e3-40ae-97fc-2d8473c0dc90": {
+            "name": "Racially Learnt Skills",
+            "tags": [
+                "Race"
+            ],
+            "children": {
+                "d0d1f2d7-c890-4161-850a-8b1a31b13cca": {
+                    "name": "偷取生命",
+                    "tags": [
+                        "灵能",
+                        "心灵汲取"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "偷取生命"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "494bc19a-58b0-4ba8-bf47-7622d04d5aae": {
+                    "name": "斗殴",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "斗殴"
+                            }
+                        }
+                    ]
+                },
+                "bee1df3a-af94-4c6f-beb5-543c43019cfb": {
+                    "name": "伪装",
+                    "tags": [
+                        "探索",
+                        "军事",
+                        "户外"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "生存"
+                        }
+                    ]
+                },
+                "665dcf1c-e37e-4fd4-b421-5fb37beca9fa": {
+                    "name": "催眠术",
+                    "tags": [
+                        "医学"
+                    ]
+                },
+                "80273e76-7452-4613-a40a-7a788f6ea4d1": {
+                    "name": "偷取生命",
+                    "tags": [
+                        "灵能",
+                        "心灵汲取"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "偷取生命"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "3d248b44-f39e-4bab-bebf-c9eeb068df58": {
+                    "name": "潜行",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ]
+                }
+            }
+        }
+    }
+}

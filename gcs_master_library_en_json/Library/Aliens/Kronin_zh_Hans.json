@@ -1,0 +1,728 @@
+{
+    "traits": {
+        "7fbe277c-e278-46d4-95bb-93105b66ebe9": {
+            "name": "Kronin",
+            "children": {
+                "c7e8d522-35bc-4698-afbd-2bb0f6ff2231": {
+                    "name": "Racial Modifiers",
+                    "children": {
+                        "4b29d177-ca9b-4181-aa49-c9641814e463": {
+                            "name": "DX +",
+                            "tags": [
+                                "生理"
+                            ]
+                        }
+                    }
+                },
+                "c7f8d80d-3556-417e-9d7d-5683e97bca6c": {
+                    "name": "Racial Advantages",
+                    "children": {
+                        "d79382d8-c894-498f-8d5f-366051d7f599": {
+                            "name": "危险感知",
+                            "tags": [
+                                "优势",
+                                "心理"
+                            ]
+                        },
+                        "81a1a2ff-fbbe-4a1e-9f4f-11d5d31174ea": {
+                            "name": "伤害减免",
+                            "tags": [
+                                "优势",
+                                "异种",
+                                "生理"
+                            ],
+                            "modifiers": {
+                                "96645ee9-280e-4515-814c-487e494a9718": {
+                                    "name": "Force Field"
+                                },
+                                "3e1023ac-35fa-436d-aa95-b6c019edbfa9": {
+                                    "name": "硬化"
+                                },
+                                "535544c1-7e2f-4d98-93de-199e427723fa": {
+                                    "name": "吸收",
+                                    "notes": "增强@特质@"
+                                },
+                                "b53cde44-f124-4756-b1ba-745a0d6d6165": {
+                                    "name": "吸收",
+                                    "notes": "仅治疗"
+                                },
+                                "510d92be-30c7-42cb-9496-491e02c6bdad": {
+                                    "name": "吸收",
+                                    "notes": "增强任意特质"
+                                },
+                                "a62c38a9-e655-4e9e-9da1-ce42c1e17c7b": {
+                                    "name": "反射"
+                                },
+                                "4df4ff5b-b164-4a44-a4e9-02a336f5e833": {
+                                    "name": "祸根",
+                                    "notes": "@罕见@"
+                                },
+                                "1b4df29a-ca6d-417b-b5de-b85e2984e185": {
+                                    "name": "祸根",
+                                    "notes": "@偶见@"
+                                },
+                                "3b93f373-9570-43b5-9474-c8384389284d": {
+                                    "name": "祸根",
+                                    "notes": "@常见@"
+                                },
+                                "ff86bed8-7a1b-452c-a2bc-c4459f65b772": {
+                                    "name": "祸根",
+                                    "notes": "@非常常见@"
+                                },
+                                "71ffea5d-249d-4d9b-9418-a83ae1ba37d9": {
+                                    "name": "定向",
+                                    "notes": "前方"
+                                },
+                                "54443108-03d9-4d6d-9fd5-a32cf9e086e3": {
+                                    "name": "柔性"
+                                },
+                                "7775cd71-9056-48eb-8c25-4e1e08a2c647": {
+                                    "name": "限制",
+                                    "notes": "@很常见攻击类型@"
+                                },
+                                "704d8c06-3dec-4657-a5fc-d27d0c7c5048": {
+                                    "name": "半剥离"
+                                },
+                                "524486fc-4d9f-4bc4-be34-0da60e83f451": {
+                                    "name": "无法穿着护甲"
+                                },
+                                "9435d135-ad84-4f17-89d1-4c4b1c97f31a": {
+                                    "name": "定向",
+                                    "notes": "@方向：后方、左、右、上、下@"
+                                },
+                                "b7b0bdfb-01c7-4933-b768-ea225d99a73c": {
+                                    "name": "限制",
+                                    "notes": "@常见攻击类型@"
+                                },
+                                "5c8f945f-e1d3-410b-87b8-3003b7eeaeb8": {
+                                    "name": "硬皮",
+                                    "notes": "任何只需要接触皮肤的影响忽略此 DR"
+                                },
+                                "d0ff040c-8e67-4043-88f6-a731641ffca1": {
+                                    "name": "限制",
+                                    "notes": "@偶见攻击类型@"
+                                },
+                                "f676206a-2aca-4bf0-8503-eb4088324d47": {
+                                    "name": "剥离"
+                                },
+                                "05dd3e16-9eb3-426d-b1aa-a9009e4ac138": {
+                                    "name": "限制",
+                                    "notes": "@罕见攻击类型@"
+                                },
+                                "0e6280e3-9e10-428f-83ab-2137d2f1caf0": {
+                                    "name": "叠层"
+                                },
+                                "069996c1-4c8d-4f6e-b469-90cd919b99cd": {
+                                    "name": "咒术防御"
+                                },
+                                "fcc5b93d-0de0-400f-bc75-a163f7b9b6ac": {
+                                    "name": "仅限咒术"
+                                },
+                                "ff567972-c449-4583-8b32-e8b27479d20c": {
+                                    "name": "部分（@部位，每攻击部位调整值 1 等级，躯干在一个等级上 -10% @）"
+                                }
+                            }
+                        }
+                    }
+                },
+                "c49ab97f-4703-4f89-bbf3-b392241b0bcb": {
+                    "name": "Racial Disadvantages",
+                    "children": {
+                        "9b527f99-1c2c-455b-ada2-dfe803f58135": {
+                            "name": "嗜血",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你需要接受投降、避开哨兵、抓俘虏的时候，你需要进行自控检定。"
+                        },
+                        "e65ddfe7-8d0f-4a38-ad38-1b1ce7e2933f": {
+                            "name": "Fanaticism (Warrior's Code)",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "7467341e-3880-4f07-b247-0483ada10b52": {
+                                    "name": "极度"
+                                }
+                            }
+                        },
+                        "8d215ab6-838a-4d67-8815-bccd34271cfa": {
+                            "name": "Code of Honor (Warrior's Code)",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "The warrior's code mandates that the Kronin:\nBe Fearless In Battle And That They Destroy The Enemy Utterly;\nBe Eternally Loyal To Their Unit And Comrades;\nDo Not Use Force Against Non-Warrior's Except In Necessary Self-Defense;\nBe Honorable In All Dealings And Keep Their Word;\nAvenge All Insults And Defeats Against Themselves Or Their Units."
+                        },
+                        "22476034-e308-44a3-8a4c-270f6da19655": {
+                            "name": "遵纪守法",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "notes": "当你“必须”违反无意义的法规的时候，你必须进行一次自控检定；如果你失败了，你必须遵守这条法律，不论后果如何。如果你成功地抵挡了你的守法冲动违法了，在事后进行第二次自控检定，如果失败，你就必须向权力机构自首！"
+                        },
+                        "f7a69bd5-a4d8-4a21-8b1f-50446a110228": {
+                            "name": "责任感",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "f3923c4f-6a50-4e02-aed0-4caec01fb305": {
+                                    "name": "朋友和伙伴"
+                                },
+                                "41ce7d25-903d-4adb-a4b9-551a61f14ea9": {
+                                    "name": "@小组织@"
+                                },
+                                "1138d35e-1b6d-4586-aa18-dbd4e8e04ee8": {
+                                    "name": "@个人@"
+                                },
+                                "3c948c43-784e-4cac-90ca-a76496411507": {
+                                    "name": "Comrades In Arms"
+                                },
+                                "c0240479-0b71-404a-ac04-3740866715f7": {
+                                    "name": "@整个种族@"
+                                },
+                                "cc2b011f-c902-4c48-b359-d3a5232bec20": {
+                                    "name": "所有活物"
+                                }
+                            }
+                        }
+                    }
+                },
+                "11fafcfa-2139-4c05-86fe-807e5a9794e1": {
+                    "name": "Racial Psionics",
+                    "children": {
+                        "3d58bd49-abc0-4bf5-9318-3317b08d9076": {
+                            "name": "Telepathy Talent",
+                            "tags": [
+                                "交流",
+                                "控制",
+                                "心理",
+                                "进攻",
+                                "Power",
+                                "感知与防御",
+                                "心灵感应"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "借用技能"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "情绪感应"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "心灵接收"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "心灵传话"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "注目"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "精神手术"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "心灵交换"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "精神抹除"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "感觉控制"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "暗示"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "遥控"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "灌输恐惧"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "精神打击"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "精神穿刺"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "睡眠（心灵感应）"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "心灵模糊"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "心灵护盾"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "心灵感应感知"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "心灵扫描"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Crippling Blow"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "心灵感应"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Deafening Display"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "心灵感应"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Drugged Weapon"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "心灵感应"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Fatiguing Strike"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "心灵感应"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Project Blow"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "心灵感应"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Restorative Armor"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "心灵感应"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Stealthy Attack"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "心灵感应"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Stupefying Blow"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "心灵感应"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Subtle Defense"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "心灵感应"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Sudden Death"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "心灵感应"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Thunderous Defense"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "心灵感应"
+                                    }
+                                }
+                            ],
+                            "prereqs": {
+                                "prereqs": [
+                                    {
+                                        "name": {
+                                            "qualifier": "Offense Talent"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "Control Talent"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "Sense and Defense Talent"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "qualifier": "Communication Talent"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "d54b4462-bcdb-4ee3-80c6-8146a0c4f565": {
+                            "name": "心灵护盾",
+                            "tags": [
+                                "心理",
+                                "灵能",
+                                "感知与防御",
+                                "心灵感应"
+                            ],
+                            "notes": "Sense and defense ability.You have a mental shield protecting you. ",
+                            "modifiers": {
+                                "2624b010-3583-4d47-97b3-dd730d143c27": {
+                                    "name": "反馈"
+                                }
+                            }
+                        },
+                        "ea6de0df-1b69-4445-878b-9517b370aae6": {
+                            "name": "精神打击",
+                            "tags": [
+                                "交流",
+                                "心理",
+                                "灵能",
+                                "心灵感应"
+                            ],
+                            "notes": "Offense ability. Overload someone's brain with a psychic attack. ",
+                            "modifiers": {
+                                "a8566dda-3990-4acd-8065-73990950341b": {
+                                    "name": "Mental Blow_1",
+                                    "notes": "Skin-to-skin contact"
+                                },
+                                "c99103ac-6842-422b-876f-29ed05486c2d": {
+                                    "name": "Mental Blow_2",
+                                    "notes": "Any touch will suffice"
+                                },
+                                "b2f37fc2-53e0-4a28-826b-5549da9e1e67": {
+                                    "name": "Mental Blow_3",
+                                    "notes": "Mental Blow at range; -1 penalty/yard distance"
+                                },
+                                "aebc12a9-39f2-46bd-a1f8-7c600c641277": {
+                                    "name": "Mental Blow_4",
+                                    "notes": "Use range penalties p. B550"
+                                },
+                                "193421ab-51f9-456b-ae53-208d1bae788e": {
+                                    "name": "Mental Blow_5",
+                                    "notes": "Use long-distance modifiers p. B241"
+                                },
+                                "a01b5d90-805e-4fdc-9b29-d42627a22f65": {
+                                    "name": "Mental Blow_6",
+                                    "notes": "No penalty for range"
+                                }
+                            }
+                        },
+                        "9ee1839f-46b6-4392-adaf-05266950d582": {
+                            "name": "心灵传话",
+                            "tags": [
+                                "交流",
+                                "心理",
+                                "灵能",
+                                "心灵感应"
+                            ],
+                            "notes": "Communication ability. You can read project your thoughts into another's mind. ",
+                            "modifiers": {
+                                "8bf78cd8-a891-41af-b368-220726734929": {
+                                    "name": "Telesend_1",
+                                    "notes": "Skin-to-skin contact"
+                                },
+                                "8ecaf0ab-1986-485f-a120-fc1198bf4861": {
+                                    "name": "Telesend_2",
+                                    "notes": "Any touch will suffice"
+                                },
+                                "875a223e-f702-4922-9b5c-f56664b5691b": {
+                                    "name": "Telesend_3",
+                                    "notes": "Telesend at range; -1 penalty/yard distance"
+                                },
+                                "dd9dfcde-cf74-4c02-9f87-ea95807f929d": {
+                                    "name": "Telesend_4",
+                                    "notes": "Use range penalties p. B550"
+                                },
+                                "1d6ac9c4-2bde-42ef-b556-f673ce4f7a8f": {
+                                    "name": "Telesend_5",
+                                    "notes": "Use long-distance modifiers p. B241"
+                                },
+                                "94527aad-5124-4a8a-9d44-cf109b011c08": {
+                                    "name": "Telesend_6",
+                                    "notes": "No penalty for range"
+                                }
+                            }
+                        },
+                        "fde05142-f512-46db-85a2-16a6f954ddba": {
+                            "name": "心灵接收",
+                            "tags": [
+                                "交流",
+                                "心理",
+                                "灵能",
+                                "心灵感应"
+                            ],
+                            "notes": "Communication ability. You can read another person's thoughts. ",
+                            "modifiers": {
+                                "e34c86fb-3829-4a68-851c-95b8d8cf1b2f": {
+                                    "name": "Telereceive_1",
+                                    "notes": "Skin-to-skin contact"
+                                },
+                                "9917ed05-aa8f-4d98-98a9-2a216c89274a": {
+                                    "name": "Telereceive_2",
+                                    "notes": "Any touch will suffice"
+                                },
+                                "0361a4b7-4420-45ff-b418-2c4ec94dc6b1": {
+                                    "name": "Telereceive_3",
+                                    "notes": "Telereceive at range; -1 penalty/yard distance"
+                                },
+                                "c0d338ee-867b-4444-b814-feb1607586c2": {
+                                    "name": "Telereceive_4",
+                                    "notes": "Use range penalties p. B550"
+                                },
+                                "6204b0d2-1e5e-4e2c-87d4-27a1d86f470e": {
+                                    "name": "Telereceive_5",
+                                    "notes": "Use long-distance modifiers p. B241"
+                                },
+                                "50719739-9d8c-48f6-97a7-fc09a2b6a737": {
+                                    "name": "Telereceive_6",
+                                    "notes": "No penalty for range"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "skills": {
+        "64f58ad5-ff65-498c-bc9e-22e1ad058b87": {
+            "name": "Racial Skills",
+            "children": {
+                "b711ead5-e1da-44d4-9b97-aa2f54d6e4c1": {
+                    "name": "光束武器",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "光束武器"
+                        }
+                    ]
+                },
+                "c159b156-3e52-48da-a1b0-0eb23a83790b": {
+                    "name": "能量剑",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "defaults": [
+                        {
+                            "name": "Broadsword"
+                        },
+                        {
+                            "name": "Shortsword"
+                        },
+                        {
+                            "name": "双手剑"
+                        },
+                        {
+                            "name": "十手/钗"
+                        },
+                        {
+                            "name": "Knife"
+                        }
+                    ]
+                },
+                "c928bcc2-b5e3-48b3-bd28-b5fc0817b60f": {
+                    "name": "Shield",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "specialization": "力场盾",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Shield",
+                            "specialization": "手盾"
+                        }
+                    ]
+                },
+                "6dbf0daa-fd45-411b-8e20-f96de1538873": {
+                    "name": "空手技击",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "空手技击"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "空手技击"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "7bf3ba05-5eca-4bed-99a4-96764669ed97": {
+            "name": "Racial Psionic Skills",
+            "children": {
+                "e76e340b-d889-402f-94fc-d9d09975b3f1": {
+                    "name": "心灵护盾",
+                    "tags": [
+                        "灵能",
+                        "感知与防御",
+                        "心灵感应"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "心灵护盾"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "890554bd-7a34-4b5c-aaf1-f1b5d60f6028": {
+                    "name": "心灵传话",
+                    "tags": [
+                        "交流",
+                        "灵能",
+                        "心灵感应"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "心灵对话"
+                                },
+                                "notes": {
+                                    "qualifier": "_"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "心灵传话"
+                                },
+                                "notes": {
+                                    "qualifier": "_"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "03a7863c-ee22-4571-b15f-0abbbf4fdd4c": {
+                    "name": "心灵接收",
+                    "tags": [
+                        "交流",
+                        "灵能",
+                        "心灵感应"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "心灵接收（浅）"
+                                },
+                                "notes": {
+                                    "qualifier": "_"
+                                }
+                            },
+                            {
+                                "name": {
+                                    "qualifier": "心灵接收"
+                                },
+                                "notes": {
+                                    "qualifier": "_"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "03923630-decc-4fc4-a2b7-0f53f29944f0": {
+                    "name": "精神打击",
+                    "tags": [
+                        "进攻",
+                        "灵能",
+                        "心灵感应"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "精神打击"
+                                },
+                                "notes": {
+                                    "qualifier": "_"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

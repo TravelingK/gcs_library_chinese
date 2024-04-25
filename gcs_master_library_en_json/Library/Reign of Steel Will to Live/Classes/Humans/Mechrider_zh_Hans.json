@@ -1,0 +1,836 @@
+{
+    "traits": {
+        "eadc8ec2-480f-4244-b6d3-2f2327ad115f": {
+            "name": "Class Advantages",
+            "children": {
+                "667d50f8-d464-472d-8ab6-905616c52514": {
+                    "name": "绝对方向感",
+                    "tags": [
+                        "优势",
+                        "心理",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "8df668b0-2350-4239-a3b6-6ce9030cf116": {
+                            "name": "需求信号"
+                        },
+                        "b0db88c3-5347-4815-a29d-dd76930492d0": {
+                            "name": "三维空间感",
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "飞行驾驶"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "空中杂技"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "自由落体"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "超空间"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "导航"
+                                    },
+                                    "specialization": {
+                                        "qualifier": "太空"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "稳定身形"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "空中"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "陆地"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "导航"
+                            },
+                            "specialization": {
+                                "qualifier": "海上"
+                            }
+                        }
+                    ]
+                },
+                "078615cd-d4e3-41cd-8473-dd90a49624d6": {
+                    "name": "战斗反射",
+                    "tags": [
+                        "优势",
+                        "心理"
+                    ],
+                    "notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "即时备战"
+                            }
+                        }
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "增强时间感"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "37ed71a2-a8eb-4817-b0cc-47acabe17bd0": {
+                    "name": "后台",
+                    "tags": [
+                        "优势",
+                        "社会"
+                    ],
+                    "modifiers": {
+                        "78b0be09-d455-41f4-87d5-74231ba0c4af": {
+                            "name": "@谁：点数为 PC 起始点数的 150% 的个人@"
+                        },
+                        "d9862e03-9e48-4239-884e-3b836df8dfee": {
+                            "name": "@谁：拥有价值 1000 倍这个世界的起始财产的资产的组织@"
+                        },
+                        "3489e7e1-bbcf-4885-8e62-f559637ff6c2": {
+                            "name": "@谁：点数为 PC 起始点数的 200% 的个人@"
+                        },
+                        "5fde8c63-ef8f-4c94-963e-1eda55f7e7a7": {
+                            "name": "Robot mount"
+                        },
+                        "d26aee64-870f-4f5b-a142-3a5ae97b9d7e": {
+                            "name": "@谁：一个超级强大的个人@"
+                        },
+                        "2a4a0aa6-3286-44a5-8a20-dbf95b596e8a": {
+                            "name": "@谁：拥有价值 100000 倍这个世界的起始财产的资产的组织@"
+                        },
+                        "0d12ca19-7906-4332-ae37-1c86048abd9f": {
+                            "name": "@谁：拥有价值 1000000 倍这个世界的起始财产的资产的组织@"
+                        },
+                        "96f2c32b-69c7-4775-9c9a-58d116753806": {
+                            "name": "@谁：国家政府或是巨型跨国组织@"
+                        },
+                        "42a6411f-0d1a-4737-9a5d-0405094e63df": {
+                            "name": "@谁：一位真神@"
+                        },
+                        "a1ef18ab-dd57-4c1d-98e9-b59fc25e1d26": {
+                            "name": "几乎总是出场",
+                            "notes": "15-"
+                        },
+                        "be1a5c6d-cff2-4318-bc4d-1ed7214a41af": {
+                            "name": "出现相当频繁",
+                            "notes": "12-"
+                        },
+                        "a0135ff1-4ce2-4d32-9e71-7f743cd6dfe5": {
+                            "name": "出场频繁",
+                            "notes": "9-"
+                        },
+                        "9f6098a6-d5a6-48fe-8cf6-48f58180f9c9": {
+                            "name": "不常出现",
+                            "notes": "6-"
+                        },
+                        "0345e70b-2922-4986-ab08-b0496bfb092a": {
+                            "name": "Equipment",
+                            "notes": "@装备的价值不会超过起始财富@"
+                        },
+                        "63c79f34-8576-437f-9ec2-c38a382f9c26": {
+                            "name": "Equipment",
+                            "notes": "@装备的价值能够超过起始财富@"
+                        },
+                        "adbfc47d-e530-42f3-94bc-64fdea3710ec": {
+                            "name": "随时随地联系"
+                        },
+                        "df41bcc0-f75d-461b-8372-f5904cfefb55": {
+                            "name": "特殊能力",
+                            "notes": "@强大的社会或政治力量@"
+                        },
+                        "3090def2-5d6c-4466-b1ac-32527bd0e429": {
+                            "name": "特殊能力",
+                            "notes": "@在非魔法世界有魔法力量、拥有来自未来 TL 的装备、给予你特殊能力@"
+                        },
+                        "3a49eac5-8c3f-424a-91c2-41a8e87fcb5d": {
+                            "name": "最小化干预"
+                        },
+                        "def82d10-e91f-4ddb-bd19-a6436366432c": {
+                            "name": "秘密"
+                        },
+                        "78384ca7-a786-49a8-8354-e22b672ac43d": {
+                            "name": "被迫的"
+                        },
+                        "47137fba-bc47-4ad7-a747-89c5a771774e": {
+                            "name": "人情"
+                        }
+                    }
+                }
+            }
+        },
+        "5c571636-701b-4dc3-b1dd-34b354010af3": {
+            "name": "Class Disadvantages",
+            "children": {
+                "3a10eeb7-76c9-4afb-baab-ea7a1ef46584": {
+                    "name": "-50 Points in:",
+                    "children": {
+                        "462e55db-d373-4037-ba6b-fde1defe5612": {
+                            "name": "荣誉准则（海盗）",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "c08cc08f-0d65-4ee2-a2cb-d9094aad4d1e": {
+                            "name": "好奇",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "3b4cf998-d5f1-4c84-9433-ee5d60420d26": {
+                            "name": "Enemy (Local Overseer)",
+                            "tags": [
+                                "劣势",
+                                "社会"
+                            ],
+                            "modifiers": {
+                                "6b5dcf62-6a70-47e3-b28e-d123e6626c98": {
+                                    "name": "弱单体",
+                                    "notes": "你初始点数的 50%"
+                                },
+                                "8cc3a293-68d9-47dc-b6e7-02513324c049": {
+                                    "name": "旗鼓相当单体",
+                                    "notes": "你初始点数的 100%"
+                                },
+                                "7adba056-0838-4121-8eb2-1d1272917825": {
+                                    "name": "强单体",
+                                    "notes": "大于你初始点数的 150%"
+                                },
+                                "38c2b19b-1578-424f-bf79-b5d3eabb6ce6": {
+                                    "name": "弱团体"
+                                },
+                                "58b02a7f-7504-4029-8cb2-5b286ce82a90": {
+                                    "name": "中等团体"
+                                },
+                                "bf9887c2-a648-4e1a-ac9e-7dafa0e6c9d3": {
+                                    "name": "几乎总是出场",
+                                    "notes": "15-"
+                                },
+                                "03735efe-94e4-42f1-869e-103cd4fc85aa": {
+                                    "name": "出现相当频繁",
+                                    "notes": "12-"
+                                },
+                                "67d3059f-8e75-4df4-87ce-e0afe5deaeaf": {
+                                    "name": "出场频繁",
+                                    "notes": "9-"
+                                },
+                                "4cbb7e55-3634-4198-9a4d-38dfa9212ea5": {
+                                    "name": "不常出现",
+                                    "notes": "6-"
+                                },
+                                "7cbd2597-3f8c-4646-9e48-235c72f2caa9": {
+                                    "name": "大型/强力团体"
+                                },
+                                "4e6a4be7-1537-4dae-9072-87b57a87a4eb": {
+                                    "name": "无法想象的强大群体"
+                                },
+                                "afb2aee4-f275-41a4-88ca-6aeab8a65be4": {
+                                    "name": "不为人知"
+                                },
+                                "5cba8627-4f62-40d1-b184-bafbf63dd8e2": {
+                                    "name": "邪恶双生子"
+                                },
+                                "afaa2e7f-07e1-4104-b947-397a3ef16e88": {
+                                    "name": "邪恶双生子",
+                                    "notes": "在你拥有的能力上更加强大或拥有你没有的能力"
+                                },
+                                "3bf54707-282a-49ad-8dcd-e59634a8fe96": {
+                                    "name": "邪恶双生子",
+                                    "notes": "在你拥有的能力上更加强大且拥有你没有的能力"
+                                },
+                                "dfb779ed-da20-436b-8fa3-ecedbe114009": {
+                                    "name": "监视"
+                                },
+                                "6341f40f-eaad-40ea-a8ea-77d6341fe3d0": {
+                                    "name": "对抗"
+                                },
+                                "1ec9c4ad-af69-41c4-b945-7e58e2b9ebf1": {
+                                    "name": "捕杀"
+                                }
+                            }
+                        },
+                        "3ad40e9f-97e1-490e-9dfa-2d1d371dab84": {
+                            "name": "自负",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ]
+                        },
+                        "82403c7c-ff04-487b-a0ec-8f8896aec749": {
+                            "name": "责任感",
+                            "tags": [
+                                "劣势",
+                                "心理"
+                            ],
+                            "modifiers": {
+                                "ad92a1fd-e7dc-4208-ae12-ca9986127c45": {
+                                    "name": "朋友和伙伴"
+                                },
+                                "1cf64ceb-8ed7-432b-bb6f-75098894062a": {
+                                    "name": "@小组织@"
+                                },
+                                "66d08b55-26ed-4303-88cf-82f1fc1813f6": {
+                                    "name": "@个人@"
+                                },
+                                "ccf6957a-53ab-487b-83ac-cac0cfddedb0": {
+                                    "name": "Nomad pack"
+                                },
+                                "bc042572-693b-43fb-9614-24bf3dc76150": {
+                                    "name": "@整个种族@"
+                                },
+                                "fe3b332f-ac6f-463c-820b-5ecfd68d46f0": {
+                                    "name": "所有活物"
+                                }
+                            }
+                        }
+                    }
+                },
+                "9b43a844-214a-4e92-b9ad-be529c6df5f0": {
+                    "name": "Social Stigma (Outlaw)",
+                    "tags": [
+                        "社会"
+                    ],
+                    "notes": "Reaction -3 from robots, +3 from humans from the same subculture"
+                }
+            }
+        }
+    },
+    "skills": {
+        "2955861d-ab59-4ab3-867f-290aea6941bd": {
+            "name": "Choose One from:",
+            "children": {
+                "3658cf8e-d2e0-49fe-8210-9fe5d053ec85": {
+                    "name": "驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "重型汽车",
+                    "defaults": [
+                        {},
+                        {},
+                        {
+                            "name": "驾驶",
+                            "specialization": "机动车"
+                        },
+                        {
+                            "name": "驾驶"
+                        }
+                    ]
+                },
+                "4f62fefe-d8d7-416d-8db9-7b8ba2168041": {
+                    "name": "驾驶",
+                    "tags": [
+                        "载具"
+                    ],
+                    "specialization": "气垫船",
+                    "defaults": [
+                        {},
+                        {},
+                        {
+                            "name": "驾驶"
+                        }
+                    ]
+                }
+            }
+        },
+        "f9769c5c-f0fa-4023-a2ca-1e3c27b1ce02": {
+            "name": "机修",
+            "tags": [
+                "维护",
+                "修理"
+            ],
+            "specialization": "机器人",
+            "defaults": [
+                {},
+                {
+                    "name": "工程学",
+                    "specialization": "机器人"
+                },
+                {
+                    "name": "机工"
+                },
+                {
+                    "name": "机修"
+                }
+            ]
+        },
+        "e8c2967c-6fa7-4271-a540-3cf7501320db": {
+            "name": "6 Points in:",
+            "children": {
+                "f9714785-e7f0-4eb2-ba43-6a4092445195": {
+                    "name": "攀爬",
+                    "tags": [
+                        "运动",
+                        "犯罪",
+                        "探索",
+                        "户外",
+                        "街头"
+                    ]
+                },
+                "d387fb2f-c00a-4984-abb2-148ef525255c": {
+                    "name": "电脑操作",
+                    "tags": [
+                        "常识",
+                        "学校",
+                        "技术"
+                    ]
+                },
+                "20e2f791-57f7-4992-8036-f39f4c9ee145": {
+                    "name": "电脑编程",
+                    "tags": [
+                        "设计",
+                        "发明"
+                    ]
+                },
+                "bbc16601-0ad1-402b-ab10-7e01e35c4541": {
+                    "name": "电子操作",
+                    "tags": [
+                        "技术"
+                    ],
+                    "specialization": "通信",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子操作"
+                        },
+                        {
+                            "name": "电子维修",
+                            "specialization": "通信"
+                        },
+                        {
+                            "name": "工程学",
+                            "specialization": "电子"
+                        }
+                    ]
+                },
+                "d67039c3-8e6b-4714-a482-b0df8715aa71": {
+                    "name": "电子操作",
+                    "tags": [
+                        "技术"
+                    ],
+                    "specialization": "传感",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "电子维修",
+                            "specialization": "传感"
+                        },
+                        {
+                            "name": "工程学",
+                            "specialization": "电子"
+                        },
+                        {
+                            "name": "电子操作"
+                        }
+                    ]
+                },
+                "45d72091-439d-4ea6-8a37-5016b0cfb8f6": {
+                    "name": "专家技能",
+                    "tags": [
+                        "知识",
+                        "学校",
+                        "技术"
+                    ],
+                    "specialization": "机器人"
+                },
+                "650fa96e-ae89-4a40-9e77-af30ad341c92": {
+                    "name": "Gunner",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "光束",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Gunner"
+                        }
+                    ]
+                },
+                "cf2b1e54-59b5-4c35-90b8-ad65d6eb1a6b": {
+                    "name": "Gunner",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "机枪",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Gunner"
+                        }
+                    ]
+                },
+                "ea3558d1-f412-4eb4-ba8f-f6febde5c062": {
+                    "name": "Gunner",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "Rockets",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Gunner"
+                        }
+                    ]
+                },
+                "afc93eef-1410-4706-96a5-7ee133d8c80f": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "轻机枪",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "霰弹枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "冲锋枪"
+                        }
+                    ]
+                },
+                "5eb028c5-6186-4cb9-a912-e6b3178c8fbc": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "Pistol",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "轻机枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "光束武器",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "霰弹枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "冲锋枪"
+                        }
+                    ]
+                },
+                "205df9cf-f06c-4509-8569-551dc5f83d03": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "来复枪",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "轻机枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "光束武器",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "霰弹枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "冲锋枪"
+                        }
+                    ]
+                },
+                "d38813df-b6d8-4942-8b3b-26275edb6488": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "霰弹枪",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "轻机枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "冲锋枪"
+                        }
+                    ]
+                },
+                "1faf314c-5aff-47ff-9d7c-30f6ac7788a7": {
+                    "name": "Guns",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ],
+                    "specialization": "冲锋枪",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "Guns",
+                            "specialization": "榴弹发射器"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Gyroc"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Light Anti-Armor Weapon"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "轻机枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Musket"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "Pistol"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "来复枪"
+                        },
+                        {
+                            "name": "Guns",
+                            "specialization": "霰弹枪"
+                        }
+                    ]
+                },
+                "217777ee-b916-49b3-8e59-8b3480089896": {
+                    "name": "家政",
+                    "tags": [
+                        "常识"
+                    ]
+                },
+                "cae15870-a519-4a4a-bb31-7a05c35dea7e": {
+                    "name": "Knife",
+                    "tags": [
+                        "战斗",
+                        "近战",
+                        "武器"
+                    ],
+                    "defaults": [
+                        {
+                            "name": "能量剑"
+                        },
+                        {
+                            "name": "Main-Gauche"
+                        },
+                        {
+                            "name": "Shortsword"
+                        }
+                    ]
+                },
+                "eddc2b03-2a6c-466b-8e4d-df72f26094eb": {
+                    "name": "Lasso",
+                    "tags": [
+                        "战斗",
+                        "远程战斗",
+                        "武器"
+                    ]
+                },
+                "e4de949b-e2a4-4885-9451-8ceb03fc56c3": {
+                    "name": "皮革加工",
+                    "tags": [
+                        "工艺"
+                    ]
+                },
+                "6e7cae14-2eb0-4f7b-8fbc-b10ce4a8d180": {
+                    "name": "导航",
+                    "tags": [
+                        "探索",
+                        "户外",
+                        "技术",
+                        "载具"
+                    ],
+                    "specialization": "地面",
+                    "defaults": [
+                        {},
+                        {
+                            "name": "制图"
+                        },
+                        {
+                            "name": "数学",
+                            "specialization": "测量学"
+                        },
+                        {
+                            "name": "导航",
+                            "specialization": "空中"
+                        },
+                        {
+                            "name": "导航",
+                            "specialization": "海上"
+                        }
+                    ]
+                },
+                "8b51c2bf-7005-4431-9955-443cd1fb62c6": {
+                    "name": "赶马",
+                    "tags": [
+                        "动物"
+                    ],
+                    "defaults": [
+                        {},
+                        {
+                            "name": "驯兽",
+                            "specialization": "马科动物"
+                        }
+                    ]
+                },
+                "a5fc2ad8-a806-4b12-b8d8-11af55be4587": {
+                    "name": "潜行",
+                    "tags": [
+                        "犯罪",
+                        "警察",
+                        "间谍",
+                        "街头"
+                    ]
+                }
+            }
+        }
+    }
+}

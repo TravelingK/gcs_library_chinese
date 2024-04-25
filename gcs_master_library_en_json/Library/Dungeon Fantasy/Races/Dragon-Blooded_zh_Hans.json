@@ -1,0 +1,424 @@
+{
+    "traits": {
+        "2c3336b2-e01f-4547-8944-085bcb98a173": {
+            "name": "Dragon-Blooded",
+            "children": {
+                "13f3bbf0-a0fb-47b5-8c43-ab6f776c929a": {
+                    "name": "Born Biter",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "ee1b9363-4704-46be-9e3a-93d1e60b5cc8": {
+                    "name": "Claws, Sharp (Feet)",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "weapons": {
+                        "3fc37651-64c1-4bf6-abd8-5bdde5d9f6bd": {
+                            "usage": "Kick",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "斗殴"
+                                },
+                                {
+                                    "name": "空手技击"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "fc098b0f-b030-4fa4-8e6d-1fe22836e48a": {
+                    "name": "Claws, Sharp (Hands)",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "weapons": {
+                        "d4aa2602-0a8b-4249-a2c3-9c94ab91d578": {
+                            "usage": "挥砍",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "斗殴"
+                                },
+                                {
+                                    "name": "拳击"
+                                },
+                                {
+                                    "name": "空手技击"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "0d4e6aa0-027f-4fb9-bc56-83d8d5aee938": {
+                    "name": "伤害减免",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "50920ab2-0fae-4015-b9b0-6a429d9ca725": {
+                            "name": "剥离"
+                        },
+                        "61d3383e-4aa7-4469-9048-2f943cd6bc9e": {
+                            "name": "吸收",
+                            "notes": "增强@特质@"
+                        },
+                        "3bfac4bb-6bc9-4842-902b-df6171768948": {
+                            "name": "吸收",
+                            "notes": "增强任意特质"
+                        },
+                        "b3805a3d-1ab2-4ec1-9ab9-b8b8bca9ea4f": {
+                            "name": "吸收",
+                            "notes": "仅治疗"
+                        },
+                        "83ac5dbe-554a-4885-9f9a-2c78720e93a5": {
+                            "name": "无法穿着护甲"
+                        },
+                        "2d564fea-b720-4675-8f46-cc12e663e8a0": {
+                            "name": "定向",
+                            "notes": "@方向：后方、左、右、上、下@"
+                        },
+                        "fdeabde8-bedb-4bb9-b89d-1f5fdb3f0167": {
+                            "name": "定向",
+                            "notes": "前方"
+                        },
+                        "3962fb3f-c4dc-4092-84f5-47bdda26bc1d": {
+                            "name": "柔性"
+                        },
+                        "ba6b5707-6191-445a-9511-d7f26d95dee0": {
+                            "name": "硬化"
+                        },
+                        "70375eae-1d54-4ebc-af82-44593de6b81a": {
+                            "name": "限制",
+                            "notes": "@常见攻击类型@"
+                        },
+                        "8a71780e-c002-48fe-945d-d6af9824fa7e": {
+                            "name": "限制",
+                            "notes": "@偶见攻击类型@"
+                        },
+                        "2c71fe94-bbb1-4c3a-a7ef-dd165fc76dcf": {
+                            "name": "限制",
+                            "notes": "@罕见攻击类型@"
+                        },
+                        "6f8ba780-0be7-40ba-b2e1-59a2c62b1bfa": {
+                            "name": "限制",
+                            "notes": "@很常见攻击类型@"
+                        },
+                        "281beaa6-234b-423d-8c98-30c913eb4cd4": {
+                            "name": "反射"
+                        },
+                        "afe48f23-a20f-4501-8211-d98cae75ef82": {
+                            "name": "半剥离"
+                        },
+                        "209045ac-0e6f-44a6-b7af-ddef9427bfe2": {
+                            "name": "硬皮"
+                        }
+                    }
+                },
+                "2f2f8cf0-239a-4f13-a11d-2c682f8257ae": {
+                    "name": "恼人声线",
+                    "tags": [
+                        "劣势",
+                        "生理"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "迷人声线"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "e9719910-a1f7-49e9-970f-9bf93701982a": {
+                    "name": "Feature: Cannot learn non-reptilain languages above Accented.",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "8e6f1196-afb9-40af-ad75-57ffe87ab534": {
+                    "name": "Feature: Emerald or Ruby scales.",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "6ba28643-8e20-4908-ae61-56fc5cabcca6": {
+                    "name": "Feature: Head armor not interchangeable with humans.",
+                    "tags": [
+                        "生理"
+                    ]
+                },
+                "169b5963-18e3-4b59-8b91-607ab748bc91": {
+                    "name": "增加体力",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ]
+                },
+                "ad08acac-2439-4b12-b3e2-92522b27b962": {
+                    "name": "增加力量",
+                    "tags": [
+                        "优势",
+                        "属性",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "0d2d5761-7e89-4a4a-bc16-2bdce2f2b70f": {
+                            "name": "无操作肢"
+                        },
+                        "398c3b8a-1260-4260-9377-e7c8d0ba9f59": {
+                            "name": "体型"
+                        },
+                        "b003906a-a0df-4221-849b-6b08d37be4a9": {
+                            "name": "超级出力"
+                        }
+                    }
+                },
+                "8ece546e-99a6-4c87-8b61-88f29a93533e": {
+                    "name": "固有攻击（灼烧）",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "74442f06-5ba5-44d2-b3d8-c77b784495c2": {
+                            "name": "循环",
+                            "notes": "1 秒"
+                        },
+                        "b667e0c5-2802-41c7-9adb-8233d524e5a7": {
+                            "name": "循环",
+                            "notes": "10 秒"
+                        },
+                        "4b5fb695-72bd-4074-9fd0-407d23ba9864": {
+                            "name": "循环",
+                            "notes": "1 分钟"
+                        },
+                        "e6410d08-24ae-4b55-bdcb-b3af9bf21292": {
+                            "name": "循环",
+                            "notes": "1 小时"
+                        },
+                        "aa6762df-b567-4b23-8ec3-ed538e4b4e25": {
+                            "name": "循环",
+                            "notes": "1 天"
+                        },
+                        "cb04a48a-b90b-42d5-a173-bf5c242509ee": {
+                            "name": "循环",
+                            "notes": "1 秒；可以抵抗"
+                        },
+                        "bd28c0d5-34e1-4be5-a474-f6800c33d6cd": {
+                            "name": "循环",
+                            "notes": "10 秒；可以抵抗"
+                        },
+                        "44178cb0-1b35-41c7-9a49-bb599634a20b": {
+                            "name": "循环",
+                            "notes": "1 分钟；可以抵抗"
+                        },
+                        "7477f03c-760b-41c9-ba91-667c9a221be5": {
+                            "name": "循环",
+                            "notes": "1 小时；可以抵抗"
+                        },
+                        "43a46be3-a043-4c57-aa9c-785f62d66b43": {
+                            "name": "循环",
+                            "notes": "1 天；可以抵抗"
+                        },
+                        "75e1ad26-6db5-4cac-85dc-417c6e049611": {
+                            "name": "传染性",
+                            "notes": "轻度"
+                        },
+                        "5e85708c-6c32-4523-97e3-04fd618bc463": {
+                            "name": "传染性",
+                            "notes": "重度"
+                        },
+                        "415bfe13-ecce-407c-b75a-7f19790b0ff9": {
+                            "name": "双倍瘀伤",
+                            "notes": "每 10 伤害 1HP"
+                        },
+                        "b0e2de88-8eff-4da0-87dc-d6367e05e600": {
+                            "name": "爆炸"
+                        },
+                        "a7d8da8c-bf9b-4555-ac8c-90783690cb00": {
+                            "name": "破片"
+                        },
+                        "1763f548-8724-4003-ac0b-55468bec6a00": {
+                            "name": "破片",
+                            "notes": "高热"
+                        },
+                        "3b9c158a-f26d-4160-bbc5-d4f11f51f0e5": {
+                            "name": "辐射"
+                        },
+                        "f846593f-a57f-401c-a284-b5a2ab4d8f76": {
+                            "name": "电涌"
+                        },
+                        "e5e079d5-0504-42b6-8183-88cc7ddca541": {
+                            "name": "护甲除数",
+                            "notes": "2"
+                        },
+                        "d1f56f5d-9b7f-403d-9b9a-d5ab459a0659": {
+                            "name": "护甲除数",
+                            "notes": "3"
+                        },
+                        "73497a85-f2a2-42f4-b7ec-16468884c58f": {
+                            "name": "护甲除数",
+                            "notes": "5"
+                        },
+                        "878621e0-7885-4900-a662-45f0cca03e11": {
+                            "name": "护甲除数",
+                            "notes": "10"
+                        },
+                        "f8bae161-f248-46ca-8465-4e432bf54f71": {
+                            "name": "派生效果",
+                            "notes": "@效果@"
+                        },
+                        "4150b46d-ef92-4872-b88e-424011f1396d": {
+                            "name": "附加症状",
+                            "notes": "@效果@"
+                        },
+                        "c2d3a8d8-ab60-48d0-81c5-55424fd480f9": {
+                            "name": "护甲除数",
+                            "notes": "0.5"
+                        },
+                        "24161b2d-e195-4fbb-9da9-cac14a2a9d18": {
+                            "name": "护甲除数",
+                            "notes": "0.2"
+                        },
+                        "cc4a86bb-1bf6-4f15-a8d9-c067ecb747ba": {
+                            "name": "护甲除数",
+                            "notes": "0.1"
+                        },
+                        "a4fe7b2d-369c-41e1-995e-6b2c68f66a52": {
+                            "name": "无杀伤"
+                        },
+                        "19d930e6-2052-4c1f-b834-4d86088c8058": {
+                            "name": "射流"
+                        }
+                    },
+                    "weapons": {
+                        "c27d022f-9e20-47da-9ec4-5cb4f894f4cf": {
+                            "usage": "射流",
+                            "defaults": [
+                                {
+                                    "name": "固有攻击",
+                                    "specialization": "吐息"
+                                },
+                                {
+                                    "name": "固有攻击"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "26495196-b747-4f9e-9ba0-275df98a1689": {
+                    "name": "瞬膜",
+                    "tags": [
+                        "优势",
+                        "异种",
+                        "生理"
+                    ]
+                },
+                "f2e4018d-b884-456d-95f6-17752f0499da": {
+                    "name": "广角视觉",
+                    "tags": [
+                        "优势",
+                        "生理"
+                    ],
+                    "modifiers": {
+                        "90a303ed-dc20-4e4d-8263-da3255fe7475": {
+                            "name": "易于命中",
+                            "notes": "其他人可以将你的双眼作为攻击目标仅受到 -6 命中减值"
+                        }
+                    }
+                },
+                "da774df7-b44d-4ac5-bbe1-19ec7c4bfe2d": {
+                    "name": "Reputation",
+                    "tags": [
+                        "优势",
+                        "社会"
+                    ],
+                    "modifiers": {
+                        "b869e178-3075-4840-9054-e07995000fca": {
+                            "name": "影响人群",
+                            "notes": "几乎所有人"
+                        },
+                        "574e8876-0d36-4020-ad3e-527b6e209825": {
+                            "name": "影响人群",
+                            "notes": "几乎所有人，刨去@一大群人@"
+                        },
+                        "95cfd852-b613-4a4c-bfbc-052db8fcee45": {
+                            "name": "影响人群",
+                            "notes": "@一大群人@"
+                        },
+                        "adf51330-eadb-4e5c-bb74-8e9f1949eb73": {
+                            "name": "影响人群",
+                            "notes": "Dragons"
+                        },
+                        "9f19bc4b-5ef8-4ef3-ac22-b5525f4c6eb2": {
+                            "name": "总是有人认识"
+                        },
+                        "3adadccf-5167-4a34-b7f1-557686623f34": {
+                            "name": "有时候有人认识",
+                            "notes": "10-"
+                        },
+                        "d0991eaa-736a-4d4e-b324-7f9f32404bf9": {
+                            "name": "偶尔有人认识",
+                            "notes": "7-"
+                        },
+                        "e1ddfdc7-5e0a-453b-901a-01e4d0beac8f": {
+                            "name": "偶尔有人认识",
+                            "notes": "7-"
+                        }
+                    }
+                },
+                "a689f17d-240b-4bf2-8c5c-eca1c1037f2d": {
+                    "name": "社会污名（怪物）",
+                    "tags": [
+                        "劣势",
+                        "社会"
+                    ],
+                    "notes": "-3 reaction; -6 to skills; Denied entry to town on 9 or less",
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "威吓"
+                            }
+                        }
+                    ]
+                },
+                "48d78d7f-7383-48df-a2f0-3c3efd65397b": {
+                    "name": "Teeth, Sharp",
+                    "tags": [
+                        "异种",
+                        "Perk",
+                        "生理"
+                    ],
+                    "weapons": {
+                        "4ceb4e53-887a-4760-bb5b-9ceb7553e3f3": {
+                            "usage": "啃咬",
+                            "defaults": [
+                                {
+                                    "name": "斗殴"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "b1d9f810-4bdc-4e22-976a-bce4342024d9": {
+                    "name": "誓言",
+                    "tags": [
+                        "心理",
+                        "Quirk"
+                    ],
+                    "notes": "Never attack a Dragon"
+                }
+            }
+        }
+    }
+}
