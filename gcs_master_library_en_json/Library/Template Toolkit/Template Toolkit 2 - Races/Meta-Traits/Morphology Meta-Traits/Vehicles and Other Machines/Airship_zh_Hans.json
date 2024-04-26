@@ -1,0 +1,103 @@
+{
+    "traits": {
+        "8ad5a03b-54c9-4d8c-8858-570fe69d4b08": {
+            "name": "Airship",
+            "children": {
+                "ee52c7f2-6416-4dd2-b8ad-36a9ecb237ed": {
+                    "name": "Flight",
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "notes": "Air Move is Basic Speed x 2 (drop all fractions)",
+                    "modifiers": {
+                        "3895c9e3-fa65-41e6-ad8b-ba045783886f": {
+                            "name": "Newtonian Space Flight"
+                        },
+                        "5fccbd47-da0a-4a1a-bc47-efa1a0ad2f18": {
+                            "name": "Space Flight"
+                        },
+                        "6cb3f1d4-d54d-49fe-9907-58db9e07ee74": {
+                            "name": "Cannot Hover"
+                        },
+                        "b5d3c41d-8a86-42c6-9b52-777c21158171": {
+                            "name": "Controlled Gliding"
+                        },
+                        "f1dba3fd-e33b-49b0-8cee-2c0d7d4ff6fd": {
+                            "name": "Gliding"
+                        },
+                        "a946cd5a-093d-47ef-81d7-14fe6601e307": {
+                            "name": "Lighter Than Air"
+                        },
+                        "80843a2a-133e-4f96-80f4-58861b30df3a": {
+                            "name": "Low Ceiling",
+                            "notes": "30'"
+                        },
+                        "c7a8b440-3649-4b9e-a360-6cdd7ae059ff": {
+                            "name": "Low Ceiling",
+                            "notes": "10'"
+                        },
+                        "fcb86781-057d-432c-8e64-49838cf24fec": {
+                            "name": "Low Ceiling",
+                            "notes": "5'"
+                        },
+                        "799059bc-963f-4fb5-b9d7-a70aa852714a": {
+                            "name": "Small Wings"
+                        },
+                        "b9f436e8-ba8d-4c0b-8ec0-fc09899d01a6": {
+                            "name": "Space Flight Only"
+                        },
+                        "7cfdb3cb-98cb-42b2-9fb8-f090b871685c": {
+                            "name": "Winged"
+                        },
+                        "b897800c-12e5-480c-b1c1-391813e1efa6": {
+                            "name": "Planetary"
+                        },
+                        "005bf237-30f9-41d6-abf1-cc23a5d7c9cf": {
+                            "name": "Requires Surface"
+                        },
+                        "16d435f2-00ff-4c2b-aa6f-5a09bb019006": {
+                            "name": "Slow",
+                            "notes": "Basic Speed"
+                        },
+                        "5848d5d5-f702-424f-88d4-2d58097ccd5c": {
+                            "name": "Slow, Move 1"
+                        }
+                    }
+                },
+                "da5fcb11-c0ed-43d7-bbc5-07f0737847a2": {
+                    "name": "No Legs (Aerial)",
+                    "tags": [
+                        "Disadvantage",
+                        "Exotic",
+                        "Physical"
+                    ],
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "flight"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "efbaaa71-a0f3-4337-8217-79ffe94322ca": {
+                    "name": "No Manipulators",
+                    "tags": [
+                        "Disadvantage",
+                        "Physical"
+                    ]
+                },
+                "e91368f2-36d3-459c-bb23-47fae936c52b": {
+                    "name": "Numb",
+                    "tags": [
+                        "Disadvantage",
+                        "Physical"
+                    ]
+                }
+            }
+        }
+    }
+}
