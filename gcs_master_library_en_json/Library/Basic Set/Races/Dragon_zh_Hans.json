@@ -1,7 +1,7 @@
 {
     "traits": {
         "c71a7c2d-a119-4e41-b270-bd722a7806c4": {
-            "name": "龙（基本）",
+            "name": "Dragon (Basic)",
             "children": {
                 "078b4723-6028-4d1d-8259-7e6c6e8b8440": {
                     "name": "属性修正",
@@ -11,7 +11,7 @@
                     "modifiers": {
                         "95c43d1d-e3a0-4dad-a11c-ad0b609a9995": {
                             "name": "ST +15",
-                            "notes": "包括体型 -20%"
+                            "notes": "Includes -20% for SM"
                         },
                         "e96986d5-a438-4795-83cc-6f161dd3266f": {
                             "name": "Per +3"
@@ -30,7 +30,7 @@
                         "劣势",
                         "生理"
                     ],
-                    "notes": "-2/每等级对于需要牢固握力的事情（最大 3 个等级）",
+                    "notes": "-2/level to tasks that require a firm grip (max 3 levels)",
                     "prereqs": {
                         "prereqs": [
                             {
@@ -42,7 +42,7 @@
                     }
                 },
                 "85847da3-de77-4e95-b78e-63727f63c509": {
-                    "name": "爪子，长爪（脚）",
+                    "name": "Claws, Talons (Feet)",
                     "tags": [
                         "优势",
                         "生理"
@@ -53,22 +53,22 @@
                             "defaults": [
                                 {},
                                 {
-                                    "name": "斗殴"
+                                    "name": "Brawling"
                                 },
                                 {
-                                    "name": "空手技击"
+                                    "name": "Karate"
                                 }
                             ]
                         },
                         "5cef5f2e-36ee-47b9-b9cd-b68ac5cfca78": {
-                            "usage": "踢击",
+                            "usage": "Kick",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "斗殴"
+                                    "name": "Brawling"
                                 },
                                 {
-                                    "name": "空手技击"
+                                    "name": "Karate"
                                 }
                             ]
                         }
@@ -83,7 +83,7 @@
                     ],
                     "modifiers": {
                         "9cd15bca-4b3a-44b8-879b-d2ba81643cb5": {
-                            "name": "力场护盾"
+                            "name": "Force Field"
                         },
                         "df8fe698-75eb-48f6-80ec-6bc7dfb22192": {
                             "name": "硬化"
@@ -187,7 +187,7 @@
                     }
                 },
                 "5134dfc8-1c1b-41aa-b6af-2c65db7ba9d2": {
-                    "name": "龙炎",
+                    "name": "Dragon Fire",
                     "tags": [
                         "优势",
                         "异种",
@@ -196,14 +196,14 @@
                     "modifiers": {
                         "b923fbb6-f049-48b8-96cc-ed0db3615797": {
                             "name": "锥形",
-                            "notes": "5 码"
+                            "notes": "5 yards"
                         },
                         "2ef00f97-3121-4c98-855d-ccb55ca30339": {
                             "name": "有限使用次数",
-                            "notes": "3 次/天"
+                            "notes": "3 uses per day"
                         },
                         "e6167101-b691-4244-813e-57a7e82f3f0a": {
-                            "name": "射程降低 5"
+                            "name": "Reduced Range 5"
                         }
                     },
                     "weapons": {
@@ -222,7 +222,7 @@
                     }
                 },
                 "e21a1c76-e7f9-448f-abda-bd607a020dd1": {
-                    "name": "龙尾",
+                    "name": "Dragon Tail",
                     "tags": [
                         "优势",
                         "异种",
@@ -230,24 +230,24 @@
                     ],
                     "weapons": {
                         "b1ea668f-c87b-4602-bd22-ead2fed8aeea": {
-                            "usage": "挥击",
+                            "usage": "Swipe",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "斗殴"
+                                    "name": "Brawling"
                                 }
                             ]
                         }
                     }
                 },
                 "de4c8890-648a-4c8b-8010-d978b8e4445a": {
-                    "name": "增强移动（空中）",
+                    "name": "Enhanced Move (Air)",
                     "tags": [
                         "优势",
                         "异种",
                         "生理"
                     ],
-                    "notes": "空中移动速度变为正常速度的 1 + 等级倍",
+                    "notes": "Multiply normal Air Move by 1 + level",
                     "modifiers": {
                         "fcb75228-bf2a-4a44-b525-6e1548ee6606": {
                             "name": "操纵性加值"
@@ -475,7 +475,7 @@
                     ]
                 },
                 "09c54cd8-291e-487b-a814-31108716754d": {
-                    "name": "牙齿，剑齿",
+                    "name": "Teeth, Fangs",
                     "tags": [
                         "优势",
                         "异种",
@@ -486,7 +486,7 @@
                             "usage": "啃咬",
                             "defaults": [
                                 {
-                                    "name": "斗殴"
+                                    "name": "Brawling"
                                 }
                             ]
                         }
@@ -497,7 +497,7 @@
     },
     "skills": {
         "47404dec-3fbe-492b-9115-2d191190381b": {
-            "name": "斗殴",
+            "name": "Brawling",
             "tags": [
                 "战斗",
                 "近战",
@@ -506,7 +506,7 @@
             "features": [
                 {
                     "name": {
-                        "qualifier": "斗殴"
+                        "qualifier": "Brawling"
                     }
                 }
             ]
