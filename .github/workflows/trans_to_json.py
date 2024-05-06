@@ -161,10 +161,10 @@ def en_to_file(input_file):
         new_json['name']=raw_json['name']
         new_json['locations']={}
         for i in raw_json['locations']:
-            new_json['locations'][i['id']]={}
+            new_json['locations'][i['table_name']]={}
             for locations_info in locations_info_list:
                 if locations_info in i:
-                    new_json['locations'][i['id']][locations_info]=i[locations_info]
+                    new_json['locations'][i['table_name']][locations_info]=i[locations_info]
     elif (type=='gct'):
         new_json={}
         infolist=['traits','skills','spells','equipment','notes']

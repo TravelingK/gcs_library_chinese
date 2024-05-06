@@ -74,7 +74,7 @@ def zh_to_file(mobanwenjian):
         location_list=[]
         for i in mobanjson['locations']:
             for ii in chinesejson['locations']:
-                if (i['id']==ii):
+                if (i['table_name']==ii):
                     location_list.append(mergeDict(i,chinesejson['locations'][ii]))
         mobanjson['locations']=location_list
 
