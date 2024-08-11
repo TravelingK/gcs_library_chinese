@@ -1,683 +1,1120 @@
 {
     "traits": {
-        "6747cc52-86ff-421f-93c9-6ca8363c824d": {
-            "name": "Intervention Service (I-Cop)",
+        "TQoN7_3jJQt_wDwe_": {
             "children": {
-                "904840c3-9960-4f91-b1fc-9a5fe4fa0c53": {
-                    "name": "Attributes",
+                "ThNqyhU-1nixNNqmm": {
                     "children": {
-                        "a18c7e7f-0878-4bc6-a936-44d1dc19a221": {
-                            "name": "增加力量",
+                        "t8dlTFO3nVAMPQdHZ": {
                             "tags": [
-                                "优势",
-                                "属性",
-                                "生理"
+                                "Advantage",
+                                "Attribute",
+                                "Physical"
                             ],
+                            "name": "Increased Strength",
                             "modifiers": {
-                                "c7068e11-13b9-44b4-94d2-b80a30d9dfa2": {
-                                    "name": "无操作肢"
+                                "mMusifYlFbOeF0ESP": {
+                                    "name": "Size"
                                 },
-                                "cd08feb6-9b34-4a3c-b73a-7fa0087a9756": {
-                                    "name": "体型"
+                                "mOd05YcD6PookdcSt": {
+                                    "name": "No Fine Manipulators"
                                 },
-                                "c7329d6d-744b-4048-b6c9-a94f14c4dcb9": {
-                                    "name": "超级出力"
+                                "mAcN1qHnIiUdWwipZ": {
+                                    "name": "Super-Effort"
                                 }
                             }
                         },
-                        "dc92dec5-fc6b-476f-87c3-d2f3a7affd62": {
-                            "name": "增加敏捷",
+                        "t7-NWcrQfrREmXEGZ": {
+                            "name": "Increased Intelligence",
                             "tags": [
-                                "优势",
-                                "属性",
-                                "生理"
+                                "Advantage",
+                                "Attribute",
+                                "Mental"
+                            ]
+                        },
+                        "tef_YvZiDmms3d2v9": {
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Physical"
                             ],
+                            "name": "Increased Health"
+                        },
+                        "trLlid5i7RaNRoupv": {
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Physical"
+                            ],
+                            "name": "Increased Dexterity",
                             "modifiers": {
-                                "622ac0b2-18ce-4ea2-8108-75e82f5628a5": {
-                                    "name": "无操作肢"
+                                "mHH46iD0tLsxANxd0": {
+                                    "name": "No Fine Manipulators"
                                 }
                             }
-                        },
-                        "416250af-cfa0-46a0-b026-ace14ac679f3": {
-                            "name": "增加智力",
-                            "tags": [
-                                "优势",
-                                "属性",
-                                "心理"
-                            ]
-                        },
-                        "5851bf39-4220-4e03-a2d1-c0fcb39113a3": {
-                            "name": "增加体力",
-                            "tags": [
-                                "优势",
-                                "属性",
-                                "生理"
-                            ]
                         }
-                    }
+                    },
+                    "name": "Attributes"
                 },
-                "aa525dfe-47bb-41f5-bacd-16f9ffaa7b1d": {
-                    "name": "Secondary Characteristics",
+                "Thff8b8DmbnxOYOub": {
                     "children": {
-                        "adfd7d7f-b584-4129-8df9-e864f4112a50": {
-                            "name": "增加意志",
+                        "TAeE0JmFqDG1tUhaF": {
+                            "children": {
+                                "ti4Q-aCc7UTWZOlNI": {
+                                    "modifiers": {
+                                        "m7Bi2aVxeIJ0j7I2w": {
+                                            "notes": "Accented",
+                                            "name": "Written"
+                                        },
+                                        "mIJpNdysedR4UAfuM": {
+                                            "notes": "Accented",
+                                            "name": "Spoken"
+                                        },
+                                        "msr46DCuzjV9CAmhT": {
+                                            "name": "Native"
+                                        },
+                                        "mcOasgZoSmgbb-lXd": {
+                                            "notes": "Native",
+                                            "name": "Written"
+                                        },
+                                        "mZHuVl0_BDQJgSAF2": {
+                                            "name": "Spoken",
+                                            "notes": "Native"
+                                        }
+                                    },
+                                    "tags": [
+                                        "Advantage",
+                                        "Language",
+                                        "Mental"
+                                    ],
+                                    "notes": "With Language Talent",
+                                    "name": "Language: @Language@",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Language Talent"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "tnGz7KW8UFBLRrXRH": {
+                                    "modifiers": {
+                                        "mauJ8MKdeP_NzSIJg": {
+                                            "name": "Written",
+                                            "notes": "Accented"
+                                        },
+                                        "mtaNNtbZ9bS2GqxUd": {
+                                            "name": "Written",
+                                            "notes": "Native"
+                                        },
+                                        "mpweBDYpNEYjCBxEe": {
+                                            "name": "Spoken",
+                                            "notes": "Accented"
+                                        },
+                                        "mKdWsflA77Ee1aYgF": {
+                                            "notes": "Native",
+                                            "name": "Spoken"
+                                        },
+                                        "mb7qRVsi-ig11NVER": {
+                                            "name": "Native"
+                                        }
+                                    },
+                                    "name": "Language: @Language@",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Language Talent"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "tags": [
+                                        "Advantage",
+                                        "Language",
+                                        "Mental"
+                                    ],
+                                    "notes": "With Language Talent"
+                                },
+                                "tFB8RG6eVK_6I9EpA": {
+                                    "tags": [
+                                        "Advantage",
+                                        "Language",
+                                        "Mental"
+                                    ],
+                                    "modifiers": {
+                                        "mGScof_egkMxJljel": {
+                                            "notes": "Accented",
+                                            "name": "Written"
+                                        },
+                                        "mXgDTjv9UxcyjqGn2": {
+                                            "name": "Spoken",
+                                            "notes": "Native"
+                                        },
+                                        "mHv9iWo97DvtcZ6uP": {
+                                            "name": "Native"
+                                        },
+                                        "mWrvoy30fJ6hkGpaB": {
+                                            "name": "Written",
+                                            "notes": "Native"
+                                        },
+                                        "mImV-mXw_vkDKyVAS": {
+                                            "name": "Spoken",
+                                            "notes": "Accented"
+                                        }
+                                    },
+                                    "notes": "With Language Talent",
+                                    "prereqs": {
+                                        "prereqs": [
+                                            {
+                                                "name": {
+                                                    "qualifier": "Language Talent"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "name": "Language: @Language@"
+                                }
+                            },
+                            "notes": "One must be English",
+                            "name": "Languages"
+                        },
+                        "tivgja_yWeEgA2Qkq": {
+                            "name": "Patrol Rank",
+                            "modifiers": {
+                                "msqjJ1yE-usJG0Hcq": {
+                                    "name": "Courtesy"
+                                },
+                                "mn86Pfqm20j1gWfVN": {
+                                    "name": "Replaces Status"
+                                }
+                            },
                             "tags": [
-                                "优势",
-                                "属性",
-                                "心理"
+                                "Advantage",
+                                "Physical"
                             ]
                         },
-                        "ad8f9164-0f06-431c-a0ac-0e9200b7a910": {
-                            "name": "额外体力值",
+                        "t80LKFWhKobMNO9_x": {
                             "tags": [
-                                "优势",
-                                "属性",
-                                "生理"
-                            ]
-                        },
-                        "084dcfbe-02bb-4a67-a20b-db43a2275ff6": {
-                            "name": "增加基本速度",
-                            "tags": [
-                                "优势",
-                                "属性",
-                                "生理"
-                            ]
-                        }
-                    }
-                },
-                "a2a07f6c-9c60-4d19-b463-b10ddb08314a": {
-                    "name": "Advantages",
-                    "children": {
-                        "597728f8-1a3f-47bf-a834-093fa61ab896": {
-                            "name": "战斗反射",
-                            "tags": [
-                                "优势",
-                                "心理"
+                                "Advantage",
+                                "Mental"
                             ],
                             "notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
-                            "features": [
-                                {
-                                    "name": {
-                                        "qualifier": "即时备战"
-                                    }
-                                }
-                            ],
+                            "name": "Combat Reflexes",
                             "prereqs": {
                                 "prereqs": [
                                     {
                                         "name": {
-                                            "qualifier": "增强时间感"
+                                            "qualifier": "Enhanced Time Sense"
                                         }
                                     }
                                 ]
-                            }
-                        },
-                        "43be4fc5-4ec9-4486-9e2d-9dd9e2cd7be5": {
-                            "name": "健康",
-                            "tags": [
-                                "优势",
-                                "生理"
-                            ],
-                            "notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)"
-                        },
-                        "357d846a-9d65-4ad4-b56b-8ff5bb947749": {
-                            "name": "语言天赋",
-                            "tags": [
-                                "优势",
-                                "心理"
-                            ]
-                        },
-                        "f3504c42-c373-45e2-b39f-2fb90031ee54": {
-                            "name": "执法权",
-                            "tags": [
-                                "优势",
-                                "社会"
-                            ],
-                            "modifiers": {
-                                "9d0c5440-32e2-4fed-9d59-df552c2f42be": {
-                                    "name": "@Local cop@"
-                                },
-                                "7b482ec2-598e-4a93-89c1-36c3a7baa09e": {
-                                    "name": "@KGB@"
-                                },
-                                "ee852ce5-1e38-47ce-b849-ef317186742c": {
-                                    "name": "Intervention Service"
-                                }
-                            }
-                        },
-                        "4ed89ebd-e684-4d3f-9c44-2bfd3891d0a4": {
-                            "name": "Patrol Rank",
-                            "tags": [
-                                "优势",
-                                "生理"
-                            ],
-                            "modifiers": {
-                                "07de537a-64f0-4a51-80a2-0254b9ff1931": {
-                                    "name": "包含社会地位"
-                                },
-                                "dcb0f7fc-0c07-4b0f-97ad-cac20b4bbbab": {
-                                    "name": "荣誉"
-                                }
-                            }
-                        },
-                        "9f98b586-5590-49e3-a396-8b6cedf768b8": {
-                            "name": "Languages",
-                            "notes": "One must be English",
-                            "children": {
-                                "308f417e-c304-47cd-8ed0-404e32fc342c": {
-                                    "name": "语言：@语言@",
-                                    "tags": [
-                                        "优势",
-                                        "语言",
-                                        "心理"
-                                    ],
-                                    "notes": "有语言天赋",
-                                    "modifiers": {
-                                        "54a7d52e-4fb5-4735-b084-f55d77f8c9a8": {
-                                            "name": "纯正的"
-                                        },
-                                        "6889a62a-1b85-4aad-a232-4c01cab4dd48": {
-                                            "name": "口语",
-                                            "notes": "有口音的"
-                                        },
-                                        "cb7d44f9-8a3f-47bb-af8c-ee59c9f50e22": {
-                                            "name": "口语",
-                                            "notes": "纯正的"
-                                        },
-                                        "747d3712-5f7d-498b-9275-9d1e6e487f5b": {
-                                            "name": "书写",
-                                            "notes": "有口音的"
-                                        },
-                                        "a652df84-8a77-4756-8430-e845b197df33": {
-                                            "name": "书写",
-                                            "notes": "纯正的"
-                                        }
-                                    },
-                                    "prereqs": {
-                                        "prereqs": [
-                                            {
-                                                "name": {
-                                                    "qualifier": "语言天赋"
-                                                }
-                                            }
-                                        ]
-                                    }
-                                },
-                                "84042b97-28b8-44cd-8d88-c55c6b26018a": {
-                                    "name": "语言：@语言@",
-                                    "tags": [
-                                        "优势",
-                                        "语言",
-                                        "心理"
-                                    ],
-                                    "notes": "有语言天赋",
-                                    "modifiers": {
-                                        "d0d2b3da-3ec1-4371-a300-271ce9ab62f5": {
-                                            "name": "纯正的"
-                                        },
-                                        "b7de7727-e56d-4c34-9ac3-a7b5bf1bb70b": {
-                                            "name": "口语",
-                                            "notes": "有口音的"
-                                        },
-                                        "cc41c4a4-b8ff-4be1-9e38-6b220719b2fa": {
-                                            "name": "口语",
-                                            "notes": "纯正的"
-                                        },
-                                        "1a5e08ff-fa0c-4802-a491-88e1c9099f18": {
-                                            "name": "书写",
-                                            "notes": "有口音的"
-                                        },
-                                        "61a7731b-831e-48da-8410-02d90ea0f697": {
-                                            "name": "书写",
-                                            "notes": "纯正的"
-                                        }
-                                    },
-                                    "prereqs": {
-                                        "prereqs": [
-                                            {
-                                                "name": {
-                                                    "qualifier": "语言天赋"
-                                                }
-                                            }
-                                        ]
-                                    }
-                                },
-                                "5ff1130d-8d8c-4a24-9504-3c932088e73f": {
-                                    "name": "语言：@语言@",
-                                    "tags": [
-                                        "优势",
-                                        "语言",
-                                        "心理"
-                                    ],
-                                    "notes": "有语言天赋",
-                                    "modifiers": {
-                                        "de981ed1-80c3-4d9d-b61f-4c2c28ae98ac": {
-                                            "name": "纯正的"
-                                        },
-                                        "9670bc79-c50c-4076-9a8e-a9cc65a40d35": {
-                                            "name": "口语",
-                                            "notes": "有口音的"
-                                        },
-                                        "c17eb103-f45a-40ae-821e-cfd615f728f9": {
-                                            "name": "口语",
-                                            "notes": "纯正的"
-                                        },
-                                        "7ce2d8ce-1bf3-4700-b337-43c77120e524": {
-                                            "name": "书写",
-                                            "notes": "有口音的"
-                                        },
-                                        "93189efd-ddac-4d32-ba98-8756252d8a97": {
-                                            "name": "书写",
-                                            "notes": "纯正的"
-                                        }
-                                    },
-                                    "prereqs": {
-                                        "prereqs": [
-                                            {
-                                                "name": {
-                                                    "qualifier": "语言天赋"
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            }
-                        }
-                    }
-                },
-                "3579b25c-ac9a-4877-8e3f-cdcae4879f89": {
-                    "name": "Disadvantages",
-                    "children": {
-                        "eb8e2017-5c73-4703-8306-ce0be2ff5f33": {
-                            "name": "Code of Honor (Patrol)",
-                            "tags": [
-                                "劣势",
-                                "心理"
-                            ]
-                        },
-                        "e425683f-92c5-4b0d-baad-3f5c78c67965": {
-                            "name": "Duty (Patrol)",
-                            "tags": [
-                                "劣势",
-                                "社会"
-                            ],
-                            "modifiers": {
-                                "cf565f6d-b5a3-4728-99dc-a6c10250ddaa": {
-                                    "name": "FR: 6"
-                                },
-                                "dc88efa2-5c80-4564-8ef8-62f8b1f12f08": {
-                                    "name": "FR: 9"
-                                },
-                                "3a3a8efd-df11-4c6f-a8ac-09a139a61ea1": {
-                                    "name": "FR: 12"
-                                },
-                                "75b052bb-6788-4676-99c1-e11de18212b6": {
-                                    "name": "FR: 15"
-                                },
-                                "ca846910-6d93-42cd-9ee9-4b4834467751": {
-                                    "name": "极度危险"
-                                },
-                                "8b96c24f-030a-460e-a9ac-277b347a0736": {
-                                    "name": "被强迫的"
-                                },
-                                "48f8e3cb-8548-4298-833a-8cdef09cda6f": {
-                                    "name": "不危险的"
-                                }
-                            }
-                        },
-                        "29a09ad8-a2c4-4699-a604-4dd10e4796d2": {
-                            "name": "责任感",
-                            "tags": [
-                                "劣势",
-                                "心理"
-                            ],
-                            "modifiers": {
-                                "3fcf3384-08dc-4610-88c6-df4c7ed49db0": {
-                                    "name": "朋友和伙伴"
-                                },
-                                "cc1e80c7-b462-409b-bd93-0790d6f64ff6": {
-                                    "name": "Patrol"
-                                },
-                                "73ab4809-fcfb-4295-b9f1-316125fbcf75": {
-                                    "name": "@个人@"
-                                },
-                                "2b64c489-7953-4ce9-8d41-db17641e12bd": {
-                                    "name": "@大组织@"
-                                },
-                                "23df3217-1e5f-4ad9-8126-58451473b5ab": {
-                                    "name": "@整个种族@"
-                                },
-                                "4b7c542a-e968-40d7-8a67-8adc5bdfbaaf": {
-                                    "name": "所有活物"
-                                }
-                            }
-                        },
-                        "4da5df70-78c9-415a-a9f2-68f525553070": {
-                            "name": "-30 Points From the following",
-                            "children": {
-                                "049e5f98-953a-4f9e-86c7-e321f4bea1ba": {
-                                    "name": "Addiction (Tobacco)",
-                                    "tags": [
-                                        "劣势",
-                                        "心理",
-                                        "生理"
-                                    ],
-                                    "modifiers": {
-                                        "99e26a65-d426-4849-9897-535ce6afeaf6": {
-                                            "name": "Cost: Cheap"
-                                        },
-                                        "da20778a-d72f-4e55-8c21-34b91a205123": {
-                                            "name": "Cost: Expensive"
-                                        },
-                                        "df129c87-53a8-495c-862a-1dff977897c2": {
-                                            "name": "Cost: Very Expensive"
-                                        },
-                                        "e94525c6-c06f-4dbe-8203-f87dbb46b164": {
-                                            "name": "Effects: Hallucinogenic"
-                                        },
-                                        "20ac88cb-6048-4421-973d-01e609c33e35": {
-                                            "name": "Effects: Highly Addictive (-5 on withdrawal roll)"
-                                        },
-                                        "c34f952d-016f-459d-94df-ad7b5aca4c88": {
-                                            "name": "Effects: Incapacitating"
-                                        },
-                                        "c00a1e2d-584f-46b7-8e81-7b2634f03d9c": {
-                                            "name": "Effects: Totally Addictive (-10 on withdrawal roll)"
-                                        },
-                                        "df6e6a27-71be-4f0c-95dc-752d438ea237": {
-                                            "name": "非法"
-                                        },
-                                        "4618dcad-0a90-4d96-b4f9-be68c6e5bc8e": {
-                                            "name": "合法"
-                                        }
-                                    }
-                                },
-                                "4747648e-9ac7-4cd8-92c1-32c105cce18f": {
-                                    "name": "视力不良（近视）",
-                                    "tags": [
-                                        "劣势",
-                                        "生理"
-                                    ],
-                                    "notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
-                                    "modifiers": {
-                                        "9c974a58-2f9d-469d-b411-fa9ff0a1bcba": {
-                                            "name": "缓解",
-                                            "notes": "眼镜"
-                                        }
-                                    }
-                                },
-                                "a3ef1b5c-8061-4a61-936f-5050e512937e": {
-                                    "name": "视力不良（远视）",
-                                    "tags": [
-                                        "劣势",
-                                        "生理"
-                                    ],
-                                    "notes": "-6 to Vision rolls to spot items within 1 yd; -3 DX to any close manual task, including close combat",
-                                    "modifiers": {
-                                        "9ec7cc51-d206-4187-8ae8-01d5beebcd31": {
-                                            "name": "缓解",
-                                            "notes": "眼镜"
-                                        }
-                                    }
-                                },
-                                "3785f8a5-a9a5-4e0c-b101-08cd7b0c57a3": {
-                                    "name": "坏脾气",
-                                    "tags": [
-                                        "劣势",
-                                        "心理"
-                                    ]
-                                },
-                                "d06ec599-73f7-4a72-8e1c-85b98b15907a": {
-                                    "name": "期待陪伴",
-                                    "tags": [
-                                        "劣势",
-                                        "心理"
-                                    ],
-                                    "notes": "React to others at +2; -1 to IQ-based skills when alone"
-                                },
-                                "e70befd6-1cd7-4cc6-bee8-50cd987564f6": {
-                                    "name": "Fanaticism (The Secret)",
-                                    "tags": [
-                                        "劣势",
-                                        "心理"
-                                    ],
-                                    "modifiers": {
-                                        "ba8150fb-bea5-4d6d-aed6-d3059325f4d9": {
-                                            "name": "极度"
-                                        }
-                                    }
-                                },
-                                "ad77bb9c-56ca-431c-85fb-9cc1599f0f88": {
-                                    "name": "遵纪守法",
-                                    "tags": [
-                                        "劣势",
-                                        "心理"
-                                    ]
-                                },
-                                "7d9d5def-590f-43f3-9273-d16d1c59eb00": {
-                                    "name": "冲动",
-                                    "tags": [
-                                        "劣势",
-                                        "心理"
-                                    ]
-                                },
-                                "f620efaf-fdeb-42ad-b862-08a74182c8bd": {
-                                    "name": "Insomniac (Mild)",
-                                    "tags": [
-                                        "劣势",
-                                        "生理"
-                                    ],
-                                    "notes": "两个失眠周期之间相隔 3d 天，由 GM 秘密投骰"
-                                },
-                                "574a8b88-0018-40e3-9736-e7620b658731": {
-                                    "name": "Insomniac (Severe)",
-                                    "tags": [
-                                        "劣势",
-                                        "生理"
-                                    ],
-                                    "notes": "两个失眠周期之间相隔 2d-1 天，由 GM 秘密投骰"
-                                },
-                                "bcb82929-302d-4e69-acdb-8b15293c7f71": {
-                                    "name": "自负",
-                                    "tags": [
-                                        "劣势",
-                                        "心理"
-                                    ]
-                                },
-                                "8175834e-c0d2-4049-89c6-488867fd5268": {
-                                    "name": "和平主义：不能伤害无辜",
-                                    "tags": [
-                                        "劣势",
-                                        "心理"
-                                    ],
-                                    "modifiers": {
-                                        "08786529-41c9-4682-a2ee-eb9e253ab897": {
-                                            "name": "物种特异性的"
-                                        }
-                                    }
-                                },
-                                "5a5f21f2-1913-48cc-90dc-2ed0da9e622f": {
-                                    "name": "阵后战栗",
-                                    "tags": [
-                                        "劣势",
-                                        "心理"
-                                    ]
-                                },
-                                "e751eb2e-9063-4e2e-935f-a7cdf20e9be0": {
-                                    "name": "顽固",
-                                    "tags": [
-                                        "劣势",
-                                        "心理"
-                                    ]
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "skills": {
-        "e0f1aeb7-14b6-49b3-916a-cae30d7b4741": {
-            "name": "Intervention Service (I-Cop)",
-            "notes": "Add 8 more points to any 1 skill as an \"aptitude skill\"",
-            "children": {
-                "a425176f-8f41-467c-aa6e-ffe0b02e8f23": {
-                    "name": "Background Skills",
-                    "children": {
-                        "0334994f-64b0-4985-bfff-9bf47ff9757b": {
-                            "name": "真空服",
-                            "tags": [
-                                "技术"
-                            ],
-                            "defaults": [
-                                {},
-                                {
-                                    "name": "潜水服"
-                                },
-                                {
-                                    "name": "三防服"
-                                },
-                                {
-                                    "name": "战斗服"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "38df9bb0-e399-448b-98c1-45cb60d040e8": {
-                    "name": "Basic Skills",
-                    "children": {
-                        "0345a68a-8f51-4180-a773-d548509f27c2": {
-                            "name": "电子操作",
-                            "tags": [
-                                "技术"
-                            ],
-                            "notes": "Superscience TL",
-                            "specialization": "超时空",
-                            "defaults": [
-                                {},
-                                {
-                                    "name": "电子维修",
-                                    "specialization": "超时空"
-                                },
-                                {
-                                    "name": "工程学",
-                                    "specialization": "电子"
-                                },
-                                {
-                                    "name": "电子操作"
-                                }
-                            ]
-                        },
-                        "e081efd9-d3d2-4cd3-be63-5d5ef384cd65": {
-                            "name": "急救",
-                            "tags": [
-                                "常识",
-                                "医学"
-                            ],
-                            "defaults": [
-                                {},
-                                {
-                                    "name": "秘传医术"
-                                },
-                                {
-                                    "name": "医师"
-                                },
-                                {
-                                    "name": "兽医学"
-                                }
-                            ]
-                        },
-                        "9ceb5677-5a5d-46ff-8459-a90bb406e486": {
-                            "name": "手枪",
-                            "tags": [
-                                "战斗",
-                                "远程战斗",
-                                "武器"
-                            ],
-                            "specialization": "Pistol",
-                            "defaults": [
-                                {},
-                                {
-                                    "name": "手枪",
-                                    "specialization": "榴弹发射器"
-                                },
-                                {
-                                    "name": "手枪",
-                                    "specialization": "Gyroc"
-                                },
-                                {
-                                    "name": "手枪",
-                                    "specialization": "Light Anti-Armor Weapon"
-                                },
-                                {
-                                    "name": "手枪",
-                                    "specialization": "轻机枪"
-                                },
-                                {
-                                    "name": "手枪",
-                                    "specialization": "Musket"
-                                },
-                                {
-                                    "name": "光束武器",
-                                    "specialization": "Pistol"
-                                },
-                                {
-                                    "name": "手枪",
-                                    "specialization": "来复枪"
-                                },
-                                {
-                                    "name": "手枪",
-                                    "specialization": "霰弹枪"
-                                },
-                                {
-                                    "name": "手枪",
-                                    "specialization": "冲锋枪"
-                                }
-                            ]
-                        },
-                        "9b3ba02b-d358-4838-9d65-925d7e9106d5": {
-                            "name": "历史",
-                            "tags": [
-                                "人文学科",
-                                "社会科学"
-                            ],
-                            "specialization": "@分支@"
-                        },
-                        "5bae3f93-12c4-43d6-8f4c-f8f96bdd7865": {
-                            "name": "Karate",
-                            "tags": [
-                                "战斗",
-                                "近战",
-                                "武器"
-                            ],
+                            },
                             "features": [
                                 {
                                     "name": {
-                                        "qualifier": "Karate"
-                                    }
-                                },
-                                {
-                                    "name": {
-                                        "qualifier": "Karate"
+                                        "qualifier": "fast-draw"
                                     }
                                 }
                             ]
                         },
-                        "fd29328b-c251-47a4-8ab5-9df9925004f8": {
-                            "name": "Shortsword",
+                        "tEHVO2Z9JhzHXK6lP": {
                             "tags": [
-                                "战斗",
-                                "近战",
-                                "武器"
+                                "Advantage",
+                                "Social"
                             ],
+                            "modifiers": {
+                                "mpX-TRZ9AvnRwGktH": {
+                                    "name": "@Local cop@"
+                                },
+                                "mp9T6lRbpqSQoUCdf": {
+                                    "name": "@KGB@"
+                                },
+                                "mQYVC5e_uljBa3VeG": {
+                                    "name": "Intervention Service"
+                                }
+                            },
+                            "name": "Legal Enforcement Powers"
+                        },
+                        "tMp9xnN28pfV2XZeW": {
+                            "tags": [
+                                "Advantage",
+                                "Physical"
+                            ],
+                            "name": "Fit",
+                            "notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)"
+                        },
+                        "tjkXPoZ1saPTorL_y": {
+                            "name": "Language Talent",
+                            "tags": [
+                                "Advantage",
+                                "Mental"
+                            ]
+                        }
+                    },
+                    "name": "Advantages"
+                },
+                "T9kfJ2TKbsg45Ohj2": {
+                    "children": {
+                        "tsGIW4UZyiGLwAqRl": {
+                            "tags": [
+                                "Disadvantage",
+                                "Mental"
+                            ],
+                            "name": "Code of Honor (Patrol)"
+                        },
+                        "Tgdv4D8yLBIlqlzGa": {
+                            "children": {
+                                "tfbmqvVdZ5jvZkuMu": {
+                                    "modifiers": {
+                                        "m5_DhnCKFzMnZlvcT": {
+                                            "name": "Illegal"
+                                        },
+                                        "mKF0EOp4TW5Zw31rY": {
+                                            "name": "Cost: Very Expensive"
+                                        },
+                                        "mORMc60G2aY6ygusn": {
+                                            "name": "Cost: Cheap"
+                                        },
+                                        "mfe3dyoVBl9fWnW0w": {
+                                            "name": "Effects: Incapacitating"
+                                        },
+                                        "mipYk8nKyOUJQhJ9O": {
+                                            "name": "Effects: Hallucinogenic"
+                                        },
+                                        "mfoJLJ7-0NZ7MWlzU": {
+                                            "name": "Effects: Highly Addictive (-5 on withdrawal roll)"
+                                        },
+                                        "mneBovtU5mCKYt-tj": {
+                                            "name": "Cost: Expensive"
+                                        },
+                                        "muAbsto0yXScV8uh0": {
+                                            "name": "Effects: Totally Addictive (-10 on withdrawal roll)"
+                                        },
+                                        "maKebbYLPu7k4BkAk": {
+                                            "name": "Legal"
+                                        }
+                                    },
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental",
+                                        "Physical"
+                                    ],
+                                    "name": "Addiction (Tobacco)"
+                                },
+                                "tcbViA2GOv9L2MEBY": {
+                                    "modifiers": {
+                                        "muzjfd2Al6YlKVS17": {
+                                            "name": "Extreme"
+                                        }
+                                    },
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ],
+                                    "name": "Fanaticism (The Secret)"
+                                },
+                                "t5lv1I6Q2DRwxQgZW": {
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ],
+                                    "name": "Stubbornness"
+                                },
+                                "t5_0B-ZM4rWhV4jWk": {
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ],
+                                    "name": "Honesty"
+                                },
+                                "tdGTQjEZNWRs0RAww": {
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ],
+                                    "name": "Bad Temper"
+                                },
+                                "tdnWWs7B06tWzfeyr": {
+                                    "notes": "React to others at +2; -1 to IQ-based skills when alone",
+                                    "name": "Chummy",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ]
+                                },
+                                "tPkhhFJpAPhf9qMC5": {
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ],
+                                    "name": "Post-Combat Shakes"
+                                },
+                                "tBmRfywi6n4W2BZVE": {
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ],
+                                    "name": "Pacifism: Cannot Harm Innocents",
+                                    "modifiers": {
+                                        "mnLrnViwUtXIw6CHA": {
+                                            "name": "Species-Specific"
+                                        }
+                                    }
+                                },
+                                "tGVs1gU09uzS1huIZ": {
+                                    "notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Physical"
+                                    ],
+                                    "modifiers": {
+                                        "mOLJREcghO9K_vWuW": {
+                                            "name": "Mitigator",
+                                            "notes": "Glasses"
+                                        }
+                                    },
+                                    "name": "Bad Sight (Nearsighted)"
+                                },
+                                "tQLiO0wesJV7_Etbc": {
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ],
+                                    "name": "Overconfidence"
+                                },
+                                "tix0YzNAPNx-WynSc": {
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Physical"
+                                    ],
+                                    "name": "Insomniac (Mild)",
+                                    "notes": "GM secretly rolls 3d for the number of days between episodes"
+                                },
+                                "tWgL-7KWmAMMONCK7": {
+                                    "modifiers": {
+                                        "m_bIz6XWsR2CAjHjj": {
+                                            "notes": "Glasses",
+                                            "name": "Mitigator"
+                                        }
+                                    },
+                                    "notes": "-6 to Vision rolls to spot items within 1 yd; -3 DX to any close manual task, including close combat",
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Physical"
+                                    ],
+                                    "name": "Bad Sight (Farsighted)"
+                                },
+                                "tCCwJqMgDBMWewZvW": {
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Physical"
+                                    ],
+                                    "name": "Insomniac (Severe)",
+                                    "notes": "GM secretly rolls 2d-1 for the number of days between episodes"
+                                },
+                                "tngk-ygJL-tHpxEnC": {
+                                    "tags": [
+                                        "Disadvantage",
+                                        "Mental"
+                                    ],
+                                    "name": "Impulsiveness"
+                                }
+                            },
+                            "name": "-30 Points From the following"
+                        },
+                        "tKna-XTStEz0gqGDG": {
+                            "tags": [
+                                "Disadvantage",
+                                "Mental"
+                            ],
+                            "modifiers": {
+                                "ml_EwuSxMFAUNk8JG": {
+                                    "name": "@Entire Race@"
+                                },
+                                "mkwGSSYfFYlizQ14l": {
+                                    "name": "Every Living Being"
+                                },
+                                "med6-y0LtnOghUpGl": {
+                                    "name": "@Individual@"
+                                },
+                                "mlVTpWNxQdhE8xlj2": {
+                                    "name": "Friends and Companions"
+                                },
+                                "mcqYzd3hOrgW9tzNd": {
+                                    "name": "@Large Group@"
+                                },
+                                "mV7OhcnCccUR2eDJP": {
+                                    "name": "Patrol"
+                                }
+                            },
+                            "name": "Sense of Duty"
+                        },
+                        "tVxPuIXWbyvPcL5NC": {
+                            "modifiers": {
+                                "mB4fNjClCJvIsTBuE": {
+                                    "name": "Extremely Hazardous"
+                                },
+                                "mz8WFLxJk3ddPpLe-": {
+                                    "name": "Nonhazardous"
+                                },
+                                "mx_GOA5luG9qs2364": {
+                                    "name": "FR: 15"
+                                },
+                                "mq2jiJbKWnRCX2VqE": {
+                                    "name": "FR: 6"
+                                },
+                                "mzKGt4pZ42Qqpw4Ox": {
+                                    "name": "Involuntary"
+                                },
+                                "mZVOrUEwIxTcZRSpk": {
+                                    "name": "FR: 9"
+                                },
+                                "msgLw3h-QcYOOmz4_": {
+                                    "name": "FR: 12"
+                                }
+                            },
+                            "name": "Duty (Patrol)",
+                            "tags": [
+                                "Disadvantage",
+                                "Social"
+                            ]
+                        }
+                    },
+                    "name": "Disadvantages"
+                },
+                "T-F4Lt-2MPmbW-RWN": {
+                    "children": {
+                        "tsAo2BwTTsz8a4hbo": {
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Physical"
+                            ],
+                            "name": "Extra Fatigue Points"
+                        },
+                        "t7ACOgZd1GBOwro3N": {
+                            "name": "Increased Basic Speed",
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Physical"
+                            ]
+                        },
+                        "to4XK4qTMfsJEdFOW": {
+                            "tags": [
+                                "Advantage",
+                                "Attribute",
+                                "Mental"
+                            ],
+                            "name": "Increased Will"
+                        }
+                    },
+                    "name": "Secondary Characteristics"
+                }
+            },
+            "name": "Intervention Service (I-Cop)"
+        }
+    },
+    "skills": {
+        "S5cfcbwTEJvaA3PF4": {
+            "children": {
+                "SG5LH4aevNDTIahJi": {
+                    "children": {
+                        "StlLhOuWJsKLkCeZ6": {
+                            "children": {
+                                "sU8ib6tpSaaLKqH2n": {
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "specialization": "Grenade Launcher",
+                                            "name": "Guns"
+                                        },
+                                        {
+                                            "name": "Guns",
+                                            "specialization": "Gyroc"
+                                        },
+                                        {
+                                            "name": "Guns",
+                                            "specialization": "Light Anti-Armor Weapon"
+                                        },
+                                        {
+                                            "name": "Guns",
+                                            "specialization": "Light Machine Gun"
+                                        },
+                                        {
+                                            "specialization": "Musket",
+                                            "name": "Guns"
+                                        },
+                                        {
+                                            "name": "Guns",
+                                            "specialization": "Pistol"
+                                        },
+                                        {
+                                            "specialization": "Rifle",
+                                            "name": "Beam Weapons"
+                                        },
+                                        {
+                                            "specialization": "Shotgun",
+                                            "name": "Guns"
+                                        },
+                                        {
+                                            "name": "Guns",
+                                            "specialization": "Submachine Gun"
+                                        }
+                                    ],
+                                    "tags": [
+                                        "Combat",
+                                        "Ranged Combat",
+                                        "Weapon"
+                                    ],
+                                    "name": "Guns",
+                                    "specialization": "Rifle"
+                                },
+                                "sSHtl6BC6P0Dkg_pg": {
+                                    "tags": [
+                                        "Humanities",
+                                        "Knowledge",
+                                        "Scholarly",
+                                        "Social Sciences"
+                                    ],
+                                    "specialization": "Cliodynamics",
+                                    "name": "Expert Skill"
+                                },
+                                "sY5OrLi_17Cx6B8JP": {
+                                    "name": "Tactics",
+                                    "tags": [
+                                        "Military",
+                                        "Police"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Strategy"
+                                        }
+                                    ]
+                                }
+                            },
+                            "name": "Special Operations"
+                        },
+                        "SLLwjdVVos4XShLaU": {
+                            "children": {
+                                "s8beUO5-C2yUMmPxJ": {
+                                    "name": "Interrogation",
+                                    "tags": [
+                                        "Military",
+                                        "Police",
+                                        "Spy"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Intimidation"
+                                        },
+                                        {
+                                            "name": "Psychology"
+                                        }
+                                    ]
+                                },
+                                "sRkpW2qaiFY6gzeBY": {
+                                    "tags": [
+                                        "Criminal",
+                                        "Police",
+                                        "Social",
+                                        "Street"
+                                    ],
+                                    "name": "Intimidation",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Acting"
+                                        }
+                                    ]
+                                },
+                                "sk9UMVI2sSvMo3U7G": {
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Finance"
+                                        },
+                                        {
+                                            "name": "Mathematics",
+                                            "specialization": "Statistics"
+                                        },
+                                        {
+                                            "name": "Merchant"
+                                        }
+                                    ],
+                                    "name": "Accounting",
+                                    "tags": [
+                                        "Business"
+                                    ]
+                                },
+                                "sJdkvjdre8XHUHhYn": {
+                                    "tags": [
+                                        "Police",
+                                        "Social",
+                                        "Spy"
+                                    ],
+                                    "name": "Detect Lies",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Body Language"
+                                        },
+                                        {
+                                            "name": "Psychology"
+                                        }
+                                    ]
+                                }
+                            },
+                            "name": "Internal Affairs†"
+                        },
+                        "SIniC2KPlxsn0RrPl": {
+                            "children": {
+                                "S0uXnEDvlDJpOulGB": {
+                                    "children": {
+                                        "sZyGBRd83Ko1omLcO": {
+                                            "specialization": "@Vehicle class@",
+                                            "defaults": [
+                                                {},
+                                                {},
+                                                {
+                                                    "specialization": "Heavy Wheeled",
+                                                    "name": "Driving"
+                                                },
+                                                {
+                                                    "name": "Driving"
+                                                }
+                                            ],
+                                            "name": "Driving",
+                                            "tags": [
+                                                "Vehicle"
+                                            ]
+                                        },
+                                        "swO59DCppWcBVUJbL": {
+                                            "defaults": [
+                                                {},
+                                                {
+                                                    "specialization": "@Specialty@",
+                                                    "name": "Animal Handling"
+                                                }
+                                            ],
+                                            "specialization": "@Specialty@",
+                                            "tags": [
+                                                "Animal"
+                                            ],
+                                            "name": "Riding"
+                                        }
+                                    },
+                                    "name": "Choose 1"
+                                },
+                                "sLZpgDK9Bm8HkIqp1": {
+                                    "specialization": "Quantum 5",
+                                    "tags": [
+                                        "Everyman",
+                                        "Knowledge"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "Geography"
+                                        }
+                                    ],
+                                    "name": "Area Knowledge"
+                                }
+                            },
+                            "notes": "Add 4 points to Electronics Operation (Parachronic)",
+                            "name": "Nexus Oversight"
+                        },
+                        "S3M8YiNlvErjjeNai": {
+                            "children": {
+                                "sTQ6Qok5SnvLro9mc": {
+                                    "tags": [
+                                        "Military",
+                                        "Police",
+                                        "Spy"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Strategy"
+                                        }
+                                    ],
+                                    "name": "Intelligence Analysis"
+                                },
+                                "skQV2zIwKX64-H_5z": {
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "specialization": "Surveillance",
+                                            "name": "Electronics Repair"
+                                        },
+                                        {
+                                            "name": "Engineer",
+                                            "specialization": "Electronics"
+                                        },
+                                        {
+                                            "name": "Electronics Operation"
+                                        }
+                                    ],
+                                    "tags": [
+                                        "Police",
+                                        "Spy",
+                                        "Technical"
+                                    ],
+                                    "name": "Electronics Operation",
+                                    "specialization": "Surveillance"
+                                }
+                            },
+                            "name": "Security"
+                        },
+                        "S9gs1zydyfETUZ5mc": {
+                            "children": {
+                                "sW9mAX-NS_DEkBb0l": {
+                                    "name": "Diplomacy",
+                                    "tags": [
+                                        "Business",
+                                        "Police",
+                                        "Social"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Politics"
+                                        }
+                                    ]
+                                },
+                                "snNa5Gtj2838Ih4bK": {
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Games"
+                                        }
+                                    ],
+                                    "specialization": "@Military or Police@",
+                                    "tags": [
+                                        "Knowledge",
+                                        "Social"
+                                    ],
+                                    "name": "Savoir-Faire"
+                                }
+                            },
+                            "name": "Liason†"
+                        },
+                        "SBo2F4BbJU2x9RI7o": {
+                            "children": {
+                                "sTDq9-J-Zryk8gGAU": {
+                                    "tags": [
+                                        "Humanities",
+                                        "Police",
+                                        "Social Sciences"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Psychology"
+                                        }
+                                    ],
+                                    "name": "Criminology"
+                                },
+                                "shwL7delZs21jOQKk": {
+                                    "name": "Law",
+                                    "tags": [
+                                        "Business",
+                                        "Humanities",
+                                        "Police",
+                                        "Social Sciences"
+                                    ],
+                                    "specialization": "Police"
+                                },
+                                "sz5hzOlPFijobk49z": {
+                                    "tags": [
+                                        "Police"
+                                    ],
+                                    "name": "Forensics",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Criminology"
+                                        }
+                                    ]
+                                }
+                            },
+                            "name": "Justice"
+                        },
+                        "S0gZnaj-YZMS5i8lb": {
+                            "children": {
+                                "spk9-7PfGUe3VmFRu": {
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "specialization": "Parachronic",
+                                            "name": "Electronics Operation"
+                                        },
+                                        {
+                                            "name": "Engineer",
+                                            "specialization": "Electronics"
+                                        },
+                                        {
+                                            "name": "Electronics Repair"
+                                        }
+                                    ],
+                                    "specialization": "Parachronic",
+                                    "tags": [
+                                        "Maintenance",
+                                        "Repair"
+                                    ],
+                                    "notes": "Superscience TL",
+                                    "name": "Electronics Repair"
+                                },
+                                "sKzywSIkhP-N9nTJ0": {
+                                    "tags": [
+                                        "Maintenance",
+                                        "Military",
+                                        "Repair"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Engineer",
+                                            "specialization": "Battlesuits"
+                                        }
+                                    ],
+                                    "name": "Armoury",
+                                    "specialization": "@Armor type@"
+                                },
+                                "sQsJhF_Tg98ZzX-hC": {
+                                    "name": "Administration",
+                                    "tags": [
+                                        "Business",
+                                        "Social"
+                                    ],
+                                    "defaults": [
+                                        {
+                                            "name": "Merchant"
+                                        }
+                                    ]
+                                }
+                            },
+                            "name": "Logistics†"
+                        },
+                        "ScJNP5vd5FN05hAbk": {
+                            "children": {
+                                "sFnfFJfXyfglrYN8A": {
+                                    "tags": [
+                                        "Criminal",
+                                        "Spy",
+                                        "Street",
+                                        "Technical"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Electronics Operation",
+                                            "specialization": "Security"
+                                        },
+                                        {
+                                            "specialization": "Electronics",
+                                            "name": "Engineer"
+                                        },
+                                        {
+                                            "name": "Electronics Operation"
+                                        }
+                                    ],
+                                    "specialization": "Security",
+                                    "name": "Electronics Operation"
+                                },
+                                "s4oGEmJ1u1AJwXXbX": {
+                                    "tags": [
+                                        "Police",
+                                        "Spy"
+                                    ],
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Criminology"
+                                        }
+                                    ],
+                                    "name": "Search"
+                                }
+                            },
+                            "name": "Customs and Inspection"
+                        },
+                        "S-7NgHdybyLk33eD3": {
+                            "children": {
+                                "sikGbI1anMq-DDSzw": {
+                                    "tags": [
+                                        "Scholarly",
+                                        "Social"
+                                    ],
+                                    "name": "Teaching"
+                                },
+                                "sUEo0acsoKpsCZtB5": {
+                                    "tags": [
+                                        "Athletic"
+                                    ],
+                                    "specialization": "@Speciality@",
+                                    "name": "Sports"
+                                }
+                            },
+                            "notes": "Additionally assign 7 points to skills representing instructional specialties",
+                            "name": "Academy†"
+                        },
+                        "SZL6icqtgC-vmWnbm": {
+                            "children": {
+                                "syue2tgEUxVDg3mdb": {
+                                    "tags": [
+                                        "Business",
+                                        "Military",
+                                        "Social",
+                                        "Spy"
+                                    ],
+                                    "name": "Propaganda",
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Merchant"
+                                        },
+                                        {
+                                            "name": "Psychology"
+                                        }
+                                    ]
+                                },
+                                "seNpEaJeeXKej3v2R": {
+                                    "defaults": [
+                                        {},
+                                        {
+                                            "name": "Sociology"
+                                        }
+                                    ],
+                                    "tags": [
+                                        "Humanities",
+                                        "Social Sciences"
+                                    ],
+                                    "name": "Psychology"
+                                }
+                            },
+                            "name": "Morale†"
+                        }
+                    },
+                    "name": "Choose 1 Division Skill Package",
+                    "notes": "Packages denoted with † change duty to hazardous and require -5 more points in disadvantages."
+                },
+                "SCTpT0DvzWth9nGdh": {
+                    "children": {
+                        "sT3rKJLrqbLKX0ISb": {
+                            "name": "Stealth",
+                            "tags": [
+                                "Criminal",
+                                "Police",
+                                "Spy",
+                                "Street"
+                            ]
+                        },
+                        "sCRAB0WrvFcmzUGLx": {
+                            "name": "Survival",
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Naturalist"
+                                },
+                                {
+                                    "specialization": "Arctic",
+                                    "name": "Survival"
+                                },
+                                {
+                                    "name": "Survival",
+                                    "specialization": "Desert"
+                                },
+                                {
+                                    "name": "Survival",
+                                    "specialization": "Island/Beach"
+                                },
+                                {
+                                    "specialization": "Jungle",
+                                    "name": "Survival"
+                                },
+                                {
+                                    "name": "Survival",
+                                    "specialization": "Mountain"
+                                },
+                                {
+                                    "specialization": "Swampland",
+                                    "name": "Survival"
+                                },
+                                {
+                                    "name": "Survival",
+                                    "specialization": "Woodlands"
+                                }
+                            ],
+                            "tags": [
+                                "Exploration",
+                                "Outdoor"
+                            ],
+                            "specialization": "Plains"
+                        },
+                        "sz6zOwA2sDxHJIqqp": {
+                            "tags": [
+                                "Military"
+                            ],
+                            "name": "Soldier"
+                        },
+                        "sD4xTFfk-dbUpJKd1": {
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Guns",
+                                    "specialization": "Grenade Launcher"
+                                },
+                                {
+                                    "specialization": "Gyroc",
+                                    "name": "Guns"
+                                },
+                                {
+                                    "specialization": "Light Anti-Armor Weapon",
+                                    "name": "Guns"
+                                },
+                                {
+                                    "name": "Guns",
+                                    "specialization": "Light Machine Gun"
+                                },
+                                {
+                                    "specialization": "Musket",
+                                    "name": "Guns"
+                                },
+                                {
+                                    "name": "Beam Weapons",
+                                    "specialization": "Pistol"
+                                },
+                                {
+                                    "specialization": "Rifle",
+                                    "name": "Guns"
+                                },
+                                {
+                                    "specialization": "Shotgun",
+                                    "name": "Guns"
+                                },
+                                {
+                                    "specialization": "Submachine Gun",
+                                    "name": "Guns"
+                                }
+                            ],
+                            "tags": [
+                                "Combat",
+                                "Ranged Combat",
+                                "Weapon"
+                            ],
+                            "name": "Guns",
+                            "specialization": "Pistol"
+                        },
+                        "s9LIDrWBBjQnhyCtL": {
                             "defaults": [
                                 {
                                     "name": "Broadsword"
                                 },
                                 {
-                                    "name": "能量剑"
+                                    "name": "Force Sword"
                                 },
                                 {
                                     "name": "Jitte/Sai"
@@ -694,549 +1131,112 @@
                                 {
                                     "name": "Tonfa"
                                 }
-                            ]
-                        },
-                        "f5857357-ebe5-49cf-b2b9-47c933fe9508": {
-                            "name": "Soldier",
-                            "tags": [
-                                "军事"
-                            ]
-                        },
-                        "1d0343b1-e2ef-4e67-a6eb-98f092aed437": {
-                            "name": "潜行",
-                            "tags": [
-                                "犯罪",
-                                "警察",
-                                "间谍",
-                                "街头"
-                            ]
-                        },
-                        "2b980a34-9003-4aaf-817c-363436c6d9cb": {
-                            "name": "生存",
-                            "tags": [
-                                "探索",
-                                "户外"
                             ],
-                            "specialization": "平原",
+                            "name": "Shortsword",
+                            "tags": [
+                                "Combat",
+                                "Melee Combat",
+                                "Weapon"
+                            ]
+                        },
+                        "s-l4vTFc9TynpA6X8": {
+                            "tags": [
+                                "Combat",
+                                "Melee Combat",
+                                "Weapon"
+                            ],
+                            "features": [
+                                {
+                                    "name": {
+                                        "qualifier": "Karate"
+                                    }
+                                },
+                                {
+                                    "name": {
+                                        "qualifier": "Karate"
+                                    }
+                                }
+                            ],
+                            "name": "Karate"
+                        },
+                        "su80GDHGioSQ7mVhn": {
+                            "tags": [
+                                "Everyman",
+                                "Medical"
+                            ],
+                            "name": "First Aid",
                             "defaults": [
                                 {},
                                 {
-                                    "name": "博物学"
+                                    "name": "Esoteric Medicine"
                                 },
                                 {
-                                    "name": "生存",
-                                    "specialization": "极地"
+                                    "name": "Physician"
                                 },
                                 {
-                                    "name": "生存",
-                                    "specialization": "沙漠"
-                                },
-                                {
-                                    "name": "生存",
-                                    "specialization": "岛屿/海滩"
-                                },
-                                {
-                                    "name": "生存",
-                                    "specialization": "丛林"
-                                },
-                                {
-                                    "name": "生存",
-                                    "specialization": "山地"
-                                },
-                                {
-                                    "name": "生存",
-                                    "specialization": "沼泽"
-                                },
-                                {
-                                    "name": "生存",
-                                    "specialization": "林地"
+                                    "name": "Veterinary"
                                 }
                             ]
+                        },
+                        "sIgp7xhIGz4HEG-5n": {
+                            "tags": [
+                                "Humanities",
+                                "Social Sciences"
+                            ],
+                            "specialization": "@Specialty@",
+                            "name": "History"
+                        },
+                        "sEDvPjp5Z1xzyk019": {
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Electronics Repair",
+                                    "specialization": "Parachronic"
+                                },
+                                {
+                                    "specialization": "Electronics",
+                                    "name": "Engineer"
+                                },
+                                {
+                                    "name": "Electronics Operation"
+                                }
+                            ],
+                            "tags": [
+                                "Technical"
+                            ],
+                            "name": "Electronics Operation",
+                            "specialization": "Parachronic",
+                            "notes": "Superscience TL"
                         }
-                    }
+                    },
+                    "name": "Basic Skills"
                 },
-                "9f7f3066-1469-4cab-922d-edcbafa83a44": {
-                    "name": "Choose 1 Division Skill Package",
-                    "notes": "Packages denoted with † change duty to hazardous and require -5 more points in disadvantages.",
+                "SRaVW647Lkcz52UY-": {
+                    "name": "Background Skills",
                     "children": {
-                        "1eeb2f54-0952-41d9-8c16-2879091fbfa9": {
-                            "name": "Academy†",
-                            "notes": "Additionally assign 7 points to skills representing instructional specialties",
-                            "children": {
-                                "8a895413-6bd5-4f56-ad4d-aa01c874988e": {
-                                    "name": "运动",
-                                    "tags": [
-                                        "运动"
-                                    ],
-                                    "specialization": "@分支@"
+                        "sfuhar34pHKMX8_v_": {
+                            "tags": [
+                                "Technical"
+                            ],
+                            "defaults": [
+                                {},
+                                {
+                                    "name": "Diving Suit"
                                 },
-                                "e06f0c45-1b63-4f84-bb5c-ab669cccfffc": {
-                                    "name": "教学",
-                                    "tags": [
-                                        "学校",
-                                        "社会"
-                                    ]
+                                {
+                                    "name": "NBC Suit"
+                                },
+                                {
+                                    "name": "Battlesuit"
                                 }
-                            }
-                        },
-                        "35ccc5ea-9589-4b8e-8cf3-9bf02ea27bb9": {
-                            "name": "Customs and Inspection",
-                            "children": {
-                                "6a347903-de97-447c-8fec-66116ca58f9d": {
-                                    "name": "电子操作",
-                                    "tags": [
-                                        "犯罪",
-                                        "间谍",
-                                        "街头",
-                                        "技术"
-                                    ],
-                                    "specialization": "治安防卫",
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "电子操作",
-                                            "specialization": "治安防卫"
-                                        },
-                                        {
-                                            "name": "工程学",
-                                            "specialization": "电子"
-                                        },
-                                        {
-                                            "name": "电子操作"
-                                        }
-                                    ]
-                                },
-                                "bb8a7996-46fc-4bdf-8a09-c60a8d9cdc9f": {
-                                    "name": "搜查",
-                                    "tags": [
-                                        "警察",
-                                        "间谍"
-                                    ],
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "犯罪学"
-                                        }
-                                    ]
-                                }
-                            }
-                        },
-                        "4473b2d5-a45b-461e-a105-d595ee476040": {
-                            "name": "Internal Affairs†",
-                            "children": {
-                                "eec88764-54a1-4c2d-9785-18b64ae574c9": {
-                                    "name": "会计学",
-                                    "tags": [
-                                        "商业"
-                                    ],
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "金融"
-                                        },
-                                        {
-                                            "name": "数学",
-                                            "specialization": "统计学"
-                                        },
-                                        {
-                                            "name": "商人"
-                                        }
-                                    ]
-                                },
-                                "d14b309b-3268-4d93-9290-92c91c081152": {
-                                    "name": "侦测谎言",
-                                    "tags": [
-                                        "警察",
-                                        "社会",
-                                        "间谍"
-                                    ],
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "肢体语言"
-                                        },
-                                        {
-                                            "name": "心理学"
-                                        }
-                                    ]
-                                },
-                                "c154dcd9-6a62-4fc2-9fc0-2f1d72a10a31": {
-                                    "name": "审讯",
-                                    "tags": [
-                                        "军事",
-                                        "警察",
-                                        "间谍"
-                                    ],
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "威吓"
-                                        },
-                                        {
-                                            "name": "心理学"
-                                        }
-                                    ]
-                                },
-                                "cb3d4041-aea4-492b-a6bd-9a4deb9d6593": {
-                                    "name": "威吓",
-                                    "tags": [
-                                        "犯罪",
-                                        "警察",
-                                        "社会",
-                                        "街头"
-                                    ],
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "做戏"
-                                        }
-                                    ]
-                                }
-                            }
-                        },
-                        "e7c340aa-4e45-4271-b1e6-c021642b8efa": {
-                            "name": "Justice",
-                            "children": {
-                                "4e47618c-07da-4bd6-9da3-08c0440ad4c8": {
-                                    "name": "犯罪学",
-                                    "tags": [
-                                        "人文学科",
-                                        "警察",
-                                        "社会科学"
-                                    ],
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "心理学"
-                                        }
-                                    ]
-                                },
-                                "c3ee6c1e-f309-4649-847b-c339889036dc": {
-                                    "name": "伪造文书",
-                                    "tags": [
-                                        "警察"
-                                    ],
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "犯罪学"
-                                        }
-                                    ]
-                                },
-                                "e2004cee-74ac-49f3-84d7-57c7c10e1bc4": {
-                                    "name": "法学",
-                                    "tags": [
-                                        "商业",
-                                        "人文学科",
-                                        "警察",
-                                        "社会科学"
-                                    ],
-                                    "specialization": "警察"
-                                }
-                            }
-                        },
-                        "8c3169bd-5a09-47be-9489-45a1807a48c3": {
-                            "name": "Liason†",
-                            "children": {
-                                "0b0b9268-86e3-4190-8e3f-b3d2a30a970f": {
-                                    "name": "外交",
-                                    "tags": [
-                                        "商业",
-                                        "警察",
-                                        "社会"
-                                    ],
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "政治"
-                                        }
-                                    ]
-                                },
-                                "0227d400-3a31-4de5-9183-a09870f04b7a": {
-                                    "name": "礼仪",
-                                    "tags": [
-                                        "知识",
-                                        "社会"
-                                    ],
-                                    "specialization": "@Military or Police@",
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "游戏"
-                                        }
-                                    ]
-                                }
-                            }
-                        },
-                        "755170e3-413b-4c47-b860-752d6d291d9c": {
-                            "name": "Logistics†",
-                            "children": {
-                                "2039063a-a84e-4484-a418-c8157b16746b": {
-                                    "name": "管理",
-                                    "tags": [
-                                        "商业",
-                                        "社会"
-                                    ],
-                                    "defaults": [
-                                        {
-                                            "name": "商人"
-                                        }
-                                    ]
-                                },
-                                "e51a5c81-a677-4764-9d4b-4ca21af49acf": {
-                                    "name": "军械修造",
-                                    "tags": [
-                                        "维护",
-                                        "军事",
-                                        "修理"
-                                    ],
-                                    "specialization": "@装甲类型@",
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "工程学",
-                                            "specialization": "战斗服"
-                                        }
-                                    ]
-                                },
-                                "a42705d6-8db2-4d47-a3ed-42ce04275af6": {
-                                    "name": "电子维修",
-                                    "tags": [
-                                        "维护",
-                                        "修理"
-                                    ],
-                                    "notes": "Superscience TL",
-                                    "specialization": "超时空",
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "电子操作",
-                                            "specialization": "超时空"
-                                        },
-                                        {
-                                            "name": "工程学",
-                                            "specialization": "电子"
-                                        },
-                                        {
-                                            "name": "电子维修"
-                                        }
-                                    ]
-                                }
-                            }
-                        },
-                        "c018a432-fc0a-40ce-b9b3-9e4f7965399a": {
-                            "name": "Morale†",
-                            "children": {
-                                "f6cd704b-f7ef-46c6-b203-5eafa0239bd3": {
-                                    "name": "宣传",
-                                    "tags": [
-                                        "商业",
-                                        "军事",
-                                        "社会",
-                                        "间谍"
-                                    ],
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "商人"
-                                        },
-                                        {
-                                            "name": "心理学"
-                                        }
-                                    ]
-                                },
-                                "9cef573d-b65e-4f58-8c42-9bb9e51b674e": {
-                                    "name": "心理学",
-                                    "tags": [
-                                        "人文学科",
-                                        "社会科学"
-                                    ],
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "社会学"
-                                        }
-                                    ]
-                                }
-                            }
-                        },
-                        "1d24b580-4428-4c10-b293-b5edcb2f48eb": {
-                            "name": "Nexus Oversight",
-                            "notes": "Add 4 points to Electronics Operation (Parachronic)",
-                            "children": {
-                                "67342a31-9932-4206-9f87-7df68f2cee8c": {
-                                    "name": "地域知识",
-                                    "tags": [
-                                        "常识",
-                                        "知识"
-                                    ],
-                                    "specialization": "Quantum 5",
-                                    "defaults": [
-                                        {
-                                            "name": "地理学"
-                                        }
-                                    ]
-                                },
-                                "876a38b6-691b-4eaf-9352-5c78ed655b9c": {
-                                    "name": "Choose 1",
-                                    "children": {
-                                        "a676c1ce-fc2d-485c-9a64-fdc19d151952": {
-                                            "name": "驾驶",
-                                            "tags": [
-                                                "载具"
-                                            ],
-                                            "specialization": "@载具类型@",
-                                            "defaults": [
-                                                {},
-                                                {},
-                                                {
-                                                    "name": "驾驶",
-                                                    "specialization": "重型汽车"
-                                                },
-                                                {
-                                                    "name": "驾驶"
-                                                }
-                                            ]
-                                        },
-                                        "f32a3d4f-aa2a-4da5-ae47-80f0ff78c301": {
-                                            "name": "骑术",
-                                            "tags": [
-                                                "动物"
-                                            ],
-                                            "specialization": "@分支@",
-                                            "defaults": [
-                                                {},
-                                                {
-                                                    "name": "驯兽",
-                                                    "specialization": "@分支@"
-                                                }
-                                            ]
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        "c693e840-c0c6-44e8-8bd3-67c051bcabc2": {
-                            "name": "治安防卫",
-                            "children": {
-                                "e8b2568f-6e2a-4b2c-ae06-edc5e796a1ec": {
-                                    "name": "电子操作",
-                                    "tags": [
-                                        "警察",
-                                        "间谍",
-                                        "技术"
-                                    ],
-                                    "specialization": "监视",
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "电子维修",
-                                            "specialization": "监视"
-                                        },
-                                        {
-                                            "name": "工程学",
-                                            "specialization": "电子"
-                                        },
-                                        {
-                                            "name": "电子操作"
-                                        }
-                                    ]
-                                },
-                                "4dc92119-91a4-4e3a-a206-584c62d8d05d": {
-                                    "name": "情报分析",
-                                    "tags": [
-                                        "军事",
-                                        "警察",
-                                        "间谍"
-                                    ],
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "战略"
-                                        }
-                                    ]
-                                }
-                            }
-                        },
-                        "38deb987-e3d7-4f31-b485-7f046091911e": {
-                            "name": "Special Operations",
-                            "children": {
-                                "99a059fa-cc16-4e84-8053-04e90d7987c2": {
-                                    "name": "专家技能",
-                                    "tags": [
-                                        "人文学科",
-                                        "知识",
-                                        "学校",
-                                        "社会科学"
-                                    ],
-                                    "specialization": "Cliodynamics"
-                                },
-                                "ee8b54c6-3b00-4cfe-98f5-ca2378eec0c6": {
-                                    "name": "手枪",
-                                    "tags": [
-                                        "战斗",
-                                        "远程战斗",
-                                        "武器"
-                                    ],
-                                    "specialization": "来复枪",
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "手枪",
-                                            "specialization": "榴弹发射器"
-                                        },
-                                        {
-                                            "name": "手枪",
-                                            "specialization": "Gyroc"
-                                        },
-                                        {
-                                            "name": "手枪",
-                                            "specialization": "Light Anti-Armor Weapon"
-                                        },
-                                        {
-                                            "name": "手枪",
-                                            "specialization": "轻机枪"
-                                        },
-                                        {
-                                            "name": "手枪",
-                                            "specialization": "Musket"
-                                        },
-                                        {
-                                            "name": "手枪",
-                                            "specialization": "Pistol"
-                                        },
-                                        {
-                                            "name": "光束武器",
-                                            "specialization": "来复枪"
-                                        },
-                                        {
-                                            "name": "手枪",
-                                            "specialization": "霰弹枪"
-                                        },
-                                        {
-                                            "name": "手枪",
-                                            "specialization": "冲锋枪"
-                                        }
-                                    ]
-                                },
-                                "a2ab0c92-2701-41c7-b47a-8955d8cca15f": {
-                                    "name": "战术",
-                                    "tags": [
-                                        "军事",
-                                        "警察"
-                                    ],
-                                    "defaults": [
-                                        {},
-                                        {
-                                            "name": "战略"
-                                        }
-                                    ]
-                                }
-                            }
+                            ],
+                            "name": "Vacc Suit"
                         }
                     }
                 }
-            }
+            },
+            "name": "Intervention Service (I-Cop)",
+            "notes": "Add 8 more points to any 1 skill as an \"aptitude skill\""
         }
     }
 }
