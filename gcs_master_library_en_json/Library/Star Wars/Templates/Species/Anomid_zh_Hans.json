@@ -1,1 +1,294 @@
-{}
+{
+    "skills": {
+        "siwFS54bQYT_1j4JL": {
+            "specialization": "@Machine Class@",
+            "defaults": [
+                {},
+                {
+                    "specialization": "Aerospace",
+                    "name": "Engineer"
+                },
+                {
+                    "name": "Machinist"
+                },
+                {
+                    "name": "Mechanic"
+                }
+            ],
+            "tags": [
+                "Maintainance",
+                "Repair"
+            ],
+            "name": "Mechanic"
+        },
+        "s-jBlDnLviMINotAg": {
+            "tags": [
+                "Design",
+                "Engineer",
+                "Invention"
+            ],
+            "specialization": "@Machine Class@",
+            "prereqs": {
+                "prereqs": [
+                    {
+                        "name": {
+                            "qualifier": "mathematics"
+                        },
+                        "specialization": {
+                            "qualifier": "applied"
+                        }
+                    }
+                ]
+            },
+            "name": "Engineer",
+            "defaults": [
+                {
+                    "name": "Armoury",
+                    "specialization": "Heavy Weapons"
+                }
+            ]
+        }
+    },
+    "traits": {
+        "TgsQLhKVxX-ioELpt": {
+            "children": {
+                "t8QJmVGI8SvoyVwyi": {
+                    "name": "Pacifism: Self-Defense Only",
+                    "tags": [
+                        "Disadvantage",
+                        "Mental"
+                    ],
+                    "modifiers": {
+                        "m2o6QtOuAxjZaW08k": {
+                            "name": "Species-Specific"
+                        }
+                    },
+                    "notes": "You only fight to defend yourself or those in your care, using only as much force as necessary (no pre-emptive strikes allowed!). You must do your best to discourage others from starting fights."
+                },
+                "tapSCu-bJjz1UNZ2F": {
+                    "tags": [
+                        "Advantage",
+                        "Mental"
+                    ],
+                    "modifiers": {
+                        "mG_-iYzs0QQBpozEa": {
+                            "name": "Native"
+                        },
+                        "mBvR8o8Uo3M_JrMQ4": {
+                            "name": "Alien"
+                        }
+                    },
+                    "notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+                    "name": "Cultural Familiarity (Anomid)"
+                },
+                "t0QaHvq3P-jvoKKIU": {
+                    "prereqs": {
+                        "prereqs": [
+                            {
+                                "name": {
+                                    "qualifier": "Language Talent"
+                                }
+                            }
+                        ]
+                    },
+                    "modifiers": {
+                        "m8DALRpS5_AhyDLkd": {
+                            "notes": "Native",
+                            "name": "Signed"
+                        },
+                        "mLmBT3aQg1T9c0Pfl": {
+                            "notes": "Accented",
+                            "name": "Signed"
+                        },
+                        "mqU23sH66hx1GnAF1": {
+                            "notes": "Broken",
+                            "name": "Signed"
+                        },
+                        "mXfOY5C12AaCB-Yd3": {
+                            "name": "Native"
+                        }
+                    },
+                    "name": "Sign Language: Anomid",
+                    "tags": [
+                        "Advantage",
+                        "Language",
+                        "Mental",
+                        "Physical"
+                    ]
+                },
+                "tQSBm_x3w0qTe737X": {
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Mental",
+                        "Talent"
+                    ],
+                    "name": "Racial Skill Bonus - Mechanic (@Machine Class@)",
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "Mechanic"
+                            },
+                            "specialization": {
+                                "qualifier": "@Machine Class@"
+                            }
+                        }
+                    ]
+                },
+                "t7kKEg0EUNPnwXIeF": {
+                    "tags": [
+                        "Attribute",
+                        "Disadvantage",
+                        "Physical"
+                    ],
+                    "name": "Fewer Hit Points"
+                },
+                "tdM2T3zPkDC__UTuG": {
+                    "name": "Decreased Strength",
+                    "tags": [
+                        "Attribute",
+                        "Disadvantage",
+                        "Physical"
+                    ]
+                },
+                "tKeoP9cgx2pU1BOec": {
+                    "name": "Increased Intelligence",
+                    "tags": [
+                        "Advantage",
+                        "Attribute",
+                        "Mental"
+                    ]
+                },
+                "tJUW_Xkt8dCB5o_jA": {
+                    "tags": [
+                        "Advantage",
+                        "Exotic",
+                        "Mental",
+                        "Talent"
+                    ],
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "Engineer"
+                            },
+                            "specialization": {
+                                "qualifier": "@Machine Class@"
+                            }
+                        }
+                    ],
+                    "name": "Racial Skill Bonus - Engineer (@Machine Class@)"
+                },
+                "tpAH9_1q22fzHYGp_": {
+                    "features": [
+                        {
+                            "name": {
+                                "qualifier": "fortune-telling"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "leadership"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "panhandling"
+                            }
+                        },
+                        {
+                            "name": {
+                                "qualifier": "public speaking"
+                            }
+                        },
+                        {
+                            "situation": "from sapient being with whom you actively interact (converse, lecture, etc.)"
+                        },
+                        {
+                            "situation": "to Influence rolls"
+                        }
+                    ],
+                    "name": "Charisma",
+                    "tags": [
+                        "Advantage",
+                        "Mental"
+                    ]
+                },
+                "ttcflqzGxudc7aEk-": {
+                    "name": "Xenophilia",
+                    "tags": [
+                        "Disadvantage",
+                        "Mental"
+                    ]
+                },
+                "tJUeSJQJESdOMFIuD": {
+                    "name": "Language: Galactic Basic",
+                    "tags": [
+                        "Advantage",
+                        "Language",
+                        "Mental"
+                    ],
+                    "modifiers": {
+                        "mS3GDbMpb-L-CApdo": {
+                            "notes": "Accented",
+                            "name": "Spoken"
+                        },
+                        "mx4fkqQI033kP4qeb": {
+                            "notes": "None",
+                            "name": "Spoken"
+                        },
+                        "mf4Gva18_s4DhHy3P": {
+                            "notes": "Native",
+                            "name": "Written"
+                        },
+                        "mJY6pBS8bYaCdfGVb": {
+                            "name": "Written",
+                            "notes": "Broken"
+                        },
+                        "mjXrbT4C4r6ZzRrV3": {
+                            "name": "Written",
+                            "notes": "None"
+                        },
+                        "mPdtLeyPpQDbnCymM": {
+                            "name": "Native"
+                        },
+                        "m6ClG_sXq1QagDq9i": {
+                            "notes": "Accented",
+                            "name": "Written"
+                        },
+                        "m-unovfw3dE9rthIx": {
+                            "name": "Spoken",
+                            "notes": "Native"
+                        },
+                        "mz39gE0LmIT_nq1an": {
+                            "name": "Spoken",
+                            "notes": "Broken"
+                        }
+                    }
+                },
+                "tcxceQk-IhRjEPq0K": {
+                    "tags": [
+                        "Advantage",
+                        "Social",
+                        "Wealth"
+                    ],
+                    "name": "Wealthy",
+                    "notes": "Starting wealth is 5x normal"
+                },
+                "tQNsN97RfBfM3UFCu": {
+                    "modifiers": {
+                        "mB-NA0ccIJQd5JgOg": {
+                            "name": "Mitigator (vocalizer mask)",
+                            "notes": "vulnerable"
+                        }
+                    },
+                    "name": "Cannot Speak (Mute)",
+                    "tags": [
+                        "Disadvantage",
+                        "Physical"
+                    ]
+                }
+            },
+            "name": "Anomid"
+        }
+    }
+}
