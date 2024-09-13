@@ -22,7 +22,7 @@ def outjson(nnskillline,docname):
     if not os.path.exists(path):
         os.makedirs(path)
     with open(docname,mode='+w') as skill:
-        skillline=json.dumps(nnskillline)
+        skillline=json.dumps(nnskillline，ensure_ascii=False)
         skill.write(skillline)
 
 
