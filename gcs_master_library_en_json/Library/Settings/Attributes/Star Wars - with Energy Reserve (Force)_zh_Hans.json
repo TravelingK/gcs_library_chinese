@@ -1,110 +1,110 @@
 {
     "st": {
-        "name": "",
-        "full_name": ""
+        "name": "ST",
+        "full_name": "力量"
     },
     "dx": {
-        "name": "",
-        "full_name": ""
+        "name": "DX",
+        "full_name": "敏捷"
     },
     "iq": {
-        "name": "",
-        "full_name": ""
+        "name": "IQ",
+        "full_name": "智力"
     },
     "ht": {
-        "name": "",
-        "full_name": ""
+        "name": "HT",
+        "full_name": "体质"
     },
     "will": {
-        "name": ""
+        "name": "意志"
     },
     "fright_check": {
-        "name": ""
+        "name": "恐惧检定"
     },
     "per": {
-        "name": "",
-        "full_name": ""
+        "name": "Per",
+        "full_name": "感知"
     },
     "vision": {
-        "name": ""
+        "name": "视觉"
     },
     "hearing": {
-        "name": ""
+        "name": "听觉"
     },
     "taste_smell": {
-        "name": ""
+        "name": "味觉/嗅觉"
     },
     "touch": {
-        "name": ""
+        "name": "触觉"
     },
     "forcesight": {
         "name": ""
     },
     "basic_speed": {
-        "name": ""
+        "name": "基本速度"
     },
     "basic_move": {
-        "name": ""
+        "name": "基本移动力"
     },
     "fp": {
-        "name": "",
-        "full_name": "",
+        "name": "FP",
+        "full_name": "体力值",
         "thresholds": [
             {
-                "state": ""
+                "state": "失去意识"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "崩溃",
+                "explanation": "做任何事情，包括谈话与休息，都需要进行意志检定；失败则陷入昏迷\n体力不高于 0 时，在每失去 1 点体力值的同时，你都会失去 1 点生命值\n移动、闪避和ST减半（B426）"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "疲劳",
+                "explanation": "移动、闪避和ST减半（B426）"
             },
             {
-                "state": ""
+                "state": "疲劳"
             },
             {
-                "state": ""
+                "state": "平静"
             }
         ]
     },
     "hp": {
-        "name": "",
-        "full_name": "",
+        "name": "HP",
+        "full_name": "生命值",
         "thresholds": [
             {
-                "state": ""
+                "state": "死亡"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "濒死 #4",
+                "explanation": "为了避免死亡，你必须进行体质检定\n每秒进行一次 -4 减值的体质检定来避免失去意识\n移动与闪避减半（B419）"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "濒死 #3",
+                "explanation": "为了避免死亡，你必须进行体质检定\n每秒进行一次 -3 减值的体质检定来避免失去意识\n移动与闪避减半（B419）"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "濒死 #2",
+                "explanation": "为了避免死亡，你必须进行体质检定\n每秒进行一次 -2 减值的体质检定来避免失去意识\n移动与闪避减半（B419）"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "濒死 #1",
+                "explanation": "为了避免死亡，你必须进行体质检定\n每秒进行一次 -1 减值的体质检定来避免失去意识\n移动与闪避减半（B419）"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "崩溃",
+                "explanation": "每秒进行一次体质检定来避免失去意识\n移动与闪避减半（B419）"
             },
             {
-                "state": "",
-                "explanation": ""
+                "state": "头晕",
+                "explanation": "移动与闪避减半（B419）"
             },
             {
-                "state": ""
+                "state": "受伤"
             },
             {
-                "state": ""
+                "state": "健康"
             }
         ]
     },
