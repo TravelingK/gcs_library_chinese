@@ -1,69 +1,69 @@
 {
-    "name": "",
+    "name": "类人生物",
     "locations": {
         "Eyes": {
-            "choice_name": "",
-            "table_name": "",
-            "description": ""
+            "choice_name": "眼",
+            "table_name": "眼",
+            "description": "失败值仅为 1 的攻击视为击中躯干。只有穿刺（ip）、\n贯通（pi-、pi、pi+、pi++）、细光束灼烧（burn）攻击\n可以攻击眼睛，而且必须从前方或侧面攻击。\n超过 HP/10 的伤害会导致失明。\n此外方向或类型的攻击视为对头颅造成的伤害，且没有额外 DR！"
         },
         "Skull": {
-            "choice_name": "",
-            "table_name": "",
-            "description": ""
+            "choice_name": "头颅",
+            "table_name": "头颅",
+            "description": "失败值仅为 1 的攻击视为击中躯干。所有伤害乘数\n改为 ×4，抵抗击倒的 HT 检定 -10，攻击大成功\n从头部致命攻击表查找结果（B556）。\n例外：此段特效对毒（tox）伤害不适用。"
         },
         "Face": {
-            "choice_name": "",
-            "table_name": "",
-            "description": ""
+            "choice_name": "脸部",
+            "table_name": "脸部",
+            "description": "失败值仅为 1 的攻击视为击中躯干。\n颌、颊、鼻、耳，等等。忽略开放式头盔的 DR。\n抵抗击倒的HT检定 -5，攻击大成功\n从头部致命攻击表查找结果（B556）。\n腐蚀（cor）伤害乘数改为 ×1.5，\n单次造成重伤还会致盲一只眼睛\n（超过最大 HP 两只眼睛都会受伤）。\n从后方攻击视为对颅部造成的伤害。"
         },
         "Right Leg": {
-            "choice_name": "",
-            "table_name": "",
-            "description": ""
+            "choice_name": "腿",
+            "table_name": "右腿",
+            "description": "大型贯通（pi+）、巨型贯通（pi++）、\n穿刺（imp）伤害乘数改为 1，\n任何重伤（单次失去超过 1/2HP）将致残肢体，\n但超过一半 HP 的伤害值将丢失。"
         },
         "Right Arm": {
-            "choice_name": "",
-            "table_name": "",
-            "description": ""
+            "choice_name": "手臂",
+            "table_name": "右臂",
+            "description": "大型贯通（pi+）、巨型贯通（pi++）、\n穿刺（imp）伤害乘数改为 1，\n任何重伤（单次失去超过 1/2HP）将致残肢体，\n但超过一半 HP 的伤害值将丢失。\n该手持盾时惩罚加倍：持盾臂 -4，持盾手 -8。"
         },
         "Torso": {
-            "choice_name": "",
-            "table_name": ""
+            "choice_name": "躯干",
+            "table_name": "躯干"
         },
         "Groin": {
-            "choice_name": "",
-            "table_name": "",
-            "description": ""
+            "choice_name": "胯下",
+            "table_name": "胯下",
+            "description": "失败值仅为 1 的攻击视为击中躯干。\n对男性类人生物此部位的钝击攻击\n造成双倍休克，抵抗击倒的 HT 检定 -5。\n其他情况视为击中躯干。"
         },
         "Left Arm": {
-            "choice_name": "",
-            "table_name": "",
-            "description": ""
+            "choice_name": "手臂",
+            "table_name": "左臂",
+            "description": "大型贯通（pi+）、巨型贯通（pi++）、\n穿刺（imp）伤害乘数改为 1，\n任何重伤（单次失去超过 1/2HP）将致残肢体，\n但超过一半 HP 的伤害值将丢失。\n该手持盾时惩罚加倍：持盾臂 -4，持盾手 -8。"
         },
         "Left Leg": {
-            "choice_name": "",
-            "table_name": "",
-            "description": ""
+            "choice_name": "腿",
+            "table_name": "左腿",
+            "description": "大型贯通（pi+）、巨型贯通（pi++）、\n穿刺（imp）伤害乘数改为 1，\n任何重伤（单次失去超过 1/2HP）将致残肢体，\n但超过一半 HP 的伤害值将丢失。"
         },
         "Hand": {
-            "choice_name": "",
-            "table_name": "",
-            "description": ""
+            "choice_name": "手",
+            "table_name": "手",
+            "description": "该手持盾时惩罚加倍：持盾臂 -4，持盾手 -8。\n大型贯通（pi+）、巨型贯通（pi++）、\n穿刺（imp）伤害乘数改为 1，\n任何重伤（单次失去超过 1/3HP）\n将致残肢体，\n但超过 1/3 HP 的伤害值将丢失。"
         },
         "Foot": {
-            "choice_name": "",
-            "table_name": "",
-            "description": ""
+            "choice_name": "脚",
+            "table_name": "脚",
+            "description": "大型贯通（pi+）、巨型贯通（pi++）、\n穿刺（imp）伤害乘数改为 1，\n任何重伤（单次失去超过 1/3HP）\n将致残肢体，但超过 1/3 HP 的伤害值将丢失。"
         },
         "Neck": {
-            "choice_name": "",
-            "table_name": "",
-            "description": ""
+            "choice_name": "脖子",
+            "table_name": "脖子",
+            "description": "失败值仅为 1 的攻击视为击中躯干。\n颈、喉。钝击和腐蚀（cor）伤害的\n伤害乘数改为 ×1.5，\n切割伤害乘数改为 ×2。\nGM 可以认为被切割伤害击中脖子杀死的人死于斩首！"
         },
         "Vitals": {
-            "choice_name": "",
-            "table_name": "",
-            "description": ""
+            "choice_name": "要害",
+            "table_name": "要害",
+            "description": "失败值仅为 1 的攻击视为击中躯干。\n心、肺、肾等。穿刺（imp）\n和贯通（pi-、pi、pi+、pi++）\n伤害乘数改为 ×3，\n细光束灼烧（burn）伤害乘数改为 ×2。\n其他伤害类型无法选择攻击此部位。"
         }
     }
 }
