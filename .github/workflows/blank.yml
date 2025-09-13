@@ -1,36 +1,54 @@
-
 name: Trantojson
 
 on: 
-  workflow_dispatch:
-
+  workflow_dispatch:   # 手动触发
+  schedule:            # 定时触发
+    - cron: "0 20 * * 4"   
 
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
-        matrix:
-          python-version: ["3.11"] 
+      matrix:
+        python-version: ["3.11"] 
 
     steps:
-      - uses: actions/checkout@v3
+      # 1. 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: trantojson
+      # 2. 设置 Python 环境（带 pip 缓存）
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"
+
+      # 3. 克隆依赖仓库
+      - name: Clone GCS repositories
         run: |
-          git clone https://github.com/richardwilkes/gcs_master_library.git
-          git clone https://github.com/richardwilkes/gcs.git
+          git clone --depth=1 https://github.com/richardwilkes/gcs_master_library.git
+          git clone --depth=1 https://github.com/richardwilkes/gcs.git
           cp gcs/model/gurps/embedded_data/Standard.attr gcs_master_library/Library/Settings/Attributes/
-          find ./gcs_master_library/Library|egrep  ".(skl|adq|adm|eqm|eqp|attr|not|calendar|spl|gct|body)$" >> list.txt
-          while read line
-          do
-          echo $line
-          python3 ./.github/workflows/trans_to_json.py "$line"
-          done <list.txt
-                    
-      - name: Add & Commit
-        uses: EndBug/add-and-commit@v9.1.4
+
+      # 4. 生成文件列表
+      - name: Generate file list
+        run: |
+          find ./gcs_master_library/Library \
+            | grep -E "\.(skl|adq|adm|eqm|eqp|attr|not|calendar|spl|gct|body)$" > list.txt
+          cat list.txt
+
+      # 5. 执行 Python 转换脚本
+      - name: Run trans_to_json
+        run: |
+          while read line; do
+            echo "Processing: $line"
+            python3 ./.github/workflows/trans_to_json.py "$line"
+          done < list.txt
+
+      # 6. 提交转换结果
+      - name: Add & Commit changes
+        uses: EndBug/add-and-commit@v9
         with:
           add: "gcs_master_library_en_json"
-
-
-        
+          message: "chore: update translated JSON files [auto-generated]"
