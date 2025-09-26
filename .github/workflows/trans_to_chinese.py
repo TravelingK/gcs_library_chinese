@@ -1,19 +1,23 @@
 #coding:utf-8
 import json
 import os
-import string
 
 import re
 import sys
 
 def getdict(docname):
     """
-    1输入文件，读取json，输出dict
+    输入文件，读取json，输出dict
     """
-    with open(docname) as skill:
-        skillline=skill.read()
-        skilljson=json.loads(skillline)
-        return(skilljson)
+    if not os.path.exists(docname):
+        print(f"Warning: {docname} 不存在，跳过该文件。")
+        return {}
+    with open(docname, encoding="utf-8") as skill:
+        skillline = skill.read()
+        skilljson = json.loads(skillline)
+        return skilljson
+
+
 def outjson(nnskillline,docname):
     """
     将dict写入指定的文件
